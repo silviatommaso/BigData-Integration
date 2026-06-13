@@ -3,11 +3,10 @@ date_added lo toglierei, tanto sono date di aggiunta del film sulla piattaforma 
 
 RICERCA DUPLICATI
 
-17 gruppi duplicati per titolo (gestiti manualmente)
-Duplicati perché uno è in Indi, l'altro in tamil o non so che (poi vediamo in base agli altri dataset)
-Duplicati perché in ultra hd 4k (merged)
-Duplicati perchè in bianco e nero l'uno, a colori l'altro (poi vediamo in base agli altri dataset)
-
+roger_ebert -> duplicati con solo differenze di indice
+imdb -> idem (movie 5)
+imdb -> righe inconsistenti duplicate eliminate (13) (movie 1)
+rotten_tomatoes -> duplicati con solo differenze di indice
 
 OSSERVAZIONI
 Su prime la durata non fa sempre riferimento a una 
