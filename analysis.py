@@ -10,9 +10,9 @@ df = pd.read_csv("tmdb.csv", sep=';', low_memory=False)
 # print(df_masked)
 # print(df_masked.loc[df_masked["director"].isna(), "listed_in"].unique())
 
-print("NULL VALUES:")
-print(df.info())
-print(df.isnull().sum())
+# print("NULL VALUES:")
+# print(df.info())
+# print(df.isnull().sum())
 
 
 # msno.matrix(df[["director", "cast", "country"]].sort_values(by="director"))
