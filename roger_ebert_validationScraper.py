@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 import time
 import pandas as pd
 import os
+import re
 
 
 base_url = "https://www.rogerebert.com/reviews/"
@@ -20,12 +21,28 @@ missing = missing.dropna(subset=["movie_name", "year"]).copy()
 # SLUG
 # ----------------------------
 def build_slug(title, year=None):
-    title = str(title).lower().strip().replace(" ", "-")
+    title = str(title).lower().strip()
+
+    # rimuove apostrofi
+    title = title.replace("'", "")
+
+    # rimuove i punti completamente (U.S. -> us)
+    title = title.replace(".", "")
+
+    # sostituisce qualsiasi altro carattere non alfanumerico con "-"
+    title = re.sub(r"[^a-z0-9]+", "-", title)
+
+    # elimina trattini multipli
+    title = re.sub(r"-+", "-", title)
+
+    # elimina trattini iniziali/finali
+    title = title.strip("-")
 
     if year is None or pd.isna(year):
         return title
 
     return f"{title}-{int(year)}"
+
 
 missing["slug_with_year"] = missing.apply(
     lambda r: build_slug(r["movie_name"], r["year"]),
@@ -33,7 +50,7 @@ missing["slug_with_year"] = missing.apply(
 )
 
 missing["slug_title_only"] = missing["movie_name"].apply(
-    lambda t: str(t).lower().strip().replace(" ", "-")
+    lambda t: build_slug(t)
 )
 
 # ----------------------------
