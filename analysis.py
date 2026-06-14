@@ -2,31 +2,32 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import missingno as msno
 
-df_imdb = pd.read_csv("movies3/csv_files/rotten_tomatoes.csv", low_memory=False)
-df_rottentomatoes = pd.read_csv("rotten_tomatoes.csv", low_memory=False)
-df_rogerebert = pd.read_csv("roger_ebert.csv", low_memory=False)
+df_imdb_movie3 = pd.read_csv("dataset_cleaned/movies3/imdb_cleaned.csv", low_memory=False)
+df_imdb_movie5 = pd.read_csv("dataset_cleaned/movies5/imdb_cleaned.csv", low_memory=False)
+df_rottentomatoes = pd.read_csv("dataset_cleaned/movies3/rotten_tomatoes_cleaned.csv", low_memory=False)
+df_rogerebert = pd.read_csv("dataset_cleaned/movies5/roger_ebert_cleaned.csv", low_memory=False)
 
 #########################
 ##### DATA ANALYSIS #####
 #########################
 
-# print("IMDB DATASET ANALYSIS\n")
-# print("\n")
+print("IMDB MOVIES 3 DATASET ANALYSIS\n")
+print("\n")
 
-# print("\n")
+print("\n")
 
-# print("NULL VALUES:\n")
-# print(df_imdb.info())
-# print("\n")
-# null_values_imdb = df_imdb.isnull().sum()
-# print(null_values_imdb)
+print("NULL VALUES:\n")
+print(df_imdb_movie3.info())
+print("\n")
+null_values_imdb = df_imdb_movie3.isnull().sum()
+print(null_values_imdb)
 
-# print("\n")
+print("\n")
 
-# print("NULL STATISTICS:\n ")
-# null_imdb_values = df_imdb[["Creator", "Cast", "Duration", "RatingValue", "Genre", "Description"]].isnull().sum()
-# percentage_null_imdb_values = null_imdb_values/len(df_imdb[["Creator", "Cast", "Duration", "RatingValue", "Genre", "Description"]])
-# print(percentage_null_imdb_values)
+print("NULL STATISTICS:\n ")
+null_imdb_values = df_imdb_movie3[["Year", "Creators", "Cast", "Genre", "Duration", "ContentRating", "Summary"]].isnull().sum()
+percentage_null_imdb_values = null_imdb_values/len(df_imdb_movie3[["Year", "Creators", "Cast", "Genre", "Duration", "ContentRating", "Summary"]])
+print(percentage_null_imdb_values)
 
 ################################################################################################################################################
 
@@ -36,7 +37,7 @@ print("\n")
 
 ################################################################################################################################################
 
-print("ROTTEN TOMATOES DATASET ANALYSIS\n")
+print("ROTTEN TOMATOES MOVIES 3 DATASET ANALYSIS\n")
 print("\n")
 
 print("\n")
@@ -50,11 +51,11 @@ print(null_values_rottentomatoes)
 print("\n")
 
 print("NULL STATISTICS:\n ")
-null_rottentomatoes_values = df_rottentomatoes[["Release Date", "Creator", "Actors", "Cast", "Duration", "RatingValue", "RatingCount", "ReviewCount", "Genre", "Filming Locations"]].isnull().sum()
-percentage_null_rottentomatoes_values = null_rottentomatoes_values/len(df_rottentomatoes[["Release Date", "Creator", "Actors", "Cast", "Duration", "RatingValue", "RatingCount", "ReviewCount", "Genre", "Filming Locations"]])
+null_rottentomatoes_values = df_rottentomatoes[["Year", "Rating", "Director", "Creators", "Cast", "Genre", "Duration", "Summary"]].isnull().sum()
+percentage_null_rottentomatoes_values = null_rottentomatoes_values/len(df_rottentomatoes[["Year", "Rating", "Director", "Creators", "Cast", "Genre", "Duration", "Summary"]])
 print(percentage_null_rottentomatoes_values)
 
-# msno.matrix(df_rottentomatoes[["Release Date", "Creator", "Country"]].sort_values(by="Release Date"))
+# msno.matrix(df_rottentomatoes[["Year", "Rating", "Director", "Creators", "Cast", "Genre", "Duration", "Summary"]].sort_values(by="Year"))
 # plt.show()
 
 ################################################################################################################################################
@@ -82,3 +83,29 @@ print("NULL STATISTICS:\n ")
 null_rogerebert_values = df_rogerebert[["year", "directors", "actors", "genre", "pg_rating", "duration"]].isnull().sum()
 percentage_null_rogerebert_values = null_rogerebert_values/len(df_rogerebert[["year", "directors", "actors", "genre", "pg_rating", "duration"]])
 print(percentage_null_rogerebert_values)
+
+################################################################################################################################################
+
+print("\n")
+print("\n")
+print("\n")
+
+################################################################################################################################################
+
+print("IMDB MOVIES 5 DATASET ANALYSIS\n")
+print("\n")
+
+print("\n")
+
+print("NULL VALUES:\n")
+print(df_imdb_movie3.info())
+print("\n")
+null_values_imdb = df_imdb_movie3.isnull().sum()
+print(null_values_imdb)
+
+print("\n")
+
+print("NULL STATISTICS:\n ")
+null_imdb_values = df_imdb_movie3[["Year", "Rating", "Creators", "Cast", "Genre", "Duration", "ContentRating", "Summary"]].isnull().sum()
+percentage_null_imdb_values = null_imdb_values/len(df_imdb_movie3[["Year", "Rating", "Creators", "Cast", "Genre", "Duration", "ContentRating", "Summary"]])
+print(percentage_null_imdb_values)
