@@ -5,8 +5,13 @@ RICERCA DUPLICATI
 
 roger_ebert -> duplicati con solo differenze di indice
 imdb -> idem (movie 5)
-imdb -> righe inconsistenti duplicate eliminate (13) (movie 1)
+imdb -> righe inconsistenti duplicate eliminate (13) (movie 1).
+        credo abbiano copiato delle descrizioni e valutazioni dei film con lo stesso titolo
+        c'è qualcosa che non va anche col fatto che l'url è di rotten_tomatoes
 rotten_tomatoes -> duplicati con solo differenze di indice
 
 OSSERVAZIONI
-Su prime la durata non fa sempre riferimento a una 
+
+- Su Roger Erbert, le valutazioni non sono medie degli utenti, ma di una singola persona; bisogna capire come gestire la cosa
+- Possibili problemi futuri con i numeri (es. "The one hundred" - "The 100")
+- Non mi convince troppo il dataset imdb di movie 2, mi pare strano che il dataset abbia link a rotten_tomatoes -> ho cambiato dataset (LOL)
