@@ -1,15 +1,15 @@
 id,movie_name,year,directors,actors,critic_rating,genre,pg_rating,duration
 0,Blade Runner: The Final Cut,1982,Ridley Scott,,4,"Drama, Science Fiction",Rated R,117 minutes
 1,Ace in the Hole,1951,Billy Wilder,"Kirk Douglas,Richard Benedict,Jan Sterling",4,"Drama, Film Noir",Rated NR,111 minutes
-2,Pierrot le Fou,1966,,"Jean-Paul Belmondo,Anna Karina,Graziella Galvani",2.5,"Drama, Foreign, Indie, Thriller",,110 minutes
-3,Rocket Science,2007,,"Reece Daniel Thompson,Anna Kendrick,Nicholas D'Agosto,Vincent Piazza,Denis O'Hare",3.5,"Comedy, Drama, Indie",Rated R,101 minutes
+2,Pierrot le Fou,1966,Jean-Luc Godard,"Jean-Paul Belmondo,Anna Karina,Graziella Galvani",3.5,"Drama, Foreign, Indie, Thriller",,110 minutes
+3,Rocket Science,2007,Jeffrey Blitz,"Reece Daniel Thompson,Anna Kendrick,Nicholas D'Agosto,Vincent Piazza,Denis O'Hare",3.5,"Comedy, Drama, Indie",Rated R,101 minutes
 4,Casino Royale,2007,Martin Campbell,"Daniel Craig,Eva Green,Judi Dench,Jeffrey Wright,Giancarlo Giannini,Mads Mikkelsen",4,"Action, Adventure, Foreign, Thriller",Rated PG-13,144 minutes
 5,Death at a Funeral,2007,Frank Oz,"Matthew MacFadyen,Keeley Hawes,Daisy Donovan,Alan Tudyk,Jane Asher,Rupert Graves,Peter Egan,Peter Dinklage",3,"Comedy, Drama, Foreign",Rated R,90 minutes
 6,Superbad,2007,Greg Mottola,"Jonah Hill,Michael Cera,Christopher Mintz-Plasse,Bill Hader,Seth Rogen,Emma Stone",3.5,Comedy,Rated R,113 minutes
-7,Flanders,2007,,"Adelaide Leroux,Samuel Boidin,Henri Cretel",3,"Drama, Foreign",Rated NR,91 minutes
+7,Flanders,2007,Bruno Dumont,"Adelaide Leroux,Samuel Boidin,Henri Cretel",3,"Drama, Foreign",Rated NR,91 minutes
 8,The Nanny Diaries,2007,"Shari Springer Berman,Robert Pulcini","Scarlett Johansson,Laura Linney,Paul Giamatti,Donna Murphy,Alicia Keys,Nathan Corddry",2.5,"Comedy, Drama, Romance",Rated PG-13,106 minutes
-9,2 Days in Paris,2007,,"Julie Delpy,Adam Goldberg,Daniel Bruhl,Marie Pillet,Albert Delpy,Aleksia Landeau,Adan Jodorowsky,Alexandre Nahon",3,"Comedy, Foreign, Indie, Romance",Rated R,96 minutes
-10,Illegal Tender,2007,,"Wanda DeJesus,Rick Gonzalez,Dania Ramirez,Gary Perez,Tego Calderon,Manny Perez",2.5,"Action, Crime, Drama, Thriller",Rated R,108 minutes
+9,2 Days in Paris,2007,Julie Delpy,"Julie Delpy,Adam Goldberg,Daniel Bruhl,Marie Pillet,Albert Delpy,Aleksia Landeau,Adan Jodorowsky,Alexandre Nahon",3,"Comedy, Foreign, Indie, Romance",Rated R,96 minutes
+10,Illegal Tender,2007,Franc,"Wanda DeJesus,Rick Gonzalez,Dania Ramirez,Gary Perez,Tego Calderon,Manny Perez",2.5,"Action, Crime, Drama, Thriller",Rated R,108 minutes
 11,Resurrecting the Champ,2007,Rod Lurie,"Samuel L. Jackson,Josh Hartnett,Teri Hatcher,Alan Alda,Kathryn Morris,Dakota Goyo,David Paymer",3,"Drama, Sports Film",Rated PG-13,112 minutes
 12,Private Property,2007,Joachim Lafosse,"Isabelle Huppert,Yannick Renier,Jeremie Renier,Patrick Descamps",3.5,"Drama, Foreign",Rated NR,
 13,The King of Kong: A Fistful of Quarters,2007,Seth Gordon,,3,Documentary,Rated PG-13,79 minutes
@@ -3190,70 +3190,15 @@ id,movie_name,year,directors,actors,critic_rating,genre,pg_rating,duration
 3189,Rails & Ties,2007,Alison Eastwood,"Kevin Bacon,Marcia Gay Harden,Miles Heizer,Eugene Byrd,Bonnie Root",2.5,"Drama, Indie",Rated PG-13,101 minutes
 3190,Fred Claus,2007,David Dobkin,"Vince Vaughn,Paul Giamatti,Miranda Richardson,Kevin Spacey,Kathy Bates,Ludacris,Rachel Weisz",2,"Action, Comedy, Drama, Holiday",Rated PG,116 minutes
 3191,P2,2007,Franck Khalfoun,"Rachel Nichols,Wes Bentley,Simon Reynolds",3,"Horror, Thriller",Rated R,98 minutes
-3195,Spirited Away,2002,,"Daveigh Chase,Suzanne Pleshette,Jason Marsden,David Ogden Stiers,Lauren Holly,John Ratzenberger",4,"Adventure, Animation, Family, Foreign",Rated PG,124 minutes
-3196,French Cancan,1954,,,4,"Comedy, Drama, Musical",Rated Unrated,102 minutes
-3198,The Life of Oharu,1952,,,4,,Rated Unrated,148 minutes
-3199,Mulholland Dr.,2001,,,4,"Drama, Mystery, Romance, Thriller",Rated R,147 minutes
-3202,Spirit of the Beehive,1973,,"Ana Torrent,Isabel Telleria,Teresa Gimpera,Jose Villasante,Juan Margallo",4,"Drama, Fantasy, Foreign",Rated NR,97 minutes
-3203,Veronika Voss,1982,,,4,"Crime, Drama",Rated R,105 minutes
-3204,The Match Factory Girl,1990,,,4,"Comedy, Drama, Foreign, Indie",,66 minutes
-3205,Nosferatu the Vampyre,1979,,"Klaus Kinski,Isabelle Adjani",4,"Drama, Foreign, Horror, Indie",Rated R,107 minutes
-3207,A Man Escaped,1956,,,4,"Drama, Foreign, Indie",Rated Unrated,99 minutes
-3208,Stagecoach,1939,,,4,"Action, Drama, Western",Rated NR,96 minutes
-3210,Rocco and His Brothers,1960,,,4,"Crime, Drama, Foreign, Indie, Thriller",,168 minutes
-3211,Winter Light,1962,,,4,"Drama, Foreign, Indie",Rated NR,81 minutes
-3213,What Ever Happened to Baby Jane?,1962,,"Bette Davis, Joan Crawford",4,"Drama, Thriller",Rated NR,135 minutes
-3214,The Best Years of Our Lives,1946,,,4,"Drama, History, Romance",,172 minutes
-3219,Mephisto,1982,,"Klaus Maria Brandauer,Krystyna Janda,Ildiko Bansagi,Karin Boyd",4,"Drama, Foreign, War",Rated NR,144 minutes
-3221,Johnny Guitar,1954,,,4,"Drama, Western",,110 minutes
-3223,Cool Hand Luke,1967,,,4,"Crime, Drama",Rated PG,126 minutes
-3224,Through a Glass Darkly,1961,,"Harriet Andersson,Max von Sydow,Gunnar Bjornstrand,Lars Passgard",4,"Drama, Foreign, Indie",Rated NR,89 minutes
-3225,Baraka,1993,,,4,"Documentary, Indie",Rated G,96 minutes
-3227,Magnolia,1999,,"Jason Robards,Julianne Moore,Tom Cruise,Philip Seymour Hoffman,John C. Reilly,William H. Macy,Philip Baker Hall,Ricky Jay,Melora Walters,Alfred Molina,Jeremy Blackman",4,"Drama, Indie, Romance",Rated R,188 minutes
-3228,The Last Temptation of Christ,1988,,,4,Drama,Rated R,164 minutes
-3232,The Silence,1963,,,4,"Comedy, Drama, Foreign, Indie, Romance",,96 minutes
-3233,Withnail and I,1987,,,4,"Comedy, Drama",Rated R,107 minutes
-3235,Secrets and Lies,1996,,"Timothy Spall,Marianne Jean-Baptiste,Brenda Blethyn,Phyllis Logan,Claire Rushbrook,Lee Ross,Elizabeth Berrington",4,"Comedy, Drama, Foreign",Rated R,144 minutes
-3236,Exotica,1994,,"Bruce Greenwood,Mia Kirshner,Elias Koteas,Don McKellar,Sarah Polley,Victor Garber",4,"Drama, Indie, Romance",Rated R,103 minutes
-3239,Mon Oncle Antoine,1971,,,4,"Comedy, Drama",,104 minutes
 3241,The Thief of Bagdad,1940,"Michael Powell,Ludwig Berger,Tim Whelan","Sabu,John Justin,Conrad Veidt,Rex Ingram,June Duprez",4,"Action, Adventure, Family, Fantasy, Foreign, Science Fiction",,106 minutes
 3242,The Cabinet of Dr. Caligari,1920,Robert Wiene,"Werner Krauss,Conrad Veidt,Lil Dagover,Friedrich Feher",4,"Crime, Drama, Foreign, Horror, Thriller",Rated NR,71 minutes
 3243,Tender Mercies,1983,,,4,"Drama, Music, Romance",Rated PG,102 minutes
 3244,Man With a Movie Camera,1929,,,4,"Documentary, Drama, Foreign",Rated No MPAA rating,73 minutes
-3245,Rio Bravo,1959,,,4,"Action, Drama, Western",Rated NR,141 minutes
-3246,Souls For Sale,1923,,"Eleanor Boardman,Richard Dix,Lew Cody,Mae Busch,Barbara La Marr,Frank Mayo",4,,,90 minutes
-3247,In a Lonely Place,1950,,,4,"Drama, Film Noir, Mystery, Thriller",,94 minutes
-3248,"Spring, Summer, Fall, Winter... and Spring",2003,,,4,"Drama, Foreign",Rated R,103 minutes
-3249,Barry Lyndon,1975,,"Ryan O'Neal,Marisa Berenson,Patrick Magee,Hardy Kruger,Leonard Rossiter,Michael Hordern",4,"Drama, Foreign, Romance, War",Rated PG,184 minutes
-3250,The Grey Zone,2002,,"David Arquette,Daniel Benzali,Steve Buscemi,David Chandler,Allan Corduner,Harvey Keitel,Natasha Lyonne,Mira Sorvino",4,"Drama, War",Rated R,108 minutes
-3251,Richard III,1996,,"Ian McKellen,Annette Bening,John Wood,Matthew Groom,Nigel Hawthorne,Maggie Smith,Robert Downey Jr.,Kristin Scott Thomas,Jim Broadbent",4,"Documentary, Drama, Science Fiction, Thriller",Rated R,104 minutes
-3252,"Leon Morin, Priest",1961,,"Jean-Paul Belmondo,Emmanuelle Riva,Irene Tunc,Nicole Mirel",4,"Drama, Foreign",Rated No MPAA rating,130 minutes
-3253,Mon oncle d'Amerique,1980,,,4,"Comedy, Drama, Foreign, Romance, Thriller",Rated PG,125 minutes
-3254,The Red Shoes,1948,,,4,"Drama, Foreign, Romance",Rated NR,133 minutes
-3256,Caché,2006,,"Juliette Binoche,Daniel Auteuil,Maurice Benichou,Annie Girardot,Bernard Le Coq,Daniel Duval",4,"Action, Drama, Foreign, Romance, Thriller",Rated R,117 minutes
-3258,Make Way for Tomorrow,1937,,,4,"Drama, Romance",,91 minutes
-3260,Pink Floyd: The Wall,1982,,,4,"Drama, Foreign, Music",Rated R,95 minutes
-3262,Viridiana,1961,,,4,"Comedy, Drama, Foreign, Indie",Rated Unrated,90 minutes
-3264,Come and See,1985,,,4,"Action, Drama, Foreign, History, War",Rated Unrated,136 minutes
-3265,Lost in Translation,2003,,"Bill Murray,Scarlett Johansson,Giovanni Ribisi,Anna Faris,Yutaka Tadokoro",4,"Comedy, Drama",Rated R,105 minutes
-3266,The Only Son,1936,,,4,"Drama, Foreign",Rated Unrated,87 minutes
-3267,Mystery Train,1989,,"Masatoshi Nagase,Youki Kudoh,Screamin' Jay Hawkins,Cinque Lee,Nicoletta Braschi,Elizabeth Bracco,Joe Strummer,Rick Aviles,Steve Buscemi",4,"Comedy, Drama, Indie, Thriller",Rated R,113 minutes
-3268,The Circus,1928,,,4,"Comedy, Drama, Family, Romance",Rated Unrated,71 minutes
-3269,Superman,1978,,,4,"Action, Family, Fantasy, Science Fiction",Rated PG,143 minutes
-3270,Red Beard,1969,,"Yuzo Kayama,Yoshio Tsuchiya,Reiko Dan",4,"Drama, Foreign, Indie",,185 minutes
-3271,Shoah,1985,,,4,Documentary,,563 minutes
-3272,Senso,1954,,,4,"Drama, Foreign, History, Romance",Rated Unrated,118 minutes
 3273,Heart of Glass,1976,Werner Herzog,,4,"Drama, Foreign",,94 minutes
 3274,Diary of a Country Priest,1951,,,4,"Drama, Foreign, Indie, Mystery",Rated Unrated,115 minutes
 3275,Pale Flower,1964,,,4,"Action, Drama, Foreign, Thriller",Rated Unrated,96 minutes
 3276,An Autumn Afternoon,1962,,,4,"Drama, Foreign, Indie",Rated Unrated,112 minutes
 3277,Badlands,1973,,,4,"Drama, Romance, Thriller",Rated PG,95 minutes
-3278,A.I. Artificial Intelligence,2001,,"Haley Joel Osment,Jude Law,William Hurt,Frances O'Connor,Sam Robards,Brendan Gleeson",4,"Drama, Horror, Science Fiction",Rated PG-13,145 minutes
-3282,The Man Who Shot Liberty Valance,1962,,,4,"Action, Mystery, Thriller, Western",Rated Unrated,123 minutes
-3283,The Killing,1956,,,4,"Action, Crime, Drama, Thriller",Rated NR,85 minutes
-3284,"Ivan the Terrible, Parts I & II",1958,,,4,,Rated Unrated,88 minutes
-3286,Harakiri,1962,,,4,"Drama, Foreign",Rated Unrated,135 minutes
-3287,Diary of a Lost Girl,1929,,,4,"Drama, Foreign",,104 minutes
 3288,Late Spring,1972,,,4,"Drama, Foreign, Indie",,108 minutes
 3289,Chuck Jones: Three Cartoons,,,,4,,,
 3290,The Gospel According to St. Matthew,1964,,,4,"Drama, Foreign, Indie",,137 minutes
@@ -3266,12 +3211,9 @@ id,movie_name,year,directors,actors,critic_rating,genre,pg_rating,duration
 3298,A Woman's Tale,1992,,"Sheila Florance,Gosia Dobrowolska,Norman Kaye",4,,Rated PG-13,94 minutes
 3299,Easy Rider,1969,,"Peter Fonda,Dennis Hopper,Antonio Mendoza,Phil Spector,Jack Nicholson",4,"Action, Adventure, Crime, Drama, Indie",Rated R,94 minutes
 3300,The Big Red One,1980,,"Lee Marvin,Mark Hamill,Robert Carradine,Bobby Di Cicco,Kelly Ward,Siegfried Rauch,Stephanie Audran",4,"Action, Adventure, Drama, War",Rated PG,113 minutes
-3301,The River,1951,,"Arthur Shields,Radha,Adrienne Corri,Thomas E. Breen,Patricia Walters,Suprova Mukerjee,June Hillman",4,"Drama, Romance",,99 minutes
 3302,The Phantom of the Opera,1925,,,4,"Drama, Horror, Musical",,93 minutes
 3303,Fanny and Alexander,1983,,"Pernilla Allwin,Bertil Guve,Jan Malmsjo,Erland Josephson,Kabi Laretei,Gunn Wallgren,Ewa Froling,Gunnar Bjornstrand",4,"Drama, Fantasy, Foreign, Mystery",Rated R,188 minutes
 3304,The Scarlet Empress,1934,,,4,"Drama, Romance",,104 minutes
-3305,Inherit the Wind,1960,,,4,Drama,,128 minutes
-3309,Ripley's Game,2002,,,4,"Drama, Thriller",,110 minutes
 3310,A Year of the Quiet Sun,1984,,,4,"Drama, Foreign, Romance",Rated PG,106 minutes
 3312,Breathless,1960,,,4,"Crime, Drama, Foreign, Indie",,90 minutes
 3313,Bob le Flambeur,1955,,,4,"Action, Crime, Drama, Foreign",,98 minutes
@@ -3287,15 +3229,6 @@ id,movie_name,year,directors,actors,critic_rating,genre,pg_rating,duration
 3323,Faust,1926,,,4,"Drama, Fantasy, Foreign, Science Fiction",,85 minutes
 3324,Woodstock,1970,,,4,"Documentary, Music, Musical",Rated R,184 minutes
 3326,Howards End,1992,James Ivory,"Anthony Hopkins,Vanessa Redgrave,Emma Thompson,Helena Bonham-Carter",4,"Drama, Foreign, Romance",Rated PG,140 minutes
-3327,Au revoir les enfants,1987,,,4,"Drama, Foreign, War",,104 minutes
-3328,Army of Shadows,1969,,,4,"Drama, Foreign, History, Thriller",Rated NR,139 minutes
-3329,Chimes at Midnight,1965,,,4,"Comedy, Drama, History",,117 minutes
-3331,Moolaade,2007,,"Fatoumata Coulibaly,Maimouna Helene Diarra,Salimata Traore,Dominique Zeida,Mah Compaore",4,"Drama, Foreign",Rated NR,124 minutes
-3332,WR: Mysteries of the Organism,1971,,"Milena Dravic,Jagoda Kaloper,Ivica Vidovic,Zoran Radmilovic,Tuli Kupferberg,Jackie Curtis,Michael Gelovani",4,"Comedy, Drama, Fantasy",,84 minutes
-3334,Pan's Labyrinth,2006,,"Ivana Baquero,Maribel Verdu,Sergi Lopez,Ariadna Gil,Alex Angulo,Doug Jones",4,"Drama, Fantasy, Foreign, Science Fiction, War",Rated R,118 minutes
-3337,Killer of Sheep,1977,,"Henry Gayle Sanders,Kaycee Moore",4,"Drama, Indie",,83 minutes
-3338,The Great Dictator,1940,,"Chaplin,Jack Oakie,Paulette Goddard,Reginald Gardiner",4,Comedy,Rated G,125 minutes
-3339,El Topo,1970,,"Alejandro Jodorowsky,Brontis Jodorowsky,Jose Legarreta,Alfonso Arau",4,"Action, Adventure, Drama, Foreign, Western",Rated NR,125 minutes
 3340,Sansho the Bailiff,1954,Kenji Mizoguchi,,4,"Drama, Foreign, Indie",Rated NR,124 minutes
 3342,Santa Sangre,1990,,"Axel Jodorowsky,Sabrina Dennison,Guy Stockwell,Blanca Guerra,Thelma Tixou,Jesus Juarez",4,"Drama, Fantasy, Foreign, Horror, Mystery, Science Fiction",Rated R,124 minutes
 3343,The Leopard,1963,Luchino Visconti,,4,"Drama, Romance",Rated PG,185 minutes
@@ -3323,8 +3256,6 @@ id,movie_name,year,directors,actors,critic_rating,genre,pg_rating,duration
 3365,Nanook of the North,1922,,,4,Documentary,,79 minutes
 3366,The Dead,1987,John Huston,"Angelica Huston,Donal McCann,Rachel Dowling,Dan O'Herlihy,Donal Donnelly,Cathleen Delany,Helena Carroll,Ingrid Craigie,Frank Patterson",4,"Drama, Foreign, Romance",Rated PG,83 minutes
 3367,Top Hat,1935,,,4,"Comedy, Music, Romance",,101 minutes
-3370,Atlantic City,1980,,,4,"Drama, Romance",,104 minutes
-3371,Forbidden Games,1952,,,4,"Drama, Foreign, History",Rated NR,86 minutes
 3373,Au Hasard Balthazar,1966,,"Anne Wiazemsky,Walter Green,Francois Lefarge,Philippe Asselin,Nathalie Joyaut,Jean-Claude Guilbert,Pierre Klossowski,Jean-Joel Barbier",4,"Crime, Drama, Foreign, Indie",Rated NR,95 minutes
 3374,The Color Purple,1985,,,4,Drama,Rated PG-13,150 minutes
 3375,Sunrise,1928,F.W. Murnau,"George O'Brien,Janet Gaynor",4,"Crime, Drama, Horror, Romance",,
@@ -3429,7 +3360,7 @@ id,movie_name,year,directors,actors,critic_rating,genre,pg_rating,duration
 3474,Cries and Whispers,1973,Ingmar Bergman,"Harriet Andersson,Kari Sylwan,Ingrid Thulin,Liv Ullmann,Henning Moritzen",4,"Drama, Foreign",,91 minutes
 3475,Rififi,1954,,,4,"Action, Crime, Drama, Foreign",,146 minutes
 3476,Kind Hearts and Coronets,1949,,,4,"Comedy, Drama, Foreign",,106 minutes
-3477,12 Angry Men,1957,,,4,"Crime, Drama",Rated NR,96 minutes
+3477,12 Angry Men,1957,Jean-Luc Godard,,4,"Crime, Drama",Rated NR,96 minutes
 3478,The Wild Bunch,1969,Sam Peckinpah,"William Holden,Robert Ryan,Warren Oates,Jaime Sanchez",4,"Action, Drama, Western",Rated R,145 minutes
 3479,Raise the Red Lantern,1990,,,4,"Drama, Foreign",,125 minutes
 3480,A Hard Day's Night,1964,Richard Lester,,4,"Comedy, Documentary, Foreign, Music",Rated NR,91 minutes

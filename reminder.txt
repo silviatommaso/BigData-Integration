@@ -15,3 +15,7 @@ OSSERVAZIONI
 - Su Roger Erbert, le valutazioni non sono medie degli utenti, ma di una singola persona; bisogna capire come gestire la cosa
 - Possibili problemi futuri con i numeri (es. "The one hundred" - "The 100")
 - Non mi convince troppo il dataset imdb di movie 2, mi pare strano che il dataset abbia link a rotten_tomatoes -> ho cambiato dataset (LOL)
+- Valori nulli Duration (solo uno rimasto, non imputabile), Summary da IMDB movies 3 imputati
+- Creators, Cast e Genre da IMDB movies 3 non imputabili (non presenti informazioni su IMDB)
+
+- Rotten tomatoes di movies 3 ha le stesse descrizioni di IMDB o di altri siti in generale...da considerare nella fase di data integration

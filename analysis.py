@@ -2,10 +2,10 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import missingno as msno
 
-df_imdb_movie3 = pd.read_csv("dataset_cleaned/movies3/imdb_cleaned.csv", low_memory=False)
-df_imdb_movie5 = pd.read_csv("dataset_cleaned/movies5/imdb_cleaned.csv", low_memory=False)
-df_rottentomatoes = pd.read_csv("dataset_cleaned/movies3/rotten_tomatoes_cleaned.csv", low_memory=False)
-df_rogerebert = pd.read_csv("dataset_cleaned/movies5/roger_ebert_cleaned.csv", low_memory=False)
+df_imdb_movie3 = pd.read_csv("dataset_cleaned/movies3_cleaned/imdb_cleaned.csv", low_memory=False)
+df_imdb_movie5 = pd.read_csv("dataset_cleaned/movies5_cleaned/imdb_cleaned.csv", low_memory=False)
+df_rottentomatoes = pd.read_csv("dataset_cleaned/movies3_cleaned/rotten_tomatoes_cleaned.csv", low_memory=False)
+df_rogerebert = pd.read_csv("dataset_cleaned/movies5_cleaned/roger_ebert_final.csv", low_memory=False)
 
 #########################
 ##### DATA ANALYSIS #####
@@ -28,6 +28,9 @@ print("NULL STATISTICS:\n ")
 null_imdb_values = df_imdb_movie3[["Year", "Creators", "Cast", "Genre", "Duration", "ContentRating", "Summary"]].isnull().sum()
 percentage_null_imdb_values = null_imdb_values/len(df_imdb_movie3[["Year", "Creators", "Cast", "Genre", "Duration", "ContentRating", "Summary"]])
 print(percentage_null_imdb_values)
+
+# msno.matrix(df_imdb_movie3[["Year", "Creators", "Cast", "Genre", "Duration", "ContentRating", "Summary"]].sort_values(by="Year"))
+# plt.show()
 
 ################################################################################################################################################
 
