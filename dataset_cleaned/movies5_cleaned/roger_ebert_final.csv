@@ -158,7 +158,7 @@ id,movie_name,year,directors,actors,critic_rating,genre,pg_rating,duration
 156,art school confidential,2006,Terry Zwigoff,"Max Minghella,Sophia Myles,John Malkovich,Jim Broadbent,Ethan Suplee,Joel David Moore,Anjelica Huston,Matt Keeslar,Scoot McNairy",3.0,"Action, Comedy, Drama, Indie",Rated R,102 minutes
 157,goal! the dream begins,2006,Danny Cannon,"Kuno Becker,Alessandro Nivola,Stephen Dillane,Anna Friel,Marcel Iures,Sean Pertwee,Cassandra Bell",3.0,"Drama, Sports Film",Rated PG,118 minutes
 158,poseidon,2006,Wolfgang Petersen,"Josh Lucas,Kurt Russell,Jacinda Barrett,Richard Dreyfuss,Jimmy Bennett,Emmy Rossum,Andre Braugher",2.0,"Action, Adventure, Disaster, Thriller",Rated PG-13,99 minutes
-159,au revoir les enfants,1987,Louis Malle,,4.0,"Drama, Foreign, War",,104 minutes
+159,au revoir les enfants,1987,,"Francois Negret, Peter Fitz, Francois Berleand, Gaspard Manesse, Francine Racette, Raphael Fejto, Philippe Morier-Genoud",4.0,"Drama, Foreign, War",,104 minutes
 160,saving shiloh,2006,Sandy Tung,"Jason Dolley,Scott Wilson,Gerald McRaney,Taylor Momsen,Kyle Chavarria,Ann Dowd,Liberty Smith,Bonnie Bartlett",3.5,"Drama, Family",Rated PG,90 minutes
 161,hate crime,2006,Tommy Stovall,"Seth Peterson,Bruce Davison,Chad Donella,Cindy Pickett,Brian J. Smith,Susan Blakely,Farah White,Giancarlo Esposito",2.5,"Drama, Thriller",Rated NR,104 minutes
 162,the lost city,2006,Andy Garcia,"Andy Garcia,Bill Murray,Ines Sastre,Dustin Hoffman,Tomas Milian,Steven Bauer,Nestor Carbonell,William Marquez,Julio Oscar Mechoso,Enrique Murciano,Elizabeth Pena,Millie Perkins,Tony Plana",3.0,"Drama, Romance",Rated R,144 minutes
@@ -222,7 +222,7 @@ id,movie_name,year,directors,actors,critic_rating,genre,pg_rating,duration
 220,ripley's game,2002,Liliana Cavani,,4.0,"Drama, Thriller",,110 minutes
 221,on a clear day,2006,Gaby Dellal,"Peter Mullan,Brenda Blethyn,Billy Boyd,Ron Cook,Sean McGinley,Jamie Sives,Benedict Wong,Jodhi May",2.0,"Drama, Foreign, Indie",Rated PG-13,98 minutes
 222,the wild,2006,Steve,"Kiefer Sutherland,James Belushi,Janeane Garofalo,William Shatner,Eddie Izzard,Greg Cipes,Richard Kind",3.0,"Adventure, Animation, Family",Rated G,94 minutes
-223,l'enfant,2006,"Carl-Friedrich Koschnick, Carl-Friedrich Koschnick","Jeremie Renier,Deborah Francois,Mireille Bailly,Jeremie Segard,Fabrizio Rongione,Olivier Gourmet,Samuel De Ryck",4.0,,Rated R,
+223,l'enfant,2006,"Jean-Pierre Dardenne, Luc Dardenne","Jeremie Renier,Deborah Francois,Mireille Bailly,Jeremie Segard,Fabrizio Rongione,Olivier Gourmet,Samuel De Ryck",4.0,,Rated R,
 224,subject two,2006,Philip Chidel,"Christian Oliver,Dean Stapleton,Courtney Mace,Jurgen Jones",2.0,"Horror, Science Fiction, Thriller",Rated NR,93 minutes
 225,the syrian bride,2006,Eran Riklis,"Clara Khoury,Hiam Abbass,Makram Khoury,Derar Sliman,Ashraf Barhom,Eyad Sheety,Evelyn Kaplun,Julie-Anne Roth,Adnan Tarabshi,Marlene Bajali",3.0,"Drama, Foreign",Rated NR,97 minutes
 226,la mujer de mi hermano,2006,Ricardo de Montreuil,"Barbara Mori,Christian Meier,Manolo Cardona,Beto Cuevas,Bruno Bichir,Angelica Aragon",1.0,"Drama, Foreign, Romance",Rated R,89 minutes
@@ -293,7 +293,6 @@ id,movie_name,year,directors,actors,critic_rating,genre,pg_rating,duration
 291,glory road,2006,James Gartner,"Josh Lucas,Derek Luke,Jon Voight,Damaine Radcliff,Austin Nichols,Mehcad Brooks,Alphonso McAuley,Al Shearer,Sam Jones II",3.0,Drama,Rated PG,118 minutes
 292,mrs. henderson presents,2006,Stephen Frears,"Judi Dench,Bob Hoskins,Will Young,Kelly Reilly,Thelma Barlow,Christopher Guest",3.0,"Comedy, Drama, Foreign, Musical",Rated R,103 minutes
 293,last holiday,2006,Wayne Wang,"Queen Latifah,Ll Cool J,Timothy Hutton,Giancarlo Esposito,Michael Nouri,Alicia Witt,Gerard Depardieu,Ranjit Chowdhry,Jane Adams,Mike Estime,Susan Kellermann",3.0,"Adventure, Comedy, Holiday, Romance",Rated PG-13,112 minutes
-294,chuck jones: three cartoons,-1,,,4.0,,,
 295,transamerica,2006,Duncan Tucker,"Kevin Zegers,Fionnula Flanagan,Graham Greene,Burt Young,Elizabeth Pena,Danny Burstein",3.0,"Drama, Indie",Rated R,103 minutes
 296,looking for comedy in the muslim world,2006,Albert Brooks,"Albert Brooks,Sheetal Sheth,John Carroll Lynch,Jon Tenney,Homie Doroodian",3.0,Comedy,Rated PG-13,98 minutes
 297,the new world,2006,Terrence Malick,"Colin Farrell,Q'orianka Kilcher,Christopher Plummer,Christian Bale,August Schellenberg,Wes Studi,David Thewlis,Yorick Van Wageningen,Irene Bedard,John Savage",4.0,"Drama, History, Romance",Rated PG-13,135 minutes
@@ -604,7 +603,7 @@ id,movie_name,year,directors,actors,critic_rating,genre,pg_rating,duration
 602,the wolfpack,2015,Crystal Moselle,"Bhagavan Angulo,Govinda Angulo,Jagadisa Angulo,Narayana Angulo,Krsna Angulo,Mukunda Angulo",2.5,"Documentary, Drama",Rated R,80 minutes
 603,madame bovary,2015,Sophie Barthes,"Mia Wasikowska,Ezra Miller,Laura Carmichael,Henry Lloyd-Hughes,Paul Giamatti,Rhys Ifans,Logan Marshall-Green",2.0,Drama,Rated R,118 minutes
 604,me and earl and the dying girl,2015,Alfonso Gomez-Rejon,"Thomas Mann,RJ Cyler,Olivia Cooke,Connie Britton,Nick Offerman,Molly Shannon",1.5,"Comedy, Drama, Romance",Rated PG-13,105 minutes
-605,chagall-malevich,-1,Aleksandr Mitta,"Leonid Bichevin,Anatoliy Belyy,Kristina Schneidermann,Semyon Shkalikov",3.0,"Drama, History",,119 minutes
+605,chagall-malevich,nan,Aleksandr Mitta,"Leonid Bichevin,Anatoliy Belyy,Kristina Schneidermann,Semyon Shkalikov",3.0,"Drama, History",,119 minutes
 606,the tribe,2015,Miroslav Slaboshpitsky,"Grigoriy Fesenko,Yana Novikova,Rosa Babiy,Alexander Dsiadevich,Yaroslav Biletskiy,Ivan Tishko,Alexander Osadchiy,Alexander Sidelnikov,Alexander Panivan",1.5,"Crime, Drama",,130 minutes
 607,inside out,2015,Pete Docter,"Amy Poehler,Mindy Kaling,Bill Hader,Phyllis Smith,Lewis Black,Kaitlyn Dias,Paris Van Dyke,Kyle MacLachlan",4.0,"Animation, Comedy, Family",Rated PG,102 minutes
 608,the wanted 18,2015,"Amer Shomali,Paul Cowan",,3.0,"Animation, Documentary",,75 minutes
@@ -1758,7 +1757,7 @@ id,movie_name,year,directors,actors,critic_rating,genre,pg_rating,duration
 1756,beyond the hills,2012,,"Cosmina Stratan,Cristina Flutur,Valeriu Andriuta,Dana Tapalaga,Catalina Harabagiu",3.5,"Drama, Foreign, Romance",Rated Unrated,150 minutes
 1757,don't stop believing: everyman's journey,2013,Ramona S. Diaz,"Arnel Pineda,Neal Schon,Jonathan Cain,Ross Valory,Deen Castronovo",3.0,Documentary,Rated NR,90 minutes
 1758,the condemned,2013,,"Cristina Rodlo,Rene Monclova,Axel Anderson,Luz Odilea Font",1.0,,Rated Unrated,
-1759,no,2013,F.W. Murnau,,4.0,"Drama, Foreign",Rated R,118 minutes
+1759,no,2013,F.W. Murnau,"Alexander Granach, Greta Schroeder, Max Schreck, Gustav von Wangenheim, John Gottowt",4.0,"Drama, Foreign",Rated R,118 minutes
 1760,happy people: a year in the taiga,2013,,,3.5,"Documentary, Foreign",Rated NR,90 minutes
 1761,parker,2013,Taylor Hackford,"Jason Statham,Jennifer Lopez,Michael Chiklis,Wendell Pierce,Clifton Collins Jr.,Micah A. Hauptman,Bobby Canavale,Nick Nolte",1.5,"Crime, Thriller",Rated R,
 1762,movie 43,2013,Peter Farrelly,,0.0,Comedy,Rated R,90 minutes
@@ -1783,7 +1782,7 @@ id,movie_name,year,directors,actors,critic_rating,genre,pg_rating,duration
 1781,safe haven,2013,Lasse Hallstrom,"Julianne Hough,Josh Duhamel,Cobie Smulders,David Lyons",1.5,Romance,Rated PG-13,
 1782,beautiful creatures,2013,Richard Lagravenese,"Alice Englert,Alden Ehrenreich,Emma Thompson,Viola Davis,Emily Rossum,Jeremy Irons",2.5,Drama,Rated PG-13,124 minutes
 1783,a glimpse inside the mind of charles swan iii,2013,Roman Coppola,"Charlie Sheen,Jason Schwartzman,Bill Murray,Katheryn Winnick,Patricia Arquette,Dermot Mulroney",1.0,,Rated R,86 minutes
-1784,the loneliest planet,2013,Julia Loktev,,2.0,Drama,Rated Unrated,113 minutes
+1784,the loneliest planet,2013,Julia Loktev,"Gael Garcia Bernal, Hani Furstenberg, Bidzina Gujabidze",2.0,Drama,Rated Unrated,113 minutes
 1785,veronika voss,1982,,,4.0,"Crime, Drama",Rated R,105 minutes
 1786,generation p,2012,Victor Ginzburg,"Vladimir Epifantsev,Mikhail Efremov,Andrey Fomin,Sergey Shnurov",2.5,"Comedy, Drama, Science Fiction",Rated NR,112 minutes
 1787,playing for keeps,2012,Gabriele Muccino,"Gerard Butler,Jessica Biel,Uma Thurman,Dennis Quaid,Catherine Zeta-Jones",2.0,"Comedy, Drama, Romance",Rated PG-13,106 minutes
@@ -1888,7 +1887,7 @@ id,movie_name,year,directors,actors,critic_rating,genre,pg_rating,duration
 1886,skyfall,2012,Sam Mendes,"Daniel Craig,Judi Dench,Javier Bardem,Ralph Fiennes,Naomie Harris,Ben Whishaw,Albert Finney",4.0,"Action, Adventure, Thriller",Rated PG-13,143 minutes
 1887,lincoln,2012,Steven Spielberg,"Daniel Day-Lewis,Sally Field,David Strathairn,Tommy Lee Jones",4.0,"Documentary, Drama, War",Rated PG-13,149 minutes
 1888,this must be the place,2012,Paolo Sorrentino,"Sean Penn,Frances McDormand,Eve Hewson,Judd Hirsch,Kerry Condon,Harry Dean Stanton,Joyce Van Patten",3.5,"Drama, Foreign",Rated R,118 minutes
-1889,mulholland dr.,2001,David Lynch,,4.0,"Drama, Mystery, Romance, Thriller",Rated R,147 minutes
+1889,mulholland dr.,2001,David Lynch,"Rita Taggart, Laura Elena Harring, Naomi Watts, Ann Miller Vincenzo, Dan Hedaya, Justin Theroux",4.0,"Drama, Mystery, Romance, Thriller",Rated R,147 minutes
 1890,silver linings playbook,2012,David O. Russell,"Bradley Cooper,Jennifer Lawrence,Robert De Niro,Jacki Weaver,Chris Tucker,Julia Stiles",3.5,"Comedy, Drama, Foreign",Rated R,122 minutes
 1891,anna karenina,2012,Joe Wright,"Keira Knightley,Aaron Taylor-Johnson,Jude Law,Domhnall Gleeson,Alicia Vikander,Matthew MacFadyen",2.5,"Drama, Foreign, Romance",Rated R,130 minutes
 1892,chasing ice,2012,Jeff Orlowski,,3.0,Documentary,Rated PG-13,74 minutes
@@ -2172,7 +2171,7 @@ id,movie_name,year,directors,actors,critic_rating,genre,pg_rating,duration
 2170,world on a wire,2011,Rainer Werner Fassbinder,"Barbara Valentin,Mascha Rabben,Karl Heinz Vosgerau,Wolfgang Schenck,Ulli Lommel,Adrian Hoven,Joachim Hansen,Kurt Raab,Margit Carstensen,Ingrid Caven",3.0,"Crime, Drama, Foreign, Science Fiction, Thriller",Rated NR,204 minutes
 2171,trespass,2011,Joel Schumacher,"Nicolas Cage,Nicole Kidman,Ben Mendelsohn,Liana Liberato,Cam Gigandet",2.0,"Crime, Drama, Thriller",Rated R,91 minutes
 2172,norman,2011,Jonathan Segal,"Dan Byrd,Richard Jenkins,Emily VanCamp,Adam Goldberg,Billy Lush",3.0,"Comedy, Drama",Rated PG-13,
-2173,the thing,2011,John Carpenter,"Mary Elizabeth Winstead,Joel Edgerton,Ulrich Thomsen,Eric Christian Olsen",2.5,"Horror, Mystery, Science Fiction",Rated R,103 minutes
+2173,the thing,2011,,"Mary Elizabeth Winstead,Joel Edgerton,Ulrich Thomsen,Eric Christian Olsen",2.5,"Horror, Mystery, Science Fiction",Rated R,103 minutes
 2174,fireflies in the garden,2011,Dennis Lee,"Ryan Reynolds,Willem Dafoe,Emily Watson,Carrie-Anne Moss,Julia Roberts,Hayden Panettiere",2.0,"Drama, Indie",Rated R,108 minutes
 2175,the mill and the cross,2011,Lech Majewski,"Rutger Hauer,Michael York,Charlotte Rampling",4.0,"Drama, Foreign, Indie",Rated NR,92 minutes
 2176,paranormal activity 3,2011,"Henry Joost,Ariel Schulmani","Chris Smith,Katie Featherston,Sprague Grayden,Lauren Bittner,Chloe Csengery,Brian Boland,Dustin Ingram,Mark Fredrichs",1.0,Horror,Rated R,83 minutes
@@ -2488,7 +2487,7 @@ id,movie_name,year,directors,actors,critic_rating,genre,pg_rating,duration
 2486,the good guy,2010,Julio DePietro,"Bryan Greenberg,Scott Porter,Alexis Bledel,Aaron Yoo,Andrew McCarthy",3.0,"Comedy, Indie, Romance",Rated R,90 minutes
 2487,brooklyn's finest,2010,Antoine Fuqua,"Richard Gere,Don Cheadle,Ethan Hawke,Wesley Snipes,Lili Taylor,Will Patton,Ellen Barkin,Vincent D'Onofrio",3.0,"Action, Adventure, Crime, Drama, Thriller",Rated R,133 minutes
 2488,cop out,2010,Kevin Smith,"Bruce Willis,Tracy Morgan,Seann William Scott,Kevin Pollak,Adam Brody,Michelle Trachtenberg",1.5,"Action, Comedy, Crime",Rated R,107 minutes
-2489,alice in wonderland,2010,Bud Townsend,"Johnny Depp,Mia Wasikowska,Helena Bonham-Carter,Anne Hathaway,Crispin Glover,Alan Rickman,Stephen Fry,Michael Sheen,Timothy Spall,Christopher Lee",3.0,"Adventure, Family, Fantasy, Science Fiction",Rated PG,108 minutes
+2489,alice in wonderland,2010,,"Johnny Depp,Mia Wasikowska,Helena Bonham-Carter,Anne Hathaway,Crispin Glover,Alan Rickman,Stephen Fry,Michael Sheen,Timothy Spall,Christopher Lee",3.0,"Adventure, Family, Fantasy, Science Fiction",Rated PG,108 minutes
 2490,the yellow handkerchief,2010,Udayan Prasad,"William Hurt,Maria Bello,Kristen Stewart,Eddie Redmayne",3.0,,Rated PG-13,
 2491,the art of the steal,2010,Don Argott,,3.5,Documentary,Rated NR,101 minutes
 2492,remember me,2010,Allen Coulter,"Robert Pattinson,Emilie de Ravin,Chris Cooper,Lena Olin,Tate Ellington,Ruby Jerins,Pierce Brosnan",3.0,"Drama, Romance",Rated PG-13,113 minutes
@@ -2501,7 +2500,7 @@ id,movie_name,year,directors,actors,critic_rating,genre,pg_rating,duration
 2499,extraordinary measures,2010,Tom Vaughan,"Brendan Fraser,Harrison Ford,Keri Russell,Meredith Droeger,Diego Velazquez,Sam Hill",2.0,Drama,Rated PG,105 minutes
 2500,45365,2010,"Bill Ross IV,Turner Ross",,4.0,Documentary,Rated No MPAA rating,90 minutes
 2501,waking sleeping beauty,2010,,,3.5,"Documentary, Family",Rated PG,86 minutes
-2502,how to train your dragon,2010,Dean Deblois,"Jay Baruchel,Gerard Butler,Craig Ferguson,Jonah Hill,Christopher Mintz-Plasse,America Ferrara,Kristen Wiig,T.J. Miller",3.0,"Animation, Family",Rated PG,98 minutes
+2502,how to train your dragon,2010,,"Jay Baruchel,Gerard Butler,Craig Ferguson,Jonah Hill,Christopher Mintz-Plasse,America Ferrara,Kristen Wiig,T.J. Miller",3.0,"Animation, Family",Rated PG,98 minutes
 2503,hot tub time machine,2010,Steve Pink,"John Cusack,Rob Corddry,Craig Robinson,Clark Duke,Crispin Glover,Lizzy Caplan,Chevy Chase",3.0,"Adventure, Comedy, Science Fiction",Rated R,101 minutes
 2504,mother,2010,Bong Joon-ho,"Kim Hye-ja,Weon Bin,Jin Gu",3.5,"Crime, Drama, Foreign, Mystery, Thriller",Rated R,128 minutes
 2505,chloe,2010,"Atom Egoyan,Anne Fontaine","Julianne Moore,Liam Neeson,Amanda Seyfried,Max Thieriot,R.H. Thomson,Nina Dobrev",3.5,"Drama, Horror, Romance, Thriller",Rated R,96 minutes
@@ -2822,7 +2821,7 @@ id,movie_name,year,directors,actors,critic_rating,genre,pg_rating,duration
 2820,gran torino,2008,Clint Eastwood,"Bee Vang,Ahney Her,Christopher Carley,Brian Haley,Geraldine Hughes,Brian Howe,Dreama Walker,Scott Eastwood,Clint Eastwood",3.5,"Action, Drama",Rated R,116 minutes
 2821,yes man,2008,Peyton Reed,"Jim Carrey,Zooey Deschanel,Bradley Cooper,John Michael Higgins,Terence Stamp,Danny Masterson,Fionnula Flanagan",2.0,"Comedy, Romance",Rated PG-13,104 minutes
 2822,valkyrie,2008,Bryan Singer,"Tom Cruise,Kenneth Branagh,Tom Wilkinson,Terence Stamp,Eddie Izzard,Bill Nighy,Thomas Kretschmann",3.0,"Drama, History, Thriller, War",Rated PG-13,121 minutes
-2823,the silence,1963,Jonathan Demme,,4.0,"Comedy, Drama, Foreign, Indie, Romance",,96 minutes
+2823,the silence,1963,Jonathan Demme,"Anthony Heald, Anthony Hopkins, Ted Levine, Kasi Lemmons, Jodie Foster, Scott Glenn",4.0,"Comedy, Drama, Foreign, Indie, Romance",,96 minutes
 2824,seven pounds,2008,Gabriele Muccino,"Will Smith,Rosario Dawson,Woody Harrelson,Michael Ealy,Barry Pepper,Elpidia Carrillo",3.0,"Drama, Romance",Rated PG-13,123 minutes
 2825,marley & me,2008,David Frankel,"Owen Wilson,Jennifer Aniston,Kathleen Turner,Alan Arkin,Eric Dane",3.0,"Comedy, Drama, Family",Rated PG,115 minutes
 2826,the reader,2008,Stephen Daldry,"Kate Winslet,Lena Olin,Bruno Ganz",3.5,"Drama, Romance",Rated R,124 minutes
@@ -3102,7 +3101,7 @@ id,movie_name,year,directors,actors,critic_rating,genre,pg_rating,duration
 3100,flags of our fathers,2007,Clint Eastwood,"Jesse Bradford,Adam Beach,John Benjamin Hickey,John Slattery,Barry Pepper,Jamie Bell,Paul Walker,Benjamin Walker,Joseph Cross,Robert Patrick,Neal McDonough",4.0,"Drama, History, War",Rated R,132 minutes
 3101,this christmas,2007,,"Delroy Lindo,Idris Elba,Loretta Devine,Keith Robinson,Mekhi Phifer,Regina King,David Banner",3.0,"Comedy, Drama",Rated PG-13,117 minutes
 3102,there will be blood,2008,Paul Thomas Anderson,"Daniel Day-Lewis,Paul Dano,Kevin J. O'Connor,Ciaran Hinds,Dillon Freasier,Sydney McCallister,David Willis,David Warshofsky,Colton Woodward,Sunday Colleen Foy,Russell Harvard",3.5,"Drama, Thriller",Rated R,158 minutes
-3103,millions,2008,Paul La Blanc,,3.5,,Rated NR,
+3103,millions,2008,Paul La Blanc,"Alex Etel, Lewis McGibbon, Kolade Agboke, Daisy Donovan, Harry Kirkham, James Nesbitt, Enzo Cilenti, Jane Hogarth, Christopher Fulford, Alun Armstrong",3.5,,Rated NR,
 3104,memories of tomorrow,2007,Yukihiko Tsutsumi,,3.5,,Rated NR,122 minutes
 3105,atonement,2007,Joe Wright,"James McAvoy,Keira Knightley,Vanessa Redgrave,Brenda Blethyn",4.0,"Drama, Foreign, Romance",Rated R,123 minutes
 3106,the namesake,2006,Mira Nair,"Kal Penn,Tabu,Irrfan Khan,Sahira Nair,Jacinda Barrett,Zuleikha Robinson,Glenne Headly",3.5,"Drama, Indie",Rated PG-13,122 minutes
@@ -3149,7 +3148,7 @@ id,movie_name,year,directors,actors,critic_rating,genre,pg_rating,duration
 3147,the orphanage,2007,Juan Antonio Bayona,"Belen Rueda,Fernando Cayo,Roger Princep,Geraldine Chaplin,Montserrat Carulla,Mabel Rivera",3.5,"Drama, Foreign, Mystery, Thriller",Rated R,102 minutes
 3148,the water horse: legend of the deep,2007,Jay Russell,"Alex Etel,Emily Watson,Ben Chaplin,David Morrissey,Priyanka Xi",3.5,"Adventure, Family, Fantasy, Science Fiction",Rated PG,112 minutes
 3149,the great debaters,2007,Denzel Washington,"Denzel Washington,Forest Whitaker,Nate Parker,Jurnee Smollett,Denzel Whitaker,Jermaine Williams",4.0,"Drama, Family",Rated PG-13,126 minutes
-3150,the whole shootin' match,1980,Luke Geissbuhler,"Lou Perry,Sonny Davis,Doris Hargrave,Eric Henshaw,David Weber,James Harrell",4.0,"Comedy, Drama, Indie",,109 minutes
+3150,the whole shootin' match,1980,,"Lou Perry,Sonny Davis,Doris Hargrave,Eric Henshaw,David Weber,James Harrell",4.0,"Comedy, Drama, Indie",,109 minutes
 3151,once,2007,John Carney,"Glen Hansard,Marketa Irglova",4.0,"Drama, Foreign, Music, Romance",Rated R,85 minutes
 3152,blame it on fidel,2007,Julie Gavras,"Nina Kervel,Julie Depardieu,Stefano Accorsi,Benjamin Feuillet,Martine Chevalier,Olivier Perrier,Marie Kremer",3.5,"Drama, Foreign, Thriller",Rated NR,99 minutes
 3153,exiled,2007,Johnnie To,"Nick Cheung,Roy Cheung,Josie Ho,Francis Ng",2.5,"Action, Crime, Foreign, Thriller",Rated R,110 minutes
@@ -3200,7 +3199,6 @@ id,movie_name,year,directors,actors,critic_rating,genre,pg_rating,duration
 3276,an autumn afternoon,1962,,,4.0,"Drama, Foreign, Indie",Rated Unrated,112 minutes
 3277,badlands,1973,,,4.0,"Drama, Romance, Thriller",Rated PG,95 minutes
 3288,late spring,1972,,,4.0,"Drama, Foreign, Indie",,108 minutes
-3289,chuck jones: three cartoons,-1,,,4.0,,,
 3290,the gospel according to st. matthew,1964,,,4.0,"Drama, Foreign, Indie",,137 minutes
 3292,last tango in paris,1972,"Bernardo Bertolucci, Bernardo Bertolucci","Marlon Brando,Maria Schneider,Jean-Pierre Leaud",4.0,"Drama, Foreign, Romance",Rated NC-17,129 minutes
 3293,el norte,1983,Gregory Nava,"Zaide Silvia Gutierrez,David Villalpando,Ernesto Gomez Cruz,Alicia del Lago,Trinidad Silva",4.0,"Adventure, Drama, Indie",,141 minutes
@@ -3215,7 +3213,7 @@ id,movie_name,year,directors,actors,critic_rating,genre,pg_rating,duration
 3303,fanny and alexander,1983,"Ingmar Bergman, Ingmar Bergman","Pernilla Allwin,Bertil Guve,Jan Malmsjo,Erland Josephson,Kabi Laretei,Gunn Wallgren,Ewa Froling,Gunnar Bjornstrand",4.0,"Drama, Fantasy, Foreign, Mystery",Rated R,188 minutes
 3304,the scarlet empress,1934,,,4.0,"Drama, Romance",,104 minutes
 3310,a year of the quiet sun,1984,,,4.0,"Drama, Foreign, Romance",Rated PG,106 minutes
-3312,breathless,1960,,,4.0,"Crime, Drama, Foreign, Indie",,90 minutes
+3312,breathless,1960,,"Richard Gere, Valerie Kaprisky",4.0,"Crime, Drama, Foreign, Indie",,90 minutes
 3313,bob le flambeur,1955,,,4.0,"Action, Crime, Drama, Foreign",,98 minutes
 3314,"the good, the bad and the ugly",1968,,"Eli Wallach,Lee Van Cleef,Clint Eastwood",4.0,"Action, Adventure, Foreign, Western",Rated R,161 minutes
 3315,mon oncle,1958,,,4.0,"Comedy, Foreign",,110 minutes
@@ -3226,7 +3224,7 @@ id,movie_name,year,directors,actors,critic_rating,genre,pg_rating,duration
 3320,the band wagon,1953,,,4.0,"Comedy, Music",,
 3321,yojimbo,1961,,,4.0,"Action, Drama, Foreign, Indie, Thriller",Rated NR,110 minutes
 3322,the marriage of maria braun,1979,,"Hanna Schygulla,Klaus Lowitsch,Ivan Desny,Gottfried John,Gisela Uhlen,R.W. Fassbinder",4.0,Drama,Rated R,120 minutes
-3323,faust,1926,Alexander Sokurov,,4.0,"Drama, Fantasy, Foreign, Science Fiction",,85 minutes
+3323,faust,1926,Alexander Sokurov,"Florian Brückner, Antje Lewald, Anton Adasinsky, Johannes Zeiler, Hanna Schygulla, Isolda Dychauk, Georg Friedrich",4.0,"Drama, Fantasy, Foreign, Science Fiction",,85 minutes
 3324,woodstock,1970,,,4.0,"Documentary, Music, Musical",Rated R,184 minutes
 3326,howards end,1992,James Ivory,"Anthony Hopkins,Vanessa Redgrave,Emma Thompson,Helena Bonham-Carter",4.0,"Drama, Foreign, Romance",Rated PG,140 minutes
 3340,sansho the bailiff,1954,Kenji Mizoguchi,,4.0,"Drama, Foreign, Indie",Rated NR,124 minutes
@@ -3240,7 +3238,7 @@ id,movie_name,year,directors,actors,critic_rating,genre,pg_rating,duration
 3349,taxi driver,1976,Martin Scorsese,"Robert De Niro,Jodie Foster,Albert Brooks,Harvey Keitel,Leonard Harris,Peter Boyle,Cybill Shepherd",4.0,"Crime, Drama, Thriller",Rated R,112 minutes
 3350,strangers on a train,1951,Alfred Hitchcock,,4.0,"Crime, Drama, Film Noir, Mystery, Suspense, Thriller",Rated PG,101 minutes
 3351,amarcord,1974,Federico Fellini,"Magali Noel,Bruno Zamin,Pupella Maggio,Armando Drancia,Giuseppe Lanigro,Nando Orfei,Chiccio Ingrassia,Luigi Rossi",4.0,"Comedy, Drama, Foreign",Rated R,127 minutes
-3352,west side story,1961,Steven Spielberg,,4.0,"Drama, Music, Musical, Romance",Rated NR,152 minutes
+3352,west side story,1961,Steven Spielberg,"Ansel Elgort, Rachel Zegler, Rita Moreno, Ariana DeBose, David Alvarez, Corey Stoll, Brian d’Arcy James, Josh Andrés Rivera, Mike Faist, Ana Isabelle, Paloma Garcia-Lee, Maddie Ziegler, Andrea Burns, Ricardo Zayas",4.0,"Drama, Music, Musical, Romance",Rated NR,152 minutes
 3353,the manchurian candidate,1962,John Frankenheimer,"Frank Sinatra,Laurence Harvey,Janet Leigh,Angela Lansbury,Henry Silva,James Gregory,Leslie Parrish,John McGiver,Khigh Dhiegh,James Edwards",4.0,"Drama, Thriller",Rated NR,126 minutes
 3354,mean streets,1973,Martin Scorsese,"Robert De Niro,Harvey Keitel,David Proval,Amy Robinson,Richard Romanus",4.0,"Action, Crime, Drama",Rated R,110 minutes
 3355,the man who laughs,1928,,,4.0,"Drama, Horror",,110 minutes
@@ -3261,7 +3259,7 @@ id,movie_name,year,directors,actors,critic_rating,genre,pg_rating,duration
 3375,sunrise,1928,F.W. Murnau,"George O'Brien,Janet Gaynor",4.0,"Crime, Drama, Horror, Romance",,
 3376,leaving las vegas,1995,"Mike Figgis, Mike Figgis","Nicolas Cage,Elisabeth Shue,Julian Sands,Richard Lewis,Valeria Golino",4.0,"Drama, Foreign, Romance",Rated R,112 minutes
 3377,ugetsu,1953,,,4.0,"Comedy, Drama, Fantasy, Foreign, Horror, Science Fiction, Thriller",,94 minutes
-3378,victim,1961,Nancy Schwartzman,,4.0,"Drama, Foreign",,90 minutes
+3378,victim,1961,Nancy Schwartzman,"Rachel De Leon, Amanda Pike",4.0,"Drama, Foreign",,90 minutes
 3379,the big heat,1953,Fritz Lang,"Glenn Ford,Gloria Grahame,Jocelyn Brando,Alexander Scourby,Lee Marvin,Jeannette Nolan",4.0,"Crime, Drama, Film Noir",Rated NR,89 minutes
 3380,jules and jim,1961,Fran,"Jeanne Moreau,Oskar Werner,Henri Serre,Marie Dubois",4.0,"Drama, Foreign, Romance",Rated NR,110 minutes
 3381,the last picture show,1971,Peter Bogdanovich,,4.0,Drama,Rated R,118 minutes
@@ -3272,24 +3270,24 @@ id,movie_name,year,directors,actors,critic_rating,genre,pg_rating,duration
 3386,rashomon,1950,Akira Kurosawa,"Toshiro Mifune,Machiko Kyo,Masayuki Mori,Takashi Shimura,Minoru Chiaki,Kichijiro Ueda",4.0,"Crime, Drama, Foreign, Mystery",Rated NR,88 minutes
 3387,duck soup,1933,,,4.0,Comedy,,68 minutes
 3388,don't look now,1973,,"Julie Christie,Donald Sutherland,Hilary Mason,Cella Matania,Massimo Serato,Renato Scarpa",4.0,"Drama, Foreign, Romance, Thriller",,110 minutes
-3389,the films of buster keaton,-1,,,4.0,,,
-3390,"paris, texas",1984,"Wim Wenders, Wim Wenders",,4.0,"Drama, Indie, Mystery, Romance",Rated R,150 minutes
+3389,the films of buster keaton,nan,,,4.0,,,
+3390,"paris, texas",1984,"Wim Wenders, Wim Wenders","Aurore Clement, Harry Dean Stanton, Dean Stockwell, Nastassja Kinski, Hunter Carson, Dean Stockwell, Bernhard Wicki, Aurore Clement, Nastassja Kinski, Hunter Carson, Harry Dean Stanton, Bernhard Wicki",4.0,"Drama, Indie, Mystery, Romance",Rated R,150 minutes
 3391,the thin man,1934,,,4.0,"Comedy, Crime, Drama, Mystery, Thriller",,93 minutes
 3392,the life and death of colonel blimp,1943,,,4.0,"Comedy, Drama, Foreign, Romance",,163 minutes
 3393,goodfellas,1990,,"Robert De Niro,Ray Liotta,Joe Pesci,Lorraine Bracco",4.0,"Action, Crime, Drama",Rated R,148 minutes
 3394,the blue kite,1993,,,4.0,"Drama, Foreign",,140 minutes
 3395,solaris,1972,Andrei Tarkovsky,,4.0,"Adventure, Drama, Foreign, Mystery, Science Fiction",,167 minutes
 3396,one flew over the cuckoo's nest,1975,Milos Forman,"Jack Nicholson,Louise Fletcher,Will Sampson,William Redfield,Brad Dourif,Sydney Lassick,Scatman Crothers,Dean R. Brooks,Danny DeVito",4.0,Drama,Rated R,129 minutes
-3397,"three colors trilogy: blue, white, red",-1,Krzysztof Kieslowski,,4.0,,,
+3397,"three colors trilogy: blue, white, red",nan,Krzysztof Kieslowski,,4.0,,,
 3398,five easy pieces,1970,,,4.0,Drama,Rated R,98 minutes
 3399,the birth of a nation,1915,Nate Parker,Lillian Gish,4.0,"Drama, History",Rated PG,190 minutes
 3400,nashville,1975,,"David Peel,Ronee Blakley,Allen Garfield,Ned Beatty,Lily Tomlin,Karen Black,Timothy Brown,Michael Murphy,Gwen Welles,Robert Doqui,Keenan Wynn,Shelley Duvall,Scott Glenn,Keith Carradine,Allen Nicholls,Cristina Raines,David Arkin,Geraldine Chaplin,Barbara Harris,Bert Remsen,David Hayward,Jeff Goldblum,Richard Baskin,Merle Kilgore,Elliott Gould,Julie Christie,Barbara Baxley,Henry Gibson",4.0,Drama,Rated R,159 minutes
-3401,the producers,1968,Mel Brooks,,4.0,"Comedy, Music",,88 minutes
+3401,the producers,1968,Mel Brooks,"Debra Monk, Matthew Broderick, Roger Bart, Gary Beach, Andrea Martin, Nathan Lane, Uma Thurman, Will Ferrell",4.0,"Comedy, Music",,88 minutes
 3402,jaws,1975,Steven Spielberg,"Roy Scheider,Robert Shaw,Richard Dreyfuss,Lorraine Gary,Murray Hamilton",4.0,"Horror, Thriller",Rated PG,124 minutes
 3403,shane,1953,,,4.0,"Action, Adventure, Drama, Western",,118 minutes
 3404,romeo and juliet,1968,Franco Zeffirelli,"Leonard Whiting,Olivia Hussey,Michael York,John McEnery,Pat Heywood,Milo O'Shea,Paul Hardwick,Natasha Parry,Antonio Pierfederici,Esmeralda Ruspoli",4.0,"Drama, Foreign, Romance",Rated PG,138 minutes
 3405,ran,1985,,,4.0,"Action, Adventure, Drama, Foreign, History, Indie",Rated R,162 minutes
-3406,dracula,1931,John Badham,,4.0,Horror,Rated NR,72 minutes
+3406,dracula,1931,John Badham,"Donald Pleasance, Kate Nelligan, Frank Langella, Laurence Olivier",4.0,Horror,Rated NR,72 minutes
 3407,l'atalante,1934,,,4.0,"Drama, Foreign, Romance",,89 minutes
 3408,yellow submarine,1968,"George Martin,George Dunning",,4.0,"Animation, Fantasy, Foreign, Music, Science Fiction",Rated G,90 minutes
 3409,grand illusion,1937,,,4.0,"Drama, Foreign, History, Indie, War",,114 minutes
@@ -3323,7 +3321,7 @@ id,movie_name,year,directors,actors,critic_rating,genre,pg_rating,duration
 3437,my life to live,1963,,,4.0,"Drama, Foreign",Rated NR,85 minutes
 3438,pulp fiction,1994,Quentin Tarantino,"John Travolta,Bruce Willis,Samuel L. Jackson,Uma Thurman",4.0,"Action, Crime, Thriller",Rated R,154 minutes
 3439,beauty and the beast,1946,"Gary Trousdale, Kirk Wise",,4.0,"Drama, Fantasy, Foreign, Romance, Science Fiction",Rated NR,96 minutes
-3440,greed,1925,Michael Winterbottom,,4.0,"Drama, History",,
+3440,greed,1925,Michael Winterbottom,"Steve Coogan, Asa Butterfield, Isla Fisher, Sophie Cookson, Shirley Henderson, Stephen Fry, David Mitchell, Sarah Solemani",4.0,"Drama, History",,
 3441,broken blossoms,1919,,,4.0,"Drama, Romance",,90 minutes
 3442,chinatown,1974,Roman Polanski,"Jack Nicholson,Faye Dunaway,John Huston,John Hillerman,Burt Young,Darryl Zwerling,Diane Ladd,Perry Lopez,Joe Mantell,Roman Polanski",4.0,"Crime, Drama, Mystery, Thriller",Rated R,131 minutes
 3443,rear window,1954,Alfred Hitchcock,"James Stewart,Grace Kelly,Raymond Burr,Wendell Corey,Thelma Ritter",4.0,"Suspense, Thriller",Rated PG,114 minutes
@@ -3342,12 +3340,12 @@ id,movie_name,year,directors,actors,critic_rating,genre,pg_rating,duration
 3456,my neighbor totoro,1993,,,4.0,"Adventure, Animation, Family, Fantasy, Foreign, Science Fiction",Rated G,86 minutes
 3457,children of paradise,1945,,,4.0,"Drama, Foreign, Romance",,190 minutes
 3458,laura,1944,,,4.0,"Crime, Drama, Mystery, Romance, Suspense, Thriller",,88 minutes
-3459,king kong,1933,Peter Jackson,,4.0,"Action, Adventure, Drama, Horror, Thriller",Rated NR,100 minutes
+3459,king kong,1933,Peter Jackson,"Jack Black, Naomi Watts, Andy Serkis, Thomas Kretschmann, Evan Parke, Adrien Brody, Colin Hanks",4.0,"Action, Adventure, Drama, Horror, Thriller",Rated NR,100 minutes
 3460,say anything,1989,Cameron Crowe,"John Cusack,Ione Skye,John Mahoney,Lili Taylor,Amy Brooks,Pamela Segall,Jason Gould,Loren Dean",4.0,"Comedy, Drama, Family, Romance",Rated PG-13,103 minutes
 3461,the right stuff,1983,Philip Kaufman,"Sam Shepard,Ed Harris,Fred Ward,Dennis Quaid,Scott Glenn,Barbara Hershey,Mary Jo Deschanel,Pamela Reed",4.0,"Drama, History",Rated PG,193 minutes
 3462,patton,1970,,,4.0,"Action, Drama, History, War",Rated PG,172 minutes
 3463,the grapes of wrath,1940,,,4.0,"Drama, Road Movie",Rated G,129 minutes
-3464,the fall of the house of usher,1928,Mike Flanagan,,4.0,,,66 minutes
+3464,the fall of the house of usher,1928,Mike Flanagan,"Bruce Greenwood, Carla Gugino, Mary McDonnell, Carl Lumbly, Samantha Sloyan, T’Nia Miller, Rahul Kohli, Kate Siegel, Sauriyan Sapkota, Katie Parker, Henry Thomas, Mark Hamill",4.0,,,66 minutes
 3465,amadeus,1984,,,4.0,"Drama, History, Music",Rated PG,158 minutes
 3466,umberto d,1952,,,4.0,"Drama, Foreign",,89 minutes
 3467,jfk,1991,Oliver Stone,"Kevin Costner,Sissy Spacek",4.0,"Drama, Thriller",Rated R,188 minutes
@@ -3362,12 +3360,12 @@ id,movie_name,year,directors,actors,critic_rating,genre,pg_rating,duration
 3476,kind hearts and coronets,1949,,,4.0,"Comedy, Drama, Foreign",,106 minutes
 3477,12 angry men,1957,Jean-Luc Godard,,4.0,"Crime, Drama",Rated NR,96 minutes
 3478,the wild bunch,1969,Sam Peckinpah,"William Holden,Robert Ryan,Warren Oates,Jaime Sanchez",4.0,"Action, Drama, Western",Rated R,145 minutes
-3479,raise the red lantern,1990,Zhang Yimou,,4.0,"Drama, Foreign",,125 minutes
+3479,raise the red lantern,1990,Zhang Yimou,"Jin Shuyuan, Gong Li, Cao Cuifeng, He Caifei",4.0,"Drama, Foreign",,125 minutes
 3480,a hard day's night,1964,Richard Lester,,4.0,"Comedy, Documentary, Foreign, Music",Rated NR,91 minutes
 3481,casablanca,1942,,,4.0,"Crime, Drama, Romance",Rated PG,102 minutes
 3482,ikiru,1952,,,4.0,"Drama, Foreign",,143 minutes
 3483,vertigo,1958,,,4.0,"Crime, Drama, Film Noir, Mystery, Romance, Thriller",Rated PG,129 minutes
-3484,great expectations,1946,Alfonso Cuaron,,4.0,"Drama, Foreign, Romance",Rated NR,118 minutes
+3484,great expectations,1946,Alfonso Cuaron,"Ethan Hawke, Anne Bancroft, Chris Cooper, Gwyneth Paltrow, Hank Azaria, Robert De Niro",4.0,"Drama, Foreign, Romance",Rated NR,118 minutes
 3485,written on the wind,1956,Douglas Sirk,"Rock Hudson,Lauren Bacall,Robert Stack,Dorothy Malone,Robert Keith",4.0,"Drama, Romance",Rated NR,99 minutes
 3486,trouble in paradise,1932,Ernst Lubitsch,,4.0,"Comedy, Romance",Rated NR,83 minutes
 3487,red river,1948,Howard Hawks,"John Wayne,Montgomery Clift,Joanne Dru Groot,Walter Brennan,Coleen Gray,John Ireland,Noah Beery Jr.",4.0,"Action, Western",Rated NR,133 minutes
@@ -3436,6 +3434,6 @@ id,movie_name,year,directors,actors,critic_rating,genre,pg_rating,duration
 3550,sunset boulevard,1950,,,4.0,"Drama, Film Noir, Romance",Rated NR,110 minutes
 3551,my dinner with andre,1981,,,4.0,"Comedy, Drama, Indie",Rated PG,110 minutes
 3552,star wars,1977,George Lucas,"Mark Hamill,Carrie Fisher,Harrison Ford,Alec Guinness,David Prowse,James Earl Jones,Kenny Baker,Anthony Daniels",4.0,,Rated PG,121 minutes
-3553,dr. strangelove,1964,Stanley Kubrick,,4.0,"Comedy, Drama, Foreign, War",Rated PG,95 minutes
+3553,dr. strangelove,1964,Stanley Kubrick,"George C. Scott, Peter Sellers",4.0,"Comedy, Drama, Foreign, War",Rated PG,95 minutes
 3554,belle de jour,1968,Luis Bunuel,"Catherine Deneuve,Jean Sorel,Michel Piccoli,Genevieve Page,Pierre Clementi",4.0,"Drama, Foreign, Indie, Romance",Rated NR,101 minutes
 3555,the 400 blows,1959,,,4.0,"Drama, Foreign, Indie",Rated NR,99 minutes
