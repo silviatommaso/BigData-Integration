@@ -7,7 +7,7 @@ import re
 
 
 base_url = "https://www.rogerebert.com/reviews/"
-output_file = "directors_cast_filled.csv"
+output_file = "dataset_cleaned/movies5_cleaned/roger_ebert_final.csv"
 
 
 df = pd.read_csv("dataset_cleaned/movies5_cleaned/roger_ebert_cleaned.csv")
