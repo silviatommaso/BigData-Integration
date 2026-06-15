@@ -1,4 +1,5 @@
 from roger_ebert_validationScraper import validation_scraper
+from normalizator import normalizer
 
 # STEP I: cleaning and preprocessing of datasets
 
@@ -15,3 +16,4 @@ from roger_ebert_validationScraper import validation_scraper
 " - filling in missing cast members (where possible)"
 
 validation_scraper()
+normalizer("dataset_cleaned/movies5_cleaned/roger_ebert_final.csv", "id")

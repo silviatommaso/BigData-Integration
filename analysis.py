@@ -87,6 +87,9 @@ null_rogerebert_values = df_rogerebert[["year", "directors", "actors", "genre", 
 percentage_null_rogerebert_values = null_rogerebert_values/len(df_rogerebert[["year", "directors", "actors", "genre", "pg_rating", "duration"]])
 print(percentage_null_rogerebert_values)
 
+# msno.matrix(df_rogerebert[["year", "directors", "actors", "genre", "pg_rating", "duration"]].sort_values(by="directors"))
+# plt.show()
+
 ################################################################################################################################################
 
 print("\n")
@@ -101,14 +104,14 @@ print("\n")
 print("\n")
 
 print("NULL VALUES:\n")
-print(df_imdb_movie3.info())
+print(df_imdb_movie5.info())
 print("\n")
-null_values_imdb = df_imdb_movie3.isnull().sum()
+null_values_imdb = df_imdb_movie5.isnull().sum()
 print(null_values_imdb)
 
 print("\n")
 
 print("NULL STATISTICS:\n ")
-null_imdb_values = df_imdb_movie3[["Year", "Rating", "Creators", "Cast", "Genre", "Duration", "ContentRating", "Summary"]].isnull().sum()
-percentage_null_imdb_values = null_imdb_values/len(df_imdb_movie3[["Year", "Rating", "Creators", "Cast", "Genre", "Duration", "ContentRating", "Summary"]])
+null_imdb_values = df_imdb_movie5[["actors"]].isnull().sum()
+percentage_null_imdb_values = null_imdb_values/len(df_imdb_movie5[["actors"]])
 print(percentage_null_imdb_values)
