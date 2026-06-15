@@ -53,12 +53,6 @@ def indicization(df):
     return df
 
 
-def normalize_lowercase(df):
-    df = df.copy()
-    df = df.applymap(lambda x: x.lower() if isinstance(x, str) else x)
-    return df
-
-
 def clean_year(x):
     if pd.isna(x):
         return None
@@ -83,7 +77,7 @@ def clean_year(x):
 def normalizer(file_path):
 
     file_path = Path(file_path)
-    
+
     df = pd.read_csv(file_path)
 
     # rename columns
@@ -97,7 +91,6 @@ def normalizer(file_path):
     df = df[[c for c in FINAL_COLUMNS if c in df.columns]]
 
     # preprocessing pipeline
-    df = normalize_lowercase(df)
     df = indicization(df)
 
     # output path
