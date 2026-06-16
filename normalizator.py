@@ -44,10 +44,13 @@ FINAL_COLUMNS = [
 # =========================
 # FUNCTIONS
 # =========================
-def indicization(df):
+def indicization(df, letter):
     """Assign a sequential ID to each row."""
     df = df.copy()
-    df["ID"] = range(1, len(df) + 1)
+
+    for i in range(1, len(df) + 1):
+        df["ID"][i-1] = letter + str(i)
+
     return df
 
 def clean_year(x):
@@ -114,7 +117,7 @@ def lowercase_text(x):
 # =========================
 # PIPELINE
 # =========================
-def normalizer(file_path):
+def normalizer(file_path, letter):
     file_path = Path(file_path)
     df = pd.read_csv(file_path, encoding="utf-8")
 
@@ -143,7 +146,7 @@ def normalizer(file_path):
             df[col] = df[col].apply(lowercase_text)
 
     # assign sequential IDs
-    df = indicization(df)
+    df = indicization(df, letter)
 
     # convert null into "NULL" characters
     df = df.astype(object).fillna("null")
@@ -152,6 +155,3 @@ def normalizer(file_path):
     output_file = OUTPUT_DIR / f"{file_path.parent.name}_{file_path.name}"
     df.to_csv(output_file, index=False)
     print(f"Saved: {output_file}")
-
-for file in files:
-    normalizer(file)
