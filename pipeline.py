@@ -3,7 +3,7 @@ from pathlib import Path
 import pandas as pd
 
 
-SCHEMA_ALIGN = False
+SCHEMA_ALIGN = True
 
 
 INPUT_DIR = Path("normalized_csv")
@@ -15,6 +15,10 @@ files = [
     INPUT_DIR / "movies5_cleaned_roger_ebert_final.csv",
 ]
 
+DTYPES = {
+    "Year": "Int64",
+    "Duration": "Int64"
+}
 
 
 ############################
@@ -39,6 +43,10 @@ if SCHEMA_ALIGN:
 
     # csv datasets unification
     dfs = [pd.read_csv(f) for f in files]
+
+    dfs["Year"] = dfs["Year"].astype("Int64")
+    dfs["Duration"] = dfs["Duration"].astype("Int64")
+
     merged_df = pd.concat(dfs, ignore_index=True)
     merged_df.to_csv(INPUT_DIR / ".." / "merged_movies.csv", index=False)
     print(f"Totale righe: {len(merged_df)}")
