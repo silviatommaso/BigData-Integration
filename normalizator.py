@@ -9,12 +9,6 @@ BASE_DIR = Path(__file__).parent
 OUTPUT_DIR = BASE_DIR / "normalized_csv"
 OUTPUT_DIR.mkdir(exist_ok=True)
 
-files = [
-    BASE_DIR / "dataset_cleaned/movies3_cleaned/imdb_cleaned.csv",
-    BASE_DIR / "dataset_cleaned/movies3_cleaned/rotten_tomatoes_cleaned.csv",
-    BASE_DIR / "dataset_cleaned/movies5_cleaned/imdb_cleaned.csv",
-    BASE_DIR / "dataset_cleaned/movies5_cleaned/roger_ebert_final.csv",
-]
 
 COLUMN_MAPPING = {
     "id": "ID",
@@ -117,7 +111,8 @@ def lowercase_text(x):
 # =========================
 # PIPELINE
 # =========================
-def normalizer(file_path, letter):
+def normalizer(file_path, letter):    
+
     file_path = Path(file_path)
     df = pd.read_csv(file_path, encoding="utf-8")
 
