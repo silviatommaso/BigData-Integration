@@ -1,11 +1,16 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-import missingno as msno
+#import missingno as msno
 
-df_imdb_movie3 = pd.read_csv("normalized_csv/movies3_cleaned_imdb_cleaned.csv", low_memory=False)
-df_imdb_movie5 = pd.read_csv("normalized_csv/movies5_cleaned_imdb_cleaned.csv", low_memory=False)
-df_rottentomatoes = pd.read_csv("normalized_csv/movies3_cleaned_rotten_tomatoes_cleaned.csv", low_memory=False)
-df_rogerebert = pd.read_csv("normalized_csv/movies5_cleaned_roger_ebert_final.csv", low_memory=False)
+DTYPES = {
+    "Year": "Int64",
+    "Duration": "Int64"
+}
+
+df_imdb_movie3 = pd.read_csv("normalized_csv/movies3_cleaned_imdb_cleaned.csv", dtype=DTYPES, low_memory=False)
+df_imdb_movie5 = pd.read_csv("normalized_csv/movies5_cleaned_imdb_cleaned.csv", dtype=DTYPES, low_memory=False)
+df_rottentomatoes = pd.read_csv("normalized_csv/movies3_cleaned_rotten_tomatoes_cleaned.csv", dtype=DTYPES, low_memory=False)
+df_rogerebert = pd.read_csv("normalized_csv/movies5_cleaned_roger_ebert_final.csv", dtype=DTYPES, low_memory=False)
 
 #########################
 ##### DATA ANALYSIS #####
