@@ -47,7 +47,7 @@ ID,Title,Year,Director,Cast,Genre,Duration
 46,kidnapping mr. heineken,2015,daniel alfredson,"jim sturgess, sam worthington, ryan kwanten","action, crime, drama",95
 47,hayride 2,2015,terron r. parsons,"sherri eakin, jeremy sande, jeremy ivy","action, horror, thriller",92
 48,american justice,2015,demetrius navarro,"john schneider, tommy 'tiny' lister, james russo",action,83
-49,assassin's game,2015,anoop rangi,,action,83
+49,assassin's game,2015,anoop rangi,null,action,83
 50,the minnesota delivery,2015,timothy christian,"wilbert jackson, ambyr pruitt, geoff brown",action,93
 51,roy,2015,vikramjit singh,"ranbir kapoor, jacqueline fernandez, arjun rampal","action, drama, romance",146
 52,mortdecai,2015,david koepp,"johnny depp, gwyneth paltrow, ewan mcgregor","action, comedy, mystery",107
@@ -78,7 +78,7 @@ ID,Title,Year,Director,Cast,Genre,Duration
 77,the demolisher,2015,gabriel carrer,"ry barrett, tianna nori, jessica vano","action, horror, thriller",85
 78,pocket listing,2015,conor allyn,"rob lowe, burt reynolds, noel gugliemi","action, comedy, crime",92
 79,detective byomkesh bakshy!,2015,dibakar banerjee,"sushant singh rajput, anand tiwari, divya menon","action, mystery, thriller",139
-80,jalaibee,2015,yasir jaswal,,"action, crime, thriller",117
+80,jalaibee,2015,yasir jaswal,null,"action, crime, thriller",117
 81,phantom,2015,kabir khan,"saif ali khan, katrina kaif, sabyasachi chakraborty","action, drama, thriller",136
 82,jurassic prey,2015,mark polonia,"houston baker, james carolus, todd carpenter","action, horror, sci-fi",87
 83,in dangerous minds,2015,hussain ahmed,"shawn alli, james tackett, shaker sangam","action, drama",90
@@ -93,15 +93,15 @@ ID,Title,Year,Director,Cast,Genre,Duration
 92,swat: unit 887,2015,timothy woodward jr.,"tom sizemore, mischa barton, timothy woodward jr.","action, thriller",96
 93,blunt force trauma,2015,ken sanzel,"mickey rourke, freida pinto, ryan kwanten",action,97
 94,bad ass 3: bad asses on the bayou,2015,craig moss,"danny trejo, danny glover, john amos","action, drama",85
-95,wolf warrior,2015,wu jing,,"action, drama, war",90
-96,empire of lust,2015,sang-hoon ahn,,"action, drama, romance",113
+95,wolf warrior,2015,wu jing,null,"action, drama, war",90
+96,empire of lust,2015,sang-hoon ahn,null,"action, drama, romance",113
 97,6 ways to die,2015,nadeem soumah,"vinnie jones, michael rene walton, vivica a. fox","action, crime, thriller",103
 98,katherine,2015,charles w. bailey,"tina grimm, tempast wulf, mel heflin","action, horror, romance",80
 99,hood,2015,michael lansu,"thea camara, salvatore covello, harold dennis",action,100
-100,monk comes down the mountain,2015,kaige chen,,"action, history",123
+100,monk comes down the mountain,2015,kaige chen,null,"action, history",123
 101,helios,2015,lok man leung,"jacky cheung, nick cheung, shawn yue","action, crime, fantasy",118
 102,the wave,2015,roar uthaug,"kristoffer joner, thomas bo larsen, ane dahl torp","action, drama, thriller",104
-103,bhaag johnny,2015,shivam nair,,"action, thriller",118
+103,bhaag johnny,2015,shivam nair,null,"action, thriller",118
 104,boy 7,2015,lourens blok,"matthijs van de sande bakhuyzen, ella-june henrard, tygo gernandt","action, sci-fi, thriller",90
 105,sword of vengeance,2015,jim weedon,"stanley weber, edward akrout, misa beric",action,87
 106,dragon blade,2015,daniel lee,"jackie chan, john cusack, adrien brody","action, adventure, drama",127
@@ -134,7 +134,7 @@ ID,Title,Year,Director,Cast,Genre,Duration
 133,iron girl: ultimate weapon,2015,ken'ichi fujiwara,"asami, kirara asuka, hiroaki iwanaga",action,83
 134,smosh: the movie,2015,alex winter,"ian hecox, anthony padilla, michael ian black","action, adventure, comedy",84
 135,batalon,2015,dmitriy meskhiev,"lesya andreeva, mariya antonova, mariya aronova","action, drama, history",120
-136,aoki hagane no arpeggio: ars nova dc,2015,mai fuchigami,,"animation, action, sci-fi",105
+136,aoki hagane no arpeggio: ars nova dc,2015,mai fuchigami,null,"animation, action, sci-fi",105
 137,antigang,2015,benjamin rocher,"jean reno, alban lenoir, caterina murino","action, drama",90
 138,if you know me,2015,gautham menon,"ajith kumar, arun vijay, trisha krishnan","action, drama, mystery",168
 139,avengers grimm,2015,jeremy m. inman,"casper van dien, lauren parkinson, lou ferrigno","action, adventure, fantasy",86
@@ -172,18 +172,18 @@ ID,Title,Year,Director,Cast,Genre,Duration
 171,india's daughter,2015,rupesh paul,"omkar das manikpuri, amann grewal, vishal om prakash","action, crime, drama",110
 172,angry painter,2015,kyu-hwan jeon,"alain garneau, ha-seok jo, moon jong-won","action, drama, thriller",105
 173,srimanthudu,2015,koratalla siva,"jagapathi babu, mahesh babu, shruti k. haasan","action, drama",158
-174,traukinio apiplesimas kuri ivykde saulius ir paulius,2015,simonas askelavicius,,"action, comedy",100
+174,traukinio apiplesimas kuri ivykde saulius ir paulius,2015,simonas askelavicius,null,"action, comedy",100
 175,samrajyam ii: son of alexander,2015,perarasu,"unni mukundan, devan, k.c. shankar","action, crime, thriller",115
 176,kader kuler bou,2015,soubhik kundu,"koneenica banerjee, arindam sil, sankar debnath","action, crime, drama",167
 177,veteran,2015,seung-wan ryoo,"jeong-min hwang, ah in yoo, hae-jin yoo","action, comedy, crime",123
 178,she kills,2015,ron bonk,"jennie russo, trey harrison, michael merchant","action, horror",141
 179,jie jiu wu xian sheng,2015,sheng ding,"andy lau, ye liu, qianyuan wang","action, crime, drama",105
-180,agnee 2,2015,iftakar chowdhury,,action,150
+180,agnee 2,2015,iftakar chowdhury,null,action,150
 181,uppi 2,2015,upendra,"upendra, kristina akheeva, parul yadav","action, mystery, thriller",135
-182,who am i 2015,2015,yinxi song,,action,102
+182,who am i 2015,2015,yinxi song,null,action,102
 183,maari,2015,balaji mohan,"dhanush, kajal agarwal, vijay yesudas","action, comedy, drama",138
 184,idyll,2015,tomaz gorkic,"nina ivanisin, lotos sparovec, nika rozman","action, horror, thriller",83
-185,chandi veeran,2015,a. sarkunam,,"action, drama, romance",115
+185,chandi veeran,2015,a. sarkunam,null,"action, drama, romance",115
 186,double barrel,2015,lijo jose pellissery,"prithviraj sukumaran, indrajith, arya","action, comedy, thriller",158
 187,heneral luna,2015,jerrold tarog,"john arcilla, mon confiado, arron villaflor","action, history",118
 188,kick 2,2015,reddy surender,"tanikella bharani, brahmanandam, nikitin dheer","action, comedy, romance",170
@@ -327,7 +327,7 @@ ID,Title,Year,Director,Cast,Genre,Duration
 326,iceman,2014,wing-cheong law,"donnie yen, baoqiang wang, shengyi huang","action, comedy, history",104
 327,the last survivors,2014,thomas s. hammock,"haley lu richardson, booboo stewart, max charles","action, thriller",95
 328,bordering on bad behavior,2014,jac mulder,"tom sizemore, bernard curry, oz zehavi","action, comedy, drama",105
-329,yaan,2014,ravi k. chandran,,"action, thriller",153
+329,yaan,2014,ravi k. chandran,null,"action, thriller",153
 330,gulaab gang,2014,soumik sen,"madhuri dixit, juhi chawla, divya jagdale","action, drama",139
 331,gunday,2014,ali abbas zafar,"ranveer singh, arjun kapoor, priyanka chopra","action, crime, drama",152
 332,starship: apocalypse,2014,neil johnson,"darren jacobs, emii, brooke lewis","action, sci-fi",86
@@ -378,13 +378,13 @@ ID,Title,Year,Director,Cast,Genre,Duration
 377,aagadu,2014,sreenu vaitla,"mahesh babu, tamannaah bhatia, sonu sood","action, comedy, drama",165
 378,guardian angel,2014,vahik pirhamzei,"vahik pirhamzei, bokeem woodbine, justine wachsberger","action, drama",86
 379,shongram,2014,munsur ali,"anupam kher, asia argento, amaan reza","action, drama, history",103
-380,water wars,2014,cirio h. santiago,,action,78
+380,water wars,2014,cirio h. santiago,null,action,78
 381,not my day,2014,peter thorwarth,"moritz bleibtreu, axel stein, jasmin gerat","action, adventure, comedy",110
 382,apokalips x,2014,mamat khalid,"farid kamil, jehan miskin, peter davis","action, sci-fi",100
 383,ninja immovable heart,2014,rob baard,"rob baard, roger neave, danny glover","action, drama",97
 384,fatal instinct,2014,luciano saber,"ivan sergei, richard burgi, drew fuller",action,90
 385,throwdown,2014,timothy woodward jr.,"timothy woodward jr., mischa barton, vinnie jones","action, thriller",86
-386,manja pai,2014,raghavan,,"action, comedy, drama",130
+386,manja pai,2014,raghavan,null,"action, comedy, drama",130
 387,ninja apocalypse,2014,lloyd lee barnett,"christian oliver, les brandt, cary-hiroyuki tagawa","action, fantasy, horror",84
 388,violet,2014,bas devos,"cesar de sutter, koen de sutter, mira helmer","action, drama, family",85
 389,6 bullets to hell,2014,tanner beard,"tanner beard, crispian belfrage, russell quinn cummings","action, adventure, western",80
@@ -437,7 +437,7 @@ ID,Title,Year,Director,Cast,Genre,Duration
 436,as the light goes out,2014,chi-kin kwok,"nicholas tse, shawn yue, simon yam","action, drama",115
 437,lifetime,2014,paul t.t. easter,"lesley easter, paul t.t. easter, brooke lay","drama, action",45
 438,airplane vs. volcano,2014,james kondelik,"dean cain, robin givens, tamara goodwin","action, sci-fi",91
-439,pi zi ying xiong 2,2014,yueh-hsun tsai,,action,126
+439,pi zi ying xiong 2,2014,yueh-hsun tsai,null,action,126
 440,disaster l.a.,2014,turner clay,"tansy alexander, garrett bales, tasha dixon","action, horror, sci-fi",82
 441,capital punishment,2014,uwe boll,"brendan fletcher, lochlyn munro, mike dopud","action, crime, thriller",93
 442,the dead the damned and the darkness,2014,rene perez,"robert tweten, iren levy, john j. welsh","action, horror, thriller",90
@@ -453,7 +453,7 @@ ID,Title,Year,Director,Cast,Genre,Duration
 452,mardaani,2014,pradeep sarkar,"rani mukerji, tahir raj bhasin, gautam babbar","action, drama, thriller",113
 453,hercules reborn,2014,nick lyon,"john hennigan, christian oliver, marcus shirock","action, adventure",95
 454,not another zombie movie....about the living dead,2014,jack johnson,"jay davis, harold dennis, will cummings iii","action, comedy, horror",79
-455,prophecy of eve,2014,ron santiano,,action,77
+455,prophecy of eve,2014,ron santiano,null,action,77
 456,kirpaan: the sword of honour,2014,amrik gill,"roshan prince, sameksha singh, gurline chopra","action, drama, romance",138
 457,kikaider: the ultimate human robot,2014,ten shimoyama,"jingi irie, kazushige nagashima, aimi satsukawa",action,110
 458,the black rider: revelation road,2014,gabriel sabloff,"james denton, david a.r. white, kevin sorbo","action, drama, fantasy",112
@@ -462,17 +462,17 @@ ID,Title,Year,Director,Cast,Genre,Duration
 461,spiral,2014,andrey volgin,"anatoliy rudenko, konstantin kryukov, klarissa barskaya",action,100
 462,goli soda,2014,vijay milton,"kishore, sri ram, pakoda pandi","action, drama",111
 463,our robocop remake,2014,kelsy abbott,"chase fein, nichole bagby, willy roberts","animation, action, comedy",108
-464,the huntresses,2014,jae-hyun park,,"action, comedy",107
+464,the huntresses,2014,jae-hyun park,null,"action, comedy",107
 465,atlanta heat 2,2014,al g. sillah,"shaniqua adams, andrew bellamy, ray benitez","action, crime, drama",103
 466,dishkiyaoon,2014,sanamjit singh talwar,"harman baweja, harsh chhaya, sunny deol","action, thriller",119
 467,heart attack,2014,puri jagannadh,"hare das ahatefu, brahmanandam, tejaswi madivada","action, romance",142
 468,legend,2014,boyapati srinu,"balakrishna, jagapathi babu, radhika apte","action, crime, drama",168
 469,street society,2014,awi suryadi,"edward akbar, marcel chandrawinata, edward gunawan",action,97
 470,operation rogue,2014,brian clyde,"mark dacascos, sofia pernas, treat williams","action, crime, thriller",88
-471,zombie fight club,2014,joe chien,,"action, horror",95
+471,zombie fight club,2014,joe chien,null,"action, horror",95
 472,anjaan,2014,n. linguswamy,"suriya, samantha ruth prabhu, vidyut jamwal","action, drama, romance",166
 473,naan sigappu manithan,2014,thiru,"vishal, lakshmi menon, iniya","action, drama",149
-474,monster,2014,in-ho hwang,,action,113
+474,monster,2014,in-ho hwang,null,action,113
 475,trapped abroad,2014,janchivdorj sengedorj,"amarsaikhan baljinnyam, erdenebileg ganbold, bayasgalan jadamba",action,100
 476,the lost legion,2014,david kocar,"tom mckay, michelle lukes, brian caspe","action, adventure, history",107
 477,the target,2014,chang,"seung-ryong ryu, joon-sang yoo, jin-wook lee","action, thriller",98
@@ -483,7 +483,7 @@ ID,Title,Year,Director,Cast,Genre,Duration
 482,high kick angels,2014,kazuhiro yokoyama,"kaede aono, risako ito, mayu kawamoto",action,90
 483,guardian,2014,helfi c.h. kardit,"sarah carter, tio pakusodewo, nino fernandez","action, thriller",91
 484,blood sugar baby,2014,igal weitzman,"carolina parsons, vesta lugg-fournier, peter rock","action, comedy, crime",80
-485,irumbu kuthirai,2014,yuvaraj bose,,"action, drama",126
+485,irumbu kuthirai,2014,yuvaraj bose,null,"action, drama",126
 486,the ninja war of torakage,2014,yoshihiro nishimura,"yuria haga, tatsuki ishikawa, ryohei kuroyanagi",action,94
 487,killing love,2014,jakub niescierow,"zbigniew zamachowski, arkadiusz jakubik, ireneusz czop","action, comedy",85
 488,no tears for the dead,2014,jeong-beom lee,"dong-gun jang, min-hee kim, brian tee","action, drama",116
@@ -504,7 +504,7 @@ ID,Title,Year,Director,Cast,Genre,Duration
 503,kaththi,2014,a.r. murugadoss,"vijay, samantha ruth prabhu, neil nitin mukesh","action, drama",166
 504,banting,2014,raihan halim,"adlina adil, mastura ahmad, ashley chan","action, drama, sport",110
 505,elimination game,2014,jon hewitt,"dominic purcell, viva bianca, robert taylor",action,90
-506,madras,2014,pa. ranjith,,"action, drama, war",156
+506,madras,2014,pa. ranjith,null,"action, drama, war",156
 507,the amazing praybeyt benjamin,2014,wenn v. deramas,"vice ganda, james bimby aquino, richard yap","action, comedy, fantasy",105
 508,lupin the iiird: jigen daisuke no bohyo,2014,takeshi koike,"akio hirose, kiyoshi kobayashi, kan'ichi kurita","action, crime",51
 509,man on high heels,2014,jin jang,"seung-won cha, jeong-se oh, esom","action, comedy",125
@@ -512,7 +512,7 @@ ID,Title,Year,Director,Cast,Genre,Duration
 511,sming,2014,pan visitsak,"thanyaboon boonprasert, geoffrey giuliano, naerunchara lertparsert","action, drama",105
 512,warrior princess,2014,shuudertsetseg baatarsuren,"batmend baast, otgonjargal davaasuren, myagmarnaran gombo","action, war",95
 513,slit mouth woman in la,2014,akira hirose,"megumi ageishi, mennell alkhawaja, courtney bandeko","action, horror, mystery",104
-514,meagamann,2014,magizh thirumeni,,"action, drama",139
+514,meagamann,2014,magizh thirumeni,null,"action, drama",139
 515,thirudan police,2014,caarthick raju,"dinesh, iyshwarya rajesh, bala saravanan","action, comedy, drama",136
 516,the janitor,2014,michael tuviera,"dennis trillo, richard gomez, ricky davao","action, crime, drama",115
 517,spark,2014,v.k. singh,"rati agnihotri, mansha bahl, rajneesh duggal",action,134
@@ -520,7 +520,7 @@ ID,Title,Year,Director,Cast,Genre,Duration
 519,ardennes fury,2014,joseph j. lawson,"tom stedham, bill voorhees, tino struckmann","action, war",87
 520,age of ice,2014,emile edwin smith,"barton bund, bailey spry, jules hartley","action, adventure, sci-fi",85
 521,sigaram thodu,2014,gaurav narayanan,"vikram prabhu, satyaraj, monal gajjar","action, thriller",147
-522,abang long fadil,2014,syafiq yusof,,action,107
+522,abang long fadil,2014,syafiq yusof,null,action,107
 523,borbaad,2014,raj chakraborty,"mainak banerjee, rittika sen, bonny sengupta","action, drama, romance",140
 524,chuzhaya voyna,2014,aleksandr chernyaev,"valeriy afanasev, egor antonov, vladimir dubrovskiy","action, drama, war",100
 525,raiders of the lost shark,2014,scott patrick,"dan desmarais, peter whittaker, kitty kamieniecki","action, horror, sci-fi",71
@@ -536,15 +536,15 @@ ID,Title,Year,Director,Cast,Genre,Duration
 535,vengeance of an assassin,2014,panna rittikrai,"nantawooti boonrapsap, dan chupong, kessarin ektawatkul",action,90
 536,for the emperor,2014,sang jun park,"jae-young han, jae-won lee, min-ki lee","action, crime, thriller",104
 537,big match,2014,ho choi,"jung-jae lee, ha-kyun shin, sung-min lee","action, comedy, thriller",112
-538,brother of bommali,2014,chinni krishna,,"action, drama",160
+538,brother of bommali,2014,chinni krishna,null,"action, drama",160
 539,the golden cane warrior,2014,ifa isfansyah,"tara basro, christine hakim, eva celia latjuba",action,111
 540,the master,2014,ke zhou,"xiangguo chang, mai jintong, cheng ni",action,86
 541,kung pow charlie,2014,corey b. stevens,"paul ohlman, tony cacaro, tara kiely","action, comedy",115
 542,magnum muslim .357,2014,francis posadas,"clarence delgado, jorge estregan, khalid gunting",action,140
-543,mr and mrs ramachari,2014,santhosh ananddram,,"action, drama, romance",156
+543,mr and mrs ramachari,2014,santhosh ananddram,null,"action, drama, romance",156
 544,the con artists,2014,hong-seon kim,"woo-bin kim, yeong-cheol kim, chang-seok ko","action, crime, drama",117
 545,the lies we tell but the secrets we keep part 3,2014,milon v. parker,"anita nicole brown, milon v. parker","action, drama, romance",120
-546,tomb robber,2014,dao yu,,"action, adventure, mystery",95
+546,tomb robber,2014,dao yu,null,"action, adventure, mystery",95
 547,baaz,2014,simerjit singh,"mukul dev, babbu mann, yograj singh",action,142
 548,the youth,2014,seong-su ju,"hae-in jung, dong-hae lee, ji-hyun nam","action, drama",125
 549,policewala gunda 2,2014,r.t. neason,"vijay, kajal agarwal, mohanlal",action,156
@@ -756,14 +756,14 @@ ID,Title,Year,Director,Cast,Genre,Duration
 755,arrambam,2013,vishnuvardhan,"ajith kumar, arya, nayanthara","action, drama, mystery",157
 756,rajdhani express,2013,ashok kohli,"ishrat ali, nishant balgovind, sayali bhagat","action, drama, thriller",140
 757,ivan veramaathiri,2013,m. saravanan,"vikram prabhu, surabhi, ganesh venkatraman","action, romance",150
-758,adormidera,2013,raymond mizzi,,"action, adventure, fantasy",90
+758,adormidera,2013,raymond mizzi,null,"action, adventure, fantasy",90
 759,mobster,2013,brian eric johnson,"meni aga, michel wakim, hamzah saman","action, crime, drama",87
 760,boss,2013,anthony d'souza,"akshay kumar, shiv pandit, mithun chakraborty","action, comedy, drama",143
 761,disaster wars: earthquake vs. tsunami,2013,david palmieri,"joe estevez, priscilla barnes, reggie bannister","action, drama, sci-fi",85
 762,vendetta,2013,stephen reynolds,"danny dyer, vincent regan, roxanne mckee","action, thriller",106
 763,g.d.o. blackcat,2013,murat aslan,"safak sezer, serkan sengul, melisa pamuk","action, comedy",97
 764,krampus: the christmas devil,2013,jason hull,"jay dobyns, paul ferm, andrew ferrick","action, horror, thriller",82
-765,avenged,2013,donovan marsh,,"action, crime, drama",96
+765,avenged,2013,donovan marsh,null,"action, crime, drama",96
 766,the major,2013,yuriy bykov,"denis shvedov, yuriy bykov, irina nizina","action, crime, drama",99
 767,police story: lockdown,2013,sheng ding,"jackie chan, ye liu, tian jing","action, crime, drama",110
 768,black ice,2013,johnny gogan,"jane mcgrath, killian scott, dermot murphy","action, crime, sport",100
@@ -800,7 +800,7 @@ ID,Title,Year,Director,Cast,Genre,Duration
 799,ku_on,2013,takayuki hatamura,"haruna isaoka, sou sato, nana seino","action, drama, sci-fi",78
 800,knight of the dead,2013,mark atkins,"feth greenwood, vivien vilela, lee bennett","action, fantasy, horror",82
 801,aurangzeb,2013,atul sabharwal,"arjun kapoor, sasha aagha, prithviraj sukumaran","action, drama, thriller",137
-802,rangeelay,2013,navaniat singh,,"action, comedy, drama",129
+802,rangeelay,2013,navaniat singh,null,"action, comedy, drama",129
 803,extraction,2013,tony giglio,"jon foo, falk hentschel, vinnie jones",action,106
 804,revelation road 2: the sea of glass and fire,2013,gabriel sabloff,"david a.r. white, brian bosworth, andrea logan white",action,90
 805,ice agent,2013,ray o'neill,"ray o'neill, michael madsen, joanna pacula",action,93
@@ -847,7 +847,7 @@ ID,Title,Year,Director,Cast,Genre,Duration
 846,ainthu ainthu ainthu,2013,sasi,"bharath srinivasan, mirthika, erica fernandes",action,147
 847,the snow queen,2013,rene perez,"nadia lanfranconi, iren levy, aurelia scheppers","action, adventure, fantasy",90
 848,commitment,2013,hong-soo park,"seung hyun choi, ye-ri han, ho-bin jeong","action, drama",113
-849,adnan sempit 3,2013,ismail bob hasim,,"action, comedy",83
+849,adnan sempit 3,2013,ismail bob hasim,null,"action, comedy",83
 850,tough as iron,2013,kwon-tae ahn,"ah in yoo, seong-oh kim, yu-mi jeong","action, drama, family",108
 851,sensei redenshon,2013,german gruber jr.,"amos balentin, milushka birge, benazir charles","action, drama",110
 852,kingdom of conquerors,2013,ping wang,"le geng, xiaoran li, hideo nakaizumi","action, drama, history",108
@@ -863,16 +863,16 @@ ID,Title,Year,Director,Cast,Genre,Duration
 862,firestorm,2013,alan yuen,"chen yao, ka tung lam, andy lau","action, crime, thriller",118
 863,lawless kingdom,2013,gordon chan,"chao deng, yifei liu, anthony chau-sang wong","action, adventure",118
 864,hotel inferno,2013,giulio de santi,"rayner bourton, jessica carroll, michael howe","action, horror",80
-865,the suspect,2013,shin-yeon won,,"action, thriller",137
+865,the suspect,2013,shin-yeon won,null,"action, thriller",137
 866,mahabharat,2013,amaan khan,"amitabh bachchan, ajay devgn, vidya balan","animation, action",105
 867,high kickers,2013,xie yi,"daniel hiu tung chan, mark cheng, shengyi huang","action, sport",93
 868,song 'e napule,2013,antonio manetti,"alessandro roja, giampaolo morelli, serena rossi","action, comedy, crime",114
 869,sorry i love you,2013,larry yang,"vivian dawson, yu lin, swan wen","action, drama, romance",107
 870,the constable,2013,dennis law,"simon yam, suet lam, sam lee","action, drama",96
-871,7 assassins,2013,eric tsang,,"action, adventure",103
-872,warrior assassin,2013,dou xiao,,action,94
+871,7 assassins,2013,eric tsang,null,"action, adventure",103
+872,warrior assassin,2013,dou xiao,null,action,94
 873,heatstroke,2013,evelyn purcell,"stephen dorff, warrick grier, calvin hayward","action, drama, thriller",92
-874,the five,2013,yeon-sik jung,,"action, drama, mystery",123
+874,the five,2013,yeon-sik jung,null,"action, drama, mystery",123
 875,d'curse,2013,alex maisonette,"michael wright, alex maisonette, felipe luciano",action,95
 876,foodfight!,2012,lawrence kasanoff,"hilary duff, haylie duff, charlie sheen","animation, action, comedy",91
 877,john carter,2012,andrew stanton,"taylor kitsch, lynn collins, willem dafoe","action, adventure, fantasy",132
@@ -996,7 +996,7 @@ ID,Title,Year,Director,Cast,Genre,Duration
 995,6 bullets,2012,ernie barbarash,"jean-claude van damme, joe flanigan, anna-louise plowman","action, crime, thriller",115
 996,tai chi zero,2012,stephen fung,"hark-on fung, stephen fung, xiaochao yuan","action, drama",98
 997,true bloodthirst,2012,todor chapkanov,"andrew lee potts, heida reed, claudia bassols","action, horror, sci-fi",90
-998,masterminds,2012,david keary,,"action, crime, drama",89
+998,masterminds,2012,david keary,null,"action, crime, drama",89
 999,hijacked,2012,brandon nutt,"vinnie jones, rob steinberg, craig fairbrass","action, thriller",86
 1000,el gringo,2012,eduardo rodriguez,"scott adkins, petar bachvarov, zachary baharov","action, drama",99
 1001,dust up,2012,ward roberts,"amber benson, jeremiah birkett, aaron gaffey","action, adventure, comedy",94
@@ -1047,13 +1047,13 @@ ID,Title,Year,Director,Cast,Genre,Duration
 1046,department,2012,ram gopal varma,"amitabh bachchan, rana daggubati, sanjay dutt",action,141
 1047,sword of the assassin,2012,victor vu,"huynh dong, midu, khuong ngoc",action,100
 1048,thuppakki,2012,a.r. murugadoss,"vijay, kajal agarwal, sathyan","action, crime, thriller",165
-1049,maharana pratap: the first freedom fighter,2012,pradeep kumawat,,"action, war",145
-1050,mantera,2012,aliyar ali kutty,,"action, sci-fi",117
+1049,maharana pratap: the first freedom fighter,2012,pradeep kumawat,null,"action, war",145
+1050,mantera,2012,aliyar ali kutty,null,"action, sci-fi",117
 1051,the lackey,2012,shaun paul piccinino,"shaun paul piccinino, vernon wells, carlos baca",action,94
 1052,thadayara thakka,2012,magizh thirumeni,"arun vijay, mamta mohandas, rakul preet singh",action,128
 1053,dead moon circus,2012,james peniata,"aprille lim, renee lim, madi busch","action, comedy, fantasy",132
 1054,because i love you,2012,joseph a. elmore jr.,"chico benymon, courtney cameron, kendrick smith","action, crime, drama",105
-1055,the four,2012,gordon chan,,"action, crime, fantasy",118
+1055,the four,2012,gordon chan,null,"action, crime, fantasy",118
 1056,rise of the black bat,2012,scott patrick,"jody haucke, richard groen, dixie collins","action, sci-fi",80
 1057,muppozhudhum un karpanaigal,2012,elred kumar,"atharvaa murali, amala paul, anupama kumar","action, romance, thriller",140
 1058,berserk: the golden age arc i - the egg of the king,2012,toshiyuki kubooka,"hiroaki iwanaga, takahiro sakurai, toa yukinari","animation, action, adventure",76
@@ -1103,7 +1103,7 @@ ID,Title,Year,Director,Cast,Genre,Duration
 1102,croczilla,2012,li sheng lin,"tao guo, barbie hsu, suet lam","action, comedy, horror",90
 1103,mirza: the untold story,2012,baljit singh deo,"gippy grewal, mandy takhar, rahul dev","action, comedy, crime",167
 1104,berserk: the golden age arc ii - the battle for doldrey,2012,toshiyuki kubooka,"orion acaba, chris jai alex, g.k. bowes","animation, action, adventure",80
-1105,brawl,2012,julaluck ismalone,,action,92
+1105,brawl,2012,julaluck ismalone,null,action,92
 1106,mugamoodi,2012,myshkin,"jiiva, narein, nasser","action, drama",150
 1107,skull forest,2012,len kabasinski,"brian anthony, brian arrington, luc bernier","action, adventure, horror",74
 1108,a company man,2012,sang-yoon lim,"ji-seob so, mi-yeon lee, do won kwak","action, drama, thriller",96
@@ -1119,7 +1119,7 @@ ID,Title,Year,Director,Cast,Genre,Duration
 1118,hero,2012,deepan,"arun, bala, jins baskar","action, drama, thriller",163
 1119,40 days and nights,2012,peter geiger,"alex carter, monica keena, alex arleo","action, adventure, sci-fi",86
 1120,the grand heist,2012,joo-ho kim,"tae-hyun cha, ji-ho oh, hyo-rin min","action, comedy, history",121
-1121,friends never die,2012,atsajun sattakovit,,action,103
+1121,friends never die,2012,atsajun sattakovit,null,action,103
 1122,silent echo,2012,cory malkin,"bradley beamon, ryan beamon, jeffrey benesh","action, adventure, war",48
 1123,the last tycoon,2012,jing wong,"yun-fat chow, xiaoming huang, sammo kam-bo hung","action, adventure, drama",107
 1124,confession of murder,2012,byeong-gil jeong,"won-young choi, gwang jang, jae-yeong jeong","action, mystery, thriller",119
@@ -1127,13 +1127,13 @@ ID,Title,Year,Director,Cast,Genre,Duration
 1126,gekijouban tiger & bunny: the beginning,2012,yoshitomo yonetani,"hiroaki hirata, masakazu morita, minako kotobuki","animation, action, sci-fi",88
 1127,war of the worlds the true story,2012,timothy hines,"jack clay, jim cissell, susan goforth","action, sci-fi",102
 1128,the tower,2012,ji-hoon kim,"sang-kyung kim, ye-jin son, kyung-gu sol","action, comedy, drama",121
-1129,the gangster,2012,kongkiat khomsiri,,"action, crime, drama",114
+1129,the gangster,2012,kongkiat khomsiri,null,"action, crime, drama",114
 1130,zone,2012,esa luttinen,"sami tikkanen, timo piiri, sami sundman","action, sci-fi",111
 1131,killing heat,2012,daniel dahl,"kim andersen, prajark bhudprom, oranuch bunyjam","action, comedy, crime",90
 1132,the hunt,2012,thomas szczepanski,"guillaume beylard, zuriel de peslouan, sarah lucide","action, horror, thriller",74
 1133,codename: jackal,2012,hyeong-jun bae,"jae-joong kim, ji-hyo song, dal-su oh","action, comedy",107
-1134,kepong gangster,2012,teng bee,,"action, crime",106
-1135,big fish,2012,banzragch batbold,,action,103
+1134,kepong gangster,2012,teng bee,null,"action, crime",106
+1135,big fish,2012,banzragch batbold,null,action,103
 1136,chingari,2012,harsha,"darshan thoogudeep, deepika kamaiah, bhavana","action, thriller",148
 1137,the king of the streets,2012,zhong lei,"li chang-hai, kang en, yang jianping",action,88
 1138,spy,2011,alexander klymko,"vincent pastore, ben curtis, lora kojovic","action, crime, drama",110
@@ -1265,8 +1265,8 @@ ID,Title,Year,Director,Cast,Genre,Duration
 1264,father's day,2011,adam brooks,"adam brooks, matthew kennedy, conor sweeney","action, comedy, horror",99
 1265,vamp u,2011,matt jespersen,"adam johnson, julie gonzalo, gary cole","action, comedy, horror",100
 1266,mercenaries,2011,paris leonti,"robert fucilla, kirsty mitchell, rob james-collier","action, drama",97
-1267,empire of assassins,2011,mo tse,,action,93
-1268,parama veera chakra,2011,narayana rao dasari,,"action, drama, romance",160
+1267,empire of assassins,2011,mo tse,null,action,93
+1268,parama veera chakra,2011,narayana rao dasari,null,"action, drama, romance",160
 1269,zombie diaries 2,2011,michael g. bartlett,"philip brodie, alix wilton regan, rob oldfield","action, horror, sci-fi",88
 1270,dawn of the dragonslayer,2011,anne k. black,"richard mcwilliams, nicola posener, philip brodie","action, adventure, fantasy",97
 1271,ghett'a life,2011,chris browne,"winston bell, kevoy burton, o'daine clarke","action, drama",104
@@ -1283,7 +1283,7 @@ ID,Title,Year,Director,Cast,Genre,Duration
 1282,poongsan,2011,jai-hong juhn,"kye sang yoon, jong-soo kim, han gi-joong","action, drama, romance",121
 1283,fullmetal alchemist: the sacred star of milos,2011,kazuya murata,"vic mignogna, maxey whitehead, alexis tipton","animation, action, adventure",110
 1284,de force,2011,frank henry,"isabelle adjani, eric cantona, simon abkarian",action,96
-1285,free man,2011,mehmet tanrisever,,"action, biography, drama",163
+1285,free man,2011,mehmet tanrisever,null,"action, biography, drama",163
 1286,clash of empires,2011,yusry abd halim,"stephen rahman hughes, gavin stenhouse, jing lusi","action, adventure",109
 1287,kingdom of gladiators,2011,stefano milla,"maurizio corigliano, sharon fryer, leroy kincaide","action, adventure, fantasy",85
 1288,house of the rising sun,2011,brian a miller,"dave bautista, amy smart, dominic purcell","action, crime, drama",90
@@ -1296,7 +1296,7 @@ ID,Title,Year,Director,Cast,Genre,Duration
 1295,bomb squad,2011,nick chamberlin,"craig beeman, andrew chamberlin, bob diven",action,83
 1296,aadukalam,2011,vetrimaaran,"dhanush, tapsee pannu, jayabalan","action, drama, romance",160
 1297,the bodyguard,2011,siddique,"vijay, asin, raj kiran","action, drama, romance",155
-1298,siruthai,2011,siva,,"action, comedy, drama",160
+1298,siruthai,2011,siva,null,"action, comedy, drama",160
 1299,top cat: the movie,2011,alberto mar,"jason harris, chris edgerly, bill lobley","animation, action, comedy",90
 1300,traffic,2011,rajesh pillai,"sreenivasan, kunchacko boban, rahman","action, adventure, mystery",122
 1301,hostel,2011,manish gupta,"vatsal seth, tulip joshi, mukesh tiwari","action, crime, drama",111
@@ -1315,7 +1315,7 @@ ID,Title,Year,Director,Cast,Genre,Duration
 1314,legend of kung fu rabbit,2011,lijun sun,"jon heder, tom arnold, rebecca black","animation, action, adventure",89
 1315,falls the shadow,2011,steven berryessa,"jordan bakke, bethany berryessa, ron berryessa","action, horror, thriller",93
 1316,catch .44,2011,aaron harvey,"malin akerman, nikki reed, deborah ann woll","action, crime, drama",94
-1317,mappillai,2011,suraj,,action,160
+1317,mappillai,2011,suraj,null,action,160
 1318,the raid: redemption,2011,gareth evans,"iko uwais, ananda george, ray sahetapy","action, thriller",101
 1319,murder 2,2011,mohit suri,"prashant narayannan, jacqueline fernandez, yana gupta","action, crime, drama",127
 1320,kongsi,2011,farid kamil,"shaheizy sam, fizo omar, norliana samsudin",action,90
@@ -1327,11 +1327,11 @@ ID,Title,Year,Director,Cast,Genre,Duration
 1326,shatru,2011,raj chakraborty,"jeet, nusrat jahan, haradhan bannerjee","action, crime, drama",150
 1327,kempe gowda,2011,sudeep,"sudeep, ragini dwivedi, p. ravi shankar","action, crime, thriller",141
 1328,velayudham,2011,m. raja,"vijay, genelia d'souza, hansika motwani","action, comedy, drama",160
-1329,how to steal 2 million,2011,charlie vundla,,"action, drama",82
+1329,how to steal 2 million,2011,charlie vundla,null,"action, drama",82
 1330,sneakers,2011,ivan vladimirov,"ivo arakov, phillip avramov, ivan barnev","action, adventure, drama",111
 1331,josef,2011,stanislav tomic,"neven aljinovic-tot, alen liveric, drazen sivak","action, war",90
-1332,moby dick,2011,in-je park,,action,112
-1333,venghai,2011,hari,,"action, drama, family",155
+1332,moby dick,2011,in-je park,null,action,112
+1333,venghai,2011,hari,null,"action, drama, family",155
 1334,force,2011,nishikant kamat,"john abraham, genelia d'souza, raj babbar","action, crime, drama",137
 1335,naruto shippuden the movie: blood prison,2011,masahiko murata,"junko takeuchi, chie nakamura, rikiya koyama","animation, action, comedy",108
 1336,tekken: blood vengeance,2011,yoichi mori,"christine marie cabanos, isshin chiba, kyle hebert","animation, action, sci-fi",100
@@ -1357,12 +1357,12 @@ ID,Title,Year,Director,Cast,Genre,Duration
 1356,bini-biniku gangster,2011,ismail bob hasim,"shaheizy sam, norliana samsudin, intan ladyana","action, comedy",92
 1357,kl gangster,2011,syamsul yusof,"aaron aziz, adam corrie, ridzuan hashim",action,81
 1358,panjaa,2011,vishnuvardhan,"sarah-jane dias, anjali lavania, jackie shroff","action, crime, thriller",156
-1359,boy s tenyu 3. posledniy raund,2011,egor golovenkin,,"action, drama",125
+1359,boy s tenyu 3. posledniy raund,2011,egor golovenkin,null,"action, drama",125
 1360,manila kingpin: the asiong salonga story,2011,tikoy aguiluz,"jorge estregan, roi vinzon, danny labra","action, crime, drama",145
 1361,white vengeance,2011,daniel lee,"shaofeng feng, leon lai, hanyu zhang","action, drama, history",135
 1362,enteng ng ina mo,2011,tony y. reyes,"vic sotto, ai-ai de las alas, eugene domingo","action, adventure, comedy",110
-1363,yang men nu jiang zhi jun ling ru shan,2011,frankie chan,,action,107
-1364,the mentalist,2011,walmer sitohang,,action,90
+1363,yang men nu jiang zhi jun ling ru shan,2011,frankie chan,null,action,107
+1364,the mentalist,2011,walmer sitohang,null,action,90
 1365,red vs. blue season 9,2011,burnie burns,"mark bellman, jen brown, burnie burns","animation, action, comedy",125
 1366,any last words?,2011,vaughn taylor,"tom lagleder, vaughn taylor, elizabeth tinder","action, western",90
 1367,ang panday 2,2011,mac alejandre,"ramon 'bong' revilla jr., marian rivera, phillip salvador","action, adventure, drama",110
@@ -1381,8 +1381,8 @@ ID,Title,Year,Director,Cast,Genre,Duration
 1380,leap: rise of the beast,2011,chris tempel,"benjamin baker, alexander j. bonds, matthew a. clark",action,75
 1381,road to kabul,2011,brahim chkiri,"said bey, younes bouab, rafik boubker",action,112
 1382,the pretty boys,2011,everett lewis,"josh beren, bryce blais, erin carere",action,102
-1383,the beast,2011,yoo-sik hwang,,"action, thriller",93
-1384,narx,2011,alex maisonette,,action,94
+1383,the beast,2011,yoo-sik hwang,null,"action, thriller",93
+1384,narx,2011,alex maisonette,null,action,94
 1385,this girl is bad-ass!!,2011,petchtai wongkamlao,"petchtai wongkamlao, jeeja yanin, akom preedakul","action, comedy, crime",99
 1386,the confession,2011,brad mirman,"michael badalucco, patrick brana, max casella","action, crime, drama",63
 1387,the lawmen,2011,matthew barber,"nathaniel barber, matthew barber, chad hendrick","action, adventure, western",92
@@ -1523,7 +1523,7 @@ ID,Title,Year,Director,Cast,Genre,Duration
 1522,macgruber,2010,jorma taccone,"will forte, kristen wiig, val kilmer","action, comedy, romance",90
 1523,transparency,2010,raul inglis,"lou diamond phillips, estella warren, deborah kara unger","action, crime, drama",96
 1524,wildfire: the arabian heart,2010,michael vincent,"willa townsend, alex bartlett, gary david keast","action, comedy, drama",88
-1525,asal,2010,saran,,action,135
+1525,asal,2010,saran,null,action,135
 1526,anima and persona,2010,thiagarajan kumararaja,"sampath raj, jackie shroff, ravi krishna","action, comedy, crime",153
 1527,paiyaa,2010,n. linguswamy,"karthi, tamannaah bhatia, milind soman","action, comedy, musical",152
 1528,thillalangadi,2010,m. raja,"jeyam ravi, tamannaah bhatia, shaam","action, comedy, romance",181
@@ -1564,7 +1564,7 @@ ID,Title,Year,Director,Cast,Genre,Duration
 1563,chase,2010,jag mundhra,"anuj saxena, udita goswami, tarina patel","action, crime, drama",103
 1564,donkey,2010,adrian langley,"matthew stefiuk, cassandra petrella, greg hiscock","action, crime, drama",90
 1565,deadly closure,2010,andrzej mrotek,"lisa varga, audrey landers, diane ford","action, drama, mystery",100
-1566,hunted by night,2010,juan bofill,,action,110
+1566,hunted by night,2010,juan bofill,null,action,110
 1567,locked down,2010,daniel zirilli,"tony schiena, rashad evans, vinnie jones","action, crime, thriller",99
 1568,fire of conscience,2010,dante lam,"leon lai, richie jen, baoqiang wang","action, crime, mystery",106
 1569,prasthanam,2010,katta deva,"jeeva, sundeep kishan, vennela kishore","action, drama",153
@@ -1583,7 +1583,7 @@ ID,Title,Year,Director,Cast,Genre,Duration
 1582,planzet,2010,jun awazu,"kaori ishihara, masami iwasaki, mamoru miyano","animation, action, sci-fi",53
 1583,outbound,2010,bogdan george apetri,"ana ularu, andi vasluianu, ioana flora","action, drama",87
 1584,iron lord,2010,dmitriy korobkin,"aleksandr ivashkevich, svetlana chuykina, aleksey kravchenko","action, biography, drama",100
-1585,cowboys and vampires,2010,douglas myers,,"action, horror, western",94
+1585,cowboys and vampires,2010,douglas myers,null,"action, horror, western",94
 1586,new kids turbo,2010,steffen haars,"huub smit, tim haars, wesley van gaalen","action, comedy",84
 1587,shark,2010,s.p. rajkumar,"vijay, tamannaah bhatia, vadivelu",action,159
 1588,websitestory,2010,dan chisu,"crina semciuc, diana gursca, oreste alexandru scarlat teodorescu","action, drama",82
@@ -1606,7 +1606,7 @@ ID,Title,Year,Director,Cast,Genre,Duration
 1605,portrait of the fighter as a young man,2010,constantin popescu,"constantin dita, bogdan dumitrache, ionut caras","action, drama, history",163
 1606,rakhta charitra 2,2010,ram gopal varma,"shatrughan sinha, vivek oberoi, suriya","action, crime, drama",135
 1607,blades of blood,2010,joon-ik lee,"jeong-min hwang, seung-won cha, ji-hye han",action,108
-1608,red eagle,2010,wisit sasanatieng,,"action, sci-fi, thriller",130
+1608,red eagle,2010,wisit sasanatieng,null,"action, sci-fi, thriller",130
 1609,ninjas vs. vampires,2010,justin timpane,"jay saunders, daniel ross, cory okouchi","action, comedy, fantasy",89
 1610,crook: it's good to be bad,2010,mohit suri,"emraan hashmi, neha sharma, arjan bajwa","action, drama, thriller",121
 1611,escape from new jersey,2010,chris r. notarile,"hector de la rosa, kim santiago, roberto lombardi","action, adventure, sci-fi",45
@@ -1616,25 +1616,25 @@ ID,Title,Year,Director,Cast,Genre,Duration
 1615,the trashmaster,2010,mathieu weschler,matt challands,"animation, action",90
 1616,gr30k,2010,daniel falicki,"rachel finan, jacqueline joy, michael o'hair","animation, action, adventure",127
 1617,bko: bangkok knockout,2010,panna rittikrai,"sorapong chatree, kerttisak udomnak, krittiya lardphanna",action,106
-1618,my best bodyguard,2010,sirippakorn wongchariyawat,,"action, adventure",113
+1618,my best bodyguard,2010,sirippakorn wongchariyawat,null,"action, adventure",113
 1619,23,2010,craig deering,"craig deering, allen murphy, joe korbel","action, comedy",104
 1620,si agimat at si enteng kabisote,2010,tony y. reyes,"vic sotto, ramon 'bong' revilla jr., sam pinto","action, comedy, fantasy",110
 1621,300 killers,2010,matt jaissle,"johnny andrews, matt jaissle, sabastian love","action, horror, thriller",75
 1622,wind blast,2010,qunshu gao,"yihong duan, wu jing, zhang li",action,114
 1623,who killed captain alex?,2010,nabwana i.g.g.,"kakule william, kakule wilson, sserunya ernest",action,64
-1624,bang rajan 2,2010,tanit jitnukul,,"action, adventure, war",127
+1624,bang rajan 2,2010,tanit jitnukul,null,"action, adventure, war",127
 1625,valley of the dead,2010,k. adithya ashok,"lex yochim, max horner, timothy luke",action,50
-1626,kandahar,2010,major ravi,,"action, drama",150
+1626,kandahar,2010,major ravi,null,"action, drama",150
 1627,boca,2010,flavio frederico,"daniel de oliveira, hermila guedes, jefferson brasil","action, crime, drama",100
 1628,vampire warriors,2010,dennis law,"luxia jiang, wah yuen, chrissie chow","action, thriller",100
-1629,edge of the empire,2010,nirattisai kaljareuk,,action,117
+1629,edge of the empire,2010,nirattisai kaljareuk,null,action,117
 1630,the bucks county massacre,2010,jason sherman,"nikki bell, zackary kresser, brittany geiger","action, horror, thriller",84
 1631,hae-gyeol-sa,2010,hyeok-jae kwon,"kyung-gu sol, jung-jin lee, dal-su oh","action, crime, drama",99
 1632,co2,2010,john depew,"jared starr, grace young, kate bailey","action, adventure, drama",120
 1633,the hooker with a heart of gold,2010,brad jones,"sarah lewis, brian lewis, brad jones","action, comedy, thriller",149
 1634,kung fu wing chun,2010,tung cho 'joe' cheung,"jing bai, shaoqun yu, collin chou","action, comedy, romance",110
 1635,haunters,2010,min-suk kim,"dong-won kang, duek-mun choi, jeong eun-chae","action, sci-fi, thriller",100
-1636,the samurai of ayothaya,2010,nopporn watin,,"action, drama, history",100
+1636,the samurai of ayothaya,2010,nopporn watin,null,"action, drama, history",100
 1637,number one shakib khan,2010,badiul alam khokon,"shakib khan, apu biswas, misa sawdagar","action, comedy, drama",175
 1638,lalbaug parel,2010,mahesh manjrekar,"vinay apte, seema biswas, ankush choudhary",action,146
 1639,na-neun abba-da,2010,se-yeong lee,"seung-woo kim, byung-ho son, ha-ryong im","action, crime, drama",99
@@ -1706,7 +1706,7 @@ ID,Title,Year,Director,Cast,Genre,Duration
 1705,la linea - the line,2009,james cotten,"ray liotta, andy garcia, esai morales","action, crime, drama",95
 1706,thick as thieves,2009,mimi leder,"rade serbedzija, morgan freeman, robert forster","action, crime, thriller",104
 1707,paul blart: mall cop,2009,steve carr,"kevin james, keir o'donnell, jayma mays","action, comedy, crime",91
-1708,breathe,2009,nicholas winter,,"action, drama",86
+1708,breathe,2009,nicholas winter,null,"action, drama",86
 1709,crank: high voltage,2009,mark neveldine,"jason statham, amy smart, clifton collins jr.","action, crime, thriller",96
 1710,echelon conspiracy,2009,greg marcks,"shane west, edward burns, ving rhames","action, crime, mystery",105
 1711,the way of war,2009,john carter,"cuba gooding jr., clarence williams iii, john terry","action, thriller",90
@@ -1770,7 +1770,7 @@ ID,Title,Year,Director,Cast,Genre,Duration
 1769,the boondock saints ii: all saints day,2009,troy duffy,"sean patrick flanery, norman reedus, billy connolly","action, comedy, crime",118
 1770,born of hope,2009,kate madison,"christopher dane, beth aynsley, kate madison","action, adventure, fantasy",71
 1771,never surrender,2009,hector echavarria,"hector echavarria, patrick kilpatrick, james russo","action, drama, thriller",87
-1772,musashi: the dream of the last samurai,2009,mizuho nishikubo,,"animation, action",72
+1772,musashi: the dream of the last samurai,2009,mizuho nishikubo,null,"animation, action",72
 1773,dead man running,2009,alex de rakoff,"tamer hassan, clint koroan, fredi 'kruga' nwaka","action, crime, drama",92
 1774,damage,2009,jeff king,"steve austin, walton goggins, laura vandervoort","action, drama",102
 1775,machotaildrop,2009,corey adams,"anthony amedori, james faulkner, rick mccrank","action, comedy, fantasy",91
@@ -1815,7 +1815,7 @@ ID,Title,Year,Director,Cast,Genre,Duration
 1814,bangkok adrenaline,2009,raimund huber,"daniel patrick o'neill, priya suandokemai, gwion jacob miles","action, comedy",90
 1815,magadheera,2009,s.s. rajamouli,"ram charan, kajal agarwal, dev gill","action, drama, romance",166
 1816,ek: the power of one,2009,sangeeth sivan,"rana jung bahadur, jaspal bhatti, preeti bhutani","action, drama, thriller",140
-1817,team: the force,2009,ajay chandhok,,"action, comedy, crime",115
+1817,team: the force,2009,ajay chandhok,null,"action, comedy, crime",115
 1818,eden of the east the movie i: the king of eden,2009,kenji kamiyama,"christine m. auten, john burgmeier, leah clark","animation, action, comedy",80
 1819,the sword with no name,2009,yong-gyun kim,"seung-woo cho, soo ae, sophie broustal","action, drama",124
 1820,hottarake no shima - haruka to maho no kagami,2009,shinsuke sato,"christine marie cabanos, patrick seitz, julie maddalena","animation, action, adventure",93
@@ -1832,7 +1832,7 @@ ID,Title,Year,Director,Cast,Genre,Duration
 1831,tracing shadow,2009,marco mak,"jaycee chan, hao dang, francis ng","action, comedy",89
 1832,the robbers,2009,shu-peng yang,"jun hu, wu jiang, li-chun lee",action,93
 1833,zero,2009,pawel borowski,"kamilla baar, malgorzata bereza, przemyslaw bluszcz","action, drama",110
-1834,night of the living dead: reanimated,2009,mike schneider,,"animation, action, drama",96
+1834,night of the living dead: reanimated,2009,mike schneider,null,"animation, action, drama",96
 1835,billa,2009,meher ramesh,"prabhas, anushka shetty, hansika motwani","action, romance, thriller",149
 1836,arya 2,2009,sukumar,"allu arjun, kajal agarwal, navdeep","action, drama, mystery",155
 1837,na igre,2009,pavel sanaev,"sergey chirkov, marina petrenko, pavel priluchnyy","action, drama, sci-fi",90
@@ -1841,7 +1841,7 @@ ID,Title,Year,Director,Cast,Genre,Duration
 1840,mgs: philanthropy,2009,giacomo talamini,"giacomo talamini, phillip sacramento, patrizia liccardi","action, adventure, sci-fi",69
 1841,raging phoenix,2009,rashane limtrakul,"jeeja yanin, kazu patrick tang, nui saendaeng","action, romance",112
 1842,chernaya molniya,2009,dmitriy kiselev,"grigoriy dobrygin, ekaterina vilkova, viktor verzhbitskiy","action, sci-fi, thriller",102
-1843,vettaikaran,2009,babu sivan,,"action, comedy, drama",150
+1843,vettaikaran,2009,babu sivan,null,"action, comedy, drama",150
 1844,bay rong,2009,thanh son le,"johnny nguyen, veronica ngo, hoang phuc nguyen",action,90
 1845,la yuma,2009,florence jaugey,"alma blanco, rigoberto mayorga, gabriel benavides","action, drama",90
 1846,the replacement,2009,ahmed alaa,"ahmed ezz, menna shalabi, sawsan badr","action, drama, thriller",125
@@ -1977,7 +1977,7 @@ ID,Title,Year,Director,Cast,Genre,Duration
 1976,80 minutes,2008,thomas jahn,"gabriel mann, oliver kieran-jones, josh dallas","action, crime, thriller",92
 1977,gitler kaput!,2008,marius balchunas,"pavel derevyanko, anna semenovich, yuriy galtsev","action, adventure, comedy",95
 1978,skate or die,2008,miguel courtois,"mickey mahut, idriss diop, elsa pataky",action,92
-1979,gentlemen officers: save the emperor,2008,oleg fomin,,"action, history",104
+1979,gentlemen officers: save the emperor,2008,oleg fomin,null,"action, history",104
 1980,the eleventh hour,2008,john lyde,"adam abram, johnny ahn, britani bateman","action, thriller",93
 1981,transporter 3,2008,olivier megaton,"jason statham, robert knepper, natalya rudakova","action, adventure, crime",104
 1982,mutants,2008,amir valinia,"michael ironside, louis herthum, tony senzamici","action, horror, sci-fi",83
@@ -2002,29 +2002,29 @@ ID,Title,Year,Director,Cast,Genre,Duration
 2001,attack of the yakuza,2008,koichi sakamoto,"johnny yong bosch, dan southworth, pamela walworth",action,93
 2002,my iz budushchego,2008,andrey malyukov,"danila kozlovsky, andrey terentev, vladimir yaglych","action, drama, fantasy",110
 2003,fa fa ying king,2008,jingle ma,"shawn yue, kun chen, shaun tam","action, romance, thriller",98
-2004,star trek: operation beta shield,2008,jennifer cole,,"action, fantasy, sci-fi",67
+2004,star trek: operation beta shield,2008,jennifer cole,null,"action, fantasy, sci-fi",67
 2005,ip man,2008,wilson yip,"donnie yen, simon yam, siu-wong fan","action, biography, drama",106
-2006,kuruvi,2008,dharani,,"action, comedy, drama",150
+2006,kuruvi,2008,dharani,null,"action, comedy, drama",150
 2007,terra nova,2008,aleksandr melnik,"konstantin lavronenko, andrey feskov, marat basharov","action, drama, thriller",119
 2008,legendary assassin,2008,wu jing,"wu jing, celina jade, kara hui","action, thriller",89
 2009,dachimawa lee,2008,seung-wan ryoo,"won-hie lim, hyo-jin kong, si-yeon park","action, comedy",99
-2010,aleksandr. nevskaya bitva,2008,igor kalyonov,,"action, adventure, history",110
+2010,aleksandr. nevskaya bitva,2008,igor kalyonov,null,"action, adventure, history",110
 2011,captive,2008,aleksey uchitel,"vyacheslav krikunov, pyotr logachev, irakli mskhalaia","action, drama",80
 2012,hoodrats 2: hoodrat warriors,2008,edgar arellano,"donnabella mortel, june marie sparagna, arden cho",action,90
 2013,the korean,2008,thomas dixon,"josiah d. lee, paul adamo, paula bellin",action,98
-2014,the tsunami warrior,2008,nonzee nimibutr,,"action, adventure, fantasy",154
+2014,the tsunami warrior,2008,nonzee nimibutr,null,"action, adventure, fantasy",154
 2015,mexican gangster,2008,damian chapa,"john loretto, damian chapa, bougart linares",action,89
 2016,colin,2008,marc price,"alastair kirton, daisy aitkens, leanne pammen","action, drama, horror",97
 2017,the city is mine,2008,patrick pierre,"sonja adams, richard avallone, johnny beauplan","action, drama",105
 2018,seal team vi,2008,mark c. andrews,"jeremy davis, ken gamble, zach mcgowan","action, drama",99
 2019,dead fury,2008,frank sudol,frank sudol,"animation, action, comedy",82
-2020,gurren lagann,2008,hiroyuki imaishi,,"animation, action, comedy",112
+2020,gurren lagann,2008,hiroyuki imaishi,null,"animation, action, comedy",112
 2021,ninjas vs. zombies,2008,justin timpane,"daniel ross, cory okouchi, carla okouchi","action, comedy, fantasy",86
 2022,exile,2008,mike conway,"brian sheridan, heather lei guzzetta, tiffany sinclair","action, romance, sci-fi",82
 2023,champions,2008,siu ming tsui,"dicky cheung, mo tse, priscilla wong",action,118
 2024,eye for an eye,2008,kwon-tae ahn,"suk-kyu han, seung-won cha, young-chang song","action, crime",101
 2025,mo hup leung juk,2008,jingle ma,"charlene choi, chun wu, ge hu","action, romance",102
-2026,aegan,2008,raju sundaram,,action,170
+2026,aegan,2008,raju sundaram,null,action,170
 2027,among dead men,2008,james richards,"avelino 'el rico' lescot, ab vegvary, ron vreeken","action, crime, horror",94
 2028,the bridge,2008,sheldon schwartz,"derek mio, johnny giordano, trevor murphy","action, drama, history",45
 2029,beast stalker,2008,dante lam,"nicholas tse, jingchu zhang, nick cheung","action, thriller",109
@@ -2079,7 +2079,7 @@ ID,Title,Year,Director,Cast,Genre,Duration
 2078,defenders of riga,2007,aigars grauba,"janis reinis, elita klavina, girts krumins","action, drama, history",118
 2079,the death and life of bobby z,2007,john herzfeld,"paul walker, laurence fishburne, olivia wilde","action, crime, drama",97
 2080,bone dry,2007,brett a. hart,"luke goss, lance henriksen, dee wallace","action, drama, thriller",100
-2081,the sovereign's servant,2007,oleg ryaskov,,"action, adventure, history",131
+2081,the sovereign's servant,2007,oleg ryaskov,null,"action, adventure, history",131
 2082,firehouse dog,2007,todd holland,"josh hutcherson, bruce greenwood, bree turner","action, comedy, family",111
 2083,kush,2007,york alec shackleton,"nick annunziata, william atherton, thomas beaumont","action, crime, thriller",96
 2084,treasure raiders,2007,brent huff,"alexander nevsky, steven brand, david carradine","action, adventure, drama",95
@@ -2122,7 +2122,7 @@ ID,Title,Year,Director,Cast,Genre,Duration
 2121,rockaway,2007,jeff crook,"nicholas gonzalez, mario cimarro, oleg taktarov","action, crime, drama",78
 2122,delta farce,2007,c.b. harding,"larry the cable guy, bill engvall, dj qualls","action, adventure, comedy",90
 2123,death sentence,2007,james wan,"kevin bacon, john goodman, kelly preston","action, crime, drama",105
-2124,bound by blood,2007,randy bettelon,,action,1
+2124,bound by blood,2007,randy bettelon,null,action,1
 2125,shootout at lokhandwala,2007,apoorva lakhia,"amitabh bachchan, sanjay dutt, sunil shetty","action, crime, drama",122
 2126,t.k.o.,2007,declan mulvey,"dianna agron, alma agundiz, samantha alarcon","action, drama, thriller",92
 2127,black water,2007,david nerlich,"diana glenn, maeve dermody, andy rodoreda","action, drama, horror",90
@@ -2159,7 +2159,7 @@ ID,Title,Year,Director,Cast,Genre,Duration
 2158,mad detective,2007,johnnie to,"ching wan lau, andy on, ka tung lam","crime, mystery, thriller",89
 2159,the devil dared me to,2007,chris stapp,"chris stapp, matt heath, bonnie soper","action, comedy",75
 2160,the governor,2007,ray garcia de leon,"bob dolan, summer clifford, travis thurman","action, drama",94
-2161,the legend of naresuan: part 2,2007,chatrichalerm yukol,,"action, drama, history",165
+2161,the legend of naresuan: part 2,2007,chatrichalerm yukol,null,"action, drama, history",165
 2162,beantown,2007,timothy norman,"kristen savage, randy paradis, sean fowler","action, crime, drama",95
 2163,1971,2007,amrit sagar,"manoj bajpayee, ravi kishan, deepak dobriyal","action, drama, war",160
 2164,the bodyguard 2,2007,petchtai wongkamlao,"petchtai wongkamlao, jacqueline apitananon, janet khiew","action, comedy",95
@@ -2320,7 +2320,7 @@ ID,Title,Year,Director,Cast,Genre,Duration
 2319,fatal contact,2006,dennis law,"wu jing, ronald cheng, miki yeung",action,110
 2320,pokiri,2006,puri jagannadh,"mahesh babu, ileana, prakash raj","action, comedy",164
 2321,bloody tie,2006,ho choi,"jin-ho choi, ja-hyeon chu, jeong-min hwang","action, crime, drama",117
-2322,paramasivan,2006,p. vasu,,"action, thriller",160
+2322,paramasivan,2006,p. vasu,null,"action, thriller",160
 2323,dog bite dog,2006,pou-soi cheang,"edison chen, sam lee, weiying pei","action, crime, drama",109
 2324,the paper will be blue,2006,radu muntean,"paul ipate, adi carauleanu, dragos bucur","action, drama",95
 2325,pacquiao: the movie,2006,joel lamangan,"jericho rosales, bea alonzo, jay manalo","action, biography, drama",109
@@ -2336,7 +2336,7 @@ ID,Title,Year,Director,Cast,Genre,Duration
 2335,ming ming,2006,susie au,"xun zhou, daniel wu, tony yo-ning yang","action, mystery, romance",105
 2336,mannat,2006,gurbir singh grewal,"jimmy shergill, kulraj randhawa, kanwaljit singh","action, crime, drama",165
 2337,complexx,2006,robert arthur jansen,"sander foppele, yolanthe sneijder-cabau, sebastiaan labrie","action, drama, horror",78
-2338,gangster high,2006,ki-hyeong park,,"action, crime",100
+2338,gangster high,2006,ki-hyeong park,null,"action, crime",100
 2339,immortal,2006,eric jacobus,"joe henley, chelsea steffensen, eric jacobus",action,110
 2340,the saxon chronicles,2006,jeshua de horta,"darin southam, james c. morris, doug guibord","action, drama, history",120
 2341,sunflower,2006,seok-beom kang,"jeong-su han, in-jae heo, in-seong hwang","action, crime, drama",116
@@ -2355,7 +2355,7 @@ ID,Title,Year,Director,Cast,Genre,Duration
 2354,cicak-man,2006,yusry abd halim,"saiful apek, fasha sandha, aznil hj nawawi","action, comedy, sci-fi",107
 2355,remp-it,2006,ahmad idham,"farid kamil, zul huzaimy, julia hana",action,92
 2356,rabb ne banaiyan jodiean,2006,darshan bagga,"preeti arora, khan dally, gurpreet guggi","action, comedy, crime",135
-2357,2005 academy award nominated short films,2006,shane acker,,"animation, action, drama",162
+2357,2005 academy award nominated short films,2006,shane acker,null,"animation, action, drama",162
 2358,fantastic four,2005,tim story,"ioan gruffudd, michael chiklis, chris evans","action, adventure, sci-fi",106
 2359,man-thing,2005,brett leonard,"jack thompson, matthew le nevez, steve bastoni","action, adventure, horror",97
 2360,extreme dating,2005,lorena david,"monique demers, meat loaf, benjamin king","action, romance, comedy",96
@@ -2446,7 +2446,7 @@ ID,Title,Year,Director,Cast,Genre,Duration
 2445,seven swords,2005,hark tsui,"leon lai, donnie yen, honglei sun","action, adventure, fantasy",153
 2446,four brothers,2005,john singleton,"mark wahlberg, tyrese gibson, garrett hedlund","action, crime, drama",109
 2447,the cutter,2005,william tannen,"chuck norris, joanna pacula, daniel bernhardt","action, crime, drama",92
-2448,another public enemy,2005,woo-suk kang,,"action, drama",148
+2448,another public enemy,2005,woo-suk kang,null,"action, drama",148
 2449,v for vendetta,2005,james mcteigue,"hugo weaving, natalie portman, rupert graves","action, drama, thriller",132
 2450,house of fury,2005,stephen fung,"anthony chau-sang wong, gillian chung, stephen fung","action, comedy",102
 2451,the russian specialist,2005,dolph lundgren,"dolph lundgren, ben cross, ivan petrushinov","action, drama, thriller",94
@@ -2474,10 +2474,10 @@ ID,Title,Year,Director,Cast,Genre,Duration
 2473,pitbull,2005,patryk vega,"dariusz blazejewski, piotr borowski, konrad bugaj","action, crime, drama",97
 2474,naran,2005,joshi,"mohanlal, madhu, jagathi sreekumar","action, thriller",150
 2475,confessions of a pit fighter,2005,art camacho,"armand assante, james russo, flavor flav","action, drama",95
-2476,the brutal river,2005,anat yuangngern,,"action, drama, horror",87
+2476,the brutal river,2005,anat yuangngern,null,"action, drama, horror",87
 2477,ride or die,2005,chris w. hill,"sarah kozer, jesse wells martin, kira madallo sesay","action, western",75
 2478,izzat,2005,ulrik imtiaz rolfsen,"emil marwa, ove andreassen, leon bashir","action, crime, thriller",107
-2479,dumber heroes,2005,rerkchai paungpetch,,"action, comedy",78
+2479,dumber heroes,2005,rerkchai paungpetch,null,"action, comedy",78
 2480,heaven's soldiers,2005,joon-ki min,"jeong-min hwang, byeong-chun kim, ji-hyeon kim","action, comedy, sci-fi",106
 2481,athadu,2005,trivikram srinivas,"mahesh babu, trisha krishnan, prakash raj","action, comedy, musical",172
 2482,ark,2005,kenny hwang,"chiara zanni, kirby morrow, james woods","animation, action, drama",84
@@ -2492,7 +2492,7 @@ ID,Title,Year,Director,Cast,Genre,Duration
 2491,the goodtimeskid,2005,azazel jacobs,"azazel jacobs, gerardo naranjo, sara diaz","action, comedy",77
 2492,fullmetal alchemist the movie: conqueror of shamballa,2005,seiji mizushima,"vic mignogna, aaron dismuke, jason liebrecht","animation, action, adventure",105
 2493,o crime do padre amaro,2005,carlos coelho da silva,"jorge corrula, soraia chaves, nicolau breyner","action, drama",100
-2494,the tiger blade,2005,theeratorn siriphunvaraporn,,"action, comedy, fantasy",91
+2494,the tiger blade,2005,theeratorn siriphunvaraporn,null,"action, comedy, fantasy",91
 2495,shadowless sword,2005,young-jun kim,"hyeon-jun shin, so-yi yoon, seo-jin lee",action,117
 2496,dangerous men,2005,john s. rad,"anneli aeristos, paul arnold, mark besharaty","action, adventure, comedy",80
 2497,modern era,2005,mohit suri,"kunal khemu, deepal shaw, smiley suri","action, crime, drama",126
@@ -2502,12 +2502,12 @@ ID,Title,Year,Director,Cast,Genre,Duration
 2501,meatball machine,2005,yudai yamaguchi,"issei takahashi, aoba kawai, kenichi kawasaki","action, horror, sci-fi",90
 2502,fart,2005,roman khrushch,"evgeniy tsyganov, yana esipovich, sergey tsepov","action, adventure, drama",97
 2503,the battle of aiken,2005,christopher forbes,"gabriel baxley, troy h. bradley, jerry chesser",action,90
-2504,nochnoy bazar,2005,aleksandr bachilo,,"action, comedy, fantasy",116
-2505,bad girls behind bars,2005,sharon zurek,,"action, comedy, fantasy",82
+2504,nochnoy bazar,2005,aleksandr bachilo,null,"action, comedy, fantasy",116
+2505,bad girls behind bars,2005,sharon zurek,null,"action, comedy, fantasy",82
 2506,hellboy,2004,guillermo del toro,"ron perlman, doug jones, selma blair","action, fantasy, sci-fi",122
 2507,thunderbirds,2004,jonathan frakes,"bill paxton, anthony edwards, ben kingsley","action, adventure, comedy",95
 2508,kebab connection,2004,anno saul,"denis moschitto, nora tschirner, emanuel bettencourt","action, comedy, romance",96
-2509,meri biwi ka jawab nahin,2004,pankaj parashar,,"action, comedy",150
+2509,meri biwi ka jawab nahin,2004,pankaj parashar,null,"action, comedy",150
 2510,anji,2004,kodi ramakrishna,"chiranjeevi, namrata shirodkar, tinnu anand","action, adventure, drama",148
 2511,berserker: hell's warrior,2004,paul matthews,"paul johansson, craig sheffer, kari wuhrer","action, adventure, fantasy",84
 2512,close call,2004,jimmy lee,"annie lee, philip moon, jan devereaux","action, crime, drama",93
@@ -2647,8 +2647,8 @@ ID,Title,Year,Director,Cast,Genre,Duration
 2646,naruto the movie: ninja clash in the land of snow,2004,tensai okamura,"junko takeuchi, chie nakamura, noriaki sugiyama","animation, action, adventure",113
 2647,one piece: norowareta seiken,2004,kazuhisa takenouchi,"takeshi aono, hiroaki hirata, masami hisamoto","animation, action, adventure",95
 2648,jana,2004,shaji kailas,"ajith kumar, sneha, delhi ganesh","action, drama",80
-2649,halo,2004,kimberly choma,,action,105
-2650,arya ki prem pratigya,2004,allu arjun,,"action, drama, romance",151
+2649,halo,2004,kimberly choma,null,action,105
+2650,arya ki prem pratigya,2004,allu arjun,null,"action, drama, romance",151
 2651,bad boys ii,2003,michael bay,"will smith, martin lawrence, gabrielle union","action, comedy, crime",147
 2652,terminator 3: rise of the machines,2003,jonathan mostow,"arnold schwarzenegger, nick stahl, kristanna loken","action, sci-fi",109
 2653,a good night to die,2003,craig singer,"michael rapaport, gary stretch, seymour cassel","action, comedy, thriller",100
@@ -2767,9 +2767,9 @@ ID,Title,Year,Director,Cast,Genre,Duration
 2766,interstella 5555: the 5tory of the 5ecret 5tar 5ystem,2003,kazuhisa takenouchi,"romanthony, thomas bangalter","animation, action, adventure",68
 2767,ong-bak,2003,prachya pinkaew,"tony jaa, petchtai wongkamlao, pumwaree yodkamol","action, thriller",105
 2768,infernal affairs 2,2003,wai-keung lau,"edison chen, shawn yue, anthony chau-sang wong","action, crime, drama",119
-2769,operation balikatan,2003,cirio h. santiago,,"action, war",91
+2769,operation balikatan,2003,cirio h. santiago,null,"action, war",91
 2770,sword in the moon,2003,ui-seok kim,"min-su choi, jae-hyeon jo, bo-kyeong kim","action, drama, adventure",102
-2771,khel,2003,yusuf khan,,"action, thriller",174
+2771,khel,2003,yusuf khan,null,"action, thriller",174
 2772,into the mirror,2003,sung-ho kim,"ji-tae yu, myung-min kim, hye-na kim","action, crime, horror",113
 2773,saints and soldiers,2003,ryan little,"corbin allred, alexander polinsky, kirby heyborne","action, adventure, drama",90
 2774,sterling: the secret of the lost medallion,2003,clayton miller,"bradley dorsey, chris ebling, misty lockheart","action, adventure, family",85
@@ -2788,7 +2788,7 @@ ID,Title,Year,Director,Cast,Genre,Duration
 2787,lumpia,2003,patricio ginelsa jr.,"carlos baon, francis custodio, edward baon","action, comedy",80
 2788,zameen,2003,rohit shetty,"ajay devgn, abhishek bachchan, bipasha basu",action,154
 2789,the fallen,2003,ari taub,"daniel asher, brian bancale, c.j. barkus","action, drama, war",112
-2790,rude boy: the jamaican don,2003,desmond gumbs,,action,90
+2790,rude boy: the jamaican don,2003,desmond gumbs,null,action,90
 2791,nangman jagaek,2003,jk youn,"min-jong kim, seong-guk choi, jae-yeong jin","action, comedy, fantasy",98
 2792,waisa bhi hota hai part ii,2003,shashanka ghosh,"arshad warsi, prashant narayanan, sandhya mridul","comedy, action, crime",137
 2793,bore lee: u kandzama velegrada,2003,mario kovac,"slobodan alavanja, anda, leo boljesic","action, drama, romance",58
@@ -2916,7 +2916,7 @@ ID,Title,Year,Director,Cast,Genre,Duration
 2915,the coast guard,2002,ki-duk kim,"dong-gun jang, jeong-hak kim, ji-a park","action, drama, war",91
 2916,maseeha,2002,partho ghosh,"sunil shetty, namrata shirodkar, inder kumar","action, crime, drama",117
 2917,naked weapon,2002,siu-tung ching,"marit thoresen, almen pui-ha wong, daniel wu","action, crime, drama",90
-2918,batas ng lansangan,2002,fernando poe jr.,,"action, crime, drama",102
+2918,batas ng lansangan,2002,fernando poe jr.,null,"action, crime, drama",102
 2919,two timer,2002,mel chionglo,"ara mina, albert martinez, wendell ramos","action, drama",110
 2920,lapu-lapu,2002,william mayo,"lito lapid, joyce jimenez, dante rivero","action, biography, history",125
 2921,ang alamat ng lawin,2002,fernando poe jr.,"fernando poe jr., ina raymundo, cathy villar","action, family, fantasy",100
@@ -2925,11 +2925,11 @@ ID,Title,Year,Director,Cast,Genre,Duration
 2924,leather and iron,2002,james archer,"mike valletta, blythe metz, scott dillon","action, adventure, crime",90
 2925,reckoning day,2002,julian gilbey,"roman karpynec, saul linklater, dominic alan-smith","action, thriller",105
 2926,samurai,2002,balaji shaktivel,"'chiyaan' vikram, jayaseel, nasser","action, drama, musical",140
-2927,province 77,2002,smith timsawat,,action,111
-2928,the peeping,2002,marco mak,,"action, drama, mystery",93
+2927,province 77,2002,smith timsawat,null,action,111
+2928,the peeping,2002,marco mak,null,"action, drama, mystery",93
 2929,aadi,2002,vinayak v.v.,"aditya, ali, raghu babu",action,157
 2930,sreeram,2002,v.n. aditya,"uday kiran, anitha, deepa",action,162
-2931,red,2002,ram sathya,,"action, drama",175
+2931,red,2002,ram sathya,null,"action, drama",175
 2932,the silent force,2001,david h. may,"loren avedon, brian tochi, karen kim",action,90
 2933,driven,2001,renny harlin,"sylvester stallone, kip pardue, til schweiger","action, drama, sport",116
 2934,planet of the apes,2001,tim burton,"mark wahlberg, helena bonham carter, tim roth","action, adventure, sci-fi",119
@@ -3062,15 +3062,15 @@ ID,Title,Year,Director,Cast,Genre,Duration
 3061,jesus christ vampire hunter,2001,lee demarbre,"phil caracas, murielle varhelyi, maria moulton","action, comedy, horror",85
 3062,dei seung chui keung,2001,wei tung,"ken chang, patricia ja lee, jacquline li","action, adventure",89
 3063,death game,2001,menahem golan,"evgeny afineevsky, jon golan aharoni, bo brown","action, drama",95
-3064,krai thong,2001,suthat intaranupakorn,,"action, fantasy, horror",92
+3064,krai thong,2001,suthat intaranupakorn,null,"action, fantasy, horror",92
 3065,bagong buwan,2001,marilou diaz-abaya,"cesar montano, caridad sanchez, amy austria","action, drama, war",130
 3066,shark hunter,2001,matt codd,"antonio sabato jr., christian toulali, grand l. bush","action, adventure, horror",94
 3067,buhay kamao,2001,joyce bernal,"robin padilla, rica peralejo, kristine mangle",action,117
 3068,initial d: third stage,2001,shin misawa,"chris ayres, greg ayres, christopher bevins","animation, action, romance",100
-3069,citizen,2001,saravana subaiya,,"action, drama, thriller",172
+3069,citizen,2001,saravana subaiya,null,"action, drama, thriller",172
 3070,detective conan: countdown to heaven,2001,kenji kodama,"mie akagi, laura bailey, troy baker","animation, action, mystery",100
 3071,student no. 1,2001,s.s. rajamouli,"brahmanandam, gajala, rajeev kanakala","action, crime, drama",130
-3072,badri,2001,p.a. arun prasad,,action,160
+3072,badri,2001,p.a. arun prasad,null,action,160
 3073,huccha,2001,om prakash rao,"sudeep, rekha vedavyasa, avinash","action, drama",178
 3074,full blast,2000,eric mintz,"mike abbo, paul barch, richard k. berlinberg","action, thriller",91
 3075,mission: impossible ii,2000,john woo,"tom cruise, dougray scott, thandie newton","action, adventure, thriller",123
@@ -3083,7 +3083,7 @@ ID,Title,Year,Director,Cast,Genre,Duration
 3082,sinbad: beyond the veil of mists,2000,evan ricks,"alice amter, clint carmichael, brendan fraser","action, animation",85
 3083,highlander: endgame,2000,douglas aarniokoski,"christopher lambert, adrian paul, bruce payne","action, adventure, fantasy",87
 3084,shafted!,2000,tom putnam,"morgan rusler, hayley man, angelle brooks","action, comedy",90
-3085,white wolves iii: cry of the white wolf,2000,victoria muspratt,,"action, adventure",87
+3085,white wolves iii: cry of the white wolf,2000,victoria muspratt,null,"action, adventure",87
 3086,josh,2000,mansoor khan,"shah rukh khan, aishwarya rai bachchan, chandrachur singh","action, drama, musical",162
 3087,the art of war,2000,christian duguay,"wesley snipes, anne archer, maury chaykin","action, adventure, crime",117
 3088,charlie's angels,2000,mcg,"cameron diaz, drew barrymore, lucy liu","action, adventure, comedy",98
@@ -3159,8 +3159,8 @@ ID,Title,Year,Director,Cast,Genre,Duration
 3158,gen-x cops 2: metal mayhem,2000,benny chan,"mark hicks, paul rudd, edison chen","action, sci-fi",120
 3159,time and tide,2000,hark tsui,"nicholas tse, wu bai, candy lo","action, crime, drama",113
 3160,jungle,2000,ram gopal varma,"sunil shetty, fardeen khan, urmila matondkar","action, romance, thriller",146
-3161,bichhoo,2000,guddu dhanoa,,"thriller, action, crime",160
-3162,deewane,2000,harry baweja,,"action, romance",164
+3161,bichhoo,2000,guddu dhanoa,null,"thriller, action, crime",160
+3162,deewane,2000,harry baweja,null,"action, romance",164
 3163,khiladi 420,2000,neeraj vora,"akshay kumar, mahima chaudhry, antara mali","action, comedy, crime",157
 3164,kurukshetra,2000,mahesh manjrekar,"mukesh rishi, sanjay dutt, mahima chaudhry","action, drama, thriller",129
 3165,hostile environment,2000,david a. prior,"brigitte nielsen, matthias hues, darren shahlavi","action, sci-fi",96
@@ -3294,7 +3294,7 @@ ID,Title,Year,Director,Cast,Genre,Duration
 3293,lethal target,1999,lloyd a. simandl,"c.c. costigan, josh barker, kim sill","action, sci-fi",92
 3294,alyas pogi: ang pagbabalik,1999,joey del rosario,"ramon 'bong' revilla jr., ara mina, tonton gutierrez","action, drama",111
 3295,suspek,1999,toto natividad,"victor neri, sharmaine arnaiz, emilio garcia","action, drama",143
-3296,maa kasam,1999,ashok gaekwad,,action,132
+3296,maa kasam,1999,ashok gaekwad,null,action,132
 3297,champions,1998,peter gathings bunche,"louis mandylor, danny trejo, ken shamrock",action,99
 3298,3 ninjas: high noon at mega mountain,1998,sean mcnamara,"loni anderson, hulk hogan, jim varney","action, adventure, comedy",93
 3299,american dragons,1998,ralph hemecker,"michael biehn, joong-hoon park, cary-hiroyuki tagawa","action, crime",91
@@ -3396,14 +3396,14 @@ ID,Title,Year,Director,Cast,Genre,Duration
 3395,the process,1998,ernie reyes jr.,"ernie reyes jr., corin nemec, ernie reyes sr.",action,90
 3396,the ultimate weapon,1998,jon cassar,"hulk hogan, carl marotte, cynthia preston",action,110
 3397,satya,1998,ram gopal varma,"j.d. chakravarthi, urmila matondkar, paresh rawal","action, crime, drama",170
-3398,shanghai affairs,1998,donnie yen,,"action, drama, romance",90
+3398,shanghai affairs,1998,donnie yen,null,"action, drama, romance",90
 3399,bandhan,1998,k. muralimohana rao,"jackie shroff, salman khan, rambha","action, drama, romance",154
-3400,ben delubyo,1998,ike jarlego jr.,,"action, drama",89
+3400,ben delubyo,1998,ike jarlego jr.,null,"action, drama",89
 3401,pagbabalik ng probinsyano,1998,fernando poe jr.,"fernando poe jr., anjanette abayari, paquito diaz","drama, action",123
-3402,dand nayak,1998,sikander bharti,,action,153
+3402,dand nayak,1998,sikander bharti,null,action,153
 3403,gunda,1998,kanti shah,"mithun chakraborty, verna raj, ishrat ali","action, comedy, crime",129
-3404,mard,1998,ganpati bohra,,action,135
-3405,todd mcfarlane's spawn 2,1998,keith david,,"animation, action, horror",120
+3404,mard,1998,ganpati bohra,null,action,135
+3405,todd mcfarlane's spawn 2,1998,keith david,null,"animation, action, horror",120
 3406,cyber vengeance,1997,j. christian ingvordsen,"robert davi, matthias hues, j. gregory smith","action, sci-fi, thriller",90
 3407,firestorm,1997,john shepphird,"john savage, bentley mitchum, sherrie rose","action, sci-fi, thriller",90
 3408,gunfighter's moon,1997,larry ferguson,"lance henriksen, kay lenz, david mcilwraith","action, drama, romance",95
@@ -3537,7 +3537,7 @@ ID,Title,Year,Director,Cast,Genre,Duration
 3536,leaving scars,1997,brad jacques,"lisa boyle, robin downs, jonathan slater","action, thriller",90
 3537,insaaf: the final justice,1997,dayal nihalani,"akshay kumar, shilpa shetty, paresh rawal",action,155
 3538,eseng ng tondo,1997,fernando poe jr.,"fernando poe jr., ina raymundo, jenny syquia",action,113
-3539,nerukku ner,1997,vasanth,,"action, drama",178
+3539,nerukku ner,1997,vasanth,null,"action, drama",178
 3540,hitman,1997,r. dani,"toshiyuki dokiya, todd edwards, joe ferrara",action,81
 3541,dr. wai in the scriptures with no words,1996,siu-tung ching,"jet li, rosamund kwan, takeshi kaneshiro","action, adventure",91
 3542,baby face nelson,1996,scott p. levy,"c. thomas howell, lisa zane, doug wert","action, crime, drama",93
@@ -3649,12 +3649,12 @@ ID,Title,Year,Director,Cast,Genre,Duration
 3648,tai chi ii,1996,hsin-yen chang,"wu jing, christy chung, mark cheng","action, comedy, romance",96
 3649,twister,1996,jan de bont,"helen hunt, bill paxton, cary elwes","action, adventure, drama",113
 3650,white tiger,1996,richard martin,"gary daniels, mig macario, kelly benson",action,93
-3651,last resort,1996,lyman dayton,,"action, adventure, drama",86
+3651,last resort,1996,lyman dayton,null,"action, adventure, drama",86
 3652,legend of god of gamblers,1996,jing wong,"leon lai, anita yuen, jordan chan","action, comedy, drama",110
 3653,polymorph,1996,j.r. bookwalter,"james l. edwards, ariauna albright, tom hoover","action, horror, sci-fi",86
 3654,lowball,1996,demian lichtenstein,"peter greene, erik schrody, luis moro","drama, action, crime",99
 3655,krishna,1996,s. deepak,"sunil shetty, karisma kapoor, shakti kapoor","action, drama, romance",156
-3656,sapoot,1996,jagdish a. sharma,,action,158
+3656,sapoot,1996,jagdish a. sharma,null,action,158
 3657,dragon ball: the path to power,1996,shigeyasu yamauchi,"stephanie nadolny, tiffany vollmer, bradford jackson","animation, action, adventure",80
 3658,subterfuge,1996,herb freed,"matt mccolm, amanda pays, jason gould","action, drama",95
 3659,magic temple,1996,peque gallaga,"jason salcedo, junell hernando, marc solis","fantasy, action, adventure",106
@@ -3667,9 +3667,9 @@ ID,Title,Year,Director,Cast,Genre,Duration
 3666,hitler,1996,siddique,"mammootty, mukesh, jagadish","action, comedy, drama",153
 3667,lone tiger,1996,warren a. stevens,"bruce locke, richard lynch, robert z'dar","action, adventure",95
 3668,diljale,1996,harry baweja,"ajay devgn, sonali bendre, amrish puri","action, drama, romance",159
-3669,masoom,1996,mahesh kothare,,action,130
+3669,masoom,1996,mahesh kothare,null,action,130
 3670,mue prab puen hode,1996,prapon petchinn,"panna rittikrai, thunyaluk rarchatha, tony jaa","action, adventure, comedy",82
-3671,mission hunter 2,1996,prapon petchinn,,"action, adventure, horror",86
+3671,mission hunter 2,1996,prapon petchinn,null,"action, adventure, horror",86
 3672,terror in paradise,1995,peer j. oppenheimer,"gary lockwood, joanna pettet, david anthony smith","action, thriller",93
 3673,abducted ii: the reunion,1995,boon collins,"dan haggerty, jan-michael vincent, raquel bianca","action, thriller",92
 3674,automatic,1995,john murlowski,"olivier gruner, daphne ashbrook, john glover","action, horror, sci-fi",90
@@ -3783,7 +3783,7 @@ ID,Title,Year,Director,Cast,Genre,Duration
 3782,wild side,1995,donald cammell,"christopher walken, joan chen, steven bauer","action, thriller",96
 3783,without mercy,1995,robert chappell,"frank zagarino, ayu azhari, martin kove",action,90
 3784,a chinese odyssey part two: cinderella,1995,jeffrey lau,"stephen chow, man tat ng, athena chu","action, adventure, comedy",95
-3785,china dragon,1995,yen-ping chu,,"action, comedy, crime",90
+3785,china dragon,1995,yen-ping chu,null,"action, comedy, crime",90
 3786,the zone,1995,barry zetlin,"robert davi, alexander godunov, ben gazzara","action, drama, thriller",96
 3787,for better or worse,1995,jason alexander,"jason alexander, lolita davidovich, james woods","action, comedy, drama",105
 3788,man with a gun,1995,david wyles,"michael madsen, jennifer tilly, gary busey","action, drama, thriller",91
@@ -3797,7 +3797,7 @@ ID,Title,Year,Director,Cast,Genre,Duration
 3796,dragon fury,1995,david heavener,"richard lynch, robert chapin, chona jason","action, sci-fi",79
 3797,kuruthipunal,1995,p.c. sreeram,"kamal haasan, arjun, nasser","action, drama, thriller",143
 3798,gambler,1995,dayal nihalani,"govinda, shilpa shetty, aditya pancholi",action,169
-3799,jai vikraanta,1995,sultan ahmed,,action,195
+3799,jai vikraanta,1995,sultan ahmed,null,action,195
 3800,alfredo lim: batas ng maynila,1995,ramon jesus capinpin,"eddie garcia, dang cecilio, timmy cruz","action, biography",120
 3801,bad film,1995,shion sono,"yoshihiro nishimura, shion sono","action, comedy, crime",161
 3802,angel 4: undercover,1994,richard schenkman,"darlene vogel, shane fraser, alan picardi","action, drama",94
@@ -3915,7 +3915,7 @@ ID,Title,Year,Director,Cast,Genre,Duration
 3914,yu yu hakusho: fight for the netherworld,1994,masakatsu iijima,"nozomu sasaki, sanae miyuki, yuri amano","animation, action, fantasy",91
 3915,dilwale,1994,harry baweja,"ajay devgn, sunil shetty, raveena tandon","action, crime, drama",172
 3916,aag,1994,k. ravi shankar,"govinda, shilpa shetty, sonali bendre","action, adventure",139
-3917,grepor butch belgica story,1994,toto natividad,,action,110
+3917,grepor butch belgica story,1994,toto natividad,null,action,110
 3918,hindi pa tapos ang laban,1994,fernando poe jr.,"fernando poe jr., michelle aldana, max alvarado",action,124
 3919,plook mun kuen ma kah 4,1994,towatchai ladloy,"bradford hutson, tony jaa, jai janmulltree",action,85
 3920,full impact,1993,david huey,"gary daniels, kent ducanon, linda bennett",action,72
@@ -4042,7 +4042,7 @@ ID,Title,Year,Director,Cast,Genre,Duration
 4041,scorpion king,1992,david lai,"kar lok chin, chia-liang liu, jung yuen","action, comedy",99
 4042,the last riders,1992,joseph merhi,"erik estrada, angelo tiffe, william smith","action, drama",90
 4043,fist of fury 1991 ii,1992,chung-sing choh,"stephen chow, josephine siao, kenny bee","action, comedy",93
-4044,wu fu xing chuang gui,1992,sammo kam-bo hung,,"action, comedy",94
+4044,wu fu xing chuang gui,1992,sammo kam-bo hung,null,"action, comedy",94
 4045,xi zang xiao zi,1992,biao yuen,"biao yuen, michelle reis, wah yuen","action, fantasy",97
 4046,the legend of the swordsman,1992,siu-tung ching,"jet li, brigitte lin, michelle reis","action, fantasy",112
 4047,3 ninjas,1992,jon turteltaub,"victor wong, michael treanor, max elliott slade","action, comedy, family",84
@@ -4146,7 +4146,7 @@ ID,Title,Year,Director,Cast,Genre,Duration
 4145,flight of the intruder,1991,john milius,"danny glover, willem dafoe, brad johnson","action, romance, war",115
 4146,killer tomatoes strike back!,1991,john de bello,"debi fares, rick rockwell, john witherspoon","action, comedy, horror",87
 4147,the last match,1991,fabrizio de angelis,"oliver tobias, ernest borgnine, charles napier",action,95
-4148,holy virgin vs. the evil dead,1991,chin-ku lu,,"action, comedy, horror",92
+4148,holy virgin vs. the evil dead,1991,chin-ku lu,null,"action, comedy, horror",92
 4149,payback,1991,russell solberg,"michael ironside, don swayze, teresa blake","action, crime, drama",94
 4150,steel and lace,1991,ernest d. farino,"clare wren, bruce davison, stacy haiduk","action, horror, sci-fi",92
 4151,once a thief,1991,john woo,"leslie cheung, yun-fat chow, cherie chung","action, comedy, crime",103
@@ -4259,7 +4259,7 @@ ID,Title,Year,Director,Cast,Genre,Duration
 4258,cyber-c.h.i.c.,1990,ed hansen,"kathy shower, jennifer daly, burt ward","action, comedy, sci-fi",102
 4259,sword of the bushido,1990,adrian carr,"richard norton, rochelle ashana, toshishiro obata",action,104
 4260,saga of the phoenix,1990,ngai choi lam,"biao yuen, gloria yip, loletta lee","action, adventure, fantasy",93
-4261,aaj ka arjun,1990,k.c. bokadia,,"action, crime, drama",164
+4261,aaj ka arjun,1990,k.c. bokadia,null,"action, crime, drama",164
 4262,the adventures of ford fairlane,1990,renny harlin,"andrew dice clay, lauren holly, wayne newton","action, adventure, comedy",104
 4263,aftershock,1990,frank harris,"james lew, michael standing, elizabeth kaitan","action, sci-fi",91
 4264,agneepath,1990,mukul anand,"amitabh bachchan, mithun chakraborty, madhavi","action, crime, drama",174
@@ -4363,9 +4363,9 @@ ID,Title,Year,Director,Cast,Genre,Duration
 4362,dragon ball z: tree of might,1990,daisuke nishio,"sean schemmel, stephanie nadolny, christopher sabat","animation, action, adventure",60
 4363,dragon ball z: the world's strongest,1990,daisuke nishio,"masako nozawa, toshio furukawa, hiromi tsuru","animation, action, adventure",59
 4364,contra conspiracy,1990,thomas dewier,"michael williams, tom maher, vickie stephenson",action,88
-4365,zahreelay,1990,jyotin goel,,action,163
+4365,zahreelay,1990,jyotin goel,null,action,163
 4366,jagadeka veerudu athiloka sundari,1990,k. raghavendra rao,"chiranjeevi, sridevi, tanikella bharani","action, comedy, family",153
-4367,black cobra 3: the manila connection,1990,edoardo margheriti,,action,92
+4367,black cobra 3: the manila connection,1990,edoardo margheriti,null,action,92
 4368,bandh darwaza,1990,shyam ramsay,"hashmat khan, manjeet kullar, kunika","action, drama, horror",145
 4369,samrajyam,1990,jomon,"mammootty, captain raju, madhu","action, thriller",122
 4370,anak ni baby ama,1990,deo fajardo jr.,"robin padilla, amy perez, ilonah jean","action, drama",90
@@ -4401,7 +4401,7 @@ ID,Title,Year,Director,Cast,Genre,Duration
 4400,catch me if you can,1989,stephen sommers,"matt lattanzi, loryn locklin, grant heslov","action, comedy, drama",106
 4401,cold heat,1989,ulli lommel,"john phillip law, britt ekland, robert sacchi","action, thriller, drama",85
 4402,collision course,1989,lewis teague,"pat morita, jay leno, chris sarandon","action, comedy, crime",100
-4403,crack house,1989,michael fischa,,"action, crime, drama",90
+4403,crack house,1989,michael fischa,null,"action, crime, drama",90
 4404,curfew,1989,gary winick,"kyle richards, wendell wellman, john putch","action, horror",82
 4405,cyborg,1989,albert pyun,"jean-claude van damme, deborah richter, vincent klyn","action, sci-fi, thriller",86
 4406,damned river,1989,michael schroeder,"stephen shellen, lisa aliff, john terlesky","action, adventure",95
@@ -4439,7 +4439,7 @@ ID,Title,Year,Director,Cast,Genre,Duration
 4438,let it ride,1989,joe pytka,"richard dreyfuss, teri garr, david johansen","comedy, action",90
 4439,lethal weapon 2,1989,richard donner,"mel gibson, danny glover, joe pesci","action, crime, thriller",114
 4440,licence to kill,1989,john glen,"timothy dalton, robert davi, carey lowell","action, adventure, thriller",133
-4441,lie mo qun ying,1989,chin-ku lu,,action,90
+4441,lie mo qun ying,1989,chin-ku lu,null,action,90
 4442,lock up,1989,john flynn,"sylvester stallone, donald sutherland, john amos","action, crime, drama",109
 4443,the master,1989,hark tsui,"jet li, wah yuen, crystal kwok",action,88
 4444,the mighty quinn,1989,carl schenkel,"denzel washington, robert townsend, james fox","action, crime, drama",98
@@ -4516,7 +4516,7 @@ ID,Title,Year,Director,Cast,Genre,Duration
 4515,il giustiziere del bronx,1989,vanio amici,"gabriele gori, margit evelyn newton, chuck valenti","action, crime, sci-fi",92
 4516,oru vadakkan veeragatha,1989,t. hariharan,"mammootty, suresh gopi, balan k. nair","action, drama, history",168
 4517,clerk,1989,manoj kumar,"manoj kumar, ashok kumar, rajendra kumar","action, crime, drama",165
-4518,the black cobra 2,1989,edoardo margheriti,,"action, crime, drama",94
+4518,the black cobra 2,1989,edoardo margheriti,null,"action, crime, drama",94
 4519,shiva,1989,ram gopal varma,"nagarjuna akkineni, amala akkineni, raghuvaran",action,145
 4520,super mouse and the roborats,1989,tony y. reyes,"joey de leon, rene requiestas, manilyn reynes","action, comedy, fantasy",99
 4521,dragon ball,1989,daisuke nishio,"barbara goodson, wendee lee, clifton wells","animation, action, adventure",100
@@ -4644,7 +4644,7 @@ ID,Title,Year,Director,Cast,Genre,Duration
 4643,veerana,1988,shyam ramsay,"hemant birje, jasmin, sahila chaddha","action, drama, horror",145
 4644,final score,1988,arizal,"christopher mitchum, mike abbott, ida iasha","action, adventure, crime",88
 4645,perawan rimba,1988,danu umbara,"lydia kandou, harry capri, enny beatrice",action,93
-4646,the glass jungle,1988,joseph merhi,,action,94
+4646,the glass jungle,1988,joseph merhi,null,action,94
 4647,commando,1988,babbar subhash,"mithun chakraborty, mandakini, hemant birje","action, drama, romance",149
 4648,masterblaster,1987,glenn r. wilder,"jeff moldovan, donna rosea, joe hess","action, thriller",94
 4649,commando mengele,1987,andrea bianchi,"christopher mitchum, suzanne andrews, fernando rey","action, thriller",92
@@ -4751,7 +4751,7 @@ ID,Title,Year,Director,Cast,Genre,Duration
 4750,the rutherford county line,1987,thom mcintyre,"earl owensby, terry loughlin, marilyn carter",action,98
 4751,fight to win,1987,leo fong,"cynthia rothrock, richard norton, troy donahue","action, comedy, drama",77
 4752,karate warrior,1987,fabrizio de angelis,"kim rossi stuart, ken watanabe, jannelle barretto",action,94
-4753,wu tang vs. ninja,1987,kuo-ren wu,,"action, fantasy",88
+4753,wu tang vs. ninja,1987,kuo-ren wu,null,"action, fantasy",88
 4754,ninja: american warrior,1987,godfrey ho,"jeff houston, john wilford, peter davis","action, crime",86
 4755,hateman,1987,harry hope,"john greene, cindy rome, chuck mitchell","action, adventure",95
 4756,new delhi,1987,joshi,"jeetendra, mammootty, sumalatha","action, crime, drama",143
@@ -4759,7 +4759,7 @@ ID,Title,Year,Director,Cast,Genre,Duration
 4758,loha,1987,raj n. sippy,"dharmendra, shatrughan sinha, karan kapoor","action, crime, drama",153
 4759,deep sea conspiracy,1987,michael brun,"patty talbot, peter snider, michael j. reynolds","action, sci-fi, thriller",91
 4760,ninja condors,1987,kuo-ren wu,"alexander lo rei, stuart hugh, timothy johnson",action,89
-4761,maidens revenge,1987,ackyl anwari,,action,93
+4761,maidens revenge,1987,ackyl anwari,null,action,93
 4762,hitman the cobra,1987,godfrey ho,"richard harrison, mike abbott, phil parker",action,90
 4763,death run,1987,michael j. murphy,"rob bartlett, wendy parsons, debbi stevens","action, horror, sci-fi",70
 4764,lucky seven,1986,chen-kuo chao,"chai-ming chang, yi-teng chang, wei-pai cheng","action, comedy",80
@@ -4896,7 +4896,7 @@ ID,Title,Year,Director,Cast,Genre,Duration
 4895,commando,1985,mark l. lester,"arnold schwarzenegger, rae dawn chong, dan hedaya","action, adventure, thriller",90
 4896,day of the dead,1985,george a. romero,"lori cardille, terry alexander, joseph pilato","action, horror, thriller",96
 4897,death wish 3,1985,michael winner,"charles bronson, deborah raffin, ed lauter","action, crime, drama",92
-4898,disciples of the 36th chamber,1985,chia-liang liu,,"action, comedy",90
+4898,disciples of the 36th chamber,1985,chia-liang liu,null,"action, comedy",90
 4899,don't mess with my sister!,1985,meir zarchi,"joe perce, jeannine lemay, jack gurci","action, drama",94
 4900,the emerald forest,1985,john boorman,"powers boothe, meg foster, yara vaneau","action, adventure, drama",114
 4901,enemy mine,1985,wolfgang petersen,"dennis quaid, louis gossett jr., brion james","action, adventure, drama",108
@@ -4976,7 +4976,7 @@ ID,Title,Year,Director,Cast,Genre,Duration
 4975,deep in the heart,1984,tony garnett,"karen young, clayton day, suzie humphreys","action, drama",101
 4976,the world of don camillo,1984,terence hill,"terence hill, colin blakely, mimsy farmer","action, comedy",126
 4977,gui ma tian shi,1984,cheung-yan yuen,"cheung-yan yuen, yat chor yuen, shun-yee yuen","action, comedy, horror",95
-4978,hell penitentiary,1984,gianni siragusa,,action,90
+4978,hell penitentiary,1984,gianni siragusa,null,action,90
 4979,shaolin temple 2: kids from shaolin,1984,hsin-yen chang,"jet li, lan ding, qiuyan huang","action, comedy",99
 4980,the ark of the sun god,1984,antonio margheriti,"david warbeck, john steiner, susie sudlow","action, adventure",98
 4981,tuareg: the desert warrior,1984,enzo g. castellari,"mark harmon, luis prendes, ritza brown","adventure, action",97
@@ -5068,7 +5068,7 @@ ID,Title,Year,Director,Cast,Genre,Duration
 5067,go for it,1983,enzo barboni,"terence hill, bud spencer, buffy dee","action, adventure, comedy",107
 5068,krull,1983,peter yates,"ken marshall, lysette anthony, freddie jones","action, adventure, fantasy",121
 5069,lone wolf mcquade,1983,steve carver,"chuck norris, david carradine, barbara carrera","action, crime, drama",107
-5070,fearless hyena 2,1983,chuan chen,,action,92
+5070,fearless hyena 2,1983,chuan chen,null,action,92
 5071,the man who wasn't there,1983,bruce malmuth,"steve guttenberg, jeffrey tambor, art hindle","action, adventure, comedy",111
 5072,le marginal,1983,jacques deray,"jean-paul belmondo, henry silva, carlos sotto mayor","action, crime, drama",100
 5073,metalstorm: the destruction of jared-syn,1983,charles band,"jeffrey byron, michael preston, tim thomerson","adventure, sci-fi, action",84
@@ -5134,7 +5134,7 @@ ID,Title,Year,Director,Cast,Genre,Duration
 5133,huo yuan-jia,1982,woo-ping yuen,"yao lin chen, yeh fang, fung fung","action, history",89
 5134,the junkman,1982,h.b. halicki,"h.b. halicki, christopher stone, susan shaw","action, comedy, crime",96
 5135,dragon strike,1982,jackie chan,"jackie chan, mars, wai-man chan","action, comedy, sport",102
-5136,ninja in the dragon's den,1982,corey yuen,,"action, comedy",95
+5136,ninja in the dragon's den,1982,corey yuen,null,"action, comedy",95
 5137,megaforce,1982,hal needham,"barry bostwick, michael beck, persis khambatta","sci-fi, action",99
 5138,kung fu cannibals,1982,edward d. murphy,"cameron mitchell, geoffrey binney, hope holiday","adventure, horror, action",86
 5139,human lanterns,1982,chung sun,"tony liu, kuan tai chen, lieh lo","horror, action",95
@@ -5153,13 +5153,13 @@ ID,Title,Year,Director,Cast,Genre,Duration
 5152,things are tough all over,1982,thomas k. avildsen,"toni attell, mike bacarella, billy beck","comedy, action",90
 5153,tron,1982,steven lisberger,"jeff bridges, bruce boxleitner, david warner","action, adventure, sci-fi",96
 5154,vice squad,1982,gary sherman,"season hubley, gary swanson, wings hauser","action, crime, drama",97
-5155,vidhaata,1982,subhash ghai,,"drama, family, action",168
+5155,vidhaata,1982,subhash ghai,null,"drama, family, action",168
 5156,violenza in un carcere femminile,1982,bruno mattei,"laura gemser, gabriele tinti, maria romano","action, thriller",90
 5157,battletruck,1982,harley cokeliss,"michael beck, annie mcenroe, james wainwright","action, adventure, sci-fi",91
 5158,five element ninjas,1982,cheh chang,"tien-chi cheng, tien hsiang lung, meng lo","action, drama",107
 5159,mad mission,1982,eric tsang,"samuel hui, karl maka, sylvia chang","action, comedy",93
 5160,1990: the bronx warriors,1982,enzo g. castellari,"mark gregory, fred williamson, vic morrow","action, sci-fi, thriller",89
-5161,gold raiders,1982,pakdeevijit chalong,,"action, adventure",106
+5161,gold raiders,1982,pakdeevijit chalong,null,"action, adventure",106
 5162,sorceress,1982,jack hill,"leigh harris, lynette harris, roberto nelson","action, fantasy, adventure",83
 5163,timerider: the adventure of lyle swann,1982,william dear,"fred ward, belinda bauer, peter coyote","action, adventure, sci-fi",94
 5164,angkor: cambodia express,1982,lek kitaparaporn,"robert walker jr., woody strode, christopher george","action, drama, war",90
@@ -5223,7 +5223,7 @@ ID,Title,Year,Director,Cast,Genre,Duration
 5222,krodhi,1981,subhash ghai,"dharmendra, shashi kapoor, zeenat aman","action, thriller",159
 5223,rocky,1981,sunil dutt,"sanjay dutt, reena roy, tina munim",action,151
 5224,kranti,1981,manoj kumar,"dilip kumar, manoj kumar, shashi kapoor","action, adventure, drama",187
-5225,the clones of bruce lee,1980,joseph velasco,,"action, drama",91
+5225,the clones of bruce lee,1980,joseph velasco,null,"action, drama",91
 5226,qian zuo guai,1980,john woo,"kim-wan chan, lap ban chan, ching po chang","comedy, action, adventure",101
 5227,challenge of the tiger,1980,bruce le,"bruce le, jang lee hwang, richard harrison","action, thriller",86
 5228,stunt rock,1980,brian trenchard-smith,"grant page, monique van de ven, margaret gerard","action, drama, music",86
@@ -5289,10 +5289,10 @@ ID,Title,Year,Director,Cast,Genre,Duration
 5288,the porno killers,1980,roberto mauri,"carmen russo, cintia lodetti, vassili karis","action, comedy, crime",82
 5289,ekipazh,1980,aleksandr mitta,"georgi zhzhyonov, anatoliy vasilev, leonid filatov","action, drama, thriller",144
 5290,pirates of the 20th century,1980,boris durov,"nikolay eryomenko, pyotr velyaminov, talgat nigmatulin","action, adventure, thriller",83
-5291,shaolin warrior,1980,chia yung liu,,"action, comedy",100
+5291,shaolin warrior,1980,chia yung liu,null,"action, comedy",100
 5292,the master,1980,chin-ku lu,"kuan tai chen, tak yuen, hsueh-erh wen","action, comedy",92
 5293,karz,1980,subhash ghai,"rishi kapoor, tina munim, simi garewal","action, musical, romance",159
-5294,qurbani,1980,feroz khan,,"action, drama, thriller",157
+5294,qurbani,1980,feroz khan,null,"action, drama, thriller",157
 5295,aguila,1980,eddie romero,"fernando poe jr., amalia fuentes, christopher de leon","action, drama, romance",210
 5296,goldrunner,1980,richard losee,"richard losee, kristin kelly, dahl gleave","action, crime, drama",90
 5297,disco godfather,1979,j. robert wagoner,"rudy ray moore, carol speed, jimmy lynch","action, crime, drama",93
@@ -5342,7 +5342,7 @@ ID,Title,Year,Director,Cast,Genre,Duration
 5341,meteor,1979,ronald neame,"sean connery, natalie wood, karl malden","action, drama, sci-fi",108
 5342,moonraker,1979,lewis gilbert,"roger moore, lois chiles, michael lonsdale","action, adventure, sci-fi",126
 5343,mr. natwarlal,1979,rakesh kumar,"amitabh bachchan, rekha, ajit","action, comedy, romance",148
-5344,muqabla,1979,rajkumar kohli,,"action, adventure, drama",127
+5344,muqabla,1979,rajkumar kohli,null,"action, adventure, drama",127
 5345,dance of the drunken mantis,1979,woo-ping yuen,"siu tin yuen, jang lee hwang, linda lin","action, comedy",94
 5346,the north avenue irregulars,1979,bruce bilson,"edward herrmann, barbara harris, susan clark","action, comedy, crime",100
 5347,the odd angry shot,1979,tom jeffrey,"graham kennedy, john hargreaves, john jarratt","action, comedy, war",92
@@ -5365,15 +5365,15 @@ ID,Title,Year,Director,Cast,Genre,Duration
 5364,ffolkes,1979,andrew v. mclaglen,"roger moore, james mason, anthony perkins","action, adventure, thriller",95
 5365,mr. no legs,1979,ricou browning,"richard jaeckel, ron slinker, lloyd bochner","action, drama",90
 5366,search and destroy,1979,william fruet,"perry king, don stroud, tisa farrow","action, drama, thriller",92
-5367,crippled masters,1979,kei law,,"action, drama",90
-5368,dragon's claws,1979,joseph kuo,,"action, drama",92
+5367,crippled masters,1979,kei law,null,"action, drama",90
+5368,dragon's claws,1979,joseph kuo,null,"action, drama",92
 5369,tough to kill,1979,joe d'amato,"luc merenda, donald o'brien, percy hogan","action, war",88
 5370,kung fu of seven steps,1979,chung ting,"tien-chi cheng, kai chia, shan chang",action,87
 5371,raining in the mountain,1979,king hu,"feng hsu, yueh sun, chun shih","action, drama",120
 5372,the man who stole the sun,1979,kazuhiko hasegawa,"bunta sugawara, kenji sawada, kimiko ikegami","action, crime, thriller",147
 5373,gautam govinda,1979,subhash ghai,"shashi kapoor, shatrughan sinha, moushumi chatterjee","action, crime, drama",131
 5374,maula jat,1979,yunus malik,"sultan rahi, mustafa qureshi, seema","action, crime, drama",156
-5375,duniya meri jeb mein,1979,tinnu anand,,"action, drama, family",139
+5375,duniya meri jeb mein,1979,tinnu anand,null,"action, drama, family",139
 5376,kartavya,1979,mohan segal,"dharmendra, rekha, vinod mehra","action, drama",168
 5377,the king of kung fu,1978,kuo-hsiang lin,"bruce le, bolo yeung, chi ling chiu","action, drama",87
 5378,la banda del gobbo,1978,umberto lenzi,"tomas milian, pino colizzi, isa danieli","action, crime, thriller",95
@@ -5445,7 +5445,7 @@ ID,Title,Year,Director,Cast,Genre,Duration
 5444,heroes of the east,1978,chia-liang liu,"chia-hui liu, yuka mizuno, kurata yasuaki","action, drama",105
 5445,drunken master,1978,woo-ping yuen,"jackie chan, siu tin yuen, jang lee hwang","comedy, action",111
 5446,the six thousand dollar nigger,1978,rene martinez jr.,"steve gallon, joycelyn norris, benny latimore","action, comedy, sci-fi",80
-5447,way of the dragon 2,1978,lu po tu,,"action, drama",94
+5447,way of the dragon 2,1978,lu po tu,null,"action, drama",94
 5448,youngblood,1978,noel nosseck,"lawrence hilton-jacobs, bryan o'dell, renn woods","action, drama",90
 5449,black belt jones 2,1978,tso nam lee,"jim kelly, sing chen, tao-liang tan","action, crime, drama",90
 5450,supervan,1977,lamar card,"mark schneider, katie saylor, morgan woodward","action, comedy",91
@@ -5512,7 +5512,7 @@ ID,Title,Year,Director,Cast,Genre,Duration
 5511,7 grandmasters,1977,joseph kuo,"yi-min li, jack long, mark long","action, drama",89
 5512,napoli spara!,1977,mario caiano,"leonard mann, ida galli, henry silva","action, drama",85
 5513,10 brothers of shaolin,1977,chung ting,"yi chang, chiu ming chen, kau chen","action, drama",90
-5514,rape! 13th hour,1977,yasuharu hasebe,,"crime, action, thriller",73
+5514,rape! 13th hour,1977,yasuharu hasebe,null,"crime, action, thriller",73
 5515,bionic boy,1977,leody m. diaz,"susan beacher, kerry chandler, carole king","action, crime, sci-fi",95
 5516,bruce's deadly fingers,1976,joseph velasco,"bruce le, wai-man chan, rose cheng","action, crime, drama",91
 5517,the death collector,1976,ralph de vito,"joe cortese, lou criscuolo, joe pesci","action, crime, drama",85
@@ -5551,7 +5551,7 @@ ID,Title,Year,Director,Cast,Genre,Duration
 5550,mean johnny barrows,1976,fred williamson,"fred williamson, roddy mcdowall, stuart whitman","action, crime, drama",90
 5551,midway,1976,jack smight,"charlton heston, henry fonda, james coburn","action, drama, history",132
 5552,the muthers,1976,cirio h. santiago,"jeannie bell, rosanne katon, trina parks","action, drama",83
-5553,the secret rivals: enter the silver fox,1976,james nam,,"action, drama",90
+5553,the secret rivals: enter the silver fox,1976,james nam,null,"action, drama",90
 5554,violent naples,1976,umberto lenzi,"maurizio merli, john saxon, barry sullivan","action, crime, thriller",95
 5555,the next man,1976,richard c. sarafian,"sean connery, cornelia sharpe, albert paulsen","action, thriller",108
 5556,northville cemetery massacre,1976,william dear,"david hyry, j. craig collicut, carson jackson","crime, action, drama",83
@@ -5585,14 +5585,14 @@ ID,Title,Year,Director,Cast,Genre,Duration
 5584,karate killer,1976,ivan hall,"james ryan, charlotte michelle, norman coombes","action, drama, sport",90
 5585,project: kill,1976,william girdler,"leslie nielsen, gary lockwood, nancy kwan","action, drama",90
 5586,black heat,1976,al adamson,"timothy brown, russ tamblyn, jana bellan","action, crime, drama",94
-5587,the dirty half dozen,1976,cesar gallardo,,"action, adventure, war",98
+5587,the dirty half dozen,1976,cesar gallardo,null,"action, adventure, war",98
 5588,ek se badhkar ek,1976,brij,"ashok kumar, raaj kumar, sharmila tagore","action, crime, drama",158
 5589,karate warriors,1976,kazuhiko yamaguchi,"shin'ichi chiba, akane kawasaki, akiko koyama","action, drama",89
 5590,the deadly females,1976,donovan winter,"tracy reed, bernard holley, scott fredericks",action,105
 5591,italia a mano armata,1976,marino girolami,"maurizio merli, raymond pellegrin, john saxon","thriller, action, crime",101
 5592,fury of the dragon,1976,william beaudine,"van williams, bruce lee, wende wagner","action, adventure, crime",89
 5593,rome: the other side of violence,1976,marino girolami,"marcel bozzuffi, anthony steffen, ennio girolami","action, crime",99
-5594,brotherhood of death,1976,bill berry,,"action, drama, thriller",90
+5594,brotherhood of death,1976,bill berry,null,"action, drama, thriller",90
 5595,death has blue eyes,1976,nico mastorakis,"jessica dublin, maria aliferi, peter winter","action, sci-fi, thriller",90
 5596,charas,1976,ramanand sagar,"dharmendra, hema malini, ajit","action, thriller",159
 5597,mehbooba,1976,shakti samanta,"rajesh khanna, hema malini, prem chopra","action, drama, family",134
@@ -5806,7 +5806,7 @@ ID,Title,Year,Director,Cast,Genre,Duration
 5805,yaadon ki baaraat,1973,nasir hussain,"dharmendra, zeenat aman, vijay arora","drama, romance, action",164
 5806,the fate of lee khan,1973,king hu,"li hua li, roy chiao, feng hsu","action, drama",105
 5807,zanjeer,1973,prakash mehra,"amitabh bachchan, jaya bhaduri, pran","action, crime, drama",145
-5808,nu ji zhong ying,1973,chih-hung kuei,,"action, drama, thriller",110
+5808,nu ji zhong ying,1973,chih-hung kuei,null,"action, drama, thriller",110
 5809,the black 6,1973,matt cimber,"robert howard, cindy daly, mikel angel","action, drama",94
 5810,the clones,1973,lamar card,"michael greene, gregory sierra, otis young","action, sci-fi",95
 5811,the golden voyage of sinbad,1973,gordon hessler,"john phillip law, caroline munro, tom baker","action, adventure, fantasy",105
@@ -6013,7 +6013,7 @@ ID,Title,Year,Director,Cast,Genre,Duration
 6012,pit stop,1969,jack hill,"brian donlevy, richard davalos, ellen burstyn","action, drama, sport",92
 6013,satan's sadists,1969,al adamson,"russ tamblyn, scott brady, john 'bud' cardos","action, horror, drama",86
 6014,scream free!,1969,bill brame,"richard beymer, russ tamblyn, lana wood","action, drama",80
-6015,sisters in leather,1969,zoltan g. spencer,,"action, crime, drama",64
+6015,sisters in leather,1969,zoltan g. spencer,null,"action, crime, drama",64
 6016,some girls do,1969,ralph thomas,"richard johnson, daliah lavi, beba loncar","action, adventure, comedy",88
 6017,support your local sheriff!,1969,burt kennedy,"james garner, joan hackett, walter brennan","action, comedy, romance",92
 6018,the wild bunch,1969,sam peckinpah,"william holden, ernest borgnine, robert ryan","action, adventure, western",145
@@ -6172,7 +6172,7 @@ ID,Title,Year,Director,Cast,Genre,Duration
 6171,the train,1964,john frankenheimer,"burt lancaster, paul scofield, jeanne moreau","thriller, war, action",133
 6172,to trap a spy,1964,don medford,"robert vaughn, luciana paluzzi, pat crowley","comedy, adventure, drama",92
 6173,hero of rome,1964,giorgio ferroni,"gordon scott, gabriella pallotta, massimo serato","action, adventure, drama",90
-6174,the story of qin xianglian,1964,yu hsin chen,,action,124
+6174,the story of qin xianglian,1964,yu hsin chen,null,action,124
 6175,temple of the white elephant,1964,umberto lenzi,"sean flynn, marie versini, alessandra panaro","action, adventure, drama",85
 6176,rome against rome,1964,giuseppe vari,"john drew barrymore, susy andersen, ettore manni","action, drama, adventure",98
 6177,samson in king solomon's mines,1964,piero regnoli,"reg park, wandisa guida, bruno piergentili",action,92
@@ -6203,7 +6203,7 @@ ID,Title,Year,Director,Cast,Genre,Duration
 6202,tarzan goes to india,1962,john guillermin,"jock mahoney, leo gordon, mark dana","action, adventure",88
 6203,the valiant,1962,roy ward baker,"john mills, ettore manni, roberto risso","action, drama, war",80
 6204,colossus of the stone age,1962,guido malatesta,"reg lewis, margaret lee, luciano marin","action, adventure, fantasy",82
-6205,big and little wong tin bar,1962,yuen-man lee,,"action, adventure, drama",106
+6205,big and little wong tin bar,1962,yuen-man lee,null,"action, adventure, drama",106
 6206,king kong,1962,babubhai mistri,"kumkum, dara singh, chandrashekhar","action, adventure, comedy",142
 6207,wild youth,1961,john f. schreyer,"carol ohmart, robert hutton, steve rowland","action, crime, drama",73
 6208,atlas,1961,roger corman,"michael forest, barboura morris, frank wolff","action, adventure, drama",79
@@ -6280,7 +6280,7 @@ ID,Title,Year,Director,Cast,Genre,Duration
 6279,the young lions,1958,edward dmytryk,"marlon brando, montgomery clift, dean martin","action, drama, war",167
 6280,the mask of the gorilla,1958,bernard borderie,"lino ventura, charles vanel, pierre dux","action, drama",90
 6281,timbuktu,1958,jacques tourneur,"victor mature, yvonne de carlo, george dolenz","action, adventure, romance",91
-6282,the town hero,1958,tadashi sawashima,,"action, drama",91
+6282,the town hero,1958,tadashi sawashima,null,"action, drama",91
 6283,night ambush,1957,michael powell,"dirk bogarde, marius goring, david oxley","action, adventure, drama",93
 6284,the brain from planet arous,1957,nathan juran,"john agar, joyce meadows, robert fuller","action, adventure, horror",71
 6285,china gate,1957,samuel fuller,"gene barry, angie dickinson, nat 'king' cole","action, war, drama",97
@@ -6310,7 +6310,7 @@ ID,Title,Year,Director,Cast,Genre,Duration
 6309,the great locomotive chase,1956,francis d. lyon,"fess parker, jeffrey hunter, jeff york","action, adventure, family",85
 6310,hot rod girl,1956,leslie h. martinson,"lori nelson, chuck connors, john smith","action, drama, romance",79
 6311,huk!,1956,john barnwell,"george montgomery, mona freeman, john baer","action, drama, romance",84
-6312,blonde bait,1956,elmo williams,,"action, adventure, crime",71
+6312,blonde bait,1956,elmo williams,null,"action, adventure, crime",71
 6313,zarak,1956,terence young,"victor mature, michael wilding, anita ekberg","action, adventure, romance",99
 6314,double jeopardy,1955,r.g. springsteen,"rod cameron, gale robbins, allison hayes","action, adventure, crime",70
 6315,torpedo zone,1955,duilio coletti,"lois maxwell, renato baldini, carlo bellini","romance, war, action",86

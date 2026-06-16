@@ -118,6 +118,7 @@ def normalizer(file_path):
     file_path = Path(file_path)
     df = pd.read_csv(file_path, encoding="utf-8")
 
+
     # fix encoding issues
     df = df.map(fix_mojibake)
 
@@ -143,6 +144,9 @@ def normalizer(file_path):
 
     # assign sequential IDs
     df = indicization(df)
+
+    # convert null into "NULL" characters
+    df = df.astype(object).fillna("null")
 
     # save output
     output_file = OUTPUT_DIR / f"{file_path.parent.name}_{file_path.name}"
