@@ -25,15 +25,17 @@ COLUMN_MAPPING = {
     "duration": "Duration",
 }
 
-FINAL_COLUMNS = [
-    "ID",
-    "Title",
-    "Year",
-    "Director",
-    "Cast",
-    "Genre",
-    "Duration"
-]
+FINAL_COLUMNS = {
+    "ID": "string",
+    "Title": "string",
+    "Year": "Int64",
+    "Director": "string",
+    "Cast": "string",
+    "Genre": "string",
+    "Duration": "Int64"
+}
+
+
 
 # =========================
 # FUNCTIONS
@@ -41,10 +43,7 @@ FINAL_COLUMNS = [
 def indicization(df, letter):
     """Assign a sequential ID to each row."""
     df = df.copy()
-
-    for i in range(1, len(df) + 1):
-        df["ID"][i-1] = letter + str(i)
-
+    df["ID"] = [f"{letter}{i}" for i in range(1, len(df)+1)]
     return df
 
 def clean_year(x):
@@ -114,7 +113,7 @@ def lowercase_text(x):
 def normalizer(file_path, letter):    
 
     file_path = Path(file_path)
-    df = pd.read_csv(file_path, encoding="utf-8")
+    df = pd.read_csv(file_path,encoding="utf-8")
 
 
     # fix encoding issues
@@ -132,7 +131,7 @@ def normalizer(file_path, letter):
         df["Duration"] = df["Duration"].apply(clean_duration).astype("Int64")
 
     # keep only final schema
-    df = df[[c for c in FINAL_COLUMNS if c in df.columns]]
+    df = df[[c for c in FINAL_COLUMNS.keys() if c in df.columns]]
 
     # fix separators and normalize casing for text columns
     for col in ["Title", "Director", "Cast", "Genre"]:
@@ -143,8 +142,10 @@ def normalizer(file_path, letter):
     # assign sequential IDs
     df = indicization(df, letter)
 
-    # convert null into "NULL" characters
-    df = df.astype(object).fillna("null")
+    for col, dtype in FINAL_COLUMNS.items():
+        if col in df.columns:
+            df[col] = df[col].astype(dtype)
+
 
     # save output
     output_file = OUTPUT_DIR / f"{file_path.parent.name}_{file_path.name}"

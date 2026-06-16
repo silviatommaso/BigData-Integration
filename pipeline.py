@@ -12,14 +12,9 @@ files = [
     INPUT_DIR / "movies3_cleaned_imdb_cleaned.csv",
     INPUT_DIR / "movies3_cleaned_rotten_tomatoes_cleaned.csv",
     INPUT_DIR / "movies5_cleaned_imdb_cleaned.csv",
+
     INPUT_DIR / "movies5_cleaned_roger_ebert_final.csv",
 ]
-
-DTYPES = {
-    "Year": "Int64",
-    "Duration": "Int64"
-}
-
 
 ############################
 # STEP I -> SCHEMA ALIGNMENT
@@ -44,8 +39,11 @@ if SCHEMA_ALIGN:
     # csv datasets unification
     dfs = [pd.read_csv(f) for f in files]
 
-    dfs["Year"] = dfs["Year"].astype("Int64")
-    dfs["Duration"] = dfs["Duration"].astype("Int64")
+    for df in dfs:
+        if "Year" in df.columns:
+            df["Year"] = df["Year"].astype("Int64")
+        if "Duration" in df.columns:
+            df["Duration"] = df["Duration"].astype("Int64")
 
     merged_df = pd.concat(dfs, ignore_index=True)
     merged_df.to_csv(INPUT_DIR / ".." / "merged_movies.csv", index=False)
