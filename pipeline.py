@@ -1,9 +1,11 @@
 from normalizator import normalizer
+from canopy_clustering import canopy_cluster
 from pathlib import Path
 import pandas as pd
 
 
-SCHEMA_ALIGN = True
+SCHEMA_ALIGN = False
+RECORD_LINKAGE = True
 
 
 INPUT_DIR = Path("normalized_csv")
@@ -46,7 +48,7 @@ if SCHEMA_ALIGN:
             df["Duration"] = df["Duration"].astype("Int64")
 
     merged_df = pd.concat(dfs, ignore_index=True)
-    merged_df.to_csv(INPUT_DIR / ".." / "merged_movies.csv", index=False)
+    merged_df.to_csv(INPUT_DIR / ".." / "schema_alignment_csv"/ "merged_movies.csv", index=False)
     print(f"Totale righe: {len(merged_df)}")
 
 
@@ -58,3 +60,20 @@ if SCHEMA_ALIGN:
 #------------------------------
 # Blocking by Canopy clustering
 #------------------------------
+#
+# Canopy features:
+# - Title
+# - Year
+# - Director
+#
+#------------------------------
+
+
+
+if RECORD_LINKAGE:
+
+    df = pd.read_csv("merged_movies.csv")
+
+    # bigram file generation
+    df = canopy_cluster(df, (INPUT_DIR / ".." / "record_linkage_csv"/ "canopy_blocks.csv"))
+
