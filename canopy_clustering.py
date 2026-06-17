@@ -6,58 +6,33 @@ import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
-
 # ======================
 # TEXT PREPROCESSING
 # ======================
 
-def build_blocking_text(row):
-    parts = []
-    for col in ["Title", "Director", "Year"]:
-        value = row.get(col)
-        if pd.notna(value) and str(value).strip().lower() != "null":
-            text_clean = str(value).strip().lower()
-            for char in [",", ".", "-", "(", ")", "[", "]", "/", "\\", ":", "_"]:
-                text_clean = text_clean.replace(char, " ")
-            parts.append(" ".join(text_clean.split()))
-    return " ".join(parts)
+def clean_text(value):
+    """Pulisce il testo standardizzando la punteggiatura e gli spazi."""
+    if pd.isna(value) or str(value).strip().lower() in ["null", "<na>", "nan", ""]:
+        return ""
+    text_clean = str(value).strip().lower()
+    for char in [",", ".", "-", "(", ")", "[", "]", "/", "\\", ":", "_"]:
+        text_clean = text_clean.replace(char, " ")
+    return " ".join(text_clean.split())
 
 
-def build_tfidf_matrix(df):
-    texts = df["blocking_text"].fillna("").tolist()
-    vectorizer = TfidfVectorizer(
-        analyzer="char_wb",
-        ngram_range=(2, 3),
-        min_df=4
-    )
-    return vectorizer.fit_transform(texts)
-
-
-# ======================
-# DIAGNOSTICA DATASET
-# ======================
-
-def dataset_diagnostics(X):
-    print("\n" + "=" * 60)
-    print("📊 DIAGNOSTICA TF-IDF SPACE")
-    print("=" * 60)
-
-    mean_density = np.mean(X.mean(axis=1))
-    print(f"🔹 Mean vector density: {mean_density:.6f}")
-
-    sample = X[:200] if X.shape[0] > 200 else X
-    sim_matrix = cosine_similarity(sample, sample)
-    mean_sim = sim_matrix[np.triu_indices_from(sim_matrix, k=1)].mean()
-
-    print(f"🔹 Mean pairwise cosine similarity (sample): {mean_sim:.4f}")
-
-    if mean_sim < 0.1:
-        print("⚠️ Dataset MOLTO sparso → canopy avrà cluster piccoli")
-    elif mean_sim < 0.3:
-        print("⚠️ Dataset moderatamente sparso")
-    else:
-        print("✅ Dataset abbastanza denso")
-    print("=" * 60 + "\n")
+def build_tfidf_matrices(df):
+    """Genera matrici TF-IDF separate per Titolo e Regista."""
+    titles = df["clean_title"].tolist()
+    directors = df["clean_director"].tolist()
+    
+    # Utilizziamo impostazioni iper-ottimizzate per gli n-grammi di caratteri
+    vectorizer_title = TfidfVectorizer(analyzer="char_wb", ngram_range=(2, 3), min_df=2)
+    vectorizer_dir = TfidfVectorizer(analyzer="char_wb", ngram_range=(2, 3), min_df=2)
+    
+    X_title = vectorizer_title.fit_transform(titles)
+    X_dir = vectorizer_dir.fit_transform(directors)
+    
+    return X_title, X_dir
 
 
 # ======================
@@ -68,32 +43,32 @@ def canopy_cluster(df, cluster_path):
     start_time = time.time()
     df = df.copy()
 
-    if "Year" in df.columns:
-        df["Year"] = df["Year"].astype(str)
-
-    # Feature building e TF-IDF
-    df["blocking_text"] = df.apply(build_blocking_text, axis=1)
-    X = build_tfidf_matrix(df)
-
-    # Diagnostica dello spazio vettoriale
-    dataset_diagnostics(X)
+    # Pre-pulizia dei campi chiave
+    df["clean_title"] = df["Title"].apply(clean_text)
+    df["clean_director"] = df["Director"].apply(clean_text)
+    
+    # Costruzione delle matrici separate
+    X_title, X_dir = build_tfidf_matrices(df)
 
     n = len(df)
-    # Usiamo un array booleano per il pool: True significa che l'elemento è ancora disponibile
     pool_mask = np.ones(n, dtype=bool)
     canopies = {}
 
     # ============================================================
-    # SOGLIE ALLINEATE ALLA TEORIA: T1 (Loose) < T2 (Tight)
+    # SOGLIE STRUTTURATE SUI DUE CANALI SEPARATI
     # ============================================================
-    T1 = 0.30  # Soglia LARGA: per entrare nel cluster (Canopy)
-    T2 = 0.40  # Soglia STRETTA: per essere rimossi dal pool
+    # Soglie per il Titolo
+    T1_title = 0.40  
+    T2_title = 0.70  
+    
+    # Soglie per il Regista (più severe per evitare falsi match di omonimia)
+    T1_dir = 0.40    
+    T2_dir = 0.65    
     # ============================================================
 
     print("=" * 60)
-    print("🚀 CANOPY CLUSTERING CON TF-IDF (OTTIMIZZATO)")
-    print(f"Dataset: {n}")
-    print(f"Soglie: T1 (Loose)={T1} | T2 (Tight)={T2}")
+    print("🚀 CANOPY MULTI-CANALE (TITLE + DIRECTOR) OTTIMIZZATO")
+    print(f"Dataset size: {n}")
     print("=" * 60)
 
     with open(cluster_path, "w", newline="", encoding="utf-8") as f:
@@ -102,32 +77,44 @@ def canopy_cluster(df, cluster_path):
 
     cluster_id = 0
 
-    # Ciclo principale
+    # Cache dei flag "director presente" per velocizzare il ciclo
+    has_director = (df["clean_director"] != "").to_numpy()
+
     while np.any(pool_mask):
         cluster_id += 1
 
         # Scegli il primo indice disponibile nel pool come centroide
         centro_id = np.where(pool_mask)[0][0]
-        
-        # Il centroide viene rimosso a prescindere dal pool
         pool_mask[centro_id] = False
 
-        # Calcola la similarità tra il centroide e TUTTI i record in un colpo solo
-        centro_vec = X[centro_id]
-        sims = cosine_similarity(centro_vec, X).ravel()
+        # 1. Calcola le similarità separate per Titolo e Regista
+        sims_title = cosine_similarity(X_title[centro_id], X_title).ravel()
+        sims_dir = cosine_similarity(X_dir[centro_id], X_dir).ravel()
 
-        # Condizione per ENTRARE nel cluster (Soglia larga T1)
-        # Il centroide entra di diritto nel suo cluster
-        in_cluster_mask = (sims >= T1)
-        in_cluster_mask[centro_id] = True
+        # 2. Logica di fusione condizionale (Gestione del Director NULL)
+        # Se il centroide NON ha il regista, o il film target NON ha il regista, ci fidiamo solo del titolo
+        centro_has_dir = has_director[centro_id]
+        both_have_director = centro_has_dir & has_director
+        
+        # Maschera Finale Loose (Per entrare nel cluster)
+        in_cluster_mask = np.where(
+            both_have_director,
+            (sims_title >= T1_title) & (sims_dir >= T1_dir),  # Se entrambi hanno il regista, devono passare entrambi i controlli
+            (sims_title >= T1_title)                          # Se uno dei due è NULL, basta il titolo
+        )
+        in_cluster_mask[centro_id] = True                     # Il centroide entra di diritto
         blocco_indices = np.where(in_cluster_mask)[0]
 
-        # Condizione per ESSERE RIMOSSI dal pool (Soglia stretta T2)
-        # Rimuoviamo dal pool solo gli elementi rimasti che superano T2
-        to_remove_mask = (sims >= T2) & pool_mask
+        # Maschera Finale Tight (Per essere rimossi dal pool)
+        to_remove_mask = np.where(
+            both_have_director,
+            (sims_title >= T2_title) & (sims_dir >= T2_dir),
+            (sims_title >= T2_title)
+        )
+        to_remove_mask = to_remove_mask & pool_mask
         remove_count = np.sum(to_remove_mask)
         
-        # Aggiorna il pool escludendo i record troppo vicini
+        # Aggiorna il pool
         pool_mask[to_remove_mask] = False
 
         canopies[centro_id] = blocco_indices.tolist()
