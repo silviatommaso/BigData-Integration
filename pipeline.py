@@ -73,7 +73,8 @@ if SCHEMA_ALIGN:
 if RECORD_LINKAGE:
 
     df = pd.read_csv("merged_movies.csv")
-
+    df["Year"] = df["Year"].astype("Int64")
+    df["Duration"] = df["Duration"].astype("Int64")
     # bigram file generation
     df = canopy_cluster(df, (INPUT_DIR / ".." / "record_linkage_csv"/ "canopy_blocks.csv"))
 
