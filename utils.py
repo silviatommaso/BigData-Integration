@@ -1,4 +1,5 @@
 import pandas as pd
+import os
 
 def load_movies_csv(path):
 
@@ -9,3 +10,19 @@ def load_movies_csv(path):
             df[col]=df[col].astype("Int64")
 
     return df
+
+
+# path existence checker
+def path_check(files):
+
+    for file in files[:-1]:
+        if not os.path.exists(file):
+            print(f"Error: {file} not found, execute {files[-1]} first")
+            exit()
+
+def subpath_check(files, indexes, step):
+
+    to_check = [[f[i] for i in indexes] + [f[-1]] for f in files.values()]
+    
+    for file in to_check[:(step-1)]:
+        path_check(file)

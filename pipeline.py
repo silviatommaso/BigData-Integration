@@ -2,7 +2,7 @@ from normalizator import normalizer
 from canopy_clustering import canopy_cluster
 from record_matching import generate_candidate_pairs, match_records
 from entity_clustering import build_clusters, get_unmatched_records, save_clusters
-from utils import load_movies_csv
+import utils
 
 from pathlib import Path
 import pandas as pd
@@ -18,12 +18,28 @@ CLUSTERING = True
 INPUT_DIR = Path("normalized_csv")
 
 
-files = [
+inputs = [
     INPUT_DIR / "movies3_cleaned_imdb_cleaned.csv",
     INPUT_DIR / "movies3_cleaned_rotten_tomatoes_cleaned.csv",
     INPUT_DIR / "movies5_cleaned_imdb_cleaned.csv",
     INPUT_DIR / "movies5_cleaned_roger_ebert_final.csv"
 ]
+
+
+# files directories
+files = {
+
+    "Step I" : [
+        "schema_alignment_csv/merged_movies.csv", "Schema Alignment"
+    ],
+
+    "Step II" : [
+        "record_linkage_csv/canopy_blocks.csv",
+        "",
+        "Record Linkage"
+    ]
+
+}
 
 
 # =====================================================
@@ -38,12 +54,12 @@ if SCHEMA_ALIGN:
     normalizer("dataset_cleaned/movies5_cleaned/roger_ebert_final.csv", "c")
     normalizer("dataset_cleaned/movies5_cleaned/imdb_cleaned.csv", "d")
 
-    dfs = [load_movies_csv(f) for f in files]
+    dfs = [utils.load_movies_csv(f) for f in inputs]
 
     merged_df = pd.concat(dfs, ignore_index=True)
 
     merged_df.to_csv(
-        "schema_alignment_csv/merged_movies.csv",
+        files["Step I"][0],
         index=False
     )
 
@@ -57,7 +73,10 @@ if SCHEMA_ALIGN:
 
 if RECORD_LINKAGE:
 
-    df = load_movies_csv("schema_alignment_csv/merged_movies.csv")
+    utils.path_check(files["Step I"])
+
+
+    df = utils.load_movies_csv(files["Step I"][0])
 
     canopies = canopy_cluster(
         df,
@@ -72,14 +91,11 @@ if RECORD_LINKAGE:
 
 if RECORD_MATCHING:
 
-    canopy_file = "record_linkage_csv/canopy_blocks.csv"
 
-    if not os.path.exists(canopy_file):
-        print("Error: canopy_blocks.csv not found, execute blocking first")
-        exit()
+    utils.subpath_check(files, [0], 3)
 
-    df = load_movies_csv("schema_alignment_csv/merged_movies.csv")
-    canopy_df = load_movies_csv(canopy_file)
+    df = utils.load_movies_csv("schema_alignment_csv/merged_movies.csv")
+    canopy_df = utils.load_movies_csv(canopy_file)
 
     canopies = {}
 
@@ -128,12 +144,12 @@ if CLUSTERING:
         print("Error: matches.csv not found, execute record matching first")
         exit()
 
-    df = load_movies_csv("schema_alignment_csv/merged_movies.csv")
+    df = utils.load_movies_csv("schema_alignment_csv/merged_movies.csv")
     matches = pd.read_csv(matches_file)
 
     entities = build_clusters(matches)
 
-    print("Entità trovate:", len(entities))
+    print("EntitÃ  trovate:", len(entities))
 
     save_clusters(
         entities,
