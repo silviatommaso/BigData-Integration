@@ -1,6 +1,19 @@
 import pandas as pd
 from itertools import combinations
 from rapidfuzz.fuzz import ratio
+import csv
+
+
+
+def get_unmatched_records(matches,df):
+
+    matched_ids=set(matches["id1"]) | set(matches["id2"])
+
+    return df[
+        ~df["ID"].isin(matched_ids)
+    ]
+
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 def generate_candidate_pairs(canopies):
     pairs=[]
@@ -9,10 +22,13 @@ def generate_candidate_pairs(canopies):
             pairs.append((a,b))
     return pairs
 
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 def string_similarity(a,b):
     if pd.isna(a) or pd.isna(b):
         return 0
     return ratio(str(a).lower(),str(b).lower())/100
+
 
 def year_similarity(a,b):
     if pd.isna(a) or pd.isna(b):
@@ -28,6 +44,7 @@ def year_similarity(a,b):
 
     return 0
 
+
 def cast_similarity(a,b):
     if pd.isna(a) or pd.isna(b):
         return 0
@@ -39,6 +56,7 @@ def cast_similarity(a,b):
         return 0
 
     return len(cast_a&cast_b)/len(cast_a|cast_b)
+
 
 def record_similarity(r1,r2):
 
@@ -56,13 +74,29 @@ def record_similarity(r1,r2):
 
     return score,title,director,year,cast
 
-def match_records(df,pairs,threshold=0.8):
+########################################################################################################################################################################################################################
 
+
+def match_records(merged_df, canopy_df, matched_path, singletons_path, threshold=0.8):
+
+    # generation of a dictionary {cluster_id : record_id} from canopy_cluster's blocks
+    canopies = {}
+
+    for cluster_id, group in canopy_df.groupby("Cluster_ID"):
+        canopies[cluster_id] = list(group["ID"])
+
+
+    candidate_pairs = generate_candidate_pairs(canopies)
+    print("Candidate pairs:", len(candidate_pairs))
+
+
+    # record matching generation
     matches=[]
 
-    records=df.set_index("ID").to_dict("index")
+    records = merged_df.set_index("ID").to_dict("index")
 
-    for a,b in pairs:
+
+    for a,b in candidate_pairs:
 
         r1=records[a]
         r2=records[b]
@@ -83,4 +117,16 @@ def match_records(df,pairs,threshold=0.8):
 
             })
 
-    return pd.DataFrame(matches)
+
+    # matches with score
+    matches = pd.DataFrame(matches)
+    matches.to_csv(matched_path, index=False)
+
+    print("Match trovati:", len(matches))
+
+
+    # singletons 
+    singletons = get_unmatched_records(matches, merged_df)
+    pd.DataFrame(singletons).to_csv(singletons_path, index=False)
+
+    print("Record senza match:", len(singletons))

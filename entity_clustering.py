@@ -2,41 +2,6 @@ import networkx as nx
 import pandas as pd
 
 
-def build_clusters(matches):
-
-    G=nx.Graph()
-
-    for _,row in matches.iterrows():
-
-        G.add_edge(
-            row["id1"],
-            row["id2"],
-            weight=row["score"]
-        )
-
-
-    clusters=[]
-
-    for entity_id,component in enumerate(nx.connected_components(G)):
-
-        clusters.append({
-            "entity_id":entity_id,
-            "records":list(component)
-        })
-
-
-    return clusters
-
-
-def get_unmatched_records(matches,df):
-
-    matched_ids=set(matches["id1"]) | set(matches["id2"])
-
-    return df[
-        ~df["ID"].isin(matched_ids)
-    ]
-
-
 def save_clusters(clusters,path):
 
     rows=[]
@@ -51,7 +16,40 @@ def save_clusters(clusters,path):
             })
 
 
-    pd.DataFrame(rows).to_csv(
-        path,
-        index=False
-    )
+    pd.DataFrame(rows).to_csv(path, index=False)
+
+    print("Entità  trovate:", len(clusters))
+    print("Clusters salvati")
+
+
+################################################################################################################################################################################
+
+
+def build_clusters(matches, output_path):
+
+    G=nx.Graph()
+
+    # create a graph with matched ids as nodes and score as arc's weight
+    for _,row in matches.iterrows():
+
+        G.add_edge(
+            row["id1"],
+            row["id2"],
+            weight=row["score"]
+        )
+
+
+    # per each connected component assign an identificative number (cluster id)
+    clusters=[]
+
+    for entity_id,component in enumerate(nx.connected_components(G)):
+
+        clusters.append({
+            "entity_id":entity_id,
+            "records":list(component)
+        })
+
+
+    save_clusters(clusters, output_path)
+
+    return clusters

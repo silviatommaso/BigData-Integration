@@ -1,7 +1,7 @@
 from normalizator import normalizer
 from canopy_clustering import canopy_cluster
-from record_matching import generate_candidate_pairs, match_records
-from entity_clustering import build_clusters, get_unmatched_records, save_clusters
+from record_matching import match_records
+from entity_clustering import build_clusters, save_clusters
 import utils
 
 from pathlib import Path
@@ -10,7 +10,7 @@ import os
 
 
 SCHEMA_ALIGN = False
-RECORD_LINKAGE = False
+BLOCKING = False
 RECORD_MATCHING = False
 CLUSTERING = True
 
@@ -35,7 +35,9 @@ files = {
 
     "Step II" : [
         "record_linkage_csv/canopy_blocks.csv",
-        "",
+        "record_linkage_csv/matches.csv",
+        "record_linkage_csv/singletons_records.csv",
+        "record_linkage_csv/entity_clusters.csv",
         "Record Linkage"
     ]
 
@@ -70,8 +72,10 @@ if SCHEMA_ALIGN:
 # STEP II
 # RECORD LINKAGE
 # =====================================================
+# BLOCKING
+# =====================================================
 
-if RECORD_LINKAGE:
+if BLOCKING:
 
     utils.path_check(files["Step I"])
 
@@ -85,86 +89,36 @@ if RECORD_LINKAGE:
 
 
 # =====================================================
-# STEP III
 # RECORD MATCHING
 # =====================================================
 
 if RECORD_MATCHING:
 
-
     utils.subpath_check(files, [0], 3)
 
-    df = utils.load_movies_csv("schema_alignment_csv/merged_movies.csv")
-    canopy_df = utils.load_movies_csv(canopy_file)
+    merged_df = utils.load_movies_csv(files["Step I"][0])
+    canopy_df = utils.load_movies_csv(files["Step II"][0])
 
-    canopies = {}
-
-    for cluster_id, group in canopy_df.groupby("Cluster_ID"):
-        canopies[cluster_id] = list(group["ID"])
-
-    candidate_pairs = generate_candidate_pairs(canopies)
-
-    print("Candidate pairs:", len(candidate_pairs))
 
     matches = match_records(
-        df,
-        candidate_pairs,
+        merged_df,
+        canopy_df,
+        files["Step II"][1],
+        files["Step II"][2],
         threshold=0.8
     )
 
-    matches.to_csv(
-        "record_linkage_csv/matches.csv",
-        index=False
-    )
-
-    unmatched = get_unmatched_records(
-        matches,
-        df
-    )
-
-    unmatched.to_csv(
-        "record_linkage_csv/unmatched_records.csv",
-        index=False
-    )
-
-    print("Match trovati:", len(matches))
-    print("Record senza match:", len(unmatched))
-
 
 # =====================================================
-# STEP IV
 # CLUSTERING
 # =====================================================
 
 if CLUSTERING:
 
-    matches_file = "record_linkage_csv/matches.csv"
+    utils.subpath_check(files, [0], 3)
+    
 
-    if not os.path.exists(matches_file):
-        print("Error: matches.csv not found, execute record matching first")
-        exit()
+    merged_df = utils.load_movies_csv(files["Step I"][0])
+    matched_df = utils.load_movies_csv(files["Step II"][1])
 
-    df = utils.load_movies_csv("schema_alignment_csv/merged_movies.csv")
-    matches = pd.read_csv(matches_file)
-
-    entities = build_clusters(matches)
-
-    print("EntitÃ  trovate:", len(entities))
-
-    save_clusters(
-        entities,
-        "record_linkage_csv/entity_clusters.csv"
-    )
-
-    singletons = get_unmatched_records(
-        matches,
-        df
-    )
-
-    singletons.to_csv(
-        "record_linkage_csv/singleton_records.csv",
-        index=False
-    )
-
-    print("Clusters salvati")
-    print("Record singoli:", len(singletons))
+    entities = build_clusters(matched_df, files["Step II"][3])
