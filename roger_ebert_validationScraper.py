@@ -7,7 +7,7 @@ import re
 
 
 base_url = "https://www.rogerebert.com/reviews/"
-output_file = "dataset_cleaned/movies5_cleaned/roger_ebert_final.csv"
+output_file = "dataset_cleaned/movies5_cleaned/roger_ebert_cleaned.csv"
 
 
 df = pd.read_csv("dataset_cleaned/movies5_cleaned/roger_ebert_cleaned.csv")
@@ -189,7 +189,7 @@ def validation_scraper():
     infer_and_fill_directors(
         original_csv="dataset_cleaned/movies5_cleaned/roger_ebert_cleaned.csv",
         enriched_csv="directors_cast_filled.csv",
-        output_csv="dataset_cleaned/movies5_cleaned/roger_ebert_final.csv"
+        output_csv="dataset_cleaned/movies5_cleaned/roger_ebert_cleaned.csv"
     )
 
 
