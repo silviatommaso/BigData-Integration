@@ -1,5 +1,4 @@
 import pandas as pd
-import os
 from collections import defaultdict
 from difflib import SequenceMatcher
 
@@ -203,9 +202,6 @@ def fuse_cluster(df, output_path=None):
     # dataframe + save
     # ----------------------------
     fused_df = pd.DataFrame([fused])
-    
-    if not output_path:
-        os.makedirs(output_path)
-    fused_df.to_csv(output_path, index=False)
+
 
     return fused_df

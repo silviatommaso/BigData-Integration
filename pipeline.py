@@ -7,6 +7,7 @@ import utils
 
 from pathlib import Path
 import pandas as pd
+import os
 
 
 SCHEMA_ALIGN = False
@@ -147,19 +148,16 @@ if CLUSTERING:
 # =====================================================
 if DATA_FUSION:
 
-    # Carica i cluster generati dallo Step II
     entities_cluster = utils.load_movies_csv(files["Step II"][3])
 
-    # Esegui la fusione un gruppo (film) alla volta
-    # Nota: usiamo groupby("entity_id") o la colonna che raggruppa i duplicati
     all_fused = [fuse_cluster(group) for _, group in entities_cluster.groupby("entity_id")]
 
     # Unisci tutti i singoli film in un unico DataFrame
     final_df = pd.concat(all_fused, ignore_index=True)
     
     # Salva il file definitivo (una riga per ogni film reale)
-    import os
-    os.makedirs(os.path.dirname(files["Step III"][0]), exist_ok=True)
+    if not files["Step III"][0]:
+        os.makedirs(files["Step III"][0], exist_ok=True)
     final_df.to_csv(files["Step III"][0], index=False)
     
-    print("Data Fusion completata con successo!")
+    print("Data Fusion successfully completed!")
