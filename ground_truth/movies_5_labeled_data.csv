@@ -1,3 +1,8 @@
+#key=_id
+#rtable=POINTER
+#foreign_key_ltable=ltable.id
+#foreign_key_rtable=rtable.id
+#ltable=POINTER
 _id,ltable.id,rtable.id,ltable.movie_name,ltable.year,ltable.directors,ltable.actors,ltable.critic_rating,ltable.genre,ltable.pg_rating,ltable.duration,rtable.movie_name,rtable.year,rtable.directors,rtable.actors,rtable.movie_rating,rtable.genre,rtable.duration,gold
 1,44,291,Broken,2007,Alan White,"Heather Graham,Jeremy Sisto,Jake Busey,Tess Harper,Linda Hamilton,Chad Cunningham",2,"Drama, Foreign, Horror, Thriller",Rated R,97 minutes,Broken,2014,Damian X. Fulton,"Soren Fulton, Felix Ryan, Whitney Goin",5.1,"Action, Adventure, Drama",91 min,0
 2,63,2275,Talladega Nights: The Ballad of Ricky Bobby,2005,Adam McKay,"Will Ferrell,John C. Reilly,Sacha Baron Cohen,Gary Cole,Michael Clarke Duncan,Leslie Bibb,Jane Lynch,Amy Adams,Andy Richter,Molly Shannon",3.5,"Action, Comedy",Rated PG-13,108 minutes,Talladega Nights: The Ballad of Ricky Bobby,2006,Adam McKay,"Will Ferrell, John C. Reilly, Sacha Baron Cohen",6.5,"Action, Comedy, Sport",108 min,1
