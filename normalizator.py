@@ -35,15 +35,21 @@ FINAL_COLUMNS = {
     "Duration": "Int64"
 }
 
-
+def clean_id(record_id):
+    return re.sub(r'^[A-Za-z]+-?', '', str(record_id))
 
 # =========================
 # FUNCTIONS
 # =========================
 def indicization(df, letter, col="ID"):
-    """add source letter id"""
     df = df.copy()
-    df["ID"] = df[col].astype(str).apply(lambda x: f"{letter}{x}")
+
+    df["ID"] = (
+        df[col]
+        .apply(clean_id)
+        .apply(lambda x: f"{letter}{x}")
+    )
+
     return df
 
 def clean_year(x):
