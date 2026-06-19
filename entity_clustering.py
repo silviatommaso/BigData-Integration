@@ -2,7 +2,7 @@ import networkx as nx
 import pandas as pd
 
 
-def save_clusters(clusters,path):
+def save_clusters(clusters, merged_file, path):
 
     rows=[]
 
@@ -12,7 +12,13 @@ def save_clusters(clusters,path):
 
             rows.append({
                 "entity_id":entity["entity_id"],
-                "ID":record_id
+                "ID":record_id,
+                "Title": merged_file.loc[merged_file["ID"] == record_id, "Title"].iloc[0],
+                "Year": merged_file.loc[merged_file["ID"] == record_id, "Year"].iloc[0],
+                "Director": merged_file.loc[merged_file["ID"] == record_id, "Director"].iloc[0],
+                "Cast": merged_file.loc[merged_file["ID"] == record_id, "Cast"].iloc[0],
+                "Genre": merged_file.loc[merged_file["ID"] == record_id, "Genre"].iloc[0],
+                "Duration": merged_file.loc[merged_file["ID"] == record_id, "Duration"].iloc[0]
             })
 
 
@@ -25,7 +31,7 @@ def save_clusters(clusters,path):
 ################################################################################################################################################################################
 
 
-def build_clusters(matches, output_path):
+def build_clusters(matches, merged_df, output_path):
 
     G=nx.Graph()
 
@@ -50,6 +56,6 @@ def build_clusters(matches, output_path):
         })
 
 
-    save_clusters(clusters, output_path)
+    save_clusters(clusters, merged_df, output_path)
 
     return clusters
