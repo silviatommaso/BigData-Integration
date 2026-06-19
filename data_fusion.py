@@ -153,9 +153,9 @@ def confidence_fusion(list_values, sources, threshold_ratio=0.3):
 
 
 # ----------------------------
-# main (CORRETTO)
+# main
 # ----------------------------
-def fuse_cluster(df, output_path=None):  # Impostato a None di default per permettere l'uso nei cicli
+def fuse_cluster(df, output_path=None):  
 
     if output_path:
         import os
@@ -204,7 +204,6 @@ def fuse_cluster(df, output_path=None):  # Impostato a None di default per perme
     # ----------------------------
     fused_df = pd.DataFrame([fused])
     
-    # Salva il file solo se è stato effettivamente passato un percorso di output
     if not output_path:
         os.makedirs(output_path)
     fused_df.to_csv(output_path, index=False)
