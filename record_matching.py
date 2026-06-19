@@ -105,10 +105,12 @@ def match_records(merged_df, canopy_df, matched_path, singletons_path, threshold
 
         if score>=threshold:
 
+            id1, id2 = sorted([a,b])
+
             matches.append({
 
-                "id1":a,
-                "id2":b,
+                "id1":id1,
+                "id2":id2,
                 "score":score,
                 "title_similarity":title,
                 "director_similarity":director,
