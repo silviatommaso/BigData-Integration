@@ -12,9 +12,9 @@ import os
 
 SCHEMA_ALIGN = False
 BLOCKING = False
-RECORD_MATCHING = False
+RECORD_MATCHING = True
 CLUSTERING = False
-DATA_FUSION = True
+DATA_FUSION = False
 
 
 INPUT_DIR = Path("normalized_csv")
@@ -24,7 +24,7 @@ inputs = [
     INPUT_DIR / "movies3_cleaned_imdb_cleaned.csv",
     INPUT_DIR / "movies3_cleaned_rotten_tomatoes_cleaned.csv",
     INPUT_DIR / "movies5_cleaned_imdb_cleaned.csv",
-    INPUT_DIR / "movies5_cleaned_roger_ebert_final.csv"
+    INPUT_DIR / "movies5_cleaned_roger_ebert_cleaned.csv"
 ]
 
 
@@ -63,7 +63,7 @@ if SCHEMA_ALIGN:
 
     normalizer("dataset_cleaned/movies3_cleaned/imdb_cleaned.csv", "a")
     normalizer("dataset_cleaned/movies3_cleaned/rotten_tomatoes_cleaned.csv", "b")
-    normalizer("dataset_cleaned/movies5_cleaned/roger_ebert_final.csv", "c")
+    normalizer("dataset_cleaned/movies5_cleaned/roger_ebert_cleaned.csv", "c")
     normalizer("dataset_cleaned/movies5_cleaned/imdb_cleaned.csv", "d")
 
     dfs = [utils.load_movies_csv(f) for f in inputs]
@@ -119,7 +119,7 @@ if RECORD_MATCHING:
         canopy_df,
         files["Step II"][1],
         files["Step II"][2],
-        threshold=0.8
+        threshold=0.72
     )
 
 
