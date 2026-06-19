@@ -40,10 +40,10 @@ FINAL_COLUMNS = {
 # =========================
 # FUNCTIONS
 # =========================
-def indicization(df, letter):
-    """Assign a sequential ID to each row."""
+def indicization(df, letter, col="ID"):
+    """add source letter id"""
     df = df.copy()
-    df["ID"] = [f"{letter}{i}" for i in range(1, len(df)+1)]
+    df["ID"] = df[col].astype(str).apply(lambda x: f"{letter}{x}")
     return df
 
 def clean_year(x):

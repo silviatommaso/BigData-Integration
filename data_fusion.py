@@ -1,4 +1,5 @@
 import pandas as pd
+import re
 from collections import defaultdict
 from difflib import SequenceMatcher
 
@@ -17,6 +18,9 @@ weights = {
 def get_source(record_id):
     return record_id[0].lower()
 
+
+def clean_id(record_id):
+    return re.sub(r'^[A-Za-z]+-?', '', str(record_id))
 
 #------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -106,7 +110,6 @@ def confidence_fusion(list_values, sources, threshold_ratio=0.3):
         cand_ordered = " ".join(sorted(words_cand))
         
         for name in fused_names:
-            # Spezza e ordina le parole del nome già inserito
             words_name = name.split()
             ordered_name = " ".join(sorted(words_name))
             
@@ -154,7 +157,7 @@ def confidence_fusion(list_values, sources, threshold_ratio=0.3):
 # ----------------------------
 # main
 # ----------------------------
-def fuse_cluster(df, output_path=None):  
+def fuse_cluster(df, output_path=None):
 
     if output_path:
         import os
@@ -165,6 +168,24 @@ def fuse_cluster(df, output_path=None):
 
     fused = {}
 
+    # ----------------------------
+    # provenance
+    # ----------------------------
+    fused["A_IDs"] = ";".join(
+        df.loc[sources == "a", "ID"].apply(clean_id).astype(str)
+    )
+
+    fused["B_IDs"] = ";".join(
+        df.loc[sources == "b", "ID"].apply(clean_id).astype(str)
+    )
+
+    fused["C_IDs"] = ";".join(
+        df.loc[sources == "c", "ID"].apply(clean_id).astype(str)
+    )
+
+    fused["D_IDs"] = ";".join(
+        df.loc[sources == "d", "ID"].apply(clean_id).astype(str)
+    )
     # ----------------------------
     # atomic fields
     # ----------------------------
@@ -182,16 +203,16 @@ def fuse_cluster(df, output_path=None):
     fused["Cast"] = confidence_fusion(cast, sources)
     fused["Genre"] = confidence_fusion(genres, sources)
 
-
     fused["Duration"] = weighted_mode(df["Duration"], sources)
+
     # ----------------------------
-    # SAFE SERIALIZATION
+    # serialization
     # ----------------------------
     def list_to_string(x):
         if x is None:
             return ""
         if isinstance(x, (list, set, tuple)):
-            return ", ".join([str(i) for i in x])
+            return ", ".join(str(i) for i in x)
         return str(x)
 
     fused["Director"] = list_to_string(fused["Director"])
@@ -199,9 +220,8 @@ def fuse_cluster(df, output_path=None):
     fused["Genre"] = list_to_string(fused["Genre"])
 
     # ----------------------------
-    # dataframe + save
+    # dataframe finale
     # ----------------------------
     fused_df = pd.DataFrame([fused])
-
 
     return fused_df
