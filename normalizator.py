@@ -41,10 +41,10 @@ def clean_id(record_id):
 # =========================
 # FUNCTIONS
 # =========================
-def indicization(df, letter, col="ID"):
+def indicization(df, letter, col="id"):
     df = df.copy()
 
-    df["ID"] = (
+    df["id"] = (
         df[col]
         .apply(clean_id)
         .apply(lambda x: f"{letter}{x}")
@@ -125,32 +125,40 @@ def normalizer(file_path, letter):
     # fix encoding issues
     df = df.map(fix_mojibake)
 
+    # attributes lowercase
+    df.columns = [col.strip().lower() for col in df.columns]
+
     # rename columns
-    df = df.rename(columns=COLUMN_MAPPING)
+    # df = df.rename(columns=COLUMN_MAPPING)
 
     # year cleanup
-    if "Year" in df.columns:
-        df["Year"] = df["Year"].apply(clean_year).astype("Int64")
+    if "year" in df.columns:
+        df["year"] = df["year"].apply(clean_year).astype("Int64")
 
     # duration cleanup
-    if "Duration" in df.columns:
-        df["Duration"] = df["Duration"].apply(clean_duration).astype("Int64")
+    if "duration" in df.columns:
+        df["duration"] = df["duration"].apply(clean_duration).astype("Int64")
 
     # keep only final schema
-    df = df[[c for c in FINAL_COLUMNS.keys() if c in df.columns]]
+    # df = df[[c for c in FINAL_COLUMNS.keys() if c in df.columns]]
 
     # fix separators and normalize casing for text columns
-    for col in ["Title", "Director", "Cast", "Genre"]:
-        if col in df.columns:
-            df[col] = df[col].apply(fix_separators)
-            df[col] = df[col].apply(lowercase_text)
+    # for col in ["Title", "Director", "Cast", "Genre"]:
+    #     if col in df.columns:
+    #         df[col] = df[col].apply(fix_separators)
+    #         df[col] = df[col].apply(lowercase_text)
+
+
+    for col in df.columns:
+        df[col] = df[col].apply(fix_separators)
+        df[col] = df[col].apply(lowercase_text)
 
     # assign sequential IDs
     df = indicization(df, letter)
 
-    for col, dtype in FINAL_COLUMNS.items():
-        if col in df.columns:
-            df[col] = df[col].astype(dtype)
+    # for col, dtype in FINAL_COLUMNS.items():
+    #     if col in df.columns:
+    #         df[col] = df[col].astype(dtype)
 
 
     # save output

@@ -1,4 +1,5 @@
 from normalizator import normalizer
+from schema_alignment import prob_mediated_schema
 from canopy_clustering import canopy_cluster
 from record_matching import match_records
 from entity_clustering import build_clusters
@@ -10,9 +11,9 @@ import pandas as pd
 import os
 
 
-SCHEMA_ALIGN = False
+SCHEMA_ALIGN = True
 BLOCKING = False
-RECORD_MATCHING = True
+RECORD_MATCHING = False
 CLUSTERING = False
 DATA_FUSION = False
 
@@ -68,14 +69,16 @@ if SCHEMA_ALIGN:
 
     dfs = [utils.load_movies_csv(f) for f in inputs]
 
-    merged_df = pd.concat(dfs, ignore_index=True)
+    prob_mediated_schema(dfs)
 
-    merged_df.to_csv(
-        files["Step I"][0],
-        index=False
-    )
+    # merged_df = pd.concat(dfs, ignore_index=True)
 
-    print("Totale record:", len(merged_df))
+    # merged_df.to_csv(
+    #     files["Step I"][0],
+    #     index=False
+    # )
+
+    # print("Totale record:", len(merged_df))
 
 
 

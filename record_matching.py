@@ -1,7 +1,6 @@
 import pandas as pd
 from itertools import combinations
 from rapidfuzz.fuzz import ratio
-import csv
 
 
 
