@@ -1,5 +1,5 @@
 from normalizator import normalizer
-from schema_alignment import prob_mediated_schema
+from schema_alignment import schema_alignment
 from canopy_clustering import canopy_cluster
 from record_matching import match_records
 from entity_clustering import build_clusters
@@ -33,7 +33,9 @@ inputs = [
 files = {
 
     "Step I" : [
-        "schema_alignment_csv/merged_movies.csv", "Schema Alignment"
+        "schema_alignment_csv/merged_movies.csv",
+        "schema_alignment_csv/global_schema.csv",
+        "Schema Alignment"
     ],
 
     "Step II" : [
@@ -62,23 +64,29 @@ files = {
 
 if SCHEMA_ALIGN:
 
+    # preprocessing
     normalizer("dataset_cleaned/movies3_cleaned/imdb_cleaned.csv", "a")
     normalizer("dataset_cleaned/movies3_cleaned/rotten_tomatoes_cleaned.csv", "b")
     normalizer("dataset_cleaned/movies5_cleaned/roger_ebert_cleaned.csv", "c")
     normalizer("dataset_cleaned/movies5_cleaned/imdb_cleaned.csv", "d")
 
+
+    dataset_names = ["imdb_v3", "roger_ebert", "imdb_v5", "rotten_tomatoes"]
     dfs = [utils.load_movies_csv(f) for f in inputs]
 
-    prob_mediated_schema(dfs)
+    attributes = schema_alignment(dfs, dataset_names, files["Step I"][1])
 
-    # merged_df = pd.concat(dfs, ignore_index=True)
+    for df in dfs:
+        df.columns = attributes
 
-    # merged_df.to_csv(
-    #     files["Step I"][0],
-    #     index=False
-    # )
+    merged_df = pd.concat(dfs, ignore_index=True)
 
-    # print("Totale record:", len(merged_df))
+    merged_df.to_csv(
+        files["Step I"][0],
+        index=False
+    )
+
+    print("Totale record:", len(merged_df))
 
 
 

@@ -141,8 +141,7 @@ def profile_comparison(dfs, dfs_name):
 
 def extract_global_schema_clusters(global_results, dataset_names, threshold=0.60):
     """
-    Groups pairwise matches into global tables, preventing columns from the 
-    same dataset from merging into the same row (Strict 1-to-1 constraint per dataset).
+    Groups pairwise matches into global tables
     """
     # Sort matches by confidence score descending to process the strongest links first
     sorted_matches = sorted(global_results.items(), key=lambda item: item[1], reverse=True)
@@ -209,33 +208,40 @@ def extract_global_schema_clusters(global_results, dataset_names, threshold=0.60
 #------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-if __name__ == "__main__":
-    # 1. Load data
-    df1 = pd.read_csv("dataset_cleaned/movies3_cleaned/imdb_cleaned.csv")
-    df2 = pd.read_csv("dataset_cleaned/movies5_cleaned/roger_ebert_cleaned.csv")
-    df3 = pd.read_csv("dataset_cleaned/movies5_cleaned/imdb_cleaned.csv")
-    df4 = pd.read_csv("dataset_cleaned/movies3_cleaned/rotten_tomatoes_cleaned.csv")
+def schema_alignment(data, data_names, output):
 
-    datasets = [df1, df2, df3, df4]
-    
-    # Unique identifiers to prevent dict key collisions
-    dataset_names = ["imdb_v3", "roger_ebert", "imdb_v5", "rotten_tomatoes"]
+    # Compute raw matching scores matrix
+    raw_results = profile_comparison(data, data_names)
 
-    print("Running Universal Profile & Attribute Name Alignment Engine...")
-    print("-" * 80)
-    
-    # 2. Compute raw matching scores matrix
-    raw_results = profile_comparison(datasets, dataset_names)
-    
-    # 3. Generate the 4-source global alignment matrix
-    global_schema = extract_global_schema_clusters(raw_results, dataset_names, threshold=0.60)
-    
-    print("\n" + "="*80)
-    print("GLOBAL 4-SOURCE SCHEMA ALIGNMENT TABLE")
-    print("="*80)
-    
-    # Terminal display optimization
-    pd.set_option('display.max_columns', None)
-    pd.set_option('display.width', 1000)
-    
-    print(global_schema.to_string(index=False, na_rep="-"))
+    # Generate global schema alignment matrix
+    global_schema = extract_global_schema_clusters(
+        raw_results, data_names, threshold=0.60
+    )
+
+    # Save schema
+    final_schema = pd.DataFrame(global_schema)
+    final_schema.to_csv(output, index=False)
+
+    # --- STEP 1: find rows with null values in schema ---
+    rows_with_nulls = final_schema[final_schema.isnull().any(axis=1)]
+
+    # --- STEP 2: attributes involved in problematic rows ---
+    bad_attributes = rows_with_nulls.apply(
+        lambda row: row.dropna().tolist(),
+        axis=1
+    ).sum()
+
+    # make unique list
+    bad_attributes = set(bad_attributes)
+
+    # --- STEP 3: all attributes from schema ---
+    all_attributes = final_schema.iloc[:, 0].dropna().tolist()
+
+    # --- STEP 4: keep only good attributes ---
+    columns_to_keep = [c for c in all_attributes if c not in bad_attributes]
+
+    # --- STEP 5: project all datasets on final schema ---
+    for i in range(len(data)):
+        data[i] = data[i].reindex(columns=columns_to_keep)
+
+    return columns_to_keep
