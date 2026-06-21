@@ -9,7 +9,6 @@ BASE_DIR = Path(__file__).parent
 OUTPUT_DIR = BASE_DIR / "normalized_csv"
 OUTPUT_DIR.mkdir(exist_ok=True)
 
-
 COLUMN_MAPPING = {
     "id": "ID",
     "movie_name": "Title",
@@ -25,153 +24,127 @@ COLUMN_MAPPING = {
     "duration": "Duration"
 }
 
-FINAL_COLUMNS = {
-    "ID": "string",
-    "Title": "string",
-    "Year": "Int64",
-    "Director": "string",
-    "Cast": "string",
-    "Genre": "string",
-    "Duration": "Int64"
-}
+FINAL_COLUMNS = ["ID", "Title", "Year", "Director", "Cast", "Genre", "Duration"]
+
+
+# =========================
+# CLEANING FUNCTIONS
+# =========================
 
 def clean_id(record_id):
     return re.sub(r'^[A-Za-z]+-?', '', str(record_id))
 
-# =========================
-# FUNCTIONS
-# =========================
-
-def reindexing(df, letter, col="ID"):
-
-    # reindexing
-    df[col] = (
-        df[col]
-        .apply(clean_id)
-        .apply(lambda x: f"{letter}{x}")
-    )
-
-    return df
-
 
 def clean_year(x):
-    """Normalize year values to integers, extracting from dates if needed."""
     if pd.isna(x):
         return None
+
     x = str(x)
+
+    # numeric
     num = pd.to_numeric(x, errors="coerce")
     if not pd.isna(num):
         return int(num)
+
+    # datetime fallback
     dt = pd.to_datetime(x, errors="coerce")
     if not pd.isna(dt):
         return int(dt.year)
+
     return None
 
+
 def clean_duration(x):
-    """Normalize duration values to total minutes."""
     if pd.isna(x):
         return None
+
     x = str(x).lower().strip()
-    # 1. already numeric, e.g. 88.0
+
     num = pd.to_numeric(x, errors="coerce")
     if not pd.isna(num):
         return int(num)
+
     hours = 0
     minutes = 0
-    # 2. hours
+
     h = re.search(r"(\d+)\s*(hr|h|hour|hours)", x)
     if h:
         hours = int(h.group(1))
-    # 3. minutes
+
     m = re.search(r"(\d+)\s*(min|mins|m)", x)
     if m:
         minutes = int(m.group(1))
-    # 4. fallback: just a number inside the string
+
     digits = re.findall(r"\d+", x)
     if digits and hours == 0 and minutes == 0:
         return int(digits[0])
+
     return hours * 60 + minutes
 
+
 def fix_mojibake(x):
-    """Fix double-encoded UTF-8 strings (mojibake) caused by encoding/decoding issues."""
     if not isinstance(x, str):
         return x
     try:
-        # undo lowercase applied to the mojibake'd "Ã" character
         restored = x.replace("ã", "Ã")
         return restored.encode("latin1").decode("utf-8")
-    except (UnicodeEncodeError, UnicodeDecodeError):
+    except:
         return x
 
+
 def fix_separators(x):
-    """Replace '^' multi-value separator with a comma."""
     if isinstance(x, str):
         return x.replace("^", ", ")
     return x
 
+
 def lowercase_text(x):
-    """Lowercase text values for consistent matching across datasets."""
     if isinstance(x, str):
         return x.lower()
     return x
 
 
-##################################################################################################################################################################################################################
+# =========================
+# NORMALIZER
+# =========================
 
+def normalizer(df, letter):
 
-def normalizer(df, letter):    
-
-    # fix encoding issues
+    # 1. fix encoding
     df = df.map(fix_mojibake)
 
-    # attributes lowercase
+    # 2. normalize column names
     df.columns = [col.strip().lower() for col in df.columns]
 
-    # rename columns
+    # 3. rename schema
     df = df.rename(columns=COLUMN_MAPPING)
 
+    # 4. reindex ID
+    if "ID" in df.columns:
+        df["ID"] = df["ID"].apply(clean_id).apply(lambda x: f"{letter}{x}")
 
-    # reindexing
-    df = reindexing(df, letter)
+    # 5. clean year safely
+    if "Year" in df.columns:
+        df["Year"] = df["Year"].apply(clean_year)
 
+    # 6. clean duration safely
+    if "Duration" in df.columns:
+        df["Duration"] = df["Duration"].apply(clean_duration)
 
-    # year cleanup
-    if "year" in df.columns:
-        df["year"] = df["year"].apply(clean_year).astype("Int64")
+    # 7. keep only final schema columns
+    df = df[[c for c in FINAL_COLUMNS if c in df.columns]]
 
-    # duration cleanup
-    if "duration" in df.columns:
-        df["duration"] = df["duration"].apply(clean_duration).astype("Int64")
-
-    # keep only final schema
-    df = df[[c for c in FINAL_COLUMNS.keys() if c in df.columns]]
-
-    # fix separators and normalize casing for text columns
-    for col in ["Title", "Director", "Cast", "Genre"]:
+    # 8. text normalization
+    text_cols = ["Title", "Director", "Cast", "Genre"]
+    for col in text_cols:
         if col in df.columns:
-            df[col] = df[col].apply(fix_separators)
-            df[col] = df[col].apply(lowercase_text)
+            df[col] = df[col].apply(fix_separators).apply(lowercase_text)
 
-
+    # 9. SAFE TYPE ENFORCEMENT (NO ASTYPE CRASH)
     for col in df.columns:
-        df[col] = df[col].apply(fix_separators)
-        df[col] = df[col].apply(lowercase_text)
-
-
-    for col, dtype in FINAL_COLUMNS.items():
-        if col in df.columns:
-
-            if dtype in ["int", "Int64"]:
-                df[col] = pd.to_numeric(df[col], errors="coerce").astype("Int64")
-
-            elif dtype in ["float", "Float64"]:
-                df[col] = pd.to_numeric(df[col], errors="coerce")
-
-            elif dtype == "datetime":
-                df[col] = pd.to_datetime(df[col], errors="coerce")
-
-            else:
-                df[col] = df[col].astype(str)
-
+        if col in ["Year", "Duration"]:
+            df[col] = pd.to_numeric(df[col], errors="coerce").astype("Int64")
+        else:
+            df[col] = df[col].astype("string")
 
     return df
