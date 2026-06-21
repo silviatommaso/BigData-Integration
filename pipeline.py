@@ -1,4 +1,4 @@
-from normalizator import normalizer
+from normalizator import normalizer, standardize_and_index
 from schema_alignment import schema_alignment
 from canopy_clustering import canopy_cluster
 from record_matching import match_records
@@ -64,20 +64,29 @@ files = {
 
 if SCHEMA_ALIGN:
 
-    # preprocessing
-    normalizer("dataset_cleaned/movies3_cleaned/imdb_cleaned.csv", "a")
-    normalizer("dataset_cleaned/movies3_cleaned/rotten_tomatoes_cleaned.csv", "b")
-    normalizer("dataset_cleaned/movies5_cleaned/roger_ebert_cleaned.csv", "c")
-    normalizer("dataset_cleaned/movies5_cleaned/imdb_cleaned.csv", "d")
+    # preprocessing (pre-alignment)
+    standardize_and_index("dataset_cleaned/movies3_cleaned/imdb_cleaned.csv", "a")
+    standardize_and_index("dataset_cleaned/movies3_cleaned/rotten_tomatoes_cleaned.csv", "b")
+    standardize_and_index("dataset_cleaned/movies5_cleaned/roger_ebert_cleaned.csv", "c")
+    standardize_and_index("dataset_cleaned/movies5_cleaned/imdb_cleaned.csv", "d")
 
 
-    dataset_names = ["imdb_v3", "roger_ebert", "imdb_v5", "rotten_tomatoes"]
+    # schema alignment
+    dataset_names = ["imdb_3", "rotten_tomatoes", "imdb_5", "roger_ebert"]
     dfs = [utils.load_movies_csv(f) for f in inputs]
 
-    attributes = schema_alignment(dfs, dataset_names, files["Step I"][1])
+    columns_to_keep = schema_alignment(dfs, dataset_names, files["Step I"][1])
 
-    for df in dfs:
-        df.columns = attributes
+    for i in range(len(dfs)):
+        dfs[i] = dfs[i].drop(columns=[col for col in dfs[i].columns if col not in columns_to_keep])
+        dfs[i].to_csv(inputs[i], index=False)
+    
+    
+    # normalization 
+    for i in range(len(dfs)):
+        dfs[i] = normalizer(dfs[i])
+        dfs[i].to_csv(inputs[i], index=False)
+    
 
     merged_df = pd.concat(dfs, ignore_index=True)
 

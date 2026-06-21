@@ -1,11 +1,11 @@
-imdb_v3,roger_ebert,imdb_v5,rotten_tomatoes
+imdb_3,rotten_tomatoes,imdb_5,roger_ebert
 id,id,id,id
-year,year,year,year
 director,director,directors,directors
-genre,genre,genre,genre
+duration,duration,duration,duration
 title,title,movie_name,movie_name
+genre,genre,genre,genre
 contentrating,contentrating,,critic_rating
+year,year,year,year
 rating,rating,movie_rating,pg_rating
 creators,creators,,
-duration,duration,duration,duration
 cast,cast,actors,actors

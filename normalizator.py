@@ -22,7 +22,7 @@ COLUMN_MAPPING = {
     "actors": "Cast",
     "cast": "Cast",
     "genre": "Genre",
-    "duration": "Duration",
+    "duration": "Duration"
 }
 
 FINAL_COLUMNS = {
@@ -41,16 +41,8 @@ def clean_id(record_id):
 # =========================
 # FUNCTIONS
 # =========================
-def indicization(df, letter, col="id"):
-    df = df.copy()
 
-    df["id"] = (
-        df[col]
-        .apply(clean_id)
-        .apply(lambda x: f"{letter}{x}")
-    )
 
-    return df
 
 def clean_year(x):
     """Normalize year values to integers, extracting from dates if needed."""
@@ -113,14 +105,36 @@ def lowercase_text(x):
         return x.lower()
     return x
 
-# =========================
-# PIPELINE
-# =========================
-def normalizer(file_path, letter):    
 
+##################################################################################################################################################################################################################
+
+
+def standardize_and_index(file_path, letter, col="id"):
+
+    # read file
     file_path = Path(file_path)
     df = pd.read_csv(file_path,encoding="utf-8")
 
+    # attributes names normalizer
+    df.columns = [col.strip().lower() for col in df.columns]
+
+    # reindexing
+    df[col] = (
+        df[col]
+        .apply(clean_id)
+        .apply(lambda x: f"{letter}{x}")
+    )
+
+    output_file = OUTPUT_DIR / f"{file_path.parent.name}_{file_path.name}"
+    df.to_csv(output_file, index=False)
+
+    return df
+
+
+#-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+def normalizer(df):    
 
     # fix encoding issues
     df = df.map(fix_mojibake)
@@ -129,7 +143,7 @@ def normalizer(file_path, letter):
     df.columns = [col.strip().lower() for col in df.columns]
 
     # rename columns
-    # df = df.rename(columns=COLUMN_MAPPING)
+    df = df.rename(columns=COLUMN_MAPPING)
 
     # year cleanup
     if "year" in df.columns:
@@ -140,28 +154,34 @@ def normalizer(file_path, letter):
         df["duration"] = df["duration"].apply(clean_duration).astype("Int64")
 
     # keep only final schema
-    # df = df[[c for c in FINAL_COLUMNS.keys() if c in df.columns]]
+    df = df[[c for c in FINAL_COLUMNS.keys() if c in df.columns]]
 
     # fix separators and normalize casing for text columns
-    # for col in ["Title", "Director", "Cast", "Genre"]:
-    #     if col in df.columns:
-    #         df[col] = df[col].apply(fix_separators)
-    #         df[col] = df[col].apply(lowercase_text)
+    for col in ["Title", "Director", "Cast", "Genre"]:
+        if col in df.columns:
+            df[col] = df[col].apply(fix_separators)
+            df[col] = df[col].apply(lowercase_text)
 
 
     for col in df.columns:
         df[col] = df[col].apply(fix_separators)
         df[col] = df[col].apply(lowercase_text)
 
-    # assign sequential IDs
-    df = indicization(df, letter)
 
-    # for col, dtype in FINAL_COLUMNS.items():
-    #     if col in df.columns:
-    #         df[col] = df[col].astype(dtype)
+    for col, dtype in FINAL_COLUMNS.items():
+        if col in df.columns:
+
+            if dtype in ["int", "Int64"]:
+                df[col] = pd.to_numeric(df[col], errors="coerce").astype("Int64")
+
+            elif dtype in ["float", "Float64"]:
+                df[col] = pd.to_numeric(df[col], errors="coerce")
+
+            elif dtype == "datetime":
+                df[col] = pd.to_datetime(df[col], errors="coerce")
+
+            else:
+                df[col] = df[col].astype(str)
 
 
-    # save output
-    output_file = OUTPUT_DIR / f"{file_path.parent.name}_{file_path.name}"
-    df.to_csv(output_file, index=False)
-    print(f"Saved: {output_file}")
+    return df

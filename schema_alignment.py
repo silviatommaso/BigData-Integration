@@ -7,19 +7,19 @@ def column_profile_extraction(column):
     Extracts structural and mathematical footprints from ANY column,
     regardless of its native Pandas data type.
     """
-    # 1. Clean missing data
+    # Clean missing data
     cleaned_data = column.dropna()
     if cleaned_data.empty:
         return None
         
-    # 2. Universal string conversion for structural profiling
+    # Universal string conversion for structural profiling
     rows = cleaned_data.astype(str).str.strip()
     tot_rows = len(rows)
 
     row_length = rows.str.len()
     word_count = rows.str.split().str.len()
 
-    # 3. Density and Categorical checks
+    # Density and Categorical checks
     numeric_percentage = rows.str.count(r'\d').sum() / row_length.sum() if row_length.sum() > 0 else 0
     values_cardinality = len(rows.unique()) / tot_rows
 
@@ -34,7 +34,7 @@ def column_profile_extraction(column):
         "max": 0.0
     }
 
-    # 4. Statistical profiling (attempt numerical conversion)
+    # Statistical profiling (attempt numerical conversion)
     converted_num = pd.to_numeric(column.copy(), errors='coerce').dropna()
     if len(converted_num) / tot_rows > 0.7:  # If more than 70% of rows are numeric
         column_profile["is_purely_numeric"] = True
@@ -65,7 +65,7 @@ def profile_comparison(dfs, dfs_name):
     """
     profiles = {}
     
-    # Phase 1: Profile extraction
+    # Profile extraction
     for df, df_name in zip(dfs, dfs_name):
         for col in df.columns:
             unique_key = f"{df_name}.{col}"
@@ -73,7 +73,7 @@ def profile_comparison(dfs, dfs_name):
             if column_profile is not None:
                 profiles[unique_key] = column_profile
 
-    # Phase 2: Cross-dataset comparison
+    # Cross-dataset comparison
     keys = list(profiles.keys())
     global_results = {}
     
@@ -93,10 +93,10 @@ def profile_comparison(dfs, dfs_name):
             prof_A = profiles[key_a]
             prof_B = profiles[key_b]
             
-            # 1. Attribute Name Comparison (Syntactic)
+            # Attribute Name Comparison (Syntactic)
             score_names = calculate_name_similarity(col_name_A, col_name_B)
 
-            # 2. Content Analysis (Structural)
+            # Content Analysis (Structural)
             max_len = max(prof_A["avg_length"], prof_B["avg_length"])
             sim_length = 1.0 - (abs(prof_A["avg_length"] - prof_B["avg_length"]) / max_len) if max_len > 0 else 1.0
             
@@ -106,9 +106,9 @@ def profile_comparison(dfs, dfs_name):
             sim_density = 1.0 - abs(prof_A["numeric_percentage"] - prof_B["numeric_percentage"])
             sim_values_cardinality = 1.0 - abs(prof_A["cardinality"] - prof_B["cardinality"])
 
-            score_structure = (sim_length * 0.5) + (sim_words * 0.3) + (sim_density * 0.1) + (sim_values_cardinality * 0.1)
+            score_structure = (sim_length * 0.45) + (sim_words * 0.3) + (sim_density * 0.1) + (sim_values_cardinality * 0.15)
 
-            # 3. Numerical Refinement (Statistical)
+            # Numerical Refinement (Statistical)
             if prof_A["is_purely_numeric"] and prof_B["is_purely_numeric"]:
                 # Range overlap
                 min_shared = max(prof_A["min"], prof_B["min"])
@@ -129,7 +129,7 @@ def profile_comparison(dfs, dfs_name):
             else:
                 score_data = score_structure
                 
-            # 4. Hybrid Fusion (60% Data Content / 40% Metadata Names)
+            # Hybrid Fusion (60% Data Content / 40% Metadata Names)
             final_score = round((score_data * 0.6) + (score_names * 0.4), 4)
             global_results[(key_a, key_b)] = final_score
 
@@ -222,26 +222,18 @@ def schema_alignment(data, data_names, output):
     final_schema = pd.DataFrame(global_schema)
     final_schema.to_csv(output, index=False)
 
-    # --- STEP 1: find rows with null values in schema ---
-    rows_with_nulls = final_schema[final_schema.isnull().any(axis=1)]
 
-    # --- STEP 2: attributes involved in problematic rows ---
-    bad_attributes = rows_with_nulls.apply(
-        lambda row: row.dropna().tolist(),
-        axis=1
-    ).sum()
+    # find rows with null values in schema 
+    rows_with_nulls = global_schema[global_schema.isnull().any(axis=1)]
 
-    # make unique list
+    # fin attributes involved in problematic rows
+    bad_attributes = rows_with_nulls.apply(lambda row: row.dropna().tolist(), axis=1).sum()
     bad_attributes = set(bad_attributes)
 
-    # --- STEP 3: all attributes from schema ---
-    all_attributes = final_schema.iloc[:, 0].dropna().tolist()
+    # all attributes from schema
+    all_attributes = final_schema.stack().dropna().unique().tolist()
 
-    # --- STEP 4: keep only good attributes ---
+    # keep only good attributes 
     columns_to_keep = [c for c in all_attributes if c not in bad_attributes]
-
-    # --- STEP 5: project all datasets on final schema ---
-    for i in range(len(data)):
-        data[i] = data[i].reindex(columns=columns_to_keep)
 
     return columns_to_keep
