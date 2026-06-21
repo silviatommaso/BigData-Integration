@@ -42,6 +42,16 @@ def clean_id(record_id):
 # FUNCTIONS
 # =========================
 
+def reindexing(df, letter, col="ID"):
+
+    # reindexing
+    df[col] = (
+        df[col]
+        .apply(clean_id)
+        .apply(lambda x: f"{letter}{x}")
+    )
+
+    return df
 
 
 def clean_year(x):
@@ -109,32 +119,7 @@ def lowercase_text(x):
 ##################################################################################################################################################################################################################
 
 
-def standardize_and_index(file_path, letter, col="id"):
-
-    # read file
-    file_path = Path(file_path)
-    df = pd.read_csv(file_path,encoding="utf-8")
-
-    # attributes names normalizer
-    df.columns = [col.strip().lower() for col in df.columns]
-
-    # reindexing
-    df[col] = (
-        df[col]
-        .apply(clean_id)
-        .apply(lambda x: f"{letter}{x}")
-    )
-
-    output_file = OUTPUT_DIR / f"{file_path.parent.name}_{file_path.name}"
-    df.to_csv(output_file, index=False)
-
-    return df
-
-
-#-----------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
-def normalizer(df):    
+def normalizer(df, letter):    
 
     # fix encoding issues
     df = df.map(fix_mojibake)
@@ -144,6 +129,11 @@ def normalizer(df):
 
     # rename columns
     df = df.rename(columns=COLUMN_MAPPING)
+
+
+    # reindexing
+    df = reindexing(df, letter)
+
 
     # year cleanup
     if "year" in df.columns:

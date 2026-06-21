@@ -106,7 +106,7 @@ def profile_comparison(dfs, dfs_name):
             sim_density = 1.0 - abs(prof_A["numeric_percentage"] - prof_B["numeric_percentage"])
             sim_values_cardinality = 1.0 - abs(prof_A["cardinality"] - prof_B["cardinality"])
 
-            score_structure = (sim_length * 0.45) + (sim_words * 0.3) + (sim_density * 0.1) + (sim_values_cardinality * 0.15)
+            score_structure = (sim_length * 0.5) + (sim_words * 0.25) + (sim_density * 0.2) + (sim_values_cardinality * 0.15)
 
             # Numerical Refinement (Statistical)
             if prof_A["is_purely_numeric"] and prof_B["is_purely_numeric"]:
@@ -125,7 +125,7 @@ def profile_comparison(dfs, dfs_name):
                 sim_avg = 1.0 - (abs(prof_A["avg"] - prof_B["avg"]) / max_avg) if max_avg > 0 else 1.0
                 
                 score_numeric = (sim_range * 0.5) + (sim_avg * 0.5)
-                score_data = (score_structure * 0.4) + (score_numeric * 0.6)
+                score_data = (score_structure * 0.6) + (score_numeric * 0.4)
             else:
                 score_data = score_structure
                 
@@ -139,7 +139,7 @@ def profile_comparison(dfs, dfs_name):
 #------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-def extract_global_schema_clusters(global_results, dataset_names, threshold=0.60):
+def extract_global_schema_clusters(global_results, dataset_names, threshold=0.9):
     """
     Groups pairwise matches into global tables
     """
@@ -215,12 +215,11 @@ def schema_alignment(data, data_names, output):
 
     # Generate global schema alignment matrix
     global_schema = extract_global_schema_clusters(
-        raw_results, data_names, threshold=0.60
+        raw_results, data_names, threshold=0.75
     )
 
     # Save schema
-    final_schema = pd.DataFrame(global_schema)
-    final_schema.to_csv(output, index=False)
+    global_schema.to_csv(output, index=False)
 
 
     # find rows with null values in schema 
@@ -231,7 +230,7 @@ def schema_alignment(data, data_names, output):
     bad_attributes = set(bad_attributes)
 
     # all attributes from schema
-    all_attributes = final_schema.stack().dropna().unique().tolist()
+    all_attributes = global_schema.stack().dropna().unique().tolist()
 
     # keep only good attributes 
     columns_to_keep = [c for c in all_attributes if c not in bad_attributes]

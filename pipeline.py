@@ -1,4 +1,4 @@
-from normalizator import normalizer, standardize_and_index
+from normalizator import normalizer
 from schema_alignment import schema_alignment
 from canopy_clustering import canopy_cluster
 from record_matching import match_records
@@ -17,15 +17,24 @@ RECORD_MATCHING = False
 CLUSTERING = False
 DATA_FUSION = False
 
+INDEXES = ["a", "b", "c", "d"]
 
-INPUT_DIR = Path("normalized_csv")
+INPUT_DIR = Path("dataset_cleaned")
+NORMALIZED_FILE = Path("normalized_csv")
 
 
 inputs = [
-    INPUT_DIR / "movies3_cleaned_imdb_cleaned.csv",
-    INPUT_DIR / "movies3_cleaned_rotten_tomatoes_cleaned.csv",
-    INPUT_DIR / "movies5_cleaned_imdb_cleaned.csv",
-    INPUT_DIR / "movies5_cleaned_roger_ebert_cleaned.csv"
+    INPUT_DIR / "movies3_cleaned" / "imdb_cleaned.csv",
+    INPUT_DIR / "movies3_cleaned" / "rotten_tomatoes_cleaned.csv",
+    INPUT_DIR / "movies5_cleaned" / "imdb_cleaned.csv",
+    INPUT_DIR / "movies5_cleaned" / "roger_ebert_cleaned.csv"
+]
+
+normalized = [
+    NORMALIZED_FILE / "movies3_cleaned_imdb_cleaned.csv",
+    NORMALIZED_FILE / "movies3_cleaned_rotten_tomatoes_cleaned.csv",
+    NORMALIZED_FILE / "movies5_cleaned_imdb_cleaned.csv",
+    NORMALIZED_FILE / "movies5_cleaned_roger_ebert_cleaned.csv"
 ]
 
 
@@ -64,12 +73,6 @@ files = {
 
 if SCHEMA_ALIGN:
 
-    # preprocessing (pre-alignment)
-    standardize_and_index("dataset_cleaned/movies3_cleaned/imdb_cleaned.csv", "a")
-    standardize_and_index("dataset_cleaned/movies3_cleaned/rotten_tomatoes_cleaned.csv", "b")
-    standardize_and_index("dataset_cleaned/movies5_cleaned/roger_ebert_cleaned.csv", "c")
-    standardize_and_index("dataset_cleaned/movies5_cleaned/imdb_cleaned.csv", "d")
-
 
     # schema alignment
     dataset_names = ["imdb_3", "rotten_tomatoes", "imdb_5", "roger_ebert"]
@@ -79,12 +82,12 @@ if SCHEMA_ALIGN:
 
     for i in range(len(dfs)):
         dfs[i] = dfs[i].drop(columns=[col for col in dfs[i].columns if col not in columns_to_keep])
-        dfs[i].to_csv(inputs[i], index=False)
+        dfs[i].to_csv(normalized[i], index=False)
     
     
     # normalization 
     for i in range(len(dfs)):
-        dfs[i] = normalizer(dfs[i])
+        dfs[i] = normalizer(dfs[i], INDEXES[i])
         dfs[i].to_csv(inputs[i], index=False)
     
 
