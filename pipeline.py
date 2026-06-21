@@ -12,10 +12,10 @@ import os
 
 
 SCHEMA_ALIGN = True
-BLOCKING = False
-RECORD_MATCHING = False
-CLUSTERING = False
-DATA_FUSION = False
+BLOCKING = True
+RECORD_MATCHING = True
+CLUSTERING = True
+DATA_FUSION = True
 
 INDEXES = ["a", "b", "c", "d"]
 
@@ -88,7 +88,7 @@ if SCHEMA_ALIGN:
     # normalization 
     for i in range(len(dfs)):
         dfs[i] = normalizer(dfs[i], INDEXES[i])
-        dfs[i].to_csv(inputs[i], index=False)
+        dfs[i].to_csv(normalized[i], index=False)
     
 
     merged_df = pd.concat(dfs, ignore_index=True)

@@ -226,7 +226,7 @@ def schema_alignment(data, data_names, output):
     rows_with_nulls = global_schema[global_schema.isnull().any(axis=1)]
 
     # fin attributes involved in problematic rows
-    bad_attributes = rows_with_nulls.apply(lambda row: row.dropna().tolist(), axis=1).sum()
+    bad_attributes = rows_with_nulls.apply(lambda row: row.dropna().tolist(),axis=1).explode().dropna().tolist()
     bad_attributes = set(bad_attributes)
 
     # all attributes from schema
