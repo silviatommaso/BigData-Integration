@@ -2,26 +2,44 @@ from normalizator import normalizer
 from schema_alignment import schema_alignment
 from canopy_clustering import canopy_cluster
 from record_matching import match_records
+from llm_record_matching import llm_record_matching
 from entity_clustering import build_clusters
 from data_fusion import fuse_cluster
 import utils
 
 from pathlib import Path
 import pandas as pd
-import os
 
 
-SCHEMA_ALIGN = True
-BLOCKING = True
-RECORD_MATCHING = True
-CLUSTERING = True
-DATA_FUSION = True
 
-INDEXES = ["a", "b", "c", "d"]
+# =====================================================
+# CONFIGURATION
+# =====================================================
+
+PIPELINE_MODE = "llm"
+
+
+if PIPELINE_MODE == "both":
+    PIPELINES = ["classic", "llm"]
+else:
+    PIPELINES = [PIPELINE_MODE]
+
+
+STEPS = {
+    "schema_alignment": True,
+
+    "record_linkage": {
+        "blocking": False,
+        "matching": True,
+        "clustering": True
+    },
+
+    "data_fusion": True
+}
+
 
 INPUT_DIR = Path("dataset_cleaned")
 NORMALIZED_FILE = Path("normalized_csv")
-
 
 inputs = [
     INPUT_DIR / "movies3_cleaned" / "imdb_cleaned.csv",
@@ -36,151 +54,280 @@ normalized = [
     NORMALIZED_FILE / "movies5_cleaned_imdb_cleaned.csv",
     NORMALIZED_FILE / "movies5_cleaned_roger_ebert_cleaned.csv"
 ]
+# =====================================================
+# COMMON FILES
+# =====================================================
 
+COMMON = {
 
-# files directories
-files = {
-
-    "Step I" : [
-        "schema_alignment_csv/merged_movies.csv",
+    "global_schema":
         "schema_alignment_csv/global_schema.csv",
-        "Schema Alignment"
-    ],
 
-    "Step II" : [
-        "record_linkage_csv/canopy_blocks.csv",
-        "record_linkage_csv/matches.csv",
-        "record_linkage_csv/singletons_records.csv",
-        "record_linkage_csv/entity_clusters.csv",
-        "Record Linkage"
-    ],
+    "merged":
+        "schema_alignment_csv/merged_movies.csv",
 
-    "Step III" : [
-        "data_fusion_csv/fused_entities.csv",
-        "Data Fusion"
-    ]
+    "canopy":
+        "record_linkage/canopy_blocks.csv"
 
 }
 
 
+# =====================================================
+# PIPELINE OUTPUTS
+# =====================================================
+
+outputs = {
+
+    "classic": {
+
+        "matches":
+            "record_linkage/classic/matches.csv",
+
+        "singletons":
+            "record_linkage/classic/singletons.csv",
+
+        "clusters":
+            "record_linkage/classic/entity_clusters.csv",
+
+        "fusion":
+            "data_fusion/classic/fused_entities.csv"
+    },
 
 
+    "llm": {
+
+        "matches":
+            "record_linkage/llm/matches.csv",
+
+        "requests":
+            "record_linkage/llm/llm_requests.csv",
+
+        "clusters":
+            "record_linkage/llm/entity_clusters.csv",
+
+        "fusion":
+            "data_fusion/llm/fused_entities.csv"
+    }
+
+}
+
+INDEXES = ["a", "b", "c", "d"]
 
 # =====================================================
 # STEP I
 # SCHEMA ALIGNMENT
 # =====================================================
 
-if SCHEMA_ALIGN:
+if STEPS["schema_alignment"]:
 
 
-    # schema alignment
-    dataset_names = ["imdb_3", "rotten_tomatoes", "imdb_5", "roger_ebert"]
-    dfs = [utils.load_movies_csv(f) for f in inputs]
+    dataset_names = [
+        "imdb_3",
+        "rotten_tomatoes",
+        "imdb_5",
+        "roger_ebert"
+    ]
 
-    columns_to_keep = schema_alignment(dfs, dataset_names, files["Step I"][1])
+
+    dfs = [
+        utils.load_movies_csv(f)
+        for f in inputs
+    ]
+
+
+    columns_to_keep = schema_alignment(
+        dfs,
+        dataset_names,
+        COMMON["global_schema"],
+    )
+    print(columns_to_keep)
 
     for i in range(len(dfs)):
-        dfs[i] = dfs[i].drop(columns=[col for col in dfs[i].columns if col not in columns_to_keep])
-        dfs[i].to_csv(normalized[i], index=False)
-    
-    
-    # normalization 
-    for i in range(len(dfs)):
+
+        dfs[i] = dfs[i].drop(
+            columns=[
+                c for c in dfs[i].columns
+                if c not in columns_to_keep
+            ]
+        )
+
+
         dfs[i] = normalizer(dfs[i], INDEXES[i])
-        dfs[i].to_csv(normalized[i], index=False)
-    
 
-    merged_df = pd.concat(dfs, ignore_index=True)
+
+    merged_df = pd.concat(
+        dfs,
+        ignore_index=True
+    )
+
 
     merged_df.to_csv(
-        files["Step I"][0],
+        COMMON["merged"],
         index=False
     )
 
-    print("Totale record:", len(merged_df))
+
+else:
+
+    merged_df = utils.load_movies_csv(
+        COMMON["merged"]
+    )
 
 
-
-
+    print(
+        "Loaded merged dataset:",
+        len(merged_df)
+    )
 
 
 # =====================================================
 # STEP II
-# RECORD LINKAGE
-# =====================================================
-# BLOCKING
+# BLOCKING (COMMON)
 # =====================================================
 
-if BLOCKING:
-
-    utils.path_check(files["Step I"])
+if STEPS["record_linkage"]["blocking"]:
 
 
-    df = utils.load_movies_csv(files["Step I"][0])
-
-    canopies = canopy_cluster(
-        df,
-        "record_linkage_csv/canopy_blocks.csv"
+    Path(
+        COMMON["canopy"]
+    ).parent.mkdir(
+        parents=True,
+        exist_ok=True
     )
 
 
-# =====================================================
-# RECORD MATCHING
-# =====================================================
-
-if RECORD_MATCHING:
-
-    utils.subpath_check(files, [0], 3)
-
-    merged_df = utils.load_movies_csv(files["Step I"][0])
-    canopy_df = utils.load_movies_csv(files["Step II"][0])
-
-
-    matches = match_records(
+    canopy_cluster(
         merged_df,
-        canopy_df,
-        files["Step II"][1],
-        files["Step II"][2],
-        threshold=0.72
+        COMMON["canopy"]
     )
 
 
-# =====================================================
-# CLUSTERING
-# =====================================================
-
-if CLUSTERING:
-
-    utils.subpath_check(files, [0], 3)
-    
-
-    merged_df = utils.load_movies_csv(files["Step I"][0])
-    matched_df = utils.load_movies_csv(files["Step II"][1])
-
-    entities = build_clusters(matched_df, merged_df, files["Step II"][3])
-
-
-
+canopy_df = utils.load_movies_csv(
+    COMMON["canopy"]
+)
 
 
 
 # =====================================================
-# STEP III
-# DATA FUSION
+# PIPELINES
 # =====================================================
-if DATA_FUSION:
 
-    entities_cluster = utils.load_movies_csv(files["Step II"][3])
+for pipeline in PIPELINES:
 
-    all_fused = [fuse_cluster(group) for _, group in entities_cluster.groupby("entity_id")]
 
-    # Unisci tutti i singoli film in un unico DataFrame
-    final_df = pd.concat(all_fused, ignore_index=True)
-    
-    # Salva il file definitivo (una riga per ogni film reale)
-    if not files["Step III"][0]:
-        os.makedirs(files["Step III"][0], exist_ok=True)
-    final_df.to_csv(files["Step III"][0], index=False)
-    
-    print("Data Fusion successfully completed!")
+    print()
+    print("==============================")
+    print("Running:", pipeline)
+    print("==============================")
+
+
+    out = outputs[pipeline]
+
+    for file in out.values():
+
+        Path(file).parent.mkdir(
+            parents=True,
+            exist_ok=True
+        )
+
+    # =================================================
+    # MATCHING
+    # =================================================
+
+    if STEPS["record_linkage"]["matching"]:
+
+
+        if pipeline == "classic":
+
+
+            matches = match_records(
+                merged_df,
+                canopy_df,
+                out["matches"],
+                out["singletons"],
+                threshold=0.75
+            )
+
+
+        else:
+
+
+            matches = llm_record_matching(
+                merged_df,
+                canopy_df,
+                out["matches"],
+                out["requests"],
+                llm_threshold=0.65,
+                auto_threshold=0.75,
+            )
+    else:
+
+        matches = utils.load_movies_csv(
+            out["matches"]
+        )
+
+
+    # =================================================
+    # CLUSTERING
+    # =================================================
+
+    if STEPS["record_linkage"]["clustering"]:
+
+        print("START CLUSTERING")
+
+        # DEBUG DA TOGLIERE
+        print("Merged IDs example:")
+        print(merged_df["ID"].head())
+
+        print("Match IDs example:")
+        print(matches.head())
+
+
+        clusters = build_clusters(
+            matches,
+            merged_df,
+            out["clusters"]
+        )
+
+    # =================================================
+    # DATA FUSION
+    # =================================================
+
+    if STEPS["data_fusion"]:
+
+
+        print("Starting data fusion")
+
+
+        entities = utils.load_movies_csv(out["clusters"])
+
+
+        fused = [
+
+            fuse_cluster(group)
+
+            for _, group
+
+            in entities.groupby(
+                "entity_id"
+            )
+
+        ]
+
+
+        final_df = pd.concat(
+            fused,
+            ignore_index=True
+        )
+
+
+        final_df.to_csv(
+            out["fusion"],
+            index=False
+        )
+
+
+    print(
+        pipeline,
+        "completed"
+    )
