@@ -29,7 +29,7 @@ STEPS = {
     "schema_alignment": True,
 
     "record_linkage": {
-        "blocking": False,
+        "blocking": True,
         "matching": True,
         "clustering": True
     },
@@ -140,7 +140,6 @@ if STEPS["schema_alignment"]:
         dataset_names,
         COMMON["global_schema"],
     )
-    print(columns_to_keep)
 
     for i in range(len(dfs)):
 
