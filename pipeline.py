@@ -274,13 +274,6 @@ for pipeline in PIPELINES:
 
         print("START CLUSTERING")
 
-        # DEBUG DA TOGLIERE
-        print("Merged IDs example:")
-        print(merged_df["ID"].head())
-
-        print("Match IDs example:")
-        print(matches.head())
-
 
         clusters = build_clusters(
             matches,
