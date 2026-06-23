@@ -603,7 +603,7 @@ id,movie_name,year,directors,actors,critic_rating,genre,pg_rating,duration
 602,the wolfpack,2015,Crystal Moselle,"Bhagavan Angulo,Govinda Angulo,Jagadisa Angulo,Narayana Angulo,Krsna Angulo,Mukunda Angulo",2.5,"Documentary, Drama",Rated R,80 minutes
 603,madame bovary,2015,Sophie Barthes,"Mia Wasikowska,Ezra Miller,Laura Carmichael,Henry Lloyd-Hughes,Paul Giamatti,Rhys Ifans,Logan Marshall-Green",2.0,Drama,Rated R,118 minutes
 604,me and earl and the dying girl,2015,Alfonso Gomez-Rejon,"Thomas Mann,RJ Cyler,Olivia Cooke,Connie Britton,Nick Offerman,Molly Shannon",1.5,"Comedy, Drama, Romance",Rated PG-13,105 minutes
-605,chagall-malevich,,Aleksandr Mitta,"Leonid Bichevin,Anatoliy Belyy,Kristina Schneidermann,Semyon Shkalikov",3.0,"Drama, History",,119 minutes
+605,chagall-malevich,nan,Aleksandr Mitta,"Leonid Bichevin,Anatoliy Belyy,Kristina Schneidermann,Semyon Shkalikov",3.0,"Drama, History",,119 minutes
 606,the tribe,2015,Miroslav Slaboshpitsky,"Grigoriy Fesenko,Yana Novikova,Rosa Babiy,Alexander Dsiadevich,Yaroslav Biletskiy,Ivan Tishko,Alexander Osadchiy,Alexander Sidelnikov,Alexander Panivan",1.5,"Crime, Drama",,130 minutes
 607,inside out,2015,Pete Docter,"Amy Poehler,Mindy Kaling,Bill Hader,Phyllis Smith,Lewis Black,Kaitlyn Dias,Paris Van Dyke,Kyle MacLachlan",4.0,"Animation, Comedy, Family",Rated PG,102 minutes
 608,the wanted 18,2015,"Amer Shomali,Paul Cowan",,3.0,"Animation, Documentary",,75 minutes
@@ -3270,7 +3270,7 @@ id,movie_name,year,directors,actors,critic_rating,genre,pg_rating,duration
 3386,rashomon,1950,Akira Kurosawa,"Toshiro Mifune,Machiko Kyo,Masayuki Mori,Takashi Shimura,Minoru Chiaki,Kichijiro Ueda",4.0,"Crime, Drama, Foreign, Mystery",Rated NR,88 minutes
 3387,duck soup,1933,,,4.0,Comedy,,68 minutes
 3388,don't look now,1973,,"Julie Christie,Donald Sutherland,Hilary Mason,Cella Matania,Massimo Serato,Renato Scarpa",4.0,"Drama, Foreign, Romance, Thriller",,110 minutes
-3389,the films of buster keaton,,,,4.0,,,
+3389,the films of buster keaton,nan,,,4.0,,,
 3390,"paris, texas",1984,"Wim Wenders, Wim Wenders","Aurore Clement, Harry Dean Stanton, Dean Stockwell, Nastassja Kinski, Hunter Carson, Dean Stockwell, Bernhard Wicki, Aurore Clement, Nastassja Kinski, Hunter Carson, Harry Dean Stanton, Bernhard Wicki",4.0,"Drama, Indie, Mystery, Romance",Rated R,150 minutes
 3391,the thin man,1934,,,4.0,"Comedy, Crime, Drama, Mystery, Thriller",,93 minutes
 3392,the life and death of colonel blimp,1943,,,4.0,"Comedy, Drama, Foreign, Romance",,163 minutes
@@ -3278,7 +3278,7 @@ id,movie_name,year,directors,actors,critic_rating,genre,pg_rating,duration
 3394,the blue kite,1993,,,4.0,"Drama, Foreign",,140 minutes
 3395,solaris,1972,Andrei Tarkovsky,,4.0,"Adventure, Drama, Foreign, Mystery, Science Fiction",,167 minutes
 3396,one flew over the cuckoo's nest,1975,Milos Forman,"Jack Nicholson,Louise Fletcher,Will Sampson,William Redfield,Brad Dourif,Sydney Lassick,Scatman Crothers,Dean R. Brooks,Danny DeVito",4.0,Drama,Rated R,129 minutes
-3397,"three colors trilogy: blue, white, red",,Krzysztof Kieslowski,,4.0,,,
+3397,"three colors trilogy: blue, white, red",nan,Krzysztof Kieslowski,,4.0,,,
 3398,five easy pieces,1970,,,4.0,Drama,Rated R,98 minutes
 3399,the birth of a nation,1915,Nate Parker,Lillian Gish,4.0,"Drama, History",Rated PG,190 minutes
 3400,nashville,1975,,"David Peel,Ronee Blakley,Allen Garfield,Ned Beatty,Lily Tomlin,Karen Black,Timothy Brown,Michael Murphy,Gwen Welles,Robert Doqui,Keenan Wynn,Shelley Duvall,Scott Glenn,Keith Carradine,Allen Nicholls,Cristina Raines,David Arkin,Geraldine Chaplin,Barbara Harris,Bert Remsen,David Hayward,Jeff Goldblum,Richard Baskin,Merle Kilgore,Elliott Gould,Julie Christie,Barbara Baxley,Henry Gibson",4.0,Drama,Rated R,159 minutes

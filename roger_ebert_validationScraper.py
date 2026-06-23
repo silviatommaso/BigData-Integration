@@ -102,9 +102,11 @@ def validation_scraper():
     # ----------------------------
     # INIT OUTPUT FILE
     # ----------------------------
-    if not os.path.exists(output_file):
+    enriched_csv="directors_cast_filled.csv"
+
+    if not os.path.exists(enriched_csv):
         pd.DataFrame(columns=["movie_name", "year", "url", "directors_found", "cast_found"]).to_csv(
-            output_file,
+            enriched_csv,
             index=False
         )
     else:
@@ -171,7 +173,7 @@ def validation_scraper():
                     "directors_found": directors,
                     "cast_found": cast
                 }]).to_csv(
-                    output_file,
+                    enriched_csv,
                     mode="a",
                     header=False,
                     index=False

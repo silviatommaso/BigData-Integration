@@ -7,10 +7,10 @@ DTYPES = {
     "Duration": "Int64"
 }
 
-df_imdb_movie3 = pd.read_csv("normalized_csv/movies3_cleaned_imdb_cleaned.csv", dtype=DTYPES, low_memory=False)
-df_imdb_movie5 = pd.read_csv("normalized_csv/movies5_cleaned_imdb_cleaned.csv", dtype=DTYPES, low_memory=False)
-df_rottentomatoes = pd.read_csv("normalized_csv/movies3_cleaned_rotten_tomatoes_cleaned.csv", dtype=DTYPES, low_memory=False)
-df_rogerebert = pd.read_csv("normalized_csv/movies5_cleaned_roger_ebert_cleaned.csv", dtype=DTYPES, low_memory=False)
+df_imdb_movie3 = pd.read_csv("dataset_cleaned/movies3_cleaned/imdb_cleaned.csv", low_memory=False)
+df_imdb_movie5 = pd.read_csv("dataset_cleaned/movies5_cleaned/imdb_cleaned.csv", low_memory=False)
+df_rottentomatoes = pd.read_csv("dataset_cleaned/movies3_cleaned/rotten_tomatoes_cleaned.csv", low_memory=False)
+df_rogerebert = pd.read_csv("movies5/csv_files/roger_ebert.csv", low_memory=False)
 
 #########################
 ##### DATA ANALYSIS #####
