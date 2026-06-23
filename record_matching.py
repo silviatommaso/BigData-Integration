@@ -1,6 +1,7 @@
 import pandas as pd
 from itertools import combinations
 from rapidfuzz.fuzz import ratio
+import csv
 
 
 
@@ -76,7 +77,7 @@ def record_similarity(r1,r2):
 ########################################################################################################################################################################################################################
 
 
-def match_records(merged_df, canopy_df, matched_path, singletons_path, threshold=0.8):
+def match_records(merged_df, canopy_df, matched_path, singletons_path, threshold=0.8, save = True):
 
     # generation of a dictionary {cluster_id : record_id} from canopy_cluster's blocks
     canopies = {}
@@ -121,13 +122,15 @@ def match_records(merged_df, canopy_df, matched_path, singletons_path, threshold
 
     # matches with score
     matches = pd.DataFrame(matches)
-    matches.to_csv(matched_path, index=False)
-
     print("Match trovati:", len(matches))
-
 
     # singletons 
     singletons = get_unmatched_records(matches, merged_df)
-    pd.DataFrame(singletons).to_csv(singletons_path, index=False)
+
+    if save:
+        matches.to_csv(matched_path, index=False)
+        pd.DataFrame(singletons).to_csv(singletons_path, index=False)
 
     print("Record senza match:", len(singletons))
+
+    return matches
