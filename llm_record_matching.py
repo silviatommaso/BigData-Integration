@@ -269,7 +269,7 @@ def llm_record_matching(
     candidate_map={}
 
 
-    for _,row in llm_candidates.iterrows():
+    for _,row in llm_candidates_no_duplicates.iterrows():
 
         request_id=generate_request_id(
             row["id1"],
@@ -346,15 +346,12 @@ def llm_record_matching(
 
         },matches_output)
 
-
+        existing_pairs.add(pair)
         classic_added+=1
 
 
 
-    print(
-        "Classic matches added:",
-        classic_added
-    )
+    print("Classic matches added:", classic_added)
 
 
 
@@ -371,8 +368,15 @@ def llm_record_matching(
 
         if bool(cached["match"]) and float(cached["confidence"])>=0.75:
             
+            pair = (
+                cached["id1"],
+                cached["id2"]
+            )
+
             if pair in existing_pairs:
                 continue
+            
+            row = candidate_map[request_id]
 
             append_csv({
 
@@ -388,7 +392,7 @@ def llm_record_matching(
 
             },matches_output)
 
-
+            existing_pairs.add(pair)
             cache_matches+=1
 
 
@@ -448,7 +452,6 @@ def llm_record_matching(
             "id1":row["id1"],
             "id2":row["id2"],
             "classic_score":row["score"],
-            ""
             "match":int(result["match"]),
             "confidence":result["confidence"],
             "explanation":result["explanation"]
@@ -477,7 +480,7 @@ def llm_record_matching(
 
                 },matches_output)
 
-
+                existing_pairs.add(pair)
                 new_llm_matches+=1
 
 

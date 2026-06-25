@@ -16,11 +16,16 @@ def get_unmatched_records(matches,df):
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 def generate_candidate_pairs(canopies):
-    pairs=[]
+
+    pairs = set()
     for records in canopies.values():
-        for a,b in combinations(records,2):
-            pairs.append((a,b))
-    return pairs
+
+        for a, b in combinations(records, 2):
+
+            pairs.add(
+                tuple(sorted((a, b)))
+            )
+    return list(pairs)
 
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -122,7 +127,18 @@ def match_records(merged_df, canopy_df, matched_path, singletons_path, threshold
 
     # matches with score
     matches = pd.DataFrame(matches)
-    print("Match trovati:", len(matches))
+    print("Total matches found:", len(matches))
+
+    before = len(matches)
+
+    matches = matches.drop_duplicates(
+        subset=["id1", "id2"]
+    ).reset_index(drop=True)
+
+    print(
+        "Duplicate matches removed:",
+        before - len(matches)
+    )
 
     # singletons 
     singletons = get_unmatched_records(matches, merged_df)
