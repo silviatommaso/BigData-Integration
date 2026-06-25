@@ -139,61 +139,69 @@ def profile_comparison(dfs, dfs_name):
 #------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
+import pandas as pd
+
 def extract_global_schema_clusters(global_results, dataset_names, threshold=0.9):
     """
-    Groups pairwise matches into global tables
+    Groups pairwise matches into global tables.
+    Ensures that even unmatched attributes appear as singleton clusters.
     """
-    # Sort matches by confidence score descending to process the strongest links first
+
+    # 1. Collect all nodes
+    all_nodes = set()
+    for (node_a, node_b) in global_results.keys():
+        all_nodes.add(node_a)
+        all_nodes.add(node_b)
+
+    # 2. Initialize each node as its own cluster (IMPORTANT FIX)
+    clusters = [{node} for node in all_nodes]
+
+    # 3. Sort matches by confidence
     sorted_matches = sorted(global_results.items(), key=lambda item: item[1], reverse=True)
-    
-    clusters = []
-    
+
     for (node_a, node_b), score in sorted_matches:
         if score < threshold:
             break
-            
+
         ds_a = node_a.split('.', 1)[0]
         ds_b = node_b.split('.', 1)[0]
-        
+
         found_cluster_a = None
         found_cluster_b = None
-        
-        # Locate if nodes already belong to existing rows
+
         for cluster in clusters:
             if node_a in cluster:
                 found_cluster_a = cluster
             if node_b in cluster:
                 found_cluster_b = cluster
-                
-        # Case 1: Both nodes are already in different clusters -> Try to merge them
+
+        # Case 1: merge clusters
         if found_cluster_a and found_cluster_b:
             if found_cluster_a != found_cluster_b:
-                # Check for dataset collisions before merging the two rows
-                datasets_in_a = {item.split('.', 1)[0] for item in found_cluster_a}
-                datasets_in_b = {item.split('.', 1)[0] for item in found_cluster_b}
-                
-                # Merge ONLY if they don't share any dataset origin
+                datasets_in_a = {x.split('.', 1)[0] for x in found_cluster_a}
+                datasets_in_b = {x.split('.', 1)[0] for x in found_cluster_b}
+
                 if not datasets_in_a.intersection(datasets_in_b):
                     found_cluster_a.update(found_cluster_b)
                     clusters.remove(found_cluster_b)
-                    
-        # Case 2: Only node_a is tracked -> Try to add node_b
+
+        # Case 2: add node_b
         elif found_cluster_a:
-            datasets_in_cluster = {item.split('.', 1)[0] for item in found_cluster_a}
+            datasets_in_cluster = {x.split('.', 1)[0] for x in found_cluster_a}
             if ds_b not in datasets_in_cluster:
                 found_cluster_a.add(node_b)
-                
-        # Case 3: Only node_b is tracked -> Try to add node_a
+
+        # Case 3: add node_a
         elif found_cluster_b:
-            datasets_in_cluster = {item.split('.', 1)[0] for item in found_cluster_b}
+            datasets_in_cluster = {x.split('.', 1)[0] for x in found_cluster_b}
             if ds_a not in datasets_in_cluster:
                 found_cluster_b.add(node_a)
-                
-        # Case 4: Neither node is tracked -> Create a new row
+
+        # Case 4: should not really happen now
         else:
             clusters.append({node_a, node_b})
-            
-    # Pivot rows into the final structured DataFrame
+
+    # 4. Build output table
     rows = []
     for cluster in clusters:
         row_dict = {name: None for name in dataset_names}
@@ -201,7 +209,7 @@ def extract_global_schema_clusters(global_results, dataset_names, threshold=0.9)
             ds_name, col_name = item.split('.', 1)
             row_dict[ds_name] = col_name
         rows.append(row_dict)
-        
+
     return pd.DataFrame(rows)
 
 
