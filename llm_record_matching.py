@@ -266,6 +266,8 @@ def llm_record_matching(
 
     pending_llm=[]
 
+    candidate_map={}
+
 
     for _,row in llm_candidates.iterrows():
 
@@ -274,6 +276,9 @@ def llm_record_matching(
             row["id2"],
             row["score"]
         )
+
+
+        candidate_map[request_id]=row
 
 
         if request_id in cache_map:
@@ -285,7 +290,6 @@ def llm_record_matching(
             pending_llm.append(
                 (row,request_id)
             )
-
 
 
     print(
@@ -358,30 +362,34 @@ def llm_record_matching(
     # PROCESSO CACHE
     # ======================
 
-    new_matches=0
+    cache_matches = 0
+    new_llm_matches = 0
 
 
     for request_id,cached in cached_results.items():
 
 
         if bool(cached["match"]) and float(cached["confidence"])>=0.75:
+            
+            if pair in existing_pairs:
+                continue
 
             append_csv({
 
                 "id1":cached["id1"],
                 "id2":cached["id2"],
                 "score":cached["classic_score"],
-                "title_similarity":"",
-                "director_similarity":"",
-                "year_similarity":"",
-                "cast_similarity":"",
+                "title_similarity": row["title_similarity"],
+                "director_similarity": row["director_similarity"],
+                "year_similarity": row["year_similarity"],
+                "cast_similarity": row["cast_similarity"],
                 "method":"LLM",
                 "confidence":cached["confidence"]
 
             },matches_output)
 
 
-            new_matches+=1
+            cache_matches+=1
 
 
 
@@ -440,6 +448,7 @@ def llm_record_matching(
             "id1":row["id1"],
             "id2":row["id2"],
             "classic_score":row["score"],
+            ""
             "match":int(result["match"]),
             "confidence":result["confidence"],
             "explanation":result["explanation"]
@@ -449,31 +458,31 @@ def llm_record_matching(
 
 
         if result["match"] and result["confidence"]>=0.75:
+            
+            pair = (row["id1"], row["id2"])
+
+            if pair not in existing_pairs:
+
+                append_csv({
+
+                    "id1":row["id1"],
+                    "id2":row["id2"],
+                    "score":row["score"],
+                    "title_similarity":row["title_similarity"],
+                    "director_similarity":row["director_similarity"],
+                    "year_similarity":row["year_similarity"],
+                    "cast_similarity":row["cast_similarity"],
+                    "method":"LLM",
+                    "confidence":result["confidence"]
+
+                },matches_output)
 
 
-            append_csv({
-
-                "id1":row["id1"],
-                "id2":row["id2"],
-                "score":row["score"],
-                "title_similarity":row["title_similarity"],
-                "director_similarity":row["director_similarity"],
-                "year_similarity":row["year_similarity"],
-                "cast_similarity":row["cast_similarity"],
-                "method":"LLM",
-                "confidence":result["confidence"]
-
-            },matches_output)
-
-
-            new_matches+=1
+                new_llm_matches+=1
 
 
 
-        print(
-            f"\rLLM progress {calls}/{len(pending_llm)}",
-            end=""
-        )
+        print(f"\rLLM progress {calls}/{len(pending_llm)}", end="")
 
 
         time.sleep(1.5)
@@ -483,22 +492,15 @@ def llm_record_matching(
     print()
 
 
-    print(
-        "Cache hits:",
-        len(cached_results)
-    )
+    print("Cache hits:", len(cached_results))
 
 
-    print(
-        "New LLM calls:",
-        calls
-    )
+    print("New LLM calls:", calls)
 
 
-    print(
-        "New LLM matches:",
-        new_matches
-    )
+    print("Cache matches restored:", cache_matches)
+
+    print("New LLM matches:", new_llm_matches)
 
 
     return pd.read_csv(matches_output)
