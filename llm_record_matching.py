@@ -8,6 +8,7 @@ import hashlib
 
 from record_matching import match_records
 
+WAITING_TIME = 0.5 # time to wait between each LLM request
 
 def generate_request_id(id1,id2,score):
 
@@ -17,11 +18,51 @@ def generate_request_id(id1,id2,score):
         key.encode()
     ).hexdigest()[:16]
 
+def call_llm(prompt,
+             client,
+             model="llama-3.3-70b-versatile"):
+
+    response = client.chat.completions.create(
+
+        model=model,
+
+        messages=[
+            {
+                "role":"user",
+                "content":prompt
+            }
+        ],
+
+        temperature=0
+    )
+
+    return response.choices[0].message.content
+
+
+def classify_error(msg: str):
+
+    m = str(msg).lower()
+
+    if (
+        "per day" in m
+        or "daily" in m
+        or "tpd" in m
+    ):
+        return "daily_limit"
+
+    if (
+        "rate limit" in m
+        or "tokens per minute" in m
+        or "tpm" in m
+    ):
+        return "retry"
+
+    return "unknown"
+
 
 def get_client():
 
     load_dotenv()
-
     api_key=os.getenv("GROQ_API_KEY")
 
     if not api_key:
@@ -29,16 +70,60 @@ def get_client():
 
     return Groq(api_key=api_key)
 
+import re
+
+def parse_llm_json(text):
+
+    if text is None:
+        return None
+
+    text = text.strip()
+
+    text = text.replace("```json","")
+    text = text.replace("```","")
+
+    text = re.sub(
+        r"<think>.*?</think>",
+        "",
+        text,
+        flags=re.DOTALL
+    ).strip()
+
+    try:
+        return json.loads(text)
+
+    except:
+
+        match = re.search(
+            r"\{.*\}",
+            text,
+            flags=re.DOTALL
+        )
+
+        if match:
+
+            try:
+                return json.loads(match.group())
+
+            except:
+                return None
+
+        return None
 
 
-def llm_match_record(record1,record2,client,model="llama-3.3-70b-versatile"):
+def llm_match_record(record1, record2, client, model="llama-3.3-70b-versatile"):
 
-    prompt=f"""
+    prompt = f"""
 You are an entity resolution system.
 
 Decide if the two movie records refer to the same movie.
 
 Give a confidence score between 0 and 1.
+
+Rules:
+- High confidence only with strong evidence.
+- Different title or identity should reduce confidence.
+- Explain briefly.
 
 Record A:
 Title: {record1['Title']}
@@ -63,32 +148,39 @@ Return ONLY JSON:
 
     try:
 
-        response=client.chat.completions.create(
-            model=model,
-            messages=[
-                {
-                    "role":"user",
-                    "content":prompt
-                }
-            ],
-            temperature=0
+        output = call_llm(
+            prompt,
+            client,
+            model
         )
-
-        content=response.choices[0].message.content.strip()
-
-        content=content.replace("```json","").replace("```","").strip()
-
-        return json.loads(content)
-
 
     except Exception as e:
 
-        if "429" in str(e):
-            raise RuntimeError("RATE_LIMIT")
+        action = classify_error(str(e))
 
-        print("LLM error:",e)
+        return {
+            "status": action,
+            "result": None,
+            "error": str(e)
+        }
 
-        return None
+    parsed = parse_llm_json(output)
+
+    if parsed is None:
+
+        return {
+            "status":"json_error",
+            "result":None,
+            "error":"Invalid JSON"
+        }
+
+    return {
+
+        "status":"ok",
+        "result":parsed,
+        "error":None
+
+    }
 
 
 
@@ -150,30 +242,15 @@ def llm_record_matching(
 
     print("\n--- MATCH SPLIT ---")
 
-    print(
-        "Total candidate matches:",
-        len(candidate_matches)
-    )
+    print("Total candidate matches:", len(candidate_matches))
 
-    print(
-        "Automatic matches (no LLM):",
-        len(classic_matches)
-    )
+    print("Automatic matches (no LLM):", len(classic_matches))
 
-    print(
-        "LLM candidates before dedup:",
-        len(llm_candidates)
-    )
+    print("LLM candidates before dedup:", len(llm_candidates))
 
-    print(
-        "Duplicate LLM candidates removed:",
-        len(llm_candidates) - len(llm_candidates_no_duplicates)
-    )
+    print("Duplicate LLM candidates removed:", len(llm_candidates) - len(llm_candidates_no_duplicates))
 
-    print(
-        "LLM requests to evaluate:",
-        len(llm_candidates_no_duplicates)
-    )
+    print("LLM requests to evaluate:", len(llm_candidates_no_duplicates))
 
 
     if not os.path.exists(matches_output):
@@ -215,39 +292,11 @@ def llm_record_matching(
     # ======================
 
     cache=pd.read_csv(llm_requests_output)
-    print(
-        "Total cache rows:",
-        len(cache)
-    )
+    print("Total cache rows:",len(cache))
 
-    print(
-        "Unique request ids:",
-        cache["request_id"].nunique()
-    )
+    print("Unique request ids:", cache["request_id"].nunique())
 
-    print(
-        "Duplicate request ids:",
-        len(cache)-cache["request_id"].nunique()
-    )
-
-    if "request_id" not in cache.columns:
-
-        cache["request_id"]=cache.apply(
-            lambda r: generate_request_id(
-                r["id1"],
-                r["id2"],
-                r["classic_score"]
-            ),
-            axis=1
-        )
-
-
-        cache.to_csv(
-            llm_requests_output,
-            index=False
-        )
-
-
+    print("Duplicate request ids:", len(cache)-cache["request_id"].nunique())
 
     cache_map={}
 
@@ -255,7 +304,6 @@ def llm_record_matching(
     for _,r in cache.iterrows():
 
         cache_map[r["request_id"]]=r
-
 
 
     # ======================
@@ -291,19 +339,9 @@ def llm_record_matching(
                 (row,request_id)
             )
 
+    print("Cached requests:", len(cached_results))
 
-    print(
-        "Cached requests:",
-        len(cached_results)
-    )
-
-
-    print(
-        "New LLM calls needed:",
-        len(pending_llm)
-    )
-
-
+    print("New LLM calls needed:",len(pending_llm))
 
     # ======================
     # SALVO CLASSICI
@@ -311,14 +349,12 @@ def llm_record_matching(
 
     existing=pd.read_csv(matches_output)
 
-
     existing_pairs=set(
         zip(
             existing["id1"],
             existing["id2"]
         )
     )
-
 
     classic_added=0
 
@@ -349,24 +385,19 @@ def llm_record_matching(
         existing_pairs.add(pair)
         classic_added+=1
 
-
-
     print("Classic matches added:", classic_added)
 
-
-
     # ======================
-    # PROCESSO CACHE
+    # CACHE PROCESS
     # ======================
 
     cache_matches = 0
     new_llm_matches = 0
 
-
     for request_id,cached in cached_results.items():
 
 
-        if bool(cached["match"]) and float(cached["confidence"])>=0.75:
+        if int(cached["match"]) == 1 and float(cached["confidence"])>=0.75:
             
             pair = (
                 cached["id1"],
@@ -395,115 +426,134 @@ def llm_record_matching(
             existing_pairs.add(pair)
             cache_matches+=1
 
-
-
     # ======================
-    # NUOVE CHIAMATE LLM
+    # NEW LLM CALLS
     # ======================
 
-    client=get_client()
+    client = get_client()
 
-    calls=0
+    calls = 0
+    attempts = 0
+    MAX_RETRIES = 3
 
+    for row, request_id in pending_llm:
 
+        r1 = merged_df[merged_df["ID"] == row["id1"]]
+        r2 = merged_df[merged_df["ID"] == row["id2"]]
 
-    for row,request_id in pending_llm:
+        if r1.empty or r2.empty:
+            print(f"Warning: ID {row['id1']} or {row['id2']} not found, skipping")
+            continue
 
+        record1 = r1.iloc[0]
+        record2 = r2.iloc[0]
 
-        record1=merged_df[
-            merged_df["ID"]==row["id1"]
-        ].iloc[0]
+        attempts += 1
+        result = None
 
+        for retry in range(MAX_RETRIES):
 
-        record2=merged_df[
-            merged_df["ID"]==row["id2"]
-        ].iloc[0]
-
-
-
-        try:
-
-            result=llm_match_record(
+            response = llm_match_record(
                 record1,
                 record2,
                 client
             )
 
+            status = response["status"]
 
-        except RuntimeError:
+            if status == "ok":
+                result = response["result"]
+                break
 
-            print("Rate limit reached")
-            break
+            elif status == "retry":
+                wait = min(60, 2 ** retry)
+                print(f"\nRate limit. Retry in {wait}s")
+                time.sleep(wait)
+                continue
 
+            elif status == "daily_limit":
+                print("\nDaily limit reached.")
+                return pd.read_csv(matches_output)
 
+            elif status == "json_error":
+                print(f"\nInvalid JSON for {row['id1']} - {row['id2']}")
+                break
+
+            else:
+                print("\nLLM Error:", response["error"])
+                break
 
         if result is None:
+
+            print(f"\nWarning: failed after {MAX_RETRIES} retries, skipping {row['id1']}-{row['id2']}")
+            print(f"\rLLM progress {attempts}/{len(pending_llm)}", end="")
             continue
 
-
-
-        calls+=1
-
-
+        calls += 1
 
         append_csv({
+            "request_id": request_id,
+            "id1": row["id1"],
+            "id2": row["id2"],
+            "classic_score": row["score"],
+            "match": int(result["match"]),
+            "confidence": result["confidence"],
+            "explanation": result["explanation"]
+        }, llm_requests_output)
 
-            "request_id":request_id,
-            "id1":row["id1"],
-            "id2":row["id2"],
-            "classic_score":row["score"],
-            "match":int(result["match"]),
-            "confidence":result["confidence"],
-            "explanation":result["explanation"]
+        if result["match"] and result["confidence"] >= 0.75:
 
-        },llm_requests_output)
-
-
-
-        if result["match"] and result["confidence"]>=0.75:
-            
             pair = (row["id1"], row["id2"])
 
             if pair not in existing_pairs:
 
                 append_csv({
-
-                    "id1":row["id1"],
-                    "id2":row["id2"],
-                    "score":row["score"],
-                    "title_similarity":row["title_similarity"],
-                    "director_similarity":row["director_similarity"],
-                    "year_similarity":row["year_similarity"],
-                    "cast_similarity":row["cast_similarity"],
-                    "method":"LLM",
-                    "confidence":result["confidence"]
-
-                },matches_output)
+                    "id1": row["id1"],
+                    "id2": row["id2"],
+                    "score": row["score"],
+                    "title_similarity": row["title_similarity"],
+                    "director_similarity": row["director_similarity"],
+                    "year_similarity": row["year_similarity"],
+                    "cast_similarity": row["cast_similarity"],
+                    "method": "LLM",
+                    "confidence": result["confidence"]
+                }, matches_output)
 
                 existing_pairs.add(pair)
-                new_llm_matches+=1
+                new_llm_matches += 1
+
+        print(f"\rLLM progress {attempts}/{len(pending_llm)}", end="")
+
+        time.sleep(WAITING_TIME)
 
 
+    final_matches = pd.read_csv(matches_output)
 
-        print(f"\rLLM progress {calls}/{len(pending_llm)}", end="")
+    total_llm_matches = len(
+        final_matches[
+            final_matches["method"] == "LLM"
+        ]
+    )
+
+    total_algorithm_matches = len(
+        final_matches[
+            final_matches["method"] == "algorithm"
+        ]
+    )
 
 
-        time.sleep(1.5)
-
-
-
-    print()
-
-
-    print("Cache hits:", len(cached_results))
-
-
+    print("\nCache hits:", len(cached_results))
     print("New LLM calls:", calls)
-
-
     print("Cache matches restored:", cache_matches)
-
     print("New LLM matches:", new_llm_matches)
 
+    print(
+        "Final matches:",
+        len(final_matches),
+        "| Algorithm:",
+        total_algorithm_matches,
+        "| LLM:",
+        total_llm_matches
+    )
 
     return pd.read_csv(matches_output)
