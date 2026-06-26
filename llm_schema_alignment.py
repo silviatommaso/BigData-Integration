@@ -18,7 +18,6 @@ client = Groq(
 )
 
 PAUSE_BETWEEN_MODELS = 10
-PAUSE_BETWEEN_QUERIES = 10
 
 LLMS = [
     "meta-llama/llama-4-scout-17b-16e-instruct",
