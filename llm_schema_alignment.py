@@ -132,24 +132,37 @@ def result_definer(messages):
     latencies = {}
     token_usage = {}
 
+    max_retries = 3
+
     for model in LLMS:
 
-        try:
+        for attempt in range(max_retries):
 
-            start = time.time()
+            try:
+                start = time.time()
 
-            outputs[model], token_usage[model] = call_llm(
-                messages,
-                model
-            )
+                outputs[model], token_usage[model] = call_llm(
+                    messages,
+                    model
+                )
 
-            latencies[model] = time.time() - start
+                latencies[model] = time.time() - start
 
-            time.sleep(PAUSE_BETWEEN_MODELS)
+                time.sleep(PAUSE_BETWEEN_MODELS)
 
-        except Exception as e:
+                break
 
-            print(f"Error with {model}: {e}")
+            except Exception as e:
+
+                wait = 2 ** attempt
+                print(f"Error with {model}: {e} | retry in {wait}s")
+
+                time.sleep(wait)
+
+                if attempt == max_retries - 1:
+                    outputs[model] = None
+                    token_usage[model] = None
+                    latencies[model] = None
 
     for model in LLMS:
 
