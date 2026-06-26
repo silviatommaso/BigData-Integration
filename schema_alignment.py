@@ -138,9 +138,6 @@ def profile_comparison(dfs, dfs_name):
 
 #------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-
-import pandas as pd
-
 def extract_global_schema_clusters(global_results, dataset_names, threshold=0.9):
     """
     Groups pairwise matches into global tables.
@@ -216,19 +213,7 @@ def extract_global_schema_clusters(global_results, dataset_names, threshold=0.9)
 #------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-def schema_alignment(data, data_names, output):
-
-    # Compute raw matching scores matrix
-    raw_results = profile_comparison(data, data_names)
-
-    # Generate global schema alignment matrix
-    global_schema = extract_global_schema_clusters(
-        raw_results, data_names, threshold=0.75
-    )
-
-    # Save schema
-    global_schema.to_csv(output, index=False)
-
+def cols_to_keep(global_schema):
 
     # find rows with null values in schema 
     rows_with_nulls = global_schema[global_schema.isnull().any(axis=1)]
@@ -242,5 +227,27 @@ def schema_alignment(data, data_names, output):
 
     # keep only good attributes 
     columns_to_keep = [c for c in all_attributes if c not in bad_attributes]
+
+    
+    return columns_to_keep
+
+
+
+def schema_alignment(data, data_names, output):
+
+    # Compute raw matching scores matrix
+    raw_results = profile_comparison(data, data_names)
+
+    # Generate global schema alignment matrix
+    global_schema = extract_global_schema_clusters(
+        raw_results, data_names, threshold=0.75
+    )
+
+    # Save schema
+    global_schema.to_csv(output, index=False)
+
+    # keep only good attributes 
+    columns_to_keep = cols_to_keep(global_schema)
+
 
     return columns_to_keep

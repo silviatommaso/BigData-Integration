@@ -4,8 +4,10 @@ import os
 import time
 import pandas as pd
 from pathlib import Path
+import json
 
 import utils
+
 
 # -----------------------
 # CONFIGURATION
@@ -24,6 +26,11 @@ LLMS = [
     "openai/gpt-oss-120b",
     "groq/compound-mini"
 ]
+
+
+
+#------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 
 # -----------------------
@@ -93,6 +100,7 @@ def build_messages(samples, dataset_names):
         }
     ]
 
+#------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # -----------------------
 # LLM CALL
@@ -140,10 +148,7 @@ def result_definer(messages):
             try:
                 start = time.time()
 
-                outputs[model], token_usage[model] = call_llm(
-                    messages,
-                    model
-                )
+                outputs[model], token_usage[model] = call_llm(messages, model)
 
                 latencies[model] = time.time() - start
 
@@ -174,6 +179,7 @@ def result_definer(messages):
 
     return results
 
+#------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # -----------------------
 # SAMPLE SELECTION
@@ -186,10 +192,8 @@ def get_sample(df, n=5, min_differences=5, seed=None):
     if len(df_clean) < n:
         df_clean = df
 
-    candidates = df_clean.sample(
-        frac=1,
-        random_state=seed
-    )
+    candidates = df_clean.sample(frac=1, random_state=seed)
+
 
     selected = []
 
@@ -221,26 +225,18 @@ def get_sample(df, n=5, min_differences=5, seed=None):
 
         needed = n - len(selected)
 
-        selected.extend(
-            [
-                row
-                for _, row in remaining.head(needed).iterrows()
-            ]
-        )
+        selected.extend([row for _, row in remaining.head(needed).iterrows()])
 
     return pd.DataFrame(selected).reset_index(drop=True)
 
+
+################################################################################################################################################################################################################################################################################
 
 # -----------------------
 # MAIN FUNCTION
 # -----------------------
 
-def prompt(files, dataset_names):
-
-    dfs = [
-        utils.load_movies_csv(f)
-        for f in files
-    ]
+def prompt_aligning(dfs, dataset_names, output):
 
     samples = []
 
@@ -255,25 +251,16 @@ def prompt(files, dataset_names):
     )
 
     results = result_definer(messages)
-    print(results)
 
-    # return results
+    with open(output, "w", encoding="utf-8") as f:
+        json.dump(results, f, indent=4, ensure_ascii=False)
 
-
-
-
-
+    
+    return results
 
 
 
 
 
-INPUT_DIR = Path("dataset_cleaned")
-inputs = [
-    INPUT_DIR / "movies3_cleaned" / "imdb_cleaned.csv",
-    INPUT_DIR / "movies3_cleaned" / "rotten_tomatoes_cleaned.csv",
-    INPUT_DIR / "movies5_cleaned" / "imdb_cleaned.csv",
-    INPUT_DIR / "movies5_cleaned" / "roger_ebert_cleaned.csv"
-]
 
-prompt(inputs, ["imdb_3", "rotten_tomatoes", "imdb_5", "roger_ebert"])
+

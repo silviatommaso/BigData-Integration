@@ -1,12 +1,13 @@
 from normalizator import normalizer
-from schema_alignment import schema_alignment
+from schema_alignment import schema_alignment, cols_to_keep
+from llm_schema_alignment import prompt_aligning
 from canopy_clustering import canopy_cluster
 from record_matching import match_records
 from llm_record_matching import llm_record_matching
 from entity_clustering import build_clusters
 from data_fusion import fuse_cluster
 import utils
-
+import csv
 from pathlib import Path
 import pandas as pd
 
@@ -29,12 +30,12 @@ STEPS = {
     "schema_alignment": True,
 
     "record_linkage": {
-        "blocking": True,
-        "matching": True,
-        "clustering": True
+        "blocking": False,
+        "matching": False,
+        "clustering": False
     },
 
-    "data_fusion": True
+    "data_fusion": False
 }
 
 
@@ -80,6 +81,15 @@ outputs = {
 
     "classic": {
 
+        "global_schema":
+            "schema_alignment/classic/global_schema.csv",
+
+        "merged":
+        "schema_alignment_csv/merged_movies.csv",
+
+        "canopy":
+        "record_linkage/canopy_blocks.csv",
+
         "matches":
             "record_linkage/classic/matches.csv",
 
@@ -95,6 +105,15 @@ outputs = {
 
 
     "llm": {
+
+        "alignment_stats":
+            "schema_alignment_csv/llm/schema_alignment_results_stat.json",
+
+        "global_schema":
+            "schema_alignment/llm/global_schema.csv",
+
+        "merged":
+        "schema_alignment_csv/merged_movies.csv",
 
         "matches":
             "record_linkage/llm/matches.csv",
@@ -112,103 +131,12 @@ outputs = {
 }
 
 INDEXES = ["a", "b", "c", "d"]
-
-# =====================================================
-# STEP I
-# SCHEMA ALIGNMENT
-# =====================================================
-
-if STEPS["schema_alignment"]:
-
-
-    dataset_names = [
-        "imdb_3",
-        "rotten_tomatoes",
-        "imdb_5",
-        "roger_ebert"
-    ]
-
-
-    dfs = [
-        utils.load_movies_csv(f)
-        for f in inputs
-    ]
-
-
-    columns_to_keep = schema_alignment(
-        dfs,
-        dataset_names,
-        COMMON["global_schema"],
-    )
-
-    for i in range(len(dfs)):
-
-        dfs[i] = dfs[i].drop(
-            columns=[
-                c for c in dfs[i].columns
-                if c not in columns_to_keep
-            ]
-        )
-
-
-        dfs[i] = normalizer(dfs[i], INDEXES[i])
-
-
-    merged_df = pd.concat(
-        dfs,
-        ignore_index=True
-    )
-
-
-    merged_df.to_csv(
-        COMMON["merged"],
-        index=False
-    )
-
-
-else:
-
-    merged_df = utils.load_movies_csv(
-        COMMON["merged"]
-    )
-
-
-    print(
-        "Loaded merged dataset:",
-        len(merged_df)
-    )
-
-
-# =====================================================
-# STEP II
-# BLOCKING (COMMON)
-# =====================================================
-
-if STEPS["record_linkage"]["blocking"]:
-
-
-    Path(
-        COMMON["canopy"]
-    ).parent.mkdir(
-        parents=True,
-        exist_ok=True
-    )
-
-
-    canopy_cluster(
-        merged_df,
-        COMMON["canopy"]
-    )
-
-
-canopy_df = utils.load_movies_csv(
-    COMMON["canopy"]
-)
+DATASETS_NAMES = ["imdb_3", "rotten_tomatoes", "imdb_5", "roger_ebert"]
 
 
 
 # =====================================================
-# PIPELINES
+# PIPELINES (CLASSIC + LLM)
 # =====================================================
 
 for pipeline in PIPELINES:
@@ -224,10 +152,87 @@ for pipeline in PIPELINES:
 
     for file in out.values():
 
-        Path(file).parent.mkdir(
+        Path(file).parent.mkdir(parents=True, exist_ok=True)
+
+    # =====================================================
+    # STEP I
+    # SCHEMA ALIGNMENT
+    # =====================================================
+
+    if STEPS["schema_alignment"]:
+
+        dfs = [utils.load_movies_csv(f) for f in inputs]
+
+        if pipeline == "llm":
+
+            global_schemas = prompt_aligning(dfs, DATASETS_NAMES, out["alignment_stats"])
+
+
+            gpt_item = next(item for item in global_schemas if item["model"] == "openai/gpt-oss-120b")
+            prediction = gpt_item["prediction"]
+
+            # split rows
+            rows = prediction.split("\n")
+            csv_rows = [row.split(",") for row in rows]
+
+            print(csv_rows)
+
+            with open(out["global_schema"], "w", newline="", encoding="utf-8") as f:
+                writer = csv.writer(f)
+                writer.writerows(csv_rows)
+
+            
+            columns_to_keep = cols_to_keep(csv_rows)
+
+        else:
+
+            columns_to_keep = schema_alignment(dfs, DATASETS_NAMES, out["global_schema"])
+
+
+
+        # normalization
+        for i in range(len(dfs)):
+            dfs[i] = dfs[i].drop(
+                columns=[c for c in dfs[i].columns if c not in columns_to_keep]
+            )
+
+        dfs[i] = normalizer(dfs[i], INDEXES[i])
+
+        merged_df = pd.concat(dfs, ignore_index=True)
+        merged_df.to_csv(out["merged"], index=False)
+
+
+    else:
+
+        merged_df = utils.load_movies_csv(out["merged"])
+        print("Loaded merged dataset:", len(merged_df))
+
+
+    # =====================================================
+    # STEP II
+    # BLOCKING (COMMON)
+    # =====================================================
+
+    if STEPS["record_linkage"]["blocking"]:
+
+
+        Path(
+            COMMON["canopy"]
+        ).parent.mkdir(
             parents=True,
             exist_ok=True
         )
+
+
+        canopy_cluster(
+            merged_df,
+            COMMON["canopy"]
+        )
+
+
+    canopy_df = utils.load_movies_csv(
+        COMMON["canopy"]
+    )
 
     # =================================================
     # MATCHING
