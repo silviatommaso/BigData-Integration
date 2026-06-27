@@ -9,33 +9,22 @@ BASE_DIR = Path(__file__).parent
 OUTPUT_DIR = BASE_DIR / "normalized_csv"
 OUTPUT_DIR.mkdir(exist_ok=True)
 
-COLUMN_MAPPING = {
-    "id": "ID",
-    "movie_name": "Title",
-    "title": "Title",
-    "name": "Title",
-    "year": "Year",
-    "release_year": "Year",
-    "director": "Director",
-    "directors": "Director",
-    "actors": "Cast",
-    "cast": "Cast",
-    "genre": "Genre",
-    "duration": "Duration"
-}
 
-FINAL_COLUMNS = ["ID", "Title", "Year", "Director", "Cast", "Genre", "Duration"]
+
 
 
 # =========================
 # CLEANING FUNCTIONS
 # =========================
 
-def clean_id(record_id):
+# id cleaning and reindexing
+def reindex_id(record_id):
     return re.sub(r'^[A-Za-z]+-?', '', str(record_id))
 
 
+# clean year
 def clean_year(x):
+
     if pd.isna(x):
         return None
 
@@ -54,6 +43,7 @@ def clean_year(x):
     return None
 
 
+# clean duration
 def clean_duration(x):
     if pd.isna(x):
         return None
@@ -82,6 +72,8 @@ def clean_duration(x):
     return hours * 60 + minutes
 
 
+
+
 def fix_mojibake(x):
     if not isinstance(x, str):
         return x
@@ -104,47 +96,44 @@ def lowercase_text(x):
     return x
 
 
+################################################################################################################################################################################################
+
+
+def final_columns(df, final_cols):
+    df = df.rename(columns = final_cols)
+
+
 # =========================
 # NORMALIZER
 # =========================
 
-def normalizer(df, letter):
+def normalizer(dfs, indexes):
 
-    # 1. fix encoding
-    df = df.map(fix_mojibake)
+    for i in range(len(dfs)):
 
-    # 2. normalize column names
-    df.columns = [col.strip().lower() for col in df.columns]
+        # fix encoding
+        dfs[i] = dfs[i].map(fix_mojibake)
 
-    # 3. rename schema
-    df = df.rename(columns=COLUMN_MAPPING)
 
-    # 4. reindex ID
-    if "ID" in df.columns:
-        df["ID"] = df["ID"].apply(clean_id).apply(lambda x: f"{letter}{x}")
+        # reindexing
+        dfs[i].columns = [col.strip().lower() for col in dfs[i].columns]
+        if "id" in dfs[i].columns:
+            dfs[i]["id"] = dfs[i]["id"].apply(reindex_id).apply(lambda x: f"{indexes[i]}{x}")
 
-    # 5. clean year safely
-    if "Year" in df.columns:
-        df["Year"] = df["Year"].apply(clean_year)
 
-    # 6. clean duration safely
-    if "Duration" in df.columns:
-        df["Duration"] = df["Duration"].apply(clean_duration)
+        # clean year
+        if "year" in dfs[i].columns:
+            dfs[i]["year"] = dfs[i]["year"].apply(clean_year)
+        # clean duration
+        if "duration" in dfs[i].columns:
+            dfs[i]["duration"] = dfs[i]["duration"].apply(clean_duration)
+        
+        # non numeric columns normalization
+        non_numeric_cols = dfs[i].select_dtypes(exclude=["int64", "float64"]).columns.tolist()
+        for col in non_numeric_cols:
+            if col in dfs[i].columns:
+                dfs[i][col] = dfs[i][col].apply(fix_separators).apply(lowercase_text)
+                dfs[i][col] = dfs[i][col].astype("string")
 
-    # 7. keep only final schema columns
-    df = df[[c for c in FINAL_COLUMNS if c in df.columns]]
 
-    # 8. text normalization
-    text_cols = ["Title", "Director", "Cast", "Genre"]
-    for col in text_cols:
-        if col in df.columns:
-            df[col] = df[col].apply(fix_separators).apply(lowercase_text)
-
-    # 9. SAFE TYPE ENFORCEMENT (NO ASTYPE CRASH)
-    for col in df.columns:
-        if col in ["Year", "Duration"]:
-            df[col] = pd.to_numeric(df[col], errors="coerce").astype("Int64")
-        else:
-            df[col] = df[col].astype("string")
-
-    return df
+    return dfs

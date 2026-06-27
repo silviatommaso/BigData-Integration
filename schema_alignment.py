@@ -1,5 +1,4 @@
 import pandas as pd
-import numpy as np
 import difflib
 
 def column_profile_extraction(column):
@@ -144,16 +143,16 @@ def extract_global_schema_clusters(global_results, dataset_names, threshold=0.9)
     Ensures that even unmatched attributes appear as singleton clusters.
     """
 
-    # 1. Collect all nodes
+    # Collect all nodes
     all_nodes = set()
     for (node_a, node_b) in global_results.keys():
         all_nodes.add(node_a)
         all_nodes.add(node_b)
 
-    # 2. Initialize each node as its own cluster (IMPORTANT FIX)
+    # Initialize each node as its own cluster (IMPORTANT FIX)
     clusters = [{node} for node in all_nodes]
 
-    # 3. Sort matches by confidence
+    # Sort matches by confidence
     sorted_matches = sorted(global_results.items(), key=lambda item: item[1], reverse=True)
 
     for (node_a, node_b), score in sorted_matches:
@@ -198,7 +197,12 @@ def extract_global_schema_clusters(global_results, dataset_names, threshold=0.9)
         else:
             clusters.append({node_a, node_b})
 
-    # 4. Build output table
+    # Build output table
+    clusters = sorted(
+        clusters,
+        key=lambda c: sorted(c)[0]  # prende il primo elemento in ordine alfabetico
+    )
+
     rows = []
     for cluster in clusters:
         row_dict = {name: None for name in dataset_names}
@@ -213,12 +217,12 @@ def extract_global_schema_clusters(global_results, dataset_names, threshold=0.9)
 #------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-def cols_to_keep(global_schema):
+def final_schema(dfs, global_schema):
 
     # find rows with null values in schema 
     rows_with_nulls = global_schema[global_schema.isnull().any(axis=1)]
 
-    # fin attributes involved in problematic rows
+    # find attributes involved in problematic rows
     bad_attributes = rows_with_nulls.apply(lambda row: row.dropna().tolist(),axis=1).explode().dropna().tolist()
     bad_attributes = set(bad_attributes)
 
@@ -228,26 +232,27 @@ def cols_to_keep(global_schema):
     # keep only good attributes 
     columns_to_keep = [c for c in all_attributes if c not in bad_attributes]
 
+    dfs = [df.loc[:, df.columns.intersection(columns_to_keep)] for df in dfs]
+    # datasets with final attributes
+    final_attributes = [c.capitalize() for c in dfs[0].columns]
+    dfs = [df.set_axis(final_attributes, axis=1) for df in dfs]
+
     
-    return columns_to_keep
+    return dfs
 
 
 
-def schema_alignment(data, data_names, output):
+def schema_alignment(dfs, data_names, output):
 
     # Compute raw matching scores matrix
-    raw_results = profile_comparison(data, data_names)
+    raw_results = profile_comparison(dfs, data_names)
 
     # Generate global schema alignment matrix
-    global_schema = extract_global_schema_clusters(
-        raw_results, data_names, threshold=0.75
-    )
-
+    global_schema = extract_global_schema_clusters(raw_results, data_names, threshold=0.75)
     # Save schema
     global_schema.to_csv(output, index=False)
 
     # keep only good attributes 
-    columns_to_keep = cols_to_keep(global_schema)
+    dfs = final_schema(dfs, global_schema)
 
-
-    return columns_to_keep
+    return dfs

@@ -5,8 +5,8 @@ import time
 import pandas as pd
 from pathlib import Path
 import json
-
-import utils
+import csv
+import json
 
 
 # -----------------------
@@ -37,7 +37,7 @@ LLMS = [
 # PROMPT CONSTRUCTION
 # -----------------------
 
-def build_messages(samples, dataset_names):
+def build_messages(samples, dataset_names, attributes):
 
     datasets_text = []
 
@@ -71,11 +71,13 @@ def build_messages(samples, dataset_names):
 
             In this data integration pipeline, you are a data engineer responsible for schema alignment: identifying which attributes (columns) in each dataset correspond to each other across the datasets.
 
-            Below are dataset names and sample excerpts from each dataset, extracted from CSV files. The first row represents the schema (column names).
+            Below are dataset names, the description of each dataset attribute, sample excerpts from each dataset, extracted from CSV files. The first row represents the schema (column names).
 
             Rules:
             - An attribute does not necessarily have a match in every dataset.
             - If an attribute has no corresponding attribute in another dataset, leave the corresponding cell empty.
+            - Use the provided attribute definitions when available.
+            - Do not rely solely on attribute names: attributes with similar names may represent different concepts in different datasets.
             - Each row of the output represents a single semantic attribute shared across datasets.
             - Columns of the output CSV correspond exactly to the datasets in the order they are provided.
             - An attribute may appear at most once in each output column.
@@ -93,10 +95,11 @@ def build_messages(samples, dataset_names):
         {
             "role": "user",
             "content": f"""
-                        Datasets:
-
-                        {datasets_text}
-                        """
+            Attribute's descriptions per dataset:
+            {json.dumps(attributes, indent=2)}
+            Datasets:
+            {datasets_text}
+            """
         }
     ]
 
@@ -111,7 +114,7 @@ def call_llm(messages, model_name):
     response = client.chat.completions.create(
         model=model_name,
         messages=messages,
-        temperature=0
+        temperature=0.5
     )
 
     usage = getattr(response, "usage", None)
@@ -236,27 +239,44 @@ def get_sample(df, n=5, min_differences=5, seed=None):
 # MAIN FUNCTION
 # -----------------------
 
-def prompt_aligning(dfs, dataset_names, output):
+def prompt_aligning(dfs, dataset_names, stats_path, global_schema_path, attributes_path):
 
+    # get random samples
     samples = []
-
     for df in dfs:
-        samples.append(
-            get_sample(df)
-        )
+        samples.append(get_sample(df))
 
-    messages = build_messages(
-        samples,
-        dataset_names
-    )
+    # get attribute descriptions
+    if attributes_path:
+        with open(attributes_path, "r", encoding="utf-8") as f:
+            attributes = json.load(f)
+    else:
+        attributes = None
+
+
+
+    # build messages
+    messages = build_messages(samples, dataset_names, attributes)
+
+
 
     results = result_definer(messages)
-
-    with open(output, "w", encoding="utf-8") as f:
+    # save llms global schemas
+    with open(stats_path, "w", encoding="utf-8") as f:
         json.dump(results, f, indent=4, ensure_ascii=False)
 
     
-    return results
+
+    # gpt global schema extraction
+    gpt_item = next(item for item in results if item["model"] == "openai/gpt-oss-120b")
+    prediction = gpt_item["prediction"]
+
+    # save gpt prediction
+    rows = prediction.split("\n")
+    csv_rows = [row.split(",") for row in rows]
+    with open(global_schema_path, "w", newline="", encoding="utf-8") as f:
+        writer = csv.writer(f)
+        writer.writerows(csv_rows)
 
 
 

@@ -1,0 +1,70 @@
+{
+  "attributes": [
+    {
+      "dataset": {
+        "name": "imdb_3",
+        "attributes_description": {
+          "id": "unique film identifier",
+          "title": "film's title",
+          "year": "film's release year",
+          "rating": "average IMDb user rating",
+          "director": "film's directors",
+          "creator": "film's creator",
+          "cast": "film's cast",
+          "genre": "film's genres",
+          "duration": "film's runtime",
+          "contentRating": "Motion picture content rating"
+        }
+      }
+    },
+    {
+      "dataset": {
+        "name": "rotten_tomatoes",
+        "attributes_description": {
+          "id": "unique film identifier",
+          "title": "film's title",
+          "year": "film's release year",
+          "rating": "average rotten tomatoes user rating",
+          "director": "film's directors",
+          "creator": "film's creator",
+          "cast": "film's cast",
+          "genre": "film's genres",
+          "duration": "film's runtime",
+          "contentRating": "Motion picture content rating",
+          "summary": "film's plot"
+        }
+      }
+    },
+    {
+      "dataset": {
+        "name": "imdb_5",
+        "attributes_description": {
+          "id": "unique film identifier",
+          "movie_name": "film's title",
+          "year": "film's release year",
+          "directors": "film's directors",
+          "actors": "film's cast",
+          "movie_rating": "average IMDb user rating",
+          "genre": "film's genres",
+          "duration": "film's runtime"
+        }
+      }
+    },
+    {
+      "dataset": {
+        "name": "roger_ebert",
+        "attributes_description": {
+          "id": "unique film identifier",
+          "movie_name": "film's title",
+          "year": "film's release year",
+          "directors": "film's directors",
+          "actors": "film's cast",
+          "critic_rating": "reviewer's rating of the film",
+          "genre": "film's genres",
+          "pg_rating": "Motion picture content rating",
+          "duration": "film's runtime"
+        }
+      }
+    }
+  ]
+}
