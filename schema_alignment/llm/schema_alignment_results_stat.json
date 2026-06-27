@@ -1,0 +1,32 @@
+[
+    {
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "prediction": "imdb_3,rotten_tomatoes,imdb_5,roger_ebert\nID,ID,id,id\nTitle,Title,movie_name,movie_name\nYear,Year,year,year\nRating,Rating,movie_rating,critic_rating\nDirector,Director,directors,directors\nCreators,Creators,, \nCast,Cast,actors,actors\nGenre,Genre,genre,genre\nDuration,Duration,duration,duration\nContentRating,ContentRating, ,pg_rating",
+        "latency": 0.9541928768157959,
+        "tokens": {
+            "prompt_tokens": 2164,
+            "completion_tokens": 105,
+            "total_tokens": 2269
+        }
+    },
+    {
+        "model": "openai/gpt-oss-120b",
+        "prediction": "imdb_3,rotten_tomatoes,imdb_5,roger_ebert\nID,ID,id,id\nTitle,Title,movie_name,movie_name\nYear,Year,year,year\nRating,Rating,movie_rating,critic_rating\nDirector,Director,directors,directors\nCreators,Creators,,\nCast,Cast,actors,actors\nGenre,Genre,genre,genre\nDuration,Duration,duration,duration\nContentRating,ContentRating,,pg_rating\n,Summary,,",
+        "latency": 2.6711440086364746,
+        "tokens": {
+            "prompt_tokens": 2191,
+            "completion_tokens": 1030,
+            "total_tokens": 3221
+        }
+    },
+    {
+        "model": "groq/compound-mini",
+        "prediction": "imdb_3,rotten_tomatoes,imdb_5,roger_ebert\nID,ID,id,id\nTitle,Title,movie_name,movie_name\nYear,Year,year,year\nRating,Rating,movie_rating,critic_rating\nDirector,Director,directors,directors\nCreators,Creators,,\nCast,Cast,actors,actors\nGenre,Genre,genre,genre\nDuration,Duration,duration,duration\nContentRating,ContentRating,,pg_rating\n,Summary,,",
+        "latency": 5.538370132446289,
+        "tokens": {
+            "prompt_tokens": 4710,
+            "completion_tokens": 1683,
+            "total_tokens": 6393
+        }
+    }
+]

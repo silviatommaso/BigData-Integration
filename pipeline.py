@@ -17,7 +17,7 @@ import pandas as pd
 # CONFIGURATION
 # =====================================================
 
-PIPELINE_MODE = "llm"
+PIPELINE_MODE = "both"
 
 
 if PIPELINE_MODE == "both":
@@ -61,12 +61,6 @@ normalized = [
 
 COMMON = {
 
-    "global_schema":
-        "schema_alignment_csv/global_schema.csv",
-
-    "merged":
-        "schema_alignment_csv/merged_movies.csv",
-
     "canopy":
         "record_linkage/canopy_blocks.csv"
 
@@ -85,10 +79,7 @@ outputs = {
             "schema_alignment/classic/global_schema.csv",
 
         "merged":
-        "schema_alignment_csv/merged_movies.csv",
-
-        "canopy":
-        "record_linkage/canopy_blocks.csv",
+        "schema_alignment/classic/merged_movies.csv",
 
         "matches":
             "record_linkage/classic/matches.csv",
@@ -107,13 +98,13 @@ outputs = {
     "llm": {
 
         "alignment_stats":
-            "schema_alignment_csv/llm/schema_alignment_results_stat.json",
+            "schema_alignment/llm/schema_alignment_results_stat.json",
 
         "global_schema":
             "schema_alignment/llm/global_schema.csv",
 
         "merged":
-        "schema_alignment_csv/merged_movies.csv",
+        "schema_alignment/llm/merged_movies.csv",
 
         "matches":
             "record_linkage/llm/matches.csv",
@@ -167,7 +158,6 @@ for pipeline in PIPELINES:
 
             global_schemas = prompt_aligning(dfs, DATASETS_NAMES, out["alignment_stats"])
 
-
             gpt_item = next(item for item in global_schemas if item["model"] == "openai/gpt-oss-120b")
             prediction = gpt_item["prediction"]
 
@@ -175,14 +165,12 @@ for pipeline in PIPELINES:
             rows = prediction.split("\n")
             csv_rows = [row.split(",") for row in rows]
 
-            print(csv_rows)
-
             with open(out["global_schema"], "w", newline="", encoding="utf-8") as f:
                 writer = csv.writer(f)
                 writer.writerows(csv_rows)
 
             
-            columns_to_keep = cols_to_keep(csv_rows)
+            columns_to_keep = cols_to_keep(utils.load_movies_csv(out["global_schema"]))
 
         else:
 
@@ -196,7 +184,8 @@ for pipeline in PIPELINES:
                 columns=[c for c in dfs[i].columns if c not in columns_to_keep]
             )
 
-        dfs[i] = normalizer(dfs[i], INDEXES[i])
+            dfs[i] = normalizer(dfs[i], INDEXES[i])
+
 
         merged_df = pd.concat(dfs, ignore_index=True)
         merged_df.to_csv(out["merged"], index=False)
@@ -216,23 +205,12 @@ for pipeline in PIPELINES:
     if STEPS["record_linkage"]["blocking"]:
 
 
-        Path(
-            COMMON["canopy"]
-        ).parent.mkdir(
-            parents=True,
-            exist_ok=True
-        )
+        Path(COMMON["canopy"]).parent.mkdir(parents=True, exist_ok=True)
+
+        canopy_cluster(merged_df, COMMON["canopy"])
 
 
-        canopy_cluster(
-            merged_df,
-            COMMON["canopy"]
-        )
-
-
-    canopy_df = utils.load_movies_csv(
-        COMMON["canopy"]
-    )
+    canopy_df = utils.load_movies_csv(COMMON["canopy"])
 
     # =================================================
     # MATCHING

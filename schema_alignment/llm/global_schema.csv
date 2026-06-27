@@ -9,4 +9,4 @@ Cast,Cast,actors,actors
 Genre,Genre,genre,genre
 Duration,Duration,duration,duration
 ContentRating,ContentRating,,pg_rating
-Summary,Summary,,
+,Summary,,
