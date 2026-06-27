@@ -144,10 +144,14 @@ def match_records(canopy_df, matched_path, singletons_path, threshold=0.8, save 
 
     matches = matches.drop_duplicates(
         subset=["id1", "id2"]
+    ).sort_values(
+        by="score",
+        ascending=False
     ).reset_index(drop=True)
 
     print("Duplicate matches removed:", before - len(matches))
-
+    
+    matches["score"] = matches["score"].round(3)
     # singletons 
     singletons = get_unmatched_records(matches, canopy_df)
 
