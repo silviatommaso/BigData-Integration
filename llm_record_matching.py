@@ -522,6 +522,7 @@ def llm_record_matching(
 
     final_matches = pd.read_csv(matches_output)
 
+
     total_llm_matches = len(
         final_matches[
             final_matches["method"] == "LLM"
@@ -534,6 +535,15 @@ def llm_record_matching(
         ]
     )
 
+    final_matches = final_matches.sort_values(
+        by="score",
+        ascending=False
+    ).reset_index(drop=True)
+
+    final_matches.to_csv(
+        matches_output,
+        index=False
+    )
 
     print("\nCache hits:", len(cached_results))
     print("New LLM calls:", calls)
@@ -549,4 +559,4 @@ def llm_record_matching(
         total_llm_matches
     )
 
-    return pd.read_csv(matches_output)
+    return final_matches
