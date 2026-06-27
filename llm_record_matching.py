@@ -18,21 +18,15 @@ def generate_request_id(id1,id2,score):
         key.encode()
     ).hexdigest()[:16]
 
-def call_llm(prompt,
-             client,
-             model="llama-3.3-70b-versatile"):
-
+def call_llm(prompt, client, model="llama-3.3-70b-versatile"):
     response = client.chat.completions.create(
-
         model=model,
-
         messages=[
             {
                 "role":"user",
                 "content":prompt
             }
         ],
-
         temperature=0
     )
 
@@ -196,7 +190,6 @@ def append_csv(row,file):
 
 
 def llm_record_matching(
-    merged_df,
     canopy_df,
     matches_output,
     llm_requests_output,
@@ -208,7 +201,6 @@ def llm_record_matching(
 
 
     candidate_matches=match_records(
-        merged_df,
         canopy_df,
         None,
         None,
@@ -438,8 +430,8 @@ def llm_record_matching(
 
     for row, request_id in pending_llm:
 
-        r1 = merged_df[merged_df["ID"] == row["id1"]]
-        r2 = merged_df[merged_df["ID"] == row["id2"]]
+        r1 = canopy_df[canopy_df["ID"] == row["id1"]]
+        r2 = canopy_df[canopy_df["ID"] == row["id2"]]
 
         if r1.empty or r2.empty:
             print(f"Warning: ID {row['id1']} or {row['id2']} not found, skipping")
@@ -529,6 +521,7 @@ def llm_record_matching(
 
     final_matches = pd.read_csv(matches_output)
 
+
     total_llm_matches = len(
         final_matches[
             final_matches["method"] == "LLM"
@@ -541,6 +534,15 @@ def llm_record_matching(
         ]
     )
 
+    final_matches = final_matches.sort_values(
+        by="score",
+        ascending=False
+    ).reset_index(drop=True)
+
+    final_matches.to_csv(
+        matches_output,
+        index=False
+    )
 
     print("\nCache hits:", len(cached_results))
     print("New LLM calls:", calls)
@@ -556,4 +558,4 @@ def llm_record_matching(
         total_llm_matches
     )
 
-    return pd.read_csv(matches_output)
+    return final_matches

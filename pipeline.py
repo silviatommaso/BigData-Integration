@@ -27,11 +27,11 @@ else:
 
 
 STEPS = {
-    "schema_alignment": True,
+    "schema_alignment": False,
 
     "record_linkage": {
         "blocking": False,
-        "matching": False,
+        "matching": True,
         "clustering": False
     },
 
@@ -65,7 +65,7 @@ COMMON = {
 
 
 # =====================================================
-# PIPELINE files
+# PIPELINE FILES
 # =====================================================
 
 files = {

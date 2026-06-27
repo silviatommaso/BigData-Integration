@@ -1,12 +1,10 @@
 import pandas as pd
 from itertools import combinations
 from rapidfuzz.fuzz import ratio
-import csv
-
-
 
 def get_unmatched_records(matches,df):
-
+    if matches.empty:
+        return df
     matched_ids=set(matches["id1"]) | set(matches["id2"])
 
     return df[
@@ -32,14 +30,14 @@ def generate_candidate_pairs(canopies):
 def string_similarity(a,b):
     if pd.isna(a) or pd.isna(b):
         return 0
-    return ratio(str(a).lower(),str(b).lower())/100
+    return round(ratio(str(a).lower(),str(b).lower())/100, 3)
 
 
 def year_similarity(a,b):
     if pd.isna(a) or pd.isna(b):
         return 0
 
-    diff=abs(int(a)-int(b))
+    diff = abs(int(float(a)) - int(float(b)))
 
     if diff==0:
         return 1
@@ -60,7 +58,7 @@ def cast_similarity(a,b):
     if len(cast_a|cast_b)==0:
         return 0
 
-    return len(cast_a&cast_b)/len(cast_a|cast_b)
+    return round(len(cast_a&cast_b)/len(cast_a|cast_b), 3)
 
 
 def record_similarity(r1,r2):
@@ -82,11 +80,11 @@ def record_similarity(r1,r2):
 ########################################################################################################################################################################################################################
 
 
-def match_records(merged_df, canopy_df, matched_path, singletons_path, threshold=0.8, save = True):
+def match_records(canopy_df, matched_path, singletons_path, threshold=0.75, save = True):
+    assert canopy_df["ID"].notna().all(), "canopy_df contains rows with missing ID"
 
     # generation of a dictionary {cluster_id : record_id} from canopy_cluster's blocks
     canopies = {}
-
     for cluster_id, group in canopy_df.groupby("Cluster_ID"):
         canopies[cluster_id] = list(group["ID"])
 
@@ -95,11 +93,18 @@ def match_records(merged_df, canopy_df, matched_path, singletons_path, threshold
     print("Candidate pairs:", len(candidate_pairs))
 
 
+    dupes = canopy_df[canopy_df["ID"].duplicated()]
+    print("Duplicate IDs:", len(dupes))
+
+    records = (
+        canopy_df
+        .drop_duplicates(subset="ID")
+        .set_index("ID")
+        .to_dict("index")
+    )
+
     # record matching generation
     matches=[]
-
-    records = merged_df.set_index("ID").to_dict("index")
-
 
     for a,b in candidate_pairs:
 
@@ -110,43 +115,51 @@ def match_records(merged_df, canopy_df, matched_path, singletons_path, threshold
 
         if score>=threshold:
 
-            id1, id2 = sorted([a,b])
-
-            matches.append({
-
-                "id1":id1,
-                "id2":id2,
+            matches.append({    
+                "id1":a,
+                "id2":b,
                 "score":score,
                 "title_similarity":title,
                 "director_similarity":director,
                 "year_similarity":year,
                 "cast_similarity":cast
-
             })
 
 
     # matches with score
-    matches = pd.DataFrame(matches)
+    if matches:
+        matches = pd.DataFrame(matches)
+    else:
+        matches = pd.DataFrame(columns=[
+            "id1", "id2", "score",
+            "title_similarity",
+            "director_similarity",
+            "year_similarity",
+            "cast_similarity"
+        ])
+
     print("Total matches found:", len(matches))
 
     before = len(matches)
 
     matches = matches.drop_duplicates(
         subset=["id1", "id2"]
+    ).sort_values(
+        by="score",
+        ascending=False
     ).reset_index(drop=True)
 
-    print(
-        "Duplicate matches removed:",
-        before - len(matches)
-    )
+    print("Duplicate matches removed:", before - len(matches))
 
+    matches["score"] = matches["score"].round(3)
     # singletons 
-    singletons = get_unmatched_records(matches, merged_df)
+    singletons = get_unmatched_records(matches, canopy_df)
 
     if save:
         matches.to_csv(matched_path, index=False)
         pd.DataFrame(singletons).to_csv(singletons_path, index=False)
-
-    print("Record senza match:", len(singletons))
+    else:
+        print("Run without saving")
+    print("Records with no match:", len(singletons))
 
     return matches
