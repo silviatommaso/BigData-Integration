@@ -17,7 +17,7 @@ import pandas as pd
 # CONFIGURATION
 # =====================================================
 
-PIPELINE_MODE = "both"
+PIPELINE_MODE = "llm"
 
 
 if PIPELINE_MODE == "both":
@@ -27,11 +27,11 @@ else:
 
 
 STEPS = {
-    "schema_alignment": True,
+    "schema_alignment": False,
 
     "record_linkage": {
         "blocking": False,
-        "matching": False,
+        "matching": True,
         "clustering": False
     },
 
@@ -223,7 +223,6 @@ for pipeline in PIPELINES:
 
 
             matches = match_records(
-                merged_df,
                 canopy_df,
                 out["matches"],
                 out["singletons"],
