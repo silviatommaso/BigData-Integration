@@ -1,6 +1,7 @@
 import pandas as pd
 import difflib
 
+
 def column_profile_extraction(column):
     """
     Extracts structural and mathematical footprints from ANY column,

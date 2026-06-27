@@ -2,15 +2,6 @@ import pandas as pd
 from pathlib import Path
 import re
 
-# =========================
-# CONFIG
-# =========================
-BASE_DIR = Path(__file__).parent
-OUTPUT_DIR = BASE_DIR / "normalized_csv"
-OUTPUT_DIR.mkdir(exist_ok=True)
-
-
-
 
 
 # =========================

@@ -3,7 +3,6 @@ from dotenv import load_dotenv
 import os
 import time
 import pandas as pd
-from pathlib import Path
 import json
 import csv
 import json
