@@ -190,7 +190,6 @@ def append_csv(row,file):
 
 
 def llm_record_matching(
-    merged_df,
     canopy_df,
     matches_output,
     llm_requests_output,
@@ -431,8 +430,8 @@ def llm_record_matching(
 
     for row, request_id in pending_llm:
 
-        r1 = merged_df[merged_df["ID"] == row["id1"]]
-        r2 = merged_df[merged_df["ID"] == row["id2"]]
+        r1 = canopy_df[canopy_df["ID"] == row["id1"]]
+        r2 = canopy_df[canopy_df["ID"] == row["id2"]]
 
         if r1.empty or r2.empty:
             print(f"Warning: ID {row['id1']} or {row['id2']} not found, skipping")

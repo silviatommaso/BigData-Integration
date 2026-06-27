@@ -234,7 +234,6 @@ for pipeline in PIPELINES:
 
 
             matches = llm_record_matching(
-                merged_df,
                 canopy_df,
                 out["matches"],
                 out["requests"],
