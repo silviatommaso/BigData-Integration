@@ -30,7 +30,7 @@ def generate_candidate_pairs(canopies):
 def string_similarity(a,b):
     if pd.isna(a) or pd.isna(b):
         return 0
-    return ratio(str(a).lower(),str(b).lower())/100
+    return round(ratio(str(a).lower(),str(b).lower())/100, 3)
 
 
 def year_similarity(a,b):
@@ -58,7 +58,7 @@ def cast_similarity(a,b):
     if len(cast_a|cast_b)==0:
         return 0
 
-    return len(cast_a&cast_b)/len(cast_a|cast_b)
+    return round(len(cast_a&cast_b)/len(cast_a|cast_b), 3)
 
 
 def record_similarity(r1,r2):
@@ -150,7 +150,7 @@ def match_records(canopy_df, matched_path, singletons_path, threshold=0.8, save 
     ).reset_index(drop=True)
 
     print("Duplicate matches removed:", before - len(matches))
-    
+
     matches["score"] = matches["score"].round(3)
     # singletons 
     singletons = get_unmatched_records(matches, canopy_df)
