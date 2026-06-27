@@ -80,7 +80,7 @@ def record_similarity(r1,r2):
 ########################################################################################################################################################################################################################
 
 
-def match_records(canopy_df, matched_path, singletons_path, threshold=0.8, save = True):
+def match_records(canopy_df, matched_path, singletons_path, threshold=0.75, save = True):
     assert canopy_df["ID"].notna().all(), "canopy_df contains rows with missing ID"
 
     # generation of a dictionary {cluster_id : record_id} from canopy_cluster's blocks
