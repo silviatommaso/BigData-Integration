@@ -1,9 +1,12 @@
 import pandas as pd
 import os
 
-def load_valid_ids(csv_file):
-    df = pd.read_csv(csv_file)
-    return set(df["ID"].astype(str).str.extract(r"(\d+)", expand=False).dropna())
+def load_valid_ids(merged_file, prefix):
+    
+    df = pd.read_csv(merged_file)
+    ids = df["ID"].astype(str)
+
+    return set(ids[ids.str.startswith(prefix)].str.extract(r"(\d+)", expand=False).dropna())
 
 def normalize_pair(id1, id2, left_prefix, right_prefix):
     id1 = str(id1)
@@ -23,14 +26,17 @@ def normalize_pair(id1, id2, left_prefix, right_prefix):
 
     return None
 
-def evaluate(matches_file, ground_truth_file, left_prefix, right_prefix, left_dataset_file, right_dataset_file, name):
+def evaluate(matches_file, ground_truth_file, left_prefix, right_prefix, mode, name):
     matches = pd.read_csv(matches_file)
     truth = pd.read_csv(ground_truth_file, comment="#")
 
     truth.columns = truth.columns.str.strip().str.lower()
+    
+    merged_file = f"schema_alignment\{mode}\merged_movies.csv"
 
-    valid_left_ids = load_valid_ids(left_dataset_file)
-    valid_right_ids = load_valid_ids(right_dataset_file)
+    valid_left_ids = load_valid_ids(merged_file, left_prefix)
+
+    valid_right_ids = load_valid_ids(merged_file, right_prefix)
 
     normalized_matches = []
 
@@ -114,7 +120,13 @@ def evaluate(matches_file, ground_truth_file, left_prefix, right_prefix, left_da
     print("matches.csv info")
     print(f"Matches after filtering ({left_prefix}-{right_prefix} candidates):", len(predicted_pairs))
     print("Duplicate pairs found:", duplicate_count)
-    print("Predicted matches between", os.path.basename(left_dataset_file), "and", os.path.basename(right_dataset_file) + ":", len(predicted_pairs))
+    print(
+        "Predicted matches between",
+        left_prefix,
+        "and",
+        right_prefix + ":",
+        len(predicted_pairs)
+    )
 
     print()
     print("Results")
@@ -135,8 +147,7 @@ evaluate(
     "ground_truth/movies_3_labeled_data.csv",
     "a",
     "b",
-    r"normalized_csv\movies3_cleaned_imdb_cleaned.csv",
-    r"normalized_csv\movies3_cleaned_rotten_tomatoes_cleaned.csv",
+    "classic",
     "Movies 3"
 )
 
@@ -145,8 +156,7 @@ evaluate(
     "ground_truth/movies_5_labeled_data.csv",
     "d",
     "c",
-    r"normalized_csv\movies5_cleaned_roger_ebert_cleaned.csv",
-    r"normalized_csv\movies5_cleaned_imdb_cleaned.csv",
+    "classic",
     "Movies 5"
 )
 
@@ -158,8 +168,7 @@ evaluate(
     "ground_truth/movies_3_labeled_data.csv",
     "a",
     "b",
-    r"normalized_csv\movies3_cleaned_imdb_cleaned.csv",
-    r"normalized_csv\movies3_cleaned_rotten_tomatoes_cleaned.csv",
+    "llm",
     "Movies 3"
 )
 
@@ -168,7 +177,6 @@ evaluate(
     "ground_truth/movies_5_labeled_data.csv",
     "d",
     "c",
-    r"normalized_csv\movies5_cleaned_roger_ebert_cleaned.csv",
-    r"normalized_csv\movies5_cleaned_imdb_cleaned.csv",
+    "llm",
     "Movies 5"
 )
