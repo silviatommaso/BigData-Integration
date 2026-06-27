@@ -18,21 +18,15 @@ def generate_request_id(id1,id2,score):
         key.encode()
     ).hexdigest()[:16]
 
-def call_llm(prompt,
-             client,
-             model="llama-3.3-70b-versatile"):
-
+def call_llm(prompt, client, model="llama-3.3-70b-versatile"):
     response = client.chat.completions.create(
-
         model=model,
-
         messages=[
             {
                 "role":"user",
                 "content":prompt
             }
         ],
-
         temperature=0
     )
 
@@ -208,7 +202,6 @@ def llm_record_matching(
 
 
     candidate_matches=match_records(
-        merged_df,
         canopy_df,
         None,
         None,
