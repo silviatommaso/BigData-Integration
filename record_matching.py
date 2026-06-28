@@ -2,14 +2,6 @@ import pandas as pd
 from itertools import combinations
 from rapidfuzz.fuzz import ratio
 
-def get_unmatched_records(matches,df):
-    if matches.empty:
-        return df
-    matched_ids=set(matches["id1"]) | set(matches["id2"])
-
-    return df[
-        ~df["ID"].isin(matched_ids)
-    ]
 
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -80,7 +72,7 @@ def record_similarity(r1,r2):
 ########################################################################################################################################################################################################################
 
 
-def match_records(canopy_df, matched_path, singletons_path, threshold=0.75, save = True):
+def match_records(canopy_df, matched_path, threshold=0.75, save = True):
     assert canopy_df["ID"].notna().all(), "canopy_df contains rows with missing ID"
 
     # generation of a dictionary {cluster_id : record_id} from canopy_cluster's blocks
@@ -152,14 +144,10 @@ def match_records(canopy_df, matched_path, singletons_path, threshold=0.75, save
     print("Duplicate matches removed:", before - len(matches))
 
     matches["score"] = matches["score"].round(3)
-    # singletons 
-    singletons = get_unmatched_records(matches, canopy_df)
 
     if save:
         matches.to_csv(matched_path, index=False)
-        pd.DataFrame(singletons).to_csv(singletons_path, index=False)
     else:
         print("Run without saving")
-    print("Records with no match:", len(singletons))
-
+    
     return matches
