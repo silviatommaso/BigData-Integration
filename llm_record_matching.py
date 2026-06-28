@@ -203,7 +203,6 @@ def llm_record_matching(
     candidate_matches=match_records(
         canopy_df,
         None,
-        None,
         threshold=llm_threshold,
         save=False
     )
