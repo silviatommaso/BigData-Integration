@@ -17,7 +17,7 @@ import pandas as pd
 # CONFIGURATION
 # =====================================================
 
-PIPELINE_MODE = "llm"
+PIPELINE_MODE = "classic"
 
 
 if PIPELINE_MODE == "both":
@@ -27,12 +27,12 @@ else:
 
 
 STEPS = {
-    "schema_alignment": True,
+    "schema_alignment": False,
 
     "record_linkage": {
         "blocking": False,
-        "matching": False,
-        "clustering": False
+        "matching": True,
+        "clustering": True
     },
 
     "data_fusion": False
@@ -206,12 +206,23 @@ for pipeline in PIPELINES:
 
     if STEPS["record_linkage"]["matching"]:
 
-
         if pipeline == "classic":
-            matches = match_records(merged_df, canopy_df, pipeline_files["matches"], pipeline_files["singletons"], threshold=0.75)
+
+            matches = match_records(
+                canopy_df,
+                pipeline_files["matches"],
+                threshold=0.75
+            )
+
         else:
-            matches = llm_record_matching(merged_df, canopy_df, pipeline_files["matches"], pipeline_files["requests"], llm_threshold=0.65, auto_threshold=0.75,)
-    
+
+            matches = llm_record_matching(
+                canopy_df,
+                pipeline_files["matches"],
+                pipeline_files["requests"],
+                llm_threshold=0.65,
+                auto_threshold=0.75,
+            )
     else:
 
         matches = utils.load_movies_csv(pipeline_files["matches"])
@@ -230,7 +241,7 @@ for pipeline in PIPELINES:
         print("START CLUSTERING")
 
 
-        clusters = build_clusters(matches, merged_df, pipeline_files["clusters"])
+        clusters = build_clusters(matches, merged_df, pipeline_files["clusters"], pipeline_files["singletons"])
 
 ################################################################################################################################################################################################################################################################################
 
