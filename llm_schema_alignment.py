@@ -113,7 +113,7 @@ def call_llm(messages, model_name):
     response = client.chat.completions.create(
         model=model_name,
         messages=messages,
-        temperature=0.5
+        temperature=0.2
     )
 
     usage = getattr(response, "usage", None)

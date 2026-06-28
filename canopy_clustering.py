@@ -31,7 +31,7 @@ def build_tfidf_matrices(df):
     titles = df["clean_title"].tolist()
     directors = df["clean_director"].tolist()
 
-    # Character n-grams are used to better handle spelling variations
+    # Character n-grams are used to better handle spelling variations and dataset sparisity
     vectorizer_title = TfidfVectorizer(
         analyzer="char_wb",
         ngram_range=(2, 3),

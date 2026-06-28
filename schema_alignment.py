@@ -247,7 +247,7 @@ def schema_alignment(dfs, data_names, output):
 
     # Compute raw matching scores matrix
     raw_results = profile_comparison(dfs, data_names)
-
+    
     # Generate global schema alignment matrix
     global_schema = extract_global_schema_clusters(raw_results, data_names, threshold=0.75)
     # Save schema

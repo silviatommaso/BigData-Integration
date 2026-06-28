@@ -17,7 +17,7 @@ import pandas as pd
 # CONFIGURATION
 # =====================================================
 
-PIPELINE_MODE = "classic"
+PIPELINE_MODE = "llm"
 
 
 if PIPELINE_MODE == "both":
@@ -27,11 +27,11 @@ else:
 
 
 STEPS = {
-    "schema_alignment": False,
+    "schema_alignment": True,
 
     "record_linkage": {
         "blocking": False,
-        "matching": True,
+        "matching": False,
         "clustering": False
     },
 
@@ -161,7 +161,7 @@ for pipeline in PIPELINES:
             dfs = final_schema(dfs, utils.load_movies_csv(pipeline_files["global_schema"]))
 
         else:
-
+            print([df.columns for df in dfs])
             # list of columns to keep from each dataset
             dfs = schema_alignment(dfs, DATASETS_NAMES, pipeline_files["global_schema"])
 
