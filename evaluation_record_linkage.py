@@ -4,7 +4,7 @@ import os
 def load_valid_ids(merged_file, prefix):
     
     df = pd.read_csv(merged_file)
-    ids = df["ID"].astype(str)
+    ids = df["Id"].astype(str)
 
     return set(ids[ids.str.startswith(prefix)].str.extract(r"(\d+)", expand=False).dropna())
 
