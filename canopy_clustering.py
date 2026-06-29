@@ -145,11 +145,28 @@ def canopy_cluster(merged_df, cluster_path):
 
         # Save current cluster to file
         with open(cluster_path, "a", newline="", encoding="utf-8") as f:
+
             writer = csv.writer(f)
 
             for fid in blocco_indices:
+
                 row = df.iloc[fid]
-                writer.writerow([cluster_id] + [row.get(col) for col in df.columns])
+
+                output_row = []
+
+                for col in merged_df.columns:
+
+                    clean_col = f"{col}_clean"
+
+                    if clean_col in df.columns:
+                        output_row.append(row[clean_col])
+                    else:
+                        output_row.append(row[col])
+
+
+                writer.writerow(
+                    [cluster_id] + output_row
+                )
 
 
         print(
