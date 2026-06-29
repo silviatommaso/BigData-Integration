@@ -31,7 +31,7 @@ STEPS = {
 
     "record_linkage": {
         "blocking": False,
-        "matching": False,
+        "matching": True,
         "clustering": True
     },
 
@@ -48,7 +48,6 @@ inputs = [
     INPUT_DIR / "movies5_cleaned" / "imdb_cleaned.csv",
     INPUT_DIR / "movies5_cleaned" / "roger_ebert_cleaned.csv"
 ]
-
 
 
 
@@ -97,26 +96,46 @@ files = {
 
 }
 
-INDEXES = ["a", "b", "c", "d"]
-DATASETS_NAMES = ["imdb_3", "rotten_tomatoes", "imdb_5", "roger_ebert"]
+SOURCES = {
+    "a": {
+        "name": "imdb_3",
+        "weight": 1.0
+    },
+    "b": {
+        "name": "rotten_tomatoes",
+        "weight": 0.4
+    },
+    "c": {
+        "name": "imdb_5",
+        "weight": 1.0
+    },
+    "d": {
+        "name": "roger_ebert",
+        "weight": 0.2
+    }
+}
 
 
 attributes = {
     "Title": {
         "weight": 0.50,
-        "similarity": "text"
+        "similarity": "text",
+        "type": "atomic"
     },
     "Director": {
         "weight": 0.15,
-        "similarity": "text"
+        "similarity": "hybrid",
+        "type": "multi"
     },
     "Year": {
         "weight": 0.25,
-        "similarity": "year"
+        "similarity": "year",
+        "type": "atomic"
     },
     "Cast": {
         "weight": 0.10,
-        "similarity": "jaccard"
+        "similarity": "jaccard",
+        "type": "multi"
     }
 }
 
@@ -155,22 +174,24 @@ for pipeline in PIPELINES:
 ################################################################################################################################################################################################################################################################################
 
     if STEPS["schema_alignment"]:
+        datasets = [s["name"] for s in SOURCES.values()]
+        indexes = list(SOURCES.keys())
 
         dfs = [utils.load_movies_csv(f) for f in inputs]
-        dfs = normalizer(dfs, INDEXES)
+        dfs = normalizer(dfs, indexes)
 
 
         if pipeline == "llm":
 
             # LLM global schema extraction
-            prompt_aligning(dfs, DATASETS_NAMES, pipeline_files["alignment_stats"], pipeline_files["global_schema"], pipeline_files["attribute_descriptions"])
+            prompt_aligning(dfs, datasets, pipeline_files["alignment_stats"], pipeline_files["global_schema"], pipeline_files["attribute_descriptions"])
             # list of columns to keep from each dataset
             dfs = final_schema(dfs, utils.load_movies_csv(pipeline_files["global_schema"]))
 
         else:
             print([df.columns for df in dfs])
             # list of columns to keep from each dataset
-            dfs = schema_alignment(dfs, DATASETS_NAMES, pipeline_files["global_schema"])
+            dfs = schema_alignment(dfs, datasets, pipeline_files["global_schema"])
 
 
         merged_df = pd.concat(dfs, ignore_index=True)
@@ -277,7 +298,14 @@ for pipeline in PIPELINES:
         entities = utils.load_movies_csv(pipeline_files["clusters"])
 
 
-        fused = [fuse_cluster(group) for _, group in entities.groupby("entity_id")]
+        fused = [
+            fuse_cluster(
+                group,
+                attributes,
+                SOURCES
+            )
+            for _, group in entities.groupby("entity_id")
+        ]
 
 
         final_df = pd.concat(fused, ignore_index=True)
