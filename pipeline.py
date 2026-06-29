@@ -17,7 +17,7 @@ import pandas as pd
 # CONFIGURATION
 # =====================================================
 
-PIPELINE_MODE = "llm"
+PIPELINE_MODE = "classic"
 
 
 if PIPELINE_MODE == "both":
@@ -116,30 +116,33 @@ SOURCES = {
 }
 
 
-attributes = {
+matching_attributes = {
     "Title": {
         "weight": 0.50,
         "similarity": "text",
-        "type": "atomic"
     },
     "Director": {
         "weight": 0.15,
         "similarity": "hybrid",
-        "type": "multi"
     },
     "Year": {
         "weight": 0.25,
         "similarity": "year",
-        "type": "atomic"
     },
     "Cast": {
         "weight": 0.10,
         "similarity": "jaccard",
-        "type": "multi"
     }
 }
 
-
+fusion_attributes = {
+    "Title":"atomic",
+    "Director":"multi",
+    "Year":"atomic",
+    "Cast":"multi",
+    "Genre":"multi",
+    "Duration":"atomic"
+}
 
 ################################################################################################################################################################################################################################################################################
 
@@ -240,8 +243,8 @@ for pipeline in PIPELINES:
             matches = match_records(
                 canopy_df,
                 pipeline_files["matches"],
-                attributes,
-                threshold=0.75
+                matching_attributes,
+                threshold=0.72
             )
 
         else:
@@ -250,7 +253,7 @@ for pipeline in PIPELINES:
                 canopy_df,
                 pipeline_files["matches"],
                 pipeline_files["requests"],
-                attributes,
+                matching_attributes,
                 llm_threshold=0.65,
                 auto_threshold=0.75,
             )
@@ -277,8 +280,7 @@ for pipeline in PIPELINES:
             merged_df,
             0,
             pipeline_files["clusters"],
-            pipeline_files["singletons"],
-            attributes
+            pipeline_files["singletons"]
         )
 
 ################################################################################################################################################################################################################################################################################
@@ -294,14 +296,13 @@ for pipeline in PIPELINES:
 
         print("Starting data fusion")
 
-
         entities = utils.load_movies_csv(pipeline_files["clusters"])
 
 
         fused = [
             fuse_cluster(
                 group,
-                attributes,
+                fusion_attributes,
                 SOURCES
             )
             for _, group in entities.groupby("entity_id")
