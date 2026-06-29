@@ -71,6 +71,9 @@ def list_to_string(x):
 # ============================
 # score calculators
 # ============================
+
+
+# ----------------------------
 # atomic fields
 # ----------------------------
 def weighted_mode(values, sources):
@@ -172,17 +175,17 @@ def fuse_cluster(df, output_path=None):
         os.makedirs(os.path.dirname(output_path), exist_ok=True)
 
     # extract sources
-    sources = df["ID"].apply(get_source)
+    sources = df["Id"].apply(get_source)
 
     fused = {}
 
     # ----------------------------
     # provenance
     # ----------------------------
-    fused["A_IDs"] = ";".join(df.loc[sources == "a", "ID"].apply(clean_id).astype(str))
-    fused["B_IDs"] = ";".join(df.loc[sources == "b", "ID"].apply(clean_id).astype(str))
-    fused["C_IDs"] = ";".join(df.loc[sources == "c", "ID"].apply(clean_id).astype(str))
-    fused["D_IDs"] = ";".join(df.loc[sources == "d", "ID"].apply(clean_id).astype(str))
+    fused["A_Ids"] = ";".join(df.loc[sources == "a", "Id"].apply(clean_id).astype(str))
+    fused["B_Ids"] = ";".join(df.loc[sources == "b", "Id"].apply(clean_id).astype(str))
+    fused["C_Ids"] = ";".join(df.loc[sources == "c", "Id"].apply(clean_id).astype(str))
+    fused["D_Ids"] = ";".join(df.loc[sources == "d", "Id"].apply(clean_id).astype(str))
 
 
 
