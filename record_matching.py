@@ -85,26 +85,28 @@ def record_similarity(r1, r2, attributes):
 ########################################################################################################################################################################################################################
 
 
-def match_records(canopy_df, matched_path, attributes, threshold=0.75, save = True):
-    assert canopy_df["ID"].notna().all(), "canopy_df contains rows with missing ID"
+def match_records(canopy_df, matched_path, attributes, canopy_id_position = 1, threshold=0.75, save = True):
+
+    id_column = canopy_df.columns[canopy_id_position]
+    assert canopy_df[id_column].notna().all(), "canopy_df contains rows with missing ID"
 
     # generation of a dictionary {cluster_id : record_id} from canopy_cluster's blocks
     canopies = {}
     for cluster_id, group in canopy_df.groupby("Cluster_ID"):
-        canopies[cluster_id] = list(group["ID"])
+        canopies[cluster_id] = list(group[id_column])
 
 
     candidate_pairs = generate_candidate_pairs(canopies)
     print("Candidate pairs:", len(candidate_pairs))
 
 
-    dupes = canopy_df[canopy_df["ID"].duplicated()]
+    dupes = canopy_df[canopy_df[id_column].duplicated()]
     print("Duplicate IDs:", len(dupes))
 
     records = (
         canopy_df
-        .drop_duplicates(subset="ID")
-        .set_index("ID")
+        .drop_duplicates(subset=id_column)
+        .set_index(id_column)
         .to_dict("index")
     )
 
