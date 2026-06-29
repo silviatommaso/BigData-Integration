@@ -17,7 +17,7 @@ import pandas as pd
 # CONFIGURATION
 # =====================================================
 
-PIPELINE_MODE = "classic"
+PIPELINE_MODE = "llm"
 
 
 if PIPELINE_MODE == "both":
@@ -31,11 +31,11 @@ STEPS = {
 
     "record_linkage": {
         "blocking": False,
-        "matching": True,
+        "matching": False,
         "clustering": True
     },
 
-    "data_fusion": False
+    "data_fusion": True
 }
 
 
@@ -88,6 +88,7 @@ files = {
         "global_schema" : "schema_alignment/llm/global_schema.csv",
         "merged" : "schema_alignment/llm/merged_movies.csv",
         "matches" : "record_linkage/llm/matches.csv",
+        "singletons" : "record_linkage/llm/singletons.csv",
         "requests" : "record_linkage/llm/llm_requests.csv",
         "clusters" : "record_linkage/llm/entity_clusters.csv",
         "fusion" : "data_fusion/llm/fused_entities.csv"
