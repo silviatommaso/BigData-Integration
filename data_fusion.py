@@ -5,18 +5,12 @@ from difflib import SequenceMatcher
 
 
 
-weights = {
-    'a': 1.0,
-    'd': 0.2,   
-    'c': 1.0,
-    'b': 0.4    
-}
 
 # ----------------------------
 # Source ID extractor
 # ----------------------------
 def get_source(record_id):
-    return record_id[0].lower()
+    return str(record_id)[0].lower()
 
 
 def clean_id(record_id):
@@ -76,7 +70,7 @@ def list_to_string(x):
 # ----------------------------
 # atomic fields
 # ----------------------------
-def weighted_mode(values, sources):
+def weighted_mode(values, sources, weights):
     score = defaultdict(float)
 
     for v, s in zip(values, sources):
@@ -94,7 +88,7 @@ def weighted_mode(values, sources):
 # ----------------------------
 # multivalued fields
 # ----------------------------
-def confidence_fusion(list_values, sources, threshold_ratio=0.3):
+def confidence_fusion(list_values, sources, weights, threshold_ratio=0.3):
     score = defaultdict(float)
 
     for vals, s in zip(list_values, sources):
@@ -168,60 +162,77 @@ def confidence_fusion(list_values, sources, threshold_ratio=0.3):
 # ----------------------------
 # main
 # ----------------------------
-def fuse_cluster(df, output_path=None):
+def fuse_cluster(df, attributes, sources_config, id_position=1, output_path=None):
 
-    if output_path:
-        import os
-        os.makedirs(os.path.dirname(output_path), exist_ok=True)
+    id_column = df.columns[id_position]
 
-    # extract sources
-    sources = df["Id"].apply(get_source)
+
+    # weights estratti dalla config
+    weights = {
+        source: config["weight"]
+        for source, config in sources_config.items()
+    }
+
+
+    # source extraction
+    sources = df[id_column].apply(get_source)
+
 
     fused = {}
 
-    # ----------------------------
-    # provenance
-    # ----------------------------
-    fused["A_Ids"] = ";".join(df.loc[sources == "a", "Id"].apply(clean_id).astype(str))
-    fused["B_Ids"] = ";".join(df.loc[sources == "b", "Id"].apply(clean_id).astype(str))
-    fused["C_Ids"] = ";".join(df.loc[sources == "c", "Id"].apply(clean_id).astype(str))
-    fused["D_Ids"] = ";".join(df.loc[sources == "d", "Id"].apply(clean_id).astype(str))
-
-
 
     # ----------------------------
-    # atomic fields
+    # provenance GENERICA
     # ----------------------------
-    fused["Title"] = weighted_mode(df["Title"], sources)
-    fused["Year"] = weighted_mode(df["Year"], sources)
 
-    # ----------------------------
-    # multivalued fields
-    # ----------------------------
-    directors = df["Director"].apply(parse_director)
-    cast = df["Cast"].apply(parse_cast)
-    genres = df["Genre"].apply(parse_genre)
+    for source in sources_config:
 
-    fused["Director"] = confidence_fusion(directors, sources)
-    fused["Cast"] = confidence_fusion(cast, sources)
-    fused["Genre"] = confidence_fusion(genres, sources)
-
-    fused["Duration"] = weighted_mode(df["Duration"], sources)
+        fused[f"{source.upper()}_Ids"] = ";".join(
+            df.loc[
+                sources == source,
+                id_column
+            ]
+            .apply(clean_id)
+            .astype(str)
+        )
 
 
     # ----------------------------
-    # serialization
+    # ATTRIBUTES GENERICI
     # ----------------------------
-    fused["Director"] = list_to_string(fused["Director"])
-    fused["Cast"] = list_to_string(fused["Cast"])
-    fused["Genre"] = list_to_string(fused["Genre"])
+
+    for column, field_type in attributes.items():
 
 
-
-    # ----------------------------
-    # dataframe finale
-    # ----------------------------
-    fused_df = pd.DataFrame([fused])
+        if column not in df.columns:
+            continue
 
 
-    return fused_df
+        if field_type == "atomic":
+
+
+            fused[column] = weighted_mode(
+                df[column],
+                sources,
+                weights
+            )
+
+
+        elif field_type == "multi":
+
+
+            values = df[column].apply(parse_list)
+
+
+            fused[column] = confidence_fusion(
+                values,
+                sources,
+                weights
+            )
+
+
+            fused[column] = list_to_string(
+                fused[column]
+            )
+
+    return pd.DataFrame([fused])
