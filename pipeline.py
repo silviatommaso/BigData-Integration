@@ -27,11 +27,11 @@ else:
 
 
 STEPS = {
-    "schema_alignment": True,
+    "schema_alignment": False,
 
     "record_linkage": {
         "blocking": False,
-        "matching": False,
+        "matching": True,
         "clustering": True
     },
 
@@ -204,8 +204,8 @@ for pipeline in PIPELINES:
 
         canopy_cluster(merged_df, COMMON["canopy"])
 
-
     canopy_df = utils.load_movies_csv(COMMON["canopy"])
+    
 
     # =================================================
     # MATCHING
