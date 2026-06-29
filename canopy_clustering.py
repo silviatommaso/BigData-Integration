@@ -54,10 +54,10 @@ def build_tfidf_matrices(df):
 # CANOPY CLUSTER
 # ======================
 
-def canopy_cluster(df, cluster_path):
+def canopy_cluster(merged_df, cluster_path):
 
     start_time = time.time()
-    df = df.copy()
+    df = merged_df.copy()
 
     # Preprocess key attributes
     df["clean_title"] = df["Title"].apply(clean_text)
@@ -81,7 +81,6 @@ def canopy_cluster(df, cluster_path):
     T1_title = 0.40
     T2_title = 0.70
 
-
     # Director similarity thresholds
     # Stricter values reduce false matches caused by common names
     T1_dir = 0.40
@@ -93,19 +92,10 @@ def canopy_cluster(df, cluster_path):
     print("=" * 60)
 
     with open(cluster_path, "w", newline="", encoding="utf-8") as f:
-
         writer = csv.writer(f)
+        writer.writerow(["Cluster_ID"] + merged_df.columns.tolist())
 
-        writer.writerow([
-            "Cluster_ID",
-            "ID",
-            "Title",
-            "Year",
-            "Director",
-            "Cast",
-            "Genre",
-            "Duration"
-        ])
+
 
     cluster_id = 0
 
@@ -134,31 +124,22 @@ def canopy_cluster(df, cluster_path):
         # Loose threshold:
         # determines which records enter the canopy
 
-        in_cluster_mask = np.where(
-            both_have_director,
-            (sims_title >= T1_title) & (sims_dir >= T1_dir),
-            (sims_title >= T1_title)
-        )
-
+        in_cluster_mask = np.where(both_have_director, (sims_title >= T1_title) & (sims_dir >= T1_dir), (sims_title >= T1_title))
         in_cluster_mask[centro_id] = True
 
         blocco_indices = np.where(in_cluster_mask)[0]
 
+
         # Tight threshold:
         # determines which records are removed from the candidate pool
 
-        to_remove_mask = np.where(
-            both_have_director,
-            (sims_title >= T2_title) & (sims_dir >= T2_dir),
-            (sims_title >= T2_title)
-        )
-
+        to_remove_mask = np.where(both_have_director, (sims_title >= T2_title) & (sims_dir >= T2_dir), (sims_title >= T2_title))
         to_remove_mask = to_remove_mask & pool_mask
-
 
         remove_count = np.sum(to_remove_mask)
 
         pool_mask[to_remove_mask] = False
+
 
         canopies[centro_id] = blocco_indices.tolist()
 
@@ -168,17 +149,8 @@ def canopy_cluster(df, cluster_path):
 
             for fid in blocco_indices:
                 row = df.iloc[fid]
+                writer.writerow([cluster_id] + [row.get(col) for col in df.columns])
 
-                writer.writerow([
-                    cluster_id,
-                    row.get("ID"),
-                    row.get("Title"),
-                    row.get("Year"),
-                    row.get("Director"),
-                    row.get("Cast"),
-                    row.get("Genre"),
-                    row.get("Duration")
-                ])
 
         print(
             f"Cluster #{cluster_id} | "
@@ -187,13 +159,13 @@ def canopy_cluster(df, cluster_path):
             f"pool={np.sum(pool_mask)}"
         )
 
+
     end_time = time.time()
+
 
     print("=" * 60)
     print(f"Completed: {cluster_id} clusters")
-    print(
-        f"Total execution time: {end_time - start_time:.2f} seconds"
-    )
+    print(f"Total execution time: {end_time - start_time:.2f} seconds")
     print("=" * 60)
 
     return canopies

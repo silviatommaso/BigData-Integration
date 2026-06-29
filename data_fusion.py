@@ -57,6 +57,14 @@ def parse_genre(x):
     return genres
 
 
+def list_to_string(x):
+        if x is None:
+            return ""
+        if isinstance(x, (list, set, tuple)):
+            return ", ".join(str(i) for i in x)
+        return str(x)
+
+
 #------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -171,21 +179,13 @@ def fuse_cluster(df, output_path=None):
     # ----------------------------
     # provenance
     # ----------------------------
-    fused["A_IDs"] = ";".join(
-        df.loc[sources == "a", "ID"].apply(clean_id).astype(str)
-    )
+    fused["A_IDs"] = ";".join(df.loc[sources == "a", "ID"].apply(clean_id).astype(str))
+    fused["B_IDs"] = ";".join(df.loc[sources == "b", "ID"].apply(clean_id).astype(str))
+    fused["C_IDs"] = ";".join(df.loc[sources == "c", "ID"].apply(clean_id).astype(str))
+    fused["D_IDs"] = ";".join(df.loc[sources == "d", "ID"].apply(clean_id).astype(str))
 
-    fused["B_IDs"] = ";".join(
-        df.loc[sources == "b", "ID"].apply(clean_id).astype(str)
-    )
 
-    fused["C_IDs"] = ";".join(
-        df.loc[sources == "c", "ID"].apply(clean_id).astype(str)
-    )
 
-    fused["D_IDs"] = ";".join(
-        df.loc[sources == "d", "ID"].apply(clean_id).astype(str)
-    )
     # ----------------------------
     # atomic fields
     # ----------------------------
@@ -205,23 +205,20 @@ def fuse_cluster(df, output_path=None):
 
     fused["Duration"] = weighted_mode(df["Duration"], sources)
 
+
     # ----------------------------
     # serialization
     # ----------------------------
-    def list_to_string(x):
-        if x is None:
-            return ""
-        if isinstance(x, (list, set, tuple)):
-            return ", ".join(str(i) for i in x)
-        return str(x)
-
     fused["Director"] = list_to_string(fused["Director"])
     fused["Cast"] = list_to_string(fused["Cast"])
     fused["Genre"] = list_to_string(fused["Genre"])
+
+
 
     # ----------------------------
     # dataframe finale
     # ----------------------------
     fused_df = pd.DataFrame([fused])
+
 
     return fused_df

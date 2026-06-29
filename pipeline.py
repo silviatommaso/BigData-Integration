@@ -30,9 +30,9 @@ STEPS = {
     "schema_alignment": False,
 
     "record_linkage": {
-        "blocking": False,
-        "matching": True,
-        "clustering": True
+        "blocking": True,
+        "matching": False,
+        "clustering": False
     },
 
     "data_fusion": False
