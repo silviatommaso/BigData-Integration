@@ -244,7 +244,7 @@ for pipeline in PIPELINES:
                 canopy_df,
                 pipeline_files["matches"],
                 matching_attributes,
-                threshold=0.72
+                threshold=0.75
             )
 
         else:
