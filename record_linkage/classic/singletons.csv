@@ -3,35 +3,27 @@ a1,12 12 12,2014,massimo morini,"davide ageno, mariangela argentino, franco bamp
 a2,2-headed shark attack,2012,christopher ray,"carmen electra, charlie o'connell, brooke hogan","action, horror, sci-fi",88
 a6,the abcs of death,2013,kaare andrews,"ingrid bolsø berdal, iván gonzález, kyra zagorsky","comedy, horror",129
 a8,abraham lincoln vs. zombies,2012,richard schenkman,"bill oberst jr., kent igleheart, rhianna van helton","action, comedy, horror",96
-a12,air collision,2012,liz adams,"reginald veljohnson, jordan ladd, gerald webb","action, adventure, thriller",92
 a14,alien origin,2012,mark atkins,"philip coc, eric darins, daniela flynn","biography, horror, sci-fi, thriller",88
-a20,apostle peter and the last supper,2012,gabriel sabloff,"robert loggia, bruce marchiano, laurence fuller","drama, history",
-a23,arcadia,2014,olivia silver,"ryan simpkins, ty simpkins, kendall toole",drama,91
 a26,art machine,2012,doug karr,"joseph cross, jessica szohr, joey lauren adams",comedy,
 a28,atom the amazing zombie killer,2012,zack beins,"tom autry, matthew m. baxter, brad beins","comedy, horror",80
 a35,barbie: the princess & the popstar,2012,ezekiel norton,"kelly sheridan, jennifer waris, ashleigh ball","animation, family",86
 a38,batman revealed,2012,chris clark,"david b. stewart iii, chris clark, derek mindler","action, crime, drama",62
-a39,batman: the dark knight returns part 1,2012,jay oliva,"peter weller, ariel winter, david selby","animation, action, crime",76
 a41,battlefield america,2012,chris stokes,"marques houston, mekia cox, christopher jones","drama, musical",106
 a48,beauty and the least: the misadventures of ben banks,2013,bryce clark,"ben banks, katharine towne, mischa barton","comedy, drama, romance",85
 a52,beverly hills chihuahua 3: viva la fiesta!,2012,lev l. spiro,"marcus coloma, erin cahill, cedric yarbrough","adventure, comedy, family",89
 a53,beyond,2010,pernilla august,"noomi rapace, ola rapace, outi mäenpää",drama,99
 a55,big top scooby-doo!,2012,ben jones,"frank welker, mindy cohn, grey griffin","animation, family, fantasy",80
-a59,blood for irina,2012,chris alexander,"shauna henry, carrie gemmell, david goodfellow",horror,70
 a60,border run,2013,gabriela tagliavini,"sharon stone, promise lamarco, billy zane","crime, thriller",96
 a63,branded,2012,jamie bradshaw,"ed stoppard, leelee sobieski, jeffrey tambor","drama, fantasy, thriller",106
 a67,bully,2001,larry clark,"brad renfro, nick stahl, bijou phillips","crime, drama",115
 a68,butter,2012,jim field smith,"jennifer garner, yara shahidi, ty burrell",comedy,90
 a72,california winter,,odin ozdil,"michael ironside, rutina wesley, erick avari","drama, history",
-a84,a christmas story 2,2012,brian levant,"daniel stern, braeden lemasters, stacey travis","comedy, family",85
-a85,christmas with the dead,2012,t.l. lankford,"damian maffei, brad maule, chet williamson",horror,88
 a88,lord of the elves,2012,joseph j. lawson,"bai ling, sun korng, srogn","action, adventure, fantasy",87
 a89,cloud atlas,2012,tom tykwer,"tom hanks, halle berry, hugh grant","drama, sci-fi",172
 a93,the comedy,2012,rick alverson,"tim heidecker, eric wareheim, james murphy",drama,95
 a106,to write love on her arms,2015,nathan frankowski,"kat dennings, chad michael murray, rupert friend","biography, drama, music",118
 a107,dead before dawn 3d,2012,april mullen,"devon bostick, martha macisaac, christopher lloyd","adventure, comedy, horror",88
 a108,dead man's burden,2013,jared moshe,"barlow jacobs, clare bowen, david call","drama, western",93
-a110,deadline,2010,sean mcconville,"brittany murphy, thora birch, tammy blanchard","drama, horror, thriller",85
 a111,death race: inferno,2013,roel reiné,"luke goss, tanit phoenix, danny trejo","action, sci-fi, thriller",105
 a120,don't change the subject,,mike stutz,"jesselynn desmond, roger fojas, patrick horvath","documentary, comedy",98
 a121,dracula reborn,2015,attila luca,"tina balthazar, yves carlevaris, chloé dumas",horror,102
@@ -39,9 +31,7 @@ a124,eating out: the open weekend,2014,q. allan brocka,"chris salvatore, chris p
 a125,eden,2015,shyam madiraju,"diego boneta, jessica lowndes, james remar","drama, thriller",90
 a127,elf-man,2012,ethan wiley,"jason 'wee man' acuña, jeffrey combs, mackenzie astin","comedy, family, fantasy",
 a131,see no evil hear no evil,1989,arthur hiller,"richard pryor, gene wilder, joan severance","comedy, crime, thriller",103
-a132,excision,2012,richard bates jr.,"annalynne mccord, roger bart, ariel winter","drama, horror",81
 a136,filly brown,2013,youssef delara,"gina rodriguez, jenni rivera, lou diamond phillips","drama, music",80
-a141,flicka: country pride,2012,michael damian,"clint black, lisa hartman, kacey rohl",family,90
 a154,gone,2012,heitor dhalia,"amanda seyfried, jennifer carpenter, wes bentley","drama, mystery, thriller",94
 a159,just before i go,2015,courteney cox,"seann william scott, olivia thirlby, garret dillahunt","comedy, drama",95
 a165,hotel transylvania,2012,genndy tartakovsky,"adam sandler, kevin james, andy samberg","animation, comedy, family, fantasy",91
@@ -51,7 +41,6 @@ a190,madea's witness protection,2012,tyler perry,"tyler perry, eugene levy, deni
 a209,paranormal activity 4,2012,henry joost,"stephen dunham, katie featherston, matt shively",horror,88
 a212,philadelphia,1994,jonathan demme,"tom hanks, denzel washington, roberta maxwell",drama,125
 a214,piranha 3dd,2012,john gulager,"danielle panabaker, ving rhames, david hasselhoff","comedy, horror",83
-a218,price check,2014,michael walker,"parker posey, eric mabius, annie parisse","comedy, drama",92
 a219,project x,2012,nima nourizadeh,"thomas mann, oliver cooper, jonathan daniel brown","comedy, crime",88
 a222,the queen of versailles,2014,lauren greenfield,"lorraine barrett, june downs, phillip froehlich",documentary,100
 a251,the swan princess christmas,2012,richard rich,"jennifer miller, joseph medrano, david lodge","animation, adventure, fantasy, musical",83
@@ -71,7 +60,6 @@ a366,jackass 3d,2010,jeff tremaine,"johnny knoxville, steve-o, bam margera","doc
 a382,legend of the guardians: the owls of ga'hoole,2010,zack snyder,"jim sturgess, hugo weaving, david wenham","animation, adventure, fantasy",97
 a400,mirrors 2,2010,víctor garcía,"nick stahl, emmanuelle vaugier, evan jones","horror, mystery, thriller",86
 a403,my soul to take,2010,wes craven,"max thieriot, john magaro, denzel whitaker","horror, mystery, thriller",107
-a411,paper man,2014,kieran mulroney,"jeff daniels, emma stone, ryan reynolds","comedy, drama",110
 a418,preacher's kid,2010,stan foster,"letoya luckett, durrell babbs, tammy townsend",drama,110
 a433,saw 3d: the final chapter,2010,kevin greutert,"tobin bell, costas mandylor, betsy russell","horror, mystery",90
 a437,shrek forever after,2010,mike mitchell,"mike myers, cameron diaz, eddie murphy","animation, adventure, comedy, family, fantasy",93
@@ -79,8 +67,6 @@ a440,small town saturday night,2010,ryan craig,"shawn christian, chris pine, bre
 a447,step up 3d,2010,jon m. chu,"sharni vinson, rick malambri, adam g. sevani","drama, music, romance",107
 a453,darkness falls,2003,jonathan liebesman,"chaney kley, emma caulfield, antony burrows","horror, mystery, thriller",86
 a467,why did i get married too?,2010,tyler perry,"janet jackson, tyler perry, jill scott","comedy, drama, romance",121
-a468,winnebago man,2009,ben steinbauer,"jack rebney, ben steinbauer, keith gordon","documentary, biography, comedy",85
-a471,wonderful world,2009,joshua goldin,"matthew broderick, sanaa lathan, michael kenneth williams","drama, romance",89
 a476,11-11-11,2011,darren lynn bousman,"timothy gibbs, michael landes, wendy glenn","horror, mystery, thriller",90
 a482,the adventures of tintin: the secret of the unicorn,2011,jacques exertier,"ewan bailey, james barriscale, mark bazeley",adventure,
 a484,alvin and the chipmunks: chipwrecked,2011,mike mitchell,"justin long, jesse mccartney, jason lee","animation, adventure, comedy, family, fantasy, music",87
@@ -114,7 +100,6 @@ a669,10000 bc,2008,roland emmerich,"camilla belle, steven strait, marco khan","a
 a679,babylon a.d.,2008,mathieu kassovitz,"vin diesel, michelle yeoh, mélanie thierry","action, adventure, sci-fi, thriller",90
 a685,the betrayal - nerakhoon,2008,ellen kuras,thavisouk phrasavath,documentary,96
 a693,che: part one,2009,steven soderbergh,"julia ormond, benicio del toro, oscar isaac","biography, drama, history, war",134
-a706,the best offer,2014,giuseppe tornatore,"geoffrey rush, jim sturgess, sylvia hoeks","crime, drama, mystery, romance",131
 a707,delgo,2008,marc f. adler,"freddie prinze jr., val kilmer, anne bancroft","animation, adventure, comedy, fantasy, romance",94
 a708,disaster movie,2008,jason friedberg,"carmen electra, vanessa lachey, nicole parker",comedy,87
 a714,expelled: no intelligence allowed,2008,nathan frankowski,"ben stein, lili asvar, peter atkins",documentary,90
@@ -130,7 +115,6 @@ a785,nim's island,2008,jennifer flackett,"jodie foster, gerard butler, abigail b
 a791,passengers,2016,morten tyldum,"jennifer lawrence, chris pratt, michael sheen","adventure, sci-fi",
 a793,patti smith: dream of life,2008,steven sebring,"patti smith, lenny kaye, oliver ray","documentary, music",109
 a795,the pirates who don't do anything: a veggietales movie,2008,mike nawrocki,"tim hodge, mike nawrocki, phil vischer","animation, adventure, comedy, family, musical",85
-a796,pray the devil back to hell,2009,gini reticker,"janet johnson bryant, etweda cooper, vaiba flomo",documentary,72
 a798,prom night,2008,nelson mccormick,"brittany snow, scott porter, jessica stroup","horror, mystery",88
 a809,repo! the genetic opera,2008,darren lynn bousman,"paul sorvino, anthony head, alexa penavega","horror, musical, sci-fi",98
 a820,shutter,2008,masayuki ochiai,"joshua jackson, rachael taylor, james kyson","horror, mystery, thriller",85
@@ -138,7 +122,6 @@ a828,spike,2008,robert beaucage,"sarah livingston evans, jared edwards, anna-mar
 a830,spy school,2008,mark blutman,"forrest landis, annasophia robb, rider strong","adventure, comedy, drama, family, mystery",86
 a849,w,2014,tarun madan chopra,"leeza mangaldas, lezlie tripathy, sonal giani","crime, musical, thriller",137
 a856,what doesn't kill you,2009,brian goodman,"ethan hawke, mark ruffalo, brian goodman","crime, drama",100
-a863,the x files: i want to believe,2008,chris carter,"david duchovny, gillian anderson, billy connolly","drama, mystery, sci-fi, thriller",104
 a877,alvin and the chipmunks: the squeakquel,2009,betty thomas,"jason lee, zachary levi, david cross","animation, comedy, family, fantasy, music",88
 a878,amélie,2002,jean-pierre jeunet,"audrey tautou, mathieu kassovitz, rufus","comedy, romance",122
 a882,arcadia lost,2010,phedon papamichael,"dato bakhtadze, haley bennett, lachlan buchanan",drama,
@@ -155,7 +138,6 @@ a960,i hate valentine's day,2009,nia vardalos,"nia vardalos, john corbett, judah
 a967,the informant,2013,julien leclercq,"gilles lellouche, tahar rahim, riccardo scamarcio","crime, thriller",116
 a978,jonas brothers: the 3d concert experience,2009,bruce hendricks,"nick jonas, joe jonas, kevin jonas","documentary, music",76
 a989,love n' dancing,2011,robert iscove,"amy smart, tom malloy, billy zane","drama, romance",91
-a993,the maiden heist,2010,peter hewitt,"christopher walken, joseph mckenna, wynn everett","comedy, crime",90
 a994,management,2009,stephen belber,"jennifer aniston, steve zahn, woody harrelson","comedy, drama, romance",94
 a998,the messenger,2015,david blair,"robert sheehan, joely richardson, david o'hara","drama, horror, mystery, thriller",101
 a999,michael jackson's 'this is it': the gloved one,2010,,"abigail franklin, michael jackson, kenny ortega","documentary, short",15
@@ -167,12 +149,9 @@ a1043,shorts,2009,robert rodriguez,"jimmy bennett, james spader, kat dennings","
 a1045,the slammin' salmon,2009,kevin heffernan,"michael clarke duncan, jay chandrasekhar, kevin heffernan",comedy,90
 a1054,the taking of pelham 1 2 3,2009,tony scott,"denzel washington, john travolta, luis guzmán","action, crime, thriller",106
 a1072,we live in public,2010,ondi timoner,"josh harris, tom harris, carlos alvarez",documentary,91
-a1078,world's greatest dad,2010,bobcat goldthwait,"robin williams, daryl sabara, morgan murphy","comedy, drama",99
 a1080,x games 3d: the movie,2009,steve lawrence,"travis pastrana, ricky carmichael, shaun white","documentary, sport",92
 a1084,10 mph,2007,hunter weeks,"josh caldwell, johnathan f. keough, alon waisman",documentary,92
 a1091,adrift in manhattan,2008,alfredo rodriguez de villa,"victor rasuk, richard petrocelli, nicolle rochelle",drama,91
-a1092,adventures of johnny tao,2007,kenn scott,"ilram choi, stirling everly, michael gregory","action, adventure, music",90
-a1094,after sex,2008,eric amadio,"marc blucas, jose pablo cantillo, emmanuelle chriqui","comedy, drama, romance",77
 a1095,dial m for murder,1954,alfred hitchcock,"ray milland, grace kelly, robert cummings","crime, thriller",105
 a1110,autism: the musical,2007,tricia regan,"hillary aaron, joe aaron, adam","documentary, music",94
 a1120,the blue hour,2015,anucha boonyawatana,"atthaphan poonsawas, oabnithi wiwattanawarang, djuangjai hirunsri",,97
@@ -183,9 +162,7 @@ a1132,cake: a wedding story,2010,will wallace,"g.w. bailey, thomas calabro, will
 a1133,captivity,2007,roland joffé,"elisha cuthbert, daniel gillies, pruitt taylor vince","crime, horror, thriller",96
 a1134,care bears: oopsy does it!,2007,davis doi,"ashleigh ball, ian james corlett, scott mcneil","animation, family",
 a1136,catacombs,2007,tomm coker,"shannyn sossamon, pink, emil hostina","horror, thriller",100
-a1144,cthulhu,2007,dan gildark,"jason cottle, casey curran, ethan atkinson","drama, horror, thriller",100
 a1146,daddy's little girls,2007,tyler perry,"gabrielle union, idris elba, tracee ellis ross","drama, romance",100
-a1147,dalai lama renaissance,2008,khashyar darvich,"the dalai lama, harrison ford, amit goswami",documentary,81
 a1151,tremors,1990,ron underwood,"kevin bacon, fred ward, finn carter","comedy, horror, sci-fi",96
 a1158,ed gein: the butcher of plainfield,2007,michael feifer,"kane hodder, adrienne frantz, michael berryman","crime, drama, horror, mystery, thriller",90
 a1159,elvis and anabelle,2008,will geiger,"max minghella, blake lively, joe mantegna","drama, romance",106
@@ -201,7 +178,6 @@ a1200,a boy named sue,2001,julie wyman,,documentary,69
 a1203,the broken hearts club: a romantic comedy,2000,greg berlanti,"timothy olyphant, dean cain, zach braff","comedy, drama, romance, sport",94
 a1204,brother,2001,takeshi kitano,"takeshi kitano, claude maki, omar epps","crime, drama, thriller",114
 a1207,the cell,2000,tarsem singh,"jennifer lopez, vince vaughn, vincent d'onofrio","horror, sci-fi, thriller",107
-a1211,chinese coffee,2000,al pacino,"al pacino, jerry orbach, susan floyd",drama,99
 a1212,chocolat,2001,lasse hallström,"juliette binoche, judi dench, alfred molina","drama, romance",121
 a1217,the crossing,2014,john woo,"takeshi kaneshiro, ziyi zhang, hye-kyo song",drama,129
 a1219,dinosaur,2000,eric leighton,"d.b. sweeney, julianna margulies, samuel e. wright","animation, adventure, family, sci-fi, thriller",82
@@ -210,8 +186,6 @@ a1222,dracula 2000,2000,patrick lussier,"gerard butler, justine waddell, jonny l
 a1224,dude where's my car?,2000,danny leiner,"ashton kutcher, seann william scott, jennifer garner",comedy,83
 a1227,the emperor's new groove,2000,mark dindal,"david spade, john goodman, eartha kitt","animation, adventure, comedy, family, fantasy",78
 a1232,fantasia/2000,2000,james algar,"james levine, steve martin, leopold stokowski","animation, family, fantasy, music",74
-a1234,finding forrester,2001,gus van sant,"sean connery, rob brown, f. murray abraham",drama,136
-a1243,gossip,2000,davis guggenheim,"james marsden, lena headey, norman reedus","drama, mystery, thriller",90
 a1245,hamlet,1996,kenneth branagh,"kenneth branagh, julie christie, derek jacobi",drama,242
 a1253,how the grinch stole christmas,2000,ron howard,"jim carrey, taylor momsen, kelley","comedy, family, fantasy",104
 a1254,how to kill your neighbor's dog,2003,michael kalesniko,"kenneth branagh, robin wright, suzi hofrichter","comedy, drama",107
@@ -225,22 +199,17 @@ a1276,bhool bhulaiyaa,2007,priyadarshan,"akshay kumar, vidya balan, ameesha pate
 a1277,me myself & irene,2000,bobby farrelly,"jim carrey, renée zellweger, anthony anderson",comedy,116
 a1289,next friday,2000,steve carr,"ice cube, mike epps, justin pierce",comedy,98
 a1291,nutty professor ii: the klumps,2000,peter segal,"eddie murphy, janet jackson, larry miller","comedy, fantasy, romance, sci-fi",106
-a1293,o brother where art thou?,2001,joel coen,"george clooney, john turturro, tim blake nelson","comedy, crime, music",106
 a1321,rugrats in paris: the movie,2000,stig bergqvist,"christine cavanaugh, elizabeth daily, cheryl chase","animation, adventure, comedy, family, romance",78
 a1322,the scarecrow,2015,phillip rhys,"darren pettie, sandra oh, sandra seacat","short, drama",13
 a1323,scream,1996,wes craven,"neve campbell, courteney cox, david arquette","horror, mystery",111
 a1324,scottsboro: an american tragedy,2000,daniel anker,"frances mcdormand, stanley tucci, andre braugher","documentary, history",84
 a1326,screwed,2011,reg traviss,"james d'arcy, noel clarke, frank harper","crime, drama",110
 a1332,shriek if you know what i did last friday the thirteenth,2001,john blanchard,"aimee graham, chris palermo, kim greist",comedy,86
-a1342,steal this movie,2002,robert greenwald,"vincent d'onofrio, janeane garofalo, jeanne tripplehorn","biography, drama, romance",107
 a1343,supernova,2000,walter hill,"james spader, peter facinelli, robin tunney","horror, sci-fi, thriller",90
-a1345,terror tract,2001,lance w. dreesen,"john ritter, david deluise, allison smith","comedy, thriller, horror",96
 a1348,thomas and the magic railroad,2000,britt allcroft,"alec baldwin, cody mcmains, russell means","adventure, comedy, drama, family, fantasy",85
 a1357,unbreakable,2000,m. night shyamalan,"bruce willis, samuel l. jackson, robin wright","drama, mystery, sci-fi, thriller",106
 a1375,x-men: apocalypse,2016,bryan singer,"jennifer lawrence, michael fassbender, rose byrne","action, adventure, fantasy, sci-fi",
 a1382,ali,2001,michael mann,"will smith, jamie foxx, jon voight","biography, drama, sport",157
-a1383,all over the guy,2002,julie davis,"dan bucatinsky, richard ruccolo, sasha alexander","comedy, romance",95
-a1390,an american rhapsody,2002,ã‰va gã¡rdos,"nastassja kinski, scarlett johansson, raffaella bánsági",drama,106
 a1391,amy's orgasm,2004,julie davis,"julie davis, nick chinlund, caroline aaron","comedy, romance",87
 a1394,the anniversary party,2001,alan cumming,"alan cumming, jennifer jason leigh, phoebe cates","comedy, drama, romance",115
 a1411,captain corelli's mandolin,2001,john madden,"nicolas cage, penélope cruz, john hurt","drama, music, romance, war",131
@@ -256,13 +225,11 @@ a1436,evolution,2001,ivan reitman,"david duchovny, orlando jones, julianne moore
 a1441,finder's fee,2001,jeff probst,"erik palladino, ryan reynolds, dash mihok","drama, thriller",100
 a1442,the fluffer,2002,richard glatzer,"scott gurney, michael cunio, roxanne day","drama, comedy, romance",95
 a1453,good neighbor,,todd turner,"billy dee williams, danica mckellar, tobin bell",thriller,86
-a1455,the grey zone,2001,tim blake nelson,"david arquette, velizar binev, david chandler","drama, history, war",108
 a1457,harry potter and the sorcerer's stone,2001,chris columbus,"daniel radcliffe, rupert grint, richard harris","adventure, family, fantasy",152
 a1463,heist,2015,scott mann,"robert de niro, dave bautista, mark-paul gosselaar","action, thriller",
 a1464,herman u.s.a.,2001,bill semans,"kevin chamberlin, michael o'keefe, enid graham","comedy, romance",89
 a1482,kingdom come,2014,greg a. sager,"ry barrett, camille hollett-french, william foley",horror,97
 a1493,the lord of the rings: the fellowship of the ring,2001,peter jackson,"elijah wood, ian mckellen, orlando bloom","adventure, fantasy",178
-a1494,the lost skeleton of cadavra,2001,larry blamire,"larry blamire, fay masterson, brian howe","comedy, horror, sci-fi",90
 a1497,the man who wasn't there,2001,joel coen,"billy bob thornton, frances mcdormand, michael badalucco","crime, drama",116
 a1498,max keeble's big move,2001,tim hill,"alex d. linz, larry miller, jamie kennedy","comedy, crime, family",86
 a1502,mockingbird don't sing,2001,harry bromley davenport,"melissa errico, michael lerner, joe regalbuto","biography, drama",98
@@ -292,7 +259,6 @@ a1595,america's heart & soul,2004,louie schwartzberg,"george woodard, charles ji
 a1596,anacondas: the hunt for the blood orchid,2004,dwight h. little,"morris chestnut, kadee strickland, eugene byrd","adventure, horror, thriller",97
 a1597,anchorman: the legend of ron burgundy,2004,adam mckay,"will ferrell, christina applegate, steve carell",comedy,94
 a1602,barbershop 2: back in business,2004,kevin rodney sullivan,"ice cube, cedric the entertainer, eve","comedy, drama",106
-a1604,being julia,2005,istván szabó,"annette bening, michael gambon, maury chaykin","comedy, drama, romance",104
 a1605,birth,2004,jonathan glazer,"nicole kidman, cameron bright, lauren bacall","drama, mystery, romance, thriller",100
 a1606,benji: off the leash!,2004,joe camp,"nick whitaker, chris kendrick, nate bynum","drama, family",97
 a1612,bobby jones: stroke of genius,2004,rowdy herrington,"jim caviezel, claire forlani, jeremy northam","biography, drama, romance, sport",120
@@ -350,14 +316,10 @@ a1791,voices of iraq,2004,people of iraq,people of iraq,"documentary, war",80
 a1795,we don't live here anymore,2004,john curran,"mark ruffalo, laura dern, peter krause","drama, romance",101
 a1811,ã†on flux,2005,karyn kusama,"charlize theron, frances mcdormand, sophie okonedo","action, sci-fi",93
 a1824,because of winn-dixie,2005,wayne wang,"annasophia robb, jeff daniels, eva marie saint","comedy, drama, family",106
-a1832,capote,2006,bennett miller,"philip seymour hoffman, clifton collins jr., catherine keener","biography, crime, drama",114
-a1839,the chumscrubber,2006,arie posin,"jamie bell, allison janney, rory culkin","comedy, drama",108
 a1842,corpse bride,2005,tim burton,"johnny depp, helena bonham carter, emily watson","animation, fantasy, musical, romance",77
-a1844,cruel world,2005,kelsey t. howard,"edward furlong, daniel franzese, andrew keegan","comedy, horror, thriller, drama",88
 a1845,cry_wolf,2005,jeff wadlow,"julian morris, lindy booth, jared padalecki","drama, horror, mystery, thriller",90
 a1846,cursed,2005,wes craven,"christina ricci, jesse eisenberg, portia de rossi","comedy, horror, romance, thriller",97
 a1851,the devil's rejects,2005,rob zombie,"sid haig, sheri moon zombie, bill moseley","crime, drama, horror",107
-a1853,dirty love,2006,john asher,"jenny mccarthy, eddie kaye thomas, carmen electra","comedy, romance",91
 a1854,dominion: prequel to the exorcist,2005,paul schrader,"stellan skarsgård, gabriel mann, clara bellar","drama, horror, thriller",117
 a1858,dreamer: inspired by a true story,2005,john gatins,"kurt russell, dakota fanning, oded fehr","drama, family, sport",106
 a1864,enron: the smartest guys in the room,2005,alex gibney,"john beard, tim belden, barbara boxer",documentary,110
@@ -365,7 +327,6 @@ a1869,favela rising,2006,matt mochary,"andre luis azevedo, jose junior, michele 
 a1875,frankenstein vs. the creature from blood cove,2005,william winckler,"g. larry butler, william winckler, dezzirae ascalon",horror,90
 a1877,the game of their lives,2005,david anspaugh,"wes bentley, gerard butler, gavin rossdale","drama, history, sport",101
 a1881,guess who,2005,kevin rodney sullivan,"ashton kutcher, bernie mac, zoe saldana","comedy, romance",105
-a1887,her minor thing,2005,charles matthau,"estella warren, christian kane, michael weatherly","comedy, romance",91
 a1892,the hitchhiker's guide to the galaxy,2005,garth jennings,"martin freeman, yasiin bey, sam rockwell","adventure, comedy, sci-fi",109
 a1893,hoodwinked!,2006,cory edwards,"anne hathaway, glenn close, patrick warburton","animation, comedy, family",80
 a1916,king's ransom,2005,jeffrey w. byrd,"anthony anderson, kellita smith, jay mohr","comedy, crime",95
@@ -390,7 +351,6 @@ a2008,the weather man,2005,gore verbinski,"nicolas cage, hope davis, nicholas ho
 a2013,why we fight,2005,eugene jarecki,"gore vidal, john mccain, ken adelman","documentary, history, war",98
 a2015,yours mine and ours,1968,melville shavelson,"lucille ball, henry fonda, van johnson","comedy, family",111
 a2017,45,,jonathan buchner,,"documentary, biography, music",68
-a2019,10th & wolf,2007,robert moresco,"james marsden, giovanni ribisi, brad renfro","crime, drama, thriller",107
 a2023,9/tenths,2008,bob degus,"gabrielle anwar, henry ian cusick, dave baez","drama, romance, thriller",98
 a2024,a/k/a tommy chong,2008,josh gilbert,"lou adler, raven bast, paris chong",documentary,80
 a2027,after,2012,ryan smith,"steven strait, karolina wydra, madison lintz","mystery, thriller",90
@@ -417,14 +377,11 @@ a2089,the cats of mirikitani,2007,linda hattendorf,"linda hattendorf, jimmy miri
 a2091,charlotte's web,2006,gary winick,"dakota fanning, julia roberts, oprah winfrey","comedy, family, fantasy",97
 a2092,chasing the horizon,2006,markus canter,"milo brown, jeff lloyd, toby o'mara","documentary, adventure, comedy, drama",88
 a2094,christmas at maxwell's,2006,william c. laufer,"andrew may, jack hourigan, helen welch",drama,94
-a2096,civic duty,2008,jeff renfroe,"peter krause, khaled abol naga, richard schiff","drama, thriller",98
 a2097,clear cut: the story of philomath oregon,2006,peter richardson,,documentary,72
-a2100,cocaine cowboys,2007,billy corben,"jon roberts, al sunshine, sam burstyn","documentary, crime",118
 a2105,copying beethoven,2007,agnieszka holland,"ed harris, diane kruger, matthew goode","biography, drama, music",104
 a2109,crude impact,2006,james jandak wood,"thom hartmann, william rees, richard heinberg","documentary, history",97
 a2119,date movie,2006,aaron seltzer,"alyson hannigan, fred willard, jennifer coolidge","comedy, romance",83
 a2121,day night day night,2007,julia loktev,"luisa williams, josh philip weinstein, gareth saxe","crime, drama, thriller",94
-a2122,day on fire,2007,jay anania,"richard bright, carmen chaplin, martin donovan",drama,91
 a2124,the death of poe,2006,mark redfield,"mark redfield, kevin g. shinnick, jennifer rouse","drama, horror",80
 a2125,dã©jã  vu,1998,henry jaglom,"victoria foyt, stephen dillane, vanessa redgrave","drama, romance",117
 a2133,shut up & sing,2006,barbara kopple,"natalie maines, emily robison, martie maguire","documentary, biography, music",93
@@ -436,19 +393,15 @@ a2147,evil bong,2006,charles band,"david weidoff, john patrick jordan, mitch eak
 a2148,expiration date,2014,john cook,"nathan vetterlein, dennis bateman, ashly burch","animation, short, action, comedy",15
 a2163,flock of dodos: the evolution-intelligent design circus,2006,randy olson,"michael behe, john calvert, jack cashill",documentary,84
 a2171,free jimmy,2006,christopher nielsen,"woody harrelson, simon pegg, phil daniels","animation, comedy",86
-a2173,full grown men,2006,david munro,"matt mcgrath, judah friedlander, alan cumming","comedy, drama",78
 a2176,garfield 2,2006,tim hill,"breckin meyer, jennifer love hewitt, billy connolly","comedy, family, fantasy",78
 a2178,g.i. jesus,2006,carl colpaert,"joe arquette, patrícia mota, telana lynum","drama, fantasy",100
 a2179,glastonbury,2006,julien temple,"david bowie, björk, james brown","documentary, music",138
-a2185,goya's ghosts,2006,milos forman,"javier bardem, natalie portman, stellan skarsgård","biography, drama, history",113
 a2186,grandma's boy,2006,nicholaus goossen,"allen covert, linda cardellini, shirley jones",comedy,94
 a2187,the great warming,2006,,"severn cullis-suzuki, alanis morissette, keanu reeves",documentary,85
-a2199,the hawk is dying,2008,julian goldberger,"paul giamatti, michelle williams, michael pitt",drama,112
 a2201,the heart of steel,2008,angelo guglielmo,,documentary,54
 a2208,hood of horror,2007,stacy title,"snoop dogg, daniella alonso, anson mount","comedy, horror",84
 a2212,hurricane on the bayou,2006,greg macgillivray,"bear badeaux, tab benoit, peggy burgard",documentary,42
 a2224,iraq for sale: the war profiteers,2006,robert greenwald,"katy helvenston-wettengal, scott helvenston, donna zovko","documentary, war",75
-a2229,jesus camp,2007,heidi ewing,"mike papantonio, lou engle, becky fischer","documentary, drama",87
 a2230,jewish american princess,2006,ian davis,jonelle freed,documentary,78
 a2235,kalamazoo,1995,claudia silver,"emily cutler, jamie harrold, scott renderer",short,29
 a2243,larry the cable guy: health inspector,2006,trent cooper,"larry the cable guy, david koechner, michael papajohn","comedy, romance",89
@@ -466,20 +419,17 @@ a2275,modern man,2013,sebastian solberg,"sean knopp, ramanique ahluwalia, samira
 a2278,moonshine,2006,roger ingraham,"brian greer, sarah ingraham, gareth duvall","comedy, horror",73
 a2286,neil young: heart of gold,2006,jonathan demme,"neil young, emmylou harris, pegi young","documentary, music",103
 a2289,night of the living dead 3d,2006,jeff broadstreet,"brianna brown, joshua desroches, sid haig",horror,80
-a2290,the night of the white pants,2006,amy talkington,"tom wilkinson, nick stahl, selma blair","comedy, drama",87
 a2292,unthinkable,2010,gregor jordan,"samuel l. jackson, carrie-anne moss, michael sheen","drama, thriller",97
 a2293,o jerusalem,2006,ã‰lie chouraqui,"jj feild, saïd taghmaoui, maria papas",drama,100
 a2294,occupation 101,2007,abdallah omeish,"james akins, arik ascherman, bishop barltlett jr.",documentary,90
 a2297,the omen,1976,richard donner,"gregory peck, lee remick, harvey stephens","horror, mystery",111
 a2299,once in a lifetime: the extraordinary story of the new york cosmos,2006,paul crowder,"pelé, giorgio chinaglia, matt dillon","documentary, sport",97
-a2303,pan's labyrinth,2007,guillermo del toro,"ivana baquero, ariadna gil, sergi lópez","drama, fantasy, war",118
 a2304,park,2006,kurt voelker,"dagney kerr, tank, vincent riverside","comedy, drama",86
 a2306,penelope,2008,mark palansky,"christina ricci, james mcavoy, reese witherspoon","comedy, fantasy, romance",104
 a2309,the phobic,2006,margo romero,"courtney gains, juliette marquis, eric millegan",thriller,
 a2313,poultrygeist: night of the chicken dead,2012,lloyd kaufman,"jason yachanin, kate graham, allyson sereboff","comedy, horror, musical",103
 a2314,the power of community: how cuba survived peak oil,2006,faith morgan,"bruce cromer, jorge mario, rachel bruhnke",documentary,53
 a2316,the prisoner or: how i planned to kill tony blair,2007,petra epperlein,yunis khatayer abbas,documentary,72
-a2319,puff puff pass,2006,mekhi phifer,"ronnie warner, danny masterson, mekhi phifer",comedy,95
 a2323,quick pick,2006,will vázquez,"john bryant, anna moreno-nava, angelina assereto",comedy,87
 a2325,the rape of the sabine women,1962,alberto gout,"lorena velázquez, lex johnson, tere velázquez","adventure, action, drama",80
 a2331,roman,2006,angela bettis,"lucky mckee, nectar rose, kristen bell","drama, thriller",92
@@ -489,8 +439,6 @@ a2339,sacco & vanzetti,1971,giuliano montaldo,"gian maria volonté, riccardo cuc
 a2340,the santa clause 3: the escape clause,2006,michael lembeck,"tim allen, martin short, elizabeth mitchell","adventure, comedy, family, fantasy",97
 a2348,scott walker: 30 century man,2007,stephen kijak,"damon albarn, dot allison, marc almond","documentary, biography, music",95
 a2354,shark bait,2006,howard e. baker,"john rhys-davies, bruno alexander, reedy gibbs","animation, family",77
-a2361,sleeping dogs lie,2007,bobcat goldthwait,"melinda page hamilton, bryce johnson, brian posehn","comedy, drama, romance",87
-a2363,small town gay bar,2006,malcolm ingram,"jim bishop, terry capps, jackie cox",documentary,76
 a2368,sonhos de peixe,2007,kirill mikhanovsky,"josé maria alves, rúbia rafaelle da silva, chico díaz",drama,111
 a2369,special,2006,hal haberman,"michael rapaport, paul blackthorne, josh peck","comedy, drama, sci-fi",81
 a2378,strawberry shortcake: the sweet dreams movie,2006,karen hyden,"sarah heinke, rachel ware, samantha triba","animation, family",83
@@ -506,39 +454,31 @@ a2422,yeti: a love story,2008,adam deyoe,"david paige, adam malamut, laura glasc
 a2425,zyzzyx rd,2006,john penney,"leo grillo, katherine heigl, tom sizemore",thriller,90
 a2435,the go getter,1937,busby berkeley,"george brent, anita louise, charles winninger","comedy, romance",92
 a2436,god's ears,2008,michael worth,"margot farley, michael worth, john saxon",drama,117
-a2440,the good night,2008,jake paltrow,"martin freeman, gwyneth paltrow, penélope cruz","comedy, drama, fantasy, music, romance",93
-a2441,grace is gone,2008,james c. strouse,"john cusack, emily churchill, rebecca spence",drama,85
 a2446,halloween,1978,john carpenter,"donald pleasence, jamie lee curtis, tony moran","horror, thriller",91
 a2448,happily n'ever after,2007,paul bolger,"sigourney weaver, sarah michelle gellar, patrick warburton","animation, adventure, comedy, family, fantasy",87
 a2461,the american soldier,1975,rainer werner fassbinder,"karl scheydt, elga sorbas, jan george",drama,80
 a2476,kickin' it old skool,2007,harvey glazer,"jamie kennedy, maria menounos, miguel a. núñez jr.",comedy,108
 a2478,the king of kong: a fistful of quarters,2008,seth gordon,"steve wiebe, billy mitchell, mark alpiger","documentary, biography, sport",79
 a2479,king of punk,2007,kenneth van schooten,"hannah alvez, wattie buchan, jake burns",documentary,70
-a2481,the kite runner,2008,marc forster,"khalid abdalla, ahmad khan mahmoodzada, atossa leoni",drama,128
 a2497,manda bala,2009,jason kohn,,documentary,85
 a2507,the prince and the pauper: the movie,2008,james quattrochi,"cole sprouse, dylan sprouse, kay panabaker","action, family",92
 a2508,monster camp,2007,cullen hoback,,"documentary, fantasy",81
 a2509,mother of tears,2007,dario argento,"asia argento, cristian solimeno, adam james",horror,102
-a2516,my faraway bride,2007,rajeev virani,"jason lewis, kashmira shah, gulshan grover","comedy, drama, romance",95
 a2517,my sexiest year,2007,howard himelstein,"frankie muniz, harvey keitel, amber valletta","comedy, drama",93
-a2529,normal adolescent behavior,2007,beth schacter,"amber tamblyn, ashton holmes, kelli garner","drama, romance",93
 a2530,numb,2008,harris goldberg,"matthew perry, lynn collins, kevin pollak","comedy, drama, romance",93
 a2533,oh saigon,2007,doan hoang,"nam hoang, van tran, anne hoang","documentary, war",57
 a2534,aap ki khatir,2006,dharmesh darshan,"akshaye khanna, priyanka chopra, ameesha patel",romance,122
 a2535,operation homecoming: writing the wartime experience,2007,richard robbins,"sharon d. allen, beau bridges, colby buzzell",documentary,81
 a2536,p.s. i love you,2007,richard lagravenese,"hilary swank, gerard butler, harry connick jr.","drama, romance",126
 a2538,song for a raggy boy,2003,aisling walsh,"aidan quinn, iain glen, marc warren",drama,94
-a2549,press start,2007,ed glaser,"joshua stafford, lauren chambers, al morrison",comedy,100
 a2561,rolling,2007,billy samoa saleebey,"sanoe lake, garrett brawith, rachel hardisty",drama,90
 a2565,saw iv,2007,darren lynn bousman,"tobin bell, scott patterson, costas mandylor","horror, mystery",93
 a2571,showbusiness: the road to broadway,2007,dori berinstein,"alissa anderegg, kristen anderson-lopez, rob ashford",documentary,102
 a2575,sinner,2007,marc benardout,"nick chinlund, georgina cates, michael e. rodgers",drama,88
-a2579,smiley face,2008,gregg araki,"anna faris, john krasinski, adam brody",comedy,85
 a2585,a state of vine,,don scioli,"mario andretti, daniel baron, fred franzia",documentary,60
 a2589,christmas eve,2015,mitch davis,"patrick stewart, james roday, jon heder",comedy,
 a2591,suffering man's charity,2007,alan cumming,"alan cumming, david boreanaz, anne heche","comedy, horror",93
 a2597,taxi to the dark side,2009,alex gibney,"alex gibney, brian keith allen, moazzam begg","documentary, crime, war",106
-a2598,the ten,2008,david wain,"paul rudd, jessica alba, winona ryder",comedy,96
 a2608,war dance,2008,sean fine,"dominic, nancy, rose","documentary, music, war",105
 a2615,white noise 2: the light,2007,patrick lussier,"nathan fillion, katee sackhoff, craig fairbrass","drama, horror, thriller",99
 a2616,who's your caddy?,2007,don michael paul,"big boi, jeffrey jones, terry crews","comedy, sport",93
@@ -550,20 +490,16 @@ a2631,30 nights of paranormal activity with the devil inside the girl with the d
 a2635,the mine,2012,jeff chamberlain,"reiley mcclendon, adam hendershott, valerie c. walker","adventure, horror, mystery, thriller",95
 a2638,aftershock,2014,nicolás lópez,"eli roth, ariel levy, nicolás martínez","action, adventure, horror, thriller",89
 a2645,apartment 1303 3d,2013,michael taverna,"mischa barton, rebecca de mornay, julianne michelle",horror,85
-a2646,ae: apocalypse earth,2013,thunder levin,"adrian paul, richard grieco, bali rodriguez","action, sci-fi",87
 a2649,artifact,2013,jared leto,"jared leto, shannon leto, tomo milicevic","documentary, music",103
-a2669,blue caprice,2015,alexandre moors,"isaiah washington, tequan richmond, tim blake nelson","biography, crime, drama",93
 a2672,the book of esther,2013,david a.r. white,"jen lilley, linda bisesti, john clement",drama,90
 a2690,cheech & chong's animated movie,2013,branden chambers,"cheech marin, tommy chong","animation, comedy",84
 a2691,chilling visions: 5 senses of fear,2015,eric england,"symba, nicholas tucci, danae nason",horror,88
 a2692,clark: a gonzomentary,2013,daniel d.w.,"william clark, james curcio, daniel d.w.","documentary, comedy",100
-a2694,coffin baby,2015,dean jones,"bruce dern, brian krause, clifton powell",horror,95
 a2695,company of heroes,2013,don michael paul,"tom sizemore, alastair mackenzie, chad michael collins","action, war",100
 a2700,contest,2013,anthony joseph giunta,"kenton duty, danny flaherty, mary beth peil","drama, family",87
 a2701,the gay divorcee,1934,mark sandrich,"fred astaire, ginger rogers, alice brady","comedy, musical, romance",107
 a2702,contracted,2013,eric england,"najarra townsend, caroline williams, alice macdonald","drama, horror, thriller",78
 a2717,emperor,2015,lee tamahori,"adrien brody, sophie cookson, paz vega","adventure, thriller",
-a2723,erased,2012,philipp stölzl,"aaron eckhart, nick alachiotis, liana liberato","action, thriller",100
 a2729,far marfa,2013,cory van dyke,"johnny sneed, jolyn janis, julie mintz","comedy, drama",86
 a2737,fright night 2,2013,eduardo rodriguez,"will payne, jaime murray, sean power","comedy, horror, thriller",100
 a2744,geography club,2014,gary entin,"cameron deane stewart, justin deeley, meaghan martin",comedy,84
@@ -573,7 +509,6 @@ a2767,the haunting in connecticut 2: ghosts of georgia,2013,tom elkins,"abigail 
 a2768,he's way more famous than you,2013,michael urie,"halley feiffer, ryan spahn, ashlie atkinson",comedy,96
 a2771,hit & stay,2013,skizz cyzyk,"rahne alexander, joel andreas, bill ayers","documentary, history, news, war",99
 a2779,house of dust,2013,a.d. calvo,"inbar lavi, steven grayhm, eddie hassell","horror, thriller",90
-a2781,how to be a man,2014,chadd harbold,"gavin mcinnes, liam aiken, megan neuringer",comedy,85
 a2785,i know that voice,2013,lawrence shapiro,"john dimaggio, kevin conroy, jim cummings",documentary,90
 a2786,i spit on your grave 2,2014,steven r. monroe,"jemma dallender, joe absolom, yavor baharov","crime, horror, thriller",106
 a2792,indescribable,2013,stacie graber,"seth pruski, rich swingle, j.c. scott","drama, family, history",94
@@ -582,10 +517,8 @@ a2806,steve jobs,2015,danny boyle,"michael fassbender, kate winslet, seth rogen"
 a2810,justice league: the flashpoint paradox,2013,jay oliva,"justin chambers, c. thomas howell, michael b. jordan","animation, action, adventure, fantasy, sci-fi",75
 a2819,lake windfall,2013,roger vass,"christopher b. corrigan, alex laferriere, jasun hicks","comedy, drama, thriller",105
 a2820,glory daze,1996,rich wilkes,"ben affleck, sam rockwell, megan ward",comedy,100
-a2826,the legend of jimi lazer,2013,mann munoz,"robbie beniuk, patrick mitchell, amy landon","adventure, fantasy",92
 a2831,lil bub & friendz,2013,andy capper,"devin yuceil, lil bub, mike bridavsky",documentary,65
 a2835,the lost medallion: the adventures of billy stone,2013,bill muir,"billy unger, john marengo, sammi hanratty","adventure, family, fantasy",97
-a2839,luv,2015,sheldon candis,"common, michael rainey jr., dennis haysbert","crime, drama",94
 a2842,magic magic,2013,sebastián silva,"michael cera, juno temple, emily browning",thriller,97
 a2843,manhattan romance,2015,tom o'brien,"jessie barr, louis cancelmi, margaret daly","comedy, drama, romance",94
 a2846,the marine 3: homefront,2013,scott wiper,"mike 'the miz' mizanin, neal mcdonough, ashley bell","action, thriller",86
@@ -598,21 +531,17 @@ a2870,palominas,,thadd turner,"ryan merriman, michael parks, wes studi","action,
 a2871,half life,,,,,
 a2872,paradise,2013,diablo cody,"julianne hough, nick offerman, holly hunter","comedy, drama",86
 a2877,pawn,2013,david a. armstrong,"nikki reed, marton csokas, jessica szohr","crime, mystery, thriller",88
-a2879,penthouse north,2014,joseph ruben,"michelle monaghan, michael keaton, barry sloane","drama, mystery, thriller",90
 a2882,pit stop,2013,yen tan,"bailey bass, marcus deanda, yesenia garcia",drama,80
 a2886,+1,2013,dennis iliadis,"rhys wakefield, logan miller, ashley hinshaw","sci-fi, thriller",95
 a2890,project 22,2015,daniel j. egbert,"tina bass, beth baus, jon mark beilue","documentary, biography, history, war",102
 a2895,altered minds,2015,michael z. wechsler,"judd hirsch, ryan o'nan, c.s. lee","drama, thriller",106
 a2900,roadside,2015,eric england,"ace marrero, katie stegeman, lionel d. carson","drama, horror, mystery, thriller",90
-a2901,robotech: love live alive,2013,gregory snegoff,"frank catalano, cam clarke, richard epcar","animation, action, adventure, sci-fi",89
-a2906,savannah,2014,annette haywood-carter,"jim caviezel, chiwetel ejiofor, jaimie alexander","drama, family, history, romance",101
 a2908,sex boss,,jackson stewart,"chase williamson, graham skipper, jesse merlin","short, comedy",6
 a2910,saving santa,2013,leon joosen,"newell alexander, noel clarke, joan collins","animation, adventure, comedy, family, fantasy, musical",83
 a2915,sexy evil genius,2014,shawn piller,"katee sackhoff, anthony michael hall, michelle trachtenberg","comedy, drama, mystery, thriller",91
 a2916,shadow people,2013,matthew arnold,"dallas roberts, alison eastwood, anne dudek","horror, thriller",89
 a2919,shotgun wedding,2013,danny roew,"mike damus, kim shaw, joel mckinnon miller","comedy, horror, romance",92
 a2928,spiders,2013,tibor takács,"william hope, shelly varod, brian hankey","horror, sci-fi, thriller",89
-a2938,sunlight jr.,2015,laurie collyer,"naomi watts, norman reedus, matt dillon",drama,90
 a2941,superman: unbound,2013,james tucker,"matt bomer, stana katic, john noble","animation, action, adventure",75
 a2943,temptation: confessions of a marriage counselor,2013,tyler perry,"jurnee smollett-bell, vanessa williams, brandy norwood","drama, thriller",111
 a2944,exam,2010,stuart hazeldine,"adar beck, gemma chan, nathalie cox","mystery, thriller",101
@@ -628,45 +557,33 @@ a2973,you're next,2013,adam wingard,"sharni vinson, joe swanberg, aj bowen","hor
 b5,40 days and nights,,peter geiger,"monica keena, alex carter, christianna carmine, emily sandifer","mystery & suspense, action & adventure",90
 b6,the abcs of death,2013,christopher smith,"ingrid bolso berdal, neil maskell, kyra zagorsky, michael smiley","mystery & suspense, horror",129
 b8,abraham lincoln vs. zombies,,richard schenkman,"bill oberst jr., jason vail, baby norman, don mcgraw","action & adventure, horror, comedy",91
-b12,the aggression scale,,steven c. miller,"ryan hartwig, fabianne therese, ray wise, dana ashbrook","drama, action & adventure, mystery & suspense",84
-b13,air collision,,liz adams,"jordan ladd, gerald webb, reginald veljohnson, michael teh",action & adventure,90
 b15,alien origin,,mark atkins,"chelsea vincent, peter pedrero, philip coc, trey mccurley","action & adventure, mystery & suspense, science fiction & fantasy",91
 b16,allegiance,2012,michael connors,"seth gabel, aidan quinn, bow wow, malik yoba","mystery & suspense, science fiction & fantasy",91
 b18,the amazing adventures of the living corpse,,justin paul ritter,"claudine claudio, michael villar, marshal hilton, lee perkins","action & adventure, horror, animation, science fiction & fantasy",87
-b22,apostle peter and the last supper,,gabriel sabloff,"robert loggia, bruce marchiano, laurence fuller, ryan alosio","drama, faith & spirituality",88
-b25,arcadia,,olivia silver,"john hawkes, ryan simpkins, kendall toole, ty simpkins",drama,91
 b27,art machine,2014,doug karr,"joseph cross, jessica szohr, meredith hagner, christopher abbott",comedy,89
 b30,atom the amazing zombie killer,,zack beins,"lloyd kaufman, babette bombshell, shawn c. phillips","horror, comedy",80
 b37,barbie: the princess & the popstar,,ezekiel norton,kelly sheridan,"animation, kids & family",76
-b40,batman: the dark knight returns part 1,,jay oliva,"peter weller, ariel winter, david selby, wade williams","action & adventure, animation",134
 b42,battlefield america,2012,c. brian,"marques houston, mekia cox, lynn whitfield, christopher michael ...","musical & performing arts, drama",106
 b47,beauty and the beast,2012,gary trousdale,"paige o'hara, robby benson, jerry orbach, angela lansbury","animation, romance, drama, kids & family, musical & performing arts, science fiction & fantasy",85
 b50,ben banks,,bryce clark,"mischa barton, ben banks, alex beh, katharine towne","drama, comedy",90
 b54,beverly hills chihuahua 3: viva la fiesta!,,lev l. spiro,"george lopez, odette annable, emily osment, madison pettis","comedy, kids & family",89
 b55,beyond the reach,2015,jean-baptiste lonetti,"michael douglas, jeremy irvine, hanna mangan lawrenc..., ronny cox",mystery & suspense,91
-b60,blood for irina,,chris alexander,"shauna henry, carrie gemmell, david goodfellow, andre becker",horror,70
 b61,border run (the mule),2012,gabriela tagliavini,"sharon stone, billy zane, miguel rodarte, rosemberg salgado",mystery & suspense,96
 b64,branded,2012,alexander doulerain,"ed stoppard, leelee sobieski, jeffrey tambor, ingeborga dapkunaite","drama, mystery & suspense, science fiction & fantasy",106
 b65,braveheart,1995,mel gibson,"mel gibson, sophie marceau, patrick mcgoohan, catherine mccormack","drama, action & adventure, classics",177
 b69,the metropolitan opera: madama butterfly,2016,anthony minghella,"kristine opolais, patricia racette, massimo giordano, roberto alagna",special interest,201
 b72,california winter,,odin ozdil,"elizabeth dominguez, michael ironside, a martinez, rutina wesley",drama,82
-b84,a christmas story 2,,brian levant,"braeden lemasters, daniel stern, valin shinyei, stacey travis",comedy,85
-b85,christmas with the dead,,t.l. lankford,"damian maffei, brad maule, chet williamson, clyde williams",horror,88
 b86,the chronicles of narnia: the lion the witch and the wardrobe,2005,marilyn fox,"georgie henley, skandar keynes, william moseley, anna popplewell","science fiction & fantasy, kids & family",139
 b88,clash of the empires,2012,joseph j. lawson,"ling bai, christopher judge, sum korng, srogn","action & adventure, science fiction & fantasy",90
 b93,shakespeare's globe theatre: the comedy of errors,2015,blanche mcintyre,"hattie ladbury, harrison simon, stefan adegbola, andy apollo",special interest,140
 b106,10 days in a madhouse,2015,timothy hines,"caroline barry, christopher lambert, kelly lebrock, julia chantrey",drama,111
 b107,dead before dawn,1993,charles v. correll,"cheryl ladd, jameson parker, hope lange, g.w. bailey","drama, television, mystery & suspense",100
-b109,deadline,,sean mcconville,"brittany murphy, thora birch, marc blucas, tammy blanchard","drama, horror, mystery & suspense",89
 b110,death race 3: inferno (unrated),,roel rein,"luke goss, danny trejo, tanit phoenix, frederick koehler","drama, action & adventure, mystery & suspense",106
 b111,deep dark canyon,2012,dustin rikert,"martin starr, matthew lillard, nick eversman, spencer treat clark","western, action & adventure",90
 b118,don't change the subject,,mike stutz,,"documentary, comedy, special interest",98
 b119,dracula reborn,,attila luca,"tina balthazar, yves carlevaris, chlo dumas, eric kara","art house & international, horror",102
-b127,excision,,richard bates jr.,"annalynne mccord, traci lords, ariel winter, roger bart",horror,81
 b128,exit strategy,2012,michael whitton,"jameel saleem, kimelia weathers, quincy ""qdeezy"" harr..., noelle balfour","comedy, romance",76
 b131,filly brown,2013,michael d. olmos,"gina rodriguez, jenni rivera, lou diamond phillips, edward james olmos",drama,100
-b133,fire with fire,,david barrett,"josh duhamel, bruce willis, rosario dawson, vincent d'onofrio","drama, action & adventure, mystery & suspense, special interest",97
-b136,flicka: country pride,,michael damian,"clint black, lisa hartman, kacey rohl, lisa hartman black",kids & family,92
 b147,gambit,2016,michael hoffman,"colin firth, cameron diaz, alan rickman, tom courtenay","drama, action & adventure, mystery & suspense, comedy",89
 b149,ghost rider: spirit of vengeance,2012,brian taylor,"nicolas cage, ciarn hinds, violante placido, idris elba","action & adventure, mystery & suspense, science fiction & fantasy",95
 b152,gone doggy gone,2015,brandon walter,"shaina vorspan, brandon walter, kasi brown, kate connor","drama, action & adventure, comedy",89
@@ -675,7 +592,6 @@ b186,dr seuss' the lorax,2012,chris renaud,"danny devito, ed helms, zac efron, t
 b193,martial arts: secrets of the asian masters,2015,barclay powers,,"documentary, sports & fitness",80
 b204,paranormal activity 4,2012,ariel schulman,"katie featherston, kathryn newton, mattt shively, stephen dunham",horror,90
 b213,project x,2012,jonathan kaplan,"thomas mann, oliver cooper, dax flame, kirby bliss blanton","drama, science fiction & fantasy, comedy",88
-b214,price check,2012,michael walker,"parker posey, eric mabius, annie parisse, josh pais",comedy,92
 b225,rise of the guardians,2012,william joyce,"alec baldwin, jude law, hugh jackman, isla fisher","action & adventure, animation, kids & family",97
 b248,the swan princess christmas,,richard rich,"laura bailey, summer eguchi, yuri lowenthal, michaelangelo","animation, kids & family",90
 b257,thunderstruck,2012,eric champnella,"taylor gray, kevin durant, brandon t. jackson, larramie 'doc' shaw","comedy, kids & family",94
@@ -692,12 +608,10 @@ b308,the devil's carnival: alleluia!,2015,darren lynn bousman,"terrance zdunich,
 b320,a faster horse,2015,david gelb,"gale halderman, david gelb, tom barnes",documentary,90
 b324,freakonomics,2010,seth gordon,"steven d. levitt, stephen j. dubner, zoe sloane, adesuwa addy iyare","documentary, special interest",86
 b326,frozen,2010,adam green,"emma bell, shawn ashmore, kevin zegers, ed ackerman","drama, horror, mystery & suspense",94
-b358,kung fu killer,2015,teddy chen,"donnie yen, charlie yeung, wang baoqiang, bing bai","action & adventure, art house & international, mystery & suspense",100
 b379,marwencol,2010,jeff malmberg,mark hogancamp,"documentary, science fiction & fantasy",83
 b380,megamind,2010,cameron hood,"will ferrell, brad pitt, tina fey, jonah hill","action & adventure, animation, kids & family, comedy",96
 b382,mirrors 2,,victor garca,"nick stahl, lawrence turner, emmanuelle vaugier, william katt","mystery & suspense, horror",90
 b385,my soul to take,2010,petra korner,"john magaro, denzel whitaker, zena grey, nick lashaway","mystery & suspense, horror",108
-b393,paper man,2010,kieran mulroney,"jeff daniels, emma stone, ryan reynolds, lisa kudrow","drama, comedy",110
 b413,saw 3d,2010,kevin greutert,"tobin bell, costas mandylor, betsy russell, sean patrick flanery",horror,90
 b416,shrek forever after,2010,andrew adamson,"mike myers, eddie murphy, cameron diaz, antonio banderas","action & adventure, animation, kids & family, science fiction & fantasy, comedy",93
 b419,small town saturday night,,ryan craig,"chris pine, bre blair, john hawkes, lin shaye",drama,94
@@ -705,7 +619,6 @@ b431,tooth fairy,2004,jake scott,"chris noth, jacqueline walker, wesley leonard,
 b435,tron legacy,2010,john lasseter,"jeff bridges, garrett hedlund, olivia wilde, bruce boxleitner","action & adventure, science fiction & fantasy",125
 b437,twelve,2010,steven fierberg,"chace crawford, rory culkin, 50 cent, anthony quarles",drama,93
 b439,the st. valentine's day massacre,1967,roger corman,"jason robards, jean hale, george segal, ralph meeker","drama, action & adventure, mystery & suspense, cult movies",100
-b449,wonderful world,2010,josh goldin,"matthew broderick, michael k. williams, sanaa lathan, philip baker hall","drama, romance",89
 b466,atlas shrugged: part ii,2012,john putch,"samantha mathis, jason beghe, esai morales, patrick fabian",drama,112
 b477,me you and five bucks,2015,jaime zevallos,"jaime zevallos, angela sarafyan, sean nateghi, daniel chaffin",comedy,91
 b490,dead stop,,nick rotundo,"robert mcfaul, tina mosner, chris chinchilla, gina brunton",horror,92
@@ -721,7 +634,6 @@ b549,limitless,2011,neil burger,"bradley cooper, robert de niro, abbie cornish, 
 b551,lucky stiff,2015,christopher ashley,"dominic marsh, nikki m. james, pamela shaw, jason alexander","musical & performing arts, comedy",78
 b552,machine gun preacher,2011,sebastian roche,"gerard butler, michelle monaghan, kathy baker, michael shannon","drama, action & adventure",123
 b568,paranormal activity 3,2011,tod williams,"jessica tyler brown, chloe csengery, christopher nicholas..., lauren bittner","mystery & suspense, horror",84
-b580,red state,,kevin smith,"michael parks, melissa leo, john goodman, kyle gallner","mystery & suspense, horror",88
 b603,batman v superman: dawn of justice,2016,zack snyder,"gal gadot, ben affleck, henry cavill, amy adams","action & adventure, science fiction & fantasy",
 b621,winnie the pooh,2011,don hall,"jim cummings, craig ferguson, jack boulter, tom kenny","animation, kids & family",73
 b646,che strano chiamarsi federico!,2015,ettore scola,"sergio rubini, antonella attili, vittorio viviani, sergio pierattini","documentary, drama",93
@@ -737,7 +649,6 @@ b700,igor,2008,anthony leondis,"john cusack, steve buscemi, john cleese, jennife
 b708,kung fu panda 3,2016,alessandro carloni,"jack black, angelina jolie, kate hudson, mads mikkelsen",animation,
 b726,milk,2015,noemi weis,,"documentary, kids & family, art house & international",91
 b736,passengers,2008,rodrigo garca,"anne hathaway, patrick wilson, clea duvall, andre braugher","mystery & suspense, drama",93
-b739,pray the devil back to hell,2008,gini reticker,"etweda ""sugars"" coop..., vaiba flomo, asatu kenneth, janet johnson-bryant","documentary, special interest",72
 b748,rambo,1986,michael hack,"alan oppenheimer, dale ishimoto, ed gilbert, frank welker","comedy, kids & family",
 b771,spike island,2015,mat whitecross,"elliott tittensor, emilia clarke, chris coghill, matthew mcnulty",drama,96
 b773,spy school (doubting thomas),,mark blutman,"forrest landis, annasophia robb, lea thompson, rider strong","action & adventure, kids & family, comedy",88
@@ -760,7 +671,6 @@ b887,the hole,2012,joe dante,"chris massoglia, haley bennett, nathan gamble, ter
 b889,horrorween,2010,joe estevez,"chuck lamb, ed meyer, joe estevez, eliezer castro","horror, comedy",
 b900,the informant,1998,jim mcbride,"anthony brophy, cary elwes, timothy dalton, maria lennon",drama,105
 b920,love n' dancing,2008,robert iscove,"amy smart, billy zane, caroline rhea, nicola royston","drama, romance, musical & performing arts",98
-b924,the maiden heist,2009,peter hewitt,"christopher walken, morgan freeman, william h. macy, marcia gay harden",comedy,90
 b925,management,2009,eric alan edwards,"jennifer aniston, steve zahn, woody harrelson, fred ward","comedy, romance",93
 b933,my bloody valentine,1981,george mihalka,"paul kelman, lori hallier, neil affleck, keith knight","mystery & suspense, horror",91
 b947,obsessed,2009,steve shill,"idris elba, beyonce knowles, ali larter, bruce mcgill","mystery & suspense, drama",108
@@ -776,34 +686,25 @@ b1022,beautiful something,2015,joseph graham,"colman domingo, peter patrikios, m
 b1034,brotherly love,2015,jamal hill,"keke palmer, cory c. hardrict, eric d. hill, lil' romeo",drama,90
 b1037,the cell,2000,jennifer lopez,"jennifer lopez, vince vaughn, vincent d'onofrio, marianne jean-baptis...","horror, mystery & suspense, science fiction & fantasy",106
 b1039,behind the camera: the unauthorized story of 'charlie's angels',,francine mcdougall,"dan castellaneta, dan lauria, tricia helfer, christina chambers","drama, television, comedy",120
-b1041,chinese coffee,,al pacino,"al pacino, jerry orbach, susan floyd, ellen mcelduff",drama,99
 b1042,chocolate city,2015,jean-claude la marre,"robert ri'chard, carmen electra, imani hakim, tyson beckford",drama,91
 b1047,the crossing,1990,george ogilvie,"danielle spencer, russell crowe, robert mammone, george whaley","drama, romance",92
 b1049,the good dinosaur,2015,bob peterson,"raymond ochoa, jeffrey wright, frances mcdormand, steve zahn",animation,
 b1051,tcm presents dracula,2015,tod browning,"bela lugosi, helen chandler, david manners, dwight frye","horror, special interest",85
 b1059,fantasia - 75th anniversary,2015,james algar,"leopold stokowski, deems taylor, julietta novis, walt disney","animation, kids & family, classics",120
-b1061,finding forrester,2000,gus van sant,"sean connery, rob brown (vi), f murray abraham, anna paquin","drama, comedy",136
 b1066,the girl,2013,david riker,"abbie cornish, maritza santiago her..., will patton, giovanna zacaras","drama, horror",95
-b1070,gossip,1999,davis guggenheim,"eric bogosian, marisa coughlan, lena headey, kate hudson","mystery & suspense, drama",90
 b1073,national theatre live: hamlet encore screening,2015,lyndsey turner,"benedict cumberbatch, rory kinnea, matthew barker, david calder","drama, special interest",210
 b1086,just one night,,alan jacobs,"timothy hutton, maria grazia cucinot..., udo kier, michael o'keefe","drama, comedy",90
 b1088,the kid,2000,jon turteltaub,"bruce willis, spencer breslin, emily mortimer, lily tomlin","kids & family, science fiction & fantasy, comedy",104
 b1090,the last producer,,burt reynolds,"burt reynolds, benjamin bratt, lauren holly, sean astin",,120
 b1101,me myself & irene,2000,chris cooper,"jim carrey, rene zellweger, anthony anderson, mongo brownlee",comedy,117
 b1113,next friday,2000,"don ""dc"" curry","ice cube, mike epps, justin pierce, john witherspoon",comedy,98
-b1116,o brother where art thou?,2000,ethan coen,"george clooney, john turturro, tim blake nelson, john goodman","drama, comedy",106
 b1145,the scarecrow,1920,buster keaton,"buster keaton, joe roberts, joe keaton, sybil seely",comedy,2
-b1146,scary movie,2000,keenen ivory wayans,"marlon wayans, shawn wayans, anna faris, shannon elizabeth","horror, comedy",88
 b1148,screwed,2000,scott alexander,"norm macdonald, dave chappelle, elaine stritch, danny devito",comedy,82
 b1149,seventeen again,2000,jeff byrd,"tia mowry, tamera mowry, tahj mowry, mark taylor","kids & family, science fiction & fantasy, comedy",105
-b1163,steal this movie,2000,robert greenwald,"vincent d'onofrio, janeane garofalo, jeanne tripplehorn, kevin pollak","drama, art house & international, comedy",111
 b1164,supernova,2000,jack sholder,"james spader, peter facinelli, robin tunney, wilson cruz","science fiction & fantasy, horror",90
-b1166,terror tract,2000,lance w. dreesen,"john ritter, bryan cranston, rachel york, carmine giovinazzo","horror, mystery & suspense, comedy",2000
 b1176,unbreakable,2000,ross whitaker,"bruce willis, samuel l. jackson, robin wright, spencer treat clark","drama, mystery & suspense, science fiction & fantasy",107
 b1182,waking the dead,2000,keith gordon,"billy crudup, jennifer connelly, molly parker, janet mcteer","drama, romance, mystery & suspense",106
 b1202,fidelio alice's journey,2015,lucie borleteau,"ariane labed, anders danielsen lie, melvil poupaud","drama, romance",97
-b1203,all over the guy,2001,julie davis,"dan bucatinsky, richard r. ruccolo, doris roberts, michael harris","drama, romance, gay & lesbian, comedy",92
-b1210,an american rhapsody,2001,va grdos,"nastassja kinski, scarlett johansson, tony goldwyn, mae whitman",drama,106
 b1213,the anniversary party,2001,jennifer jason leigh,"alan cumming, jennifer jason leigh, gwyneth paltrow, kevin kline","drama, comedy",115
 b1225,bone tomahawk,2015,s. craig zahler,"kurt russell, lili simmons, matthew fox, richard jenkins","western, action & adventure, horror",133
 b1237,the deep end,2001,scott mcgehee,"tilda swinton, goran visnjic, jonathan tucker, peter donat","mystery & suspense, drama",99
@@ -818,7 +719,6 @@ b1274,how to make a monster,2001,george huang,"clea duvall, steven culp, tyler m
 b1291,kingdom come,2001,doug mchenry,"ll cool j, jada pinkett smith, vivica a. fox, whoopi goldberg","drama, comedy",95
 b1295,the importance of being earnest live,2015,adrian noble,"david suchet, emily barber, michael benz, philip cumbus",special interest,150
 b1298,laughter on the 23rd floor,,richard benjamin,"nathan lane, mark linn-baker, victor garber, saul rubinek",comedy,102
-b1302,the lost skeleton of cadavra,2004,larry blamire,"larry blamire, fay masterson, brian howe, susan mcconnell","drama, science fiction & fantasy, comedy",90
 b1308,moulin rouge,1952,john huston,"colette marchand, zsa zsa gabor, suzanne flon, katherine kath","drama, musical & performing arts, classics",119
 b1311,murder on a sunday morning,2001,jean-xavier de lestrade,"pat mcguinness, brenton butler, patrick mcguinness, ann finnell","documentary, drama, special interest",111
 b1313,my big break,,tony zierra,"brad rowe, chad lindberg, gregory fawcett, tony zierra","documentary, special interest",101
@@ -832,7 +732,6 @@ b1348,she creature,2001,edward l. cahn,"rufus sewell, carla gugino, gil bellows,
 b1350,shrek 2,2004,conrad vernon,"mike myers, eddie murphy, cameron diaz, julie andrews","animation, kids & family, science fiction & fantasy, comedy",93
 b1372,town & country,2000,boris damast,"warren beatty, diane keaton, goldie hawn, garry shandling","drama, comedy",105
 b1375,uprising,2001,jon avnet,"hank azaria, david schwimmer, jon voight, leelee sobieski",drama,210
-b1392,being julia,2004,istvn szab,"annette bening, jeremy irons, michael gambon, bruce greenwood","drama, comedy",103
 b1396,henry gamble's birthday party,2015,stephen cone,"pat healy, tyler ross, kelly o'sullivan, francis guinan",drama,87
 b1401,catwoman,2004,jean-christophe 'pitof' comar,"halle berry, benjamin bratt, sharon stone, lambert wilson","drama, action & adventure",101
 b1402,born into brothels,2004,zana briski,"avijit halder, shanti das, puja mukerjee, kochi","documentary, musical & performing arts, special interest",85
@@ -866,14 +765,10 @@ b1551,straight jacket,2004,richard day,"matt letscher, carrie preston, adam gree
 b1557,jafar panahi's taxi,2015,jafar panahi,jafar panahi,documentary,82
 b1558,team america: world police,2004,matt stone,"trey parker, matt stone, kristen miller, masasa","drama, comedy",97
 b1600,bewitched,2005,nora ephron,"nicole kidman, will ferrell, shirley maclaine, michael caine","science fiction & fantasy, comedy",102
-b1607,capote,2005,bennett miller,"philip seymour hoffm..., catherine keener, chris cooper, bruce greenwood",drama,115
-b1613,the chumscrubber,2005,arie posin,"jamie bell, josh janowicz, lou taylor pucci, camilla belle","drama, comedy",107
 b1616,constantine,2005,francis lawrence (ii),"keanu reeves, rachel weisz, shia labeouf, djimon hounsou","action & adventure, horror, mystery & suspense, science fiction & fantasy",120
 b1617,tim burton's corpse bride,2005,mike johnson,"johnny depp, helena bonham carter, emily watson, tracey ullman","action & adventure, animation, kids & family, science fiction & fantasy, comedy",74
-b1618,cruel world,2006,kelsey howard,"edward furlong, andrew keegan, jaime pressly, laura ramsey","mystery & suspense, horror",92
 b1623,deuce bigalow: european gigolo,2005,michael bigelow,"rob schneider, eddie griffin, til schweiger, douglas sills",comedy,83
 b1624,derailed,2005,addison timlin,"clive owen, jennifer aniston, vincent cassel, melissa george","mystery & suspense, drama",107
-b1626,dirty love,2005,john mallory asher,"jenny mccarthy, carmen electra, eddie kaye thomas, kathy griffin",comedy,95
 b1629,doomsdays,2015,eddie mullins,"leo fitzpatrick, justin rice, brian charles johnso..., laura campbell","drama, comedy",91
 b1630,dreamer,,jesse salmeron,"brit sheridan, cory knauf, isabella hofmann, jeremy ray valdez",drama,90
 b1640,favela rising,2005,jeff zimbalist,"anderson sa, jose junior, marcio nunes, andre luis azevedo","documentary, musical & performing arts, special interest",80
@@ -881,7 +776,6 @@ b1646,fun with dick and jane,2005,barry sonnenfeld,"jim carrey, ta leoni, alec b
 b1648,getting played,2005,bill bellamy,"bill bellamy, stacey dash, carmen electra, vivica a. fox","drama, comedy",85
 b1655,guess who,2005,ashton kutcher,"bernie mac, ashton kutcher, zoe saldana, judith scott",comedy,105
 b1656,happy endings,2005,don roos,"lisa kudrow, steve coogan, jesse bradford, bobby cannavale","drama, art house & international, comedy",128
-b1658,her minor thing,,charles matthau,"estella warren, christian kane, michael weatherly, rachel dratch","drama, comedy",91
 b1663,the honeymooners,2005,john schultz,"cedric the entertain..., mike epps, gabrielle union, regina hall","drama, television, comedy",89
 b1664,hoodwinked,2005,anne hathaway,"glenn close, anne hathaway, james belushi, patrick warburton","animation, kids & family, comedy",80
 b1673,in the mix,2005,ron underwood,"usher raymond, usher, chazz palminteri, emmanuelle chriqui",comedy,96
@@ -905,7 +799,6 @@ b1769,the waiting room,2016,igor drljaca,"christopher jacot, filip geljo, elijha
 b1772,the war within,2005,joseph castelo,"ayad akhtar, nandana sen, firdous bamji, sarita choudhury","art house & international, drama",100
 b1773,the weather man,2005,phedon papamichael,"nicolas cage, michael caine, hope davis, michael rispoli","drama, comedy",101
 b1780,45 years,2015,andrew haigh,"charlotte rampling, tom courtenay, geraldine james, dolly wells",drama,93
-b1782,10th & wolf,2006,bobby moresco,"james marsden, giovanni ribisi, brad renfro, piper perabo",drama,108
 b1789,air guitar nation,2006,alexandra lipsitz,"peter cilella, nina gordon, david ""c-diddy"" jung, dan ""bjrn troque"" ...","documentary, musical & performing arts, special interest",78
 b1794,american blackout,2006,ian inaba,"cynthia mckinney, greg palast, christopher edley jr, john conyers","documentary, drama, special interest",90
 b1798,andy warhol: a documentary film,2006,ric burns,"philip bosco, john richardson, callie thorne, andy warhol","documentary, musical & performing arts, special interest",240
@@ -920,15 +813,11 @@ b1821,bickford shmeckler's cool ideas,,scott lew,"patrick fugit, olivia wilde, m
 b1827,black gold,1936,russell hopton,"frankie darro, roy mason, leroy mason, barbara worth","action & adventure, mystery & suspense, classics",82
 b1831,bloody mary,,richard valentine,"danni hamilton, matt borlenghi, amber borycki, jaason simmons","mystery & suspense, horror",93
 b1833,bordertown,2008,gregory nava,"jennifer lopez, martin sheen, antonio banderas, kate del castillo","drama, action & adventure, mystery & suspense",111
-b1834,brand upon the brain!,2006,guy maddin,"erik steffen maahs, gretchen lee krich, sullivan brown, maya lawson","art house & international, special interest",95
 b1841,caffeinated,2015,hanh nguyen,"peter giuliano, geoff watts, doug welsh, sunalini menon","documentary, action & adventure",85
-b1848,civic duty,2006,jeff renfroe,"peter krause, kari matchett, richard schiff, khaled abol naga","mystery & suspense, drama",98
-b1851,cocaine cowboys,2006,billy corben,"jon roberts, mickey munday, jorge ""rivi"" ayala, dr. joseph davis",documentary,118
 b1856,copying beethoven (klang der stille),2006,agnieszka holland,"ed harris, diane kruger, matthew goode, nicholas jones","drama, romance, musical & performing arts",103
 b1860,crude impact,,james jandak wood,"tundi agardy, guy caruso, steve donziger, emeka duruigbo","documentary, special interest",98
 b1861,curious george 3: back to the jungle,2015,phil weinstein,"frank welker, angela bassett, jeff bennett, john goodman","animation, kids & family",81
 b1864,dance party usa,2006,aaron katz,"cole pennsinger, anna kavan, cole pensinger, ryan white",drama,66
-b1872,day on fire,,jay anania,"richard bright, carmen chaplin, martin donovan, olympia dukakis",drama,94
 b1874,vulcano figlio di giove (vulcan son of jupiter) (vulcan son of giove),,emimmo salvi,"bella cortez, rod flash, gordon mitchell, iloosh khoshabe","action & adventure, art house & international, science fiction & fantasy",76
 b1885,driftwood,2006,tim sullivan,"ricky ullman, connor ross, raviv ullman, diamond dallas page","mystery & suspense, horror",89
 b1886,east side story,2006,carlos portugal,"steve callahan, david bern, ren alvarado, gladise jiminez","drama, romance, gay & lesbian, comedy",88
@@ -940,15 +829,11 @@ b1901,fearless,1993,peter weir,"jeff bridges, isabella rossellini, rosie perez, 
 b1903,final destination 3,2006,morgan,"mary elizabeth winst..., ryan merriman, kris lemche, alexz johnson","drama, action & adventure, horror, mystery & suspense",93
 b1908,flock of dodos,,randy olson,"jack cashill, john calvert, michael behe, randy olson","documentary, special interest",85
 b1916,free jimmy (slipp jimmy fri),2006,christopher nielsen,"woody harrelson, jan saelid, simon pegg, anders t. andersen","drama, animation, comedy",86
-b1918,full grown men,2008,david munro,"matt mcgrath, judah friedlander, alan cumming, jerry grayson",comedy,78
 b1922,glastonbury,2007,julian temple,"david bowie, julien temple, radiohead, billy bragg","musical & performing arts, documentary",138
-b1939,the hawk is dying,2006,julian goldberger,"paul giamatti, michelle williams, rusty schwimmer, michael pitt","art house & international, drama",106
 b1941,the heart of steel,1988,angelo j. guglielmo jr.,tamilee webb,"documentary, sports & fitness, special interest",54
-b1942,the heart of the game,2005,ward serrill,"chris ""ludacris"" bri..., darnellia russell, devon crosby-helms, maude lepley","documentary, sports & fitness, special interest",97
 b1951,hurricane on the bayou,2006,glen pitre,"allen toussaint, dr. john, meryl streep, amanda shaw","documentary, special interest",42
 b1961,invincible,2006,ericson core,"mark wahlberg, greg kinnear, elizabeth banks, kevin conway","sports & fitness, drama",104
 b1962,interkosmos,,jim finn,"nandini khaund, jim finn, dean dematteis, goran milos","drama, art house & international, science fiction & fantasy, comedy",71
-b1967,jesus camp,2006,heidi ewing,"pastor becky fischer, levi, mike papantonio, rachael","documentary, faith & spirituality, musical & performing arts",86
 b1971,kalamazoo?,2006,david o'malley,"mayim bialik, josie davis, joanna clare scott, claire bloom",comedy,93
 b1983,lime salted love,,danielle agnello,"billy drago, danielle agnello, david j. o'donnell, george castaneda",drama,
 b1986,little man,2006,dave sheridan,"marlon wayans, shawn wayans, kerry washington, john witherspoon",comedy,90
@@ -959,13 +844,11 @@ b2003,maxed out,2006,james d. scurlock,"chris barrett, jimmy carter, bill clinto
 b2007,modern man,2006,justin swibel,eric becker,drama,61
 b2010,moonshine,,roger ingraham,"brian greer, sarah ingraham, ginny fitzpatrick, carol neiman","horror, comedy",77
 b2019,night of the living dead,1968,george a. romero,"judith o'dea, russell streiner, duane jones, keith wayne","horror, classics, cult movies",90
-b2020,the night of the white pants,,amy talkington,"tom wilkinson, nick stahl, selma blair, geri jewell","drama, comedy",87
 b2022,northern limit line,2015,kim hak-soon,"jin goo, kim moo-yeol, lee chung-ah, lee hyun woo","documentary, drama",130
 b2023,o jerusalem,2007,elie chouraqui,"j.j. feild, said taghmaoui, maria papas, patrick bruel",drama,100
 b2024,occupation 101: voices of the silences majority,,sufyan omeish & abdallah omeish,"james akins, rabbi arik ascherman, bishop barltlett jr.",documentary,87
 b2033,paper dolls,2006,tomer heymann,alex claude,"documentary, drama, special interest",86
 b2036,penelope,2006,mark palansky,"christina ricci, james mcavoy, richard e. grant, catherine o'hara","drama, romance, science fiction & fantasy, comedy",90
-b2043,puff puff pass,,mekhi phifer,"danny masterson, ronnie warner, mekhi phifer, john c. mcginley",comedy,95
 b2047,quick pick,,will vzquez,"oscar a. diaz, ralph diaz-wagner, john ""b.j."" bryant, angelina assereto",comedy,86
 b2048,the rape of the sabine women,,eve sussman,"popi alkouli-troiano..., fergus baumann, kostas beveratos, nesbitt blaisdell","drama, action & adventure, special interest",82
 b2050,the return,2006,asif kapadia,"sarah michelle gella..., sam shepard, darrian mcclanahan, j.c. mackenzie","mystery & suspense, drama",85
@@ -976,8 +859,6 @@ b2067,scott walker: 30 century man,2006,stephen kijack,"scott walker, sara keste
 b2070,see no evil,2006,gregory dark,"glenn 'kane' jacobs, christina vidal, michael j. pagan, rachel taylor","mystery & suspense, horror",84
 b2076,shottas,2006,cess silvera,"ky-mani marley, paul campbell, spragga benz, tyson beckford","drama, action & adventure",95
 b2078,simon says,2006,william dear,"crispin glover, margo harshman, greg cipes, carrie finklea","mystery & suspense, horror",86
-b2079,sleeping dogs lie,2006,bobcat goldthwait,"melinda page hamilto..., bryce johnson, steve agee, geoffrey pierson","drama, comedy",89
-b2081,small town gay bar,2007,malcolm ingram,"jim bishop, bill curtis, rick gladish, fred phelps","documentary, special interest",81
 b2086,midnight special,2016,jeff nichols,"michael shannon, kirsten dunst, joel edgerton, adam driver","drama, science fiction & fantasy",
 b2102,the rainforests are under threat,2015,jerome dolbert,,"documentary, art house & international",97
 b2106,turistas,,alicia scherson,"aline kppenheim, diego noguera, marcelo alonso, viviana herr","art house & international, drama",105
@@ -991,8 +872,6 @@ b2127,the woods,2006,lucky mckee,"agnes bruckner, patricia clarkson, bruce campb
 b2130,yellow day,2016,carl lauten,"akeem smith, andrew seeley, ashley boettcher, lindsey shaw","drama, faith & spirituality, kids & family, science fiction & fantasy",88
 b2132,10 mph,,hunter weeks,"hunter weeks, gannon weeks, j. fred keough, josh caldwell","documentary, special interest",92
 b2138,adrift in manhattan,2007,alfredo de villa,"heather graham, william baldwin, victor rasuk, dominic chianese",drama,93
-b2139,adventures of johnny tao rock around the dragon,2007,kenn scott,"matthew twining, matt twining, chris yen, jason london",action & adventure,90
-b2141,after sex,2007,eric amadio,"emmanuelle chirqui, mila kunis, jane seymour, emmanuelle chriqui","drama, art house & international, comedy",78
 b2142,alibi,1929,roland west,"chester morris, harry stubbs, mae busch, eleanore griffith","drama, action & adventure, mystery & suspense, classics",90
 b2146,alvin and the chipmunks: the road chip,2015,walt becker,"justin long, matthew gray gubler, jesse mccartney, kaley cuoco-sweeting","animation, kids & family, comedy",86
 b2157,star wars: episode vii - the force awakens,2015,j.j. abrams,"harrison ford, mark hamill, carrie fisher, peter mayhew","action & adventure, science fiction & fantasy",
@@ -1004,41 +883,32 @@ b2174,brotherhood of blood,2007,sid haig,"victoria pratt, jason connery, ken for
 b2178,catacombs,2008,david elliott,"shannyn sossamon, cabral ibaka, pink, emil hostina","mystery & suspense, horror",92
 b2183,the condemned 2,2015,roel rein,"randy orton, eric roberts, wes studi, steven michael queza...",action & adventure,
 b2184,control,2007,hanne myren,"sam riley, samantha morton, alexandra maria lara, nigel harris","musical & performing arts, drama",122
-b2186,cthulhu,2008,dan gildark,"jason cottle, cara buono, scott green, scott patrick green",horror,109
-b2188,dalai lama renaissance,2007,khashyar darvich,"harrison ford, the dalai lama (xiv), brother wayne teasda..., michael toms","documentary, special interest",81
 b2191,dark matter,2008,chen shi-zheng,"meryl streep, aidan quinn, ye liu, blair brown",drama,86
-b2193,dead silence,2007,james wan,"ryan kwanten, amber valletta, donnie wahlberg, michael fairman","mystery & suspense, horror",90
 b2200,enchanted kingdom 3d,2015,neil nightingale,"idris elba, hayley joanne bacon","documentary, special interest",87
 b2204,the exorcism of molly hartley,2015,steven r. monroe,"sarah lind, devon sawa, gina holden, peter macneill",horror,122
 b2205,extreme,1999,jon long,"lynn hill, nancy feagin, ross clarke-jones, brandon ruff","documentary, sports & fitness",40
 b2207,finishing the game,2007,justin lin,"roger fan, sung kang, james franco, mccaleb burnett",comedy,88
 b2212,freakshow,2007,drew bell,"christopher adamson, rebekah kochan, robert pike daniel, mike murga",horror,90
 b2220,ghosts of abu ghraib,2007,rory kennedy,"john yoo, alfred mccoy, rear admiral john hu..., javal davis","documentary, special interest",78
-b2226,the good night,2007,jake paltrow,"penelope cruz, martin freeman (ii), gwyneth paltrow, simon pegg","drama, romance, comedy",93
 b2232,tales of halloween,2015,darren lynn bousman,"booboo steward, grace phipps, keir gilchrist, greg grunberg",horror,80
 b2245,i am an american soldier,,john laurence,"brian little, darnell ""doc"" herd, luke murphy, mario terenas",documentary,
 b2282,the messengers,2007,danny pang,"kristen stewart, dylan mcdermott, john corbett, penelope ann miller","mystery & suspense, horror",90
 b2287,monster camp: the story of nero seattle,2008,cullen hoback,"shane macomber, j.p., paul vorvick, rebecca mckonee","documentary, comedy, special interest",82
-b2293,my faraway bride,,rajeev virani,"kashmira shah, jason lewis, gulshan grover, gulsher grover","drama, romance, comedy",94
 b2294,my sexiest year,,howard himelstein,"frankie muniz, amber valletta, frances fisher, ryan cabrera","drama, comedy",93
-b2305,normal adolescent behavior,,beth schacter,"amber tamblyn, kelli garner, hilarie burton, ashton holmes","art house & international, drama",95
 b2306,private number,2015,lazrael lison,"judd nelson, tom sizemore, nicholle tom, hal ozsan","mystery & suspense, horror",95
 b2308,oh saigon,,doan hoang,doan hoang,"documentary, special interest",57
 b2309,only for you,1994,donna persico,"don alder, ellis e. williams, kate albrecht, michael buie",drama,
 b2310,everyone says i love you,1996,woody allen,"alan alda, woody allen, drew barrymore, goldie hawn","drama, musical & performing arts, comedy",101
 b2312,padre nuestro,2008,christopher zalla,"jess ochoa, armando hernadez, jorge adrin espndo..., paola mendoza","mystery & suspense, drama",110
-b2321,press start,,ed glaser,"joshua stafford, lauren chambers, al morrison, peter a. davis","action & adventure, science fiction & fantasy, comedy",100
 b2322,pride and prejudice and zombies,2016,burr steers,"lily james, lena headey, jack huston, matt smith (xi)","horror, romance, comedy",
 b2324,ratatouille,2007,jan pinkava,"patton oswalt, brad garrett, ian holm, lou romano","animation, kids & family, comedy",110
 b2335,don't think i've forgotten: cambodia's lost rock and roll,2015,john pirozzi,,documentary,105
 b2339,saw iv,2007,marcus dunstan,"tobin bell, costas mandylor, scott patterson, betsy russell","mystery & suspense, horror",92
-b2352,smiley face,2007,gregg araki,"anna faris, roscoe lee browne, danny masterson, ben falcone",comedy,84
 b2356,spiral,2007,joel moore,"joel david moore, amber tamblyn, zachary levi, tricia helfer","mystery & suspense, drama",90
 b2357,stardust,2007,nicolas provost,"charlie cox, claire danes, michelle pfeiffer, robert de niro","drama, action & adventure, science fiction & fantasy",127
 b2362,stuck,2008,stuart gordon,"stephen rea, mena suvari, russell hornsby, rukiya bernard","drama, mystery & suspense, comedy",85
 b2364,suffering man's charity (ghost writer),,alan cumming,"alan cumming, david boreanaz, anne heche, carrie fisher","horror, comedy",92
 b2369,taxi to the dark side,2007,alex gibney,"moazzam begg, willie brand, jack cloonan, damien corsetti","documentary, special interest",106
-b2370,the ten,2007,david wain,"paul rudd, gretchen mol, adam brody, famke janssen",comedy,99
 b2375,underdogs,2015,juan jos campanella,"pablo rago, fabian gianola, miguel ngel rodrgu..., david masajnik","action & adventure, animation, romance, art house & international",90
 b2379,war dance,2007,andrea nix fine,,"documentary, drama, special interest",105
 b2386,why did i get married too,2010,toyomichi kurita,"tyler perry, janet jackson, jill scott, sharon leal","drama, comedy",120
@@ -1049,17 +919,14 @@ b2404,abandoned mine,2013,jeff chamberlain,"alexa vega, reiley mcclendon, saige 
 b2405,armour of god (long xiong hu di) (operation condor 2),1987,jackie chan,"jackie chan, alan tam, rosamund kwan, lola forner","action & adventure, art house & international, comedy",100
 b2408,aftershock,2013,nicols lpez,"lorenza izzo, eli roth, nicols martnez, natasha yarovenko","mystery & suspense, horror",90
 b2414,apartment,2010,jag mundhra,"neetu chandra, anupam kher, rohit roy",mystery & suspense,51
-b2415,ae: apocalypse earth,,thunder levin,"adrian paul, bali rodriguez, michelle jones, richard grieco",science fiction & fantasy,90
 b2418,artifact,,bartholomew cubbins,"jared leto, shannon leto, tomo milicevic, chester bennington","documentary, drama, musical & performing arts, special interest",105
 b2427,behind the candelabra,2013,steven soderbergh,"matt damon, michael douglas, rob lowe, dan aykroyd","drama, television",118
 b2428,beneath,2007,dagen merrill,"nora zehetner, brenna o'brien, carly pope, don s. davis","mystery & suspense, horror",81
 b2443,the book of esther,,david a.r. white,"jen lilley, joel smallbone, jennifer lyons, robert miano",drama,90
-b2461,coffin baby,,dean jones,"bruce dern, brian krause, clifton powell, chauntal lewis",horror,
 b2462,company of heroes,,don michael paul,"tom sizemore, neal mcdonough, chad michael collins, jrgen prochnow","mystery & suspense, action & adventure",90
 b2467,contest,,ajay giunta,"kenton duty, daniel flaherty, katherine mcnamara, kyle dean massey","documentary, drama, comedy",88
 b2468,continental,,malcolm ingram,"bette midler, charlotte crossley, jaye p. morgan, holly woodlawn","documentary, special interest",92
 b2471,the counselor,2013,cdric anger,"benot magimel, gilbert melki, assa maga, eric caravaca",mystery & suspense,117
-b2488,erased,2013,philipp stlzl,"aaron eckhart, olga kurylenko, liana liberato, garrick hagon","mystery & suspense, action & adventure",104
 b2494,far marfa,,cory van dyke,"johnny sneed, jesse bernstein, julie mintz, ty mitchell","drama, comedy",86
 b2498,foodfight!,,lawrence kasanoff,"charlie sheen, wayne brady, chris kattan, hilary duff","action & adventure, animation, kids & family, comedy",91
 b2507,geography club,2013,gary entin,"cameron deane stewar..., alex newell, scott bakula, allie gonino",comedy,83
@@ -1068,14 +935,12 @@ b2509,the ghost army,,rick beyer,"peter coyote, wesley clark, peter coyotoe","do
 b2532,hit & stay,,joe tropea,,"documentary, special interest",99
 b2538,13 hours: the secret soldiers of benghazi,2016,michael bay,"john krasinski, pablo schreiber, james badge dale, max martini",drama,
 b2539,house of dust,,a.d. calvo,"eddie hassell, holland roden, inbar lavi, john lee ames","mystery & suspense, horror",88
-b2541,how to be a man,,chadd harbold,"gavin mcinnes, liam aiken, megan neuringer, marisa redanty",comedy,90
 b2543,i know that voice,,lawrence shapiro,"corey burton, gregg berger, jim cummings, john dimaggio","documentary, special interest",90
 b2544,i spit on your grave 2,2013,donald farmer,"jemma dallender, joe absolom, yavor baharov, aleksandar aleksiev","mystery & suspense, horror",106
 b2551,indescribable,,stacie graber,"rich swingle, seth pruski, garry nation, jc scott",drama,94
 b2558,jack the giant killer,1962,nathan juran,"kerwin mathews, judi meredith, torin thatcher, walter burke","kids & family, classics, science fiction & fantasy",95
 b2575,lake windfall,,roger vass,"christopher b. corri..., alex laferriere, jasun hicks",mystery & suspense,
 b2576,last call,2002,henry bromell,"jeremy irons, neve campbell, sissy spacek, shannon lawson","drama, television, art house & international",96
-b2582,the legend of jimi lazer,,mann munoz,"robbie beniuk, patrick mitchell, amy landon, elijah black",action & adventure,92
 b2587,lil bub & friendz,,andy capper,"mike bridavsky, ben lashes","documentary, special interest",66
 b2597,manhattan romance,2015,brian ghost,"gaby hoffman, jessie barr, zach grenier, louis cancelmi","comedy, romance",98
 b2599,masterminds,2016,jared hess,"zach galifianakis, owen wilson, kristen wiig, jason sudeikis",comedy,90
@@ -1084,12 +949,10 @@ b2605,the moving creatures,2015,caetano gotardo,"cida moreira, andra marquee, fe
 b2613,oldboy,2005,park chan-wook,"min-sik choi, gang hye-jeong, yoo ji-tae, choe min-sik","mystery & suspense, drama",118
 b2620,the palomino (hills of the brave),1950,ray nazarro,"jerome courtland, beverly tyler, joseph calleia, roy roberts","western, action & adventure",73
 b2621,half life: a journey to chernobyl,,david bickerstaff,,documentary,40
-b2628,penthouse north,,joseph ruben,"michelle monaghan, michael keaton, barry sloane, andrew w. walker","mystery & suspense, drama",86
 b2635,plus one - the home video,,,,musical & performing arts,
 b2643,the red robin,,michael z. wechsler,"c.s. lee, caroline lagerfelt, jaime ray newman, judd hirsch","mystery & suspense, drama",
 b2647,return of the living dead part ii,1988,ken wiederhorn,"michael kenworthy, thom mathews, thom matthews, james karen",horror,90
 b2648,roadside,,eric england,,"drama, horror, mystery & suspense",100
-b2650,robotech: love live alive,,gregory snegoff,"frank catalano, cam clarke, richard epcar, barbara goodson","action & adventure, animation, science fiction & fantasy",89
 b2654,charlie trevor and a girl savannah,2015,ty hodges,"ty hodges, emily meade, eric roberts, toby hemingway","romance, mystery & suspense, special interest",93
 b2657,saving santa,,leon joosen,"martin freeman (ii), tim curry, newell alexander, tim conway","animation, kids & family",83
 b2662,sexy evil genius,,shawn piller,"seth green, katee sackhoff, william baldwin, michelle trachtenber...","drama, science fiction & fantasy, comedy",90
@@ -1287,7 +1150,6 @@ b2929,baseketball,1998,david zucker,"trey parker, matt stone, yasmine bleeth, je
 b2930,belly,1998,hype williams,"nas, nasir 'nas' jones, dmx, taral hicks","drama, action & adventure, mystery & suspense",96
 b2931,beloved,1998,jonathan demme,"oprah winfrey, danny glover, thandie newton, kimberly elise","drama, horror",172
 b2934,billy's hollywood screen kiss,1998,tommy o'haver,"sean hayes, brad rowe, meredith scott lynn, richard ganoung","comedy, romance",92
-b2936,tian jiang xiong shi (dragon blade),2015,daniel lee,"jackie chan, john cusack, adrien brody, choi si-won","drama, action & adventure, art house & international",103
 b2939,bride of chucky,1998,ronny yu,"jennifer tilly, brad dourif, alexis arquette, gordon michael woolv...","action & adventure, horror",89
 b2940,broken vessels,,scott ziehl,"jason london, todd field, roxana zal, susan traylor","drama, action & adventure",90
 b2941,buffalo '66,1998,vincent gallo,"vincent gallo, christina ricci, ben gazzara, anjelica huston","drama, art house & international, comedy",110
@@ -1620,7 +1482,6 @@ c210,saints and soldiers: the void,2014,ryan little,"adam gregory, timothy s. sh
 c212,travelator,2014,dusan milic,"nikola rakocevic, boris isakovic, khetanya henderson","action, drama",99
 c213,greyscale,2014,ryan dunlap,"ryan dunlap, marisa draeger, tim russ","action, crime, drama",105
 c217,sinbad: the fifth voyage,2014,shahin sean solimon,"patrick stewart, isaac c. singleton jr., sadie alexandru","action, adventure, fantasy",89
-c220,outcast,2014,nick powell,"nicolas cage, hayden christensen, alexandre bailly","action, adventure",99
 c223,dead sea,2014,brandon slagle,"james duval, candace kita, devanny pinn","action, horror, sci-fi",90
 c224,the algerian,2014,giovanni zelko,"ben youcef, candice coke, harry lennix","action, romance, thriller",99
 c225,the back country,2014,vincente aguilera,"josh rengert, chloe francis, brandon vann","action, adventure, crime",108
@@ -1632,7 +1493,6 @@ c233,default,2014,simon brand,"david oyelowo, greg callahan, katherine moennig",
 c234,tension(s),2014,vincent lecrocq,"louis mandylor, david kinsman, richard roy sutton","action, crime, drama",77
 c236,hunting the phantom,2014,marina kunarova,"kristanna loken, armand assante, jose rosete","action, adventure, sci-fi",120
 c238,contract killers,2014,mathew john pearson,"richard alexander, dallas barnett, renee cataldo","action, crime, thriller",95
-c239,everly,2014,joe lynch,"salma hayek, hiroyuki watanabe, laura cepeda","action, thriller",92
 c240,red sky,2014,mario van peebles,"cam gigandet, rachael leigh cook, mario van peebles","action, thriller",100
 c241,battle b-boy,2014,frank lin,"jae phan, alison dahlstrom, ricky cole","action, comedy, sport",89
 c243,strike one,2014,david llauger meiselman,"danny trejo, james russo, billy gallo","action, crime, drama",102
@@ -1644,7 +1504,6 @@ c249,kite,2014,ralph ziman,"india eisley, jaco muller, annabel linder","action, 
 c250,rapture,2014,richard lowry,"blair besten, jacqueline buda, dagmar edwards","action, sci-fi, thriller",85
 c251,seal patrol,2014,nicolas aaron mezzanatto,"kristina anapau, james c. burns, tina casciani","action, sci-fi, thriller",80
 c252,sultanat,2014,syed faisal bukhari,"javeria abbasi, raheela agha, haroon ashraf","action, drama, romance",150
-c253,big game,2014,jalmari helander,"samuel l. jackson, onni tommila, ray stevenson","action, adventure",110
 c254,percentage,2014,alex merkin,"cam'ron, omar gooding, ving rhames","action, crime, thriller",86
 c255,battle,2014,john jillard sr.,"john jillard sr., brian anthony wilson, kimberly bada",action,92
 c259,swelter,2014,keith parmer,"jean-claude van damme, lennie james, alfred molina","action, crime, drama",96
@@ -1672,7 +1531,6 @@ c287,fury: the tales of ronan pierce,2014,kevin a. mccarthy,"michael mccarthy, j
 c288,infiltrators,2014,michael stokes,"jonny cruz, nathalie kelley, hallee hirsh",action,94
 c289,singham returns,2014,rohit shetty,"kareena kapoor, ajay devgn, anupam kher","action, drama",142
 c290,freezer,2014,mikael salomon,"peter facinelli, dylan mcdermott, yuliya snigir","action, thriller",91
-c291,broken,2014,damian x. fulton,"soren fulton, felix ryan, whitney goin","action, adventure, drama",91
 c293,rogue strike,2014,kerry beyer,"kerry beyer, john lansch, deke anderson",action,86
 c294,kochadaiiyaan,2014,soundarya r. ashwin,"rajinikanth, deepika padukone, sarath kumar","animation, action, adventure",124
 c295,bad country,2014,chris brinker,"matt dillon, willem dafoe, neal mcdonough","action, crime, drama",95
@@ -1691,7 +1549,6 @@ c311,ironclad: battle for blood,2014,jonathan english,"roxanne mckee, michelle f
 c312,killers,2014,kimo stamboel,"kazuki kitamura, oka antara, rin takanashi","action, crime, drama",137
 c314,undying dreams,2014,ash kohan,"ash kohan, mark naji, iyad hajjaj","action, drama, war",106
 c315,a grim becoming,2014,adam r. steigert,"bill oberst jr., melantha blackthorne, jessica cameron","action, comedy, horror",115
-c317,son of a gun,2014,julius avery,"ewan mcgregor, brendan kerkvliet, brenton thwaites","action, crime, drama",108
 c318,the american gandhi,2014,joseph mungra,"james patrick stuart, jim storm, rajesh vivek","action, drama, thriller",110
 c321,alien outpost,2014,jabbar raisani,"adrian paul, brandon auret, rick ravanello","action, sci-fi, thriller",90
 c322,field of lost shoes,2014,sean mcnamara,"lauren holly, luke benward, jason isaacs","action, drama, war",96
@@ -1737,7 +1594,6 @@ c371,wayward: the prodigal son,2014,rob diamond,"landon henneman, blake webb, ro
 c372,legacy of thorn,2014,mj dixon,"jade wallis, mem ferda, paris rivers","action, horror",97
 c373,throwback,2014,travis bain,"shawn brack, anthony ring, melanie serafin","action, adventure, horror",93
 c374,run like hell,2014,james thomas,"dave finn, canyon prince, robyn buck","action, horror, thriller",80
-c375,kung fu killer,2014,teddy chan,"donnie yen, baoqiang wang, charlie yeung","action, thriller",100
 c376,the anomaly,2014,noel clarke,"noel clarke, ian somerhalder, brian cox","action, sci-fi, thriller",97
 c377,the breaking point,2014,james c. hunter,"erik grey, diana lovell, reggie peters","action, crime, drama",75
 c378,drive hard,2014,brian trenchard-smith,"john cusack, thomas jane, zoe ventoura","action, comedy, crime",92
@@ -2104,7 +1960,6 @@ c806,travelers,2013,koichi sakamoto,"kenji ebisawa, sanae hitomi, ayumi kinoshit
 c807,hit team,2013,mark newton,"myles mclane, emerald robinson, roger payano","action, comedy",96
 c808,crook,2013,adrian langley,"adam beach, leah gibson, bill lake",action,92
 c809,bushido man,2013,takanori tsujimoto,"mitsuki koga, yoshiyuki yamaguchi, masanori mimoto",action,88
-c810,rigor mortis,2013,juno mak,"anthony chan, siu-ho chin, fat chung","action, drama, horror",103
 c811,vathikuchi,2013,kinslin,"dileepan, anjali, saranya ponvannan","action, thriller",135
 c812,ku_on,2013,takayuki hatamura,"haruna isaoka, sou sato, nana seino","action, drama, sci-fi",78
 c813,knight of the dead,2013,mark atkins,"feth greenwood, vivien vilela, lee bennett","action, fantasy, horror",82
@@ -2284,7 +2139,6 @@ c1046,dabangg 2,2012,arbaaz khan,"salman khan, sonakshi sinha, prakash raj","act
 c1047,el clan,2012,jaime falero,"francisco vera, borja elgea, octavi pujades","action, crime, thriller",89
 c1049,black out,2012,arne toonen,"raymond thiry, kim van kooten, bas keijzer","action, comedy, crime",92
 c1050,solid state,2012,stefano milla,"debbie rochon, vivica a. fox, ava brunini","action, horror, sci-fi",90
-c1051,i declare war,2012,jason lapeyre,"siam yu, kolton stewart, gage munroe","action, comedy, drama",94
 c1052,misfire,2012,shan serafin,"chloe zak, jaina lee ortiz, david fraioli",action,85
 c1053,offroad,2012,elmar fischer,"nora tschirner, elyas m'barek, maximilian von pufendorf","action, comedy",98
 c1054,the night never sleeps,2012,fred carpenter,"eric roberts, armand assante, dan brennan","action, drama",79
@@ -2520,7 +2374,6 @@ c1343,legend of kung fu rabbit,2011,lijun sun,"jon heder, tom arnold, rebecca bl
 c1344,falls the shadow,2011,steven berryessa,"jordan bakke, bethany berryessa, ron berryessa","action, horror, thriller",93
 c1345,catch .44,2011,aaron harvey,"malin akerman, nikki reed, deborah ann woll","action, crime, drama",94
 c1346,mappillai,2011,suraj,,action,160
-c1347,the raid: redemption,2011,gareth evans,"iko uwais, ananda george, ray sahetapy","action, thriller",101
 c1348,murder 2,2011,mohit suri,"prashant narayannan, jacqueline fernandez, yana gupta","action, crime, drama",127
 c1349,kongsi,2011,farid kamil,"shaheizy sam, fizo omar, norliana samsudin",action,90
 c1350,sector 7,2011,ji-hoon kim,"ji-won ha, sung-kee ahn, ji-ho oh","action, adventure, horror",101
@@ -2549,7 +2402,6 @@ c1372,war of the arrows,2011,han-min kim,"hae-il park, seung-ryong ryu, mu-yeol 
 c1373,the red corvette,2011,frank lisi,"valerie bauer, katherine mesa, tisha tinsman","action, thriller",105
 c1374,bunohan: return to murder,2011,dain said,"faizal hussein, zahiril adzim, pekin ibrahim","action, drama",97
 c1375,the showdown,2011,hoon-jung park,"hee-soon park, ku jin, chang-seok ko","action, drama",111
-c1376,new kids nitro,2011,steffen haars,"huub smit, tim haars, wesley van gaalen","action, comedy",74
 c1377,the sword identity,2011,haofeng xu,"cheng-hui yu, yang song, yuanyuan zhao",action,108
 c1378,muran,2011,rajan madhav,"prasanna, cheran, haripriya","action, thriller",103
 c1379,80 millions,2011,waldemar krzystek,"filip bobek, marcin bosak, wojciech solarz","action, history",102
@@ -2746,7 +2598,6 @@ c1613,planzet,2010,jun awazu,"kaori ishihara, masami iwasaki, mamoru miyano","an
 c1614,outbound,2010,bogdan george apetri,"ana ularu, andi vasluianu, ioana flora","action, drama",87
 c1615,iron lord,2010,dmitriy korobkin,"aleksandr ivashkevich, svetlana chuykina, aleksey kravchenko","action, biography, drama",100
 c1616,cowboys and vampires,2010,douglas myers,,"action, horror, western",94
-c1617,new kids turbo,2010,steffen haars,"huub smit, tim haars, wesley van gaalen","action, comedy",84
 c1618,shark,2010,s.p. rajkumar,"vijay, tamannaah bhatia, vadivelu",action,159
 c1619,websitestory,2010,dan chisu,"crina semciuc, diana gursca, oreste alexandru scarlat teodorescu","action, drama",82
 c1620,ong-bak 3,2010,tony jaa,"tony jaa, dan chupong, sarunyu wongkrachang",action,99
@@ -2900,9 +2751,7 @@ c1813,the sky has fallen,2009,doug roos,"carey maclaren, laurel kemper, cory kni
 c1814,ballistica,2009,gary jones,"paul logan, martin kove, robert davi","action, adventure",90
 c1815,kal kissne dekha,2009,vivek sharma,"brahim achabbakhe, jacky bhagnani, nushrat bharucha","action, crime, romance",134
 c1816,yesterday,2009,rob grant,"graham wardle, p. lynn johnson, bill murdoch","action, comedy, drama",95
-c1817,red cliff ii,2009,john woo,"tony chiu wai leung, takeshi kaneshiro, fengyi zhang","action, drama, history",142
 c1818,chrome angels,2009,leigh scott,"stacey dash, frida farrell, monti domingue","action, sci-fi",93
-c1819,vengeance,2009,johnnie to,"johnny hallyday, sylvie testud, anthony chau-sang wong","action, crime, drama",108
 c1820,black angels,2009,arthur muhammad,"gabriel d. angell, lonice bell, shannon ase brown","action, drama",87
 c1821,hellbinders,2009,mitch gould,"ray park, johnny yong bosch, esteban cueto","action, fantasy, horror",90
 c1822,killer bean forever,2009,jeff lew,"vegas e. trip, bryan session, david guilmette","animation, action, comedy",85
@@ -2976,7 +2825,6 @@ c1891,lady ninja kaede 2,2009,takayuki kagawa,"luna akatsuki, kazu itsuki, yuka 
 c1892,shamelessly she-hulk,2009,garrett gilchrist,"kierstyn elrod, lesley donne, john nania","action, comedy, drama",90
 c1893,the flyboys,2008,rocco devilliers,"jesse james, reiley mcclendon, stephen baldwin","action, adventure",118
 c1897,far cry,2008,uwe boll,"til schweiger, emmanuelle vaugier, natalia avelon","action, adventure, sci-fi",95
-c1902,red cliff,2008,john woo,"tony chiu wai leung, takeshi kaneshiro, fengyi zhang","action, adventure, drama",148
 c1904,go with peace jamil,2008,omar shargawi,"elias samir al-sobehi, khalid alssubeihi, salah el koussa","action, drama",90
 c1907,the gamers: dorkness rising,2008,matt vancil,"nathan rice, carol roscoe, brian lewis","action, adventure, comedy",105
 c1909,jodhaa akbar,2008,ashutosh gowariker,"hrithik roshan, aishwarya rai bachchan, sonu sood","action, adventure, biography",213
@@ -3067,7 +2915,6 @@ c2029,triad wars,2008,dennis law,"sammo kam-bo hung, simon yam, niu tien","actio
 c2030,connected,2008,benny chan,"louis koo, barbie hsu, nick cheung",action,110
 c2031,break,2008,marc clebanoff,"frank krueger, sarah thompson, chad everett","action, crime, drama",83
 c2033,ghajini,2008,a.r. murugadoss,"aamir khan, asin, jiah khan","action, drama, mystery",183
-c2034,bronson,2008,nicolas winding refn,"tom hardy, kelly adams, luing andrews","action, biography, crime",92
 c2035,slam,2008,jonathan hua lang lim,"andrew chou, xiaofan lin, zhao wen qi","action, drama, family",93
 c2036,resident evil: degeneration,2008,makoto kamiya,"paul mercier, alyson court, laura bailey","animation, action, horror",98
 c2037,go fast,2008,olivier van hoofstadt,"roschdy zem, olivier gourmet, jocelyn lagarrigue","action, crime, drama",110
@@ -3175,7 +3022,6 @@ c2174,jack brooks: monster slayer,2007,jon knautz,"robert englund, trevor matthe
 c2175,milano palermo - il ritorno,2007,claudio fragasso,"giancarlo giannini, raoul bova, enrico lo verso","action, crime, drama",95
 c2176,the take,2007,brad furman,"john leguizamo, tyrese gibson, rosie perez","action, crime, drama",96
 c2177,honeyz,2007,tom six,"monique van der werff, anna speller, peter beense","action, comedy, crime",75
-c2178,son of rambow,2007,garth jennings,"bill milner, will poulter, jessica hynes","action, adventure, comedy",96
 c2179,the last ottoman: knockout ali,2007,mustafa sevki dogan,"kenan imirzalioglu, cansu dere, emin boztepe","action, comedy, drama",126
 c2181,triangle,2007,ringo lam,"louis koo, simon yam, honglei sun",action,93
 c2182,nadzieja,2007,stanislaw mucha,"rafal fudalej, kamilla baar, wojciech pszoniak","action, drama, mystery",101
@@ -3252,7 +3098,6 @@ c2267,cemetery gates,2006,roy knyrim,"reggie bannister, peter stickles, aime wol
 c2268,max havoc: ring of fire,2006,terry ingram,"mickey hardt, christina cox, dean cain",action,89
 c2269,perfect creature,2006,glenn standring,"dougray scott, saffron burrows, leo gregory","action, drama, fantasy",90
 c2271,the absence of light,2006,patrick desmond,"richard conant, eric thornsberry, tom savini","action, drama, horror",77
-c2274,day watch,2006,timur bekmambetov,"konstantin khabenskiy, mariya poroshina, vladimir menshov","action, fantasy, thriller",132
 c2276,seven mummies,2006,nick quested,"matt schulze, cerina vincent, billy wirth","action, adventure, drama",90
 c2278,wolfhound,2006,nikolay lebedev,"aleksandr bukharov, oksana akinshina, igor petrenko","action, adventure, fantasy",136
 c2279,dishdogz,2006,mikey hilb,"marshall allman, haylie duff, luke perry","action, drama, sport",90
@@ -3602,7 +3447,6 @@ c2735,ancient warriors,2003,walter von huene,"franco columbu, daniel baldwin, ri
 c2736,basic,2003,john mctiernan,"john travolta, samuel l. jackson, connie nielsen","action, crime, drama",98
 c2737,rain,2003,robert j. wilson,"susan dey, scott cooper, pamela moore somers","family, war, action",96
 c2738,a man apart,2003,f. gary gray,"vin diesel, timothy olyphant, larenz tate","action, crime, drama",109
-c2739,kill bill: vol. 1,2003,quentin tarantino,"uma thurman, david carradine, daryl hannah",action,111
 c2740,the hunted,2003,william friedkin,"tommy lee jones, benicio del toro, connie nielsen","action, crime, drama",94
 c2741,national security,2003,dennis dugan,"martin lawrence, steve zahn, colm feore","action, comedy, crime",88
 c2742,johnny english,2003,peter howitt,"rowan atkinson, john malkovich, natalie imbruglia","action, adventure, comedy",87
@@ -4261,8 +4105,6 @@ c3533,dangerous ground,1997,darrell roodt,"ice cube, elizabeth hurley, thokozani
 c3534,dead men can't dance,1997,stephen milburn anderson,"michael biehn, mark edward anderson, adrian paul","action, drama",97
 c3535,deewana mastana,1997,david dhawan,"anil kapoor, govinda, juhi chawla","comedy, romance, action",140
 c3536,the devil's own,1997,alan j. pakula,"harrison ford, brad pitt, margaret colin","action, crime, drama",107
-c3537,double tap,1997,greg yaitanes,"stephen rea, heather locklear, peter greene","action, thriller",87
-c3538,double team,1997,hark tsui,"jean-claude van damme, dennis rodman, mickey rourke","action, comedy, sci-fi",93
 c3540,excess baggage,1997,marco brambilla,"alicia silverstone, benicio del toro, christopher walken","action, comedy, crime",101
 c3541,executive target,1997,joseph merhi,"michael madsen, roy scheider, keith david","action, adventure, crime",100
 c3542,face/off,1997,john woo,"john travolta, nicolas cage, joan allen","action, crime, sci-fi",138
@@ -4661,7 +4503,6 @@ c3955,highlander: the final dimension,1994,andrew morahan,"christopher lambert, 
 c3956,hong kong 97,1994,albert pyun,"robert patrick, brion james, tim thomerson","action, drama, thriller",91
 c3957,the new legend of shaolin,1994,jing wong,"jet li, chingmy yau, deannie yip","action, adventure, comedy",95
 c3958,treasure hunt,1994,jeffrey lau,"yun-fat chow, chien-lien wu, chia-hui liu","action, fantasy, romance",111
-c3959,once upon a time in china v,1994,hark tsui,"wenzhuo zhao, rosamund kwan, siu chung mok",action,101
 c3960,burning paradise,1994,ringo lam,"willie chi, john ching, yamson domingo","adventure, action, fantasy",104
 c3961,i love trouble,1994,charles shyer,"nick nolte, julia roberts, saul rubinek","action, comedy, romance",123
 c3962,immortal combat,1994,dan neira,"shin'ichi chiba, roddy piper, meg foster","action, adventure",109
@@ -4851,7 +4692,6 @@ c4157,bloodfist iii: forced to fight,1992,oley sassone,"don 'the dragon' wilson,
 c4158,ji boy xiao zi: zhen jia wai long,1992,gordon chan,"lawrence cheng, mark king, rosamund kwan","action, comedy",95
 c4159,scorpion king,1992,david lai,"kar lok chin, chia-liang liu, jung yuen","action, comedy",99
 c4160,the last riders,1992,joseph merhi,"erik estrada, angelo tiffe, william smith","action, drama",90
-c4161,fist of fury 1991 ii,1992,chung-sing choh,"stephen chow, josephine siao, kenny bee","action, comedy",93
 c4162,wu fu xing chuang gui,1992,sammo kam-bo hung,,"action, comedy",94
 c4163,xi zang xiao zi,1992,biao yuen,"biao yuen, michelle reis, wah yuen","action, fantasy",97
 c4164,the legend of the swordsman,1992,siu-tung ching,"jet li, brigitte lin, michelle reis","action, fantasy",112
@@ -5032,9 +4872,7 @@ c4347,toy soldiers,1991,daniel petrie jr.,"sean astin, wil wheaton, keith coogan
 c4348,trancers ii,1991,charles band,"tim thomerson, helen hunt, megan ward","action, sci-fi",85
 c4349,v.i. warshawski,1991,jeff kanew,"kathleen turner, jay o. sanders, charles durning","action, comedy, crime",89
 c4350,wedlock,1991,lewis teague,"rutger hauer, mimi rogers, joan chen","action, crime, drama",101
-c4351,once upon a time in china,1991,hark tsui,"jet li, biao yuen, rosamund kwan","action, adventure, biography",134
 c4352,lee rock,1991,lawrence ah mon,"andy lau, sharla cheung, man tat ng","action, crime, drama",128
-c4353,fist of fury 1991,1991,chung-sing choh,"stephen chow, kenny bee, corey yuen","action, comedy",96
 c4354,year of the gun,1991,john frankenheimer,"andrew mccarthy, sharon stone, valeria golino","action, romance, thriller",111
 c4355,saviour of the soul,1991,david lai,"andy lau, anita mui, aaron kwok","action, drama, fantasy",92
 c4356,neon city,1991,monte markham,"michael ironside, vanity, lyle alzado","action, adventure, sci-fi",99
@@ -5164,8 +5002,6 @@ c4486,captain america,1990,albert pyun,"matt salinger, ronny cox, ned beatty","a
 c4487,the judas project,1990,james h. barden,"john o'banion, ramy zada, richard herd","action, drama, fantasy",97
 c4488,a gnome named gnorm,1990,stan winston,"anthony michael hall, jerry orbach, claudia christian","adventure, family, fantasy",84
 c4489,triad story,1990,wai shum,"stephen chow, chun hsiung ko, man tat ng","action, crime, drama",95
-c4490,dragon ball z: tree of might,1990,daisuke nishio,"sean schemmel, stephanie nadolny, christopher sabat","animation, action, adventure",60
-c4491,dragon ball z: the world's strongest,1990,daisuke nishio,"masako nozawa, toshio furukawa, hiromi tsuru","animation, action, adventure",59
 c4492,contra conspiracy,1990,thomas dewier,"michael williams, tom maher, vickie stephenson",action,88
 c4493,zahreelay,1990,jyotin goel,,action,163
 c4494,jagadeka veerudu athiloka sundari,1990,k. raghavendra rao,"chiranjeevi, sridevi, tanikella bharani","action, comedy, family",153
@@ -5356,7 +5192,6 @@ c4686,der commander,1988,antonio margheriti,"lewis collins, lee van cleef, donal
 c4687,the courier,1988,frank deasy,"padraig o'loinsigh, cait o'riordan, gabriel byrne","action, crime, thriller",85
 c4688,daddy's boys,1988,joseph minion,"daryl haney, laura burkett, raymond j. barry","action, comedy, crime",90
 c4690,dead end city,1988,peter yuval,"dennis cole, gregory scott cummins, christine lunde","action, thriller",85
-c4691,dead heat,1988,mark goldblatt,"treat williams, joe piscopo, lindsay frost","action, comedy, horror",86
 c4692,the dead pool,1988,buddy van horn,"clint eastwood, liam neeson, patricia clarkson","action, crime, mystery",91
 c4693,deadly addiction,1988,jack vacek,"jack vacek, trice schubert, joseph jennings",action,98
 c4694,defense play,1988,monte markham,"david oliver, susan ursitti, monte markham","action, drama",88
@@ -5391,7 +5226,6 @@ c4723,the presidio,1988,peter hyams,"sean connery, mark harmon, meg ryan","actio
 c4724,purgatory,1988,ami artzi,"tanya roberts, julie pop, hal orlandini","action, drama",89
 c4725,qayamat se qayamat tak,1988,mansoor khan,"aamir khan, juhi chawla, goga kapoor","action, drama, musical",162
 c4726,rambo iii,1988,peter macdonald,"sylvester stallone, richard crenna, marc de jonge","action, adventure, thriller",102
-c4727,red heat,1988,walter hill,"arnold schwarzenegger, james belushi, peter boyle","action, comedy, crime",104
 c4728,the rescue,1988,ferdinand fairfax,"kevin dillon, christine harnos, edward albert","action, adventure, drama",97
 c4729,robowar - robot da guerra,1988,bruno mattei,"reb brown, catherine hickland, massimo vanni","action, adventure, comedy",92
 c4731,seven hours to judgment,1988,beau bridges,"beau bridges, ron leibman, julianne phillips","action, crime, drama",90
@@ -6318,7 +6152,6 @@ c5696,dixie dynamite,1976,lee frost,"warren oates, christopher george, jane anne
 c5698,eat my dust,1976,charles b. griffith,"ron howard, christopher norris, brad david","action, comedy, romance",89
 c5699,the enforcer,1976,james fargo,"clint eastwood, tyne daly, harry guardino","action, crime, thriller",96
 c5700,street people,1976,maurizio lucidi,"roger moore, stacy keach, ivo garrani","action, crime, drama",92
-c5701,the shaolin avengers,1976,cheh chang,"sheng fu, kuan-chun chi, yen tsan tang","action, drama",97
 c5702,gator,1976,burt reynolds,"burt reynolds, jack weston, lauren hutton","action, drama, crime",115
 c5703,il grande racket,1976,enzo g. castellari,"fabio testi, vincent gardenia, renzo palmer","action, crime, drama",104
 c5705,hollywood man,1976,jack starrett,"william smith, jennifer billingsley, ray girardin","action, crime, drama",107
@@ -6344,7 +6177,6 @@ c5725,roma a mano armata,1976,umberto lenzi,"maurizio merli, arthur kennedy, gia
 c5726,safari express,1976,duccio tessari,"giuliano gemma, ursula andress, jack palance","action, comedy",93
 c5727,the savage killers,1976,yu wang,"yu wang, chia yung liu, fei lung","action, drama",84
 c5728,shao lin mu ren xiang,1976,chi-hwa chen,"jackie chan, chung-erh lung, kang chin",action,98
-c5729,shaolin temple,1976,cheh chang,"sheng fu, kuan-chun chi, lung ti",action,126
 c5730,the 18 bronzemen,1976,joseph kuo,"yi chang, bao-liang chen, shu-fang chen","action, drama, war",81
 c5731,she devils in chains,1976,cirio h. santiago,"rosanne katon, colleen camp, sylvia anderson","action, drama",76
 c5732,shout at the devil,1976,peter r. hunt,"lee marvin, roger moore, barbara parkins","action, adventure, drama",150
@@ -7486,14 +7318,12 @@ d12,private property,2007,joachim lafosse,"isabelle huppert,yannick renier,jerem
 d13,the king of kong: a fistful of quarters,2007,seth gordon,,documentary,79
 d14,the 11th hour,2007,"leila conners petersen, nadia conners",,documentary,95
 d15,september dawn,2007,christopher cain,"jon voight,terence stamp,dean cain,jon gries,lolita davidovich","action, drama, history, romance, western",110
-d19,pan's labyrinth,2006,"guillermo del toro, guillermo del toro","ivana baquero,maribel verdu,sergi lopez,ariadna gil,alex angulo,doug jones","drama, fantasy, foreign, science fiction, war",118
 d20,delirious,2007,tom dicillo,"michael pitt,steve buscemi,alison lohman,gina gershon,joseph d'onofrio,rodrigo lopresti,cinque lee","comedy, drama, indie, romance",107
 d21,self medicated,2007,monty lapica,"monty lapica,diane venora,kristina anapau,william stanford davis","drama, indie",107
 d23,trade,2007,marco kreuzpaintner,"kevin kline,cesar ramos,alicja bachleda-curus,paulina gaitan,linda emond","drama, indie, thriller",119
 d25,feast of love,2007,robert benton,"morgan freeman,jane alexander,greg kinnear,selma blair,radha mitchell,stana katic,fred ward,alexa davalos,billy burke,sherilyn lawson","comedy, drama, romance",101
 d27,the great dictator,1940,charles chaplin,"chaplin,jack oakie,paulette goddard,reginald gardiner",comedy,125
 d28,the darjeeling limited,2007,wes anderson,"owen wilson,adrien brody,jason schwartzman,amara karan,camilla rutherford,wally wolodarsky,waris ahluwalia,barbet schroeder,irfan khan,bill murray,anjelica huston,natalie portman","adventure, comedy, drama",91
-d29,i want someone to eat cheese with,2007,jeff garlin,"jeff garlin,bonnie hunt,sarah silverman,amy sedaris,joey slotnick,gina gershon,paul mazursky,mina kolb,richard kind,dan castellaneta,tim kazurinsky,steve dahl","comedy, indie, romance",
 d35,el topo,1970,alejandro jodorowsky,"alejandro jodorowsky,brontis jodorowsky,jose legarreta,alfonso arau","action, adventure, drama, foreign, western",125
 d36,elizabeth: the golden age,2007,shekhar kapur,"cate blanchett,geoffrey rush,clive owen,samantha morton,rhys ifans,abbie cornish,jordi molla","drama, foreign, history, romance",114
 d38,shut up and sing,2007,"barbara kopple,cecilia peck","natalie maines,emily robison,martie mcguire,simon renshaw",documentary,93
@@ -7506,7 +7336,6 @@ d53,dedication,2007,justin theroux,"billy crudup,mandy moore,tom wilkinson,marti
 d54,jane austen book club,2007,robin swicord,"kathy baker,maria bello,emily blunt,amy brenneman,hugh dancy,maggie grace,lynn redgrave,jimmy smits,nancy travis","comedy, drama, romance",106
 d55,king of california,2007,michael cahill,"michael douglas,evan rachel wood,willis burks ii,greg davis jr.,gerald emerick","comedy, indie",96
 d57,cabiria,1914,giovanni pastrone,,"drama, foreign, history",148
-d63,talladega nights: the ballad of ricky bobby,2005,adam mckay,"will ferrell,john c. reilly,sacha baron cohen,gary cole,michael clarke duncan,leslie bibb,jane lynch,amy adams,andy richter,molly shannon","action, comedy",108
 d64,the descent,2006,neil marshall,"shauna macdonald,natalie mendoza,alex reid,saskia mulder,myanna buring,nora-jane noone","adventure, foreign, horror",99
 d70,boynton beach club,2006,susan seidelman,"joseph bologna,dyan cannon,len cariou,sally kellerman,michael nouri,brenda vaccaro,renee taylor","comedy, drama, indie, romance",105
 d72,factotum,2006,bent hamer,"matt dillon,lili taylor,marisa tomei,fisher stevens,didier flamand","comedy, drama, indie, romance",94
@@ -7524,7 +7353,6 @@ d101,black snake moan,2007,craig brewer,"samuel l. jackson,christina ricci,john 
 d102,an unreasonable man,2007,"henriette mantel, steve skrovan",,documentary,122
 d105,mafioso,2007,,,"action, comedy, crime, drama, foreign",105
 d107,wr: mysteries of the organism,1971,dusan makavejev,"milena dravic,jagoda kaloper,ivica vidovic,zoran radmilovic,tuli kupferberg,jackie curtis,michael gelovani","comedy, drama, fantasy",84
-d110,goya's ghosts,2007,milos forman,"javier bardem,natalie portman,stellan skarsgard,randy quaid,jose luis gomez,michael lonsdale,blanca portillo",drama,114
 d112,cashback,2007,sean ellis,"sean biggerstaff,emilia fox,shaun evans,michelle ryan,stuart goodwin,michael dixon,michael lambourne,marc pickering","comedy, drama, foreign, romance",102
 d114,my best friend,2007,patrice leconte,"daniel auteuil,dany boon,julie gayet,julie durand,henri garcin","comedy, drama, foreign, indie",90
 d115,vitus,2007,fredi m. murer,"julika jenkins,urs jucker,bruno ganz,eleni haupt","drama, foreign, indie, music",100
@@ -7539,7 +7367,6 @@ d127,into great silence,2007,philip groning,,"documentary, foreign",76
 d128,walking to werner,2007,,,,
 d129,red road,2007,andrea arnold,"kate dickie,tony curran,martin compston,nathalie press,andrew armour,john comerford","drama, foreign, indie, thriller",108
 d132,this is england,2007,shane meadows,"thomas turgoose,joe gilgun,stephen graham,andrew shim,jo hartley","crime, drama, foreign, indie",101
-d135,brand upon the brain!,2007,guy maddin,"gretchen krich,sullivan brown,maya lawson,katherine e. scharhon,todd moore,andy loviska,kellan larson,erik steffen maahs","drama, fantasy, indie",95
 d136,bug,2007,william friedkin,"ashley judd,michael shannon,brian f. o'byrne,harry connick jr.","horror, indie, thriller",102
 d137,black sheep,2007,jonathan king,"nathan meister,peter feeney,danielle mason,oliver driver,tammy davis","comedy, foreign, horror",87
 d138,angel-a,2007,luc besson,"jamel debbouze,rie rasmussen,gilbert melki,serge riaboukine","comedy, drama, fantasy",91
@@ -7626,7 +7453,6 @@ d320,oscar shorts 2006,2006,,,,
 d321,samurai rebellion,1967,masaki kobayashi,"toshiro mifune,yoko tsukasa,go kato,etsuko ichihara","drama, foreign",128
 d322,the boys of baraka,2006,"heidi ewing,rachel grady",,documentary,84
 d323,dave chappelle's block party,2006,michel gondry,,"comedy, documentary, musical",100
-d326,night watch,2006,timur bekmambetov,"konstantin khabensky,vladimir menshov,viktor verzhbitsky,mariya poroshina,gosha kytsenko,dima martynov,anna dubrovskaya,aleksei chadov,aleksander samojlenko","action, adventure, drama, fantasy, foreign, horror, science fiction, thriller",114
 d329,winter passing,2006,adam rapp,"ed harris,zooey deschanel,will ferrell,amelia warner,amy madigan","comedy, drama, indie",98
 d330,the libertine,2006,laurence dunmore,"johnny depp,samantha morton,john malkovich,rosamund pike,tom hollander,johnny vegas,kelly reilly,jack davenport,richard coyle,francesca annis","drama, foreign, romance",114
 d331,unknown white male,2006,rupert murray,,"documentary, foreign",88
@@ -7713,7 +7539,6 @@ d436,northern soul,2015,elaine constantine,"steve coogan,antonia thomas,christia
 d437,addicted to fresno,2015,jamie babbit,"judy greer,aubrey plaza,natasha lyonne,ron livingston,allison tolman,molly shannon,fred armisen,clea duvall",comedy,85
 d438,partisan,2015,ariel kleiman,"vincent cassel,jeremy chabriel,florence mezzara,sosina wogayehu,timothy styles","drama, thriller",98
 d439,he named me malala,2015,davis guggenheim,malala yousafzai,documentary,87
-d441,big game,2015,jalmari helander,"samuel l. jackson,onni tommila,ted levine,victor garber,felicity huffman","action, adventure",110
 d442,glass chin,2015,noah buschel,"corey stoll,billy crudup,marin ireland,yul vazquez,kelly lynch,john douglas thompson","drama, thriller",87
 d443,into the grizzly maze,2015,david hackl,"james marsden,piper perabo,billy bob thornton,thomas jane,michaela mcmanus,scott glenn","action, horror, thriller",94
 d444,joe dirt 2: beautiful loser,2015,fred wolf,"david spade,brittany daniel,christopher walken,adam beach,patrick warburton,mark mcgrath",comedy,106
@@ -7887,7 +7712,6 @@ d646,spring,2015,"aaron moorhead,justin benson","lou taylor pucci,nadia hilker,n
 d647,out of the dark,2015,lluís quílez,"julia stiles,scott speedman,stephen rea,alejandro furth,pixie davies,guillermo morales vitola","horror, thriller",92
 d648,my life directed by nicolas winding refn,2015,liv corfixen,,documentary,58
 d649,bluebird,2015,lance edmands,"amy morton,john slattery,adam driver,margo martindale,louisa krause,emily meade",drama,90
-d650,everly,2015,joe lynch,"salma hayek,jennifer blanc,hiroyuki watanabe,togo igawa,caroline chikezie,gabriella wright,akie kotabe","action, thriller",92
 d651,danny collins,2015,dan fogelman,"jennifer garner,al pacino,josh peck,annette bening,bobby cannavale,christopher plummer,melissa benoist","comedy, drama",106
 d653,the lazarus effect,2015,david gelb,"olivia wilde,mark duplass,donald glover,evan peters,sarah bolger,bruno gunn",thriller,83
 d654,the salvation,2015,kristian levring,"mads mikkelsen,eva green,jeffrey dean morgan,eric cantona,mikael persbrandt,douglas henshall,michael raymond-james,jonathan pryce","drama, western",92
@@ -7995,7 +7819,6 @@ d768,the boy next door,2015,rob cohen,"jennifer lopez,ryan guzman,john corbett,k
 d769,manny,2015,"leon gast,ryan moore","liam neeson,jimmy kimmel,jeremy piven,mark wahlberg,manny pacquiao,freddie roach,jinkee pacquiao","documentary, drama, sport",88
 d770,the duke of burgundy,2015,peter strickland,"sidse babett knudsen,chiara d'anna,monica swinn,eugenia caruso,fatma mohamed,kata bartsch",drama,104
 d771,song one,2015,kate barker-froyland,"anne hathaway,johnny flynn,mary steenburgen,ben rosenfield","drama, music",86
-d773,son of a gun,2015,julius avery,"ewan mcgregor,brenton thwaites,alicia vikander,matthew nable,damon herriman","action, crime, drama",108
 d774,timbuktu,2015,abderrahmane sissako,"pino desperado,abel jafri,toulou kiki,kettly noël,hichem yacoubi",drama,97
 d775,black or white,2015,mike binder,"kevin costner,jennifer ehle,gillian jacobs,octavia spencer,bill burr",drama,121
 d776,amira & sam,2015,sean mullin,"martin starr,dina shihabi","comedy, drama, romance",90
@@ -8008,7 +7831,6 @@ d782,the loft,2015,erik van looy,"karl urban,james marsden,wentworth miller,matt
 d783,jupiter ascending,2015,"lana wachowski,andy wachowski","channing tatum,mila kunis,eddie redmayne,tuppence middleton,sean bean,douglas booth,jo osmond,terry gilliam,doona bae,vanessa kirby,james d'arcy,gugu mbatha-raw","action, adventure, fantasy",127
 d784,matt shepard is a friend of mine,2015,michele josue,,"documentary, history",89
 d785,"love, rosie",2015,christian ditter,"lily collins,sam claflin,tamsin egerton,christian cooke,art parkinson","comedy, romance",102
-d786,outcast,2015,nick powell,"nicolas cage,hayden christensen,liu yifei,andy on,fernando chien","action, adventure",98
 d787,mad as hell,2015,andrew napier,cenk uygur,"comedy, documentary",80
 d788,the spongebob movie: sponge out of water,2015,paul tibbitt,"tom kenny,bill fagerbakke,rodger bumpass,clancy brown,carolyn lawrence,mr. lawrence,antonio banderas,slash","adventure, animation, comedy",93
 d789,the voices,2015,marjane satrapi,"ryan reynolds,gemma arterton,anna kendrick,jacki weaver","comedy, crime, thriller",103
@@ -8166,7 +7988,6 @@ d946,whiplash,2014,damien chazelle,"miles teller,j.k. simmons,paul reiser,meliss
 d948,kill the messenger,2014,michael cuesta,"jeremy renner,mary elizabeth winstead,robert patrick,michael sheen,ray liotta,michael kenneth williams,rosemarie dewitt,paz vega,andy garcia,barry pepper,gil bellows,oliver platt,richard schiff,tim blake nelson","crime, drama, mystery",112
 d949,addicted,2014,bille woodruff,"boris kodjoe,emayatzy corinealdi,katerina graham,maria howell,sharon leal,tasha smith,tyson beckford",drama,105
 d950,st. vincent,2014,theodore melfi,"bill murray,jaeden lieberher,melissa mccarthy,naomi watts,chris o'dowd,terrence howard",comedy,103
-d951,i am ali,2014,clare lewins,,documentary,111
 d952,diplomacy,2014,volker schlöndorff,"niels arestrup,andré dussollier,robert stadlober,burghart klaußner,lucas prisor","drama, history",88
 d953,camp x-ray,2014,peter sattler,"kristen stewart,peyman moaadi,lane garrison,joseph julian soria,john carroll lynch",drama,117
 d954,watchers of the sky,2014,edet belzberg,,"documentary, history",120
@@ -8305,7 +8126,6 @@ d1110,honour,2014,shan khan,"aiysha hart,paddy considine,faraz ayub,shubham sara
 d1111,the empty hours,2014,aaron fernandez lesur,"adriana paz,amaranta abril,bartolo campos,eliseo lara martínez,fermín martínez ,kristyan ferrer,norma pablo,rebeca villacorte,sergio lasgón",romance,101
 d1112,ivory tower,2014,andrew rossi,,documentary,97
 d1113,a coffee in berlin,2014,jan ole gerster,"tom schilling,marc hosemann,friederike kempter,justus von dohnányi,andreas schröders,inga birkenfeld,martin brambach,annika ernst","comedy, drama",83
-d1114,i am i,2014,jocelyn towne,"simon helberg,jason ritter,jocelyn towne,kevin tighe","documentary, drama, foreign",
 d1115,witching & bitching,2014,álex de la iglesia,"hugo silva,mario casas,carmen maura,javier botet,carolina bang,carlos areces,macarena gómez,pepón nieto,secun de la rosa,maría barranco,terele pávez,enrique villén,santiago segura","comedy, horror",104
 d1116,hellion,2014,kat candler,"aaron paul,josh wiggins,deke garner,juliette lewis",drama,94
 d1117,manuscripts don't burn,2014,mohammad rasoulof,,drama,125
@@ -8370,7 +8190,6 @@ d1185,we are the best!,2014,lukas moodysson,"mira barkhammar,mira grosin,liv lem
 d1186,burning blue,2014,d.m.w. greer,"trent ford,tammy blanchard,morgan spector,rob mayes,william lee scott,cotter smith,michael cumpsty,michael sirow,mark doherty,chris chalk","drama, romance",96
 d1187,the case against 8,2014,"ben cotner,ryan white",,documentary,109
 d1188,the grand seduction,2014,don mckellar,"brendan gleeson,taylor kitsch,liane balaban,gordon pinsent",comedy,113
-d1189,rigor mortis,2014,juno mak,"chin siu-ho,anthony chan,kara hui,richard ng,hoi-pang lo,hee ching paw","action, drama, horror",105
 d1190,"2 autumns, 3 winters",2014,sébastien betbeder,"vincent macaigne,maud wyler,bastien bouillon,audrey bastien,thomas blanchard,pauline etienne,jean-quentin châtelain,olivier chantreau",,91
 d1191,anna,2014,jorge dorado,"taissa farmiga,indira varma,mark strong,noah taylor,brian cox","drama, thriller",99
 d1192,ping pong summer,2014,michael tully,"susan sarandon,lea thompson,amy sedaris,john hannah,judah friedlander,quinn mccolgan,robert longstreet,emmi shockley,marcello conte",comedy,92
@@ -8510,7 +8329,6 @@ d1364,in secret,2014,charlie stratton,"elizabeth olsen,tom felton,jessica lange,
 d1365,omar,2013,hany abu-assad,"adam bakri,waleed zuaiter,leem lubany,samer bisharat,iyad hoorani",,96
 d1367,elaine stritch: shoot me,2014,chiemi karasawa,"elaine stritch,tina fey,cherry jones,nathan lane,james gandolfini,alec baldwin,john turturro,harold prince",documentary,81
 d1368,paranormal activity: the marked ones,2014,christopher b. landon,"molly ephraim,katie featherston,richard cabral,carlos pratts,eddie j. fernandez,jorge diaz,david fernandez jr.,crystal santos,catherine toribio","horror, thriller",84
-d1369,the best offer,2013,giuseppe tornatore,"geoffrey rush,jim sturgess,sylvia hoeks,donald sutherland,maximilian dirr,philip jackson,dermot crowley,liya kebede,brigitte christensen","crime, drama, romance",124
 d1370,dumbbells,2014,christopher livingston,"mircea monroe,taylor cole,jay mohr,tom arnold,jaleel white,amy paffrath,andy milonakis,olivia taylor dudley,carl reiner",comedy,
 d1371,divorce corp,2014,joe sorge,"drew pinksy,gloria allred,lynn toler,laura wasser,mark byron,steve hitner,ulf carlsson,alexandra borg",documentary,88
 d1372,the banshee chapter,2014,blair erickson,"katia winter,ted levine,michael mcmillian,monique candelaria,jenny gabrielle,david midthunder,chad brummett,cyd schulte","horror, thriller",87
@@ -8592,7 +8410,6 @@ d1493,torn,2013,jeremiah birnbaum,"mahnoor baloch,faran tahir,dendrie taylor,joh
 d1494,haunter,2013,vincenzo natali,"abigail breslin,stephen mchattie,david hewlett,david knoller,peter outerbridge,michelle nolden","horror, mystery, thriller",97
 d1495,khumba,2013,anthony silverston,"jake t. austin,annasophia robb,liam neeson,steve buscemi,laurence fishburne,richard e. grant,catherine tate,anika noni rose","adventure, animation, family",90
 d1498,hannah arendt,2012,margarethe von trotta,"barbara sukowa,axel milberg,janet mcteer,julia jentsch,michael degen,nicholas woodeson,ulrich noethen",drama,113
-d1500,savannah,2013,annette haywood-carter,"james caviezel,jaimie alexander,chiwetel ejiofor,jack mcbrayer,bradley whitford,sam shepard,hal holbrook",drama,101
 d1502,thérèse,2012,claude miller,"audrey tautou,gilles lellouche,anaïs demoustier,stanley weber,yves jacques,francis perrin,isabelle sadoyan,catherine arditi,jérôme thibault","drama, foreign",110
 d1504,una noche,2013,lucy mulloy,"daniel arrechaga,analin de la rua de la torre,javier nunez florian,maria adelaida mendez bonet,greisy del valle,katia caso",foreign,90
 d1505,paradise: faith,2012,ulrich seidl,"maria hofstätter,nabil saleh,natalya baranova,rene rupnik",drama,113
@@ -8637,7 +8454,6 @@ d1573,mother of george,2013,andrew dosunmu,"danai gurira,isaach de bankolé,yaya
 d1574,herb & dorothy 50x50,2013,megumi sasaki,"dorothy vogel,herbert vogel,paula antebi,robert barry,lisa bradley,christo and jeanne-claude,chuck close,charles clough",documentary,
 d1576,sample this,2013,dan forrer,"gene simmons,roosevelt grier,melle mel,ahmir-khalib thompson",,85
 d1577,the family,2013,luc besson,"robert de niro,michelle pfeiffer,tommy lee jones,dianna agron,john d'leo,vincent pastore,joseph perrino,paul borghese,jimmy palumbo,kresh novakovic","comedy, crime, drama, thriller",
-d1580,i declare war,2013,"jason lapeyre,robert wilson","siam yu,gage munroe,michael friend,aidan gouveia,mackenzie munro,alex cardillo,dyson fyke,spencer howes,andy reid,kolton stewart,richard nguyen,eric hanson,alex wall","action, comedy, drama",94
 d1583,afternoon delight,2013,jill soloway,"kathryn hahn,juno temple,josh radnor,jane lynch,annie mumolo,jessica st. clair,john kapelos,michaela watkins,suzy nakamura","comedy, drama",99
 d1584,our nixon,2013,penny lane,"richard nixon,john ehrlichman,harry robbins haldeman,dwight l. chapin,lawrence higby,pat nixon,daniel ellsberg,mao zedong,george mcgovern",documentary,84
 d1585,closed circuit,2013,john crowley,"eric bana,rebecca hall,ciarán hinds,jim broadbent","crime, drama, mystery",
@@ -8898,7 +8714,6 @@ d2064,kill list,2012,ben wheatley,,"foreign, horror, thriller",95
 d2065,footnote,2012,joseph cedar,"shlomo bar aba,lior ashkenazi,alisa rosen,alma zak,micah lewesohn","comedy, drama, foreign",103
 d2069,the snowtown murders,2012,justin kurzel,"daniel henshall,lucas pittaway,louise harris,anthony groves","crime, drama, foreign, horror, thriller",119
 d2070,the kid with a bike,2012,"jean-pierre dardenne, luc dardenne","thomas doret,cecile de france,jeremie renier,egon di mateo","drama, foreign",87
-d2072,the raid: redemption,2012,gareth evans,"iko uwais,joe taslim,yayan ruhian","action, crime, foreign, thriller",101
 d2073,october baby,2012,andrew,"rachel hendrix,jason burkey,john schneider,jennifer price,shari rigby,jasmine guy,robert amaya,rodney clark,tracy miller,chris sligh",drama,107
 d2074,diary of a lost girl,1929,,,"drama, foreign",104
 d2075,the deep blue sea,2012,terence davies,"rachel weisz,simon russell beale,tom hiddleston,harry hadden-paton,barbara jefford","drama, foreign, romance",98
@@ -9029,7 +8844,6 @@ d2305,the way back,2011,peter weir,"jim sturgess,ed harris,colin farrell,gustaf 
 d2306,barney's version,2011,richard j. lewis,"paul giamatti,rosamund pike,dustin hoffman,minnie driver,rachelle lefevre,scott speedman,bruce greenwood,mark addy,saul rubinek","comedy, drama, indie",134
 d2307,four lions,2010,chris morris,"riz ahmed,arsher ali,nigel lindsay,kayvan novak","comedy, crime, drama, foreign",101
 d2311,white material,2010,claire denis,,"drama, foreign",102
-d2312,harry potter and the deathly hallows: part 1,2010,david yates,"daniel radcliffe,rupert grint,emma watson,helena bonham-carter,robbie coltrane,ralph fiennes,michael gambon,richard griffiths,john hurt,rhys ifans,jason isaacs,bill nighy,alan rickman,fiona shaw,timothy spall,imelda staunton,david thewlis","adventure, drama, family, fantasy, science fiction",146
 d2313,today's special,2010,david kaplan,,"comedy, romance",99
 d2314,monsters,2010,gareth edwards,,"drama, foreign, science fiction, thriller",94
 d2315,essential killing,2010,jerzy skolimowski,"vincent gallo,emmanuelle seigner,zach cohen,iftach ofir","action, foreign, thriller, war",83
@@ -9109,7 +8923,6 @@ d2465,farewell,2010,christian carion,"emir kusturica,guillaume canet,alexandra m
 d2466,cropsey,2010,"joshua zeman,barbara brancaccio",,"documentary, horror, indie",85
 d2467,spoken word,2010,victor nunez,"kuno becker,ruben blades,miguel sandoval,persia white,antonio elias","drama, indie",116
 d2468,lost in translation,2003,sofia coppola,"bill murray,scarlett johansson,giovanni ribisi,anna faris,yutaka tadokoro","comedy, drama",105
-d2471,vengeance,2010,johnnie to,"johnny hallyday,sylvie testud,anthony wong,lam ka-tung,lam suet,simon yam","action, foreign, horror, thriller",108
 d2474,behind the burly-q,2010,,,documentary,
 d2475,anton chekhov's the duel,2010,,,drama,95
 d2476,the red machine,2010,,,"adventure, crime, drama",84
@@ -9171,7 +8984,6 @@ d2586,harmony and me,2009,bob byington,"justin rice,kristen tucker,kevin corriga
 d2587,this is it,2009,kenny ortega,,"documentary, music",111
 d2588,the yes men fix the world,2009,"andy bichlbaum, mike bonnano",,documentary,87
 d2589,21 and a wakeup,2009,chris mcintyre,"amy acker,faye dunaway,danica mckellar,todd cahoon,ed begley jr.,ben vereen,wes studi,j.c. chasez",,
-d2590,bronson,2009,nicolas winding refn,"tom hardy,hugh ross,juliet oldfield,jonny phillips,james lance","drama, foreign",92
 d2592,the house of the devil,2009,,"jocelin donahue,greta gerwig,mary woronov,tom noonan,aj bowen,danielle noe","horror, indie, thriller",
 d2593,25th hour,2003,spike lee,"edward norton,philip seymour hoffman,barry pepper,rosario dawson,anna paquin,brian cox","crime, drama",132
 d2596,the fourth kind,2009,olatunde osunsanmi,"milla jovovich,elias koteas,will patton,corey johnson","drama, horror, mystery, science fiction, thriller",98
@@ -9218,7 +9030,6 @@ d2690,"spring, summer, fall, winter... and spring",2003,,,"drama, foreign",103
 d2692,radical disciple: the story of father pfleger,2009,bob hercules,,,
 d2693,youssou n’dour: i bring what i love,2009,,,,
 d2694,play the game,2009,marc fienberg,"paul campbell,andy griffith,doris roberts,marla sokoloff,liz sheridan,clint howard,rance howard,geoffrey owens,juliette jeffers","comedy, indie, romance",105
-d2696,world's greatest dad,2009,bobcat goldthwait,"robin williams,alexie gilmore,daryl sabara,henry simmons,evan martin","comedy, indie, romance",99
 d2698,the september issue,2009,r.j. cutler,,documentary,90
 d2700,amreeka,2009,cherien dabis,"nisreen faour, melkar muallem,alia shawkat,hiam abbass,abu warda,joseph ziegler","drama, indie",96
 d2701,barry lyndon,1975,stanley kubrick,"ryan o'neal,marisa berenson,patrick magee,hardy kruger,leonard rossiter,michael hordern","drama, foreign, romance, war",184
@@ -9353,9 +9164,7 @@ d2963,lights in the dusk,2008,aki kaurismäki,"janne hyytiainen,maria jarvenhelm
 d2964,elsa & fred,2008,marcos carnevale,"china zorrilla,manuel alexandre,blanca portillo,jose angel egido","comedy, drama, foreign, romance",108
 d2965,brideshead revisited,2008,julian jarrold,"matthew goode,ben whishaw,hayley atwell,emma thompson,michael gambon,greta scacchi,jonathan cake,patrick malahide","drama, foreign, romance",133
 d2966,roman polanski: wanted and desired,2008,marina zenovich,,"documentary, indie",99
-d2968,the x-files: i want to believe,2008,,,"action, adventure, drama, mystery, science fiction, thriller",104
 d2970,standard operating procedure,2008,errol morris,,documentary,117
-d2971,son of rambow,2008,garth jennings,"bill milner,will poulter,jessica stevenson,ed westwick,neil dudgeon,jules sitruk,anna wing","comedy, foreign, indie",96
 d2972,johnny guitar,1954,,,"drama, western",110
 d2973,america the beautiful,2008,darryl roberts,,documentary,105
 d2974,the witnesses,2008,andre techine,"johan libereau,michel blanc,emmanuelle beart,sami bouajila,julie depardieu",,
@@ -9363,7 +9172,6 @@ d2976,take,2008,charles oliver,"minnie driver,jeremy renner,bobby coleman,adam r
 d2977,through a glass darkly,1961,ingmar bergman,"harriet andersson,max von sydow,gunnar bjornstrand,lars passgard","drama, foreign, indie",89
 d2980,yella,2008,christian petzold,"nina hoss,devid striesow,hinnerk schoenemann,christian redl","drama, foreign, mystery, thriller",89
 d2981,bottle shock,2008,randall miller,"alan rickman,chris pine,bill pullman,rachael taylor,freddy rodriguez,dennis farina","comedy, drama, indie",110
-d2982,300,2006,zack snyder,"gerard butler,lena headey,dominic west,david wenham,vincent regan,michael fassbender,tom wisdom,andrew pleavin,andrew tiernan,rodrigo santoro,peter mensah,stephen mchattie","action, drama, fantasy, history",117
 d2984,baghead,2008,jay duplass,"ross partridge,elise muller,steve zissis,greta gerwig","comedy, drama, indie",84
 d2985,alexandra,2008,alexander sokurov,"galina vishnevskaya,vasily shevtsov,raisa gichaeva","drama, foreign",95
 d2988,frownland,2008,ronald bronstein,"dore mann,paul grimstad,mary wall,david sandholm,carmine marino","comedy, drama, indie",106
@@ -9417,11 +9225,9 @@ d3085,shine a light,2008,martin scorsese,,"documentary, music",122
 d3088,my blueberry nights,2008,wong kar-wai,"norah jones,jude law,natalie portman,david strathairn,rachel weisz,chan marshall","drama, foreign, romance",111
 d3090,shelter,2008,jonah markowitz,"trevor wright,brad rowe,tina holmes,jackson wurth,ross thomas,katie walder",drama,101
 d3092,where in the world is osama bin laden?,2008,morgan spurlock,,documentary,93
-d3094,chapter 27,2008,j.p. schaefer,"jared leto,lindsay lohan,judah friedlander,mark lindsay chapman","drama, indie",84
 d3096,the rape of europa,2008,"bonni cohen, nicole newnham, richard berge",joan allen,documentary,117
 d3098,chaos theory,2008,marcos siega,"ryan reynolds,emily mortimer,stuart townsend,matreya fedor","comedy, drama, romance",87
 d3099,revolver,2007,,"jason statham,ray liotta,vincent pastore,andre benjamin,francesca annis","action, crime, drama, foreign, thriller",115
-d3100,flags of our fathers,2007,clint eastwood,"jesse bradford,adam beach,john benjamin hickey,john slattery,barry pepper,jamie bell,paul walker,benjamin walker,joseph cross,robert patrick,neal mcdonough","drama, history, war",132
 d3101,this christmas,2007,,"delroy lindo,idris elba,loretta devine,keith robinson,mekhi phifer,regina king,david banner","comedy, drama",117
 d3103,millions,2008,paul la blanc,"alex etel, lewis mcgibbon, kolade agboke, daisy donovan, harry kirkham, james nesbitt, enzo cilenti, jane hogarth, christopher fulford, alun armstrong",,
 d3104,memories of tomorrow,2007,yukihiko tsutsumi,,,122
