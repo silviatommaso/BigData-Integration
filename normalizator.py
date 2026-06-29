@@ -2,8 +2,6 @@ import pandas as pd
 from pathlib import Path
 import re
 
-
-
 # =========================
 # CLEANING FUNCTIONS
 # =========================
@@ -68,9 +66,9 @@ def clean_duration(x):
 def fix_mojibake(x):
     if not isinstance(x, str):
         return x
+
     try:
-        restored = x.replace("ã", "Ã")
-        return restored.encode("latin1").decode("utf-8")
+        return x.encode("latin1").decode("utf-8")
     except:
         return x
 
