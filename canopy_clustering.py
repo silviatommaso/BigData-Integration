@@ -44,8 +44,19 @@ def build_tfidf_matrices(df):
         min_df=2
     )
 
-    X_title = vectorizer_title.fit_transform(titles)
-    X_dir = vectorizer_dir.fit_transform(directors)
+    # Title
+    try:
+        X_title = vectorizer_title.fit_transform(titles)
+
+    except ValueError:
+        X_title = np.zeros((len(df),1))
+
+
+    # Director
+    try:
+        X_dir = vectorizer_dir.fit_transform(directors)
+    except ValueError:
+        X_dir = np.zeros((len(df),1))
 
     return X_title, X_dir
 
@@ -60,9 +71,22 @@ def canopy_cluster(merged_df, cluster_path):
     df = merged_df.copy()
 
     # Preprocess key attributes
-    df["clean_title"] = df["Title"].apply(clean_text)
-    df["clean_director"] = df["Director"].apply(clean_text)
+    has_title = "Title" in df.columns
+    has_director = "Director" in df.columns
 
+
+    if has_title:
+        df["clean_title"] = df["Title"].apply(clean_text)
+
+    else:
+        df["clean_title"] = ""
+
+
+    if has_director:
+        df["clean_director"] = df["Director"].apply(clean_text)
+
+    else:
+        df["clean_director"] = ""
 
     # Build separate TF-IDF matrices
     X_title, X_dir = build_tfidf_matrices(df)
