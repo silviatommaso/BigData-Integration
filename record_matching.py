@@ -53,11 +53,67 @@ def jaccard_similarity(a,b):
 
     return round(len(set_a & set_b)/len(set_a | set_b), 3)
 
+def hybrid_similarity(a, b):
+
+    if pd.isna(a) or pd.isna(b):
+        return 0
+
+
+    list_a = [
+        x.strip().lower()
+        for x in str(a).split(",")
+        if x.strip()
+    ]
+
+    list_b = [
+        x.strip().lower()
+        for x in str(b).split(",")
+        if x.strip()
+    ]
+
+
+    # caso 1: entrambi singoli
+    if len(list_a) == 1 and len(list_b) == 1:
+
+        return text_similarity(
+            list_a[0],
+            list_b[0]
+        )
+
+
+    # caso 2: entrambi multipli
+    if len(list_a) > 1 and len(list_b) > 1:
+
+        return jaccard_similarity(a,b)
+
+
+    # caso 3: uno singolo e uno multiplo
+    # confronto il singolo contro tutti gli elementi dell'altra lista
+
+    if len(list_a) == 1:
+
+        single = list_a[0]
+        multiple = list_b
+
+    else:
+
+        single = list_b[0]
+        multiple = list_a
+
+
+    scores = [
+        text_similarity(single, x)
+        for x in multiple
+    ]
+
+
+    return max(scores)
 
 SIMILARITY_FUNCTIONS = {
     "text": text_similarity,
     "year": year_similarity,
     "jaccard": jaccard_similarity,
+    "hybrid": hybrid_similarity
 }
 
 def record_similarity(r1, r2, attributes):
@@ -80,7 +136,7 @@ def record_similarity(r1, r2, attributes):
         similarities[column] = sim
         score += config["weight"] * sim
 
-    return score, similarities
+    return round(score,3), similarities
 
 ########################################################################################################################################################################################################################
 
@@ -160,7 +216,6 @@ def match_records(canopy_df, matched_path, attributes, canopy_id_position = 1, t
 
     print("Duplicate matches removed:", before - len(matches))
 
-    matches["score"] = matches["score"].round(3)
 
     if save:
         matches.to_csv(matched_path, index=False)

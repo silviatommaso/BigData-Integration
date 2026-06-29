@@ -203,6 +203,7 @@ def llm_match_record(record1, record2, attributes, client, model="llama-3.3-70b-
 
 def append_csv(row,file):
 
+    
     pd.DataFrame([row]).to_csv(
         file,
         mode="a",
