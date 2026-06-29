@@ -217,11 +217,13 @@ def llm_record_matching(
     matches_output,
     llm_requests_output,
     attributes,
+    canopy_id_position=1,
     llm_threshold=0.65,
     auto_threshold=0.75
 ):
 
     print("LLM assisted record matching started")
+    id_column = canopy_df.columns[canopy_id_position]
 
 
     candidate_matches=match_records(
@@ -453,8 +455,8 @@ def llm_record_matching(
 
     for row, request_id in pending_llm:
 
-        r1 = canopy_df[canopy_df["ID"] == row["id1"]]
-        r2 = canopy_df[canopy_df["ID"] == row["id2"]]
+        r1 = canopy_df[canopy_df[id_column] == row["id1"]]
+        r2 = canopy_df[canopy_df[id_column] == row["id2"]]
 
         if r1.empty or r2.empty:
             print(f"Warning: ID {row['id1']} or {row['id2']} not found, skipping")
