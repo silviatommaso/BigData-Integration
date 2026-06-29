@@ -2,7 +2,7 @@ import networkx as nx
 import pandas as pd
 
 
-def save_clusters(clusters, merged_df, id_column, path, attributes):
+def save_clusters(clusters, merged_df, id_column, path):
 
     lookup = merged_df.set_index(id_column)
     rows = []
@@ -10,14 +10,15 @@ def save_clusters(clusters, merged_df, id_column, path, attributes):
     for entity in clusters:
         for record_id in entity["records"]:
 
-            row = lookup.loc[record_id]
+            original_row = lookup.loc[record_id].to_dict()
+
             cluster_row = {
                 "entity_id": entity["entity_id"],
                 id_column: record_id
             }
-            # solo attributi usati nel matching
-            for column in attributes:    
-                cluster_row[column] = row[column]
+
+            # aggiungo tutti gli altri attributi dopo
+            cluster_row.update(original_row)
 
             rows.append(cluster_row)
 
@@ -45,7 +46,7 @@ def save_clusters(clusters, merged_df, id_column, path, attributes):
 ################################################################################################
 
 
-def build_clusters(matches, merged_df, merged_id_position, clusters_path, singletons_path, attributes, save=True):
+def build_clusters(matches, merged_df, merged_id_position, clusters_path, singletons_path, save=True):
 
     id_column = merged_df.columns[merged_id_position]
 
@@ -88,8 +89,7 @@ def build_clusters(matches, merged_df, merged_id_position, clusters_path, single
             clusters,
             merged_df,
             id_column,
-            clusters_path,
-            attributes
+            clusters_path
         )
 
         singletons.to_csv(
