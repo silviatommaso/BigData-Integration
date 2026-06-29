@@ -86,6 +86,7 @@ def evaluate(matches_file, ground_truth_file, left_prefix, right_prefix, mode, n
     TP = 0
     FP = 0
     FN = 0
+    false_positive_pairs = []
 
     for pair in predicted_pairs:
         if pair in truth_pairs:
@@ -93,6 +94,7 @@ def evaluate(matches_file, ground_truth_file, left_prefix, right_prefix, mode, n
                 TP += 1
             else:
                 FP += 1
+                false_positive_pairs.append(pair)
 
     for pair, gold in truth_pairs.items():
         if gold == 1 and pair not in predicted_pairs:
@@ -138,6 +140,41 @@ def evaluate(matches_file, ground_truth_file, left_prefix, right_prefix, mode, n
     print("Precision:", precision)
     print("Recall:", recall)
     print("F1:", f1)
+
+    if false_positive_pairs:
+
+        print()
+        print("FALSE POSITIVE RECORDS")
+        print("---------------------")
+
+        merged_df = pd.read_csv(merged_file)
+        merged_df = merged_df.convert_dtypes()
+
+
+        for left_id, right_id in false_positive_pairs:
+
+            left_full = left_prefix + left_id
+            right_full = right_prefix + right_id
+
+
+            print()
+            print("PAIR:", left_full, "-", right_full)
+
+
+            records = merged_df[
+                merged_df["Id"]
+                .astype(str)
+                .isin(
+                    [
+                        left_full,
+                        right_full
+                    ]
+                )
+            ]
+
+
+            print(records.to_string(index=False))
+
 
 matches_file = r"record_linkage\classic\matches.csv"
 llm_matches_file = r"record_linkage\llm\matches.csv"
