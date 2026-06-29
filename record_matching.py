@@ -3,6 +3,7 @@ from itertools import combinations
 from rapidfuzz.fuzz import ratio
 
 
+
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 def generate_candidate_pairs(canopies):
@@ -19,7 +20,7 @@ def generate_candidate_pairs(canopies):
 
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-def string_similarity(a,b):
+def text_similarity(a,b):
     if pd.isna(a) or pd.isna(b):
         return 0
     return round(ratio(str(a).lower(),str(b).lower())/100, 3)
@@ -40,39 +41,51 @@ def year_similarity(a,b):
     return 0
 
 
-def cast_similarity(a,b):
+def jaccard_similarity(a,b):
     if pd.isna(a) or pd.isna(b):
         return 0
 
-    cast_a=set(x.strip().lower() for x in str(a).split(","))
-    cast_b=set(x.strip().lower() for x in str(b).split(","))
+    set_a=set(x.strip().lower() for x in str(a).split(","))
+    set_b=set(x.strip().lower() for x in str(b).split(","))
 
-    if len(cast_a|cast_b)==0:
+    if not (set_a | set_b):
         return 0
 
-    return round(len(cast_a&cast_b)/len(cast_a|cast_b), 3)
+    return round(len(set_a & set_b)/len(set_a | set_b), 3)
 
 
-def record_similarity(r1,r2):
+SIMILARITY_FUNCTIONS = {
+    "text": text_similarity,
+    "year": year_similarity,
+    "jaccard": jaccard_similarity,
+}
 
-    title=string_similarity(r1["Title"],r2["Title"])
-    director=string_similarity(r1["Director"],r2["Director"])
-    year=year_similarity(r1["Year"],r2["Year"])
-    cast=cast_similarity(r1["Cast"],r2["Cast"])
+def record_similarity(r1, r2, attributes):
 
-    score=(
-        0.50*title+
-        0.25*year+
-        0.15*director+
-        0.10*cast
-    )
+    score = 0
+    similarities = {}
 
-    return score,title,director,year,cast
+    for column, config in attributes.items():
+
+        similarity_function = SIMILARITY_FUNCTIONS[config["similarity"]]
+        
+        if column not in r1 or column not in r2:
+            sim = 0
+        else:
+            sim = similarity_function(
+                r1[column],
+                r2[column]
+            )
+
+        similarities[column] = sim
+        score += config["weight"] * sim
+
+    return score, similarities
 
 ########################################################################################################################################################################################################################
 
 
-def match_records(canopy_df, matched_path, threshold=0.75, save = True):
+def match_records(canopy_df, matched_path, attributes, threshold=0.75, save = True):
     assert canopy_df["ID"].notna().all(), "canopy_df contains rows with missing ID"
 
     # generation of a dictionary {cluster_id : record_id} from canopy_cluster's blocks
@@ -103,31 +116,33 @@ def match_records(canopy_df, matched_path, threshold=0.75, save = True):
         r1=records[a]
         r2=records[b]
 
-        score,title,director,year,cast=record_similarity(r1,r2)
+        score, similarities = record_similarity(r1,r2, attributes)
 
         if score>=threshold:
 
-            matches.append({    
+            match = ({    
                 "id1":a,
                 "id2":b,
                 "score":score,
-                "title_similarity":title,
-                "director_similarity":director,
-                "year_similarity":year,
-                "cast_similarity":cast
             })
+            for column, sim in similarities.items():
+                match[f"{column.lower()}_similarity"] = sim
 
+            matches.append(match)
 
+    similarity_columns = [
+        f"{column.lower()}_similarity"
+        for column in attributes
+    ]
     # matches with score
     if matches:
         matches = pd.DataFrame(matches)
     else:
         matches = pd.DataFrame(columns=[
-            "id1", "id2", "score",
-            "title_similarity",
-            "director_similarity",
-            "year_similarity",
-            "cast_similarity"
+            "id1",
+            "id2",
+            "score",
+            *similarity_columns
         ])
 
     print("Total matches found:", len(matches))

@@ -27,12 +27,12 @@ else:
 
 
 STEPS = {
-    "schema_alignment": False,
+    "schema_alignment": True,
 
     "record_linkage": {
-        "blocking": True,
+        "blocking": False,
         "matching": False,
-        "clustering": False
+        "clustering": True
     },
 
     "data_fusion": False
@@ -100,18 +100,24 @@ INDEXES = ["a", "b", "c", "d"]
 DATASETS_NAMES = ["imdb_3", "rotten_tomatoes", "imdb_5", "roger_ebert"]
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+attributes = {
+    "Title": {
+        "weight": 0.50,
+        "similarity": "text"
+    },
+    "Director": {
+        "weight": 0.15,
+        "similarity": "text"
+    },
+    "Year": {
+        "weight": 0.25,
+        "similarity": "year"
+    },
+    "Cast": {
+        "weight": 0.10,
+        "similarity": "jaccard"
+    }
+}
 
 
 
@@ -167,6 +173,7 @@ for pipeline in PIPELINES:
 
 
         merged_df = pd.concat(dfs, ignore_index=True)
+        merged_df = merged_df.convert_dtypes()
         merged_df.to_csv(pipeline_files["merged"], index=False)
 
     else:
@@ -211,6 +218,7 @@ for pipeline in PIPELINES:
             matches = match_records(
                 canopy_df,
                 pipeline_files["matches"],
+                attributes,
                 threshold=0.75
             )
 
@@ -220,6 +228,7 @@ for pipeline in PIPELINES:
                 canopy_df,
                 pipeline_files["matches"],
                 pipeline_files["requests"],
+                attributes,
                 llm_threshold=0.65,
                 auto_threshold=0.75,
             )
@@ -241,7 +250,14 @@ for pipeline in PIPELINES:
         print("START CLUSTERING")
 
 
-        clusters = build_clusters(matches, merged_df, pipeline_files["clusters"], pipeline_files["singletons"])
+        clusters = build_clusters(
+            matches,
+            merged_df,
+            0,
+            pipeline_files["clusters"],
+            pipeline_files["singletons"],
+            attributes
+        )
 
 ################################################################################################################################################################################################################################################################################
 

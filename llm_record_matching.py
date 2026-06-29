@@ -32,6 +32,25 @@ def call_llm(prompt, client, model="llama-3.3-70b-versatile"):
 
     return response.choices[0].message.content
 
+def build_match_row(id1, id2, score, similarities, attributes, method, confidence):
+
+    row = {
+        "id1": id1,
+        "id2": id2,
+        "score": score
+    }
+
+    for column in attributes:
+
+        key = f"{column.lower()}_similarity"
+
+        row[key] = similarities[key]
+
+    row["method"] = method
+    row["confidence"] = confidence
+
+    return row
+
 
 def classify_error(msg: str):
 
@@ -105,40 +124,44 @@ def parse_llm_json(text):
         return None
 
 
-def llm_match_record(record1, record2, client, model="llama-3.3-70b-versatile"):
+def llm_match_record(record1, record2, attributes, client, model="llama-3.3-70b-versatile"):
+
+    record_a = ""
+    record_b = ""
+
+    for column in attributes:
+
+        record_a += f"{column}: {record1[column]}\n"
+        record_b += f"{column}: {record2[column]}\n"
 
     prompt = f"""
-You are an entity resolution system.
+        You are an entity resolution system.
 
-Decide if the two movie records refer to the same movie.
+        Decide if the two records refer to the same entity.
 
-Give a confidence score between 0 and 1.
+        Give a confidence score between 0 and 1.
 
-Rules:
-- High confidence only with strong evidence.
-- Different title or identity should reduce confidence.
-- Explain briefly.
+        Rules:
+        - High confidence only with strong evidence.
+        - Different attributes should reduce confidence.
+        - Explain briefly.
 
-Record A:
-Title: {record1['Title']}
-Year: {record1['Year']}
-Director: {record1['Director']}
-Cast: {record1['Cast']}
+        Compare the following attributes:
 
-Record B:
-Title: {record2['Title']}
-Year: {record2['Year']}
-Director: {record2['Director']}
-Cast: {record2['Cast']}
+        Record A:
+        {record_a}
 
-Return ONLY JSON:
+        Record B:
+        {record_b}
 
-{{
-"match": true/false,
-"confidence": float,
-"explanation": "short reason"
-}}
-"""
+        Return ONLY JSON:
+
+        {{
+        "match": true/false,
+        "confidence": float,
+        "explanation": "short reason"
+        }}
+    """
 
     try:
 
@@ -193,6 +216,7 @@ def llm_record_matching(
     canopy_df,
     matches_output,
     llm_requests_output,
+    attributes,
     llm_threshold=0.65,
     auto_threshold=0.75
 ):
@@ -203,6 +227,7 @@ def llm_record_matching(
     candidate_matches=match_records(
         canopy_df,
         None,
+        attributes,
         threshold=llm_threshold,
         save=False
     )
@@ -243,6 +268,10 @@ def llm_record_matching(
 
     print("LLM requests to evaluate:", len(llm_candidates_no_duplicates))
 
+    similarity_columns = [
+        f"{column}_similarity"
+        for column in attributes
+    ]
 
     if not os.path.exists(matches_output):
 
@@ -250,10 +279,7 @@ def llm_record_matching(
             "id1",
             "id2",
             "score",
-            "title_similarity",
-            "director_similarity",
-            "year_similarity",
-            "cast_similarity",
+            *similarity_columns,
             "method",
             "confidence"
         ]).to_csv(
@@ -359,19 +385,18 @@ def llm_record_matching(
             continue
 
 
-        append_csv({
-
-            "id1":row["id1"],
-            "id2":row["id2"],
-            "score":row["score"],
-            "title_similarity":row["title_similarity"],
-            "director_similarity":row["director_similarity"],
-            "year_similarity":row["year_similarity"],
-            "cast_similarity":row["cast_similarity"],
-            "method":"algorithm",
-            "confidence":""
-
-        },matches_output)
+        append_csv(
+            build_match_row(
+                row["id1"],
+                row["id2"],
+                row["score"],
+                row,
+                attributes,
+                "algorithm",
+                ""
+            ),
+            matches_output
+        )
 
         existing_pairs.add(pair)
         classic_added+=1
@@ -400,19 +425,18 @@ def llm_record_matching(
             
             row = candidate_map[request_id]
 
-            append_csv({
-
-                "id1":cached["id1"],
-                "id2":cached["id2"],
-                "score":cached["classic_score"],
-                "title_similarity": row["title_similarity"],
-                "director_similarity": row["director_similarity"],
-                "year_similarity": row["year_similarity"],
-                "cast_similarity": row["cast_similarity"],
-                "method":"LLM",
-                "confidence":cached["confidence"]
-
-            },matches_output)
+            append_csv(
+                build_match_row(
+                    row["id1"],
+                    row["id2"],
+                    row["score"],
+                    row,
+                    attributes,
+                    "LLM",
+                    cached["confidence"]
+                ),
+                matches_output
+            )
 
             existing_pairs.add(pair)
             cache_matches+=1
@@ -447,6 +471,7 @@ def llm_record_matching(
             response = llm_match_record(
                 record1,
                 record2,
+                attributes,
                 client
             )
 
@@ -498,17 +523,18 @@ def llm_record_matching(
 
             if pair not in existing_pairs:
 
-                append_csv({
-                    "id1": row["id1"],
-                    "id2": row["id2"],
-                    "score": row["score"],
-                    "title_similarity": row["title_similarity"],
-                    "director_similarity": row["director_similarity"],
-                    "year_similarity": row["year_similarity"],
-                    "cast_similarity": row["cast_similarity"],
-                    "method": "LLM",
-                    "confidence": result["confidence"]
-                }, matches_output)
+                append_csv(
+                    build_match_row(
+                        row["id1"],
+                        row["id2"],
+                        row["score"],
+                        row,
+                        attributes,
+                        "LLM",
+                        result["confidence"]
+                    ),
+                    matches_output
+                )
 
                 existing_pairs.add(pair)
                 new_llm_matches += 1
