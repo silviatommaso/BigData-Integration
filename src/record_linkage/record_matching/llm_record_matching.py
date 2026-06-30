@@ -18,7 +18,7 @@ def generate_request_id(id1,id2,score):
         key.encode()
     ).hexdigest()[:16]
 
-def call_llm(prompt, client, model="llama-3.3-70b-versatile"):
+def call_llm(prompt, client, model="llama-3.3-70b-versatile", temperature = 0):
     response = client.chat.completions.create(
         model=model,
         messages=[
@@ -27,7 +27,7 @@ def call_llm(prompt, client, model="llama-3.3-70b-versatile"):
                 "content":prompt
             }
         ],
-        temperature=0
+        temperature=temperature
     )
 
     return response.choices[0].message.content
@@ -124,7 +124,7 @@ def parse_llm_json(text):
         return None
 
 
-def llm_match_record(record1, record2, attributes, client, model="llama-3.3-70b-versatile"):
+def llm_match_record(record1, record2, attributes, client, model="llama-3.3-70b-versatile", temperature = 0):
 
     record_a = ""
     record_b = ""
@@ -168,7 +168,8 @@ def llm_match_record(record1, record2, attributes, client, model="llama-3.3-70b-
         output = call_llm(
             prompt,
             client,
-            model
+            model,
+            temperature
         )
 
     except Exception as e:
@@ -220,7 +221,9 @@ def llm_record_matching(
     attributes,
     canopy_id_position=1,
     llm_threshold=0.65,
-    auto_threshold=0.75
+    auto_threshold=0.75,
+    model="llama-3.3-70b-versatile",
+    temperature=0
 ):
 
     print("LLM assisted record matching started")
@@ -475,7 +478,9 @@ def llm_record_matching(
                 record1,
                 record2,
                 attributes,
-                client
+                client,
+                model,
+                temperature
             )
 
             status = response["status"]

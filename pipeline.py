@@ -262,6 +262,8 @@ for pipeline in PIPELINES:
                 matching_attributes,
                 llm_threshold=0.65,
                 auto_threshold=0.75,
+                model="llama-3.3-70b-versatile",
+                temperature=0
             )
     else:
 
