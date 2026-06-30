@@ -16,7 +16,7 @@ import pandas as pd
 # =====================================================
 
 # Execution mode: "classic", "llm" or "both"
-PIPELINE_MODE = "llm"
+PIPELINE_MODE = "classic"
 
 
 # Input datasets
@@ -32,12 +32,12 @@ inputs = [
 
 # Enable/disable individual pipeline stages
 STEPS = {
-    "schema_alignment": True,
+    "schema_alignment": False,
 
     "record_linkage": {
-        "blocking": True,
-        "matching": True,
-        "clustering": True
+        "blocking": False,
+        "matching": False,
+        "clustering": False
     },
 
     "data_fusion": True
@@ -72,15 +72,15 @@ SOURCES = {
     },
     "b": {
         "name": "rotten_tomatoes",
-        "weight": 0.4
+        "weight": 0.2
     },
     "c": {
         "name": "imdb_5",
-        "weight": 1.0
+        "weight": 0.4
     },
     "d": {
         "name": "roger_ebert",
-        "weight": 0.2
+        "weight": 1.0
     }
 }
 
