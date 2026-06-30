@@ -2,31 +2,31 @@
     {
         "model": "meta-llama/llama-4-scout-17b-16e-instruct",
         "prediction": "imdb_3,rotten_tomatoes,imdb_5,roger_ebert\nid,id,id,id\ntitle,title,movie_name,movie_name\nyear,year,year,year\nrating,rating,movie_rating,critic_rating\ndirector,director,directors,directors\ncast,cast,actors,actors\ngenre,genre,genre,genre\nduration,duration,duration,duration\ncontentRating,contentrating,pg_rating\ncreators,creators,\nsummary,",
-        "latency": 0.8429739475250244,
+        "latency": 0.7234647274017334,
         "tokens": {
-            "prompt_tokens": 2501,
+            "prompt_tokens": 2587,
             "completion_tokens": 106,
-            "total_tokens": 2607
+            "total_tokens": 2693
         }
     },
     {
         "model": "openai/gpt-oss-120b",
-        "prediction": "imdb_3,rotten_tomatoes,imdb_5,roger_ebert\nid,id,id,id\ntitle,title,movie_name,movie_name\nyear,year,year,year\nrating,rating,movie_rating,\ndirector,director,directors,directors\ncreator,creators,,\ncast,cast,actors,actors\ngenre,genre,genre,genre\nduration,duration,duration,duration\ncontentrating,contentrating,,pg_rating\n,summary,,",
-        "latency": 2.7876999378204346,
+        "prediction": "imdb_3,rotten_tomatoes,imdb_5,roger_ebert\nid,id,id,id\ntitle,title,movie_name,movie_name\nyear,year,year,year\nrating,rating,movie_rating,\ndirector,director,directors,directors\ncreator,creators,,\ncast,cast,actors,actors\ngenre,genre,genre,genre\nduration,duration,duration,duration\ncontentrating,contentrating,,pg_rating\nsummary,summary,,\n,,,critic_rating",
+        "latency": 2.3023061752319336,
         "tokens": {
-            "prompt_tokens": 2534,
-            "completion_tokens": 1128,
-            "total_tokens": 3662
+            "prompt_tokens": 2610,
+            "completion_tokens": 886,
+            "total_tokens": 3496
         }
     },
     {
         "model": "groq/compound-mini",
         "prediction": "imdb_3,rotten_tomatoes,imdb_5,roger_ebert\nid,id,id,id\ntitle,title,movie_name,movie_name\nyear,year,year,year\nrating,rating,movie_rating,\n,,,critic_rating\ndirector,director,directors,directors\ncreators,creators,,\ncast,cast,actors,actors\ngenre,genre,genre,genre\nduration,duration,duration,duration\ncontentrating,contentrating,,pg_rating\n,summary,,",
-        "latency": 4.0499513149261475,
+        "latency": 3.618752956390381,
         "tokens": {
-            "prompt_tokens": 5378,
-            "completion_tokens": 1473,
-            "total_tokens": 6851
+            "prompt_tokens": 5547,
+            "completion_tokens": 1274,
+            "total_tokens": 6821
         }
     }
 ]

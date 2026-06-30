@@ -6,7 +6,7 @@ import os
 import time
 import hashlib
 
-from record_matching import match_records
+from .record_matching import match_records
 
 WAITING_TIME = 0.5 # time to wait between each LLM request
 

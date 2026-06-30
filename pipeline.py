@@ -1,12 +1,12 @@
-from normalizator import normalizer
+from src.utils.normalizator import normalizer
 from src.schema_alignment.schema_alignment import schema_alignment, final_schema
 from src.schema_alignment.llm_schema_alignment import prompt_aligning
-from src.blocking.canopy_clustering import canopy_cluster
-from record_matching import match_records
-from llm_record_matching import llm_record_matching
-from entity_clustering import build_clusters
-from data_fusion import fuse_cluster
-import utils
+from src.record_linkage.blocking.canopy_clustering import canopy_cluster
+from src.record_linkage.record_matching.record_matching import match_records
+from src.record_linkage.record_matching.llm_record_matching import llm_record_matching
+from src.record_linkage.clustering.entity_clustering import build_clusters
+from src.data_fusion.data_fusion import fuse_cluster
+import src.utils.utils as utils
 from pathlib import Path
 import pandas as pd
 
@@ -16,11 +16,11 @@ import pandas as pd
 # =====================================================
 
 # Execution mode: "classic", "llm" or "both"
-PIPELINE_MODE = "classic"
+PIPELINE_MODE = "llm"
 
 
 # Input datasets
-INPUT_DIR = Path("dataset_cleaned")
+INPUT_DIR = Path("data/dataset_cleaned")
 
 inputs = [
     INPUT_DIR / "movies3_cleaned" / "imdb_cleaned.csv",
@@ -32,12 +32,12 @@ inputs = [
 
 # Enable/disable individual pipeline stages
 STEPS = {
-    "schema_alignment": False,
+    "schema_alignment": True,
 
     "record_linkage": {
-        "blocking": False,
-        "matching": False,
-        "clustering": False
+        "blocking": True,
+        "matching": True,
+        "clustering": True
     },
 
     "data_fusion": True
