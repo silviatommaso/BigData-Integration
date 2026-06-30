@@ -815,3 +815,60 @@ f9e268dbd1ac8656,a3,c285,0.715,0,0.7,"Different title and year, but same directo
 9d3ef68f48824b1d,a2400,b2111,0.713,0,0.2,Different year and cast
 11b3e316b51f4861,a464,d2322,0.713,1,0.8,"Same title and director, but different year and missing cast in Record B"
 b48405a4bc87fcc8,c574,d1799,0.713,0,0.2,Different year and cast
+e69dfd9d62a85ac1,a2013,b1779,0.713,0,0.4,"Same title and director, but different year and cast"
+f5afac7949d0dbd5,b2536,c2333,0.713,1,0.8,"Same title and director, similar cast, but different year"
+0c63abc0ec5b9672,a2742,d1799,0.713,0,0.2,Different year and cast
+53bbb387c9b5a0e5,a2028,b1789,0.713,0,0.6,"Same title and director, but different year and some cast members"
+3ba37bdb0da3148c,a421,d2299,0.713,1,0.8,"Same title and director, but different year"
+d4361c341cd0ada6,a1717,b1500,0.713,0,0.6,"Same title and director, but different year and cast"
+d308d15e829c79d5,a1748,d220,0.713,1,0.8,"Same title and director, but different year"
+d8391b1160e75961,a2597,d3121,0.713,1,0.8,"Same title and director, but different year"
+e00d4a3130f67e48,a1137,d3094,0.713,0,0.2,Different year and cast
+368551043a4534ea,b796,d2840,0.713,1,0.8,"Same title and director, but different year"
+bd2993b3c1adc22b,a2047,b1806,0.713,0,0.2,Different cast and year
+78c345f16262cb19,a1545,b1343,0.713,0,0.6,"same title and director, but different year and cast"
+8845795e1703d342,a2744,b2507,0.713,0,0.6,"Same title and director, but different year and cast"
+bbf7b0d62a3c1f10,a1072,b995,0.713,0,0.6,"Same title and director, but different year and cast"
+3461d875ac4b3652,a2013,d314,0.713,0,0.4,"Same title and director, but different year and cast"
+c27fa519f16ba170,b2369,d3121,0.713,1,0.8,"Same title and director, but different year"
+5733b47d0db8d1f9,b267,d954,0.713,1,0.8,"Same title and director, but different year"
+29373450b20516ce,a1072,d2667,0.713,1,0.8,"Same title and director, but different year"
+651b45fdcc9d8c39,a2478,d13,0.713,0,0.8,"Same title and director, but different year"
+a47f0bfa9644587f,b2505,d1799,0.713,0,0.2,Different year and cast
+06307d02b484fe9f,a1139,b2181,0.713,0,0.2,Different cast and year
+c3bb222be2b96a8f,a468,d2364,0.713,1,0.8,"Same title and director, but different year"
+f5e2b0bdba99176a,a852,d2840,0.713,1,0.8,"Same title and director, but different year"
+34384fcc09534670,a1168,b2207,0.705,1,0.8,"Same director, year, and partial cast match, but title and full cast differ slightly"
+868b2249822192a9,c2101,c2259,0.703,0,0.6,"Same director and cast, but different title and year"
+aae0171358758b64,a2311,c2101,0.703,0,0.6,"Different title and year, but same director and cast"
+32bfd2927fbf9b5d,a2546,c2259,0.703,0,0.6,"Same director and cast, but different title and year"
+983b8092a4df5f29,a2311,a2546,0.703,0,0.6,"Different titles and years, but same director and cast"
+bea6039207d6c10b,a209,d2176,0.699,0,0.2,"Different title, year, and most cast members"
+a2b434ebad6142b5,c399,c435,0.695,0,0.0,"Different title, director, and cast"
+3d3dbc0f20384c72,b204,d2176,0.693,0,0.2,"Different title, year, and most cast members"
+7d4b7d30bc12085f,c6714,c6720,0.693,0,0.6,"Same director and cast, but different title and year"
+c8584ce354a5e9ed,a209,a604,0.689,0,0.2,"Different title and year, same director"
+23a7b64f81e352af,a412,b568,0.689,0,0.2,Different title and cast
+8213caba81914658,b568,d2375,0.689,0,0.2,"Different title and year, similar director"
+0857f049da8b8074,b394,b568,0.689,0,0.2,Different title and cast
+ecbf4634080f00a9,c3943,c4007,0.685,0,0.2,Different title and cast
+bf9ef43954ce9c51,c4760,c4865,0.681,0,0.2,"Different title, year, and cast"
+fd002ece7371c74f,a2727,d1751,0.669,0,0.0,Different title and cast
+c55a739ef6b4aa19,c3938,c4147,0.667,0,0.4,"Similar director and cast member, but different title and year"
+a511730bb7e74d97,b1529,b2062,0.665,0,0.2,"Different title and year, similar director name"
+237af971e16ea83e,a900,d2615,0.653,0,0.0,"Different title, director, and cast"
+e4a94ccf60677256,a898,a900,0.653,0,0.0,Different directors and casts
+99804f373db40b0b,a900,b837,0.653,0,0.0,Different directors and casts
+a724780eb3e7f0cb,a1323,b589,0.653,0,0.6,"Different title and year, but same director and main cast"
+7bfe9582f49a8ddc,a1323,b1147,0.653,0,0.6,"Different title and year, but same director and some cast members"
+8f6ee66b816dc28c,d2615,d2810,0.653,0,0.2,"Different director and title, despite same year"
+dcaa95169ca07f72,a898,d2810,0.653,0,0.2,"Different director and title, despite same year"
+c0ed731ee48bb980,b1545,d1976,0.653,0,0.6,"Similar director and cast, but different title and year"
+71cd57f74792b7d1,b837,b839,0.653,0,0.0,Different director and cast
+191de912f1777aae,a898,b839,0.653,0,0.0,"Different titles, directors, and casts"
+4b4c01180417cf96,b837,d2810,0.653,0,0.2,"Different directors and titles, despite same year"
+249102351177840d,b839,d2615,0.653,0,0.0,Different director and cast
+cec2f8d3c31747b5,c626,d2800,0.65,0,0.2,Different title and year
+ebb6a694ea257431,c2333,d104,0.65,1,0.8,"Same title and director, minor cast and year differences"
+1ce247db96f57016,a2730,d2800,0.65,0,0.2,Different title and year
+dc3268e595839e2c,b19,d1168,0.65,0,0.4,"Different title and year, although same director and some cast members"
