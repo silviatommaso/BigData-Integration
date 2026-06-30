@@ -106,7 +106,7 @@ def profile_comparison(dfs, dfs_name):
             sim_density = 1.0 - abs(prof_A["numeric_percentage"] - prof_B["numeric_percentage"])
             sim_values_cardinality = 1.0 - abs(prof_A["cardinality"] - prof_B["cardinality"])
 
-            score_structure = (sim_length * 0.4) + (sim_words * 0.3) + (sim_density * 0.2) + (sim_values_cardinality * 0.1)
+            score_structure = (sim_length * 0.4) + (sim_words * 0.3) + (sim_density * 0.15) + (sim_values_cardinality * 0.15)
 
             # Numerical Refinement (Statistical)
             if prof_A["is_purely_numeric"] and prof_B["is_purely_numeric"]:
