@@ -106,7 +106,7 @@ def profile_comparison(dfs, dfs_name):
             sim_density = 1.0 - abs(prof_A["numeric_percentage"] - prof_B["numeric_percentage"])
             sim_values_cardinality = 1.0 - abs(prof_A["cardinality"] - prof_B["cardinality"])
 
-            score_structure = (sim_length * 0.5) + (sim_words * 0.25) + (sim_density * 0.2) + (sim_values_cardinality * 0.15)
+            score_structure = (sim_length * 0.4) + (sim_words * 0.3) + (sim_density * 0.2) + (sim_values_cardinality * 0.1)
 
             # Numerical Refinement (Statistical)
             if prof_A["is_purely_numeric"] and prof_B["is_purely_numeric"]:
@@ -138,7 +138,7 @@ def profile_comparison(dfs, dfs_name):
 
 #------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-def extract_global_schema_clusters(global_results, dataset_names, threshold=0.9):
+def extract_global_schema_clusters(global_results, dataset_names, threshold):
     """
     Groups pairwise matches into global tables.
     Ensures that even unmatched attributes appear as singleton clusters.
@@ -249,7 +249,7 @@ def schema_alignment(dfs, data_names, output):
     raw_results = profile_comparison(dfs, data_names)
     
     # Generate global schema alignment matrix
-    global_schema = extract_global_schema_clusters(raw_results, data_names, threshold=0.75)
+    global_schema = extract_global_schema_clusters(raw_results, data_names, threshold=0.7)
     # Save schema
     global_schema.to_csv(output, index=False)
 

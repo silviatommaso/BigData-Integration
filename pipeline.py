@@ -32,10 +32,10 @@ inputs = [
 
 # Enable/disable individual pipeline stages
 STEPS = {
-    "schema_alignment": False,
+    "schema_alignment": True,
 
     "record_linkage": {
-        "blocking": True,
+        "blocking": False,
         "matching": False,
         "clustering": False
     },
