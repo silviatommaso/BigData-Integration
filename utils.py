@@ -10,13 +10,18 @@ def load_movies_csv(path):
 # path existence checker
 ##################################################################################################################################################################################################################################################################################################################################################
 
-def path_check(files):
+def path_check(files, next_step=None):
 
-    for file in files[:-1]:
+    for file in files:
+
         if not os.path.exists(file):
-            print(f"Error: {file} not found, execute {files[-1]} first")
+
+            if next_step:
+                print(f"Error: {file} not found, execute {next_step} step first")
+            else:
+                print(f"Error: {file} not found")
+
             exit()
-            
 
 def subpath_check(files, indexes, step):
 

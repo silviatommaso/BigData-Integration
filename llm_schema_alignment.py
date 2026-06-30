@@ -246,7 +246,7 @@ def prompt_aligning(dfs, dataset_names, stats_path, global_schema_path, attribut
         samples.append(get_sample(df))
 
     # get attribute descriptions
-    if attributes_path:
+    if attributes_path and os.path.exists(attributes_path):
         with open(attributes_path, "r", encoding="utf-8") as f:
             attributes = json.load(f)
     else:

@@ -11,35 +11,15 @@ from pathlib import Path
 import pandas as pd
 
 
-
-
 # =====================================================
 # CONFIGURATION
 # =====================================================
 
-PIPELINE_MODE = "classic"
+# Execution mode: "classic", "llm" or "both"
+PIPELINE_MODE = "llm"
 
 
-if PIPELINE_MODE == "both":
-    PIPELINES = ["classic", "llm"]
-else:
-    PIPELINES = [PIPELINE_MODE]
-
-
-STEPS = {
-    "schema_alignment": False,
-
-    "record_linkage": {
-        "blocking": False,
-        "matching": True,
-        "clustering": True
-    },
-
-    "data_fusion": True
-}
-
-
-
+# Input datasets
 INPUT_DIR = Path("dataset_cleaned")
 
 inputs = [
@@ -50,52 +30,21 @@ inputs = [
 ]
 
 
+# Enable/disable individual pipeline stages
+STEPS = {
+    "schema_alignment": True,
 
-# =====================================================
-# COMMON FILES
-# =====================================================
+    "record_linkage": {
+        "blocking": True,
+        "matching": True,
+        "clustering": True
+    },
 
-COMMON = {
-
-    "canopy":
-        "record_linkage/canopy_blocks.csv"
-
+    "data_fusion": True
 }
 
 
-# =====================================================
-# PIPELINE FILES
-# =====================================================
-
-files = {
-
-    "classic": {
-
-        "global_schema" : "schema_alignment/classic/global_schema.csv",
-        "merged" : "schema_alignment/classic/merged_movies.csv",
-        "matches" : "record_linkage/classic/matches.csv",
-        "singletons" : "record_linkage/classic/singletons.csv",
-        "clusters" : "record_linkage/classic/entity_clusters.csv",
-        "fusion" : "data_fusion/classic/fused_entities.csv"
-        
-        },
-
-    "llm": {
-
-        "alignment_stats" : "schema_alignment/llm/schema_alignment_results_stat.json",
-        "attribute_descriptions" : "schema_alignment/llm/attribute_descriptions.json",
-        "global_schema" : "schema_alignment/llm/global_schema.csv",
-        "merged" : "schema_alignment/llm/merged_movies.csv",
-        "matches" : "record_linkage/llm/matches.csv",
-        "singletons" : "record_linkage/llm/singletons.csv",
-        "requests" : "record_linkage/llm/llm_requests.csv",
-        "clusters" : "record_linkage/llm/entity_clusters.csv",
-        "fusion" : "data_fusion/llm/fused_entities.csv"
-
-    }
-
-}
-
+# Source names and reliability weights used during data fusion
 SOURCES = {
     "a": {
         "name": "imdb_3",
@@ -116,6 +65,7 @@ SOURCES = {
 }
 
 
+# Attribute weights and similarity functions used for record matching
 matching_attributes = {
     "Title": {
         "weight": 0.50,
@@ -135,20 +85,34 @@ matching_attributes = {
     }
 }
 
+
+# Fusion strategy adopted for each attribute
 fusion_attributes = {
-    "Title":"atomic",
-    "Director":"multi",
-    "Year":"atomic",
-    "Cast":"multi",
-    "Genre":"multi",
-    "Duration":"atomic"
+    "Title": "atomic",
+    "Director": "multi",
+    "Year": "atomic",
+    "Cast": "multi",
+    "Genre": "multi",
+    "Duration": "atomic"
 }
+
 
 ################################################################################################################################################################################################################################################################################
 
 # =====================================================
-# PIPELINE (CLASSIC + LLM)
+# PIPELINE
 # =====================================================
+
+BASE_DIR = Path(__file__).resolve().parent
+
+if PIPELINE_MODE == "both":
+    PIPELINES = ["classic", "llm"]
+else:
+    PIPELINES = [PIPELINE_MODE]
+
+
+
+BASE_DIR = BASE_DIR / "results"
 
 for pipeline in PIPELINES:
 
@@ -158,25 +122,18 @@ for pipeline in PIPELINES:
     print("Running:", pipeline)
     print("==============================")
 
-
-    pipeline_files = files[pipeline]
-
-    for file in pipeline_files.values():
-
-        Path(file).parent.mkdir(parents=True, exist_ok=True)
-
-
-
-
-
-
-
 ################################################################################################################################################################################################################################################################################
 # STEP I
 # SCHEMA ALIGNMENT
 ################################################################################################################################################################################################################################################################################
 
+    schema_dir = BASE_DIR / "schema_alignment" / pipeline
+    merged_path = schema_dir / "merged_movies.csv"
+
     if STEPS["schema_alignment"]:
+
+        schema_dir.mkdir(parents=True, exist_ok=True)
+
         datasets = [s["name"] for s in SOURCES.values()]
         indexes = list(SOURCES.keys())
 
@@ -185,25 +142,33 @@ for pipeline in PIPELINES:
 
 
         if pipeline == "llm":
-
+            
+            ATTRIBUTE_DESCRIPTIONS = INPUT_DIR / "attribute_descriptions.json"
+            
             # LLM global schema extraction
-            prompt_aligning(dfs, datasets, pipeline_files["alignment_stats"], pipeline_files["global_schema"], pipeline_files["attribute_descriptions"])
+            prompt_aligning(
+                dfs,
+                datasets,
+                schema_dir / "schema_alignment_results_stat.json",
+                schema_dir / "global_schema.csv",
+                ATTRIBUTE_DESCRIPTIONS
+            )
             # list of columns to keep from each dataset
-            dfs = final_schema(dfs, utils.load_movies_csv(pipeline_files["global_schema"]))
+            dfs = final_schema(dfs, utils.load_movies_csv(schema_dir / "global_schema.csv"))
 
         else:
             print([df.columns for df in dfs])
             # list of columns to keep from each dataset
-            dfs = schema_alignment(dfs, datasets, pipeline_files["global_schema"])
+            dfs = schema_alignment(dfs, datasets, schema_dir / "global_schema.csv")
 
 
         merged_df = pd.concat(dfs, ignore_index=True)
         merged_df = merged_df.convert_dtypes()
-        merged_df.to_csv(pipeline_files["merged"], index=False)
+        merged_df.to_csv(merged_path, index=False)
 
     else:
 
-        merged_df = utils.load_movies_csv(pipeline_files["merged"])
+        merged_df = utils.load_movies_csv(merged_path)
     
     print("Loaded merged dataset:", len(merged_df))
 
@@ -217,32 +182,44 @@ for pipeline in PIPELINES:
 # STEP II
 # RECORD LINKAGE
 ################################################################################################################################################################################################################################################################################
+    
+    linkage_dir = BASE_DIR / "record_linkage" / pipeline
 
     # =====================================================
     # BLOCKING (COMMON)
     # =====================================================
 
-    if STEPS["record_linkage"]["blocking"]:
-
-
-        Path(COMMON["canopy"]).parent.mkdir(parents=True, exist_ok=True)
-
-        canopy_cluster(merged_df, COMMON["canopy"])
-
-    canopy_df = utils.load_movies_csv(COMMON["canopy"])
+    canopy_path = BASE_DIR / "record_linkage" / "canopy_blocks.csv"
     
+    if STEPS["record_linkage"]["blocking"]:
+        canopy_path.parent.mkdir(parents=True, exist_ok=True)
+        canopy_cluster(merged_df, str(canopy_path))
 
+
+    utils.path_check(
+        [canopy_path],
+        "record_linkage blocking step"
+    )
+
+    canopy_df = utils.load_movies_csv(canopy_path)
+    
     # =================================================
     # MATCHING
     # =================================================
+    
+    matches_path = linkage_dir / "matches.csv"
 
     if STEPS["record_linkage"]["matching"]:
 
+        linkage_dir.mkdir(
+            parents=True,
+            exist_ok=True
+        )
         if pipeline == "classic":
 
             matches = match_records(
                 canopy_df,
-                pipeline_files["matches"],
+                matches_path,
                 matching_attributes,
                 threshold=0.75
             )
@@ -251,15 +228,15 @@ for pipeline in PIPELINES:
 
             matches = llm_record_matching(
                 canopy_df,
-                pipeline_files["matches"],
-                pipeline_files["requests"],
+                matches_path,
+                linkage_dir / "llm_requests.csv",
                 matching_attributes,
                 llm_threshold=0.65,
                 auto_threshold=0.75,
             )
     else:
 
-        matches = utils.load_movies_csv(pipeline_files["matches"])
+        matches = utils.load_movies_csv(matches_path)
 
 
 ################################################################################################################################################################################################################################################################################
@@ -269,6 +246,9 @@ for pipeline in PIPELINES:
 ################################################################################################################################################################################################################################################################################
 # CLUSTERING
 ################################################################################################################################################################################################################################################################################
+    
+    clusters_path = linkage_dir / "entity_clusters.csv"
+    singletons_path = linkage_dir / "singletons.csv"
 
     if STEPS["record_linkage"]["clustering"]:
 
@@ -279,8 +259,8 @@ for pipeline in PIPELINES:
             matches,
             merged_df,
             0,
-            pipeline_files["clusters"],
-            pipeline_files["singletons"]
+            clusters_path,
+            singletons_path
         )
 
 ################################################################################################################################################################################################################################################################################
@@ -293,11 +273,16 @@ for pipeline in PIPELINES:
 
     if STEPS["data_fusion"]:
 
+        fusion_dir = BASE_DIR / "data_fusion" / pipeline
+
+        fusion_dir.mkdir(
+            parents=True,
+            exist_ok=True
+        )
 
         print("Starting data fusion")
 
-        entities = utils.load_movies_csv(pipeline_files["clusters"])
-
+        entities = utils.load_movies_csv(clusters_path)
 
         fused = [
             fuse_cluster(
@@ -311,7 +296,7 @@ for pipeline in PIPELINES:
 
         final_df = pd.concat(fused, ignore_index=True)
         # save to csv
-        final_df.to_csv(pipeline_files["fusion"], index=False)
+        final_df.to_csv(fusion_dir / "fused_entities.csv", index=False)
 
 
     print(pipeline, "completed")
