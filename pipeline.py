@@ -1,7 +1,7 @@
 from normalizator import normalizer
-from schema_alignment import schema_alignment, final_schema
-from llm_schema_alignment import prompt_aligning
-from canopy_clustering import canopy_cluster
+from src.schema_alignment.schema_alignment import schema_alignment, final_schema
+from src.schema_alignment.llm_schema_alignment import prompt_aligning
+from src.blocking.canopy_clustering import canopy_cluster
 from record_matching import match_records
 from llm_record_matching import llm_record_matching
 from entity_clustering import build_clusters
@@ -43,28 +43,6 @@ STEPS = {
     "data_fusion": True
 }
 
-
-# Source names and reliability weights used during data fusion
-SOURCES = {
-    "a": {
-        "name": "imdb_3",
-        "weight": 1.0
-    },
-    "b": {
-        "name": "rotten_tomatoes",
-        "weight": 0.4
-    },
-    "c": {
-        "name": "imdb_5",
-        "weight": 1.0
-    },
-    "d": {
-        "name": "roger_ebert",
-        "weight": 0.2
-    }
-}
-
-
 # Attribute weights and similarity functions used for record matching
 matching_attributes = {
     "Title": {
@@ -85,6 +63,26 @@ matching_attributes = {
     }
 }
 
+
+# Source names and reliability weights used during data fusion
+SOURCES = {
+    "a": {
+        "name": "imdb_3",
+        "weight": 1.0
+    },
+    "b": {
+        "name": "rotten_tomatoes",
+        "weight": 0.4
+    },
+    "c": {
+        "name": "imdb_5",
+        "weight": 1.0
+    },
+    "d": {
+        "name": "roger_ebert",
+        "weight": 0.2
+    }
+}
 
 # Fusion strategy adopted for each attribute
 fusion_attributes = {
