@@ -25,93 +25,68 @@ def clean_text(value):
 
 
 
-def build_tfidf_matrices(df):
-    """Generates separate TF-IDF matrices for Title and Director."""
+def build_tfidf_matrices(df, columns, tfidf_params=None):
+    """Generates separate TF-IDF matrices"""
 
-    titles = df["clean_title"].tolist()
-    directors = df["clean_director"].tolist()
+    matrices = {}
 
-    # Character n-grams are used to better handle spelling variations and dataset sparisity
-    vectorizer_title = TfidfVectorizer(
-        analyzer="char_wb",
-        ngram_range=(2, 3),
-        min_df=2
-    )
+    default_params = {
+        "analyzer": "char_wb",
+        "ngram_range": (2, 3),
+        "min_df": 2
+    }
 
-    vectorizer_dir = TfidfVectorizer(
-        analyzer="char_wb",
-        ngram_range=(2, 3),
-        min_df=2
-    )
+    for col in columns:
 
-    # Title
-    try:
-        X_title = vectorizer_title.fit_transform(titles)
+        params = default_params.copy()
 
-    except ValueError:
-        X_title = np.zeros((len(df),1))
+        if tfidf_params and col in tfidf_params:
+            params.update(tfidf_params[col])
 
+        vectorizer = TfidfVectorizer(**params)
 
-    # Director
-    try:
-        X_dir = vectorizer_dir.fit_transform(directors)
-    except ValueError:
-        X_dir = np.zeros((len(df),1))
+        try:
+            matrices[col] = vectorizer.fit_transform(
+                df[f"clean_{col}"].tolist()
+            )
 
-    return X_title, X_dir
+        except ValueError:
+            matrices[col] = np.zeros((len(df), 1))
+
+    return matrices
 
 
 # ======================
 # CANOPY CLUSTER
 # ======================
 
-def canopy_cluster(merged_df, cluster_path):
+def canopy_cluster(merged_df, cluster_path, canopy_params):
 
     start_time = time.time()
     df = merged_df.copy()
+    
+    columns = canopy_params["columns"]
+    thresholds = canopy_params["thresholds"]
+    tfidf_params = canopy_params.get("tfidf", {})
 
-    # Preprocess key attributes
-    has_title = "Title" in df.columns
-    has_director = "Director" in df.columns
+    for col in columns:
+        clean_col = f"clean_{col}"
 
+        if col in df.columns:
+            df[clean_col] = df[col].apply(clean_text)
+        else:
+            df[clean_col] = ""
 
-    if has_title:
-        df["clean_title"] = df["Title"].apply(clean_text)
-
-    else:
-        df["clean_title"] = ""
-
-
-    if has_director:
-        df["clean_director"] = df["Director"].apply(clean_text)
-
-    else:
-        df["clean_director"] = ""
-
-    # Build separate TF-IDF matrices
-    X_title, X_dir = build_tfidf_matrices(df)
-
+    X = build_tfidf_matrices(df, columns, tfidf_params)
 
     n = len(df)
 
     pool_mask = np.ones(n, dtype=bool)
     canopies = {}
 
-    # ======================
-    # THRESHOLD CONFIGURATION
-    # ======================
-
-    # Title similarity thresholds
-    T1_title = 0.40
-    T2_title = 0.70
-
-    # Director similarity thresholds
-    # Stricter values reduce false matches caused by common names
-    T1_dir = 0.40
-    T2_dir = 0.65
-
     print("=" * 60)
-    print("CANOPY MULTI-CHANNEL (TITLE + DIRECTOR)")
+    print("CANOPY MULTI-CHANNEL")
+    print(f"Columns: {columns}")
     print(f"Dataset size: {n}")
     print("=" * 60)
 
@@ -119,46 +94,78 @@ def canopy_cluster(merged_df, cluster_path):
         writer = csv.writer(f)
         writer.writerow(["Cluster_ID"] + merged_df.columns.tolist())
 
+    has_values = {}
 
+    for col in columns:
+        has_values[col] = (
+            df[f"clean_{col}"] != ""
+        ).to_numpy()
 
     cluster_id = 0
 
-    # Cache whether each record has a director value
-    has_director = (df["clean_director"] != "").to_numpy()
-
     while np.any(pool_mask):
-        
+
         cluster_id += 1
 
-        # Select the first available record as the cluster center
         centro_id = np.where(pool_mask)[0][0]
         pool_mask[centro_id] = False
 
-        # Compute title and director similarities separately
-        sims_title = cosine_similarity(X_title[centro_id],X_title).ravel()
-        sims_dir = cosine_similarity(X_dir[centro_id],X_dir).ravel()
+        similarities = {}
 
-        # If both records have a director, both title and director
-        # similarities must satisfy the threshold.
-        # If one director value is missing, only title similarity is used.
-        centro_has_dir = has_director[centro_id]
+        for col in columns:
+            similarities[col] = cosine_similarity(
+                X[col][centro_id],
+                X[col]
+            ).ravel()
 
-        both_have_director = centro_has_dir & has_director
+        # T1
+        in_cluster_mask = np.ones(n, dtype=bool)
 
-        # Loose threshold:
-        # determines which records enter the canopy
+        for col in columns:
 
-        in_cluster_mask = np.where(both_have_director, (sims_title >= T1_title) & (sims_dir >= T1_dir), (sims_title >= T1_title))
+            T1 = thresholds[col][0]
+
+            both_have_value = (
+                has_values[col][centro_id]
+                &
+                has_values[col]
+            )
+
+            condition = np.where(
+                both_have_value,
+                similarities[col] >= T1,
+                True
+            )
+
+            in_cluster_mask &= condition
+
         in_cluster_mask[centro_id] = True
 
         blocco_indices = np.where(in_cluster_mask)[0]
 
 
-        # Tight threshold:
-        # determines which records are removed from the candidate pool
+        # T2
+        to_remove_mask = np.ones(n, dtype=bool)
 
-        to_remove_mask = np.where(both_have_director, (sims_title >= T2_title) & (sims_dir >= T2_dir), (sims_title >= T2_title))
-        to_remove_mask = to_remove_mask & pool_mask
+        for col in columns:
+
+            T2 = thresholds[col][1]
+
+            both_have_value = (
+                has_values[col][centro_id]
+                &
+                has_values[col]
+            )
+
+            condition = np.where(
+                both_have_value,
+                similarities[col] >= T2,
+                True
+            )
+
+            to_remove_mask &= condition
+
+        to_remove_mask &= pool_mask
 
         remove_count = np.sum(to_remove_mask)
 
@@ -167,7 +174,7 @@ def canopy_cluster(merged_df, cluster_path):
 
         canopies[centro_id] = blocco_indices.tolist()
 
-        # Save current cluster to file
+
         with open(cluster_path, "a", newline="", encoding="utf-8") as f:
 
             writer = csv.writer(f)
@@ -187,7 +194,6 @@ def canopy_cluster(merged_df, cluster_path):
                     else:
                         output_row.append(row[col])
 
-
                 writer.writerow(
                     [cluster_id] + output_row
                 )
@@ -203,10 +209,9 @@ def canopy_cluster(merged_df, cluster_path):
 
     end_time = time.time()
 
-
     print("=" * 60)
     print(f"Completed: {cluster_id} clusters")
-    print(f"Total execution time: {end_time - start_time:.2f} seconds")
+    print(f"Total execution time: {end_time - start_time:.2f}s")
     print("=" * 60)
 
     return canopies

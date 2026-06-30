@@ -16,7 +16,7 @@ import pandas as pd
 # =====================================================
 
 # Execution mode: "classic", "llm" or "both"
-PIPELINE_MODE = "llm"
+PIPELINE_MODE = "classic"
 
 
 # Input datasets
@@ -32,16 +32,37 @@ inputs = [
 
 # Enable/disable individual pipeline stages
 STEPS = {
-    "schema_alignment": True,
+    "schema_alignment": False,
 
     "record_linkage": {
-        "blocking": True,
+        "blocking": False,
         "matching": True,
         "clustering": True
     },
 
-    "data_fusion": True
+    "data_fusion": False
 }
+
+
+
+# Parameters for canopy clustering (blocking phase)
+# If a TF-IDF parameter is not defined, default values are used:
+# analyzer="char_wb", ngram_range=(2,3), min_df=2.
+canopy_params = {
+
+    "columns": [
+        "Title",
+        "Director"
+    ],
+
+    "thresholds": {
+        "Title": (0.40, 0.70),
+        "Director": (0.40, 0.65)
+    },
+
+    "tfidf": {}
+}
+
 
 # Attribute weights and similarity functions used for record matching
 matching_attributes = {
@@ -191,7 +212,11 @@ for pipeline in PIPELINES:
     
     if STEPS["record_linkage"]["blocking"]:
         canopy_path.parent.mkdir(parents=True, exist_ok=True)
-        canopy_cluster(merged_df, str(canopy_path))
+        canopy_cluster(
+            merged_df,
+            canopy_path,
+            canopy_params
+        )
 
 
     utils.path_check(
