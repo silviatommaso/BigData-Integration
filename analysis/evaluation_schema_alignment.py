@@ -91,7 +91,7 @@ def evaluate(system_file, gt_file, name):
         print("---------------------")
         for pair in sorted(FN, key=format_pair):
             print(format_pair(pair))
-
+    print()
     return {"precision": precision, "recall": recall, "f1": f1}
 
 
