@@ -1,0 +1,531 @@
+request_id,id1,id2,classic_score,match,confidence,explanation
+137d9cf807502417,b2592,d1335,0.749,1,0.88,"Identical title and director with overlapping core cast; year differs by one, likely a release‑date discrepancy, and extra cast in B does not contradict a match."
+db4712ed342cac71,a2019,b1782,0.749,1,0.85,"Identical title and core cast, director names are likely the same person (Robert/Bobby), and the year difference is a minor discrepancy; extra cast member in B suggests a more complete listing."
+e5e5dbe5e44dc791,b2715,b2716,0.748,0,0.97,Different titles and largely different casts indicate distinct films despite same director and year.
+c0550e1b0d9cdb0f,d2217,d2312,0.748,0,0.96,"Titles, release years, and many cast members differ (Part 2 vs Part 1, 2011 vs 2010), indicating distinct films despite the same director."
+c64044c1638d61a9,a2723,b2488,0.747,1,0.78,Same title and director (spelling variation) with overlapping main cast; minor differences in year and additional cast suggest likely same film.
+31c166a19a532b45,b1834,d135,0.746,1,0.92,"Identical title and director with largely overlapping cast; the one‑year difference is likely a data entry error, indicating the same entity."
+f355c9f20ea073e4,c253,d441,0.746,1,0.85,"Title and director match exactly; major cast overlap (Samuel L. Jackson, Onni Tommila) despite extra/missing actors; year differs by one, likely a data entry variance."
+ca18a643479390e3,a2647,d1667,0.746,1,0.85,"Identical title and director with overlapping main cast; year differs by one, likely a data error, so high confidence they are the same entity."
+1561c6b95b1b1eb1,b2193,d22,0.746,0,0.08,"Titles and casts differ significantly; only director and year match, which is insufficient for a match."
+c0e4a430262f61c7,a2481,d3128,0.746,1,0.86,"Titles and directors are identical; most cast members overlap, and the year difference is likely a data entry error or release‑date variation, while extra cast in B can be an expanded list."
+9ddcdc1748d8fab6,c2301,d133,0.746,1,0.85,Title and director are identical; major cast members overlap. The one-year difference and extra cast members suggest a data discrepancy rather than a different entity.
+fd3cf79cb958180c,b2193,b2194,0.746,0,0.92,Different titles and completely different casts indicate distinct movies despite same director and year.
+af315ad332ba5c2d,b2193,c2169,0.746,0,0.92,"Titles and casts differ significantly despite sharing director and year, indicating different movies."
+9490aba994667681,a2708,d1743,0.746,1,0.78,"Same title and director with overlapping principal cast; only the year differs by one, suggesting a possible data entry discrepancy."
+82c4ac0eb8cff51c,a706,d1369,0.746,1,0.86,"Identical title and director, core cast matches exactly; extra cast in B likely full list and year difference is a minor discrepancy."
+ef61b92972c22c6a,a1078,d2696,0.746,1,0.85,Identical title and director with overlapping main cast strongly indicate the same film; the one‑year difference and extra cast members lower confidence slightly.
+c9dd468aac04f046,b2136,d2982,0.746,1,0.92,"Identical title and director with substantial overlapping cast; year difference likely a data error, so strong evidence they are the same entity."
+4256b7a6c7ac707b,c220,d786,0.746,1,0.85,"Title and director match exactly; major cast members overlap. Year differs by one and additional cast members appear, suggesting a possible data discrepancy rather than a different film."
+fe5cb7a8d32d09c4,a1152,b2193,0.746,0,0.97,"Titles differ significantly and cast lists share no actors; only director and year match, which is insufficient for a match."
+fbd11035e69172bc,a2128,d151,0.746,1,0.93,"Identical title and director, core cast matches; year differs likely due to data entry error, and B adds additional correct cast members."
+cd1f7a5659f86160,c317,d773,0.746,1,0.86,"Identical title and director with overlapping main cast; year and extra cast differences are typical data variations, indicating the same film."
+babba73175e5276b,a728,d2864,0.746,1,0.92,"Identical title and director with overlapping main cast; year difference likely due to release vs production year, so strong evidence they are the same film."
+468672cdf9cb4433,a735,d2820,0.746,1,0.85,"Identical title and director with overlapping main cast; year difference likely a data error, so strong evidence of same movie."
+64f58401caef8e1d,b1704,d288,0.746,1,0.93,"Identical title and director with core cast matching; extra cast members and a one‑year discrepancy are typical data variations, indicating the same film."
+217fe03d651b56a3,c2509,d171,0.746,1,0.85,"Identical title and director with overlapping main cast; year differs by one and B lists additional cast, suggesting a data variation rather than a different entity."
+117a496e5e98c3f5,a1082,d2625,0.746,1,0.85,"Identical title, director (spelling variation only), and core cast match; year differs by one, likely due to release vs production date, and B includes additional cast members."
+54eaa35aacd765fa,a1853,b1626,0.745,1,0.86,"Same title, nearly identical director name (middle name added), matching main cast; only a one‑year discrepancy and an extra cast member, so high confidence they are the same film."
+f0005f9525a51a3d,a1833,d281,0.745,1,0.85,"Identical title, director (spelling variation), and core cast match; extra cast members and a one‑year difference are plausible variations, so likely the same film."
+5fc2ee6418bdef65,b2716,d1695,0.745,0,0.08,"Only director and year match; titles differ and cast lists share only one actor, indicating distinct films."
+5685e106aec3ac64,c5701,c5729,0.744,1,0.65,"Same director and year, and two cast members overlap; title differs but could be alternate translations, so moderate confidence."
+fa520551276658d0,c4490,c4491,0.744,0,0.92,"Same director and year, but titles differ and cast lists share no members, indicating distinct productions."
+4f405da367e0deeb,a2769,d1557,0.743,1,0.78,"Identical title, overlapping director and core cast indicate same film, but differing year and extra director reduce confidence."
+af990c80f984b288,a2727,d1253,0.743,1,0.86,"Identical title and director with overlapping main cast; year differs by one, likely a release‑date variation, so strong evidence of the same entity."
+a91d6cf6463760de,b2708,d1396,0.743,1,0.88,Identical title and director with largely overlapping cast strongly indicate the same film; the one‑year difference in release year reduces confidence slightly.
+68ce287ad0536a67,a2385,d63,0.743,1,0.92,"Identical title and director with overlapping main cast; year difference likely due to release vs production date, so they refer to the same film."
+c98d0ac35e600d34,c2275,d63,0.743,1,0.92,"Identical title and director with overlapping main cast; year difference likely due to release vs production date, so they refer to the same film."
+c04e633f5e3251ff,c1819,d2471,0.741,1,0.88,"Identical title and director, overlapping main cast, and only a one‑year discrepancy; extra cast in B likely additional credits, indicating the same film."
+2b4a6b0370bc9fad,a2303,d19,0.741,1,0.85,"Same title and director; core cast members match despite spelling variations. Year differs by one and B lists additional cast, likely due to data source differences, so confidence is high but not absolute."
+f4191d28a6fa60a1,c1376,c1617,0.741,0,0.22,"Titles and years differ (nitro vs turbo, 2011 vs 2010); despite identical director and cast, the mismatched core identifiers suggest distinct entities."
+05d475084641f759,a2080,d103,0.741,1,0.85,"Title and director are identical and core cast members (Jude Law, Robin Wright, Vera Farmiga) match; the one‑year difference likely reflects a data error, while extra cast in B is plausible."
+637c37f051812e1d,c1817,c1902,0.741,0,0.92,"Title and release year differ (""Red Cliff II"" vs ""Red Cliff"" and 2009 vs 2008), indicating they are separate films despite identical director and cast."
+4610faf95c221e06,a941,d2609,0.741,1,0.85,"Same title and director with overlapping main cast; year differs by one, likely a minor discrepancy, so high confidence they are the same entity."
+c37021257083d22f,a2837,d1335,0.74,1,0.85,"Same title and director with overlapping main cast; year differs by one year, likely a data discrepancy, while extra cast in B suggests a more complete listing."
+bb7c6a35d6a80120,b731,d2756,0.74,1,0.85,"Same title and core cast match; director name and year differ slightly, likely due to typographical errors and additional cast listings."
+be2bc9ce4ba1990e,a471,b449,0.74,1,0.86,"Titles match exactly, director names are consistent (full vs shortened), main cast members are identical (including Michael K. Williams), and the year difference is only one year, likely a data entry variance; extra cast member in B does not contradict a match."
+520a9e14864bc2eb,a1604,b1392,0.739,1,0.75,"Same title and overlapping director name (minor spelling variation) and two cast members match; year differs by one and other cast differ, suggesting likely same entity with data inconsistencies."
+3d98589a76f46e8c,c239,d650,0.738,1,0.85,"Same title and director with overlapping main cast (Salma Hayek, Hiroyuki Watanabe) indicate the same film; the one‑year difference likely reflects release vs production year, so confidence is high but not absolute."
+88bc68f06ab3b514,b2371,d3102,0.738,1,0.85,"Identical title and director with core cast matching; year differs by one, likely due to release date variation, and extra cast members are typical of extended listings."
+99467c971b3bb48f,a2652,d1341,0.738,1,0.85,"Same title and director with overlapping principal cast; year differs by one, likely a data error, so high confidence they are the same entity."
+9bcc3bba4816afd7,b2116,d3164,0.738,1,0.85,"Identical title and director with overlapping main cast; only the year differs by one, likely a data entry variance."
+cb7f571bea45c5d6,a1092,b2139,0.738,0,0.22,"Only the director and year match; the titles differ beyond a subtitle and the cast lists have no overlap, indicating they are likely different entities."
+28108c17bfd60a6f,a2906,d1500,0.738,1,0.88,"Same title and director with overlapping main cast; year differs by one and B lists additional cast, suggesting a consistent entity with minor data variations."
+11a385ac50555d1d,b358,c375,0.738,1,0.78,"Titles match exactly; director names differ by one letter (likely a typo); year differs by one; cast lists share the three main actors with name order variations, though B omits one minor cast member."
+ec65d2d2ed90d902,c2178,d2971,0.738,1,0.85,"Identical title and director with overlapping main cast; year differs by one and some cast members differ, suggesting a likely same film with minor data variations."
+cf123bf50356baa0,a2185,d110,0.738,1,0.85,"Identical title and director with overlapping core cast; year differs by one and B lists additional cast, suggesting the same film with minor data variation."
+b3172dfc012299d8,b1906,d3100,0.738,1,0.86,"Identical title and director with overlapping core cast; year differs by one and B lists additional cast, suggesting a release‑year discrepancy rather than a different film."
+483213f57fc4e6a9,a2759,a550,0.738,0,0.97,"Titles and release years differ (Part III vs Part II, 2013 vs 2011), indicating distinct movies despite same director and cast."
+57366404657b2fec,d1114,d951,0.738,0,0.05,"Titles, directors, and cast differ despite the same year, indicating they are different entities."
+a49e01d093208ad0,a2213,d29,0.738,1,0.85,Identical title and director with overlapping core cast suggest the same film; the one‑year difference and extra cast entries lower confidence slightly.
+6f41bc8250002a63,a1089,d2982,0.738,1,0.92,"Same title and director with overlapping main cast; year difference likely a data error, so high confidence they are the same film."
+cc3c6177e16d5fbd,a2667,d1742,0.737,1,0.85,"Titles and director match exactly; cast overlaps on two key actors; only the year differs by one, suggesting a data entry discrepancy."
+8a469422791b6598,a1844,b1618,0.737,1,0.78,"Same title and director (minor name variation), overlapping main cast members, and only a one‑year discrepancy suggest they are the same film despite some differing cast listings."
+473ce840af4d345e,b1952,d29,0.736,1,0.85,"Identical title and director with overlapping main cast indicate the same work; the one‑year discrepancy likely reflects different release dates, so confidence is high but not absolute."
+a1370d65328b0c1a,a2795,d1425,0.736,1,0.85,"Identical title and core cast (Oscar Isaac, Carey Mulligan, John Goodman) with overlapping director (Ethan Coen) indicate the same film; minor differences in year and extra director/cast entries reduce confidence slightly."
+5a9769c8fd8dd5b7,c1051,d1580,0.736,1,0.85,"Identical title, shared director (Jason Lapeyre) and core cast members; year and extra cast differences likely due to data source variations."
+37bc5b8f7804d077,a1455,d2673,0.735,1,0.85,"Identical title and director strongly indicate the same film; year differs and cast lists are incomplete in A, lowering confidence but not enough to reject."
+8a4cc3ef9e7a5e08,a1156,d3142,0.735,1,0.92,"Identical title and director with overlapping main cast; year difference likely due to release date variation, extra cast members are typical for extended listings."
+835166055ec04b51,b1696,d162,0.734,1,0.85,"Same title, director, and core cast overlap; only the year differs, suggesting a likely same film with a minor data discrepancy."
+ab60244ab3a426c9,b304,c1684,0.734,1,0.85,"Identical title and core cast; directors are the Spierig brothers (one listed each) and year differs by one, likely a data entry or regional release variation."
+dcab88ef5e994f4a,a863,d2968,0.734,1,0.92,Exact title match and identical year strongly indicate the same film; missing director and cast in Record B lower confidence slightly.
+dc1c0111caa02015,c4228,c4351,0.734,0,0.87,"Title differs by a sequel indicator (""ii""), year is off by one, and cast lists are not identical, suggesting distinct films."
+4542e44c79094efd,c2653,c2739,0.733,0,0.03,"Different titles (vol. 1 vs vol. 2) and release years, plus differing cast members indicate they are distinct films despite sharing director and lead actress."
+d1cc61e35909c5d7,a1689,c2739,0.733,0,0.03,"Different titles (vol. 1 vs vol. 2) and release years, plus differing cast members indicate they are distinct films despite sharing director and lead actress."
+dcbfdc23f198bf06,c1347,d2072,0.733,1,0.78,Identical title and director with a shared lead actor strongly suggest the same film; differing release year and partially different cast lower confidence.
+fba74c70b3b07f01,a344,d2516,0.733,1,0.85,"Same title and director with overlapping main cast; year differs by one, likely a release‑date discrepancy, extra cast members are plausible."
+1246a70a80dcc742,c3537,c3538,0.733,0,0.96,"Titles, directors, and cast are completely different despite sharing the same year, indicating they are distinct entities."
+d4675eab100e8c6e,a1293,b1116,0.732,1,0.92,"Identical title and core cast match; director and year differences are minor (Coen brothers often co‑directed and release year can vary), indicating likely the same movie."
+c481d0aba36966b5,a1127,d113,0.731,1,0.85,"Same title and director (minor name variation), overlapping cast with A being a subset of B, and only a one‑year difference, indicating likely the same film."
+946190d49bf8473b,b1146,b1341,0.731,0,0.96,"Titles, release years, and most cast members differ, indicating distinct movies despite the same director."
+b01ef5787b111bc5,a501,d2135,0.731,0,0.98,"Titles indicate different installments (part 1 vs part 2) and years differ (2011 vs 2012); despite same director and some overlapping cast, they are distinct movies."
+e32d829381110fa1,b2936,c106,0.73,1,0.93,"The titles correspond (original vs English), director and year are identical, and the main cast overlaps completely; the only difference is an extra cast member in Record A, which slightly lowers confidence."
+22276332d3889f16,a2441,d3139,0.729,1,0.78,Identical title and director with a shared lead actor strongly indicate the same film; the one‑year difference and varying secondary cast lower confidence.
+5a3314fc6a254cda,a1839,b1613,0.729,1,0.78,Same title and director with overlapping lead actor indicate the same film; differing year and cast members lower confidence.
+1c46fd2d3ddcc796,a2202,b1942,0.729,1,0.85,Identical title and director with overlapping key cast members (darnellia russell and ludacris) strongly indicate the same entity; the one‑year discrepancy in release year lowers confidence slightly.
+d58ac3bce2aa43ca,a2363,b2081,0.729,1,0.71,"Identical title and director strongly suggest the same film; the one‑year difference and partially different cast likely reflect release‑date variations or incomplete cast listings, reducing confidence but not enough to rule out a match."
+dd8f90f7ce14f1c9,a1455,b1264,0.729,0,0.87,"Same title and director, but different release years and largely different cast lists (only one actor overlaps), indicating they are likely distinct productions."
+aa837dd8884409b0,b2353,c2336,0.729,1,0.85,"Same title and director with overlapping lead (Jeremy Piven); year difference likely a data error and cast lists are partial, supporting they refer to the same film."
+6eb527a2a3de0962,a1144,b2186,0.729,1,0.65,Same title and director strongly suggest the same film; the one‑year difference and largely different cast listings lower confidence but could be due to data errors or incomplete lists.
+2fdc5cb4111c415c,a468,b447,0.729,1,0.78,Same title and director strongly suggest the same film; the one‑year difference and partially overlapping cast lower confidence but are explainable (different release dates or incomplete cast lists).
+01c03379e140e090,a2441,b2227,0.729,1,0.68,"Exact title and director match strongly suggest the same film; the one‑year difference can be due to release date variations, while the cast lists overlap on John Cusack but differ, lowering confidence."
+2ae2cd890dd4c2fa,a2481,b2262,0.729,1,0.85,"Same title and director with overlapping cast members; only the year differs by one, suggesting a minor data inconsistency."
+9da9f76c5f9e74db,a993,b924,0.729,0,0.45,"Title and director match, but year differs and the cast lists are largely different, indicating likely distinct entities."
+fd91007933f95d1f,a1243,b1070,0.729,1,0.72,"Same title and director strongly suggest the same film; year differs by one and only one cast member overlaps, lowering confidence but not enough to rule out a match."
+7710a63f13f166d3,a1094,b2141,0.729,0,0.35,"Same title and director, but different release years and largely different cast lists; the overlap is limited to one actor, suggesting they are likely distinct entries."
+61e1c5ec085f801b,a1832,b1607,0.729,1,0.85,"Identical title and director with overlapping main cast; one-year difference likely a data entry error, so strong evidence they are the same film."
+da25c5bd838311c2,a1234,b1061,0.729,1,0.92,"Identical title and director with core cast matching; year off by one and an extra cast member likely due to data entry variations, indicating the same film."
+efe909028186cef7,b2450,c914,0.729,1,0.78,"Same title and director with overlapping lead actor; year and some cast differ, suggesting a data inconsistency rather than a different film."
+388017335c96d613,a1943,d279,0.729,1,0.92,"Identical title and director with overlapping main cast; year differs by one likely due to data error, so strong evidence they are the same film."
+4bfc4c13508116df,a1383,b1203,0.729,1,0.85,"Same title and director with overlapping main cast; year discrepancy likely a data error, so high confidence they are the same entity."
+338674fbc017f15e,a2598,b2370,0.729,0,0.35,"Title and director match, but year differs and only one cast member overlaps; the differing year and largely different casts suggest they are likely different entities."
+615e6c8455b720e4,a2440,b2226,0.729,1,0.85,"Titles and directors match exactly; cast overlaps almost completely with only one extra actor and a minor year discrepancy, suggesting the same movie with data variations."
+f7dbc5d1ab7b4bc0,a2229,b1967,0.729,1,0.85,"Same title and director with overlapping main cast; only minor differences in year and additional cast members, suggesting a likely same film."
+170aa3e7e6071ca4,a1345,b1166,0.729,1,0.78,Identical title and director strongly indicate the same film; a one‑year discrepancy and differing secondary cast members lower confidence but are likely data errors or incomplete listings.
+8175bcc33f953880,a1147,b2188,0.729,1,0.85,Titles and directors match exactly; major cast members overlap (Dalai Lama and Harrison Ford). The one‑year difference and additional cast entries suggest minor data inconsistencies rather than a different entity.
+4e1a6c3b1dd7b0d6,a2161,d3100,0.729,1,0.85,"Identical title and director with overlapping cast members; year differs by one, likely a minor discrepancy."
+8272e3f5e788af91,a2361,b2079,0.729,1,0.85,"Title and director match exactly; major cast members overlap despite a one‑year discrepancy and slight variations in cast listings, indicating likely the same film with minor data errors."
+77b746d92c063146,a2579,b2352,0.729,1,0.75,"Same title and director with overlapping lead cast suggest same film, but differing release year and largely different supporting cast lower confidence."
+36f4c784835fca97,a810,d2856,0.729,1,0.86,"Both records share the exact title and director, and have overlapping principal cast (Leonardo DiCaprio and Kate Winslet). The year differs by one, which is a common data entry error, and the additional cast members in Record B do not contradict the information in Record A. The differences are minor, so the records likely refer to the same entity."
+8b21fbd9bd174701,a2100,b1851,0.729,1,0.85,Identical title and director strongly indicate the same film; minor year difference and partially overlapping cast reduce confidence slightly.
+728717d5b31689ac,a796,b739,0.729,1,0.92,"Identical title and director, major cast overlap despite minor name variations; only a one‑year discrepancy and an extra cast member, suggesting the same film with data inconsistencies."
+cb44c9becffc298f,c291,d737,0.728,0,0.98,"Titles differ ('broken' vs 'unbroken'), directors are different, and the cast lists share no members; only the year matches, giving strong evidence they are distinct entities."
+b0c7bb8cd5bf53b7,a2222,c291,0.728,0,0.97,"All key attributes differ (title, director, cast) despite same year, indicating they are distinct entities."
+90fef69ee4ea008a,c2034,d2590,0.727,0,0.3,"Same title and director, but different release year and largely different cast; only Tom Hardy overlaps, indicating likely different entities."
+d4e327fbcb387738,c3959,c4136,0.727,0,0.22,"Titles indicate different installments (V vs III), years differ, and only two cast members overlap while the third differs, suggesting distinct movies."
+1ab80b2de0037c8f,b12,c981,0.725,1,0.92,Identical title and director with largely overlapping cast; missing year in A and one extra cast member in A are minor discrepancies.
+a721e2176ef0e50b,a2669,b2440,0.725,1,0.82,Titles and directors are identical and core cast matches; the year difference and extra cast member suggest a data inconsistency rather than a different entity.
+ef2c3a3d0fa1cb0b,a12,b13,0.725,1,0.92,Identical title and director with highly overlapping cast; missing year and an extra cast member slightly reduce confidence.
+9fdee047c8c9eb06,b830,c2187,0.725,1,0.78,"Same title and director with largely overlapping cast; only year differs and one cast member is missing, suggesting a likely same entity with minor data inconsistencies."
+06b731b04e7e8e64,a2839,b2594,0.725,1,0.85,"Title, director, and core cast match exactly; only the year differs and B has an extra cast member, suggesting a likely same entity with minor data inconsistencies."
+147063a32917c13b,a1211,b1041,0.725,1,0.92,Identical title and director with overlapping core cast; missing year and an extra cast member slightly reduce confidence.
+c2bfd68d6b703080,a2781,b2541,0.725,1,0.92,"Identical title and director with overlapping cast; missing year and an extra cast member are minor differences, indicating the same entity."
+c31e59b2bdabde9a,c810,d1189,0.725,1,0.85,"Identical title and director with overlapping main cast; year differs by one, likely a release‑date variation, so strong evidence of same entity."
+dc8d9bdfc3d3bc43,b1942,d205,0.725,1,0.78,"Identical title and director with three overlapping cast members; year differs by one and each list has extra actors, suggesting a likely same work with minor data variations."
+4a6cee87061bce0a,a2646,b2415,0.725,1,0.92,Identical title and director with highly overlapping cast; missing year and an extra cast member slightly reduce confidence.
+a1624dd53500668b,a2938,b2687,0.725,1,0.85,"Title, director, and core cast match exactly; only the year differs, likely due to release vs production date, so high confidence they are the same entity."
+931dd5fa4a40407f,a85,b85,0.725,1,0.93,"Identical title and director with overlapping cast; missing year and an extra cast member are minor differences, indicating the same film."
+e686bb3d310304dc,a1887,b1658,0.725,1,0.92,"Identical title and director with overlapping cast; B adds an extra cast member and lacks a year, but evidence strongly indicates the same entity."
+fca439568e3fe9ef,a11,b12,0.725,1,0.93,"Identical title and director with overlapping cast; missing year and an extra cast member are minor differences, indicating the same film."
+c0c811fe33176cfc,a1342,b1163,0.725,1,0.85,"Identical title, director, and main cast strongly indicate the same movie; the extra cast member and two‑year discrepancy lower confidence slightly."
+943779026cf4f53d,b580,c1172,0.725,1,0.92,"Identical title and director; cast lists largely overlap with only one extra actor in A and missing year in A, which are minor discrepancies."
+71182a18fbfa761f,a2096,b1848,0.725,1,0.85,"Same title and director with overlapping main cast; year differs but could be a release vs production date, so high but not absolute confidence."
+b7b92241a681e574,a20,b22,0.725,1,0.92,Identical title and director with overlapping cast; missing year and an extra cast member slightly reduce confidence.
+7a8f651e8bed8cc7,a2529,b2305,0.725,1,0.92,Identical title and director with overlapping main cast; extra cast member and missing year slightly reduce confidence but overall strong match.
+4181e9d6632fe597,a2199,b1939,0.725,1,0.85,"Identical title, director, and core cast match; only the year differs, likely a data inconsistency."
+fe880e39aef5adb4,a2694,b2461,0.725,1,0.92,Identical title and director with overlapping cast; missing year and an extra cast member slightly reduce confidence but still strong evidence of same film.
+3482008b85e00510,a23,b25,0.725,1,0.92,"Same title and director with overlapping main cast; B adds an extra cast member and lacks a year, but evidence strongly suggests they are the same film."
+24da364dee662f18,a2173,b1918,0.725,1,0.75,"Identical title, director, and core cast strongly indicate the same film; the two‑year discrepancy and an extra cast member lower confidence slightly."
+58a064e093246818,a2901,b2650,0.725,1,0.92,"Titles and director match exactly; cast lists overlap completely with B having an additional name, and B lacks a year, suggesting incomplete data rather than a different entity."
+29d67189895753e5,a617,b580,0.725,1,0.93,"Identical title and director with overlapping cast; missing year and extra cast member are minor differences, indicating the same film."
+2337e43da13ed0af,a2290,b2020,0.725,1,0.93,Identical title and director with overlapping cast; missing year and extra cast member slightly reduce confidence.
+2cc86a4804a6fdd3,a84,b84,0.725,1,0.92,"Identical title and director, and three overlapping cast members; missing year and an extra cast member slightly lower confidence."
+2335ed7c62fdf787,a110,b109,0.725,1,0.88,Same title and director with overlapping cast; missing year and an extra cast member slightly reduce confidence.
+883d754fc241ae8a,a132,b127,0.725,1,0.93,Identical title and director with three overlapping cast members; extra cast and missing year slightly reduce certainty.
+12eb7cb7ee0b8870,a2516,b2293,0.725,1,0.92,Identical title and director with overlapping cast; missing year and an extra similar-sounding cast entry slightly lower confidence.
+14c9e1fc51fb8189,a39,b40,0.725,1,0.92,"Titles and director match exactly; cast lists overlap completely with B having one additional actor and missing year, indicating likely the same entity with minor data differences."
+7cc81ed682eeaa0e,a138,b133,0.725,1,0.92,Identical title and director with overlapping main cast; missing year and an extra cast member slightly reduce confidence but still strong evidence of the same entity.
+7e1647fdb0346ba6,b133,c1001,0.725,1,0.88,"Titles and directors match exactly; cast lists overlap almost completely, with only one extra actor in Record A and missing year in Record A, suggesting they describe the same film."
+f6ccbdf7d90165e5,a2549,b2321,0.725,1,0.92,Identical title and director with overlapping cast; missing year and extra cast member suggest incomplete data rather than a different entity.
+159bfe8a045a7cf0,a2826,b2582,0.725,1,0.92,"Titles and director match exactly; cast lists overlap completely with B having one additional actor and missing year, indicating likely the same entity with minor data differences."
+14bfa51db2eb6de5,a1494,b1302,0.725,1,0.65,Identical title and director and core cast strongly suggest the same film; the differing year and an extra cast member lower confidence but likely reflect a data error or later addition.
+d07f4ab2a8b5a764,a218,b214,0.725,1,0.72,"Identical title, director, and core cast strongly suggest the same film, but the two-year discrepancy and extra cast member in Record B lower confidence."
+17d4383441417224,a411,b393,0.725,1,0.65,Title and director match exactly and most cast members overlap; the differing year and an extra cast member lower confidence but likely reflect data errors rather than a different film.
+0631af0757b9065d,a2879,b2628,0.725,1,0.93,Identical title and director with overlapping main cast; missing year and an extra cast member slightly reduce certainty but strongly indicate the same entity.
+9ebb29eb6813cd2a,a2122,b1872,0.725,1,0.92,Identical title and director with overlapping cast; missing year and an extra cast member slightly reduce confidence but still strong evidence of same entity.
+af160dba51d62e47,a2319,b2043,0.725,1,0.93,"Identical title and director, overlapping cast members, and only missing year and an extra cast member in B, indicating the same film."
+4ba6665bd542520a,a141,b136,0.725,1,0.92,"Titles and directors match exactly, core cast members are identical; missing year and an extra cast entry slightly lower confidence but not enough to reject."
+d94468a0b53a17fd,a59,b60,0.725,1,0.92,Identical title and director with overlapping cast strongly indicate the same entity; missing year and an extra cast member slightly reduce confidence.
+37f67bbe9308bb1d,a1390,b1210,0.723,1,0.78,"Titles are identical; director names match despite encoding differences; two cast members overlap (Kinski, Johansson) and year discrepancy is minor, suggesting a single film with data variations."
+fa5fbfe3c0c3e7f3,b2179,d3094,0.723,1,0.68,"Same title and three out of four cast members match; director names are similar despite spelling variations, and the year differs by only one, suggesting likely the same entity with minor data inconsistencies."
+507a325ffcdebdec,c4691,c4727,0.722,0,0.97,"Titles, directors, and entire cast differ despite same year, indicating distinct movies."
+e9d80ed9af25e947,c4161,c4353,0.722,0,0.35,"Same director and some overlapping cast, but title differs (extra “ii”), years differ, and cast lists are not identical, suggesting they are likely different releases."
+bdedf6157a77f885,c2274,d326,0.72,0,0.85,"Titles differ (Day Watch vs Night Watch), which is a strong indicator of different films, despite identical director, year, and some overlapping cast."
+fbebc17c9ab90f5e,b415,b761,0.72,0,0.96,"Title includes a sequel indicator ('2') and years differ (2008 vs 2010), indicating distinct movies despite identical director and cast."
+ecc699ab82d5c0a2,a2935,d1747,0.719,1,0.92,Same title and core cast; director name matches despite ordering; extra cast members and a one‑year discrepancy are minor differences.
+fb23e926771e1ff9,a352,d2312,0.719,0,0.98,"Titles and release years differ (Part 2 vs Part 1, 2011 vs 2010); they are separate installments despite sharing director and main cast."
+3f595b64b5cd8608,c1684,d2635,0.719,1,0.85,Same title and core cast/director match; year and extra director/cast differences likely due to release variations.
+1b1c59df27d703b2,b1981,b2268,0.719,0,0.96,"Titles, directors, and full cast lists differ despite sharing the same year, indicating they are distinct entities."
+9ac5d8c10cc088c5,a2488,b1981,0.719,0,0.96,"Titles, directors, and cast members are completely different; only the year matches, which is insufficient to consider them the same entity."
+7bb72b1829d2993f,a2179,b1922,0.718,0,0.15,"Titles match, but director name is spelled differently, years differ, and cast lists overlap only on one person; overall evidence points to different entities."
+96ecb59383eb576a,c4198,c4569,0.717,0,0.96,"Titles and release years differ (3 vs 2, 1992 vs 1989); despite identical director and cast, they are distinct films."
+448b84bf2eb4509c,d2509,d2551,0.717,0,0.96,"Titles, directors, and cast differ despite the same year, indicating distinct entities."
+d9cbd1180a8924f5,c3438,c4569,0.717,0,0.96,Different titles (4 vs 2) and years (1998 vs 1989) indicate distinct film installments despite same director and cast.
+110bde5f922484df,b362,d2551,0.717,0,0.98,"Titles, directors, and all cast members differ despite sharing the same year, indicating they are distinct entities."
+36fe511ea298de5c,c3438,c4198,0.717,0,0.96,"Titles and years differ (3 vs 4, 1992 vs 1998); despite same director and cast, they are distinct films."
+2ce9f7ddd797e94a,a380,d2551,0.717,0,0.98,"Titles, directors, and cast members are completely different despite sharing the same year, indicating they are distinct entities."
+65ff979fc85ae3af,a2638,b2408,0.717,1,0.65,"Same title and overlapping cast (Eli Roth) plus director names match despite spelling/diacritic differences; year differs by one, suggesting a possible data error, so moderate confidence."
+64940a66c81daa4a,a2626,b2395,0.717,1,0.92,"Identical title, matching director (spelling variation), and three overlapping cast members; missing year and extra cast member slightly reduce confidence."
+132ab992cfe51d0d,a2746,b2509,0.717,1,0.93,"Identical title and director, cast lists match despite ordering and a typo, and missing year is the only discrepancy."
+679219756d806525,c285,c907,0.715,0,0.97,"Titles and release years differ (21 vs 22 Jump Street, 2012 vs 2014), indicating distinct films despite identical director and cast."
+f9e268dbd1ac8656,a3,c285,0.715,0,0.96,"Title and release year differ (21 Jump Street 2012 vs 22 Jump Street 2014), indicating they are separate films despite same director and cast."
+08f120de0a5b4dbc,a2829,d849,0.714,0,0.96,"Titles, directors, and entire cast differ despite sharing the same year, indicating distinct entities."
+edce0c090a413358,d1001,d849,0.714,0,0.99,"Titles, directors, and full cast lists are completely different; only the year coincides, which is insufficient to consider them the same entity."
+c35fda823c268e6b,b2585,d849,0.714,0,0.98,"Titles, directors, and all cast members differ despite the same year, indicating they are distinct entities."
+1ee49dfefad0d635,a2293,b2023,0.714,1,0.85,"Titles and director match (ignoring diacritics), core cast members are identical, B includes an extra cast member and a one‑year difference, suggesting the same film with minor data variations."
+5733b47d0db8d1f9,b267,d954,0.713,1,0.85,Identical title and director strongly indicate the same film; the one‑year difference and missing cast data lower confidence but not enough to reject.
+651b45fdcc9d8c39,a2478,d13,0.713,1,0.78,"Exact title and director match strongly indicate the same film; the one‑year difference and missing cast are likely data errors, so confidence is moderate-high."
+d8391b1160e75961,a2597,d3121,0.713,1,0.85,Identical title and director strongly indicate the same film; the one‑year difference and missing cast in B lower confidence but are likely data errors.
+06307d02b484fe9f,a1139,b2181,0.713,0,0.92,Same title and director but different release year and completely different cast suggest they are distinct entities.
+b48405a4bc87fcc8,c574,d1799,0.713,0,0.12,Same title and director but different release year and completely different cast indicate they are likely different entities.
+e7df133e5f106923,a550,b2522,0.713,0,0.99,"Titles and release years differ (Part II vs Part III), indicating distinct movies despite overlapping director and cast."
+d308d15e829c79d5,a1748,d220,0.713,1,0.78,Identical title and director strongly indicate the same film; the one‑year discrepancy and missing cast data lower confidence but are not enough to rule out a match.
+f328220ddc33dd6e,a2759,b517,0.713,0,0.96,Different titles (Part III vs Part II) and years (2013 vs 2011) indicate distinct movies despite same director and core cast.
+3ba37bdb0da3148c,a421,d2299,0.713,1,0.85,Identical title and director strongly indicate the same film; the one‑year difference and missing cast in Record B lower confidence slightly.
+9d3ef68f48824b1d,a2400,b2111,0.713,0,0.08,Same title and director but different release year and completely different cast suggest they are different entities.
+0244da5ab97bad5c,b2702,c1258,0.713,1,0.78,"Titles, director (ignoring middle initial) and main cast match; year differs and Record A has an extra cast member, lowering confidence."
+bd2993b3c1adc22b,a2047,b1806,0.713,0,0.22,"Same title and director suggest a possible link, but differing release years and completely different cast indicate they are likely distinct productions."
+a47f0bfa9644587f,b2505,d1799,0.713,0,0.08,Same title and director but different release year and completely different cast indicate they are likely different entities.
+53bbb387c9b5a0e5,a2028,b1789,0.713,1,0.85,"Same title and director with overlapping cast (David Jung, Dan) outweigh the one‑year discrepancy and additional cast members."
+3461d875ac4b3652,a2013,d314,0.713,0,0.22,"Same title and director, but different release year and completely different cast lists, indicating likely different entities."
+78c345f16262cb19,a1545,b1343,0.713,0,0.92,Same title and director but different release year and completely different cast suggest they are different entities.
+0c63abc0ec5b9672,a2742,d1799,0.713,0,0.12,Same title and director but different release year and completely different cast indicate they are likely different entities.
+e00d4a3130f67e48,a1137,d3094,0.713,0,0.15,Same title and director but different release year and completely different cast suggest they are different entities.
+f5e2b0bdba99176a,a852,d2840,0.713,1,0.85,Same title and director strongly indicate the same film; minor year discrepancy and missing cast data reduce confidence slightly.
+f5afac7949d0dbd5,b2536,c2333,0.713,1,0.92,"Same title and director; cast members largely match despite name order and romanization differences; only year differs by one and one actor missing, indicating likely the same film."
+e69dfd9d62a85ac1,a2013,b1779,0.713,0,0.22,"Title and director match, but the year differs and the cast lists share no actors, indicating they are likely different entities."
+368551043a4534ea,b796,d2840,0.713,1,0.85,"Identical title and director strongly indicate the same film; the one‑year difference can be due to release date variations, and missing cast data in B does not contradict the match."
+11b3e316b51f4861,a464,d2322,0.713,1,0.78,"Titles and directors match exactly; year differs by one year and B lacks cast info, but no contradictory data, so likely the same entity with moderate confidence."
+c27fa519f16ba170,b2369,d3121,0.713,1,0.85,Identical title and director strongly indicate the same film; the one‑year difference and missing cast data lower confidence slightly.
+c3bb222be2b96a8f,a468,d2364,0.713,1,0.85,Identical title and director strongly indicate the same film; the one‑year difference and missing cast data lower confidence slightly.
+29373450b20516ce,a1072,d2667,0.713,1,0.85,Identical title and director strongly indicate the same film; a one‑year discrepancy and missing cast data lower confidence slightly.
+bbf7b0d62a3c1f10,a1072,b995,0.713,1,0.78,"Same title and director strongly indicate the same work; year differs by one and cast lists overlap partially (Josh Harris), while other cast members differ, lowering confidence."
+d4361c341cd0ada6,a1717,b1500,0.713,1,0.85,"Same title and director strongly indicate the same documentary; differing year and cast lists lower confidence but are explainable (release year variance, partial cast listings)."
+8845795e1703d342,a2744,b2507,0.713,1,0.65,Same title and director strongly suggest the same entity; the one‑year difference and largely different cast lists lower confidence but the overlapping cast member indicates they likely refer to the same production.
+825679516142fbf8,a612,b575,0.712,0,0.86,"Same title and some overlapping cast, but directors differ and years are inconsistent; the cast lists also diverge, indicating likely different records."
+329dbecba142fffa,c349,c487,0.711,1,0.7,"Same director and year, title differs only by a subtitle, and two of three cast members match; differing third cast member reduces confidence but suggests alternate listing rather than a different film."
+e216866ea9973949,a1543,b1146,0.711,0,0.12,"Titles, years, and most cast members differ; only director and two actors overlap, indicating distinct movies."
+062c32fc8aa98a38,b2983,d3484,0.711,1,0.86,"Title, director (spelling typo), and core cast match; year discrepancy likely a data error, not a different film."
+42280c5e622b6b27,c1502,d1862,0.71,1,0.78,"Title and director match exactly; cast lists largely overlap with B having additional actors, suggesting a possible data variation. The year differs, lowering confidence but not enough to rule out a match."
+3e1a3d244c91a8b6,a2941,b2689,0.71,1,0.92,"Titles and director match exactly; core cast members are identical with B listing an additional actor and missing year, suggesting the same entity with minor data differences."
+a02123295c59978b,c653,d1251,0.71,1,0.78,"Same title and director (name order swapped) and core cast overlap; year differs by one and B lists additional cast, suggesting a likely same film with variant data."
+64c1afd13bb9736a,d1324,d1712,0.709,0,0.04,"Different titles and completely different casts; only director and year match, which is insufficient for identity."
+0105962c82c85d8d,a2841,d1712,0.709,0,0.96,"Titles and cast lists differ completely; only director and year match, which is insufficient for a match."
+ea0231a697041e42,b1686,d3459,0.707,0,0.96,"Different release years (2005 vs 1933) and director attribution conflict; despite some overlapping cast names, the core attributes indicate distinct films."
+cb4e7f2276cb3857,a2348,b2067,0.707,0,0.62,"Title and director are nearly identical and years are close, but the cast lists share no members, indicating likely different entities."
+34384fcc09534670,a1168,b2207,0.705,1,0.85,"Same director and year, overlapping main cast and core title; subtitle and additional cast differences suggest data variation rather than different entities."
+5189e4bad3706a4a,a1178,b1010,0.704,1,0.78,"Exact title match and very similar director name suggest same film; year differs by one and cast is missing in B, lowering confidence but not enough to reject."
+4dcb1587fca9de6d,b899,d2639,0.704,1,0.85,"Titles and director match exactly; both list Christopher Plummer and Heath Ledger, indicating the same film despite a one‑year discrepancy and differing secondary cast members."
+2b906131d486dabf,b1474,c2739,0.704,0,0.96,Different titles (volume 2 vs volume 1) and release years indicate distinct films despite shared director and some cast overlap.
+983b8092a4df5f29,a2311,a2546,0.703,0,0.96,"Different titles and release years indicate distinct movies, even though director and cast overlap."
+868b2249822192a9,c2101,c2259,0.703,0,0.96,"Different titles and release years indicate distinct movies, even though director and cast overlap."
+669b0a04049b31a1,a2171,b1916,0.703,1,0.85,"Same title, director, and year with overlapping principal cast; differences are only additional or missing minor cast members, suggesting incomplete listings rather than different entities."
+aae0171358758b64,a2311,c2101,0.703,0,0.96,"Different titles and release years indicate distinct movies, even though director and cast overlap."
+32bfd2927fbf9b5d,a2546,c2259,0.703,0,0.96,"Different titles and release years indicate distinct movies, even though director and cast overlap."
+3415469c8e77e41d,d2284,d2537,0.702,0,0.96,"Titles differ (one includes '2'), years differ, and only one cast member overlaps; these strong mismatches indicate distinct entities."
+f437b912bd1c25c9,a1421,b1238,0.702,1,0.85,"Titles and three main cast members match exactly; director names are very similar (suffix difference) and missing year is not contradictory, suggesting the same film with additional details."
+84cd9c9e0c64ed80,a1645,b1428,0.701,1,0.7,"Same title and core cast (Henry Thomas, Nicki Aycox) and director name match aside from a suffix; minor differences in year and additional cast suggest data inconsistencies rather than different entities."
+9fa16d5d084dffcd,a719,d2174,0.7,1,0.62,"Identical title and director and core cast match, but differing year and extra cast members lower confidence."
+a73f4b1138f8c7d2,a2839,d1805,0.7,1,0.85,"Title and director match exactly, and core cast members are identical; year differs and B has extra cast, suggesting data variation rather than a different entity."
+9d7a1c04633f4294,b1725,d3401,0.7,1,0.7,"Same title and director with four overlapping cast members strongly suggest the same entity, but the 37‑year difference in year lowers confidence."
+ecd1346f8e8e7559,a2779,c743,0.7,0,0.96,"Titles, directors, and full cast lists differ despite the same year, indicating distinct entities."
+d5e9193f97a9b3d4,a2938,d1445,0.7,1,0.85,Identical title and director with core cast overlapping; extra cast members and a two‑year discrepancy in the year lower confidence but still strong evidence of the same entity.
+fa146b79fe6647bc,c3259,d98,0.7,1,0.85,"Identical title and director with major cast overlap; year difference likely due to release/re‑release discrepancy, so high confidence they are the same film."
+3d1b0bc1d7b209aa,a2766,d1155,0.7,0,0.88,"Different titles (original vs. sequel) and release years indicate separate films, despite sharing director and some cast members."
+7d79519c2be1a0e1,c1258,d1648,0.7,1,0.78,Identical title and director with overlapping main cast strongly suggest the same film; the differing year and extra cast members lower confidence.
+15cd1b12d38f3646,a2819,b2575,0.7,1,0.95,"Identical title and director, cast matches despite truncation, and missing year does not contradict."
+806a25bfa886dc96,b182,d2027,0.7,1,0.88,"Same title and three overlapping cast members; B adds a co‑director and extra cast, and provides a year, but overall evidence strongly suggests they are the same film."
+bea6039207d6c10b,a209,d2176,0.699,0,0.95,"Titles and years differ (4 vs 3, 2012 vs 2011); only one shared cast member and a single common director, indicating distinct movies."
+471d34562e0ca09b,b2529,d1155,0.698,0,0.95,"Different titles (sequel vs original), different release years, and only partial cast overlap; strong evidence they are distinct films."
+3365a4c177565cd8,c2497,d155,0.698,1,0.85,"Same title, director name matches (order reversed), core cast identical; minor differences in year and extra cast members lower confidence slightly."
+db65e82c1d8fa619,b2522,b517,0.698,0,0.02,"Titles, years, and key cast members differ, indicating distinct movies despite the same director."
+79fc537ca600aadf,a116,a521,0.697,0,0.96,"Titles and release years differ, indicating separate films, even though director and cast are the same."
+24d3c81b51ea5d1f,a435,b761,0.696,0,0.95,"Titles differ (original vs sequel) and years are different; despite overlapping cast and same director, these indicate distinct productions."
+230a9cba91abb3c9,a1896,b1668,0.696,0,0.97,"Titles, directors, and cast are completely different; only the year matches, which is insufficient evidence of a match."
+765e811ab8ad7911,a1896,a1897,0.696,0,0.96,"Titles, directors, and full cast lists differ despite the same year, indicating they are distinct entities."
+a2b434ebad6142b5,c399,c435,0.695,0,0.96,"Titles, directors, and full cast differ despite the same year, indicating distinct entities."
+5e0aa9668499053f,a1091,b2138,0.694,1,0.71,"Same title and shared lead actor; director names are similar (likely truncated); year differs by one, suggesting a data entry variance rather than a different film."
+7d4b7d30bc12085f,c6714,c6720,0.693,1,0.85,"Same director, identical cast, and only minor differences in title and year suggest they are the same film with variant naming."
+61d44fadacbed1c8,a1915,d3459,0.693,0,0.96,Different release years (2005 vs 1933) and implausible director/cast overlap; the 1933 film could not have Peter Jackson or the listed modern actors.
+644f68e9214e2607,c1322,d1092,0.693,1,0.75,Same title and director with overlapping core cast strongly suggest the same film; the differing year and extra cast members lower confidence.
+75234cf24e41ba1d,c2437,d3459,0.693,0,0.96,Different release years (2005 vs 1933) and implausible director/cast overlap; the 1933 film was not directed by Peter Jackson and did not feature the listed modern actors.
+4bc80240056edc4e,b2936,d381,0.693,1,0.96,"Same director, year, core cast and title matches as original and English translation; extra cast members in B only add detail."
+3d3dbc0f20384c72,b204,d2176,0.693,0,0.95,"Different titles (4 vs 3) and years (2012 vs 2011) indicate distinct movies, despite a shared cast member and director."
+8aa7218e9507a244,c4100,c4194,0.691,0,0.15,"Titles, years, and most cast members differ; only director and one actor match, suggesting separate films (likely original vs sequel)."
+49461b5b59cd06bb,a1261,b1086,0.69,1,0.92,"Identical title and director with overlapping main cast; B adds an extra cast member and lacks year, but evidence strongly suggests the same film."
+f3bac747d8e98375,b3079,c3442,0.69,1,0.85,"Same director, year, and overlapping main cast; titles indicate a sequel/alternate naming, minor cast differences reduce confidence slightly."
+e8f165b23730a923,a1510,b1313,0.69,1,0.85,"Identical title and director with overlapping cast members (Brad Rowe, Chad Lindberg) strongly indicate the same film; missing year and extra cast entries lower confidence slightly."
+2ffa99794d64660f,b2076,c2924,0.69,1,0.82,"Identical title and director with overlapping main cast strongly indicate the same film; the differing year likely reflects a data error, so confidence is high but not absolute."
+f05f07b4e965cd0c,a440,b419,0.69,1,0.85,"Identical title and director with overlapping principal cast (Chris Pine, Bre Blair) strongly indicate the same film; missing year and extra cast members lower confidence slightly."
+cff189c8829de7ca,b877,c899,0.69,1,0.85,"Same title and director with overlapping cast and plausible missing year indicate they are the same film, though differing cast members lower confidence slightly."
+26e2f4ff9d18a4be,a1978,b1744,0.69,1,0.78,Same title and director with overlapping cast suggest same film; year discrepancy and extra cast members lower confidence.
+584edf3b5742e4a3,a2729,b2494,0.69,1,0.85,Same title and director with overlapping main cast; missing year and extra cast members suggest incomplete data but strong evidence of same entity.
+611b1aa38a972c49,a2779,b2539,0.69,1,0.85,Same title and director with overlapping cast members; missing year and extra cast entries lower confidence slightly.
+12a065896a4ab20a,a26,b27,0.69,0,0.27,"Same title and director, but different release years and only partial cast overlap; the discrepancies suggest they are distinct entities."
+c6e8cf7e973ab835,a884,b825,0.69,1,0.78,"Identical title and director with overlapping main cast; year and some cast entries differ, suggesting a likely same film with minor data inconsistencies."
+fb29d67128f28015,d860,d897,0.69,0,0.96,"Titles, directors, and cast differ significantly despite the same year, indicating they are different entities."
+8dbdc3196dd5612f,a1737,b1519,0.69,0,0.35,"Title and director match, and two cast members overlap, but the release year differs by 9 years, which strongly suggests they are different records."
+266e7d408b01be1c,a16,b18,0.69,1,0.85,Identical title and director with two overlapping cast members strongly indicate the same film; missing year and extra cast differences lower confidence slightly.
+b66bcfed69d1a259,a1508,b1311,0.69,1,0.78,"Identical title and director with overlapping main cast (ann finnell, patrick mcguinness) strongly indicate the same film; the year difference and extra cast members are likely data inconsistencies."
+5c5c5edae1d4a5a6,a2255,b1990,0.69,1,0.7,"Title and director match exactly, indicating likely same film, but differing years and partially different cast members lower confidence."
+016700a55321d8dd,b182,c936,0.69,1,0.85,"Same title and director with overlapping cast; missing year in A but other attributes align, minor cast differences reduce confidence slightly."
+01c91ca873ded3e0,a2306,b2036,0.69,1,0.65,"Same title and director strongly suggest the same film; year and cast differ, indicating data errors, so confidence is moderate."
+56311f36e8aac8ee,a882,b823,0.69,1,0.78,Same title and director with two overlapping cast members; missing year and differing cast lists lower confidence but still strong evidence of a match.
+a4c3f7ea8cded902,a2695,b2462,0.69,1,0.85,Same title and director with overlapping principal cast; missing year and extra cast members lower confidence slightly.
+48ffeddd3107dc24,a939,b877,0.69,1,0.85,Same title and director with overlapping main cast; missing year and extra cast members lower confidence slightly.
+babb9ee657585ee3,a2785,b2543,0.69,1,0.92,Identical title and director with overlapping cast members (john dimaggio and jim cummings); missing year in B reduces confidence slightly.
+473d0931432ef116,a894,b834,0.69,1,0.78,"Title and director match exactly; cast overlaps with likely same 'kat/katerina graham' and additional actors are plausible. Year differs, lowering confidence."
+effc846be249528e,a2517,b2294,0.69,1,0.85,"Identical title and director with overlapping cast members (Frankie Muniz, Amber Valletta) strongly indicate the same film; missing year and extra cast members lower confidence slightly."
+64fdf8bebc78d449,a184,b182,0.69,1,0.85,Same title and director with overlapping main cast; missing year and differing secondary cast reduce confidence slightly.
+f010f83e3899978c,a72,b72,0.69,1,0.85,"Identical title and director strongly indicate the same entity; differing cast members suggest incomplete listings, reducing confidence but not enough to reject a match."
+206b0a25138354ed,a2847,b2599,0.69,1,0.92,"Same title and director with overlapping cast (Kristen Wiig, Jason Sudeikis) strongly indicate the same film; missing year in Record A lowers confidence slightly."
+43d5cb5eed94cde1,a2919,b2666,0.69,1,0.85,Same title and director with overlapping main cast; missing year and extra cast members lower confidence slightly.
+9c8ef71c46943667,a2733,b2498,0.69,1,0.92,"Identical title and director with overlapping main cast (Hilary Duff, Charlie Sheen) strongly indicate the same film despite missing year in Record B."
+f71102b181efef82,c1011,d759,0.69,1,0.85,Same title and director with nearly identical main cast; year difference and extra cast member lower confidence slightly.
+b009f87b3249564c,a2065,b1821,0.69,1,0.85,Identical title and director strongly indicate the same film; overlapping cast supports this despite missing year and differing cast lists.
+a03e5e028acd639d,a989,b920,0.69,0,0.73,"Title and director match, but the release years differ (2008 vs 2011) and the cast lists are not identical, indicating likely different productions."
+d24aa5bae7c503a1,a1539,b1338,0.69,1,0.65,"Title and director are identical, which strongly suggests the same work, but the differing years and partially different cast reduce confidence."
+65c723adb316b386,a2278,b2010,0.69,1,0.86,Same title and director with overlapping main cast; missing year and extra cast members slightly reduce confidence.
+fcb292a172165acd,a2792,b2551,0.69,1,0.93,"Identical title and director, overlapping cast with only one extra name and missing year in B; strong evidence they refer to the same entity."
+2468932717fead01,a2358,b2076,0.69,1,0.85,Same title and director with key cast overlap; year discrepancy lowers confidence but likely a data error.
+7df56a6417e04015,b2498,c895,0.69,1,0.92,"Identical title and director, plus overlapping main cast (Charlie Sheen, Hilary Duff); missing year in A and extra cast entries slightly reduce confidence."
+c78a76d3073ac681,a121,b119,0.69,1,0.85,"Titles and directors match exactly; cast lists are largely identical with minor spelling differences and an extra actor in B, while B lacks a year. These differences lower confidence but do not outweigh the strong matches."
+23a7b64f81e352af,a412,b568,0.689,0,0.05,"Different titles (2 vs 3), different years, and completely different casts indicate they are distinct movies despite sharing the director."
+8213caba81914658,b568,d2375,0.689,0,0.05,"Titles, years, and cast differ significantly despite sharing the same director, indicating they are different movies."
+c8584ce354a5e9ed,a209,a604,0.689,0,0.96,"Different titles, years, and cast indicate distinct movies despite sharing the same director."
+0857f049da8b8074,b394,b568,0.689,0,0.96,"Different titles, years, and cast indicate distinct movies despite sharing the same director."
+6ca2a7a551fbd886,a550,d1686,0.688,0,0.98,Different titles (part II vs part III) and years indicate distinct movies despite shared director and core cast.
+2dfb0c8eb3bb0d08,b1066,c799,0.688,0,0.96,"Titles, directors, and cast differ significantly; only the year matches, indicating different entities."
+e82b0761f96c3c0a,c2187,d2766,0.688,1,0.85,"Identical title and director with overlapping core cast strongly indicate the same film; the differing year likely reflects release date variations, reducing confidence slightly."
+2b3ac2c7a597d249,a1325,a625,0.688,0,0.96,"Titles and years differ (Scream 3 vs Scream 4, 2000 vs 2011), indicating distinct movies despite identical director and cast."
+f4ba904e6f68c3c4,a1118,d100,0.687,0,0.96,"Titles, directors, and cast lists are completely different despite sharing the same year, indicating they are distinct entities."
+7444d3c0b36cc4ed,a2016,b1778,0.687,1,0.95,"Identical director and year, core cast matches exactly, and title difference is just a subtitle; extra cast member in B is a minor addition."
+0b727ae6d79ac3bf,b5,c1144,0.69,1,0.86,"Same title and director with overlapping main cast (Monica Keena, Alex Carter); missing year in A likely an omission, supporting a strong match."
+d7621ef1792af841,b1778,c2484,0.687,1,0.92,"Titles match aside from subtitle, director and year are identical, and the cast lists overlap completely; the extra name in Record A likely reflects an incomplete list in Record B."
+ccf913aa2e029ba9,a2133,d38,0.686,1,0.65,"Titles match despite '&' vs 'and', core cast and primary director overlap, but differences in year, extra director, spelling variation in a cast name, and additional cast member lower confidence."
+ecbf4634080f00a9,c3943,c4007,0.685,0,0.1,"Same director and year, but titles differ and cast lists share no actors, indicating different films."
+67307e8f9853b5b7,a241,d1675,0.685,0,0.96,"Titles, directors, and full cast lists differ despite the same year, indicating they are distinct films."
+be7890cdcbd66ee6,d1675,d2060,0.685,0,0.96,"Titles, directors, and full cast differ despite the same year, indicating distinct entities."
+5ff77f1c0903273b,a2793,b2552,0.683,1,0.71,"Identical title and director strongly suggest the same entity; year differs and cast is incomplete in B, lowering confidence but not enough to rule out a match."
+3c77aabc2065f9d3,a35,b37,0.683,1,0.92,Exact title and director match with overlapping cast; missing year and fewer cast members reduce confidence slightly.
+dd24fe123ee60dd0,c1510,c1618,0.682,0,0.96,"Titles, directors, and cast differ significantly despite the same year, indicating distinct entities."
+59f43a7777699d3d,c4629,c4637,0.682,0,0.86,"Same director and year, but titles differ (original vs sequel) and cast lists are not identical, indicating distinct films."
+52380e43f8553a02,b517,d1686,0.681,0,0.98,"Titles, release years, and overall cast differ (II vs III), indicating distinct movies despite shared director and some actors."
+bf9ef43954ce9c51,c4760,c4865,0.681,0,0.12,"Same director and close years, but titles differ (one is a sequel) and cast lists are completely different, indicating distinct films."
+19f422b4cd57feeb,b2164,d100,0.68,0,0.96,"Titles, directors, and cast are completely different despite sharing the same year, indicating they are distinct entities."
+125812dab92fc022,c934,d1353,0.68,1,0.75,"Same director and core cast with only minor title variation and a two‑year difference, suggesting a single film with inconsistent metadata."
+f64fab17a2524c4e,a1978,d246,0.68,1,0.85,"Same title and director with overlapping main cast (Banks, Bello, Christensen) strongly indicate the same film; differing year and extra cast members lower confidence slightly."
+000653cf8de98f13,a2669,d1528,0.68,1,0.85,"Same title and director with overlapping main cast; year discrepancy likely due to differing release/production dates, so high confidence they are the same film."
+c7c696f5f495158d,a356,c222,0.68,0,0.96,"Titles and years differ (original vs sequel), indicating distinct movies despite same director and some overlapping cast."
+d778993f51ce5cff,a2973,d1516,0.68,1,0.85,Identical title and director with overlapping main cast strongly indicate the same film; the differing year lowers confidence slightly.
+6e0bdf62d7650d19,c215,d897,0.679,0,0.96,"Titles, directors, and cast differ significantly despite the same year, indicating they are different entities."
+ace1229826f8d5cf,c960,d1345,0.679,1,0.82,"Identical title and director with overlapping cast members strongly indicate the same film; the differing year suggests a data error or release variation, lowering confidence slightly."
+864620271f1c22be,b1519,d262,0.679,0,0.22,"Titles and director match, but the release years differ by 9 years and most cast members are different, indicating they are likely distinct entities."
+5bbf2158975cf1cc,a1323,a625,0.678,0,0.96,Different titles and release years indicate distinct movies despite identical director and cast.
+baefc0a84a4fb806,c235,c901,0.678,0,0.08,"Titles, years, and cast differ significantly despite the same director, indicating distinct movies."
+dc7cb083bd7a375e,a1323,a1325,0.678,0,0.96,"Different titles and release years (1996 vs 2000) indicate distinct movies, despite identical director and cast."
+8dad9c049f472190,c5237,c5436,0.678,0,0.96,"Titles and release years differ (II vs III, 1980 vs 1983), indicating distinct movies despite shared director and some cast."
+c1ccc822ce354da2,a1516,a1729,0.678,0,0.96,"Titles and release years differ (Eleven vs Twelve, 2001 vs 2004), indicating distinct films despite identical director and cast."
+9198d88032fa670b,a17,c235,0.678,0,0.96,"Titles, years, and most cast members differ (only director and two actors overlap), indicating distinct movies."
+4af16b98120da4a6,a1896,c2510,0.676,0,0.98,"Titles, directors, and full cast lists differ despite the same year, indicating distinct entities."
+880333146c053de7,a2831,b2587,0.675,1,0.78,Exact title and director match with overlapping cast member (Mike Bridavsky) indicate likely same entity; missing year and differing additional cast reduce confidence.
+96f405bd3059bcf1,a2757,b336,0.675,0,0.96,"Titles, release years, and cast differ (sequel vs original), indicating distinct movies."
+e437e3bf230c22d6,a1972,b2062,0.674,0,0.97,"Different titles (II vs III), different release years, and completely different casts outweigh the shared director, indicating they are distinct films."
+f8ca28e233f0adbd,b194,c2876,0.674,0,0.96,"Titles and release years differ (III vs II, 2012 vs 2002), indicating separate films; overlapping director and some cast are insufficient to consider them the same entity."
+6c6a989ae8c34d19,b1557,d344,0.674,1,0.86,"Same director, year, and cast; title variation is minor (possessive form vs plain), indicating the same film."
+c5a52adbd21081a9,a1972,a2343,0.674,0,0.97,"Different titles (II vs III), different years, and completely different casts indicate they are distinct films despite sharing the same director."
+4ee7fe179e9b291e,d1819,d1864,0.673,0,0.96,"Titles differ, and there is no overlapping director or cast information; only the year matches, which is insufficient to consider them the same entity."
+1417ca2fe7aa7fa7,b235,d1819,0.673,0,0.05,"Titles differ ('the sessions' vs 'the possession') and there is no overlapping director or cast information; only the year matches, which is insufficient for a match."
+2cfc61d3a4c5aa28,a238,d1819,0.673,0,0.05,"Titles differ and key attributes (director, cast) are missing or different, providing little evidence of a match."
+2ed93cb454376a4a,c3959,c4228,0.672,0,0.12,"Titles, years, and primary cast differ (V vs II, 1994 vs 1992, different lead actors), only director and two supporting actors overlap, indicating distinct films."
+2799372c0db026e3,a521,b115,0.672,0,0.08,"Titles and years differ, indicating distinct movies; only director and most cast overlap, which is insufficient for a match."
+fa1c7cd0d6f3fd90,c5563,c5573,0.672,0,0.96,"Titles, directors, and full cast differ despite the same year; no overlapping personnel suggests they are distinct films."
+cc0180df75629feb,a1942,d153,0.672,1,0.86,"Identical title and director with overlapping core cast; year discrepancy likely due to release vs production date, extra cast members are typical variations."
+62df70e258b8816b,a400,b382,0.672,1,0.85,"Same title and overlapping key cast members (Nick Stahl, Emmanuelle Vaugier) plus a director name that matches aside from accent/typo; missing year and extra cast reduce certainty."
+4909d3fcc01bda5b,a1644,b1427,0.67,1,0.85,"Title and director match exactly; year differs by one year and only one cast member overlaps, suggesting a likely same film with minor data inconsistencies."
+d6e1c52e96572793,c6804,c6814,0.67,0,0.92,"Titles differ, years are off by one, and only one cast member overlaps; these discrepancies strongly indicate distinct films."
+32a9fae5034991cf,c592,c862,0.67,0,0.96,"Titles, directors, and entire cast differ despite the same year, indicating distinct entities."
+49aa08a45f4e820a,b2579,c862,0.67,0,0.03,"Titles, directors, and cast are completely different despite sharing the same year, indicating they are distinct entities."
+375cff983baeb654,c2679,d326,0.67,1,0.85,"Same title and director with core cast overlap; year difference likely due to release date variation, extra cast in B does not outweigh matching attributes."
+6c908653f9227dc6,c2033,c2524,0.67,0,0.95,Same title and director but different release years and primary cast (Aamir Khan vs Suriya) indicate they are separate film versions.
+cad8822c421c07a1,a291,b285,0.67,1,0.85,Same title and director with overlapping cast (will.i.am) strongly indicate the same entity; missing year and extra cast members lower confidence slightly.
+d242203737eef6b0,c225,c295,0.67,0,0.96,"Titles, directors, and cast lists are all different despite sharing the same year, indicating they are distinct entities."
+1d9ba8bcf8d422bf,a2823,c862,0.67,0,0.02,"Titles, directors, and cast members are all different; only the year coincides, which is insufficient to consider them the same entity."
+8b6534746b701c2c,c4668,c4676,0.67,0,0.96,"Titles, directors, and full cast lists differ despite sharing the same year, indicating they are distinct entities."
+c11eebd89d828ee0,c862,d1803,0.67,0,0.96,"Titles, directors, and cast differ completely despite the same year, indicating distinct entities."
+bd3666b33d9dbf4d,c939,d2060,0.669,0,0.96,"Titles, directors, and full cast lists differ despite the same year, indicating distinct entities."
+143ba26e12b55353,b230,d2060,0.669,0,0.98,"Titles, directors, and entire cast lists differ despite the same year, indicating they are distinct entities."
+758a337e8cbc0105,a241,b230,0.669,0,0.98,"Titles, directors, and entire cast lists differ despite the same year, indicating they are distinct entities."
+5ddf2e2e89df5e94,a233,a241,0.669,0,0.96,"Different titles, directors, and completely different casts; only the year matches, which is insufficient for a match."
+e016ceeffdb758c8,a433,b413,0.669,1,0.93,"Identical director, year, and core cast; title variation is a common short form, and extra cast member is a minor difference."
+fd002ece7371c74f,a2727,d1751,0.669,0,0.92,"Titles, directors, and full cast lists differ despite the same year, indicating they are distinct entities."
+8c4d49941dc0636d,a233,d2060,0.669,0,0.96,"Titles, directors, and full cast lists differ despite the same year, indicating distinct entities."
+91f0550155b4d224,a241,c939,0.669,0,0.97,"Titles, directors, and cast are completely different; only the year matches, which is insufficient evidence of a match."
+c1427503cdc47a26,b19,c235,0.668,0,0.96,"Titles, years, and cast differ (sequel vs original); despite same director, evidence points to distinct movies."
+81e8e921f6ab6191,d1357,d729,0.668,0,0.02,"Titles, directors, and full cast lists differ, providing strong evidence they are distinct movies despite sharing the same year."
+b9f48c1d43515dc2,a17,b1545,0.668,0,0.98,"Titles and release years differ (2012 vs 2014) and the second film adds new cast members while missing one from the first, indicating they are separate movies."
+db9757bcd1426dbc,b1545,c901,0.668,0,0.05,"Titles, years, and several cast members differ, indicating they are distinct films despite sharing director and two lead actors."
+3681be34672d9a01,c2305,d84,0.668,0,0.95,"Titles and directors differ significantly; only the year matches, which is insufficient to consider them the same entity."
+8e558304d00c95e9,b2407,d1530,0.668,0,0.05,"Titles and directors are different; only the year matches and the second record lacks cast information, giving very low likelihood they are the same entity."
+a5035be2e48ff7e6,c635,d503,0.668,1,0.85,"Identical title and director with overlapping main cast strongly indicate the same film; the differing year suggests a data error, lowering confidence slightly."
+0876d9672c2dd5c6,a2637,d1530,0.668,0,0.95,"Titles, directors, and cast differ significantly despite the same year, indicating they are different entities."
+2239b8d39e86a839,d1530,d1684,0.668,0,0.96,"Titles, directors, and cast differ significantly despite sharing the same year, indicating they are distinct entities."
+e217f3ccdde7462c,b1838,c2305,0.668,0,0.96,"All key attributes (title, director, cast) differ despite the same year, indicating they are distinct entities."
+8eea15a570c9c9e3,a2343,b1529,0.668,0,0.96,"Titles (III vs II), years (2006 vs 2005), and most cast members differ; only director (same person) and Tobin Bell overlap, indicating distinct movies."
+cea0b7782c47b9d0,c613,d1530,0.668,0,0.95,"Titles, directors, and cast differ significantly despite the same year, indicating they are different entities."
+15021db9c441dcde,a1265,b1090,0.667,1,0.86,"Both records share the exact title and director, and have overlapping cast (Sean Astin). The missing year in B is a minor discrepancy, and additional cast members differ but do not outweigh the strong matching fields."
+f4dab548a9a5909d,a1489,c3050,0.667,0,0.96,"Titles, directors, and full cast lists differ; only the year coincides, giving strong evidence they are different entities."
+893bd7ba20c5e5fe,c1092,c999,0.667,0,0.96,"Titles, directors, and full cast lists differ despite the same year, indicating they are distinct entities."
+424b241ce9115f72,a2915,b2662,0.667,1,0.85,"Identical title and director with overlapping cast members (Katee Sackhoff, Michelle Trachtenberg) indicate the same film despite missing year and additional cast differences."
+ca7afbde0466cd05,c3050,c3112,0.667,0,0.96,"Titles, directors, and entire cast lists differ despite the same year, providing strong evidence they are distinct movies."
+369c249fcc61a44e,a14,b15,0.667,1,0.75,Same title and director with an overlapping cast member (Philip Coc) suggest they are the same film; missing year and differing cast lists lower confidence.
+8a7dbd058d3d6098,b18,c903,0.667,1,0.85,Identical title and director strongly indicate the same film; missing year in Record A and differing cast members lower confidence but shared cast member supports the match.
+c55a739ef6b4aa19,c3938,c4147,0.667,0,0.12,"Titles, years, and most cast members differ; only director and one actor match, suggesting separate films (original vs sequel)."
+d8da53363b4490f6,a2052,b1811,0.667,1,0.78,"Same title and director with overlapping main cast; year differs and cast list has minor variations, suggesting data inconsistencies rather than a different entity."
+feeb792184c4ceb3,a2249,b1983,0.667,1,0.78,"Identical title and director strongly indicate the same film; overlapping cast member (Danielle Agnello) supports this, though differing cast lists and missing year lower confidence."
+eeaada868f77f4d3,a2730,c1717,0.667,0,0.1,"Titles and years differ (Fast & Furious 6 vs Fast & Furious), and cast differs (Dwayne Johnson vs Michelle Rodriguez), outweighing shared director and two actors."
+dfb4913efdc9841c,a1084,b2132,0.667,1,0.85,Same title and director with overlapping cast (josh caldwell) strongly indicate the same entity; missing year and differing additional cast members lower confidence slightly.
+2ec9ca3ca9478bf0,a2597,b2369,0.667,1,0.78,Identical title and director strongly indicate the same film; differing years and partially overlapping cast lower confidence but not enough to rule out a match.
+edd061ea19d50ba3,b1297,c3050,0.667,0,0.96,"Titles, directors, and full cast lists differ despite sharing the same year, indicating they are distinct entities."
+a96837ca43a13daf,a1993,b1758,0.667,1,0.78,"Exact title and director match with overlapping main cast, but differing release years and extra cast members lower confidence."
+7ad7aa7a90bd51cc,a2672,b2443,0.667,1,0.82,Identical title and director strongly indicate the same film; missing year in B and differing additional cast members lower confidence slightly.
+d9ade2fa648f88a2,b2495,d2800,0.667,0,0.96,"Different titles and years (Fast & Furious 6 vs Fast & Furious), distinct casts, despite same director, indicate separate movies."
+a95025f60adde10c,c5433,c5653,0.667,0,0.96,"Different titles (original vs sequel), different release years, and only partial cast overlap indicate they are distinct films."
+8189c0d4388f7a56,a2910,b2657,0.667,1,0.85,Same title and director with overlapping cast (Newell Alexander) strongly indicate the same film; missing year and differing additional cast lower confidence slightly.
+95d3024c791e2a5a,a8,b8,0.667,1,0.86,"Titles and director match exactly; the cast overlaps on Bill Oberst Jr. while B’s list is longer, likely due to incomplete or additional credits. Missing year in B reduces confidence slightly, but overall evidence points to the same movie."
+62999a068973090d,c1717,c626,0.667,0,0.96,"Different titles and years indicate distinct movies; despite shared director and some cast, the added sequel number and differing cast members show they are not the same entity."
+9a69be641fe171a9,a719,b672,0.667,0,0.86,"Same title and director suggest a possible match, but the differing release years and largely different cast lists (only Emily Watson overlaps) indicate they are likely distinct entities."
+2c0f59b002c73a73,a2967,b2711,0.667,1,0.78,Same title and director with overlapping cast (devon werkheiser and likely the same Jess/Jessica Adams); missing year lowers confidence but evidence is strong.
+c6dcabcaac80f239,a1551,a1756,0.666,0,0.96,"Different titles and release years indicate distinct movies, even though director and cast are identical."
+c29390eaa04f1c0b,b237,d1675,0.666,0,0.96,"Titles, directors, and full cast differ despite sharing the same year, indicating distinct films."
+2145acb046036e77,d1770,d1774,0.666,0,0.15,"Titles differ in key descriptor (live action vs animation) while other fields are missing, suggesting distinct entities."
+a511730bb7e74d97,b1529,b2062,0.665,0,0.08,"Titles, years, and most cast differ; only director (same person) and Tobin Bell overlap, indicating separate film installments."
+0527bf237ba35319,c4198,c4833,0.665,0,0.96,"Same director and two lead actors, but title, release year, and third cast member differ, indicating different installments of the franchise."
+16c55a8422e7ebad,c285,d2063,0.665,0,0.96,"Titles, release years, and director lists differ (22 Jump Street vs 21 Jump Street, 2014 vs 2012). Only partial cast overlap, indicating distinct films."
+4f847451e120a0ef,c4569,c4833,0.665,0,0.96,"Titles, release years, and one cast member differ (original vs sequel), indicating distinct movies despite shared director and two actors."
+cd3ee73f0b56be8e,b2355,b2675,0.665,0,0.98,"Titles, release years, and key cast members differ (Spider-Man 2002 vs Spider-Man 3 2007), indicating distinct movies."
+600471c369dbbe70,b1048,b2767,0.665,0,0.96,"Titles differ (one includes '2'), directors are similar but not identical, years differ, and the cast lists share no common actors, indicating distinct movies."
+376de0a23f34bdb5,c3438,c4833,0.665,0,0.95,"Different titles (original vs. fourth installment), years (1987 vs. 1998), and key cast members indicate they are distinct movies despite sharing director and two actors."
+ec8738ee3a933df3,a2621,a2622,0.664,0,0.96,"Titles, directors, and entire cast differ despite same year, indicating distinct entities."
+bf4b02df6a2b5c96,b2389,b2390,0.664,0,0.96,"Only the year matches; titles, directors, and full cast are completely different, indicating distinct entities."
+48c28d01a8dba7c6,d3525,d3526,0.664,0,0.08,"Titles differ ('gates of heaven' vs 'days of heaven'), director and cast information conflict, only year matches, indicating distinct entities."
+d60351250ba7b10d,c1117,d1245,0.664,0,0.35,"Titles and director match, but the release years differ and only one cast member overlaps, indicating likely different entities."
+2ae78b70c289a1dd,c1092,c1148,0.664,0,0.96,"Titles, directors, and full cast differ despite same year, indicating distinct entities."
+c97cf96841ade98d,a2621,b2390,0.664,0,0.96,"Titles, directors, and entire cast differ despite same year, indicating distinct entities."
+41202b7a501c7a73,a2622,b2389,0.664,0,0.96,"Titles, directors, and all cast members differ despite the same year, indicating distinct entities."
+6164758c971ba1ea,c4136,c4351,0.663,0,0.86,"Title differs by a sequel indicator (III) and years differ (1993 vs 1991); despite same director and some overlapping cast, these strong mismatches suggest distinct films."
+04c5d039b533967c,a687,d3043,0.663,0,0.03,"Titles, directors, and cast differ significantly; only the year matches, which is insufficient to consider them the same entity."
+270b077c06592a74,c1932,d3043,0.663,0,0.97,"Titles, directors, and cast differ significantly despite the same year, indicating they are different entities."
+05dcb499df0645d6,a1325,b589,0.663,0,0.08,"Titles and release years differ (Scream 3 vs Scream 4); despite same director and overlapping cast, they are distinct films."
+132f4a6cd9f7f69b,b641,d3043,0.663,0,0.05,"Titles, directors, and cast differ significantly despite the same year, indicating they are different entities."
+fc2ac59c3f3ad74f,a2608,b2379,0.663,0,0.86,"Same title but different directors, a one‑year discrepancy, and missing cast info reduce confidence they are the same entity."
+ce9e993fbac3dd9b,d2946,d3043,0.663,0,0.05,"Titles and directors are different, and cast information does not overlap; only the year matches, providing insufficient evidence of a match."
+b5b6fdb472891f99,a625,b1147,0.663,0,0.07,"Both have the same director and core cast, but the titles and release years differ (Scream 4 vs. Scream 3), indicating distinct movies."
+28c3bd8ffb51f5c8,a1204,b1226,0.663,0,0.96,"Titles differ, directors are different, and the cast lists share no names; only the year matches, which is insufficient for a match."
+a3dba4a1371e129c,a1204,a1407,0.663,0,0.96,"Titles differ, directors are different, and the cast lists share no names; only the year matches, which is insufficient for a match."
+e6fc9cbac71c39a3,c3222,c3232,0.663,0,0.96,"Different titles, directors, and completely different casts despite sharing the same year; strong evidence they are distinct entities."
+cbbeec5c067b7380,c4707,c5054,0.662,0,0.98,"Titles differ ('Police Story' vs 'Police Story 2'), years are 1985 vs 1988, and cast lists differ beyond the shared actors, indicating distinct films."
+f6c952168212150d,d2503,d809,0.662,0,0.15,"Same director and some overlapping cast, but different titles (original vs sequel), years, and distinct additional cast members indicate they are separate films."
+61e163ac31e3b550,b1545,b19,0.662,0,0.96,"Different titles, years, and partially different casts indicate they are distinct movies despite sharing the same director."
+c6af8c497e416618,c4532,c4592,0.661,0,0.05,"Titles, directors, and cast differ despite the same year, indicating they are distinct entities."
+6614e1ace2c69797,a2246,d3015,0.661,0,0.96,"Different titles, directors, and completely different cast members despite sharing the same year; strong evidence they are distinct entities."
+c54a90c4f33bc900,a2016,d250,0.662,1,0.95,"Same title (full vs shortened), identical director and year, and overlapping main cast; extra cast members in B just expand the list, indicating the same film."
+f349679005b5e7b5,c2484,d250,0.662,1,0.93,"Same director, year, and core cast match; title variation and extra cast members slightly reduce confidence."
+582f2f899862ac9c,c1701,c2197,0.661,0,0.95,Different titles and release years indicate distinct films despite identical director and cast.
+759b65a1986d7ca6,b2520,b336,0.66,0,0.95,"Titles and release years differ (2010 vs 2013), indicating a sequel; despite same director and overlapping cast, they are distinct movies."
+f1ef4e0572ed859c,a2726,c684,0.66,0,0.92,"Titles are similar but directors, cast members differ completely; only year matches, indicating likely different entities."
+d49fb50e239adf18,c684,d1698,0.66,0,0.1,"Titles are similar but director, cast differ and no strong evidence of same entity"
+1f6bddcfeb1c4c11,b2491,c684,0.66,0,0.07,"Titles are similar but directors, cast lists differ and the title spelling is different, indicating distinct entities"
+2bd3d81eb634f20a,c5250,c5252,0.66,0,0.95,"Titles, directors, and cast differ significantly; only the year matches, indicating they are different entities."
+0d9e0dc1d4a956e2,a2323,b2047,0.66,1,0.85,"Same title, director spelling variation, and overlapping cast members (john bryant and angelina assereto) indicate they refer to the same entity despite missing year."
+9105023a84cd145f,a1767,a2582,0.659,0,0.96,Different titles and release years (Spider-Man 2 vs 3) indicate distinct movies despite shared director and some cast.
+11ad114d3bc840e7,a1767,c2091,0.659,0,0.96,"Titles and release years differ (Spider-Man 2 vs Spider-Man 3), indicating distinct movies despite shared director and some cast."
+9adcde8be61a811b,a2617,a467,0.659,0,0.22,"Titles differ (extra 'too'), years differ, and cast lists are not identical despite shared director and two actors, indicating likely different films."
+8b5fec9dff8203ed,c2091,c2586,0.659,0,0.92,"Different titles, years, and differing cast members indicate they are distinct movies despite shared director and some actors."
+43490e0401256aa6,b340,d809,0.659,0,0.96,"Title and year differ (original vs sequel) and cast is not identical, indicating separate movies."
+03a1de487e6776a3,a2582,c2586,0.659,0,0.96,"Different title, year, and cast indicate they are distinct movies despite same director"
+e28dbb66bb835508,b415,d3055,0.657,0,0.87,"Titles and release years differ (sequel vs original), indicating distinct entities despite shared director and main cast."
+67b5876a8e0eaa51,b3006,c4569,0.657,0,0.96,"Different titles and years; only partial cast overlap, indicating distinct movies"
+ab71c5b696884ddd,c235,d1976,0.657,0,0.96,"Titles, year, and additional cast differ, indicating they are separate films despite same director and some overlapping actors."
+3e69ebacc5a852e7,b3006,c4198,0.657,0,0.96,Different title and year; only partial cast overlap despite same director
+ac202bf49b7d810a,b2495,c1717,0.657,0,0.95,"Different titles and release years (Fast & Furious 6 vs Fast & Furious) indicate distinct movies, despite shared director and some cast members."
+f621a12fbb745c82,a165,d349,0.657,0,0.96,"Different titles and release years indicate distinct movies, even though they share director and some cast members."
+8c289b9b3f6add7e,a356,d1121,0.657,0,0.96,"Different title (original vs sequel), different release year, and largely different cast indicate they are distinct entities."
+c594a4ef9d40458f,c2876,d1961,0.656,0,0.96,"Different titles (II vs III) and years (2002 vs 2012) indicate distinct movies, despite shared director and some cast members."
+b402fd54288b5119,c1396,c1830,0.655,0,0.92,"Different titles (one is a sequel) and release years indicate distinct films, despite shared director and some cast members."
+2f186a1f90d6a824,a2562,c3100,0.655,0,0.95,"Different titles and release years indicate distinct movies, despite shared director and two cast members."
+da4036352d9f03ba,d1168,d1976,0.655,0,0.96,"Titles differ (sequel vs original), years are 2014 vs 2012, and cast lists are not identical, indicating they are separate movies despite same director."
+e958b0d68d074835,c2586,c2878,0.655,0,0.96,"Different titles and release years, plus differing cast members, indicate they are separate films despite shared director and some actors."
+26305613fca2ba1b,c2091,c2878,0.655,0,0.96,Different titles and release years (Spider-Man 3 vs Spider-Man) indicate distinct movies despite shared director and lead actors.
+b6acdc6d282436bc,a1538,a2562,0.655,0,0.96,"Different titles (2 vs 3), years (2001 vs 2007), and cast members indicate they are distinct movies despite same director and two shared actors."
+ee90d3f983707e13,a1538,c2083,0.655,0,0.96,"Different titles (2 vs 3), years (2001 vs 2007), and cast members indicate they are distinct movies despite same director and two shared actors."
+f9535831eec15c56,b3006,c4833,0.655,0,0.96,"Different titles and release years (1998 vs 1987) indicate distinct films, despite shared director and some cast members."
+249f19a20cdb6a4d,a1767,c2878,0.655,0,0.96,"Different titles and release years indicate distinct movies, despite shared director and some cast members."
+2881e912a05e3a98,c2083,c3100,0.655,0,0.95,"Different titles and release years indicate distinct movies, despite shared director and two cast members."
+379822f5ccde8a68,c1743,c1760,0.655,0,0.1,"Titles, directors, and cast differ despite same year, indicating distinct entities"
+0584761b0691ef0a,a2582,c2878,0.655,0,0.92,different titles and release years show they are distinct movies
+191de912f1777aae,a898,b839,0.653,0,0.1,"Titles, directors, and cast differ significantly; only the year matches, indicating they are different entities."
+e4a94ccf60677256,a898,a900,0.653,0,0.95,"Titles, directors, and cast differ significantly despite same year, indicating distinct entities."
+a724780eb3e7f0cb,a1323,b589,0.653,0,0.96,"Title and release year differ (1996 vs 2011), indicating distinct films; despite same director and core cast, they are separate entries."
+71cd57f74792b7d1,b837,b839,0.653,0,0.95,"Titles, directors, and cast differ despite same year, indicating distinct entities."
+99804f373db40b0b,a900,b837,0.653,0,0.95,"Titles, directors, and cast differ significantly; only the year matches, indicating they are different entities."
+bede7f75355ba2e4,c4382,c4451,0.653,0,0.9,"Titles, directors, and full cast differ despite same year, indicating distinct films."
+249102351177840d,b839,d2615,0.653,0,0.95,Titles share a word but different directors and completely different casts indicate they are not the same entity
+8f6ee66b816dc28c,d2615,d2810,0.653,0,0.1,"Titles and directors differ; only year matches, no cast overlap, so unlikely to be the same entity."
+c0ed731ee48bb980,b1545,d1976,0.653,0,0.9,"Titles and years differ (sequel vs original), only director and two cast members overlap, indicating distinct entities."
+c483ab541f3ab9de,a2872,d1326,0.653,0,0.96,"Titles differ, directors are different, and cast lists share no actors; despite same year, evidence points to distinct entities."
+7bfe9582f49a8ddc,a1323,b1147,0.653,0,0.96,"Different titles and release years (1996 vs 2000) indicate distinct films, even though director and core cast overlap."
+4b4c01180417cf96,b837,d2810,0.653,0,0.08,"Titles and directors differ; only year matches, cast missing for B, so unlikely same entity."
+237af971e16ea83e,a900,d2615,0.653,0,0.05,"Titles share a word and year matches, but directors and entire cast differ, indicating distinct entities."
+dcaa95169ca07f72,a898,d2810,0.653,0,0.08,"Titles and directors differ; only year matches, cast missing for B, so unlikely same entity."
+62d0aea62bf42e11,d924,d970,0.652,0,0.96,"Titles, directors, and cast lists differ despite the same year, indicating they are distinct entities."
+40fbbf5ebaf9ae83,c5618,c5660,0.652,0,0.96,"Titles, directors, and cast differ significantly despite same year, indicating distinct entities."
+0c4995b6641c3b54,c214,d924,0.652,0,0.96,"Titles, directors, and cast lists differ despite same year, indicating distinct entities"
+8719940072a2eb47,b2477,d2430,0.652,0,0.95,"Different titles, years, and directors indicate distinct movies despite some overlapping cast."
+dd4b9323bb9703fc,a535,b503,0.652,1,0.65,Same title and director (with middle initial) suggest the same film; differing cast likely reflects incomplete or variant listings.
+e7b93232e1400b4c,c497,d473,0.651,1,0.85,"Title matches, director name is a reorder/spelling variant, two cast members match despite a one‑year difference, indicating the same film."
+fcbb4abb37afdaa0,a233,b237,0.651,0,0.96,"Titles, directors, and cast differ despite same year, indicating different entities."
+fdbfcee364630233,b230,b237,0.651,0,0.96,"Titles, directors, and cast are completely different despite the same year, indicating they are distinct entities."
+bae0ef700443de34,c3959,c4351,0.651,0,0.2,"Title, year and most cast differ despite same director and one shared actor"
+0cdfba3a82c963e2,b237,c939,0.651,0,0.96,"Titles, directors, and cast differ despite same year, indicating different entities"
+3e6183537df65ebc,b1981,c2113,0.651,0,0.96,"Titles, directors, and cast differ despite same year, indicating distinct entities"
+0c5668b7bbceb434,a681,c3257,0.65,0,0.85,"Title and director match, but differing years and completely different casts suggest they are different entities."
+183e86d5d297b5f9,a52,b54,0.65,1,0.75,"Title and director match exactly, indicating likely same film, but differing cast lists and missing year in Record B reduce confidence."
+bc16ab14df407d87,b981,c1420,0.65,1,0.55,"Same title and director but different cast and missing year, giving moderate confidence."
+9725c1155843b4a6,c3100,c3429,0.65,0,0.95,"Different titles and release years indicate they are separate films, despite shared director and two cast members."
+b1cb8173727bcfdf,c2083,c3429,0.65,0,0.96,"Titles, release years, and cast differ, indicating distinct films despite shared director and two actors."
+cec2f8d3c31747b5,c626,d2800,0.65,0,0.95,"Titles, release years, and cast differ despite same director, indicating distinct movies"
+6964b3635c1ef52a,a2793,d1538,0.65,1,0.65,"Same title and director strongly suggest same entity, but differing year and missing cast lower confidence"
+ebb6a694ea257431,c2333,d104,0.65,1,0.85,"Same title, director name matches despite order/hyphen variation, core cast overlaps (kang-ho song, hae-il park, similar byeon/hee-bong); year differs likely a data error, extra cast in B doesn't change identity."
+830f60ba4a9cf9c3,a1128,b2173,0.65,0,0.92,"Title and director match, but differing release years and completely different casts indicate they are distinct entities."
+4b8f75563bdc8e8e,a2562,c3429,0.65,0,0.95,"Different title and release year indicate distinct films, despite shared director and two cast members."
+999d88d23661faa1,a955,b889,0.65,0,0.3,"Title and director match, but differing years and completely different casts suggest they are not the same entity."
+b11aca4f6c768650,b47,d3439,0.65,0,0.95,Same title but different release years (2012 vs 1946) and director lists indicate distinct productions.
+e7b6e9983c0e86d1,a1056,b981,0.65,1,0.7,"Same title and director strongly suggest same entity, but differing cast and missing year lower confidence."
+7dcbf2c17b2a6427,a251,b248,0.65,1,0.75,Same title and director strongly indicate the same film; missing year and completely different cast lists lower confidence.
+57fb1edbc4f96008,a28,b30,0.65,1,0.7,"Same title and director strongly suggest same entity, but completely different cast and missing year lower confidence."
+ec3e57c6479c762a,a120,b118,0.65,1,0.85,Identical title and director indicate same entity; missing cast in Record B lowers confidence slightly
+4143331b2a3414c5,b636,c3257,0.65,0,0.12,Same title and director but different release years (2008 vs 2000) and completely different cast lists indicate they are likely distinct productions.
+fdc99871015e7ac7,a2757,a347,0.65,0,0.92,"Titles differ (sequel vs original) and years are 3 years apart; despite same director and some overlapping cast, they refer to distinct movies."
+0c34ef8abedace0d,a2109,b1860,0.65,1,0.7,"Identical title and director strongly suggest same entity, but differing cast lists and missing year lower confidence."
+1ce247db96f57016,a2730,d2800,0.65,0,0.95,"Titles, release years, and cast differ despite same director, indicating distinct movies"
+6c6baf6bfce3d587,a2401,b2112,0.65,0,0.87,Same director but different release years and completely different casts indicate they are distinct entities.
+884a028868055d4e,a2900,b2648,0.65,1,0.85,Same title and director strongly indicate same entity; missing year and cast in Record B lowers confidence slightly.
+7da2554beccb1273,a1538,c3429,0.65,0,0.95,Different title and year indicate distinct films despite shared director and two cast members.
+69a448606cc52aa5,a2533,b2308,0.65,1,0.75,Same title and director strongly indicate the same film; missing year and differing cast lower confidence but not enough to reject.
+5e911afa41f7eabb,c1944,c3257,0.65,0,0.85,"Title and director match, but differing years and completely different casts suggest they are different entities."
+dc3268e595839e2c,b19,d1168,0.65,0,0.96,Different titles and release years indicate distinct movies; overlapping director and some cast are insufficient for a match.
+8a33858659df7d82,a222,b217,0.65,0,0.9,Title and director match but different release years and completely different casts indicate they are distinct entities.
+6611572a322cc64c,a2064,b1820,0.65,1,0.85,Title and director match exactly; missing year and differing cast reduce confidence but still indicate likely same entity.
+0906f3f51d332af1,a2631,b2400,0.65,1,0.78,Identical title and director strongly indicate the same film; missing year and completely different cast lower confidence but do not contradict a match.
+61952a0f75357baf,a222,d1934,0.65,1,0.7,"Same title and director strongly suggest same entity, but differing year and missing cast lower confidence."

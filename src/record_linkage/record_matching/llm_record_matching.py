@@ -27,7 +27,8 @@ def call_llm(prompt, client, model="llama-3.3-70b-versatile", temperature = 0):
                 "content":prompt
             }
         ],
-        temperature=temperature
+        temperature=temperature,
+        response_format={"type": "json_object"}
     )
 
     return response.choices[0].message.content
@@ -185,6 +186,10 @@ def llm_match_record(record1, record2, attributes, client, model="llama-3.3-70b-
     parsed = parse_llm_json(output)
 
     if parsed is None:
+
+        print("\nRAW OUTPUT:")
+        print(output)
+        print("-" * 80)
 
         return {
             "status":"json_error",
@@ -500,7 +505,11 @@ def llm_record_matching(
                 return pd.read_csv(matches_output)
 
             elif status == "json_error":
-                print(f"\nInvalid JSON for {row['id1']} - {row['id2']}")
+                print(f"\nInvalid JSON (retry {retry+1}/{MAX_RETRIES})")
+
+                if retry < MAX_RETRIES - 1:
+                    continue
+
                 break
 
             else:
