@@ -1,8 +1,7 @@
 import pandas as pd
 import os
 
-MODEL = "openai/gpt-oss-120b"
-
+MODEL = "llama-3.3-70b-versatile"
 
 
 def load_valid_ids(merged_file, prefix):
@@ -74,10 +73,12 @@ def evaluate(matches_file, ground_truth_file, left_prefix, right_prefix, mode, n
     discarded_gt = 0
     discarded_gold_1 = 0
     discarded_gold_0 = 0
+    missing_gold = 0
 
     for _, row in truth.iterrows():
 
         if pd.isna(row["gold"]):
+            missing_gold += 1
             continue
 
         left_id = str(row["ltable.id"])
@@ -125,6 +126,7 @@ def evaluate(matches_file, ground_truth_file, left_prefix, right_prefix, mode, n
 
     print("GT info")
     print("Ground truth pairs before validation:", len(truth))
+    print("Missing gold labels:", missing_gold)
     print("Ground truth pairs after validation:", len(truth_pairs))
     print("Discarded GT pairs:", discarded_gt)
     print("Discarded gold=1:", discarded_gold_1)
