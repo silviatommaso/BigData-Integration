@@ -108,12 +108,12 @@ def build_messages(samples, dataset_names, attributes):
 # LLM CALL
 # -----------------------
 
-def call_llm(messages, model_name):
+def call_llm(messages, model_name, temperature):
 
     response = client.chat.completions.create(
         model=model_name,
         messages=messages,
-        temperature=0.2
+        temperature=temperature
     )
 
     usage = getattr(response, "usage", None)
@@ -133,7 +133,7 @@ def call_llm(messages, model_name):
 # RUN ALL MODELS
 # -----------------------
 
-def result_definer(messages):
+def result_definer(messages, temperature):
 
     results = []
 
@@ -150,7 +150,7 @@ def result_definer(messages):
             try:
                 start = time.time()
 
-                outputs[model], token_usage[model] = call_llm(messages, model)
+                outputs[model], token_usage[model] = call_llm(messages, model, temperature)
 
                 latencies[model] = time.time() - start
 
@@ -238,7 +238,7 @@ def get_sample(df, n=5, min_differences=5, seed=None):
 # MAIN FUNCTION
 # -----------------------
 
-def prompt_aligning(dfs, dataset_names, stats_path, global_schema_path, attributes_path):
+def prompt_aligning(dfs, dataset_names, stats_path, global_schema_path, attributes_path, temperature=0):
 
     # get random samples
     samples = []
@@ -259,7 +259,7 @@ def prompt_aligning(dfs, dataset_names, stats_path, global_schema_path, attribut
 
 
 
-    results = result_definer(messages)
+    results = result_definer(messages, temperature)
     # save llms global schemas
     with open(stats_path, "w", encoding="utf-8") as f:
         json.dump(results, f, indent=4, ensure_ascii=False)

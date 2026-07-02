@@ -17,7 +17,7 @@ BASE_DIR = Path(__file__).resolve().parent
 # =====================================================
 
 # Execution mode: "classic", "llm" or "both"
-PIPELINE_MODE = "classic"
+PIPELINE_MODE = "llm"
 
 
 # Input datasets
@@ -33,7 +33,7 @@ inputs = [
 
 # Enable/disable individual pipeline stages
 STEPS = {
-    "schema_alignment": False,
+    "schema_alignment": True,
 
     "record_linkage": {
         "blocking": True,
@@ -41,7 +41,7 @@ STEPS = {
         "clustering": True
     },
 
-    "data_fusion": False
+    "data_fusion": True
 }
 
 
