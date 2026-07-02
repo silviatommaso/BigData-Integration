@@ -44,6 +44,8 @@ STEPS = {
     "data_fusion": True
 }
 
+# Temperature for LLM schema alignment
+SCHEMA_TEMPERATURE = 0
 
 # Parameters for canopy clustering (blocking phase)
 # If a TF-IDF parameter is not defined, default values are used:
@@ -97,7 +99,7 @@ matching_attributes = {
 
 # LLM configuration for record matching
 LLM_MODEL = "openai/gpt-oss-120b"
-TEMPERATURE = 0
+MATCHING_TEMPERATURE = 0
 
 # Source names and reliability weights used during data fusion
 SOURCES = {
@@ -189,7 +191,8 @@ for pipeline in PIPELINES:
                 datasets,
                 schema_dir / "schema_alignment_results_stat.json",
                 schema_dir / "global_schema.csv",
-                ATTRIBUTE_DESCRIPTIONS
+                ATTRIBUTE_DESCRIPTIONS,
+                SCHEMA_TEMPERATURE
             )
             # list of columns to keep from each dataset
             dfs = final_schema(dfs, utils.load_movies_csv(schema_dir / "global_schema.csv"))
@@ -280,7 +283,7 @@ for pipeline in PIPELINES:
                 llm_threshold=0.65,
                 auto_threshold=0.75,
                 model=LLM_MODEL,
-                temperature=TEMPERATURE
+                temperature=MATCHING_TEMPERATURE
             )
     else:
 
