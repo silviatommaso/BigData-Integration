@@ -35,12 +35,12 @@ STEPS = {
     "schema_alignment": False,
 
     "record_linkage": {
-        "blocking": False,
-        "matching": True,
-        "clustering": True
+        "blocking": True,
+        "matching": False,
+        "clustering": False
     },
 
-    "data_fusion": True
+    "data_fusion": False
 }
 
 
@@ -61,6 +61,11 @@ canopy_params = {
 
     "tfidf": {
         "Title": {
+            "analyzer": "char_wb",
+            "ngram_range": (2,3),
+            "min_df": 2
+        },
+        "Director": {
             "analyzer": "char_wb",
             "ngram_range": (2,3),
             "min_df": 2
