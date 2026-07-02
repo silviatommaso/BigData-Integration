@@ -125,7 +125,7 @@ def profile_comparison(dfs, dfs_name):
                 sim_avg = 1.0 - (abs(prof_A["avg"] - prof_B["avg"]) / max_avg) if max_avg > 0 else 1.0
                 
                 score_numeric = (sim_range * 0.5) + (sim_avg * 0.5)
-                score_data = (score_structure * 0.6) + (score_numeric * 0.4)
+                score_data = (score_structure * 0.4) + (score_numeric * 0.6)
             else:
                 score_data = score_structure
                 
