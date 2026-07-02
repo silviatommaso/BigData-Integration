@@ -3,11 +3,11 @@ id,id,id,id
 title,title,movie_name,movie_name
 year,year,year,year
 rating,rating,movie_rating,
+,,,critic_rating
 director,director,directors,directors
-creator,creators,,
+creators,creators,,
 cast,cast,actors,actors
 genre,genre,genre,genre
 duration,duration,duration,duration
 contentrating,contentrating,,pg_rating
-summary,summary,,
-,,,critic_rating
+,summary,,
