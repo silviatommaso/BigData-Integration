@@ -121,7 +121,7 @@ def normalizer(dfs, indexes):
         non_numeric_cols = dfs[i].select_dtypes(exclude=["int64", "float64"]).columns.tolist()
         for col in non_numeric_cols:
             if col in dfs[i].columns:
-                dfs[i][col] = dfs[i][col].apply(fix_separators).apply(lowercase_text)
+                dfs[i][col] = dfs[i][col].apply(fix_separators)#.apply(lowercase_text)
                 dfs[i][col] = dfs[i][col].astype("string")
 
 
