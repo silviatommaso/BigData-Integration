@@ -33,10 +33,10 @@ inputs = [
 
 # Enable/disable individual pipeline stages
 STEPS = {
-    "schema_alignment": True,
+    "schema_alignment": False,
 
     "record_linkage": {
-        "blocking": True,
+        "blocking": False,
         "matching": True,
         "clustering": True
     },
@@ -98,7 +98,7 @@ matching_attributes = {
 }
 
 # LLM configuration for record matching
-LLM_MODEL = "openai/gpt-oss-120b"
+LLM_MODEL = "llama-3.3-70b-versatile"
 MATCHING_TEMPERATURE = 0
 
 # Source names and reliability weights used during data fusion

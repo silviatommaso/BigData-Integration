@@ -10,7 +10,7 @@ from difflib import SequenceMatcher
 # Source ID extractor
 # ----------------------------
 def get_source(record_id):
-    return str(record_id)[0].lower()
+    return str(record_id)[0]#.lower()
 
 
 def clean_id(record_id):
@@ -25,7 +25,8 @@ def clean_id(record_id):
 def parse_list(x):
     if pd.isna(x):
         return set()
-    return set([i.strip().lower() for i in str(x).split(",") if i.strip()])
+    return set([i.strip() for i in str(x).split(",") if i.strip()])
+    #return set([i.strip().lower() for i in str(x).split(",") if i.strip()])
 
 
 # Director
@@ -42,7 +43,8 @@ def parse_genre(x):
     if pd.isna(x):
         return genres
     for g in str(x).split(","):
-        g = g.strip().lower()
+        #g = g.strip().lower()
+        g = g.strip()
         if "&" in g:
             parts = [p.strip() for p in g.split("&")]
             genres.update(parts)
