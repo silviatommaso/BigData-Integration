@@ -10,17 +10,18 @@ import src.utils.utils as utils
 from pathlib import Path
 import pandas as pd
 
+BASE_DIR = Path(__file__).resolve().parent
 
 # =====================================================
 # CONFIGURATION
 # =====================================================
 
 # Execution mode: "classic", "llm" or "both"
-PIPELINE_MODE = "llm"
+PIPELINE_MODE = "classic"
 
 
 # Input datasets
-INPUT_DIR = Path("data/dataset_cleaned")
+INPUT_DIR = BASE_DIR / "data" / "dataset_cleaned"
 
 inputs = [
     INPUT_DIR / "movies3_cleaned" / "imdb_cleaned.csv",
@@ -36,8 +37,8 @@ STEPS = {
 
     "record_linkage": {
         "blocking": True,
-        "matching": False,
-        "clustering": False
+        "matching": True,
+        "clustering": True
     },
 
     "data_fusion": False
@@ -135,7 +136,6 @@ fusion_attributes = {
 # PIPELINE
 # =====================================================
 
-BASE_DIR = Path(__file__).resolve().parent
 
 if PIPELINE_MODE == "both":
     PIPELINES = ["classic", "llm"]
