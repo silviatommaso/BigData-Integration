@@ -18,7 +18,7 @@ def generate_request_id(id1,id2,score):
         key.encode()
     ).hexdigest()[:16]
 
-def call_llm(prompt, client, model="llama-3.3-70b-versatile"):
+def call_llm(prompt, client, model="llama-3.3-70b-versatile", temperature = 0):
     response = client.chat.completions.create(
         model=model,
         messages=[
@@ -27,7 +27,8 @@ def call_llm(prompt, client, model="llama-3.3-70b-versatile"):
                 "content":prompt
             }
         ],
-        temperature=0
+        temperature=temperature,
+        response_format={"type": "json_object"}
     )
 
     return response.choices[0].message.content
@@ -124,7 +125,7 @@ def parse_llm_json(text):
         return None
 
 
-def llm_match_record(record1, record2, attributes, client, model="llama-3.3-70b-versatile"):
+def llm_match_record(record1, record2, attributes, client, model="llama-3.3-70b-versatile", temperature = 0):
 
     record_a = ""
     record_b = ""
@@ -168,7 +169,8 @@ def llm_match_record(record1, record2, attributes, client, model="llama-3.3-70b-
         output = call_llm(
             prompt,
             client,
-            model
+            model,
+            temperature
         )
 
     except Exception as e:
@@ -184,6 +186,10 @@ def llm_match_record(record1, record2, attributes, client, model="llama-3.3-70b-
     parsed = parse_llm_json(output)
 
     if parsed is None:
+
+        print("\nRAW OUTPUT:")
+        print(output)
+        print("-" * 80)
 
         return {
             "status":"json_error",
@@ -220,7 +226,9 @@ def llm_record_matching(
     attributes,
     canopy_id_position=1,
     llm_threshold=0.65,
-    auto_threshold=0.75
+    auto_threshold=0.75,
+    model="llama-3.3-70b-versatile",
+    temperature=0
 ):
 
     print("LLM assisted record matching started")
@@ -475,7 +483,9 @@ def llm_record_matching(
                 record1,
                 record2,
                 attributes,
-                client
+                client,
+                model,
+                temperature
             )
 
             status = response["status"]
@@ -495,7 +505,11 @@ def llm_record_matching(
                 return pd.read_csv(matches_output)
 
             elif status == "json_error":
-                print(f"\nInvalid JSON for {row['id1']} - {row['id2']}")
+                print(f"\nInvalid JSON (retry {retry+1}/{MAX_RETRIES})")
+
+                if retry < MAX_RETRIES - 1:
+                    continue
+
                 break
 
             else:

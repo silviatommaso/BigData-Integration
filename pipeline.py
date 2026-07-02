@@ -16,7 +16,7 @@ import pandas as pd
 # =====================================================
 
 # Execution mode: "classic", "llm" or "both"
-PIPELINE_MODE = "classic"
+PIPELINE_MODE = "llm"
 
 
 # Input datasets
@@ -32,17 +32,16 @@ inputs = [
 
 # Enable/disable individual pipeline stages
 STEPS = {
-    "schema_alignment": True,
+    "schema_alignment": False,
 
     "record_linkage": {
         "blocking": False,
-        "matching": False,
-        "clustering": False
+        "matching": True,
+        "clustering": True
     },
 
-    "data_fusion": False
+    "data_fusion": True
 }
-
 
 
 # Parameters for canopy clustering (blocking phase)
@@ -90,6 +89,9 @@ matching_attributes = {
     }
 }
 
+# LLM configuration for record matching
+LLM_MODEL = "openai/gpt-oss-120b"
+TEMPERATURE = 0
 
 # Source names and reliability weights used during data fusion
 SOURCES = {
@@ -136,8 +138,9 @@ else:
     PIPELINES = [PIPELINE_MODE]
 
 
-
 BASE_DIR = BASE_DIR / "results"
+model_dir = LLM_MODEL.replace("/", "_")
+
 
 for pipeline in PIPELINES:
 
@@ -153,7 +156,12 @@ for pipeline in PIPELINES:
 ################################################################################################################################################################################################################################################################################
 
     schema_dir = BASE_DIR / "schema_alignment" / pipeline
+    
+    if pipeline == "llm":
+        schema_dir_dir = schema_dir / model_dir
+
     merged_path = schema_dir / "merged_movies.csv"
+
 
     if STEPS["schema_alignment"]:
 
@@ -210,6 +218,10 @@ for pipeline in PIPELINES:
     
     linkage_dir = BASE_DIR / "record_linkage" / pipeline
 
+    if pipeline == "llm":
+        linkage_dir = linkage_dir / model_dir
+
+
     # =====================================================
     # BLOCKING (COMMON)
     # =====================================================
@@ -262,6 +274,8 @@ for pipeline in PIPELINES:
                 matching_attributes,
                 llm_threshold=0.65,
                 auto_threshold=0.75,
+                model=LLM_MODEL,
+                temperature=TEMPERATURE
             )
     else:
 
@@ -303,6 +317,9 @@ for pipeline in PIPELINES:
     if STEPS["data_fusion"]:
 
         fusion_dir = BASE_DIR / "data_fusion" / pipeline
+        
+        if pipeline == "llm":
+            fusion_dir = fusion_dir / model_dir
 
         fusion_dir.mkdir(
             parents=True,

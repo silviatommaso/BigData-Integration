@@ -1,6 +1,10 @@
 import pandas as pd
 import os
 
+MODEL = "openai/gpt-oss-120b"
+
+
+
 def load_valid_ids(merged_file, prefix):
     
     df = pd.read_csv(merged_file)
@@ -32,7 +36,15 @@ def evaluate(matches_file, ground_truth_file, left_prefix, right_prefix, mode, n
 
     truth.columns = truth.columns.str.strip().str.lower()
     
-    merged_file = f"schema_alignment\{mode}\merged_movies.csv"
+    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+    merged_file = os.path.join(
+        base_dir,
+        "results",
+        "schema_alignment",
+        mode,
+        "merged_movies.csv"
+    )
 
     valid_left_ids = load_valid_ids(merged_file, left_prefix)
 
@@ -174,13 +186,31 @@ def evaluate(matches_file, ground_truth_file, left_prefix, right_prefix, mode, n
 
 
             print(records.to_string(index=False))
+            print()
+
+base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+MODEL_DIR = MODEL.replace("/", "_")
+
+classic_matches = os.path.join(
+    base_dir,
+    "results",
+    "record_linkage",
+    "classic",
+    "matches.csv"
+)
 
 
-matches_file = r"record_linkage\classic\matches.csv"
-llm_matches_file = r"record_linkage\llm\matches.csv"
+llm_matches = os.path.join(
+    base_dir,
+    "results",
+    "record_linkage",
+    "llm",
+    MODEL_DIR,
+    "matches.csv"
+)
 
 evaluate(
-    matches_file,
+    classic_matches,
     "ground_truth/movies_3_labeled_data.csv",
     "a",
     "b",
@@ -189,7 +219,7 @@ evaluate(
 )
 
 evaluate(
-    matches_file,
+    classic_matches,
     "ground_truth/movies_5_labeled_data.csv",
     "d",
     "c",
@@ -201,7 +231,7 @@ print("-------------------")
 print("LLM RESULTS")
 
 evaluate(
-    llm_matches_file,
+    llm_matches,
     "ground_truth/movies_3_labeled_data.csv",
     "a",
     "b",
@@ -210,7 +240,7 @@ evaluate(
 )
 
 evaluate(
-    llm_matches_file,
+    llm_matches,
     "ground_truth/movies_5_labeled_data.csv",
     "d",
     "c",
