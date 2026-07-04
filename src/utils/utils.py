@@ -9,19 +9,25 @@ def load_movies_csv(path):
 ##################################################################################################################################################################################################################################################################################################################################################
 # path existence checker
 ##################################################################################################################################################################################################################################################################################################################################################
+from pathlib import Path
+import os
+import sys
 
 def path_check(files, next_step=None):
+
+    if isinstance(files, (str, Path)):
+        files = [files]
 
     for file in files:
 
         if not os.path.exists(file):
 
             if next_step:
-                print(f"Error: {file} not found, execute {next_step} step first")
+                print(f"Error: '{file}' not found. Execute the '{next_step}' step first.")
             else:
-                print(f"Error: {file} not found")
+                print(f"Error: '{file}' not found.")
 
-            exit()
+            sys.exit(1)
 
 def subpath_check(files, indexes, step):
 
