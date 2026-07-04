@@ -17,7 +17,7 @@ BASE_DIR = Path(__file__).resolve().parent
 # =====================================================
 
 # Execution mode: "classic", "llm" or "both"
-PIPELINE_MODE = "llm"
+PIPELINE_MODE = "classic"
 
 
 # Input datasets
@@ -37,11 +37,11 @@ STEPS = {
 
     "record_linkage": {
         "blocking": False,
-        "matching": True,
-        "clustering": True
+        "matching": False,
+        "clustering": False
     },
 
-    "data_fusion": True
+    "data_fusion": False
 }
 
 # Temperature for LLM schema alignment
@@ -98,7 +98,7 @@ matching_attributes = {
 }
 
 # LLM configuration for record matching
-LLM_MODEL = "llama-3.3-70b-versatile"
+LLM_MODEL = "openai/gpt-oss-120b"
 MATCHING_TEMPERATURE = 0
 
 # Source names and reliability weights used during data fusion
@@ -322,9 +322,10 @@ for pipeline in PIPELINES:
 # DATA FUSION
 ################################################################################################################################################################################################################################################################################
 
+    fusion_dir = BASE_DIR / "data_fusion" / pipeline
+
     if STEPS["data_fusion"]:
 
-        fusion_dir = BASE_DIR / "data_fusion" / pipeline
         
         if pipeline == "llm":
             fusion_dir = fusion_dir / model_dir
@@ -348,11 +349,55 @@ for pipeline in PIPELINES:
         ]
 
 
-        final_df = pd.concat(fused, ignore_index=True)
+        fused_df = pd.concat(fused, ignore_index=True)
         # save to csv
-        final_df.to_csv(fusion_dir / "fused_entities.csv", index=False)
+        fused_df.to_csv(fusion_dir / "fused_entities.csv", index=False)
 
 
-    print(pipeline, "completed")
+    # =====================================================
+    # FINAL DATASET
+    # =====================================================
+    fused_path = fusion_dir / "fused_entities.csv"
+
+    utils.path_check(singletons_path,"Entity Clustering")
+    utils.path_check(fused_path,"Data Fusion")
+
+    # -----------------------------
+    # SINGLETONS
+    # -----------------------------
+    
+    singletons = utils.load_movies_csv(singletons_path)
+    fused_df = utils.load_movies_csv(fused_path)
+
+    # identifica source dal prefisso
+    singletons["source"] = singletons["Id"].str[0].str.upper()
+    singletons["source_id"] = singletons["Id"].str[1:].astype(int)
+
+    for col in ["A_Ids", "B_Ids", "C_Ids", "D_Ids"]:
+        singletons[col] = None
+
+    for i, row in singletons.iterrows():
+        col = f"{row['source']}_Ids"
+        singletons.loc[i, col] = row["source_id"]
+
+    singletons = singletons.drop(columns=["Id", "source", "source_id"])
+
+    # -----------------------------
+    # ALLINEA COLONNE
+    # -----------------------------
+    final_columns = fused_df.columns
+
+    singletons = singletons.reindex(columns=final_columns)
+
+    # -----------------------------
+    # MERGE FINALE
+    # -----------------------------
+    final_df = pd.concat([fused_df, singletons], ignore_index=True)
+
+    final_path = fusion_dir / "final_entities.csv"
+    final_df.to_csv(final_path, index=False)
+
+    print(f"Final dataset successfully generated: {final_path}")
+    print(f"{pipeline} completed")
 
 ################################################################################################################################################################################################################################################################################
