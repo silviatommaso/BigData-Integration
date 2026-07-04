@@ -23,26 +23,28 @@ The experiments are conducted on three heterogeneous movie datasets derived from
 
 ```
 BigData-Integration-AO/
-├── pipeline.py                     # Main orchestrator — runs the full pipeline end-to-end
+├── pipeline.py                         # Main orchestrator — runs the full pipeline end-to-end
+├── config.py                           
 ├── data/
-│   └── dataset_cleaned/            # Cleaned input CSVs (per dataset) + attribute_descriptions.json
+│   └── dataset_cleaned/                # Cleaned input CSVs (per dataset) + attribute_descriptions.json
 │       ├── movies3_cleaned/
 │       └── movies5_cleaned/
 ├── src/
-│   ├── preprocessing/              # Dataset cleaning & the Roger Ebert validation scraper
-│   ├── schema_alignment/           # Classic (column-profiling) and LLM schema alignment
+│   ├── preprocessing/                  # Dataset cleaning & the Roger Ebert validation scraper
+│   ├── schema_alignment/               # Classic (column-profiling) and LLM schema alignment
 │   ├── record_linkage/
-│   │   ├── blocking/               # Canopy clustering (TF-IDF + cosine similarity blocking)
-│   │   ├── record_matching/        # Classic weighted-similarity matcher and LLM matcher
-│   │   └── clustering/             # Builds entity clusters from confirmed matches
-│   ├── data_fusion/                # Cluster-level attribute fusion + fusion statistics
-│   └── utils/                      # CSV loading, normalization, shared helpers
+│   │   ├── blocking/                   # Canopy clustering (TF-IDF + cosine similarity blocking)
+│   │   ├── record_matching/            # Classic weighted-similarity matcher and LLM matcher
+│   │   └── clustering/                 # Builds entity clusters from confirmed matches
+│   ├── data_fusion/                    # Cluster-level attribute fusion + fusion statistics
+│   └── utils/                          # CSV loading, normalization, shared helpers
 ├── analysis/
-│   ├── analysis.py                 # Exploratory data analysis of the raw datasets
-│   ├── evaluation_record_linkage.py   # Precision/recall/F1 vs. ground truth
-│   ├── evaluation_schema_alignment.py # Schema alignment evaluation vs. ground truth
-│   └── ground_truth/               # Labeled candidate sets and gold-standard schema mapping
-└── results/                        # All pipeline outputs (see "Outputs" below)
+│   ├── analysis.py                     # Exploratory data analysis of the raw datasets
+│   ├── evaluation_record_linkage.py    # Precision/recall/F1 vs. ground truth
+│   ├── evaluation_schema_alignment.py  # Schema alignment evaluation vs. ground truth
+│   ├── fusion_stats.py                 # Computes statistics on fused entity source combinations 
+│   └── ground_truth/                   # Labeled candidate sets and gold-standard schema mapping
+└── results/                            # All pipeline outputs (see "Outputs" below)
     ├── schema_alignment/{classic,llm}/
     ├── record_linkage/{classic,llm}/
     └── data_fusion/{classic,llm}/
