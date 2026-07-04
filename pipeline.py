@@ -17,7 +17,7 @@ BASE_DIR = Path(__file__).resolve().parent
 # =====================================================
 
 # Execution mode: "classic", "llm" or "both"
-PIPELINE_MODE = "classic"
+PIPELINE_MODE = "llm"
 
 
 # Input datasets
@@ -41,7 +41,7 @@ STEPS = {
         "clustering": False
     },
 
-    "data_fusion": True
+    "data_fusion": False
 }
 
 # Temperature for LLM schema alignment
@@ -257,7 +257,10 @@ for pipeline in PIPELINES:
 # DATA FUSION
 ################################################################################################################################################################################################################################################################################
 
-    fusion_dir = BASE_DIR / "data_fusion" / pipeline
+    if pipeline == "llm":
+        fusion_dir = BASE_DIR / "data_fusion" / pipeline / model_dir
+    else:
+        fusion_dir = BASE_DIR / "data_fusion" / pipeline
 
     if STEPS["data_fusion"]:
 
@@ -306,9 +309,9 @@ for pipeline in PIPELINES:
     # identifica source dal prefisso
     singletons["source"] = singletons["Id"].str[0].str.upper()
     singletons["source_id"] = singletons["Id"].str[1:].astype(int)
-
-    for col in ["A_Ids", "B_Ids", "C_Ids", "D_Ids"]:
-        singletons[col] = None
+    
+    for source in SOURCES.keys():
+        singletons[f"{source.upper()}_Ids"] = None
 
     for i, row in singletons.iterrows():
         col = f"{row['source']}_Ids"
@@ -327,8 +330,15 @@ for pipeline in PIPELINES:
     # MERGE FINALE
     # -----------------------------
     final_df = pd.concat([fused_df, singletons], ignore_index=True)
+    
+    if pipeline == "llm":
+        final_dataset_dir = BASE_DIR / "final_dataset" / pipeline / model_dir 
+    else:
+        final_dataset_dir = BASE_DIR / "final_dataset" / pipeline
 
-    final_path = fusion_dir / "final_entities.csv"
+    final_dataset_dir.mkdir(parents=True, exist_ok=True)
+        
+    final_path = final_dataset_dir /  "final_entities.csv"
     final_df.to_csv(final_path, index=False)
 
     print(f"Final dataset successfully generated: {final_path}")
