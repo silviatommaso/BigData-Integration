@@ -80,10 +80,10 @@ def classify_error(msg: str):
 def get_client():
 
     load_dotenv()
-    api_key=os.getenv("GROQ_API_KEY")
+    api_key=os.getenv("API_KEY")
 
     if not api_key:
-        raise ValueError("GROQ_API_KEY is not set")
+        raise ValueError("API_KEY is not set")
 
     return Groq(api_key=api_key)
 
