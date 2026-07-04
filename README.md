@@ -80,11 +80,6 @@ movies5_cleaned/roger_ebert_cleaned.csv
    ```
    API_KEY = "your_api_key_here"
    ```
-4. Change git remote url to avoid accidental pushes to base project
-   ```
-   git remote set-url origin https://github.com/silviatommaso/BigData-Integration.git
-   git remote -v # confirm the changes
-   ```
 
 ---
 
