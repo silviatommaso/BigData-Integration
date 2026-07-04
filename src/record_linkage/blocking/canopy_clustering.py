@@ -6,6 +6,8 @@ import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
+from config import canopy_params
+
 
 # ======================
 # TEXT PREPROCESSING
@@ -60,7 +62,7 @@ def build_tfidf_matrices(df, columns, tfidf_params=None):
 # CANOPY CLUSTER
 # ======================
 
-def canopy_cluster(merged_df, cluster_path, canopy_params):
+def canopy_cluster(merged_df, cluster_path):
 
     start_time = time.time()
     df = merged_df.copy()

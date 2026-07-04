@@ -6,9 +6,12 @@ import os
 import time
 import hashlib
 
+from config import matching_attributes
 from .record_matching import match_records
 
+
 WAITING_TIME = 0.5 # time to wait between each LLM request
+
 
 def generate_request_id(id1,id2,score):
 
@@ -223,7 +226,7 @@ def llm_record_matching(
     canopy_df,
     matches_output,
     llm_requests_output,
-    attributes,
+    attributes=matching_attributes,
     canopy_id_position=1,
     llm_threshold=0.65,
     auto_threshold=0.75,

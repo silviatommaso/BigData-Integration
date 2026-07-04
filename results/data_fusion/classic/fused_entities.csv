@@ -1377,7 +1377,7 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 846,790,,2822,Valkyrie,Bryan Singer,2008,"Bill Nighy, Carice van Houten, Eddie Izzard, Kenneth Branagh, Terence Stamp, Thomas Kretschmann, Tom Cruise, Tom Wilkinson","Drama, History, Thriller, War",121
 907,2773,,2599,disney's a christmas carol,Robert Zemeckis,2009,"Bob Hoskins, Cary Elwes, Colin Firth, Fionnula Flanagan, Gary Oldman, Jim Carrey, Robin Wright Penn","Animation, Drama, Family, Fantasy, Science Fiction",96
 ,2874,,504,the runner,Austin Stark,2015,"Bryan Batt, Connie Nielsen, Fredric Lehne, Nicolas Cage, Peter Fonda, Sarah Paulson, Wendell Pierce",Drama,90
-229,226,,1810,Robot & Frank,Jake Schreier,2012,"Frank Langella, James Marsden, Jeremy Strong, Liv Tyler, Peter Sarsgaard, Susan Sarandon","Comedy, Crime, Drama, Sci-Fi",85
+229,226,,1810,Robot & Frank,Jake Schreier,2012,"Frank Langella, James Marsden, Jeremy Sisto, Liv Tyler, Peter Sarsgaard, Susan Sarandon","Comedy, Crime, Drama, Sci-Fi",85
 2451,2236,,32,The Heartbreak Kid,"Bobby, Peter Farrelly",2007,"Ben Stiller, Carlos Mencia, Kathy Lamkin, Malin Akerman, Michelle Monaghan, Rob Corddry","Comedy, Romance",116
 2682,2452,,1717,The Call,Brad Anderson,2013,"Abigail Breslin, David Otunga, Evie Thompson, Halle Berry, Michael Eklund, Michael Imperioli, Morris Chestnut, Roma Maffia","Crime, Thriller",94
 957,891,,2834,Hotel for Dogs,Thor Freudenthal,2009,"Don Cheadle, Emma Roberts, Jake T. Austin, Johnny Simmons, Kevin Dillon, Kyla Pratt, Lisa Kudrow","Comedy, Family",100
@@ -1722,7 +1722,7 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 1451,1261,,,Glitter,Vondie Curtis-Hall,2001,"Eric Benét, Mariah Carey, Max Beesley","Drama, Music, Romance",104
 1205,1035,,,Cast Away,Robert Zemeckis,2000,"Helen Hunt, Paul Sanchez, Tom Hanks","Adventure, Drama",143
 2298,2028,,,One Night with the King,Michael O. Sajbel,2006,"John Noble, Luke Goss, Tiffany Dupont","Biography, Drama, History",123
-,3035,3439,,One Tough Cop,Bruno Barreto,1998,"Chris Penn, Gina Gershon, Michael McGlone, Stephen Baldwin","Action, Crime, Drama",90
+,3035,3439,,One Tough Cop,Bruno Barreto,1998,"Chris Penn, Gina Gershon, Mike McGlone, Stephen Baldwin","Action, Crime, Drama",90
 1450,1260,,,The Glass House,Daniel Sackheim,2001,"Diane Lane, Leelee Sobieski, Stellan Skarsgård",Thriller,106
 1793,1571,2635,,Wake of Death,Philippe Martinez,2005,"Jean-Claude Van Damme, Philip Tan, Simon Yam","Action, Drama",91
 1198,1030,,,Boiler Room,Ben Younger,2000,"Giovanni Ribisi, Nia Long, Vin Diesel","Crime, Drama, Thriller",120
@@ -2179,7 +2179,7 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 2466,,,3066,I'm Not There.,Todd Haynes,2007,"Ben Whishaw, Cate Blanchett, Charlotte Gainsbourg, Christian Bale, Heath Ledger, Julianne Moore, Marcus Carl Franklin, Richard Gere","Biography, Drama, Music",135
 1118,2164,,,Blades of Glory,Josh Gordon,2007,"Amy Poehler, Jon Heder, Will Ferrell","Comedy, Sport",93
 ,,1638;1624,,Rakhta Charitra 2,Ram Gopal Varma,2010,"Shatrughan Sinha, Sudeep, Suriya, Vivek Oberoi","Action, Biography, Crime, Drama",135
-462,,,2558,Valentine's Day,Garry Marshall,2010,"Anne Hathaway, Ashton Kutcher, Bradley Cooper, Eric Dane, George Lopez, Jamie Foxx, Jennifer Garner, Jessica Alba, Julia Roberts, Patrick Dempsey, Queen Latifah, Shirley MacLaine, Taylor Lautner, Taylor Swift, Topher Grace","Comedy, Romance",125
+462,,,2558,Valentine's Day,Garry Marshall,2010,"Anne Hathaway, Ashton Kutcher, Bradley Cooper, Eric Dane, George Lopez, Jamie Foxx, Jennifer Garner, Jessica Biel, Julia Roberts, Patrick Dempsey, Queen Latifah, Shirley MacLaine, Taylor Lautner, Taylor Swift, Topher Grace","Comedy, Romance",125
 ,,292,1078,the expendables 3,Patrick Hughes,2014,"Antonio Banderas, Arnold Schwarzenegger, Dolph Lundgren, Glen Powell, Harrison Ford, Jason Statham, Jet Li, Kellan Lutz, Kelsey Grammer, Mel Gibson, Randy Couture, Robert Davi, Ronda Rousey, Sylvester Stallone, Terry Crews, Victor Ortiz, Wesley Snipes","Action, Adventure, Thriller",126
 1067,990,,2842,The Uninvited,"Charles Guard, Thomas Guard",2009,"Arielle Kebbel, David Strathairn, Elizabeth Banks, Emily Browning, Maya Massar","Drama, Horror, Mystery, Thriller",87
 ,,639,1462,man of tai chi,Keanu Reeves,2013,"Iko Uwais, Jeremy Marinas, Karen Mok Man-Wai, Keanu Reeves, Michael Chan, Qing Ye, Sam Lee, Steven Dasz, Tiger Hu Chen, Yu Hai",Action,105
@@ -2349,7 +2349,7 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 73,73,,,Call Me Kuchu,Katherine Fairfax Wright,2013,"Christopher Senyonjo, David Kato","Documentary, Drama",87
 1563,1362,,,Super Troopers,Jay Chandrasekhar,2002,"André Vippolis, Jay Chandrasekhar, Kevin Heffernan","Comedy, Crime, Mystery",100
 1969,1735,,,Roll Bounce,Malcolm D. Lee,2005,"Meagan Good, Nick Cannon, Shad Moss","Comedy, Drama, Music, Romance",112
-,68,,2020,bully,Lee Hirsch,2012,"Bob Johnson, Ja'Meya Jackson","Documentary, Drama",92
+,68,,2020,bully,Lee Hirsch,2012,"Ja'Meya Jackson, Kelby Johnson, Londa Johnson","Documentary, Drama",92
 633,595,,,The Smurfs,Raja Gosnell,2011,"Hank Azaria, Jonathan Winters, Katy Perry","Adventure, Animation, Comedy, Family, Fantasy",103
 2075,1830,,,Blood Tea and Red String,Christiane Cegavske,2006,,"Animation, Fantasy",71
 ,217,,1934,the queen of versailles,Lauren Greenfield,2012,"David Siegel, Jackie Siegel, Virginia Nebel",Documentary,100

@@ -41,61 +41,12 @@ STEPS = {
         "clustering": False
     },
 
-    "data_fusion": False
+    "data_fusion": True
 }
 
 # Temperature for LLM schema alignment
 SCHEMA_TEMPERATURE = 0
 
-# Parameters for canopy clustering (blocking phase)
-# If a TF-IDF parameter is not defined, default values are used:
-# analyzer="char_wb", ngram_range=(2,3), min_df=2.
-canopy_params = {
-
-    "columns": [
-        "Title",
-        "Director"
-    ],
-
-    "thresholds": {
-        "Title": (0.40, 0.70),
-        "Director": (0.40, 0.65)
-    },
-
-    "tfidf": {
-        "Title": {
-            "analyzer": "char_wb",
-            "ngram_range": (2,3),
-            "min_df": 2
-        },
-        "Director": {
-            "analyzer": "char_wb",
-            "ngram_range": (2,3),
-            "min_df": 2
-        }
-    }
-}
-
-
-# Attribute weights and similarity functions used for record matching
-matching_attributes = {
-    "Title": {
-        "weight": 0.50,
-        "similarity": "text",
-    },
-    "Director": {
-        "weight": 0.15,
-        "similarity": "hybrid",
-    },
-    "Year": {
-        "weight": 0.25,
-        "similarity": "year",
-    },
-    "Cast": {
-        "weight": 0.10,
-        "similarity": "jaccard",
-    }
-}
 
 # LLM configuration for record matching
 LLM_MODEL = "openai/gpt-oss-120b"
@@ -119,16 +70,6 @@ SOURCES = {
         "name": "roger_ebert",
         "weight": 1.0
     }
-}
-
-# Fusion strategy adopted for each attribute
-fusion_attributes = {
-    "Title": "atomic",
-    "Director": "multi",
-    "Year": "atomic",
-    "Cast": "multi",
-    "Genre": "multi",
-    "Duration": "atomic"
 }
 
 
@@ -238,11 +179,7 @@ for pipeline in PIPELINES:
     
     if STEPS["record_linkage"]["blocking"]:
         canopy_path.parent.mkdir(parents=True, exist_ok=True)
-        canopy_cluster(
-            merged_df,
-            canopy_path,
-            canopy_params
-        )
+        canopy_cluster(merged_df, canopy_path)
 
 
     utils.path_check(
@@ -269,7 +206,6 @@ for pipeline in PIPELINES:
             matches = match_records(
                 canopy_df,
                 matches_path,
-                matching_attributes,
                 threshold=0.75
             )
 
@@ -279,7 +215,6 @@ for pipeline in PIPELINES:
                 canopy_df,
                 matches_path,
                 linkage_dir / "llm_requests.csv",
-                matching_attributes,
                 llm_threshold=0.65,
                 auto_threshold=0.75,
                 model=LLM_MODEL,
@@ -342,7 +277,6 @@ for pipeline in PIPELINES:
         fused = [
             fuse_cluster(
                 group,
-                fusion_attributes,
                 SOURCES
             )
             for _, group in entities.groupby("entity_id")

@@ -2,6 +2,7 @@ import pandas as pd
 from itertools import combinations
 from rapidfuzz.fuzz import ratio
 
+from config import matching_attributes
 
 
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -116,7 +117,7 @@ SIMILARITY_FUNCTIONS = {
     "hybrid": hybrid_similarity
 }
 
-def record_similarity(r1, r2, attributes):
+def record_similarity(r1, r2, attributes=matching_attributes):
 
     score = 0
     similarities = {}
@@ -141,7 +142,7 @@ def record_similarity(r1, r2, attributes):
 ########################################################################################################################################################################################################################
 
 
-def match_records(canopy_df, matched_path, attributes, canopy_id_position = 1, threshold=0.75, save = True):
+def match_records(canopy_df, matched_path, attributes=matching_attributes, canopy_id_position = 1, threshold=0.75, save = True):
 
     id_column = canopy_df.columns[canopy_id_position]
     assert canopy_df[id_column].notna().all(), "canopy_df contains rows with missing ID"
@@ -174,7 +175,7 @@ def match_records(canopy_df, matched_path, attributes, canopy_id_position = 1, t
         r1=records[a]
         r2=records[b]
 
-        score, similarities = record_similarity(r1,r2, attributes)
+        score, similarities = record_similarity(r1,r2)
 
         if score>=threshold:
 
@@ -188,10 +189,7 @@ def match_records(canopy_df, matched_path, attributes, canopy_id_position = 1, t
 
             matches.append(match)
 
-    similarity_columns = [
-        f"{column.lower()}_similarity"
-        for column in attributes
-    ]
+    similarity_columns = [f"{column.lower()}_similarity" for column in attributes]
     # matches with score
     if matches:
         matches = pd.DataFrame(matches)

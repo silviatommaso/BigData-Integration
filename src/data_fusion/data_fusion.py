@@ -3,6 +3,7 @@ import re
 from collections import defaultdict
 from difflib import SequenceMatcher
 
+from config import fusion_attributes
 
 
 
@@ -164,7 +165,7 @@ def confidence_fusion(list_values, sources, weights, threshold_ratio=0.3):
 # ----------------------------
 # main
 # ----------------------------
-def fuse_cluster(df, attributes, sources_config, id_position=1, output_path=None):
+def fuse_cluster(df, sources_config, id_position=1, output_path=None):
 
     id_column = df.columns[id_position]
 
@@ -203,7 +204,7 @@ def fuse_cluster(df, attributes, sources_config, id_position=1, output_path=None
     # ATTRIBUTES GENERICI
     # ----------------------------
 
-    for column, field_type in attributes.items():
+    for column, field_type in fusion_attributes.items():
 
 
         if column not in df.columns:
