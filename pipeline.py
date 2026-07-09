@@ -17,7 +17,7 @@ BASE_DIR = Path(__file__).resolve().parent
 # =====================================================
 
 # Execution mode: "classic", "llm" or "both"
-PIPELINE_MODE = "llm"
+PIPELINE_MODE = "classic"
 
 
 # Input datasets
@@ -37,7 +37,7 @@ STEPS = {
 
     "record_linkage": {
         "blocking": False,
-        "matching": True,
+        "matching": False,
         "clustering": True
     },
 
@@ -49,7 +49,7 @@ SCHEMA_TEMPERATURE = 0
 
 
 # LLM configuration for record matching
-LLM_MODEL = "llama-3.3-70b-versatile"
+LLM_MODEL = "openai/gpt-oss-120b"
 MATCHING_TEMPERATURE = 0
 
 # Source names and reliability weights used during data fusion

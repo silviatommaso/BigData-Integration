@@ -33,10 +33,11 @@ def save_clusters(clusters, merged_df, id_column, path):
             if df[column].dropna().apply(float.is_integer).all():
 
                 df[column] = df[column].astype("Int64")
-    pd.DataFrame(rows).to_csv(
+    df.to_csv(
         path,
         index=False
     )
+
 
     print("Clusters saved:", len(clusters))
     print("Entity found:", len(clusters))

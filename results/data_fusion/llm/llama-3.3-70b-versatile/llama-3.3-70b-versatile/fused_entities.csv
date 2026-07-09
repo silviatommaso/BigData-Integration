@@ -108,7 +108,7 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 2925,2672,,1434,Some Velvet Morning,Neil LaBute,2013,"Alice Eve, Stanley Tucci",Drama,82
 2003,2082,2281,,Snakes on a Plane,David R. Ellis,2006,"Julianna Margulies, Nathan Phillips, Samuel L. Jackson","Action, Thriller",105
 651,611,1166,2191,Tower Heist,Brett Ratner,2011,"Alan Alda, Ben Stiller, Casey Affleck, Eddie Murphy, Gabourey Sidibe, Judd Hirsch, Matthew, Michael Pena, Tea Leoni","Action, Comedy, Crime",104
-2233,,,92,Jonestown: The Life and Death of Peoples Temple,Stanley Nelson,2006,"Janet Shular, Rebecca Moore, Tim Carter","Documentary, History",86
+2233,,,92,jonestown: the life and death of peoples temple,Stanley Nelson,2006,"Janet Shular, Rebecca Moore, Tim Carter","Documentary, History",86
 357,343,,2527,Hubble 3D,Toni Myers,2010,"K. Megan McArthur, Leonardo DiCaprio, Scott D. Altman","Documentary, Short",44
 551,518,1177,,Hanna,Joe Wright,2011,"Cate Blanchett, Eric Bana, Saoirse Ronan","Action, Adventure, Thriller",111
 511,483,1170,2259,Conan the Barbarian,Marcus Nispel,2011,"Jason Momoa, Leo Howard, Rachel Nichols, Ron Perlman, Rose McGowan, Stephen Lang","Action, Adventure, Fantasy, Science Fiction, Thriller",113
@@ -146,10 +146,10 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 1578,,,2816,waking life,Richard Linklater,2001,"Ethan Hawke, Lorelei Linklater, Trevor Jack Brooks","Animation, Drama, Fantasy, Indie",99
 2264,2001,2283,,The Marine,John Bonito,2006,"John Cena, Kelly Carlson, Robert Patrick","Action, Drama, Thriller",92
 450,428,1466,,Takers,John Luessenhop,2010,"Chris Brown, Hayden Christensen, Matt Dillon","Action, Crime, Thriller",107
-1915,1686,2437,268;3459,king kong,Peter Jackson,2005,"Adrien Brody, Andy Serkis, Colin Hanks, Evan Parke, Jack Black, Naomi Watts, Thomas Kretschmann","Action, Adventure, Drama, Horror, Thriller",187
+1915,1686,2437,3459;268,king kong,Peter Jackson,2005,"Adrien Brody, Andy Serkis, Colin Hanks, Evan Parke, Jack Black, Naomi Watts, Thomas Kretschmann","Action, Adventure, Drama, Horror, Thriller",187
 2454,2238,2104,,The Hitcher,Dave Meyers,2007,"Sean Bean, Sophia Bush, Zachary Knighton","Action, Crime, Thriller",84
 2803,2561,647,,Java Heat,Conor Allyn,2013,"Kellan Lutz, Mickey Rourke, Verdi Solaiman","Action, Crime, Drama, Thriller",104
-2485;2122,1872;2265,,3168,Lake of Fire,"Jay Anania, Tony Kaye",2007,"Bill Baird, Carmen Chaplin, Flip Benham, Martin Donovan, Noam Chomsky, Richard Bright","Documentary, Drama",152
+2122;2485,2265;1872,,3168,Lake of Fire,"Jay Anania, Tony Kaye",2007,"Bill Baird, Carmen Chaplin, Flip Benham, Martin Donovan, Noam Chomsky, Richard Bright","Documentary, Drama",152
 1330,1152,3176,,Shaft,John Singleton,2000,"Christian Bale, Samuel L. Jackson, Vanessa Williams","Action, Crime, Thriller",99
 2896,2644,614,1620,RED 2,Dean Parisot,2013,"Anthony Hopkins, Bruce Willis, Catherine Zeta-Jones, David Thewlis, Helen Mirren, John Malkovich, Mary-Louise Parker","Action, Comedy, Crime, Thriller",116
 2869,2618,4584,,The Package,Andrew Davis,1989,"Gene Hackman, Joanna Cassidy, Tommy Lee Jones","Action, Crime, Drama, Thriller",108
@@ -235,7 +235,7 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 2813,2569,586,,Killing Season,Mark Steven Johnson,2013,"John Travolta, Milo Ventimiglia, Robert De Niro","Action, Drama, Thriller",91
 2569,2343,2120,3159,Shoot 'Em Up,Michael Davis,2007,"Clive Owen, Daniel Pilon, Greg Bryk, Monica Bellucci, Paul Giamatti","Action, Adventure, Comedy, Crime, Thriller",86
 547,514,1176,2339,The Green Hornet,Michel Gondry,2011,"Cameron Diaz, Christoph Waltz, David Harbour, Edward James Olmos, Jay Chou, Seth Rogen, Tom Wilkinson","Action, Comedy, Crime, Sci-Fi, Thriller",119
-1072,995,,2667,We Live in Public,Ondi Timoner,2009,"Carlos Alvarez, Tom Harris",Documentary,91
+1072,995,,2667,We Live in Public,Ondi Timoner,2009,"Carlos Alvarez, Tom Harris",Documentary,90
 2582,2355,2091,3056,Spider-Man 3,Sam Raimi,2007,"J.K. Simmons, James Cromwell, James Franco, Kirsten Dunst, Thomas Haden Church, Tobey Maguire, Topher Grace, Willem Dafoe","Action, Adventure, Drama, Fantasy, Science Fiction, Thriller",139
 1872,1643,2487,,Flightplan,Robert Schwentke,2005,"Jodie Foster, Peter Sarsgaard, Sean Bean","Action, Drama, Mystery, Thriller",98
 459,,1530,,Twelve,Joel Schumacher,2010,"Chace Crawford, Emma Roberts, Rory Culkin","Action, Crime, Drama, Thriller",93
@@ -250,7 +250,7 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 2609,2380,2198,,We Are the Strange,M. dot Strange,2007,"Chaylon Blancett, David Choe, Stuart Mahoney","Action, Adventure, Animation, Fantasy",88
 2223,,4824,,Innerspace,Joe Dante,1987,"Dennis Quaid, Martin Short, Meg Ryan","Action, Adventure, Comedy, Fantasy, Sci-Fi, Thriller",120
 2651,2420,715,,Assault on Wall Street,Uwe Boll,2013,"Dominic Purcell, Edward Furlong, Erin Karpluk","Action, Drama, Thriller",99
-900,839,,2810,Brothers at War,Jake Rademacher,2009,Joe Rademacher,"Documentary, History, Indie, War",110
+900,839,,2810,Brothers at War,Jake Rademacher,2009,Jake Rademacher,"Documentary, History, Indie, War",110
 1299,1122,3197,,The Patriot,Roland Emmerich,2000,"Heath Ledger, Joely Richardson, Mel Gibson","Action, Drama, History, War",165
 548,,1181,,Green Lantern,Martin Campbell,2011,"Blake Lively, Peter Sarsgaard, Ryan Reynolds","Action, Adventure, Romance, Sci-Fi, Thriller",114
 381,363,,2643,Leap Year,Anand Tucker,2010,"Adam Scott, Amy Adams, John Lithgow, Matthew Goode","Comedy, Romance",100
@@ -272,7 +272,7 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 2377,2093,2317,,Alex Rider: Operation Stormbreaker,Geoffrey Sax,2006,"Alex Pettyfer, Mickey Rourke, Sophie Okonedo","Action, Adventure, Family, Thriller",93
 204,200,938,,One for the Money,Julie Anne Robinson,2012,"Daniel Sunjata, Jason O'Mara, Katherine Heigl","Action, Comedy, Crime, Romance, Thriller",91
 1313,1136,3190,,Reindeer Games,John Frankenheimer,2000,"Ben Affleck, Charlize Theron, Gary Sinise","Action, Crime, Drama, Thriller",104
-216;238,235;211,,1974;1864;1819;1794,The Possession,"Ben Lewin, Juan Antonio Bayona, Ole Bornedal",2012,"Annika Marks, Ewan McGregor, Geraldine Chaplin, Helen Hunt, Jeffrey Dean Morgan, John Hawkes, Kyra Sedgwick, Moon Bloodgood, Naomi Watts, Natasha Calis, Oaklee Pendergast, Tom Holland, William H. Macy","Drama, Horror, Romance, Thriller",92
+216;238,211;235,,1864;1794;1819;1974,The Possession,"Ben Lewin, Juan Antonio Bayona, Ole Bornedal",2012,"Annika Marks, Ewan McGregor, Geraldine Chaplin, Helen Hunt, Jeffrey Dean Morgan, John Hawkes, Kyra Sedgwick, Moon Bloodgood, Naomi Watts, Natasha Calis, Oaklee Pendergast, Tom Holland, William H. Macy","Drama, Horror, Romance, Thriller",92
 2280,2012,,,My Country My Country,Laura Poitras,2006,"Carlos Valenzuela, Dr Riyadh Al-Adhadh, Khris Scarcliff, Peter Towndrow",Documentary,90
 303,295,1428,2511,Clash of the Titans,Louis Leterrier,2010,"Alexa Davalos, Danny Huston, Elizabeth McGovern, Gemma Arterton, Jason Flemyng, Liam Neeson, Pete Postlethwaite, Ralph Fiennes, Sam Worthington","Action, Adventure, Fantasy, Science Fiction",106
 1509,1312,3071,,The Musketeer,Peter Hyams,2001,"Catherine Deneuve, Justin Chambers, Mena Suvari","Action, Adventure, Romance",104
@@ -345,7 +345,7 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 17,19,901,1976,The Amazing Spider-Man,Marc Webb,2012,"Andrew Garfield, Denis Leary, Emma Stone, Martin Sheen, Rhys Ifans, Sally Field","Action, Adventure, Fantasy, Thriller",136
 ,2365,,576,sunshine superman,Marah Strauch,2015,"Cecilie Bull, Christian Bruno, Jake Suffian, Marah Strauch",Documentary,100
 2455,,2119,3071,Hitman,Xavier Gens,2007,"Dougray Scott, Olga Kurylenko, Robert Knepper, Timothy Olyphant, Ulrich Thomsen","Action, Adventure, Crime, Drama, Thriller",100
-348,,,2300,gulliver's travels,Rob Letterman,2010,"Emily Blunt, Jack Black, Jason Segel","Adventure, Comedy, Family, Fantasy",85
+348,,,2300,Gulliver's Travels,Rob Letterman,2010,"Emily Blunt, Jack Black, Jason Segel","Adventure, Comedy, Family, Fantasy",85
 794,738,1959,2987,Pineapple Express,David Gordon Green,2008,"Amber Heard, Bill Hader, Ed Begley Jr., Gary Cole, James Franco, James Remar, Nora Dunn, Rosie Perez, Seth Rogen","Action, Comedy, Crime",111
 2358,,2924,,Shottas,Cess Silvera,2002,"Ky-Mani Marley, Louie Rankin, Spragga Benz","Action, Crime, Drama",95
 2709,2476,648,,Dead Man Down,Niels Arden Oplev,2013,"Colin Farrell, Dominic Cooper, Noomi Rapace","Action, Crime, Drama, Thriller",118
@@ -513,7 +513,7 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 2959,2705,,1767,Warm Bodies,Jonathan Levine,2013,"Analeigh Tipton, John Malkovich, Nicholas Hoult, Rob Corddry, Teresa Palmer","Comedy, Drama, Horror, Romance",97
 2404,2115,2509,171,V for Vendetta,James McTeigue,2006,"Hugo Weaving, John Hurt, Natalie Portman, Rupert Graves, Stephen Fry, Stephen Rea","Action, Drama, Science Fiction, Thriller",132
 147,144,,1847,Frankenweenie,Tim Burton,2012,"Catherine O'Hara, Charlie Tahan, Martin Landau, Martin Short, Winona Ryder","Animation, Comedy, Family, Horror, Sci-Fi",87
-349,337,,2563,Happy Tears,Mitchell Lichtenstein,2010,"Christian Camargo, Demi Moore, Ellen Barkin, Parker Posey, Rip Torn","Comedy, Drama, Indie",92
+349,337,,2563,Happy Tears,Mitchell Lichtenstein,2010,"Christian Camargo, Demi Moore, Ellen Barkin, Parker Posey, Rip Torn","Comedy, Drama, Indie",95
 2500,2279,,3077,Married Life,Ira Sachs,2008,"Chris Cooper, David Wenham, Patricia Clarkson, Pierce Brosnan, Rachel McAdams","Comedy, Crime, Drama, Romance",90
 144,140,,555,The Forger,Philip Martin,2015,"Abigail Spencer, Christopher Plummer, Jennifer Ehle, John Travolta, Tye Sheridan","Crime, Drama, Thriller",92
 100,100,,2021,Damsels in Distress,Whit Stillman,2012,"Adam Brody, Analeigh Tipton, Carrie MacLemore, Greta Gerwig, Megalyn Echikunwoke","Comedy, Drama, Romance",99
@@ -521,13 +521,13 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 188,187,,2028,The Lucky One,Scott Hicks,2012,"Blythe Danner, Jay R. Ferguson, Riley Thomas Stewart, Taylor Schilling, Zac Efron","Drama, Romance",101
 ,563,,2137,the muppets,James Bobin,2011,"Amy Adams, Chris Cooper, Jason Segel, Rashida Jones, Zach Galifianakis","Comedy, Family, Musical",103
 571,536,,2102,J. Edgar,Clint Eastwood,2011,"Armie Hammer, Josh Lucas, Judi Dench, Leonardo DiCaprio, Naomi Watts","Biography, Crime, Drama, History",137
-241,237,,2060,Silent House,"Chris Kentis, Laura Lau",2012,"Adam Barnett, Adam Trese, Elizabeth Olsen, Eric Sheffer Stevens, Julia Taylor Ross","Horror, Mystery, Thriller",85
+241,237,,2060,Silent House,"Chris Kentis, Laura Lau",2012,"Adam Barnett, Adam Trese, Elizabeth Olsen, Eric Sheffer Stevens, Julia Taylor Ross","Horror, Mystery, Thriller",86
 729,681,,2931,Frozen River,Courtney Hunt,2008,"Charlie McDermott, James Reilly, Melissa Leo, Michael O'Keefe, Misty Upham","Crime, Drama, Thriller",97
 ,2694,,366,turbo kid,"Anouk Whissell, François Simard, Yoann-Karl Whissell",2015,"Aaron Jeffery, Edwin Wright, Laurence Leboeuf, Michael Ironside, Munro Chambers","Action, Adventure, Comedy, Horror, Science Fiction",93
 ,659,1992,2832,defiance,Edward Zwick,2009,"Alexa Davalos, Allan Corduner, Daniel Craig, Jamie Bell, Liev Schreiber","Action, Drama, History, War",137
 985,916,,2670,Law Abiding Citizen,F. Gary Gray,2009,"Bruce McGill, Colm Meaney, Gerard Butler, Jamie Foxx, Leslie Bibb, Viola Davis","Crime, Drama, Thriller",109
 223,219,,2034,The Raven,James McTeigue,2012,"Alice Eve, Brendan Gleeson, John Cusack, Kevin McNally, Luke Evans","Crime, Mystery, Thriller",110
-863,,,2968,The X Files: I Want to Believe,Chris Carter,2008,"Billy Connolly, David Duchovny, Gillian Anderson","Action, Adventure, Drama, Mystery, Sci-Fi, Science Fiction, Thriller",104
+863,,,2968,the x-files: i want to believe,Chris Carter,2008,"Billy Connolly, David Duchovny, Gillian Anderson","Action, Adventure, Drama, Mystery, Sci-Fi, Science Fiction, Thriller",104
 341,330,,2469,Get Low,Aaron Schneider,2010,"Bill Murray, Gerald McRaney, Lucas Black, Robert Duvall, Sissy Spacek","Comedy, Drama, Indie, Mystery",103
 373,356,,2425,The Kids Are All Right,Lisa Cholodenko,2010,"Annette Bening, Josh Hutcherson, Julianne Moore, Mark Ruffalo, Mia Wasikowska","Comedy, Drama, Indie",106
 1506,1309,,1889,Mulholland Drive,David Lynch,2001,"Ann Miller Vincenzo, Dan Hedaya, Justin Theroux, Laura Harring, Naomi Watts, Rita Taggart","Drama, Mystery, Romance, Thriller",147
@@ -598,7 +598,7 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 1801,1578,,,Win a Date with Tad Hamilton!,Robert Luketic,2004,"Josh Duhamel, Kate Bosworth, Topher Grace","Comedy, Romance",95
 1359,1178,,,Up at the Villa,Philip Haas,2000,"Anne Bancroft, Kristin Scott Thomas, Sean Penn","Drama, Romance",115
 2822,2578,,1004,The Last of Robin Hood,"Richard Glatzer, Wash Westmoreland",2014,"Dakota Fanning, John Hudson Messerall, Kevin Kline, Susan Sarandon","Biography, Drama, Romance",94
-,,3768;3703;3705,,Young and Dangerous 2,Wai-Keung Lau,1996,"Chingmy Yau, Ekin Cheng, Gigi Lai, Jordan Chan","Action, Crime, Drama",101
+,,3703;3768;3705,,Young and Dangerous 3,Wai-Keung Lau,1996,"Chingmy Yau, Ekin Cheng, Gigi Lai, Jordan Chan","Action, Crime, Drama",98
 593,558,,,Midnight in Paris,Woody Allen,2011,"Kathy Bates, Owen Wilson, Rachel McAdams","Comedy, Fantasy, Romance",94
 1753,1533,,,Shall We Dance,Peter Chelsom,2004,"Jennifer Lopez, Richard Gere, Susan Sarandon","Comedy, Drama, Romance",106
 1246,1074,,,Hanging Up,Diane Keaton,2000,"Diane Keaton, Lisa Kudrow, Meg Ryan","Comedy, Drama",94
@@ -627,7 +627,7 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 2128,1877,,151,The Departed,Martin Scorsese,2006,"Alec Baldwin, Anthony Anderson, Jack Nicholson, Leonardo DiCaprio, Mark Wahlberg, Martin Sheen, Matt Damon, Ray Winstone, Vera Farmiga","Action, Crime, Drama, Thriller",151
 739,690,,3026,The Happening,M. Night Shyamalan,2008,"Ashlyn Sanchez, Betty Buckley, John Leguizamo, Mark Wahlberg, Spencer Breslin, Zooey Deschanel","Action, Drama, Mystery, Sci-Fi, Science Fiction, Thriller",91
 2088,1844,,,Catch a Fire,Phillip Noyce,2006,"Bonnie Henna, Derek Luke, Tim Robbins","Biography, Drama, History",101
-2387,2099,,,Tenacious D in The Pick of Destiny,Liam Lynch,2006,"JR Reed, Jack Black, Kyle Gass","Adventure, Comedy, Musical",93
+2387,2099,,,Tenacious D in The Pick of Destiny,Liam Lynch,2006,"JR Reed, Jack Black, Kyle Gass","Adventure, Comedy, Music",93
 2911,2658,,,Scary Movie 5,Malcolm D. Lee,2013,"Ashley Tisdale, Charlie Sheen, Simon Rex",Comedy,86
 789,734,,3073,The Other Boleyn Girl,Justin Chadwick,2008,"Eric Bana, Jim Sturgess, Kristin Scott Thomas, Mark Rylance, Natalie Portman, Scarlett Johansson","Biography, Drama, Foreign, History, Romance",115
 273,268,,1838,Won't Back Down,Daniel Barnz,2012,"Bill Nunn, Holly Hunter, Maggie Gyllenhaal, Oscar Isaac, Rosie Perez, Viola Davis",Drama,121
@@ -679,7 +679,7 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 2968,2712,,1340,The Wolf of Wall Street,Martin Scorsese,2013,"Cristin Milioti, Ethan Suplee, Jean Dujardin, Jon Bernthal, Jon Favreau, Jonah Hill, Kyle Chandler, Leonardo DiCaprio, Margot Robbie, Matthew McConaughey, Rob Reiner, Spike Jonze","Biography, Comedy, Crime, Drama",179
 2477,2259,,,Killing Zelda Sparks,Jeff Glickman,2007,"Geoffrey Arend, Sarah Carter, Vincent Kartheiser","Comedy, Drama",95
 50,52,,1958,Bernie,Richard Linklater,2012,"Brandon Smith, Jack Black, Matthew McConaughey, Shirley MacLaine","Comedy, Crime, Drama",104
-2852,2603,,1647,Monsters University,Dan Scanlon,2013,"Alfred Molina, Billy Crystal, Charlie Day, Frank Oz, Helen Mirren, Jennifer Tilly, John Goodman, Steve Buscemi","Adventure, Animation, Comedy, Family, Fantasy",110
+2852,2603,,1647,Monsters University,Dan Scanlon,2013,"Alfred Molina, Billy Crystal, Charlie Day, Frank Oz, Helen Mirren, Jennifer Tilly, John Goodman, Steve Buscemi","Adventure, Animation, Comedy, Family, Fantasy",104
 413,395,,,Passion Play,Mitch Glazer,2011,"Bill Murray, Megan Fox, Mickey Rourke","Drama, Fantasy, Romance",94
 2885,2634,,1570,Plush,Catherine Hardwicke,2013,"Cam Gigandet, Christopher Craven, Dawn Olivieri, Emily Browning, Frances Fisher, Kennedy Waite, Kimiko Gelman, Marlene Forte, Thomas Dekker, Xavier Samuel",Thriller,99
 ,2842,3276,,The Mod Squad,Scott Silver,1999,"Claire Danes, Giovanni Ribisi, Josh Brolin, Omar Epps","Action, Crime, Drama, Mystery & Suspense, Thriller",92
@@ -716,11 +716,11 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 2648,2417,,,Arthur Newman,Dante Ariola,2013,"Anne Heche, Colin Firth, Emily Blunt",Drama,101
 101,101,,1981,The Dark Knight Rises,Christopher Nolan,2012,"Anne Hathaway, Christian Bale, Gary Oldman, Joseph Gordon-Levitt, Marion Cotillard, Michael Caine, Morgan Freeman, Tom Hardy","Action, Crime, Drama, Thriller",165
 635,597,,,Something Borrowed,Luke Greenfield,2011,"Colin Egglesfield, Ginnifer Goodwin, Kate Hudson","Comedy, Drama, Romance",112
-943,880,,2802,Gigantic,Matt Aselton,2009,"Clarke Peters, Daniel Stewart Sherman, Ed Asner, Ian Roberts, Jane Alexander, John Goodman, Paul Dano, Robert Stanton, Zooey Deschanel","Comedy, Drama, Foreign, Indie, Romance",98
+943,880,,2802,Gigantic,Matt Aselton,2009,"Clarke Peters, Daniel Stewart Sherman, Ed Asner, Ian Roberts, Jane Alexander, John Goodman, Paul Dano, Robert Stanton, Zooey Deschanel","Comedy, Drama, Foreign, Indie, Romance",88
 1552,1351,,,The Shrink Is In,Richard Benjamin,2001,"Courteney Cox, David Arquette, David James Elliott","Comedy, Romance",92
 2269,2002,,,Material Girls,Martha Coolidge,2006,"Anjelica Huston, Haylie Duff, Hilary Duff","Comedy, Family, Romance",98
 1210,1040,,,Cherry Falls,Geoffrey Wright,2000,"Brittany Murphy, Jay Mohr, Michael Biehn","Comedy, Horror, Mystery, Thriller",92
-996,927,,2595,The Men Who Stare at Goats,Grant Heslov,2009,"Ewan McGregor, George Clooney, Jeff Bridges, Kevin Spacey, Robert Patrick, Stephen Lang, Stephen Root","Action, Adventure, Comedy, Drama, War",93
+996,927,,2595,The Men Who Stare at Goats,Grant Heslov,2009,"Ewan McGregor, George Clooney, Jeff Bridges, Kevin Spacey, Robert Patrick, Stephen Lang, Stephen Root","Action, Adventure, Comedy, Drama, War",94
 ,1017,3217,,Bait,Antoine Fuqua,2000,"David Morse, Doug Hutchison, Jamie Foxx, Robert Pastorelli","Action, Comedy, Crime, Drama, Mystery & Suspense, Thriller",119
 65,66,,,Breaking Wind,Craig Moss,2012,"Eric Callero, Frank Pacheco, Heather Ann Davis",Comedy,82
 2392,2103,,,Trantasia,Jeremy Stanford,2006,"Cassandra Cass, Erica Andrews, Mimi Marks",Documentary,92
@@ -738,7 +738,7 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 1380,1200,,2216,A.I. Artificial Intelligence,Steven Spielberg,2001,"Brendan Gleeson, Frances O'Connor, Haley Joel Osment, Jude Law, Sam Robards, William Hurt","Adventure, Drama, Horror, Sci-Fi, Science Fiction",145
 ,2768,3298,,Deep Blue Sea,Renny Harlin,1999,"LL Cool J, Saffron Burrows, Samuel L. Jackson, Thomas Jane","Action, Drama, Horror, Mystery & Suspense, Sci-Fi, Science Fiction & Fantasy, Thriller",105
 1325,1147,,,Scream 3,Wes Craven,2000,"Courteney Cox, David Arquette, Neve Campbell","Horror, Mystery",116
-892,832,,2652,Big Fan,Robert D. Siegel,2009,"Gino Cafarelli, Jonathan Hamm, Kevin Corrigan, Marcia Jean Kurtz, Matt Servitto, Michael Rapaport, Patton Oswalt","Comedy, Crime, Drama, Sport, Sports Film",91
+892,832,,2652,Big Fan,Robert D. Siegel,2009,"Gino Cafarelli, Jonathan Hamm, Kevin Corrigan, Marcia Jean Kurtz, Matt Servitto, Michael Rapaport, Patton Oswalt","Comedy, Crime, Drama, Sport, Sports Film",88
 1262,1087,,,Keeping the Faith,Edward Norton,2000,"Ben Stiller, Edward Norton, Jenna Elfman","Comedy, Drama, Romance",128
 2749,2512,,1478,Go for Sisters,John Sayles,2013,"Edward James Olmos, Héctor Elizondo, Isaiah Washington, LisaGay Hamilton, Yolonda Ross","Crime, Drama, Thriller",123
 ,2937,5393,,The Blues Brothers,John Landis,1980,"Cab Calloway, Dan Aykroyd, James Brown, John Belushi","Action, Comedy, Crime",133
@@ -861,12 +861,12 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 2265,1998,,,Man About Town,Mike Binder,2006,"Ben Affleck, John Cleese, Rebecca Romijn","Comedy, Drama",96
 717,670,,,The Family That Preys,Tyler Perry,2008,"Alfre Woodard, Kathy Bates, Sanaa Lathan",Drama,111
 231,228,,1907,Ruby Sparks,"Jonathan Dayton, Valerie Faris",2012,"Annette Bening, Antonio Banderas, Chris Messina, Elliott Gould, Paul Dano, Steve Coogan, Zoe Kazan","Comedy, Drama, Fantasy, Romance",104
-2830,2586,,1587,The Lifeguard,Liz W. Garcia,2013,"Alex Shaffer, Amy Madigan, Joshua Harto, Kristen Bell, Mamie Gummer, Martin Starr","Comedy, Drama, Romance",98
+2830,2586,,1587,The Lifeguard,Liz W. Garcia,2013,"Alex Shaffer, Amy Madigan, Joshua Harto, Kristen Bell, Mamie Gummer, Martin Starr","Comedy, Drama, Romance",94
 1771,1549,,,Stateside,Reverge Anselmo,2004,"Agnes Bruckner, Jonathan Tucker, Rachael Leigh Cook","Drama, Music, Romance",97
 2720,2485,,,The English Teacher,Craig Zisk,2013,"Greg Kinnear, Julianne Moore, Michael Angarano","Comedy, Drama",93
 ,3100,3432,,Star Trek: Insurrection,Jonathan Frakes,1998,"Brent Spiner, Jonathan Frakes, Michael Dorn, Patrick Stewart","Action, Adventure, Kids & Family, Sci-Fi, Science Fiction & Fantasy",103
 1787,1565,,,Vanity Fair,Mira Nair,2004,"James Purefoy, Reese Witherspoon, Romola Garai",Drama,141
-2036,1795,,228,American Dreamz,Paul Weitz,2006,"Chris Klein, Dennis Quaid, Hugh Grant, Jennifer Coolidge, Mandy Moore, Marcia Gay Harden, Seth Meyers, Willem Dafoe","Comedy, Drama, Family, Musical",107
+2036,1795,,228,American Dreamz,Paul Weitz,2006,"Chris Klein, Dennis Quaid, Hugh Grant, Jennifer Coolidge, Mandy Moore, Marcia Gay Harden, Seth Meyers, Willem Dafoe","Comedy, Drama, Family, Music",107
 118,117,,,Django Unchained,Quentin Tarantino,2012,"Christoph Waltz, Jamie Foxx, Leonardo DiCaprio",Western,165
 1307,1130,,,Prince of Central Park,John Leekley,2000,"Cathy Moriarty, Danny Aiello, Kathleen Turner","Action, Adventure, Drama",109
 2321,2045,,,The Pursuit of Happyness,Gabriele Muccino,2006,"Jaden Smith, Thandie Newton, Will Smith","Biography, Drama",117
@@ -936,7 +936,7 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 499,474,,2286,The Big Year,David Frankel,2011,"Anjelica Huston, Jack Black, John Cleese, Kevin Pollak, Owen Wilson, Rashida Jones, Steve Martin, Tim Blake Nelson",Comedy,100
 797,740,,2890,Pride and Glory,Gavin O'Connor,2008,"Carmen Ejogo, Colin Farrell, Edward Norton, Jennifer Ehle, John Ortiz, Jon Voight, Noah Emmerich","Crime, Drama, Thriller",130
 1955,1721,,,The Perfect Man,Mark Rosman,2005,"Aria Wallace, Heather Locklear, Hilary Duff","Comedy, Family, Romance",100
-538,506,,2226,friends with benefits,Will Gluck,2011,"Bryan Greenberg, Jenna Elfman, Justin Timberlake, Mila Kunis, Patricia Clarkson, Richard Jenkins, Woody Harrelson","Comedy, Romance",109
+538,506,,2226,Friends with Benefits,Will Gluck,2011,"Bryan Greenberg, Jenna Elfman, Justin Timberlake, Mila Kunis, Patricia Clarkson, Richard Jenkins, Woody Harrelson","Comedy, Romance",109
 2439,2225,,50,Good Luck Chuck,Mark Helfrich,2007,"Dan Fogler, Dane Cook, Ellia English, Jessica Alba, Michelle Harrison, Sasha Pieterse","Comedy, Drama, Fantasy, Romance",101
 1008,938,,2610,The Twilight Saga: New Moon,Chris Weitz,2009,"Anna Kendrick, Aro, Ashley Greene, Billy Burke, Cam Gigandet, Christian Serratos, Justin Chon, Kristen Stewart, Michael Welch, Robert Pattinson, Taylor Lautner","Adventure, Drama, Family, Fantasy, Romance, Science Fiction",130
 2063,1819,,,The Benchwarmers,Dennis Dugan,2006,"David Spade, Jon Heder, Rob Schneider","Comedy, Sport",80
@@ -999,7 +999,7 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 2489,2269,,,License to Wed,Ken Kwapis,2007,"John Krasinski, Mandy Moore, Robin Williams","Comedy, Romance",91
 2553,2327,,,Reign Over Me,Mike Binder,2007,"Adam Sandler, Don Cheadle, Jada Pinkett Smith",Drama,124
 682,637,,3129,Be Kind Rewind,Michel Gondry,2008,"Danny Glover, Jack Black, Melonie Diaz, Mia Farrow, Mos Def, Sigourney Weaver, Yasiin Bey","Comedy, Drama",102
-628,591,,2263,Seven Days in Utopia,Matt Russell,2011,"Deborah Ann Woll, Ezra Proch, Joseph Lyle Taylor, Lucas Black, Madison Burge, Melissa Leo, Robert Bear, Robert Duvall","Drama, Sport",99
+628,591,,2263,seven days in utopia,Matt Russell,2011,"Deborah Ann Woll, Ezra Proch, Joseph Lyle Taylor, Lucas Black, Madison Burge, Melissa Leo, Robert Bear, Robert Duvall","Drama, Sport",99
 637,599,,,Soul Surfer,Sean McNamara,2011,"AnnaSophia Robb, Dennis Quaid, Helen Hunt","Biography, Drama, Sport",106
 1998,1763,,,Two for the Money,D.J. Caruso,2005,"Al Pacino, Matthew McConaughey, Rene Russo","Drama, Sport, Thriller",122
 765,715,,3111,Mad Money,Callie Khouri,2008,"Adam Rothenberg, Christopher McDonald, Diane Keaton, Katie Holmes, Queen Latifah, Ted Danson","Action, Comedy, Crime, Thriller",104
@@ -1009,11 +1009,11 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 816,758,,2881,The Secret Life of Bees,Gina Prince-Bythewood,2008,"Alicia Keys, Dakota Fanning, Jennifer Hudson, Paul Bettany, Queen Latifah, Sophie Okonedo","Adventure, Drama",114
 2486,2266,,42,Lars and the Real Girl,Craig Gillespie,2007,"Emily Mortimer, Kelli Garner, Lauren Ash, Nancy Beatty, Patricia Clarkson, Paul Schneider, Ryan Gosling","Comedy, Drama, Indie, Romance",106
 569,534,,607,Inside Out,Pete Docter,2015,"Amy Poehler, Bill Hader, Kaitlyn Dias, Kyle MacLachlan, Lewis Black, Mindy Kaling, Paris Van Dyke, Phyllis Smith","Adventure, Animation, Comedy, Drama, Family, Fantasy",94
-735,687,,2820,Gran Torino,Clint Eastwood,2009,"Ahney Her, Bee Vang, Brian Haley, Christopher Carley, Clint Eastwood, Dreama Walker, Geraldine Hughes, Scott Eastwood","Action, Drama",116
+735,687,,2820,Gran Torino,Clint Eastwood,2009,"Ahney Her, Bee Vang, Brian Howe, Christopher Carley, Clint Eastwood, Dreama Walker, Geraldine Hughes, Scott Eastwood","Action, Drama",116
 2493,2273,,,The Lookout,Scott Frank,2007,"Jeff Daniels, Joseph Gordon-Levitt, Matthew Goode","Crime, Drama, Thriller",99
 2074,1829,,,Blood Diamond,Edward Zwick,2006,"Djimon Hounsou, Jennifer Connelly, Leonardo DiCaprio","Adventure, Drama, Thriller",143
 1113,2159,,,Because I Said So,Michael Lehmann,2007,"Diane Keaton, Gabriel Macht, Mandy Moore","Comedy, Romance",102
-768,718,,3014,Mamma Mia!,Phyllida Lloyd,2008,"Amanda Seyfried, Christine Baranski, Colin Firth, Dominic Cooper, Julie Walters, Meryl Streep, Pierce Brosnan, Stellan Skarsgard","Comedy, Music, Romance",108
+768,718,,3014,Mamma Mia!,Phyllida Lloyd,2008,"Amanda Seyfried, Christine Baranski, Colin Firth, Dominic Cooper, Julie Walters, Meryl Streep, Pierce Brosnan, Stellan Skarsgard","Comedy, Musical, Romance",108
 1890,1661,,,A History of Violence,David Cronenberg,2005,"Ed Harris, Maria Bello, Viggo Mortensen","Crime, Drama, Thriller",96
 ,3083,3450,,The Siege,Edward Zwick,1998,"Annette Bening, Bruce Willis, Denzel Washington, Tony Shalhoub","Action, Thriller",116
 1428,1243,,,Down to Earth,Chris Weitz,2001,"Chazz Palminteri, Chris Rock, Regina King","Comedy, Fantasy",87
@@ -1049,16 +1049,16 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 2568,2342,,,Shadow Puppets,Michael Winnick,2007,"James Marsters, Marc Winnick, Tony Todd","Horror, Thriller",105
 1566,1365,,,The Tailor of Panama,John Boorman,2001,"Geoffrey Rush, Jamie Lee Curtis, Pierce Brosnan","Drama, Thriller",109
 2058,1816,,184,Basic Instinct 2,Michael Caton-Jones,2006,"Charlotte Rampling, David Morrissey, David Thewlis, Heathcote Williams, Hugh Dancy, Indira Varma, Sharon Stone","Crime, Drama, Horror, Mystery, Romance, Thriller",114
-2787,2545,,1508,i used to be darker,Matthew Porterfield,2013,"Adèle Exarchopoulos, Declan Sammon, Deragh Campbell, Ellis Woodward, Geoff Grace, Hannah Gross, Jack Carneal, Jimi Zhivago, John Belanger, Kim Taylor, Ned Oldham","Drama, Music",90
+2787,2545,,1508,I Used to Be Darker,Matthew Porterfield,2013,"Adèle Exarchopoulos, Declan Sammon, Deragh Campbell, Ellis Woodward, Geoff Grace, Hannah Gross, Jack Carneal, Jimi Zhivago, John Belanger, Kim Taylor, Ned Oldham","Drama, Music",90
 2320,2044,,,Pulse,Jim Sonzero,2006,"Christina Milian, Kristen Bell, Rick Gonzalez","Horror, Sci-Fi",90
-86,,,2086,Chronicle,Josh Trank,2012,"Alex Russell, Ashley Hinshaw, Dane DeHaan, Michael B. Jordan","Drama, Sci-Fi, Science Fiction, Thriller",84
+86,,,2086,chronicle,Josh Trank,2012,"Alex Russell, Ashley Hinshaw, Dane DeHaan, Michael B. Jordan","Drama, Sci-Fi, Science Fiction, Thriller",84
 1404,1221,,,Big Bad Love,Arliss Howard,2001,"Arliss Howard, Debra Winger, Paul Le Mat","Comedy, Drama, Romance",111
 1311,1134,,,Ready to Rumble,Brian Robbins,2000,"David Arquette, Oliver Platt, Scott Caan","Comedy, Sport",107
 1661,1443,,,First Daughter,Forest Whitaker,2004,"Katie Holmes, Marc Blucas, Michael Keaton","Comedy, Drama, Romance",106
 36,38,,,The Barrens,Darren Lynn Bousman,2012,"Allie MacDonald, Mia Kirshner, Stephen Moyer",Horror,94
 812,754,,,The Rocker,Peter Cattaneo,2008,"Christina Applegate, Josh Gad, Rainn Wilson","Comedy, Music",102
 649,609,,,Thor,Kenneth Branagh,2011,"Anthony Hopkins, Chris Hemsworth, Natalie Portman","Action, Adventure, Fantasy",115
-2253,1987,,65,Little Miss Sunshine,"Jonathan Dayton, Valerie Farris",2006,"Abigail Breslin, Alan Arkin, Greg Kinnear, Paul Dano, Steve Carell, Toni Collette","Comedy, Drama, Indie",102
+2253,1987,,65,Little Miss Sunshine,"Jonathan Dayton, Valerie Farris",2006,"Abigail Breslin, Alan Arkin, Greg Kinnear, Paul Dano, Steve Carell, Toni Collette","Comedy, Drama, Indie",101
 2193,1933,,,A Guide to Recognizing Your Saints,Dito Montiel,2006,"Robert Downey Jr., Rosario Dawson, Shia LaBeouf","Crime, Drama",100
 1148,2189,,3176,Dan in Real Life,Peter Hedges,2007,"Dane Cook, Dianne Wiest, Emily Blunt, John Mahoney, Juliette Binoche, Norbert Leo Butz, Steve Carell","Comedy, Drama, Romance",98
 213,209,,1842,The Perks of Being a Wallflower,Stephen Chbosky,2012,"Dylan McDermott, Emma Watson, Ezra Miller, Kate Walsh, Logan Lerman, Mae Whitman, Melanie Lynskey, Paul Rudd","Drama, Romance",103
@@ -1095,7 +1095,7 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 1162,2202,,,Evan Almighty,Tom Shadyac,2007,"Lauren Graham, Morgan Freeman, Steve Carell","Comedy, Family, Fantasy",96
 1213,1043,,,Chuck & Buck,Miguel Arteta,2000,"Chris Weitz, Lupe Ontiveros, Mike White","Comedy, Drama",96
 2326,2049,,,Relative Strangers,Greg Glienna,2006,"Danny DeVito, Kathy Bates, Ron Livingston",Comedy,86
-2450,2235,,,Hear and Now,Irene Taylor Brodsky,2007,"David Taylor, Paul Taylor",Documentary,85
+2450,2235,,,Hear and Now,Irene Taylor Brodsky,2007,"David Taylor, Sally Taylor",Documentary,85
 2713,2480,,1536,Don Jon,Joseph Gordon-Levitt,2013,"Brie Larson, Glenne Headly, Joseph Gordon-Levitt, Julianne Moore, Rob Brown, Scarlett Johansson, Tony Danza","Comedy, Drama, Romance",90
 2495,2275,,,Lucky You,Curtis Hanson,2007,"Drew Barrymore, Eric Bana, Robert Duvall","Drama, Romance, Sport",124
 1017,946,,,Observe and Report,Jody Hill,2009,"Anna Faris, Ray Liotta, Seth Rogen","Comedy, Crime, Drama",86
@@ -1125,7 +1125,7 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 ,2981,201,1137,godzilla,Gareth Edwards,2014,"Aaron Taylor-Johnson, Al Sapienza, Brian Markinson, Bryan Cranston, David Strathairn, Elizabeth Olsen, Juliette Binoche, Ken Watanabe, Patrick Sabongui, Sally Hawkins, Victor Rasuk, Yuki Mortia","Action, Adventure, Horror, Sci-Fi, Science Fiction",123
 1093,2140,,,Afghan Knights,Allan Harmon,2007,"Colin Lawrence, Michael Madsen, Steve Bacic","Adventure, Drama, Horror",90
 1575,1374,,,Two Can Play That Game,Mark Brown,2001,"Anthony Anderson, Morris Chestnut, Vivica A. Fox","Comedy, Romance",90
-152,150,,1949,Girl in Progress,Patricia Riggen,2012,"Brenna O’Brien, Cierra Ramirez, Eugenio Derbez, Eva Mendes, Landon Liboiron, Matthew Modine, Patricia Arquette, Raini Rodriguez, Richard Harmon, Russell Peters","Comedy, Drama, Foreign",93
+152,150,,1949,girl in progress,Patricia Riggen,2012,"Brenna O’Brien, Cierra Ramirez, Eugenio Derbez, Eva Mendes, Landon Liboiron, Matthew Modine, Patricia Arquette, Raini Rodriguez, Richard Harmon, Russell Peters","Comedy, Drama, Foreign",93
 2472,2255,,,The Invisible,David S. Goyer,2007,"Justin Chatwin, Marcia Gay Harden, Margarita Levieva","Crime, Drama, Fantasy, Mystery, Thriller",102
 ,3066,3405,,The Replacement Killers,Antoine Fuqua,1998,"Jrgen Prochnow, Michael Rooker, Mira Sorvino, Yun-Fat Chow","Action, Crime, Drama",87
 2041,1801,,,The Ant Bully,John A. Davis,2006,"Julia Roberts, Nicolas Cage, Paul Giamatti","Adventure, Animation, Comedy, Family, Fantasy",88
@@ -1134,7 +1134,7 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 368,351,,2521,The Joneses,Derrick Borte,2010,"Amber Heard, Ben Hollingsworth, David Duchovny, Demi Moore, Gary Cole, Glenne Headly, Lauren Hutton","Comedy, Drama, Indie",96
 1466,1275,,,Human Nature,Michel Gondry,2002,"Patricia Arquette, Rhys Ifans, Tim Robbins","Comedy, Drama",96
 924,861,,2786,Duplicity,Tony Gilroy,2009,"Clive Owen, Denis O'Hare, Julia Roberts, Paul Giamatti, Tom McCarthy, Tom Wilkinson","Action, Comedy, Crime, Romance, Thriller",125
-2808,,,1296,Joe,David Gordon Green,2014,"Gary Poulter, Nicolas Cage, Ronnie Gene Blevins, Tye Sheridan",Drama,117
+2808,,,1296,joe,David Gordon Green,2014,"Gary Poulter, Nicolas Cage, Ronnie Gene Blevins, Tye Sheridan",Drama,117
 ,2913,3279,,Wild Wild West,Barry Sonnenfeld,1999,"Kenneth Branagh, Kevin Kline, Salma Hayek, Will Smith","Action, Comedy, Western",106
 2759,2522,,1686,The Hangover Part III,Todd Phillips,2013,"Bradley Cooper, Ed Helms, Heather Graham, Ken Jeong, Mike Tyson, Zach Galifianakis",Comedy,100
 2526,2302,,117,No Reservations,Scott Hicks,2007,"Aaron Eckhart, Abigail Breslin, Bob Balaban, Brian F. O'Byrne, Catherine Zeta-Jones, Patricia Clarkson","Comedy, Drama, Romance",104
@@ -1157,7 +1157,7 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 1924,1693,,,The Longest Yard,Peter Segal,2005,"Adam Sandler, Burt Reynolds, Chris Rock","Comedy, Crime, Sport",113
 451,429,,,Tangled,Nathan Greno,2010,"Donna Murphy, Mandy Moore, Zachary Levi","Animation, Comedy, Family, Fantasy, Musical, Romance",100
 1272,1096,,,Lost Souls,Janusz Kaminski,2000,"Ben Chaplin, Sarah Wynter, Winona Ryder","Drama, Horror, Thriller",97
-2829,2585,,1001,life of crime,Daniel Schechter,2014,"Isla Fisher, Jennifer Aniston, John Hawkes, Mos Def, Tim Robbins, Will Forte, Yasiin Bey","Comedy, Crime",94
+2829,2585,,1001,Life of Crime,Daniel Schechter,2014,"Isla Fisher, Jennifer Aniston, John Hawkes, Mos Def, Tim Robbins, Will Forte, Yasiin Bey","Comedy, Crime",98
 2168,1913,,,Forget About It,BJ Davis,2006,"Burt Reynolds, Charles Durning, Robert Loggia","Comedy, Drama",88
 1024,954,,2674,A Perfect Getaway,David Twohy,2009,"Chris Hemsworth, Kiele Sanchez, Marley Shelton, Milla Jovovich, Steve Zahn, Timothy Olyphant","Action, Adventure, Mystery, Thriller",98
 2150,1896,,,Factory Girl,George Hickenlooper,2007,"Guy Pearce, Hayden Christensen, Sienna Miller","Biography, Drama",90
@@ -1169,18 +1169,18 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 1150,2192,,,Day Zero,Bryan Gunnar Cole,2007,"Chris Klein, Elijah Wood, Jon Bernthal",Drama,92
 657,615,,,Waiting for Forever,James Keach,2011,"Rachel Bilson, Richard Jenkins, Tom Sturridge","Drama, Romance",95
 2721,2486,,1521,Enough Said,Nicole Holofcener,2013,"Amy Landecker, Ben Falcone, Catherine Keener, James Gandolfini, Julia Louis-Dreyfus, Michaela Watkins, Toni Collette","Comedy, Drama, Romance",93
-1090,2137,,47,Across the Universe,Julie Taymor,2007,"Bono, Dana Fuchs, Eddie Izzard, Evan Rachel Wood, Jim Sturgess, Joe Anderson, Martin Luther McCoy, T.V. Carpio","Adventure, Drama, Fantasy, Music, Romance",133
+1090,2137,,47,Across the Universe,Julie Taymor,2007,"Bono, Dana Fuchs, Eddie Izzard, Evan Rachel Wood, Jim Sturgess, Joe Anderson, Martin Luther McCoy, T.V. Carpio","Adventure, Drama, Fantasy, Musical, Romance",133
 721,674,,,First Sunday,David E. Talbert,2008,"Ice Cube, Katt Williams, Tracy Morgan","Comedy, Crime, Drama",96
 2798,2556,,1672,Iron Man 3,Shane Black,2013,"Ben Kingsley, Don Cheadle, Guy Pearce, Gwyneth Paltrow, James Badge Dale, Jon Favreau, Paul Bettany, Rebecca Hall, Robert Downey Jr., William Sadler","Action, Adventure, Sci-Fi, Science Fiction",130
 2359,2077,,232,Silent Hill,Christophe Gans,2006,"Alice Krige, Deborah Kara Unger, Jodelle Ferland, Kim Coates, Laurie Holden, Radha Mitchell, Sean Bean, Tanya Allen","Adventure, Horror, Mystery, Thriller",125
-524,,,2236,Don't Be Afraid of the Dark,Troy Nixey,2011,"Bailee Madison, Guy Pearce, Jack Thompson, Katie Holmes","Fantasy, Horror, Thriller",99
+524,,,2236,don't be afraid of the dark,Troy Nixey,2011,"Bailee Madison, Guy Pearce, Jack Thompson, Katie Holmes","Fantasy, Horror, Thriller",99
 ,2935,3414,,Black Dog,Kevin Hooks,1998,"Gabriel Casseus, Meat Loaf, Patrick Swayze, Randy Travis","Action, Crime, Drama",89
 2207,1947,2368,,Home of the Brave,Irwin Winkler,2007,"50 Cent, Jessica Biel, Samuel L. Jackson","Action, Drama, War",106
 725,677,,,Forever Strong,Ryan Little,2008,"Gary Cole, Penn Badgley, Sean Faris","Drama, Sport",112
 542,510,,2158,The Girl with the Dragon Tattoo,David Fincher,2011,"Christopher Plummer, Daniel Craig, Joely Richardson, Robin Wright, Rooney Mara, Stellan Skarsgard","Crime, Drama, Mystery, Thriller",158
 2577,2350,,37,Sleuth,Kenneth Branagh,2007,"Alec Cawthorne, Eve Channing, Harold Pinter, Jude Law, Michael Caine","Drama, Mystery, Thriller",86
 1772,1550,,,The Stepford Wives,Frank Oz,2004,"Bette Midler, Matthew Broderick, Nicole Kidman","Comedy, Sci-Fi, Thriller",93
-240,,,1853,Sinister,Scott Derrickson,2012,"Ethan Hawke, James Ransone, Juliet Rylance, Vincent D'Onoforio","Horror, Mystery",110
+240,,,1853,sinister,Scott Derrickson,2012,"Ethan Hawke, James Ransone, Juliet Rylance, Vincent D'Onoforio","Horror, Mystery",110
 2011,1776,,,Where the Truth Lies,Atom Egoyan,2005,"Alison Lohman, Colin Firth, Kevin Bacon","Crime, Drama, Mystery, Thriller",107
 838,782,1962,2845,Taken,Pierre Morel,2009,"Arben Bajraktaraj, Famke Janssen, Gerard Watkins, Katie Cassidy, Liam Neeson, Maggie Grace","Action, Crime, Foreign, Thriller",93
 1398,1216,,,Bandits,Barry Levinson,2001,"Billy Bob Thornton, Bruce Willis, Cate Blanchett","Comedy, Crime, Drama, Romance",123
@@ -1244,7 +1244,7 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 1287,1111,,,My 5 Wives,Sidney J. Furie,2000,"Andrew Dice Clay, John Byner, Rodney Dangerfield",Comedy,100
 1278,1102,,,Meet the Parents,Jay Roach,2000,"Ben Stiller, Robert De Niro, Teri Polo",Comedy,108
 2559,2333,,11,Resurrecting the Champ,Rod Lurie,2007,"Alan Alda, Dakota Goyo, David Paymer, Josh Hartnett, Kathryn Morris, Samuel L. Jackson, Teri Hatcher","Drama, Sport, Sports Film",112
-1608,1394,,,Beyond the Sea,Kevin Spacey,2004,"John Goodman, Kate Bosworth, Kevin Spacey","Biography, Drama, Musical",118
+1608,1394,,,Beyond the Sea,Kevin Spacey,2004,"John Goodman, Kate Bosworth, Kevin Spacey","Biography, Drama, Music",118
 379,361,,,The Last Exorcism,Daniel Stamm,2010,"Ashley Bell, Iris Bahr, Patrick Fabian","Drama, Horror, Thriller",87
 2893,2641,,1665,The Purge,James DeMonaco,2013,"Edwin Hodge, Ethan Hawke, Lena Headey, Max Burkholder, Rhys Wakefield","Horror, Sci-Fi, Science Fiction, Thriller",85
 1286,1110,,,My Dog Skip,Jay Russell,2000,"Diane Lane, Frankie Muniz, Kevin Bacon","Drama, Family, Sport",95
@@ -1313,7 +1313,7 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 784,730,,2959,Nights in Rodanthe,George C. Wolfe,2008,"Christopher Meloni, Diane Lane, Pablo Schreiber, Richard Gere, Scott Glenn, Viola Davis","Drama, Romance",97
 1572,1371,,,Tortilla Soup,Maria Ripoll,2001,"Hector Elizondo, Jacqueline Obradors, Tamara Mello","Comedy, Drama, Romance",102
 2071,1826,,,The Black Dahlia,Brian De Palma,2006,"Aaron Eckhart, Josh Hartnett, Scarlett Johansson","Crime, Drama, Mystery, Thriller",121
-,,4876;4831,,Rich and Famous 2,Taylor Wong,1987,"Alex Man, Andy Lau, Yun-Fat Chow","Action, Crime, Drama",97
+,,4831;4876,,Rich and Famous,Taylor Wong,1987,"Alex Man, Andy Lau, Yun-Fat Chow","Action, Crime, Drama",104
 402,384,,2547,Mother and Child,Rodrigo Garcia,2010,"Amy Brenneman, Annette Bening, Cherry Jones, David Morse, Elpidia Carrillo, Jimmy Smits, Kerry Washington, Naomi Watts, S. Epatha Merkerson, Samuel L. Jackson","Drama, Romance",125
 883,824,,,Armored,Nimród Antal,2009,"Columbus Short, Laurence Fishburne, Matt Dillon","Action, Crime, Thriller",88
 981,912,,,Labor Pains,Lara Shapiro,2009,"Chris Parnell, Lindsay Lohan, Luke Kirby","Comedy, Romance",89
@@ -1324,7 +1324,7 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 2604,2376,,,Vacancy,Nimród Antal,2007,"Frank Whaley, Kate Beckinsale, Luke Wilson","Horror, Thriller",85
 1068,991,,,Up,Pete Docter,2009,"Edward Asner, John Ratzenberger, Jordan Nagai","Adventure, Animation, Comedy, Family",96
 2180,1923,,291,Glory Road,James Gartner,2006,"Al Shearer, Alphonso McAuley, Austin Nichols, Damaine Radcliff, Derek Luke, Jon Voight, Josh Lucas, Mehcad Brooks, Sam Jones II","Biography, Drama, Sport",118
-226,222,,1928,Red Lights,Rodrigo Cortes,2012,"Cillian Murphy, Elizabeth Olsen, Joely Richardson, Robert De Niro, Sigourney Weaver, Toby Jones","Drama, Mystery, Thriller",119
+226,222,,1928,Red Lights,Rodrigo Cortés,2012,"Cillian Murphy, Elizabeth Olsen, Joely Richardson, Robert De Niro, Sigourney Weaver, Toby Jones","Drama, Mystery, Thriller",119
 1346,1167,,,Things You Can Tell Just by Looking at Her,Rodrigo García,2000,"Calista Flockhart, Cameron Diaz, Glenn Close","Drama, Romance",109
 1284,1108,,,Mission to Mars,Brian De Palma,2000,"Don Cheadle, Gary Sinise, Tim Robbins","Adventure, Drama, Sci-Fi, Thriller",114
 ,3092,3431,,Snake Eyes,Brian De Palma,1998,"Carla Gugino, Gary Sinise, John Heard, Nicolas Cage","Action, Crime, Drama, Mystery & Suspense",98
@@ -1348,14 +1348,14 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 2839,2594,,1805,LUV,Sheldon Candis,2013,"Charles S. Dutton, Common, Danny Glover, Dennis Haysbert, Lonette McKee, Michael Rainey Jr.","Crime, Drama",94
 141,136,,,Flicka: Country Pride,Michael Damian,2012,"Clint Black, Kacey Rohl, Lisa Hartman",Family,90
 2516,2293,,,My Faraway Bride,Rajeev Virani,2007,"Gulshan Grover, Jason Lewis, Kashmira Shah","Comedy, Drama, Romance",95
-393,375,,2325,Love & Other Drugs,Edward Zwick,2010,"Anne Hathaway, Gabriel Macht, Hank Azaria, Jake Gyllenhaal, Josh Gad, Judy Greer, Oliver Platt","Comedy, Drama, Romance",112
-2706,2473,,1614,Cutie and the Boxer,Zachary Heinzerling,2013,"Alex Shinohara, Noriko Shinohara","Biography, Documentary",82
+393,375,,2325,love and other drugs,Edward Zwick,2010,"Anne Hathaway, Gabriel Macht, Hank Azaria, Jake Gyllenhaal, Josh Gad, Judy Greer, Oliver Platt","Comedy, Drama, Romance",112
+2706,2473,,1614,cutie and the boxer,Zachary Heinzerling,2013,"Alex Shinohara, Ushio Shinohara","Biography, Documentary",82
 2658,2426,,1685,Before Midnight,Richard Linklater,2013,"Ethan Hawke, Julie Delpy, Seamus Davey-Fitzpatrick","Drama, Romance",108
 2694,2461,,,Coffin Baby,Dean Jones,2015,"Brian Krause, Bruce Dern, Clifton Powell",Horror,95
 ,251,,467,ted 2,Seth MacFarlane,2015,"Amanda Seyfried, Jessica Barth, Mark Wahlberg, Morgan Freeman, Patrick Warburton, Seth MacFarlane",Comedy,115
 12,13,,,Air Collision,Liz Adams,2012,"Gerald Webb, Jordan Ladd, Reginald VelJohnson","Action, Adventure, Thriller",92
 180,179,,1837,Liberal Arts,Josh Radnor,2012,"Allison Janney, Elizabeth Olsen, John Magaro, Josh Radnor, Richard Jenkins, Zac Efron","Comedy, Drama",97
-315,305,,2553,Dear John,Lasse Hallstrom,2010,"Amanda Seyfried, Channing Tatum, Cullen Moss, D.J. Cotrona, Henry Thomas, Richard Jenkins","Drama, Romance, War",108
+315,305,,2553,Dear John,Lasse Hallstrom,2010,"Amanda Seyfried, Channing Tatum, Cullen Moss, D.J. Cotrona, Henry Thomas, Richard Jenkins","Drama, Romance, War",115
 84,84,,3427,A Christmas Story 2,Brian Levant,1983,"Braeden Lemasters, Daniel Stern, Stacey Travis","Comedy, Drama, Family, Holiday",85
 946,882,,2780,The Great Buck Howard,Sean McGinly,2009,"Colin Hanks, Emily Blunt, Griffin Dunne, John Malkovich, Ricky Jay, Steve Zahn, Tom Hanks","Action, Adventure, Comedy, Drama, Indie",87
 936,874,,2854,Friday the 13th,Marcus Nispel,2009,"Aaron Yoo, Amanda Righetti, Danielle Panabaker, Derek Mears, Jared Padalecki, Travis Van Winkle",Horror,97
@@ -1392,14 +1392,14 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 2529,2305,,,Normal Adolescent Behavior,Beth Schacter,2007,"Amber Tamblyn, Ashton Holmes, Kelli Garner","Drama, Romance",93
 2251,1985,,81,Little Children,Todd Field,2006,"Gregg Edelman, Jackie Earle Haley, Jennifer Connelly, Kate Winslet, Noah Emmerich, Patrick Wilson","Comedy, Drama, Indie, Romance",136
 2901,2650,,,Robotech: Love Live Alive,Gregory Snegoff,2013,"Cam Clarke, Frank Catalano, Richard Epcar","Action, Adventure, Animation, Sci-Fi",89
-243,240,,1820,sleepwalk with me,"Mike Birbiglia, Seth Barrish",2012,"Carol Kane, Cristin Milioti, James Rebhorn, Lauren Ambrose, Loudon Wainwright III, Mike Birbiglia",Comedy,90
+243,240,,1820,Sleepwalk with Me,"Mike Birbiglia, Seth Barrish",2012,"Carol Kane, Cristin Milioti, James Rebhorn, Lauren Ambrose, Loudon Wainwright III, Mike Birbiglia",Comedy,90
 ,581,,2240,restless,Gus Van Sant,2011,"Henry Hopper, Jane Adams, Lusia Strus, Mia Wasikowska, Ryo Kase, Schuyler Fisk","Drama, Indie, Romance",91
 2464,2248,,,I Know Who Killed Me,Chris Sivertson,2007,"Julia Ormond, Lindsay Lohan, Neal McDonough","Crime, Mystery, Thriller",105
 2001,1766,,,An Unfinished Life,Lasse Hallström,2005,"Jennifer Lopez, Morgan Freeman, Robert Redford",Drama,108
 1086,2134,,,1408,Mikael Håfström,2007,"John Cusack, Mary McCormack, Samuel L. Jackson",Horror,104
 2256,1991,,,LOL,Lisa Azuelos,2012,"Ashley Greene, Douglas Booth, Miley Cyrus","Comedy, Drama, Romance",97
 2956,2702,1258,1648,Violet & Daisy,Geoffrey Fletcher,2013,"Alexis Bledel, Cody Horn, Danny Trejo, James Gandolfini, Saoirse Ronan, Tatiana Maslany","Action, Comedy, Crime, Drama, Thriller",88
-1016,945,,2839,Notorious,George Tillman Jr.,2009,"Angela Bassett, Anthony Mackie, Antonique Smith, Derek Luke, Jamal Woolard, Naturi Naughton","Biography, Drama, Musical",122
+1016,945,,2839,Notorious,George Tillman Jr.,2009,"Angela Bassett, Anthony Mackie, Antonique Smith, Derek Luke, Jamal Woolard, Naturi Naughton","Biography, Drama, Music",122
 591,556,,2189,Martha Marcy May Marlene,Sean Durkin,2011,"Brady Corbet, Elizabeth Olsen, Hugh Dancy, John Hawkes, Sarah Paulson","Drama, Thriller",102
 ,,2164,3097,strength and honor,Mark Mahon,2007,"Michael Madsen, Patrick Bergin, Richard Chamberlain, Vinnie Jones","Action, Drama",95
 ,31,3390,,The Avengers,Jeremiah S. Chechik,1998,"Eileen Atkins, Ralph Fiennes, Sean Connery, Uma Thurman","Action, Adventure, Sci-Fi",89
@@ -1414,16 +1414,16 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 2248,1982,,96,Letters from Iwo Jima,Clint Eastwood,2007,"Kazunari Ninomiya, Ken Watanabe, Ryo Kase, Shidou Nakamura, Tsuyoshi Ihara","Action, Adventure, Drama, Foreign, History, War",141
 827,770,,3132,The Spiderwick Chronicles,Mark Waters,2008,"David Strathairn, Freddie Highmore, Joan Plowright, Mary-Louise Parker, Sarah Bolger","Action, Adventure, Family, Fantasy, Science Fiction",96
 ,,381,1044,the purge: anarchy,James Demonaco,2014,"Carmen Ejogo, Frank Grillo, Kiele Sanchez, Zach Gilford, Zoe Soul","Horror, Thriller",103
-975,,,2629,It's Complicated,Nancy Meyers,2009,"Alec Baldwin, John Krasinski, Lake Bell, Meryl Streep, Steve Martin","Comedy, Romance",120
+975,,,2629,it's complicated,Nancy Meyers,2009,"Alec Baldwin, John Krasinski, Lake Bell, Meryl Streep, Steve Martin","Comedy, Romance",121
 627,,,3354,Mean Streets,Martin Scorsese,1973,"Amy Robinson, David Proval, Harvey Keitel, Richard Romanus, Robert De Niro","Action, Crime, Drama",112
 153,151,,1950,God Bless America,Bobcat Goldthwait,2012,"Joel Murray, Mackenzie Brooke Smith, Melinda Page Hamilton, Rich McDonald, Tara Lynne Barr","Comedy, Crime, Drama",104
-274,,,1823,the words,"Brian Klugman, Lee Sternthal",2012,"Bradley Cooper, Dennis Quaid, Jeremy Irons, Olivia Wilde, Zoe Saldana","Drama, Mystery, Romance, Thriller",96
+274,,,1823,The Words,"Brian Klugman, Lee Sternthal",2012,"Bradley Cooper, Dennis Quaid, Jeremy Irons, Olivia Wilde, Zoe Saldana","Drama, Mystery, Romance, Thriller",102
 ,,1717,2800,fast & furious,Justin Lin,2009,"John Ortiz, Jordana Brewster, Michelle Rodriguez, Paul Walker, Vin Diesel","Action, Adventure, Crime, Drama, Thriller",107
 ,,1444,2479,centurion,Neil Marshall,2010,"Dominic West, Imogen Poots, Michael Fassbender, Noel Clarke, Olga Kurylenko","Action, Drama, Foreign, Thriller",97
-301,,,2289,The Chronicles of Narnia: The Voyage of the Dawn Treader,Michael Apted,2010,"Ben Barnes, Georgie Henley, Skandar Keynes, Tilda Swinton, Will Poulter","Adventure, Family, Fantasy, Foreign, Science Fiction",113
+301,,,2289,the chronicles of narnia: the voyage of the dawn treader,Michael Apted,2010,"Ben Barnes, Georgie Henley, Skandar Keynes, Tilda Swinton, Will Poulter","Adventure, Family, Fantasy, Foreign, Science Fiction",113
 407,389,,2291,Night Catches Us,Tanya Hamilton,2010,"Anthony Mackie, Jamara Griffin, Kerry Washington, Tariq Trotter, Wendell Pierce","Drama, Indie, Romance",90
 2441,2227,,3139,Grace Is Gone,James C. Strouse,2007,"Alessandro Nivola, Emily Churchill, Gracie Bednarczyk, John Cusack, Rebecca Spence, Shelan O'Keefe","Drama, Indie",85
-2219,1958,,97,Inland Empire,David Lynch,2007,"Harry Dean Stanton, Jeremy Irons, Justin Theroux, Laura Dern, Peter J. Lucas","Drama, Indie, Mystery, Thriller",180
+2219,1958,,97,Inland Empire,David Lynch,2007,"Harry Dean Stanton, Jeremy Irons, Justin Theroux, Laura Dern, Peter J. Lucas","Drama, Indie, Mystery, Thriller",172
 ,,313,907,open windows,Nacho Vigalondo,2014,"Elijah Wood, Nacho Vigalondo, Neil Maskell, Sasha Grey, Scott Weinberg","Action, Crime, Suspense",100
 ,,310,996,the november man,Roger Donaldson,2014,"Bill Smitrovich, Luke Bracey, Olga Kurylenko, Pierce Brosnan, Will Patton","Action, Thriller",108
 2202,1942,,205,The Heart of the Game,Ward Serrill,2006,"Bill Resler, Darnellia Russell, Devon Crosby Helms, Joyce Walker, Ludacris","Documentary, Sport, Sports Film",97
@@ -1435,14 +1435,14 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 ,,216,917,wolves,David Hayter,2014,"Jason Momoa, John Pyper-Ferguson, Lucas Till, Merritt Patterson, Stephen McHattie","Action, Horror",90
 458,436,,2297,True Grit,"Ethan Coen, Joel",2010,"Barry Pepper, Hailee Steinfeld, Jeff Bridges, Josh Brolin, Matt Damon","Action, Adventure, Drama, Western",110
 ,,286,1009,falcon rising,Ernie Barbarash,2014,"Hazuki Kato, Laila Ali, Lateef Crowder, Michael Jai White, Neal McDonough","Action, Drama",103
-228,,,1897,rise of the guardians,Peter Ramsey,2012,"Alec Baldwin, Chris Pine, Hugh Jackman, Isla Fisher, Jude Law","Adventure, Animation, Family, Fantasy",97
+228,,,1897,Rise of the Guardians,Peter Ramsey,2012,"Alec Baldwin, Chris Pine, Hugh Jackman, Isla Fisher, Jude Law","Adventure, Animation, Family, Fantasy",97
 656,,,2112,a very harold & kumar 3d christmas,Todd Strauss-Schulson,2011,"Danny Trejo, John Cho, Kal Penn, Neil Patrick Harris, Patton Oswalt","Adventure, Comedy",108
 710,664,,2911,Doubt,John Patrick Shanley,2008,"Amy Adams, Joseph Foster II, Meryl Streep, Philip Seymour Hoffman, Viola Davis","Drama, Mystery",104
 ,,1263,2096,the double,Michael Brandt,2011,"Martin Sheen, Odette Yustman, Richard Gere, Stephen Moyer, Topher Grace","Action, Crime, Drama, Mystery, Thriller",98
 81,81,,1868,Chasing Mavericks,"Curtis Hanson, Michael Apted",2012,"Abigail Spencer, Elisabeth Shue, Gerard Butler, Jonny Weston, Taylor Handley","Biography, Drama, Sport",116
-385,366,,2452,Let Me In,Matt Reeves,2010,"Chloe Moretz, Elias Koteas, Kodi Smit-McPhee, Richard Jenkins","Drama, Foreign, Horror, Mystery",116
+385,366,,2452,Let Me In,Matt Reeves,2010,"Chloë Grace Moretz, Elias Koteas, Kodi Smit-McPhee, Richard Jenkins","Drama, Foreign, Horror, Mystery",116
 ,,64,625,slow west,John Maclean,2015,"Ben Mendelsohn, Caren Pistorius, Kodi Smit-McPhee, Michael Fassbender, Rory McCann","Action, Thriller, Western",84
-1038,,,2612,The Road,John Hillcoat,2009,"Charlize Theron, Guy Pearce, Kodi Smit-McPhee, Robert Duvall, Viggo Mortensen","Adventure, Drama, Science Fiction, Thriller",111
+1038,,,2612,the road,John Hillcoat,2009,"Charlize Theron, Guy Pearce, Kodi Smit-McPhee, Robert Duvall, Viggo Mortensen","Adventure, Drama, Science Fiction, Thriller",111
 916,853,,2637,Crazy Heart,Scott Cooper,2009,"Colin Farrell, Jeff Bridges, Maggie Gyllenhaal, Robert Duvall","Drama, Indie, Music, Romance",112
 ,590,1168,2332,season of the witch,Dominic Sena,2011,"Christopher Lee, Claire Foy, Nicolas Cage, Robert Sheehan, Ron Perlman","Action, Adventure, Drama, Fantasy, Science Fiction, Thriller",95
 ,287,,457,burying the ex,Joe Dante,2015,"Alexandra Daddario, Anton Yelchin, Ashley Greene, Oliver Cooper","Comedy, Horror",89
@@ -1475,7 +1475,7 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 229,226,,1810,Robot & Frank,Jake Schreier,2012,"Frank Langella, James Marsden, Jeremy Strong, Liv Tyler, Peter Sarsgaard, Susan Sarandon","Comedy, Crime, Drama, Sci-Fi",89
 957,891,,2834,Hotel for Dogs,Thor Freudenthal,2009,"Don Cheadle, Emma Roberts, Jake T. Austin, Johnny Simmons, Kevin Dillon, Kyla Pratt, Lisa Kudrow","Comedy, Family",100
 278,273,,2309,127 Hours,Danny Boyle,2010,"Amber Tamblyn, Clemence Poesy, James Franco, Kate Burton, Kate Mara, Lizzy Caplan, Treat Williams","Adventure, Biography, Drama, Thriller",94
-907,2773,,2599,A Christmas Carol,Robert Zemeckis,2009,"Bob Hoskins, Cary Elwes, Colin Firth, Fionnula Flanagan, Gary Oldman, Jim Carrey, Robin Wright Penn","Animation, Drama, Family, Fantasy, Science Fiction",96
+907,2773,,2599,disney's a christmas carol,Robert Zemeckis,2009,"Bob Hoskins, Cary Elwes, Colin Firth, Fionnula Flanagan, Gary Oldman, Jim Carrey, Robin Wright Penn","Animation, Drama, Family, Fantasy, Science Fiction",96
 879,820,,2745,American Violet,Tim Disney,2009,"Alfre Woodard, Charles Dutton, Michael O'Keefe, Nicole Beharie, Tim Blake Nelson, Will Patton, Xzibit",Drama,103
 839,783,,2818,The Tale of Despereaux,"Rob Stevenhagen, Sam Fell",2008,"Dustin Hoffman, Emma Watson, Kevin Kline, Matthew Broderick, Robbie Coltrane, Sigourney Weaver, Tracey Ullman","Adventure, Animation, Comedy, Family, Fantasy",100
 2755,2518,,,Greetings from Tim Buckley,Daniel Algrant,2013,"Imogen Poots, Norbert Leo Butz, Penn Badgley",Drama,99
@@ -1483,7 +1483,7 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 1990,1755,,265,Syriana,Stephen Gaghan,2005,"Amanda Peet, Chris Cooper, Christopher Plummer, George Clooney, Jeffrey Wright, Matt Damon, Max Minghella","Action, Drama, Romance, Thriller",128
 2234,1970,,163,Just My Luck,Donald Petrie,2006,"Bree Turner, Carlos Ponce, Chris Pine, Faizon Love, Lindsay Lohan, Missi Pyle, Samaire Armstrong","Comedy, Drama, Family, Fantasy, Romance",103
 ,2433,617,1451,big ass spider!,Mike Mendez,2013,"Clare Kramer, Greg Grunberg, Lin Shaye, Lloyd Kaufman, Lombardo Boyar, Patrick Bauchau, Ray Wise","Action, Comedy, Sci-Fi, Science Fiction",85
-2696,2463,,1702,The Company You Keep,Robert Redford,2013,"Anna Kendrick, Brit Marling, Julie Christie, Robert Redford, Sam Elliott, Shia LaBeouf, Stanley Tucci, Susan Sarandon","Drama, Thriller",125
+2696,2463,,1702,The Company You Keep,Robert Redford,2013,"Anna Kendrick, Brit Marling, Julie Christie, Robert Redford, Sam Elliott, Shia LaBeouf, Stanley Tucci, Susan Sarandon","Drama, Thriller",157
 726,678,,3089,Forgetting Sarah Marshall,Nicholas Stoller,2008,"Bill Hader, Jason Segel, Jonah Hill, Kristen Bell, Mila Kunis, Paul Rudd, Russell Brand","Comedy, Drama, Romance",111
 2524,2300,,3187,No Country for Old Men,"Ethan Coen, Joel Coen",2007,"Javier Bardem, Josh Brolin, Kelly MacDonald, Stephen Root, Tess Harper, Tommy Lee Jones, Woody Harrelson","Crime, Drama, Suspense, Thriller",122
 596,562,,,Monte Carlo,Thomas Bezucha,2011,"Katie Cassidy, Leighton Meester, Selena Gomez","Adventure, Comedy, Romance",109
@@ -1493,7 +1493,7 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 ,2704,,1327,walking with dinosaurs,Neil Nightingale,2013,"Angourie Rice, Charlie Rowe, John Leguizamo, Justin Long, Karl Urban, Skyler Stone, Tiya Sircar","Action, Animation, Documentary, Family",87
 910,846,,2716,Cold Souls,Sophie Barthes,2009,"Boris Kievsky, David Strathairn, Dina Korzun, Emily Watson, Katheryn Winnick, Lauren Ambrose, Paul Giamatti","Comedy, Drama, Fantasy, Science Fiction",101
 ,497,,405,learning to drive,Isabel Coixet,2015,"Ben Kingsley, Grace Gummer, Jake Weber, John Hodgman, Patricia Clarkson, Samantha Bee, Sarita Choudhury","Comedy, Drama, Romance",90
-624,588,,2341,Sanctum,Alister Grierson,2011,"Alice Parkinson, Allison Cratchley, Christopher Baker, Dan Wyllie, Ioan Gruffudd, Rhys Wakefield, Richard Roxburgh","Action, Adventure, Drama, Thriller",108
+624,588,,2341,Sanctum,Alister Grierson,2011,"Alice Parkinson, Allison Cratchley, Christopher James Baker, Dan Wyllie, Ioan Gruffudd, Rhys Wakefield, Richard Roxburgh","Action, Adventure, Drama, Thriller",108
 ,505,,2168,footloose,Craig Brewer,2011,"Andie MacDowell, Dennis Quaid, Julianne Hough, Kenny Wormald, Miles Teller, Patrick John Flueger, Ray McKinnon","Comedy, Drama, Family, Music, Romance",113
 513,485,,2269,Contagion,Steven Soderbergh,2011,"Elliott Gould, Gwyneth Paltrow, Jude Law, Kate Winslet, Laurence Fishburne, Marion Cotillard, Matt Damon","Action, Disaster, Drama, Sci-Fi, Science Fiction, Thriller",106
 914,850,,2662,Couples Retreat,Peter Billingsley,2009,"Faizon Love, Jason Bateman, Jon Favreau, Kristen Bell, Kristin Davis, Malin Akerman, Vince Vaughn","Comedy, Romance",113
@@ -1502,35 +1502,35 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 1175,1007,,,3 Strikes,DJ Pooh,2000,"Brian Hooks, Faizon Love, N'Bushe Wright",Comedy,82
 2746,2509,,,The Ghost Army,Rick Beyer,2013,"Peter Coyote, Wesley Clark",Documentary,68
 2626,2395,,,12 Rounds 2: Reloaded,Roel Reiné,2013,"Brian Markinson, Randy Orton, Tom Stevens","Action, Adventure, Thriller",95
-621,585,,2336,The Rite,Mikael Hafstrom,2011,"Alice Braga, Anthony Hopkins, Ciaran Hinds, Colin O'Donoghue, Rutger Hauer, Toby Jones","Drama, Horror, Mystery, Thriller",114
+621,585,,2336,The Rite,Mikael Håfström,2011,"Alice Braga, Anthony Hopkins, Ciarán Hinds, Colin O'Donoghue, Rutger Hauer, Toby Jones","Drama, Horror, Mystery, Thriller",114
 ,,622,1497,once upon a time in mumbai dobaara!,Milan Lutheria,2013,"Akshay Kumar, Imran Khan, Pitobash Tripathy, Sonakshi Sinha, Sonali Bendre","Action, Crime, Drama",160
 889,829,,2684,Bandslam,Todd Graff,2009,"Aly Michalka, Gaelan Connell, Lisa Kudrow, Scott Porter, Vanessa Hudgens","Comedy, Drama, Family, Music, Romance",111
 1891,1662,,,Hitch,Andy Tennant,2005,"Eva Mendes, Kevin James, Will Smith","Comedy, Romance",118
-1082,1003,,2625,The Young Victoria,Jean-Marc Vallée,2009,"Emily Blunt, Jim Broadbent, Mark Strong, Miranda Richardson, Paul Bettany, Rupert Friend, Thomas Kretschmann","Biography, Drama, Foreign, History, Romance",105
+1082,1003,,2625,The Young Victoria,Jean-Marc Vallee,2009,"Emily Blunt, Jim Broadbent, Mark Strong, Miranda Richardson, Paul Bettany, Rupert Friend, Thomas Kretschmann","Biography, Drama, Foreign, History, Romance",105
 2051,1810,,189,ATL,Chris Robinson,2006,"Albert Daniels, Antwan Andre Patton, Evan Ross, Jackie Long, Keith David, Lauren London, Mykelti Williamson, T.I., Tip Harris","Comedy, Crime, Drama, Music, Romance",105
 1549,1347,,,Shallow Hal,Bobby Farrelly,2001,"Gwyneth Paltrow, Jack Black, Jason Alexander","Comedy, Drama, Fantasy, Romance",114
-419,400,,2431,Predators,Nimrod Antal,2010,"Adrien Brody, Alice Braga, Danny Trejo, Laurence Fishburne, Oleg Taktarov, Topher Grace, Walton Goggins","Action, Adventure, Horror, Sci-Fi, Science Fiction, Thriller",107
+419,400,,2431,Predators,Nimród Antal,2010,"Adrien Brody, Alice Braga, Danny Trejo, Laurence Fishburne, Oleg Taktarov, Topher Grace, Walton Goggins","Action, Adventure, Horror, Sci-Fi, Science Fiction, Thriller",107
 1776,1554,,,Surviving Christmas,Mike Mitchell,2004,"Ben Affleck, Christina Applegate, James Gandolfini","Comedy, Romance",91
 1426,1241,,,Donnie Darko,Richard Kelly,2001,"Jake Gyllenhaal, Jena Malone, Mary McDonnell","Drama, Sci-Fi",113
 2162,1907,,,Flicka,Michael Mayer,2006,"Alison Lohman, Maria Bello, Tim McGraw","Adventure, Drama, Family",95
 148,145,,2062,friends with kids,Jennifer Westfeldt,2012,"Adam Scott, Chris O'Dowd, Edward Burns, Jennifer Westfeldt, Jon Hamm, Kristen Wiig, Maya Rudolph, Megan Fox","Comedy, Drama, Romance",107
 ,,1422,2405,the a-team,Joe Carnahan,2010,"Bradley Cooper, Jessica Biel, Liam Neeson, Patrick Wilson, Quinton, Sharlto Copley","Action, Thriller",117
-135,,,1874,Flight,Robert Zemeckis,2012,"Brian Geraghty, Bruce Greenwood, Denzel Washington, Don Cheadle, John Goodman, Nadine Velazquez","Drama, Thriller",138
+135,,,1874,flight,Robert Zemeckis,2012,"Brian Geraghty, Bruce Greenwood, Denzel Washington, Don Cheadle, John Goodman, Nadine Velazquez","Drama, Thriller",138
 1156,2198,,3142,The Diving Bell and the Butterfly,Julian Schnabel,2007,"Anne Consigny, Emmanuelle Seigner, Marie-Josee Croze, Mathieu Amalric, Max von Sydow, Niels Arestrup, Olatz Lopez Garmendia, Patrick Chesnais","Biography, Drama, Foreign, Indie",112
 2021,1784,,,29 Reasons to Run,Damon O'Steen,2006,"Branden Waits, Gary Weeks, Philip Boyd",Comedy,99
-2776,,,1691,The Host,Andrew Niccol,2013,"Diane Kruger, Frances Fisher, Jake Abel, Max Irons, Saoirse Ronan, William Hurt","Adventure, Romance, Sci-Fi, Science Fiction, Thriller",125
+2776,,,1691,the host,Andrew Niccol,2013,"Diane Kruger, Frances Fisher, Jake Abel, Max Irons, Saoirse Ronan, William Hurt","Adventure, Romance, Sci-Fi, Science Fiction, Thriller",125
 2520,2297,,8,The Nanny Diaries,"Robert Pulcini, Shari Springer Berman",2007,"Alicia Keys, Donna Murphy, Laura Linney, Nathan Corddry, Paul Giamatti, Scarlett Johansson","Comedy, Drama, Romance",105
-179,,,1815,lawless,John Hillcoat,2012,"Gary Oldman, Guy Pearce, Jason Clarke, Jessica Chastain, Shia LaBeouf, Tom Hardy","Crime, Drama",115
+179,,,1815,Lawless,John Hillcoat,2012,"Gary Oldman, Guy Pearce, Jason Clarke, Jessica Chastain, Shia LaBeouf, Tom Hardy","Crime, Drama",116
 2600,2372,,45,Things We Lost in the Fire,Susanne Bier,2007,"Alison Lohman, Benicio Del Toro, David Duchovny, Halle Berry, John Carroll Lynch, Omar Benson Miller",Drama,118
 2203,1943,,335,The Hills Have Eyes,Alexandre Aja,2006,"Aaron Stanford, Dan Byrd, Emilie de Ravin, Kathleen Quinlan, Robert Joy, Ted Levine, Vinessa Shaw","Horror, Thriller",107
 ,852,1744,,Crank: High Voltage,Mark Neveldine,2009,"Amy Smart, Clifton Collins Jr., Efren Ramirez, Jason Statham","Action, Comedy, Crime, Thriller",96
-2355,,,174,she's the man,Andy Fickman,2006,"Alex Breckenridge, Amanda Bynes, Channing Tatum, David Cross, Laura Ramsey, Robert Hoffman","Comedy, Drama, Family, Romance",105
+2355,,,174,She's the Man,Andy Fickman,2006,"Alex Breckenridge, Amanda Bynes, Channing Tatum, David Cross, Laura Ramsey, Robert Hoffman","Comedy, Drama, Family, Romance",105
 539,507,,2258,Fright Night,Craig Gillespie,2011,"Anton Yelchin, Christopher Mintz-Plasse, Colin Farrell, David Tennant, Imogen Poots, Toni Collette","Comedy, Horror",106
 2183,1926,,94,The Good Shepherd,Robert De Niro,2006,"Alec Baldwin, Angelina Jolie, Billy Crudup, Keir Dullea, Matt Damon, Robert De Niro","Action, Drama, History, Thriller",167
 314,304,1684,2635,Daybreakers,"Michael Spierig, Peter Spierig",2010,"Claudia Karvan, Ethan Hawke, Michael Dorman, Sam Neill, Willem Dafoe","Action, Drama, Horror, Sci-Fi, Science Fiction, Thriller",98
 1327,810,,2769,17 Again,Burr Steers,2009,"Brian Doyle-Murray, Hunter Parrish, Leslie Mann, Matthew Perry, Melora Hardin, Michelle Trachtenberg, Sterling Knight, Thomas Lennon, Zac Efron","Comedy, Drama, Family, Fantasy, Romance",102
 ,,52,772,mortdecai,David Koepp,2015,"Ewan McGregor, Gwyneth Paltrow, Jeff Goldblum, Johnny Depp, Olivia Munn, Paul Bettany","Adventure, Comedy",106
-1040,,,2655,A Serious Man,"Ethan Coen, Joel",2009,"Adam Arkin, Fred Melamed, Fyvush Finkel, Michael Stuhlbarg, Richard Kind, Sari Lennick","Comedy, Drama",106
+1040,,,2655,a serious man,"Ethan Coen, Joel",2009,"Adam Arkin, Fred Melamed, Fyvush Finkel, Michael Stuhlbarg, Richard Kind, Sari Lennick","Comedy, Drama",105
 247,244,,1922,Sparkle,Salim Akil,2012,"Carmen Ejogo, Cee Lo Green, Derek Luke, Jordin Sparks, Mike Epps, Omari Hardwick, Tika Sumpter, Whitney Houston","Drama, Music",116
 ,,46,663,kidnapping mr. heineken,Daniel Alfredson,2015,"Anthony Hopkins, Jim Sturgess, Mark van Eeuwen, Ryan Kwanten, Sam Worthington, Thomas Cocquerel","Action, Crime, Drama, Thriller",95
 143,141,963,,For the Love of Money,Ellie Kanner,2012,"Edward Furlong, Jeffrey Tambor, Jonathan Lipnicki","Action, Crime, Drama, Thriller",93
@@ -1540,24 +1540,24 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 ,,1218,2228,attack the block,Joe Cornish,2011,"Alex Esmail, Jodie Whittaker, John Boyega, Luke Treadaway, Nick Frost, Simon Howard","Action, Comedy, Foreign, Science Fiction",88
 2848,2600,,1272,McCanick,Josh C. Waller,2014,"Ciarán Hinds, Cory Monteith, David Morse, Mike Vogel, Rachel Nichols, Trevor Morgan","Crime, Drama, Mystery, Thriller",96
 2151,1897,,328,Failure to Launch,Tom Dey,2006,"Bradley Cooper, Justin Bartha, Kathy Bates, Matthew McConaughey, Sarah Jessica Parker, Terry Bradshaw, Tyrell Jackson Williams, Zooey Deschanel","Comedy, Romance",97
-2632,,,1704,42,Brian Helgeland,2013,"Chadwick Boseman, Christopher Meloni, Harrison Ford, John C. McGinley, Jon Bernthal, T.R. Knight","Biography, Drama, Sport",115
+2632,,,1704,42,Brian Helgeland,2013,"Chadwick Boseman, Christopher Meloni, Harrison Ford, John C. McGinley, Jon Bernthal, T.R. Knight","Biography, Drama, Sport",128
 ,,334,1244,gulaab gang,Soumik Sen,2014,"Juhi Chawla, Madhuri Dixit, Priyanka Bose","Action, Drama",139
 2129,1878,,227,The Devil and Daniel Johnston,Jeff Feuerzeig,2006,"Bill Johnston, Gibby Haynes, Jad Fair, Jeff Tartakov, Kathy McCarty, Louis Black","Biography, Documentary, Indie, Music",110
-2419,,,3184,wristcutters: a love story,Goran Dukic,2007,"Patrick Fugit, Shannyn Sossamon, Shea Whigham, Tom Waits","Comedy, Drama, Fantasy, Indie, Romance",88
+2419,,,3184,Wristcutters: A Love Story,Goran Dukic,2007,"Patrick Fugit, Shannyn Sossamon, Shea Whigham, Tom Waits","Comedy, Drama, Fantasy, Indie, Romance",88
 ,,207,1316,jack ryan: shadow recruit,Kenneth Branagh,2014,"Chris Pine, Gemma Chan, Keira Knightley, Kenneth Branagh, Kevin Costner, Nonso Anozie","Action, Drama, Thriller",105
 ,2733,,733,annie,Will Gluck,2014,"Adewale Akinnuoye-Agbaje, Cameron Diaz, Jamie Foxx, Quvenzhané Wallis, Rose Byrne","Comedy, Drama, Music",118
 1455,1264,,2673,The Grey Zone,Tim Blake Nelson,2002,"Allan Corduner, Daniel Benzali, David Arquette, David Chandler, Harvey Keitel, Mira Sorvino, Natasha Lyonne, Steve Buscemi, Velizar Binev","Drama, History, War",108
 2593,2366,,6,Superbad,Greg Mottola,2007,"Bill Hader, Christopher Mintz-Plasse, Emma Stone, Jonah Hill, Michael Cera, Seth Rogen",Comedy,113
 813,755,,2900,Role Models,David Wain,2008,"Bobb'e J. Thompson, Christopher Mintz-Plasse, Elizabeth Banks, Jane Lynch, Paul Rudd, Seann William Scott",Comedy,99
-2512,,,3063,mr. magorium's wonder emporium,Zach Helm,2007,"Dustin Hoffman, Jason Bateman, Natalie Portman, Zach Mills","Comedy, Family, Fantasy, Science Fiction",93
+2512,,,3063,Mr. Magorium's Wonder Emporium,Zach Helm,2007,"Dustin Hoffman, Jason Bateman, Natalie Portman, Zach Mills","Comedy, Family, Fantasy, Science Fiction",93
 2337,2058,,243,RV,Barry Sonnenfeld,2006,"Cheryl Hines, Chloe Sonnenfeld, Hunter Parrish, Jeff Daniels, Joanna ""JoJo"" Levesque, Josh Hutcherson, Kristin Chenoweth, Robin Williams","Adventure, Comedy, Family",99
 ,2483,,1755,emperor,Peter Webber,2013,"Colin Moy, Eriko Hatsune, Matthew Fox, Takataro Kataoka, Tommy Lee Jones",Drama,105
 736,688,,2935,Hamlet 2,Andrew Fleming,2008,"Amy Poehler, Catherine Keener, David Arquette, Elisabeth Shue, Joseph Julian Soria, Shea Pepe, Skylar Astin, Steve Coogan","Comedy, Music",92
 683,638,,2828,Bedtime Stories,Adam Shankman,2008,"Adam Sandler, Courteney Cox, Guy Pearce, Jonathan Morgan Heit, Keri Russell, Laura Ann Kesling, Richard Griffiths, Russell Brand","Comedy, Family, Fantasy, Romance, Science Fiction",99
 2459,2243,,119,Hot Rod,Akiva Schaffer,2007,"Andy Samberg, Bill Hader, Danny McBride, Ian McShane, Isla Fisher, Jorma Taccone, Sissy Spacek, Will Arnett","Action, Comedy",88
 2752,2515,,1520,Gravity,Alfonso Cuarón,2013,"Basher Savage, Ed Harris, George Clooney, Sandra Bullock","Drama, Sci-Fi, Science Fiction, Thriller",91
-2623,2391,,143,You Kill Me,John Dahl,2007,"Ben Kingsley, Bill Pullman, Dennis Farina, Luke Wilson, Tea Leoni","Action, Comedy, Crime, Romance, Thriller",90
-2232,1969,,61,John Tucker Must Die,Betty Thomas,2006,"Arrielle Kebbel, Ashanti, Brittany Snow, Fatso-Fasano, Jenny McCarthy, Jesse Metcalfe, Penn Badgley, Sophia Bush","Comedy, Family, Romance",89
+2623,2391,,143,You Kill Me,John Dahl,2007,"Ben Kingsley, Bill Pullman, Dennis Farina, Luke Wilson, Téa Leoni","Action, Comedy, Crime, Romance, Thriller",93
+2232,1969,,61,John Tucker Must Die,Betty Thomas,2006,"Arielle Kebbel, Ashanti, Brittany Snow, Fatso-Fasano, Jenny McCarthy, Jesse Metcalfe, Penn Badgley, Sophia Bush","Comedy, Family, Romance",89
 2860,2610,,1683,Now You See Me,Louis Leterrier,2013,"Common, Dave Franco, Isla Fisher, Jesse Eisenberg, Mark Ruffalo, Michael Caine, Morgan Freeman, Mélanie Laurent, Woody Harrelson","Crime, Mystery, Thriller",115
 2545,,,967,Pride,Matthew Warchus,2014,"Andrew Scott, Bill Nighy, Dominic West, George MacKay, Imelda Staunton, Paddy Considine","Biography, Comedy, Drama, History",119
 197,,,1835,The Master,Paul Thomas Anderson,2012,"Amy Adams, Christopher Evan Welch, Joaquin Phoenix, Laura Dern, Patty McCormack, Philip Seymour Hoffman","Action, Drama, Foreign",144
@@ -1566,7 +1566,7 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 1992,1757,,303,The Three Burials of Melquiades Estrada,Tommy Lee Jones,2006,"Barry Pepper, Dwight Yoakam, January Jones, Julio Cedillo, Melissa Leo, Tommy Lee Jones","Action, Adventure, Crime, Drama, Mystery, Thriller, Western",121
 500,475,,,Born to Be Wild,David Lickley,2011,"Birute Galdikas, Daphne Sheldrick, Morgan Freeman","Adventure, Documentary, Short",40
 83,83,,,Chimpanzee,Alastair Fothergill,2012,Tim Allen,Documentary,78
-1012,812,,2631,Nine,Rob Marshall,2009,"Daniel Day-Lewis, Fergie, Judi Dench, Kate Hudson, Marion Cotillard, Nicole Kidman, Penélope Cruz, Sophia Loren","Action, Adventure, Comedy, Drama, Musical, Romance, Science Fiction",118
+1012,812,,2631,Nine,Rob Marshall,2009,"Daniel Day-Lewis, Fergie, Judi Dench, Kate Hudson, Marion Cotillard, Nicole Kidman, Penelope Cruz, Sophia Loren","Action, Adventure, Comedy, Drama, Music, Romance, Science Fiction",112
 340,329,,2390,Get Him to the Greek,Nicholas Stoller,2010,"Colm Meaney, Elisabeth Moss, Jonah Hill, Rose Byrne, Russell Brand, Sean Combs","Comedy, Music",109
 1135,,,3120,cassandra's dream,Woody Allen,2008,"Colin Farrell, Ewan McGregor, Hayley Atwell, John Benfield, Sally Hawkins, Tom Wilkinson","Crime, Drama, Romance, Thriller",108
 256,252,,2032,Think Like a Man,Tim Story,2012,"Chris Brown, Gabrielle Union, Kevin Hart, Meagan Good, Regina Hall, Taraji P. Henson","Comedy, Romance",122
@@ -1578,44 +1578,44 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 448,,,2370,stone,John Curran,2010,"Edward Norton, Enver Gjokaj, Frances Conroy, Milla Jovovich, Pepper Binkley, Robert De Niro","Crime, Drama, Mystery, Suspense, Thriller",105
 1087,,,3156,3:10 to yuma,James Mangold,2007,"Alan Tudyk, Ben Foster, Christian Bale, Gretchen Mol, Peter Fonda, Russell Crowe","Action, Adventure, Crime, Drama, Suspense, Thriller, Western",122
 ,,1175,2162,the adventures of tintin,Steven Spielberg,2011,"Andy Serkis, Daniel Craig, Jamie Bell, Nick Frost, Simon Pegg, Toby Jones","Action, Adventure, Animation, Family",107
-549,,,2356,Hall Pass,Bobby Farrelly,2011,"Christina Applegate, Jason Sudeikis, Jenna Fischer, Nicky Whelan, Owen Wilson, Richard Jenkins","Comedy, Romance",105
+549,,,2356,hall pass,Bobby Farrelly,2011,"Christina Applegate, Jason Sudeikis, Jenna Fischer, Nicky Whelan, Owen Wilson, Richard Jenkins","Comedy, Romance",105
 2736,2501,,1467,Free Birds,Jimmy Hayward,2013,"Amy Poehler, Colm Meaney, Dan Fogler, David S. Lee, George Takei, Lesley Nicol, Owen Wilson, Woody Harrelson","Adventure, Animation, Comedy, Family",91
 483,460,,,African Cats,Alastair Fothergill,2011,"Patrick Stewart, Samuel L. Jackson","Adventure, Documentary",89
 2857,2607,,1666,Mud,Jeff Nichols,2013,"Jacob Lofland, Matthew McConaughey, Michael Shannon, Reese Witherspoon, Sam Shepard, Tye Sheridan",Drama,130
-2504,2284,,144,A Mighty Heart,Michael Winterbottom,2007,"Angelina Jolie, Archie Panjabi, Dan Futterman, Denis O'Hare, Irrfan Khan, Will Patton","Biography, Drama, History, Indie, Thriller, War",100
+2504,2284,,144,A Mighty Heart,Michael Winterbottom,2007,"Angelina Jolie, Archie Panjabi, Dan Futterman, Denis O'Hare, Irrfan Khan, Will Patton","Biography, Drama, History, Indie, Thriller, War",108
 1836,1611,,272,Cheaper by the Dozen 2,Adam Shankman,2005,"Bonnie Hunt, Carmen Electra, Eugene Levy, Hilary Duff, Piper Perabo, Steve Martin","Adventure, Comedy, Family",105
 ,3120,,371,a walk in the woods,Ken Kwapis,2015,"Emma Thompson, Kristen Schaal, Nick Nolte, Nick Offerman, Robert Redford","Adventure, Comedy, Drama",104
-527,,,2277,drive,Nicolas Winding Refn,2011,"Albert Brooks, Bryan Cranston, Carey Mulligan, Oscar Isaac, Ron Perlman, Ryan Gosling","Action, Crime, Drama, Thriller",100
+527,,,2277,Drive,Nicolas Winding Refn,2011,"Albert Brooks, Bryan Cranston, Carey Mulligan, Oscar Isaac, Ron Perlman, Ryan Gosling","Action, Crime, Drama, Thriller",100
 ,,237,1233,pompeii,Paul W.S. Anderson,2014,"Carrie-Anne Moss, Emily Browning, Jared Harris, Kiefer Sutherland, Kit Harington, Rebecca Eady","Action, Adventure, Disaster, Drama, History, Mystery",105
-186,184,,1784;1873,the loneliest planet,Julia Loktev,2013,"Bidzina Gujabidze, Gael Garcia Bernal, Hani Furstenberg","Drama, Thriller",113
-1081,1001,,2759,X-Men Origins: Wolverine,Gavin Hood,2009,"Danny Huston, Hugh Jackman, Liev Schreiber, Lynn Collins, Ryan Reynolds, will.i.am","Action, Adventure, Fantasy, Sci-Fi, Science Fiction, Thriller",107
-787,732,,2817,Nothing Like the Holidays,Alfredo de Villa,2008,"Alfred Molina, Debra Messing, Elizabeth Pena, Freddy Rodriguez, Jay Hernandez, John Leguizamo, Luis Guzman, Melonie Diaz","Comedy, Drama, Indie, Romance",98
+186,184,,1873;1784,the loneliest planet,Julia Loktev,2013,"Bidzina Gujabidze, Gael Garcia Bernal, Hani Furstenberg","Drama, Thriller",113
+1081,1001,,2759,x-men origins: wolverine,Gavin Hood,2009,"Danny Huston, Hugh Jackman, Liev Schreiber, Lynn Collins, Ryan Reynolds, will.i.am","Action, Adventure, Fantasy, Sci-Fi, Science Fiction, Thriller",107
+787,732,,2817,Nothing Like the Holidays,Alfredo Rodriguez de Villa,2008,"Alfred Molina, Debra Messing, Elizabeth Pena, Freddy Rodriguez, Jay Hernandez, John Leguizamo, Luis Guzman, Melonie Diaz","Comedy, Drama, Indie, Romance",98
 244,241,,1828,Smashed,James Ponsoldt,2012,"Aaron Paul, Mary Elizabeth Winstead, Mary Kay Place, Megan Mullally, Nick Offerman, Octavia Spencer",Drama,81
 4,3,,,28 Hotel Rooms,Matt Ross,2012,"Chris Messina, Marin Ireland, Robert Deamer",Drama,82
 ,2700,,554,24 days,Alexandre Arcady,2015,"Jacques Gamblin, Pascal Elbé, Sylvie Testud, Zabou Breitman, Éric Caravaca","Drama, Thriller",110
 18,20,,2023,American Reunion,"Hayden Schlossberg, Jon Hurwitz",2012,"Alyson Hannigan, Chris Klein, Eugene Levy, Jason Biggs, Jennifer Coolidge, Seann William Scott","Comedy, Romance",113
-834,778,,3049,The Strangers,Bryan Bertino,2008,"Gemma Ward, Glenn Howerton, Kip Weeks, Laura Margolis, Liv Tyler, Scott Speedman","Horror, Mystery, Thriller",90
-977,,,2703,Jennifer's Body,Karyn Kusama,2009,"Adam Brody, Amanda Seyfried, Amy Sedaris, J.K. Simmons, Johnny Simmons, Megan Fox","Comedy, Horror",102
-980,,,2787,Knowing,Alex Proyas,2009,"Chandler Canterbury, Lara Robinson, Nadia Townsend, Nicolas Cage, Phil Beckman, Rose Byrne","Action, Adventure, Drama, Horror, Mystery, Sci-Fi, Science Fiction, Suspense, Thriller",121
+834,778,,3049,The Strangers,Bryan Bertino,2008,"Gemma Ward, Glenn Howerton, Kip Weeks, Laura Margolis, Liv Tyler, Scott Speedman","Horror, Mystery, Thriller",86
+977,,,2703,jennifer's body,Karyn Kusama,2009,"Adam Brody, Amanda Seyfried, Amy Sedaris, J.K. Simmons, Johnny Simmons, Megan Fox","Comedy, Horror",100
+980,,,2787,knowing,Alex Proyas,2009,"Chandler Canterbury, Lara Robinson, Nadia Townsend, Nicolas Cage, Phil Beckman, Rose Byrne","Action, Adventure, Drama, Horror, Mystery, Sci-Fi, Science Fiction, Suspense, Thriller",121
 ,,232,1038,persecuted,Daniel Lusko,2014,"Brad Stine, Bruce Davison, Dean Stockwell, Fred Thompson, James Remar, Natalie Grant","Action, Adventure, Drama, Thriller",91
 2809,2566,,1605,Jug Face,Chad Crawford Kinkle,2013,"Kaitlin Cullum, Katie Groshong, Lauren Ashley Carter, Scott Hodges, Sean Bridgers, Sean Young","Drama, Horror, Thriller",81
 16,18,903,,The Amazing Adventures of the Living Corpse,Justin Paul Ritter,2012,"Lee Perkins, Maria Olsen, Marshal Hilton","Action, Animation, Fantasy, Horror",88
 2357,2075,,79,Shortbus,John Cameron Mitchell,2006,"Jay Brannan, PJ DeBoy, Paul Dawson, Peter Stickles, Raphael Barker, Sook-Yin Lee","Comedy, Drama, Indie, Romance",101
-734,686,,2956,Ghost Town,David Koepp,2008,"Billy Campbell, Dana Ivey, Greg Kinnear, Ricky Gervais, Tea Leoni","Comedy, Drama, Fantasy, Romance",102
-2654,,,1049,beneath,Ben Ketai,2014,"Brent Briscoe, Eric Etebari, Jeff Fahey, Joey Kern, Kelly Noonan, Kurt Caceres",Horror,89
+734,686,,2956,Ghost Town,David Koepp,2008,"Billy Campbell, Dana Ivey, Greg Kinnear, Ricky Gervais, Téa Leoni","Comedy, Drama, Fantasy, Romance",102
+2654,,,1049,Beneath,Ben Ketai,2014,"Brent Briscoe, Eric Etebari, Jeff Fahey, Joey Kern, Kelly Noonan, Kurt Caceres",Horror,89
 599,561,,2256,One Day,Lone Scherfig,2011,"Anne Hathaway, Jim Sturgess, Jodie Whittaker, Patricia Clarkson, Rafe Spall, Romola Garai","Drama, Romance",107
 646,607,,2180,Texas Killing Fields,Ami Canaan Mann,2011,"Annabeth Gish, Chloe Grace Moretz, Jason Clarke, Jeffrey Dean Morgan, Jessica Chastain, Sam Worthington, Sheryl Lee, Stephen Graham","Crime, Drama, History, Horror, Mystery, Thriller",105
 289,,,2334,Blue Valentine,Derek Cianfrance,2011,"Faith Wladyka, John Doman, Maryann Plunkett, Michelle Williams, Mike Vogel, Ryan Gosling","Drama, Indie, Romance",112
-1060,,,2685,the time traveler's wife,Robert Schwentke,2009,"Arliss Howard, Brooklynn Proulx, Eric Bana, Rachel McAdams, Ron Livingston, Stephen Tobolowsky","Drama, Fantasy, Romance, Sci-Fi, Science Fiction",107
+1060,,,2685,The Time Traveler's Wife,Robert Schwentke,2009,"Arliss Howard, Brooklynn Proulx, Eric Bana, Rachel McAdams, Ron Livingston, Stephen Tobolowsky","Drama, Fantasy, Romance, Sci-Fi, Science Fiction",107
 1124,2169,,3160,The Brave One,Neil Jordan,2007,"Jane Adams, Jodie Foster, Mary Steenburgen, Naveen Andrews, Nicky Katt, Terrence Howard","Action, Crime, Drama, Thriller",122
 360,346,,2360,I Love You Phillip Morris,"Glenn Ficarra, John Requa",2010,"Ewan McGregor, Jim Carrey, Leslie Mann, Michael Mandel, Rodrigo Santoro","Action, Biography, Comedy, Crime, Drama, Romance",98
 858,802,,2883,what just happened,Barry Levinson,2008,"Catherine Keener, John Turturro, Kristen Stewart, Robert De Niro, Robin Wright Penn, Stanley Tucci","Comedy, Drama, Indie",104
-2049,,,172,ask the dust,Robert Towne,2006,"Colin Farrell, Donald Sutherland, Eileen Atkins, Idina Menzel, Justin Kirk, Salma Hayek","Drama, Romance",117
-469,,,2408,Winter's Bone,Debra Granik,2010,"Dale Dickey, Garret Dillahunt, Jennifer Lawrence, John Hawkes, Kevin Breznahan, Sheryl Lee",Drama,100
+2049,,,172,Ask the Dust,Robert Towne,2006,"Colin Farrell, Donald Sutherland, Eileen Atkins, Idina Menzel, Justin Kirk, Salma Hayek","Drama, Romance",117
+469,,,2408,winter's bone,Debra Granik,2010,"Dale Dickey, Garret Dillahunt, Jennifer Lawrence, John Hawkes, Kevin Breznahan, Sheryl Lee",Drama,100
 1083,,,2659,Zombieland,Ruben Fleischer,2009,"Abigail Breslin, Amber Heard, Emma Stone, Jesse Eisenberg, Mike White, Woody Harrelson","Action, Adventure, Comedy, Horror",88
 645,606,,2285,Take Shelter,Jeff Nichols,2011,"Jessica Chastain, Kathy Baker, Lisa Gay Hamilton, Michael Shannon, Ray McKinnon, Robert Longstreet, Shea Whigham, Tova Stewart","Drama, Thriller",120
-866,808,,2720,(500) Days of Summer,Marc Webb,2009,"Chloe Grace Moretz, Clark Gregg, Geoffrey Arend, Joseph Gordon-Levitt, Matthew Gray Gubler, Minka Kelly, Rachel Boston, Zooey Deschanel","Comedy, Drama, Indie, Romance",95
-2714,,,1757,don't stop believing: everyman's journey,Ramona S. Diaz,2013,"Arnel Pineda, Deen Castronovo, Jonathan Cain, Neal Schon, Ross Valory","Documentary, Music",90
+866,808,,2720,(500) days of summer,Marc Webb,2009,"Chloe Grace Moretz, Clark Gregg, Geoffrey Arend, Joseph Gordon-Levitt, Matthew Gray Gubler, Minka Kelly, Rachel Boston, Zooey Deschanel","Comedy, Drama, Indie, Romance",95
+2714,,,1757,Don't Stop Believin': Everyman's Journey,Ramona S. Diaz,2013,"Arnel Pineda, Deen Castronovo, Jonathan Cain, Neal Schon, Ross Valory","Documentary, Music",105
 ,2932,3413,,The Big Hit,Kirk Wong,1998,"Bokeem Woodbine, Christina Applegate, Lou Diamond Phillips, Mark Wahlberg","Action, Comedy, Crime",91
 873,,,2517,After.Life,Agnieszka Wojtowicz-Vosloo,2010,"Celia Weston, Chandler Canterbury, Christina Ricci, Josh Charles, Justin Long, Liam Neeson","Documentary, Drama, Horror, Mystery, Thriller",104
 2941,2689,,,Superman: Unbound,James Tucker,2013,"John Noble, Matt Bomer, Stana Katic","Action, Adventure, Animation",75
@@ -1651,8 +1651,8 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 2160,1905,,310,Firewall,Richard Loncraine,2006,"Alan Arkin, Carly Schroeder, Harrison Ford, Jimmy Bennett, Mary Lynn Rajskub, Paul Bettany, Robert Forster, Robert Patrick, Virginia Madsen","Action, Crime, Drama, Thriller",105
 ,2691,,588,testament of youth,James Kent,2015,"Alicia Vikander, Anna Chancellor, Colin Morgan, Dominic West, Emily Watson, Hayley Atwell, Kit Harington, Miranda Richardson, Taron Egerton","Drama, History, War",129
 589,554,,2179,Margin Call,J.C. Chandor,2011,"Demi Moore, Jeremy Irons, Kevin Spacey, Mary McDonnell, Paul Bettany, Penn Badgley, Simon Baker, Stanley Tucci, Zachary Quinto","Drama, Suspense, Thriller",107
-42,43,,1953,Battleship,Peter Berg,2012,"Alexander Skarsgard, Brooklyn Decker, Hamish Linklater, Liam Neeson, Rihanna, Taylor Kitsch","Action, Adventure, Sci-Fi, Science Fiction, Thriller, War",131
-2889,,,1526,prisoners,Denis Villeneuve,2013,"Hugh Jackman, Jake Gyllenhaal, Maria Bello, Melissa Leo, Paul Dano, Terrence Howard, Viola Davis","Crime, Drama, Mystery, Thriller",146
+42,43,,1953,Battleship,Peter Berg,2012,"Alexander Skarsgård, Brooklyn Decker, Hamish Linklater, Liam Neeson, Rihanna, Taylor Kitsch","Action, Adventure, Sci-Fi, Science Fiction, Thriller, War",131
+2889,,,1526,Prisoners,Denis Villeneuve,2013,"Hugh Jackman, Jake Gyllenhaal, Maria Bello, Melissa Leo, Paul Dano, Terrence Howard, Viola Davis","Crime, Drama, Mystery, Thriller",153
 ,218,,2041,rampart,Oren Moverman,2012,"Anne Heche, Cynthia Nixon, Ice Cube, Robin Wright, Sigourney Weaver, Woody Harrelson","Action, Drama, Thriller",108
 415,397,,2522,The Perfect Game,William Dear,2010,"Cheech Marin, Clifton Collins Jr., Jake T. Austin, Louis Gossett Jr., Moises Arias, Ricardo Trevino, Ryan Ochoa","Comedy, Drama, Family, Sport, Sports Film",118
 2914,2661,,1338,the secret life of walter mitty,Ben Stiller,2013,"Adam Scott, Ben Stiller, Jon Daly, Kathryn Hahn, Kristen Wiig, Patton Oswalt, Terence Bernie Hines","Adventure, Comedy, Drama, Fantasy",114
@@ -1663,19 +1663,19 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 ,,209,1019,hercules,Brett Ratner,2014,"Aksel Hennie, Dwayne Johnson, Ian McShane, Ingrid Bolsø Berdal, John Hurt, Joseph Fiennes, Rufus Sewell","Action, Adventure",98
 ,2177,,429,captive,Jerry Jameson,2015,"David Oyelowo, E. Roger Mitchell, Kate Mara, Leonor Varela, Michael Kenneth Williams, Mimi Rogers","Crime, Drama, Thriller",97
 234,231,,1987,Safety Not Guaranteed,Colin Trevorrow,2012,"Aubrey Plaza, Jake Johnson, Jeff Garlin, Jenica Bergere, Karan Soni, Mark Duplass, Mary Lynn Rajskub","Comedy, Drama, Romance",86
-1525,,,95,perfume: the story of a murderer,Tom Tykwer,2007,"Alan Rickman, Ben Whishaw, David Calder, Dustin Hoffman, John Hurt, Karoline Herfurth, Rachel Hurd-Wood","Crime, Drama, Fantasy, Foreign",147
-77,77,,1945,Celeste & Jesse Forever,Lee Toland Krieger,2012,"Andy Samberg, Ari Graynor, Elijah Wood, Eric Christian Olsen, Rashida Jones, Will McCormack","Comedy, Drama, Romance",92
+1525,,,95,Perfume: The Story of a Murderer,Tom Tykwer,2007,"Alan Rickman, Ben Whishaw, David Calder, Dustin Hoffman, John Hurt, Karoline Herfurth, Rachel Hurd-Wood","Crime, Drama, Fantasy, Foreign",147
+77,77,,1945,celeste and jesse forever,Lee Toland Krieger,2012,"Andy Samberg, Ari Graynor, Elijah Wood, Eric Christian Olsen, Rashida Jones, Will McCormack","Comedy, Drama, Romance",91
 2127,1876,,1103,Deliver Us from Evil,Scott Derrickson,2014,"Chris Coy, Dorian Missick, Edgar Ramirez, Eric Bana, Joel McHale, Olivia Munn","Crime, Horror, Mystery, Thriller",118
-1526,,,1099,snowpiercer,Joon-ho Bong,2014,"Alison Pill, Chris Evans, Ewen Bremner, Jamie Bell, John Hurt, Octavia Spencer, Tilda Swinton","Action, Drama, Sci-Fi, Science Fiction, Thriller",126
+1526,,,1099,Snowpiercer,Joon-ho Bong,2014,"Alison Pill, Chris Evans, Ewen Bremner, Jamie Bell, John Hurt, Octavia Spencer, Tilda Swinton","Action, Drama, Sci-Fi, Science Fiction, Thriller",126
 ,1881,,618,the 100-year-old man who climbed out the window and disappeared,Felix Herngren,2015,"David Wiberg, Iwar Wiklander, Jens Hultén, Mia Skäringer, Robert Gustafsson, Sven Lönn","Adventure, Comedy, Drama",114
 ,,1898,2990,hell ride,Larry Bishop,2008,"Dennis Hopper, Eric Balfour, Julia Jones, Larry Bishop, Leonor Varela, Michael Madsen, Vinnie Jones","Action, Indie, Thriller",84
 2210,1949,,3158,The Hottest State,Ethan Hawke,2007,"Catalina Sandino Moreno, Ethan Hawke, Frank Whaley, Jesse Harris, Laura Linney, Mark Webber, Sonia Braga","Drama, Indie, Music, Romance",117
 566,531,,2283,The Ides of March,George Clooney,2011,"Evan Rachel Wood, George Clooney, Jeffrey Wright, Marisa Tomei, Paul Giamatti, Philip Seymour Hoffman, Ryan Gosling","Drama, Thriller",101
-2971;2972,2716;2715,,1695,Wrong Cops,Quentin Dupieux,2013,"Alexis Dziena, Eric Judor, Jack Plotnick, Mark Burnham, Steve Little","Comedy, Drama",94
+2972;2971,2716;2715,,1695,Wrong Cops,Quentin Dupieux,2013,"Alexis Dziena, Eric Judor, Jack Plotnick, Mark Burnham, Steve Little","Comedy, Drama",94
 1131,2176,,3095,The Bucket List,Rob Reiner,2008,"Alfonso Freeman, Beverly Todd, Jack Nicholson, Morgan Freeman, Rob Morrow, Rowena King, Sean Hayes","Adventure, Comedy, Drama",97
 191,,,1968,magic mike,Steven Soderbergh,2012,"Alex Pettyfer, Channing Tatum, James Martin Kelly, Kevin Nash, Matt Bomer, Matthew McConaughey, Olivia Munn","Comedy, Drama",110
-1142,,,3170,Control,Anton Corbijn,2007,"Alexandra Maria Lara, Craig Parkinson, James Anthony Pearson, Joe Anderson, Sam Riley, Samantha Morton, Toby Kebbell","Biography, Drama, Foreign, Indie, Music",122
-1160,,,3067,Enchanted,Kevin Lima,2007,"Amy Adams, Idina Menzel, James Marsden, Julie Andrews, Patrick Dempsey, Susan Sarandon, Timothy Spall","Animation, Comedy, Family, Fantasy, Musical, Romance, Science Fiction",107
+1142,,,3170,control,Anton Corbijn,2007,"Alexandra Maria Lara, Craig Parkinson, James Anthony Pearson, Joe Anderson, Sam Riley, Samantha Morton, Toby Kebbell","Biography, Drama, Foreign, Indie, Music",121
+1160,,,3067,enchanted,Kevin Lima,2007,"Amy Adams, Idina Menzel, James Marsden, Julie Andrews, Patrick Dempsey, Susan Sarandon, Timothy Spall","Animation, Comedy, Family, Fantasy, Musical, Romance, Science Fiction",107
 ,,1219,2265,5 days of war,Renny Harlin,2011,"Andy Garcia, Emmanuelle Chriqui, Heather Graham, Johnathon Schaech, Richard Coyle, Rupert Friend, Val Kilmer","Action, Comedy, Drama, Romance, Thriller",113
 2811,,,1343,Justin Bieber's Believe,Jon M. Chu,2013,"Jeremy Bieber, Justin Bieber, Mike Posner, Pattie Mallette, Ryan Good, Scooter Braun, Usher","Documentary, Music",92
 2158,,,309,Final Destination 3,James Wong,2006,"Alexz Johnson, Gina Holden, Kris Lemche, Mary Elizabeth Winstead, Ryan Merriman, Sam Easton, Texas Battle","Horror, Thriller",93
@@ -1683,19 +1683,19 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 2679,2450,914,1772,Bullet to the Head,Walter Hill,2013,"Adewale Akinnuoye-Agbaje, Christian Slater, Jason Momoa, Jon Seda, Sarah Shahi, Sung Kang, Sylvester Stallone","Action, Crime, Thriller",92
 ,,370,745,a most violent year,J.C. Chandor,2014,"Albert Brooks, Alessandro Nivola, Catalina Sandino Moreno, David Oyelowo, Elyes Gabel, Jessica Chastain, Oscar Isaac","Action, Crime, Drama, Thriller",125
 215,,,1843,pitch perfect,Jason Moore,2012,"Alexis Knapp, Anna Camp, Anna Kendrick, Ben Platt, Brittany Snow, Rebel Wilson, Skylar Astin","Comedy, Music, Romance",112
-676,632,,2937,Appaloosa,Ed Harris,2008,"Ed Harris, Jeremy Irons, Lance Henriksen, Renée Zellweger, Timothy Spall, Viggo Mortensen","Action, Crime, Drama, Western",115
-2110,,,311,curious george,Matthew O'Callaghan,2006,"David Cross, Dick Van Dyke, Drew Barrymore, Eugene Levy, Frank Welker, Joan Plowright, Will Ferrell","Adventure, Animation, Comedy, Family",86
+676,632,,2937,Appaloosa,Ed Harris,2008,"Ed Harris, Jeremy Irons, Lance Henriksen, Renee Zellweger, Timothy Spall, Viggo Mortensen","Action, Crime, Drama, Western",115
+2110,,,311,Curious George,Matthew O'Callaghan,2006,"David Cross, Dick Van Dyke, Drew Barrymore, Eugene Levy, Frank Welker, Joan Plowright, Will Ferrell","Adventure, Animation, Comedy, Family",86
 2937,2685,,1798,Struck by Lightning,Brian Dannelly,2013,"Allison Janney, Angela Kinsey, Chris Colfer, Christina Hendricks, Dermot Mulroney, Polly Bergen, Rebel Wilson","Comedy, Drama",90
 2888,2637,,1608,Prince Avalanche,David Gordon Green,2013,"Emile Hirsch, Gina Grande, Joyce Payne, Lance LeGault, Larry Kretchmar, Lynn Shelton, Paul Rudd","Comedy, Drama",94
 2353,2072,,334,The Shaggy Dog,Brian Robbins,2006,"Craig Kilborn, Danny Glover, Jane Curtin, Kristin Davis, Robert Downey Jr., Shawn Pyfrom, Tim Allen, Zena Grey","Comedy, Family, Fantasy",98
 ,,219,1159,brick mansions,Camille Delamarre,2014,"Ayisha Issa, Carlo Rota, Catalina Denis, David Belle, Paul Walker, RZA, Robert Maillet","Action, Crime",90
-317,,,2430,Despicable Me,"Chris Renaud, Pierre Coffin",2010,"Jason Segel, Julie Andrews, Kristen Wiig, Miranda Cosgrove, Russell Brand, Steve Carell, Will Arnett","Animation, Comedy, Family",95
+317,,,2430,despicable me,"Chris Renaud, Pierre Coffin",2010,"Jason Segel, Julie Andrews, Kristen Wiig, Miranda Cosgrove, Russell Brand, Steve Carell, Will Arnett","Animation, Comedy, Family",95
 178,176,,1882,A Late Quartet,Yaron Zilberman,2012,"Anne-Sofie von Otter, Catherine Keener, Christopher Walken, Imogene Poots, Madhur Jaffrey, Mark Ivanir, Philip Seymour Hoffman","Drama, Music",105
 ,208,,1971,people like us,Alex Kurtzman,2012,"Chris Pine, Elizabeth Banks, Jon Favreau, Michelle Pfeiffer, Olivia Wilde, Philip Baker Hall",Drama,114
 991,922,,2757,Lymelife,Derick Martini,2009,"Alec Baldwin, Cynthia Nixon, Emma Roberts, Jill Hennessy, Kieran Culkin, Rory Culkin, Timothy Hutton","Comedy, Drama, Indie, Romance",95
 825,768,,3013,Space Chimps,Kirk De Micco,2008,"Andy Samberg, Cheryl Hines, Jane Lynch, Jeff Daniels, Kristin Chenoweth, Patrick Warburton, Stanley Tucci","Adventure, Animation, Comedy, Family, Sci-Fi",81
 1264,1089,,,The Ladies Man,Reginald Hudlin,2000,"Billy Dee Williams, Karyn Parsons, Tim Meadows",Comedy,84
-2144,,,319,Eight Below,Frank Marshall,2006,"August Schellenberg, Bruce Greenwood, Gerard Plunkett, Jason Biggs, Moon Bloodgood, Paul Walker, Wendy Crewson","Adventure, Drama, Family",120
+2144,,,319,eight below,Frank Marshall,2006,"August Schellenberg, Bruce Greenwood, Gerard Plunkett, Jason Biggs, Moon Bloodgood, Paul Walker, Wendy Crewson","Adventure, Drama, Family",120
 64,,,1994,brave,"Brenda Chapman, Mark Andrews",2012,"Billy Connolly, Craig Ferguson, Emma Thompson, Julie Walters, Kelly MacDonald, Kevin McKidd, Robbie Coltrane","Action, Adventure, Animation, Comedy, Family, Fantasy",93
 2927,2674,,1594,The Spectacular Now,James Ponsoldt,2013,"Brie Larson, Jennifer Jason Leigh, Kaitlyn Dever, Kyle Chandler, Mary Elizabeth Winstead, Miles Teller, Shailene Woodley","Comedy, Drama, Romance",95
 ,2936,106,381,dragon blade,Daniel Lee,2015,"Adrien Brody, Jackie Chan, John Cusack, Max Huang, Peng Lin, Sharni Vinson, Si Won Choi","Action, Adventure, Drama, History",127
@@ -1703,11 +1703,11 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 ,,633,1240,stalingrad,Fedor Bondarchuk,2013,"Dmitriy Lysenkov, Mariya Smolnikova, Philippe Reinhardt, Pyotr Fyodorov, Sergey Bondarchuk, Thomas Kretschmann, Yanina Studilina","Action, Drama, War",135
 ,,214,970,good people,Henrik Ruben Genz,2014,"Anna Friel, James Franco, Kate Hudson, Michael Jibson, Omar Sy, Sam Spruell, Tom Wilkinson","Action, Crime, Thriller",90
 2904,2652,,1561,Salinger,Shane Salerno,2013,"Edward Norton, Gore Vidal, John Cusack, Judd Apatow, Martin Sheen, Philip Seymour Hoffman, Tom Wolfe",Documentary,120
-690,643,,2948,Burn After Reading,"Ethan, Joel Cohen",2008,"Brad Pitt, David Rasche, Frances McDormand, George Clooney, J.K. Simmons, John Malkovich, Richard Jenkins, Tilda Swinton","Comedy, Crime, Drama",96
+690,643,,2948,Burn After Reading,"Ethan Coen, Joel Cohen",2008,"Brad Pitt, David Rasche, Frances McDormand, George Clooney, J.K. Simmons, John Malkovich, Richard Jenkins, Tilda Swinton","Comedy, Crime, Drama",96
 748,699,,,The House Bunny,Fred Wolf,2008,"Anna Faris, Colin Hanks, Emma Stone","Comedy, Romance",97
 2143,1890,,,End of the Spear,Jim Hanon,2006,"Chad Allen, Jack Guzman, Louie Leonardo","Adventure, Drama",108
 ,442,,2443,wall street: money never sleeps,Oliver Stone,2010,"Austin Pendleton, Carey Mulligan, Eli Wallach, Frank Langella, Josh Brolin, Michael Douglas, Shia LaBeouf, Susan Sarandon","Crime, Drama",133
-1971,,,339,sarah silverman: jesus is magic,Liam Lynch,2005,"Bob Odenkirk, Brian Posehn, Brody Stevens, La'vin Kiyano, Sarah Silverman","Comedy, Documentary, Music",70
+1971,,,339,Sarah Silverman: Jesus Is Magic,Liam Lynch,2005,"Bob Odenkirk, Brian Posehn, Brody Stevens, La'vin Kiyano, Laura Silverman","Comedy, Documentary, Music",72
 1248,1076,,,Here on Earth,Mark Piznarski,2000,"Chris Klein, Josh Hartnett, Leelee Sobieski","Drama, Romance",96
 507,479,,,Cars 2,John Lasseter,2011,"Larry the Cable Guy, Michael Caine, Owen Wilson","Adventure, Animation, Comedy, Family, Sport",106
 181,178,,1895,Life of Pi,Ang Lee,2012,"Adil Hussain, Gerard Depardieu, Irrfan Khan, Rafe Spall, Suraj Sharma, Tabu","Action, Adventure, Drama, Fantasy",127
@@ -1723,7 +1723,7 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 855,799,,,Welcome Home Roscoe Jenkins,Malcolm D. Lee,2008,"James Earl Jones, Louis C.K., Martin Lawrence","Comedy, Romance",114
 2698,2465,,,Concussion,Peter Landesman,2015,"Gugu Mbatha-Raw, Stephen Moyer, Will Smith","Drama, Sport",
 1798,1575,,,White Chicks,Keenen Ivory Wayans,2004,"Busy Philipps, Marlon Wayans, Shawn Wayans","Comedy, Crime",109
-388,368,,2543,Letters to Juliet,Gary Winick,2010,"Amanda Seyfried, Christopher Egan, Franco Nero, Gael Garcia Bernal, Oliver Platt, Vanessa Redgrave","Comedy, Drama, Romance",105
+388,368,,2543,Letters to Juliet,Gary Winick,2010,"Amanda Seyfried, Christopher Egan, Franco Nero, Gael García Bernal, Oliver Platt, Vanessa Redgrave","Comedy, Drama, Romance",105
 2413,2124,,,Wicked Little Things,J.S. Cardone,2006,"Chloë Grace Moretz, Lori Heuring, Scout Taylor-Compton","Drama, Horror",94
 2519,2296,,,Nanking,Bill Guttentag,2007,"Hugo Armstrong, Rosalind Chao, Stephen Dorff","Documentary, History, War",88
 2221,1960,,,The Insurgents,Scott Dacko,2007,"Henry Simmons, John Shea, Mary Stuart Masterson","Drama, Thriller",82
@@ -1757,7 +1757,7 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 2068,1824,,,Big Dreams Little Tokyo,Dave Boyle,2006,"Dave Boyle, Jayson Watabe, Rachel Morihiro","Comedy, Romance",86
 2067,1823,,,Big Bad Wolf,Lance W. Dreesen,2006,"Kimberly J. Brown, Richard Tyson, Trevor Duke-Moretz","Comedy, Horror",95
 389,371,,,Like Dandelion Dust,Jon Gunn,2010,"Barry Pepper, Cole Hauser, Mira Sorvino",Drama,100
-2238,1974,,1408,Kill Your Darlings,John Krokidas,2013,"Ben Foster, Dane DeHaan, Daniel Radcliffe, David Cross, David Rasche, Elizabeth Olsen, Jack Huston, Jennifer Jason Leigh, Kyra Sedgwick, Michael C. Hall","Biography, Drama, Romance, Thriller",104
+2238,1974,,1408,Kill Your Darlings,John Krokidas,2013,"Ben Foster, Dane DeHaan, Daniel Radcliffe, David Cross, David Rasche, Elizabeth Olsen, Jack Huston, Jennifer Jason Leigh, Kyra Sedgwick, Michael C. Hall","Biography, Drama, Romance, Thriller",95
 558,524,,2239,Higher Ground,Vera Farmiga,2011,"Bill Irwin, Dagmara Dominczyk, Donna Murphy, John Hawkes, Joshua Leonard, McKenzie Turner, Norbert Leo Butz, Taissa Farmiga, Vera Farmiga","Drama, Indie, Thriller",109
 1848,1622,,,Dark Water,Walter Salles,2005,"Ariel Gade, Jennifer Connelly, John C. Reilly","Drama, Horror, Thriller",105
 1034,963,,,Public Enemies,Michael Mann,2009,"Christian Bale, David Wenham, Johnny Depp","Biography, Crime, Drama, History",140
@@ -1791,7 +1791,7 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 788,733,,,One Missed Call,Eric Valette,2008,"Ana Claudia Talancón, Edward Burns, Shannyn Sossamon","Horror, Mystery",87
 1535,1335,,,Rock Star,Stephen Herek,2001,"Dominic West, Jennifer Aniston, Mark Wahlberg","Comedy, Drama, Music",105
 862,805,,2830,The Wrestler,Darren Aronofsky,2008,"Evan Rachel Wood, Judah Friedlander, Marisa Tomei, Mickey Rourke","Drama, Romance, Sport",109
-2245,1980,,293,Last Holiday,Wayne Wang,2006,"Alicia Witt, Gerard Depardieu, Giancarlo Esposito, Jane Adams, LL Cool J, Michael Nouri, Mike Estime, Queen Latifah, Ranjit Chowdhry, Susan Kellermann, Timothy Hutton","Adventure, Comedy, Drama, Holiday, Romance",112
+2245,1980,,293,Last Holiday,Wayne Wang,2006,"Alicia Witt, Gerard Depardieu, Giancarlo Esposito, Jane Adams, Ll Cool J, Michael Nouri, Mike Estime, Queen Latifah, Ranjit Chowdhry, Susan Kellermann, Timothy Hutton","Adventure, Comedy, Drama, Holiday, Romance",112
 1821,1588,,,The Baxter,Michael Showalter,2005,"Elizabeth Banks, Michael Showalter, Peter Dinklage","Comedy, Romance",91
 2285,2016,,,The Nativity Story,Catherine Hardwicke,2006,"Keisha Castle-Hughes, Oscar Isaac, Shohreh Aghdashloo","Drama, Family",101
 151,148,,,Gayby,Jonathan Lisecki,2012,"Anna Margaret Hollyman, Jenn Harris, Matthew Wilkas","Comedy, Drama",89
@@ -1837,7 +1837,7 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 1909,1680,,,Jarhead,Sam Mendes,2005,"Jake Gyllenhaal, Jamie Foxx, Lucas Black","Drama, War",125
 1269,1094,,,The Little Vampire,Uli Edel,2000,"Jonathan Lipnicki, Richard E. Grant, Rollo Weeks","Adventure, Comedy, Family, Fantasy",95
 1764,1542,,,Spanglish,James L. Brooks,2004,"Adam Sandler, Paz Vega, Téa Leoni","Comedy, Drama, Romance",131
-1006,936,,2697,My One and Only,Richard Loncraine,2009,"Chris Noth, David Koechner, Eric McCormack, Kevin Bacon, Logan Lerman, Mark Rendall, Renee Zellweger","Adventure, Biography, Comedy, Drama, Indie, Romance",108
+1006,936,,2697,My One and Only,Richard Loncraine,2009,"Chris Noth, David Koechner, Eric McCormack, Kevin Bacon, Logan Lerman, Mark Rendall, Renée Zellweger","Adventure, Biography, Comedy, Drama, Indie, Romance",108
 1201,1032,,,Boys and Girls,Robert Iscove,2000,"Brendon Ryan Barrett, Claire Forlani, Freddie Prinze Jr.","Comedy, Drama, Romance",94
 545,513,,,The Good Doctor,Lance Daly,2012,"Orlando Bloom, Riley Keough, Taraji P. Henson","Drama, Thriller",93
 2754,2517,,356,The Green Inferno,Eli Roth,2015,"Aaron Burns, Ariel Levy, Daryl Sabara, Kirby Bliss Blanton, Lorenza Izzo, Magda Apanowicz, Matías López, Nicolas Martinez, Sky Ferreira","Adventure, Horror, Thriller",103
@@ -1851,8 +1851,8 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 1033,962,,,The Proposal,Anne Fletcher,2009,"Mary Steenburgen, Ryan Reynolds, Sandra Bullock","Comedy, Drama, Romance",108
 2095,1847,,,Church Ball,Kurt Hale,2006,"Amy Stewart, Andrew Wilson, Clint Howard","Comedy, Sport",91
 1196,1028,,,The Big Tease,Kevin Allen,2000,"Chris Langham, Craig Ferguson, David Rasche",Comedy,86
-2136,1883,,,Dreamgirls,Bill Condon,2006,"Beyoncé Knowles, Eddie Murphy, Jamie Foxx","Drama, Musical",130
-2856,2606,,1644,Much Ado About Nothing,Joss Whedon,2013,"Alexis Denisof, Amy Acker, Ashley Johnson, Clark Gregg, Emma Bates, Fran Kranz, Nathan Fillion, Reed Diamond, Sean Maher, Spencer Treat Clark, Tom Lenk","Comedy, Drama, Romance",109
+2136,1883,,,Dreamgirls,Bill Condon,2006,"Beyoncé Knowles, Eddie Murphy, Jamie Foxx","Drama, Music",130
+2856,2606,,1644,Much Ado About Nothing,Joss Whedon,2013,"Alexis Denisof, Amy Acker, Ashley Johnson, Clark Gregg, Emma Bates, Fran Kranz, Nathan Fillion, Reed Diamond, Sean Maher, Spencer Treat Clark, Tom Lenk","Comedy, Drama, Romance",107
 2418,2129,,67,World Trade Center,Oliver Stone,2006,"Jay Hernandez, Maggie Gyllenhaal, Maria Bello, Michael Peña, Nicolas Cage, Patti D'Arbanville, Stephen Dorff","Action, Disaster, Drama, History, Thriller",129
 1181,1012,,,Almost Famous,Cameron Crowe,2000,"Billy Crudup, Kate Hudson, Patrick Fugit","Drama, Music, Romance",122
 434,414,,2456,Secretariat,Randall Wallace,2010,"Diane Lane, Dylan Walsh, Fred Dalton Thompson, James Cromwell, John Malkovich, Kevin Connolly, Margo Martindale, Nelsan Ellis, Nestor Serrano, Scott Glenn","Drama, Family, History, Sport",123
@@ -1874,7 +1874,7 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 2518,2295,,,Nancy Drew,Andrew Fleming,2007,"Emma Roberts, Max Thieriot, Tate Donovan","Comedy, Crime, Family, Mystery, Romance, Thriller",99
 934,872,,,Food Inc.,Robert Kenner,2009,"Eric Schlosser, Michael Pollan, Richard Lobb",Documentary,94
 837,781,,2978,Swing Vote,Joshua Michael Stern,2008,"Dennis Hopper, George Lopez, Kelsey Grammer, Kevin Costner, Madeline Carroll, Mare Winningham, Nathan Lane, Paula Patton, Stanley Tucci","Comedy, Drama",120
-76,76,,2071,casa de mi padre,Matt Piedmont,2012,"Diego Luna, Gael Garcia Bernal, Genesis Rodriguez, Jr., Pedro Armendariz, Will Ferrell","Comedy, Foreign, Western",84
+76,76,,2071,Casa de mi Padre,Matt Piedmont,2012,"Diego Luna, Gael García Bernal, Genesis Rodriguez, Jr., Pedro Armendariz, Will Ferrell","Comedy, Foreign, Western",84
 2053,1812,,,Automatons,James Felix McKenney,2006,"Angus Scrimm, Brenda Cooney, Christine Spencer","Horror, Sci-Fi",83
 1970,1737,,,Sahara,Breck Eisner,2005,"Matthew McConaughey, Penélope Cruz, Steve Zahn","Action, Adventure, Comedy, Thriller, War",124
 1400,1224,,,Blow,Ted Demme,2001,"Franka Potente, Johnny Depp, Penélope Cruz","Biography, Crime, Drama",124
@@ -1893,7 +1893,7 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 1366,1185,,,What Lies Beneath,Robert Zemeckis,2000,"Harrison Ford, Katharine Towne, Michelle Pfeiffer","Drama, Horror, Mystery, Thriller",130
 1528,1329,,1995,The Pledge,Sean Penn,2001,"Aaron Eckhart, Benicio Del Toro, Helen Mirren, Jack Nicholson, Mickey Rourke, Patricia Clarkson, Robin Wright Penn, Sam Shepard","Crime, Drama, Mystery, Thriller",124
 2715,2481,,1513,Drinking Buddies,Joe Swanberg,2013,"Anna Kendrick, Frank V. Ross, Jake Johnson, Jason Sudeikis, Joe Swanberg, Mike Brune, Olivia Wilde, Ron Livingston, Ti West","Comedy, Drama, Romance",90
-1878,1647,,249,Get Rich or Die Tryin',Jim Sheridan,2005,"50 Cent, Adewale Akinnuoye-Agbaje, Bill Duke, Joy Bryant, Omar Benson Miller, Terrence Howard, Viola Davis","Action, Adventure, Biography, Crime, Drama, Music",117
+1878,1647,,249,Get Rich or Die Tryin',Jim Sheridan,2005,"50 Cent, Adewale Akinnouye-Agbaje, Bill Duke, Joy Bryant, Omar Benson Miller, Terrence Howard, Viola Davis","Action, Adventure, Biography, Crime, Drama, Musical",117
 1385,1205,,,The Amati Girls,Anne De Salvo,2001,"Cloris Leachman, Dinah Manoff, Mercedes Ruehl",Drama,91
 21,23,,,The Apparition,Todd Lincoln,2012,"Ashley Greene, Sebastian Stan, Tom Felton","Horror, Thriller",82
 481,459,,,The Adjustment Bureau,George Nolfi,2011,"Emily Blunt, Lisa Thoreson, Matt Damon","Romance, Sci-Fi, Thriller",106
@@ -1902,7 +1902,7 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 2188,1928,,,Gridiron Gang,Phil Joanou,2006,"Dwayne Johnson, L. Scott Caldwell, Xzibit","Crime, Drama, Sport",125
 ,3091,3441,,Small Soldiers,Joe Dante,1998,"David Cross, Denis Leary, Gregory Smith, Kirsten Dunst, Phil Hartman","Action, Adventure, Comedy, Kids & Family, Science Fiction & Fantasy",110
 629,592,,,Shark Night 3D,David R. Ellis,2011,"Chris Carmack, Dustin Milligan, Sara Paxton","Horror, Thriller",90
-1462,1271,,,Hedwig and the Angry Inch,John Cameron Mitchell,2001,"John Cameron Mitchell, Miriam Shor, Stephen Trask","Comedy, Drama, Musical",95
+1462,1271,,,Hedwig and the Angry Inch,John Cameron Mitchell,2001,"John Cameron Mitchell, Miriam Shor, Stephen Trask","Comedy, Drama, Music",95
 1865,1636,,,Everything Is Illuminated,Liev Schreiber,2005,"Boris Leskin, Elijah Wood, Eugene Hutz","Comedy, Drama",106
 1167,2206,,,Feel the Noise,Alejandro Chomski,2007,"Giancarlo Esposito, Melonie Diaz, Omarion Grandberry","Drama, Music",86
 1085,2170,,,Breach,Billy Ray,2007,"Chris Cooper, Dennis Haysbert, Ryan Phillippe","Biography, Crime, Drama, History, Thriller",110
@@ -1922,7 +1922,7 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 1302,1125,,,Picking Up the Pieces,Alfonso Arau,2000,"Angélica Aragón, David Schwimmer, Woody Allen","Comedy, Fantasy",95
 1205,1035,,,Cast Away,Robert Zemeckis,2000,"Helen Hunt, Paul Sanchez, Tom Hanks","Adventure, Drama",143
 1979,1745,,,The Skeleton Key,Iain Softley,2005,"Joy Bryant, Kate Hudson, Peter Sarsgaard","Horror, Mystery, Thriller",104
-129,125,,1834,End of Watch,David Ayer,2012,"Anna Kendrick, David Harbour, Frank Grillo, Jake Gyllenhaal, Michael Pena, Natalie Martinez","Crime, Drama, Mystery, Thriller",109
+129,125,,1834,End of Watch,David Ayer,2012,"Anna Kendrick, David Harbour, Frank Grillo, Jake Gyllenhaal, Michael Peña, Natalie Martinez","Crime, Drama, Mystery, Thriller",109
 1742,1522,,,The Punisher,Jonathan Hensleigh,2004,"John Travolta, Samantha Mathis, Thomas Jane","Action, Crime, Drama, Thriller",124
 2211,1950,,,How to Eat Fried Worms,Bob Dolman,2006,"Adam Hicks, Hallie Kate Eisenberg, Luke Benward","Comedy, Family",98
 1295,1118,,,The Original Kings of Comedy,Spike Lee,2000,"Cedric the Entertainer, D.L. Hughley, Steve Harvey","Comedy, Documentary",115
@@ -1948,8 +1948,8 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 1726,1508,,,Noel,Chazz Palminteri,2004,"Paul Walker, Penélope Cruz, Susan Sarandon",Drama,96
 ,793,,2886,w.,Oliver Stone,2008,"Elizabeth Banks, Ellen Burstyn, James Cromwell, Jeffrey Wright, Josh Brolin, Richard Dreyfuss, Scott Glenn, Stacy Keach, Thandie Newton, Toby Jones","Drama, History",131
 2298,2028,,,One Night with the King,Michael O. Sajbel,2006,"John Noble, Luke Goss, Tiffany Dupont","Biography, Drama, History",123
-2727;128,2492;124,,1253;1751,The Face of Love,"Arie Posin, Mark Webber",2013,"Alia Shawkat, Amy Brenneman, Annette Bening, Ed Harris, Frankie Shaw, Jeffrey Vincent Parise, Jess Weixler, Kim Farris, Leah Shaw, Linda Park, Mark Webber, Michael Cera, Nathan Clarkson, Robin Williams, Shannyn Sossamon","Drama, Romance",92
-2283,2015,,200,Nacho Libre,Jared Hess,2006,"Ana de la Reguera, Cesar Gonzalez, Hector Jimenez, Jack Black, Lauro Chartrand, Moises Arias, Richard Montoya, Troy Gentile","Comedy, Family, Sport, Sports Film",92
+2727;128,2492;124,,1751;1253,The Face of Love,"Arie Posin, Mark Webber",2013,"Alia Shawkat, Amy Brenneman, Annette Bening, Ed Harris, Frankie Shaw, Jeffrey Vincent Parise, Jess Weixler, Kim Farris, Leah Shaw, Linda Park, Mark Webber, Michael Cera, Nathan Clarkson, Robin Williams, Shannyn Sossamon","Drama, Romance",92
+2283,2015,,200,Nacho Libre,Jared Hess,2006,"Ana de la Reguera, Cesar Gonzalez, Héctor Jiménez, Jack Black, Lauro Chartrand, Moises Arias, Richard Montoya, Troy Gentile","Comedy, Family, Sport, Sports Film",92
 300,293,,,Charlie St. Cloud,Burr Steers,2010,"Charlie Tahan, Kim Basinger, Zac Efron","Drama, Fantasy, Romance",99
 1079,1002,,,Year One,Harold Ramis,2009,"Jack Black, Michael Cera, Olivia Wilde","Adventure, Comedy",97
 2118,1869,,,The Darwin Awards,Finn Taylor,2006,"David Arquette, Joseph Fiennes, Winona Ryder","Adventure, Comedy, Romance",94
@@ -2025,7 +2025,7 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 2686,2454,,1411,Carrie,Kimberly Peirce,2013,"Alex Russell, Ansel Elgort, Chloë Grace Moretz, Connor Price, Cynthia Preston, Gabriella Wilde, Judy Greer, Julianne Moore, Max Topplin, Michelle Nolden, Portia Doubleday","Drama, Horror",100
 1593,1384,,,Alfie,Charles Shyer,2004,"Jude Law, Sienna Miller, Susan Sarandon","Comedy, Drama, Romance",103
 ,,6200,3478,the wild bunch,Sam Peckinpah,1969,"Jaime Sanchez, Robert Ryan, Warren Oates, William Holden","Action, Drama, Western",145
-761,711,,3091,Leatherheads,George Clooney,2008,"George Clooney, John Krasinski, Jonathan Pryce, Renee Zellweger, Wayne Duvall","Comedy, Drama, Romance, Sport",114
+761,711,,3091,Leatherheads,George Clooney,2008,"George Clooney, John Krasinski, Jonathan Pryce, Renée Zellweger, Wayne Duvall","Comedy, Drama, Romance, Sport",114
 1866,1637,,,The Exorcism of Emily Rose,Scott Derrickson,2005,"Laura Linney, Shohreh Aghdashloo, Tom Wilkinson","Drama, Horror, Thriller",119
 961,894,,,I Hope They Serve Beer in Hell,Bob Gosse,2009,"Geoff Stults, Jesse Bradford, Matt Czuchry",Comedy,105
 54,56,,,Big Miracle,Ken Kwapis,2012,"Drew Barrymore, John Krasinski, John Pingayak","Biography, Drama, Romance",107
@@ -2035,7 +2035,7 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 557,523,,,Hesher,Spencer Susser,2011,"Devin Brochu, Joseph Gordon-Levitt, Natalie Portman",Drama,106
 2482,2263,,,Knock Knock,Eli Roth,2015,"Ana de Armas, Keanu Reeves, Lorenza Izzo","Horror, Mystery, Thriller",99
 1514,1317,,,Novocaine,David Atkins,2001,"Chelcie Ross, Helena Bonham Carter, Steve Martin","Comedy, Crime, Drama, Thriller",95
-372,355,,2518,Kick-Ass,Matthew Vaughn,2010,"Aaron Taylor-Johnson, Chloë Grace Moretz, Christopher Mintz-Plasse, Mark Strong, Michael Rispoli, Nicolas Cage","Action, Adventure, Comedy, Foreign",117
+372,355,,2518,Kick-Ass,Matthew Vaughn,2010,"Aaron Taylor-Johnson, Chloe Grace Moretz, Christopher Mintz-Plasse, Mark Strong, Michael Rispoli, Nicolas Cage","Action, Adventure, Comedy, Foreign",117
 166,164,,,House at the End of the Street,Mark Tonderai,2012,"Elisabeth Shue, Jennifer Lawrence, Max Thieriot","Horror, Mystery, Thriller",101
 1496,1304,,,The Majestic,Frank Darabont,2001,"Bob Balaban, Jim Carrey, Martin Landau","Drama, Romance",152
 2689,2459,,,The Cloth,Justin Price,2013,"Danny Trejo, Eric Roberts, Perla Rodríguez","Action, Fantasy, Horror",88
@@ -2056,7 +2056,7 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 285,279,,,Barry Munday,Chris D'Arienzo,2010,"Chloë Sevigny, Judy Greer, Patrick Wilson","Comedy, Romance",95
 183,181,,,A Little Bit of Heaven,Nicole Kassell,2012,"Gael García Bernal, Kate Hudson, Kathy Bates","Comedy, Drama, Fantasy, Romance",106
 772,722,,,Meet Dave,Brian Robbins,2008,"Eddie Murphy, Elizabeth Banks, Gabrielle Union","Adventure, Comedy, Family, Romance, Sci-Fi",90
-2970,,,1650,world war z,Marc Forster,2013,"Brad Pitt, Daniella Kertesz, James Badge Dale, Mireille Enos, Peter Capaldi","Action, Adventure, Drama, Horror, Sci-Fi, Science Fiction, Thriller",116
+2970,,,1650,World War Z,Marc Forster,2013,"Brad Pitt, Daniella Kertesz, James Badge Dale, Mireille Enos, Peter Capaldi","Action, Adventure, Drama, Horror, Sci-Fi, Science Fiction, Thriller",116
 1860,1632,,,Duma,Carroll Ballard,2005,"Alex Michaeletos, Campbell Scott, Hope Davis","Adventure, Drama, Family",100
 475,453,,2633,Youth in Revolt,Miguel Arteta,2010,"Fred Willard, Jean Smart, Justin Long, M. Emmet Walsh, Mary Kay Place, Michael Cera, Portia Doubleday, Ray Liotta, Steve Buscemi, Zach Galifianakis","Comedy, Drama, Romance",90
 678,634,,,Baby Mama,Michael McCullers,2008,"Amy Poehler, Sigourney Weaver, Tina Fey","Comedy, Romance",99
@@ -2077,19 +2077,19 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 2429,2216,,,The Game Plan,Andy Fickman,2007,"Dwayne Johnson, Kyra Sedgwick, Madison Pettis","Comedy, Family, Sport",110
 1957,1722,,,Popstar,Richard Gabai,2005,"Aaron Carter, Alana Austin, David Cassidy","Comedy, Family, Romance",94
 1294,1117,,,The Opportunists,Myles Connell,2000,"Anne Pitoniak, Christopher Walken, Peter McDonald","Comedy, Crime, Drama, Romance",90
-2093,1846,,24,Children of Men,Alfonso Cuaron,2007,"Chiwetel Ejiofor, Clare-Hope Ashitey, Clive Owen, Julianne Moore, Michael Caine, Pam Ferris","Action, Adventure, Drama, Foreign, Sci-Fi, Science Fiction, Thriller",109
+2093,1846,,24,Children of Men,Alfonso Cuarón,2007,"Chiwetel Ejiofor, Clare-Hope Ashitey, Clive Owen, Julianne Moore, Michael Caine, Pam Ferris","Action, Adventure, Drama, Foreign, Sci-Fi, Science Fiction, Thriller",109
 29,,,2037,the avengers,Joss Whedon,2012,"Chris Evans, Chris Hemsworth, Jeremy Renner, Mark Ruffalo, Robert Downey Jr., Samuel L. Jackson, Scarlett Johansson, Tom Hiddleston","Action, Adventure, Sci-Fi, Thriller",143
 452,430,,2293,The Tempest,Julie Taymor,2010,"Alan Cumming, Ben Whishaw, Chris Cooper, Djimon Hounsou, Felicity Jones, Helen Mirren, Tom Conti","Comedy, Drama, Fantasy, Romance, Science Fiction",110
 ,,15,672,run all night,Jaume Collet-Serra,2015,"Boyd Holbrook, Common, Ed Harris, Génesis Rodríguez, Holt McCallany, Joel Kinnaman, Liam Neeson, Vincent D'Onofrio","Action, Crime, Drama, Mystery, Thriller",114
-913,,,2851,Coraline,Henry Selick,2009,"Dakota Fanning, Dawn French, Ian McShane, Jennifer Saunders, John Hodgman, Keith David, Robert Bailey Jr., Teri Hatcher","Animation, Family, Fantasy, Science Fiction",100
+913,,,2851,coraline,Henry Selick,2009,"Dakota Fanning, Dawn French, Ian McShane, Jennifer Saunders, John Hodgman, Keith David, Robert Bailey Jr., Teri Hatcher","Animation, Family, Fantasy, Science Fiction",100
 1961,,,269,The Producers,Susan Stroman,2005,"Andrea Martin, Debra Monk, Gary Beach, Matthew Broderick, Nathan Lane, Roger Bart, Uma Thurman, Will Ferrell","Comedy, Musical",134
 1934,1703,,290,The Matador,Richard Shepard,2006,"Adam Scott, Dylan Baker, Greg Kinnear, Hope Davis, Maureen Muldoon, Philip Baker Hall, Pierce Brosnan, Portia Dawson","Action, Comedy, Crime, Drama, Indie, Thriller",96
 ,2469,,378,contracted: phase ii,Josh Forbes,2015,"Anna Lore, Caroline Williams, Laurel Vail, Marianna Palka, Matt Mercer, Morgan Peter Brown, Najarra Townsend",Horror,78
 1867,1638,,276,The Family Stone,Thomas Bezucha,2005,"Claire Danes, Craig T. Nelson, Dermot Mulroney, Diane Keaton, Luke Wilson, Rachel McAdams, Sarah Jessica Parker, Tyrone Giordano","Comedy, Drama, Holiday, Romance",103
 ,,569,1535,the colony,Jeff Renfroe,2013,"Atticus Dean Mitchell, Bill Paxton, Charlotte Sullivan, Dru Viergever, John Tench, Kevin Zegers, Laurence Fishburne, Romano Orzari","Action, Science Fiction, Thriller",95
-1138,,,3146,Charlie Wilson's War,Mike Nichols,2007,"Amy Adams, Denis O'Hare, Emily Blunt, John Slattery, Julia Roberts, Ned Beatty, Philip Seymour Hoffman, Tom Hanks","Biography, Comedy, Drama, History",102
+1138,,,3146,charlie wilson's war,Mike Nichols,2007,"Amy Adams, Denis O'Hare, Emily Blunt, John Slattery, Julia Roberts, Ned Beatty, Philip Seymour Hoffman, Tom Hanks","Biography, Comedy, Drama, History",102
 392,374,,2418,Love Ranch,Taylor Hackford,2010,"Bai Ling, Gina Gershon, Helen Mirren, Joe Pesci, Scout Taylor-Compton, Sergio Peris-Mencheta, Taryn Manning","Comedy, Drama, Indie, Romance, Sport",117
-2592,,,108,sunshine,Danny Boyle,2007,"Benedict Wong, Chris Evans, Cillian Murphy, Cliff Curtis, Hiroyuki Sanada, Michelle Yeoh, Rose Byrne, Troy Garity","Adventure, Foreign, Sci-Fi, Science Fiction, Thriller",107
+2592,,,108,Sunshine,Danny Boyle,2007,"Benedict Wong, Chris Evans, Cillian Murphy, Cliff Curtis, Hiroyuki Sanada, Michelle Yeoh, Rose Byrne, Troy Garity","Adventure, Foreign, Sci-Fi, Science Fiction, Thriller",107
 ,,242,1227,noah,Darren Aronofsky,2014,"Anthony Hopkins, Douglas Booth, Emma Watson, Jennifer Connelly, Kevin Durand, Logan Lerman, Ray Winstone, Russell Crowe","Action, Drama, Fantasy",138
 ,,230,1223,sabotage,David Ayer,2014,"Arnold Schwarzenegger, Joe Manganiello, Josh Holloway, Max Martini, Mireille Enos, Olivia Williams, Sam Worthington, Terrence Howard","Action, Crime, Drama, Thriller",110
 ,,256,1231,in the blood,John Stockwell,2014,"Amaury Nolasco, Cam Gigandet, Danny Trejo, Gina Carano, Ismael Cruz Cordova, Luis Guzmán, Stephen Lang, Treat Williams","Action, Crime, Drama, Thriller",90
@@ -2098,12 +2098,12 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 1775,1553,,,Superbabies: Baby Geniuses 2,Bob Clark,2004,"Jon Voight, Scott Baio, Vanessa Angel","Comedy, Family, Sci-Fi",88
 ,,573,1413,oldboy,Spike Lee,2013,"Elizabeth Olsen, Josh Brolin, Lance Reddick, Max Casella, Michael Imperioli, Richard Portnow, Samuel L. Jackson, Sharlto Copley","Drama, Mystery, Thriller",104
 ,,257,1034,dawn of the planet of the apes,Matt Reeves,2014,"Andy Serkis, Gary Oldman, Jason Clarke, Judy Greer, Keri Russell, Kirk Acevedo, Kodi Smit-McPhee, Toby Kebbell","Action, Drama, Science Fiction, Thriller",130
-293,,,2487,Brooklyn's Finest,Antoine Fuqua,2010,"Don Cheadle, Ellen Barkin, Ethan Hawke, Lili Taylor, Richard Gere, Vincent D'Onofrio, Wesley Snipes, Will Patton","Action, Adventure, Crime, Drama, Thriller",132
+293,,,2487,brooklyn's finest,Antoine Fuqua,2010,"Don Cheadle, Ellen Barkin, Ethan Hawke, Lili Taylor, Richard Gere, Vincent D'Onofrio, Wesley Snipes, Will Patton","Action, Adventure, Crime, Drama, Thriller",133
 225,221,,1825,Red Hook Summer,Spike Lee,2012,"Clarke Peters, De’Adre Aziza, Heather Alicia Simms, Jules Brown, Spike Lee, Thomas Jefferson Byrd, Toni Lysaith",Drama,121
 ,,265,1366,3 days to kill,McG,2014,"Amber Heard, Connie Nielsen, Eriq Ebouaney, Hailee Steinfeld, Kevin Costner, Marc Andréoni, Richard Sammel, Tómas Lemarquis","Action, Crime, Drama, Thriller",113
-1115,,,3178,before the devil knows you're dead,Sidney Lumet,2007,"Albert Finney, Amy Ryan, Bryan F. O'Byrne, Ethan Hawke, Marisa Tomei, Michael Shannon, Philip Seymour Hoffman, Rosemary Harris","Crime, Drama, Thriller",117
+1115,,,3178,Before the Devil Knows You're Dead,Sidney Lumet,2007,"Albert Finney, Amy Ryan, Bryan F. O'Byrne, Ethan Hawke, Marisa Tomei, Michael Shannon, Philip Seymour Hoffman, Rosemary Harris","Crime, Drama, Thriller",117
 612,575,,2278,Puncture,"Adam Kassen, Mark Kassen",2011,"Brett Cullen, Chris Evans, Jesse L. Martin, Kate Burton, Mark Kassen, Michael Biehn, Vinessa Shaw","Drama, Mystery",100
-2936,,,385,straight outta compton,F. Gary Gray,2015,"Aldis Hodge, Corey Hawkins, Jason Mitchell, Keith Stanfield, Neil Brown Jr., O'Shea Jackson Jr., Paul Giamatti, R. Marcus Taylor","Biography, Drama, Music",147
+2936,,,385,Straight Outta Compton,F. Gary Gray,2015,"Aldis Hodge, Corey Hawkins, Jason Mitchell, Keith Stanfield, Neil Brown Jr., O'Shea Jackson Jr., Paul Giamatti, R. Marcus Taylor","Biography, Drama, Music",147
 ,,218,1318,ride along,Tim Story,2014,"David Banner, Ice Cube, Jasmine Burke, Jay Pharaoh, John Leguizamo, Kevin Hart, Laurence Fishburne, Tika Sumpter","Action, Comedy",99
 ,,258,1064,into the storm,Steven Quale,2014,"Alycia Debnam Carey, Jeremy Sumpter, Kyle Davis, Matt Walsh, Max Deacon, Nathan Kress, Richard Armitage, Sarah Wayne Callies",Thriller,89
 ,,572,1506,the world's end,Edgar Wright,2013,"Bill Nighy, David Bradley, Eddie Marsan, Martin Freeman, Nick Frost, Paddy Considine, Rosamund Pike, Simon Pegg","Action, Comedy, Science Fiction",109
@@ -2117,31 +2117,31 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 810,752,,2856,Revolutionary Road,Sam Mendes,2008,"Christopher Fitzgerald, David Harbour, Dylan Baker, Jay O. Sanders, Kate Winslet, Kathryn Hahn, Kathy Bates, Leonardo DiCaprio, Max Casella, Michael Shannon, Richard Easton, Zoe Kazan","Drama, Romance",119
 2423,,,59,"you, me and dupree","Anthony Russo, Joe Russo",2006,"Amanda Detmer, Kate Hudson, Matt Dillon, Michael Douglas, Owen Wilson, Seth Rogen","Comedy, Romance",108
 2862,2612,,,Officer Down,Brian A Miller,2013,"David Boreanaz, Stephen Dorff, Stephen Lang","Crime, Drama",98
-2583,,,124,Stardust,Matthew Vaughn,2007,"Charlie Cox, Claire Danes, Ian McKellen, Jason Flemyng, Michelle Pfeiffer, Peter O'Toole, Robert De Niro, Rupert Everett, Sienna Miller","Action, Adventure, Comedy, Family, Fantasy, Foreign, Romance, Science Fiction",127
+2583,,,124,stardust,Matthew Vaughn,2007,"Charlie Cox, Claire Danes, Ian McKellen, Jason Flemyng, Michelle Pfeiffer, Peter O'Toole, Robert De Niro, Rupert Everett, Sienna Miller","Action, Adventure, Comedy, Family, Fantasy, Foreign, Romance, Science Fiction",127
 ,1429,,406,digging for fire,Joe Swanberg,2015,"Anna Kendrick, Brie Larson, Chris Messina, Jake Johnson, Mike Birbiglia, Orlando Bloom, Rosemarie DeWitt, Sam Rockwell",Drama,85
-436,,,2570,she's out of my league,Jim Field Smith,2010,"Adam LeFevre, Alice Eve, Debra Jo Rupp, Jay Baruchel, Kyle Bornheimer, Lindsay Sloane, Mike Vogel, Nate Torrence, T.J. Miller","Comedy, Romance",104
+436,,,2570,She's Out of My League,Jim Field Smith,2010,"Adam LeFevre, Alice Eve, Debra Jo Rupp, Jay Baruchel, Kyle Bornheimer, Lindsay Sloane, Mike Vogel, Nate Torrence, T.J. Miller","Comedy, Romance",104
 2834,2590,,1707,The Lords of Salem,Rob Zombie,2013,"Bruce Davison, Dee Wallace, Maria Conchita Alonso, Meg Foster, Sheri Moon Zombie, Sid Haig","Horror, Thriller",101
 2876,2626,,1512,Parkland,Peter Landesman,2013,"Billy Bob Thornton, Colin Hanks, Jacki Weaver, Jackie Earle Haley, Marcia Gay Harden, Paul Giamatti, Ron Livingston, Tom Welling, Zac Efron","Drama, History, Mystery, Thriller",93
 664,,,2220,Winnie the Pooh,Stephen J. Anderson,2011,"Bud Luckey, Craig Ferguson, Jack Boulter, Jim Cummings, John Cleese, Kristen Anderson-Lopez, Tom Kenny, Travis Oates, Wyatt Dean Hall","Adventure, Animation, Comedy, Family, Musical",63
 2652,2421,,1341,August: Osage County,John Wells,2013,"Abigail Breslin, Benedict Cumberbatch, Chris Cooper, Dermot Mulroney, Ewan McGregor, Julia Roberts, Julianne Nicholson, Juliette Lewis, Margo Martindale, Meryl Streep, Misty Upham, Sam Shepard","Comedy, Drama",121
 536,504,,2203,Final Destination 5,Steven Quale,2011,"Arlen Escarpeta, Courtney B. Vance, David Koechner, Ellen Wroe, Emma Bell, Miles Fisher, Nicholas D'Agosto, P.J. Byrne, Tony Todd","Horror, Thriller",92
 ,,30,645,the gunman,Pierre Morel,2015,"Jasmine Trinca, Javier Bardem, Peter Franzén, Ray Winstone, Sean Penn","Action, Crime, Drama, Thriller",115
-337,,,1415,Frozen,"Chris Buck, Jennifer Lee",2013,"Alan Tudyk, Christopher Williams, Eva Bella, Idina Menzel, Jonathan Groff, Josh Gad, Kristen Bell, Livvy Stubenrauch, Santino Fontana","Adventure, Animation, Comedy, Family, Fantasy, Musical",102
+337,,,1415,frozen,"Chris Buck, Jennifer Lee",2013,"Alan Tudyk, Christopher Williams, Eva Bella, Idina Menzel, Jonathan Groff, Josh Gad, Kristen Bell, Livvy Stubenrauch, Santino Fontana","Adventure, Animation, Comedy, Family, Fantasy, Musical",102
 1737,1519,,262,The Polar Express,Robert Zemeckis,2004,"Chris Coppola, Eddie Deezen, Michael Jeter, Nona Gaye, Peter Scolari, Tom Hanks","Adventure, Animation, Family, Fantasy",100
 ,1366,,448,the vatican tapes,Mark Neveldine,2015,"Cas Anvar, Djimon Hounsou, Dougray Scott, John Patrick Amedori, Kathleen Robertson, Michael Peña, Olivia Taylor Dudley, Peter Andersson","Horror, Thriller",91
 2564,2338,,3143,The Savages,Tamara Jenkins,2007,"Cara Seymour, Laura Linney, Peter Friedman, Philip Bosco, Philip Seymour Hoffman","Comedy, Drama, Indie",114
 ,,904,1993,the girl from the naked eye,David Ren,2012,"Dominique Swain, Gary Stretch, Jason Yee, Samantha Streets, Sasha Grey","Action, Romance, Thriller",80
 ,2638,,474,the stanford prison experiment,Kyle Patrick Alvarez,2015,"Billy Crudup, Ezra Miller, Gaius Charles, James Wolk, Johnny Simmons, Keir Gilchrist, Michael Angarano, Moisés Arias, Nelsan Ellis, Olivia Thirlby, Thomas Mann, Tye Sheridan","Drama, Thriller",122
 881,822,,2742,the answer man,John Hindman,2009,"Annie Corly, Jeff Daniels, Kat Dennings, Lauren Graham, Lou Taylor Pucci, Max Antisell, Nora Dunn, Olivia Thirlby, Tony Hale","Comedy, Drama, Indie, Romance",95
-2560,2334,,3,Rocket Science,Jeffrey Blitz,2007,"Anna Kendrick, Denis O'Hare, Nicholas D'Agosto, Reece Thompson, Vincent Piazza","Comedy, Drama, Indie",101
+2560,2334,,3,Rocket Science,Jeffrey Blitz,2007,"Anna Kendrick, Denis O'Hare, Nicholas D'Agosto, Reece Daniel Thompson, Vincent Piazza","Comedy, Drama, Indie",101
 325,,,2417,The Twilight Saga: Eclipse,David Slade,2010,"Billy Burke, Bryce Dallas Howard, Dakota Fanning, Elizabeth Reaser, Jackson Rathbone, Kristen Stewart, Peter Facinelli, Robert Pattinson, Taylor Lautner","Adventure, Drama, Fantasy, Foreign, Romance, Thriller",124
 1007,937,,2838,new in town,Jonas Elmer,2009,"Frances Conroy, Harry Connick Jr., J.K. Simmons, Renee Zellweger, Siobhan Fallon Hogan","Comedy, Romance",97
 ,,362,1054,lucy,Luc Besson,2014,"Amr Waked, Analeigh Tipton, Choi Min-Sik, Morgan Freeman, Scarlett Johansson","Action, Science Fiction",90
 2946,2693,,1659,This Is the End,"Evan Goldberg, Seth Rogen",2013,"Christopher Mintz-Plasse, Craig Robinson, Danny McBride, Emma Watson, James Franco, Jason Segel, Jay Baruchel, Jonah Hill, Mindy Kaling, Paul Rudd, Rihanna, Seth Rogen","Action, Comedy, Fantasy",107
-505,,,2223,Captain America: The First Avenger,Joe Johnston,2011,"Chris Evans, Dominic Cooper, Hayley Atwell, Hugo Weaving, Samuel L. Jackson, Sebastian Stan, Stanley Tucci, Toby Jones, Tommy Lee Jones","Action, Adventure, Sci-Fi, Science Fiction, Thriller",124
+505,,,2223,captain america: the first avenger,Joe Johnston,2011,"Chris Evans, Dominic Cooper, Hayley Atwell, Hugo Weaving, Samuel L. Jackson, Sebastian Stan, Stanley Tucci, Toby Jones, Tommy Lee Jones","Action, Adventure, Sci-Fi, Science Fiction, Thriller",124
 ,1477,,1138,devil's knot,Atom Egoyan,2014,"Alessandro Nivola, Amy Ryan, Bruce Greenwood, Colin Firth, Collette Wolfe, Dane DeHaan, Elias Koteas, Kevin Durand, Martin Henderson, Mireille Enos, Reese Witherspoon, Stephen Moyer","Crime, Drama, Thriller",114
 2402,2113,,239,United 93,Paul Greengrass,2006,"Becky London, Cheyenne Jackson, Chip Zien, Christian Clemenson, David Alan Basche, Gregg Henry, J.J. Johnson, Liza Colón-Zayas, Olivia Thirlby, Trish Gates","Action, Crime, Drama, Foreign, History, Thriller",111
-2532,,,142,ocean's thirteen,Steven Soderbergh,2007,"Al Pacino, Andy Garcia, Bernie Mac, Brad Pitt, Don Cheadle, Ellen Barkin, Elliott Gould, George Clooney, Matt Damon","Action, Comedy, Crime, Thriller",122
+2532,,,142,Ocean's Thirteen,Steven Soderbergh,2007,"Al Pacino, Andy Garcia, Bernie Mac, Brad Pitt, Don Cheadle, Ellen Barkin, Elliott Gould, George Clooney, Matt Damon","Action, Comedy, Crime, Thriller",122
 747,698,,,The Hottie & the Nottie,Tom Putnam,2008,"Christine Lakin, Joel David Moore, Paris Hilton","Comedy, Romance",91
 ,569,,632,paul blart: mall cop 2,Andy Fickman,2015,"D. B. Woodside, Daniella Alonso, David Henrie, Eduardo Verástegui, Kevin James, Neal McDonough, Nicholas Turturro, Raini Rodriguez",Comedy,94
 986,917,,2470,Life During Wartime,Todd Solondz,2010,"Allison Janney, Ally Sheedy, Charlotte Rampling, Ciaran Hinds, Gaby Hoffman, Michael Lerner, Paul Reubens, Renee Taylor, Shirley Henderson","Comedy, Drama, Indie",97
@@ -2149,13 +2149,13 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 ,1779,,314,why we fight,Eugene Jarecki,2006,"Chalmers Johnson, Charles Lewis, Dwight Eisenhower, Lt, Richard Perle, William Kristol, William Solomon, Wilton Sekzer","Documentary, Drama, History, Indie",98
 ,,309,1033,rage,Paco Cabezas,2014,"Aubrey Peeples, Danny Glover, Nicolas Cage, Peter Stormare, Rachel Nichols","Action, Crime, Thriller",92
 2725,2490,,1404,Escape Plan,Mikael Håfström,2013,"50 Cent, Arnold Schwarzenegger, Christian Stokes, Jim Caviezel, Matt Gerald, Sam Neill, Sylvester Stallone, Vincent D'Onofrio, Vinnie Jones","Action, Mystery, Thriller",115
-1111,,,3109,awake,Joby Harold,2007,"Arliss Howard, Christopher McDonald, Fisher Stevens, Georgina Chapman, Hayden Christensen, Jessica Alba, Lena Olin, Sam Robards, Terrence Howard","Crime, Drama, Mystery, Thriller",84
+1111,,,3109,Awake,Joby Harold,2007,"Arliss Howard, Christopher McDonald, Fisher Stevens, Georgina Chapman, Hayden Christensen, Jessica Alba, Lena Olin, Sam Robards, Terrence Howard","Crime, Drama, Mystery, Thriller",84
 2167,1912,,91,For Your Consideration,Christopher Guest,2006,"Bob Balaban, Catherine O'Hara, Christopher Guest, Eugene Levy, Fred Willard, Harry Shearer, Michael McKean, Parker Posey, Ricky Gervais","Comedy, Documentary, Drama",86
 ,,297,1271,need for speed,Scott Waugh,2014,"Aaron Paul, Dakota Johnson, Dominic Cooper, Harrison Gilbertson, Imogen Poots, Michael Keaton, Rami Malek, Ramón Rodríguez, Scott Mescudi","Action, Crime, Drama, Thriller",102
 ,,248,1238,non-stop,Jaume Collet-Serra,2014,"Anson Mount, Corey Stoll, Jon Abrahams, Julianne Moore, Liam Neeson, Linus Roache, Lupita Nyong'o, Michelle Dockery, Scoot McNairy","Action, Mystery, Thriller",106
 2544,2318,,3115,Persepolis,"Marjane Satrapi, Vincent Paronnaud",2008,"Catherine Deneuve, Chiara Mastroianni, Danielle Darrieux, Francois Jerosme, Gena Rowlands, Simon Abkarian","Animation, Biography, Drama, Foreign, War",95
 2812,2567,,,Kevin Hart: Let Me Explain,Leslie Small,2013,"Harry Ratchford, Kevin Hart, Will 'Spank' Horton","Comedy, Documentary",75
-757,,,3032,Kit Kittredge: An American Girl,Patricia Rozema,2008,"Abigail Breslin, Chris O'Donnell, Joan Cusack, Julia Ormond, Max Thieriot, Stanley Tucci","Comedy, Drama, Family",101
+757,,,3032,kit kittredge: an american girl,Patricia Rozema,2008,"Abigail Breslin, Chris O'Donnell, Joan Cusack, Julia Ormond, Max Thieriot, Stanley Tucci","Comedy, Drama, Family",101
 176,173,,,Katy Perry: Part of Me,Dan Cutforth,2012,"Adam Marcello, Casey Hooper, Katy Perry","Documentary, Music",93
 2819,2575,,,Lake Windfall,Roger Vass,2013,"Alex Laferriere, Christopher B. Corrigan, Jasun Hicks","Comedy, Drama, Thriller",105
 ,911,,583,heaven knows what,"Ben Safdie, Joshua Safdie",2015,"Arielle Holmes, Caleb Landry Jones, Eléonore Hendricks, Yuri Pleskun",Drama,94
@@ -2179,12 +2179,12 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 414,396,,2555,Percy Jackson & the Olympians: The Lightning Thief,Chris Columbus,2010,"Alexandra Daddario, Brandon T. Jackson, Catherine Keener, Kevin McKidd, Logan Lerman, Pierce Brosnan, Rosario Dawson, Sean Bean, Steve Coogan, Uma Thurman","Adventure, Drama, Family, Fantasy, Mystery, Science Fiction",118
 ,1422,,552,a pigeon sat on a branch reflecting on existence,Roy Andersson,2015,"Charlotta Larsson, Holger Andersson, Jonas Gerholm, Lotti Törnros, Nisse Vestblom, Ola Stensson, Oscar Salomonsson, Roger Olsen Likvern, Viktor Gyllenberg","Comedy, Drama",100
 775,725,,,The Midnight Meat Train,Ryûhei Kitamura,2008,"Bradley Cooper, Leslie Bibb, Vinnie Jones","Horror, Thriller",100
-2687,2457,,1559,CBGB,Randall Miller,2013,"Alan Rickman, Ashley Greene, Johnny Galecki, Justin Bartha, Kyle Gallner, Malin Akerman, Rupert Grint, Ryan Hurst, Stana Katic","Drama, History, Music",101
-2841,,,1324,tyler perry's a madea christmas,Tyler Perry,2013,"Alicia Witt, Anna Maria Horsford, Chad Michael Murray, Eric Lively, JR Lemon, Jonathan Chase, Larry the Cable Guy, Lisa Whelchel, Tika Sumpter, Tyler Perry","Comedy, Drama",100
-1849,,,338,derailed,Mikael Hafstrom,2005,"Clive Owen, Jennifer Aniston, Melissa George, RZA, Vincent Cassel, Xzibit","Drama, Thriller",108
+2687,2457,,1559,CBGB,Randall Miller,2013,"Alan Rickman, Ashley Greene, Johnny Galecki, Justin Bartha, Kyle Gallner, Malin Åkerman, Rupert Grint, Ryan Hurst, Stana Katic","Drama, History, Music",101
+2841,,,1324,Tyler Perry's A Madea Christmas,Tyler Perry,2013,"Alicia Witt, Anna Maria Horsford, Chad Michael Murray, Eric Lively, JR Lemon, Jonathan Chase, Larry the Cable Guy, Lisa Whelchel, Tika Sumpter, Tyler Perry","Comedy, Drama",100
+1849,,,338,Derailed,Mikael Håfström,2005,"Clive Owen, Jennifer Aniston, Melissa George, RZA, Vincent Cassel, Xzibit","Drama, Thriller",108
 2506,2286,,3047,Mister Lonely,Harmony Korine,2008,"Anita Pallenberg, Denis Lavant, Diego Luna, Esme Creed-Miles, James Fox, Jason Pennycooke, Melita Morgan, Richard Strange, Samantha Morton, Werner Herzog","Comedy, Drama, Foreign",112
 2643,,,1329,Anchorman 2: The Legend Continues,Adam McKay,2013,"Christina Applegate, David Koechner, Harrison Ford, James Marsden, Kristen Wiig, Luke Wilson, Meagan Good, Paul Rudd, Steve Carell, Will Ferrell",Comedy,119
-2740,,,1373,G.B.F.,Darren Stein,2014,"Andrea Bowen, Evanna Lynch, JoJo, Jonathan Silverman, Megan Mullally, Michael J. Willett, Natasha Lyonne, Paul Iacono, Rebecca Gayheart, Sasha Pieterse","Comedy, Romance",92
+2740,,,1373,g.b.f.,Darren Stein,2014,"Andrea Bowen, Evanna Lynch, JoJo, Jonathan Silverman, Megan Mullally, Michael J. Willett, Natasha Lyonne, Paul Iacono, Rebecca Gayheart, Sasha Pieterse","Comedy, Romance",92
 2502,2281,,,Meet the Robinsons,Stephen J. Anderson,2007,"Angela Bassett, Daniel Hansen, Wesley Singerman","Adventure, Animation, Comedy, Family, Sci-Fi",95
 1876,,,274,fun with dick and jane,Dean Parisot,2005,"Alec Baldwin, Angie Harmon, Jeff Garlin, Jim Carrey, Richard Jenkins, Tea Leoni","Action, Comedy, Crime",90
 1114,,,3186,bee movie,"Simon J. Smith, Steve Hickner",2007,"Chris Rock, Jerry Seinfeld, John Goodman, Matthew Broderick, Oprah Winfrey, Renee Zellweger","Adventure, Animation, Comedy, Family",91
@@ -2197,13 +2197,13 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 1808,1585,,,The 40-Year-Old Virgin,Judd Apatow,2005,"Catherine Keener, Paul Rudd, Steve Carell","Comedy, Romance",116
 ,3069,,539,ride,Helen Hunt,2015,"Brenton Thwaites, Callum Keith Rennie, David Zayas, Helen Hunt, Luke Wilson",Comedy,93
 ,,319,859,happy new year,Farah Khan,2014,"Abhishek Bachchan, Boman Irani, Deepika Padukone, Jackie Shroff, Shahrukh Khan, Sonu Sood","Action, Comedy, Drama, Romance",180
-2595,,,3144,Sweeney Todd: The Demon Barber of Fleet Street,Tim Burton,2007,"Alan Rickman, Helena Bonham Carter, Jamie Campbell Bower, Jayne Wisener, Johnny Depp, Sacha Baron Cohen, Timothy Spall","Drama, Horror, Musical, Thriller",116
+2595,,,3144,sweeney todd: the demon barber of fleet street,Tim Burton,2007,"Alan Rickman, Helena Bonham Carter, Jamie Campbell Bower, Jayne Wisener, Johnny Depp, Sacha Baron Cohen, Timothy Spall","Drama, Horror, Music, Thriller",116
 2043,1803,,325,Aquamarine,Elizabeth Allen Rosenbaum,2006,"Arielle Kebbel, Dichen Lachman, Emma Roberts, Jake McDorman, Joanna 'JoJo' Levesque, Julia Blake, Sara Paxton, Tammin Sursok","Comedy, Drama, Family, Fantasy, Romance, Science Fiction",104
 2334,3102,,,Strangeland,John Pieplow,1998,"Dee Snider, Elizabeth Peña, Kevin Gage","Horror, Thriller",85
-832,775,,,Step Up 2: The Streets,Jon M. Chu,2008,"Briana Evigan, Cassie Ventura, Robert Hoffman","Drama, Musical, Romance",98
+832,775,,,Step Up 2: The Streets,Jon M. Chu,2008,"Briana Evigan, Cassie Ventura, Robert Hoffman","Drama, Music, Romance",98
 ,1744,,246,the sisters,Arthur Allan Seidelman,2006,"Alessandro Nivola, Chris O'Donnell, Elizabeth Banks, Eric McCormack, Erika Christensen, Maria Bello, Mary Stuart Masterson, Rip Torn, Steven Culp, Tony Goldwyn","Drama, Foreign, Horror",113
 689,,,2872,the boy in the striped pajamas,Mark Herman,2008,"Amber Beattie, Asa Butterfield, Cara Horgan, David Hayman, David Thewlis, Jack Scanlon, Jim Norton, Richard Johnson, Rupert Friend, Sheila Hancock, Vera Farmiga","Drama, Foreign, History, War",94
-352,,,2217,Harry Potter and the Deathly Hallows: Part 2,David Yates,2011,"Alan Rickman, Daniel Radcliffe, David Thewlis, Emma Watson, Gary Oldman, Helena Bonham-Carter, Maggie Smith, Michael Gambon, Ralph Fiennes, Robbie Coltrane, Rupert Grint","Adventure, Drama, Family, Fantasy, Mystery, Science Fiction",130
+352,,,2217,harry potter and the deathly hallows: part 2,David Yates,2011,"Alan Rickman, Daniel Radcliffe, David Thewlis, Emma Watson, Gary Oldman, Helena Bonham-Carter, Maggie Smith, Michael Gambon, Ralph Fiennes, Robbie Coltrane, Rupert Grint","Adventure, Drama, Family, Fantasy, Mystery, Science Fiction",130
 ,,222,1121,how to train your dragon 2,Dean Deblois,2014,"America Ferrera, Cate Blanchett, Christopher Mintz-Plasse, Craig Ferguson, Djimon Hounsou, Gerard Butler, Jay Baruchel, Jonah Hill, Kit Harington, Kristen Wiig, T. J. Miller","Action, Adventure, Animation",102
 ,369,,2363,life as we know it,Greg Berlanti,2010,"Christina Hendricks, Hayes MacArthur, Josh Duhamel, Josh Lucas, Katherine Heigl","Comedy, Romance",115
 2769,2530,,1557,Hell Baby,"Robert Ben Garant, Thomas Lennon",2013,"Alex Berg, Brittney Alger, Dave Holmes, Keegan Michael Key, Leslie Bibb, Michael Ian Black, Paul Scheer, Rob Corddry, Rob Huebel, Thomas Lennon","Comedy, Horror",98
@@ -2218,9 +2218,9 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 ,,320,983,left behind,Vic Armstrong,2014,"Chad Michael Murray, Jordin Sparks, Lea Thompson, Martin Klebba, Nicky Whelan, Nicolas Cage","Action, Science Fiction",105
 1943,1708,,279,Munich,Steven Spielberg,2005,"Ciaran Hinds, Daniel Craig, Eric Bana, Geoffrey Rush, Gila Almagor, Hanns Zischler, Lynn Cohen, Marie-Josée Croze, Mathieu Amalric, Mathieu Kassovitz, Michael Lonsdale","Action, Drama, History, Thriller",164
 ,1603,,491,a lego brickumentary,"Daniel Junge, Kief Davidson",2015,Jason Bateman,Documentary,93
-2014,,,304,the world's fastest indian,Roger Donaldson,2006,"Aaron Murphy, Anthony Hopkins, Bruce Greenwood, Christopher Lawford, Diane Ladd, Iain Rea, Patrick Flueger, Paul Rodriguez","Biography, Drama, Foreign, Indie, Sport",127
+2014,,,304,The World's Fastest Indian,Roger Donaldson,2006,"Aaron Murphy, Anthony Hopkins, Bruce Greenwood, Christopher Lawford, Diane Ladd, Iain Rea, Patrick Flueger, Paul Rodriguez","Biography, Drama, Foreign, Indie, Sport",127
 909,845,,2707,Cloudy with a Chance of Meatballs,"Chris Miller, Phil Lord",2009,"Al Roker, Anna Faris, Benjamin Bratt, Bill Hader, Bruce Campbell, Lauren Graham, Mr. T, Neil Patrick Harris","Animation, Comedy, Family, Romance, Sci-Fi",90
-1422,,,1257,The Den,Zachary Donohue,2014,"Adam Shapiro, Bill Oberst Jr., David Schlachtenhaufen, Katija Pevec, Lilly Holleman, Matt Riedy, Melanie Papalia","Horror, Mystery, Thriller",81
+1422,,,1257,the den,Zachary Donohue,2014,"Adam Shapiro, Bill Oberst Jr., David Schlactenhaufen, Katija Pevec, Lilly Holleman, Matt Riedy, Melanie Papalia","Horror, Mystery, Thriller",81
 ,,279,1220,the raid 2,Gareth Evans,2014,"Arifin Putra, Iko Uwais, Julie Estelle, Ken'ichi Endô, Oka Antara, Ryuhei Matsuda, Tio Pakusodewo","Action, Crime, Thriller",150
 2606,,,3140,walk hard: the dewey cox story,Jake Kasdan,2007,"Chris Parnell, David Krumholtz, Harold Ramis, Jenna Fischer, John C. Reilly, Kristen Wiig, Raymond J. Barry, Tim Meadows","Comedy, Music",96
 ,,202,1309,the legend of hercules,Renny Harlin,2014,"Gaia Weiss, Johnathon Schaech, Jukka Hilden, Kellan Lutz, Kenneth Cranham, Liam Garrigan, Liam McIntyre, Luke Newberry, Rade Serbedzija, Roxanne McKee, Sarai Givaty, Scott Adkins","Action, Adventure",99
@@ -2229,15 +2229,15 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 ,,285,1122,22 jump street,"Chris Miller, Phil Lord",2014,"Amber Stevens, Channing Tatum, Dave Franco, Ice Cube, Jillian Bell, Jimmy Tatro, Jonah Hill, Nick Offerman, Peter Stormare, Richard Grieco, Rob Riggle, Wyatt Russell","Action, Comedy",112
 2711,2478,,1699,Disconnect,Henry Alex Rubin,2013,"Alexander Skarsgård, Andrea Riseborough, Colin Ford, Haley Ramm, Hope Davis, Jason Bateman, Jonah Bobo, Paula Patton","Drama, Thriller",115
 ,2829,,2903,magnolia,Paul Thomas Anderson,1999,"Alfred Molina, Jason Robards, Jeremy Blackman, John C. Reilly, Julianne Moore, Melora Walters, Philip Baker Hall, Philip Seymour Hoffman, Ricky Jay, Tom Cruise, William H. Macy","Drama, Indie, Romance",188
-2080,1835,,103,Breaking and Entering,Anthony Minghella,2007,"Jude Law, Juliette Binoche, Poppy Rogers, Rafi Gavron, Robin Wright, Vera Farmiga","Drama, Foreign, Romance",129
-2784,,,1452,i'm in love with a church girl,Steve Race,2013,"Adrian Bustamante, Adrienne Bailon, Ja Rule, Martin Kove, Michael Madsen, Stephen Baldwin, Vincent Pastore, Zahn McClarnon","Drama, Romance",118
+2080,1835,,103,Breaking and Entering,Anthony Minghella,2007,"Jude Law, Juliette Binoche, Poppy Rogers, Rafi Gavron, Robin Wright, Vera Farmiga","Drama, Foreign, Romance",120
+2784,,,1452,I'm in Love with a Church Girl,Steve Race,2013,"Adrian Bustamante, Adrienne Bailon, Ja Rule, Martin Kove, Michael Madsen, Stephen Baldwin, Vincent Pastore, Zahn McClarnon","Drama, Romance",118
 161,,,1960,hick,Derick Martini,2012,"Alec Baldwin, Anson Mount, Blake Lively, Chloe Grace Moretz, Eddie Redmayne, Juliette Lewis, Rory Culkin","Comedy, Drama",99
 ,,226,1394,vampire academy,Mark Waters,2014,"Danila Kozlovskiy, Gabriel Byrne, Joely Richardson, Lucy Fry, Olga Kurylenko, Sarah Hyland, Zoey Deutch","Action, Adventure, Drama, Fantasy, Romance",104
-942,,,2761,ghosts of girlfriends past,Mark Waters,2009,"Anne Archer, Breckin Meyer, Emma Stone, Jennifer Garner, Lacey Chabert, Matthew McConaughey, Michael Douglas, Robert Forster","Comedy, Fantasy, Romance, Science Fiction",100
-2680,,,1611,Lee Daniels' The Butler,Lee Daniels,2013,"Alan Rickman, Cuba Gooding Jr., Forest Whitaker, James Marsden, Jane Fonda, Jesse Williams, John Cusack, Liev Schreiber, Mariah Carey, Minka Kelly, Oprah Winfrey, Robin Williams, Terrence Howard","Biography, Drama",132
+942,,,2761,Ghosts of Girlfriends Past,Mark Waters,2009,"Anne Archer, Breckin Meyer, Emma Stone, Jennifer Garner, Lacey Chabert, Matthew McConaughey, Michael Douglas, Robert Forster","Comedy, Fantasy, Romance, Science Fiction",100
+2680,,,1611,lee daniels' the butler,Lee Daniels,2013,"Alan Rickman, Cuba Gooding Jr., Forest Whitaker, James Marsden, Jane Fonda, Jesse Williams, John Cusack, Liev Schreiber, Mariah Carey, Minka Kelly, Oprah Winfrey, Robin Williams, Terrence Howard","Biography, Drama",132
 ,426,,352,stonewall,Roland Emmerich,2015,"Andrea Frankle, Atticus Mitchell, Caleb Landry Jones, David Cubitt, Jeremy Irvine, Joanne Vannicola, Joey King, Jonathan Rhys-Meyers, Karl Glusman, Mark Camacho, Matt Craven, Ron Perlman",Drama,129
 966,899,,2639,The Imaginarium of Doctor Parnassus,Terry Gilliam,2010,"Christopher Plummer, Heath Ledger, Lily Cole, Tom Waits, Verne Troyer","Adventure, Fantasy, Mystery, Science Fiction",123
-501,,,1893;2135,the twilight saga: breaking dawn - part 2,Bill Condon,2012,"Ashley Greene, Billy Burke, Dakota Fanning, Elizabeth Reaser, Jackson Rathbone, Kellan Lutz, Kristen Stewart, Mackenzie Foy, Michael Sheen, Nikki Reed, Peter Facinelli, Robert Pattinson, Taylor Lautner","Adventure, Drama, Family, Fantasy, Romance, Science Fiction",115
+501,,,1893;2135,The Twilight Saga: Breaking Dawn - Part 2,Bill Condon,2012,"Ashley Greene, Billy Burke, Dakota Fanning, Elizabeth Reaser, Jackson Rathbone, Kellan Lutz, Kristen Stewart, Mackenzie Foy, Michael Sheen, Nikki Reed, Peter Facinelli, Robert Pattinson, Taylor Lautner","Adventure, Drama, Family, Fantasy, Romance, Science Fiction",115
 2239,1975,,,Kurt Cobain About a Son,AJ Schnack,2007,"Courtney Love, Kurt Cobain, Michael Azerrad","Documentary, Music",96
 698,650,,,College,Deb Hagan,2008,"Andrew Caldwell, Drake Bell, Kevin Covais",Comedy,94
 2627,2396,,1409,12 Years a Slave,Steve McQueen,2013,"Alfre Woodard, Benedict Cumberbatch, Brad Pitt, Chiwetel Ejiofor, Garret Dillahunt, Michael Fassbender, Michael Kenneth Williams, Paul Dano, Paul Giamatti, Ruth Negga, Sarah Paulson, Scoot McNairy, Taran Killam","Biography, Drama, History",134
@@ -2246,15 +2246,15 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 ,608,,2173,the thing,Matthijs van Heijningen,2011,"Eric Christian Olsen, Joel Edgerton, Mary Elizabeth Winstead, Ulrich Thomsen","Horror, Mystery, Science Fiction",103
 396,378,,2394,Marmaduke,Tom Dey,2010,"Christopher, Emma Stone, George Lopez, Judy Greer, Kiefer Sutherland, Lee Pace, Owen Wilson, Sam Elliott, Steve Coogan","Comedy, Family",87
 ,876,,2724,g-force,Hoyt Yeatman,2009,"Bill Nighy, Gabriel Casseus, Jack Conley, Jon Favreau, Kelli Garner, Nicolas Cage, Piper Mackenzie Harris, Sam Rockwell, Steve Buscemi, Tyler Patrick Jones, Will Arnett, Zach Galifianakis","Action, Adventure, Animation, Family",88
-2704,,,1456,the counselor,Ridley Scott,2013,"Brad Pitt, Bruno Ganz, Cameron Diaz, Goran Višnjić, Javier Bardem, Michael Fassbender, Penelope Cruz, Rosie Perez","Crime, Drama, Thriller",117
+2704,,,1456,The Counselor,Ridley Scott,2013,"Brad Pitt, Bruno Ganz, Cameron Diaz, Goran Višnjić, Javier Bardem, Michael Fassbender, Penélope Cruz, Rosie Perez","Crime, Drama, Thriller",117
 600,,,2153,New Year's Eve,Garry Marshall,2011,"Ashton Kutcher, Halle Berry, Hilary Swank, Jessica Biel, Jon Bon Jovi, Michelle Pfeiffer, Robert De Niro, Sarah Jessica Parker, Zac Efron","Comedy, Romance",113
-316,,,5,death at a funeral,Frank Oz,2007,"Alan Tudyk, Daisy Donovan, Ewen Bremner, Jane Asher, Keeley Hawes, Matthew MacFadyen, Peter Dinklage, Peter Egan, Rupert Graves","Comedy, Drama, Foreign",90
+316,,,5,Death at a Funeral,Frank Oz,2007,"Alan Tudyk, Daisy Donovan, Ewen Bremner, Jane Asher, Keeley Hawes, Matthew Macfadyen, Peter Dinklage, Peter Egan, Rupert Graves","Comedy, Drama, Foreign",90
 ,,1769,2668,black dynamite,Scott Sanders,2009,"Arsenio Hall, Bokeem Woodbine, James McManus, John Salley, Michael Jai White, Mykelti Williamson, Nicole Sullivan, Tommy Davidson","Action, Comedy",90
 ,871,,2771,fired up,Will Gluck,2009,"Amber Stevens, Eric Christian Olsen, Hayley Marie Norman, Molly Sims, Nicholas D'Agosto, Philip Baker Hall, Sarah Roemer","Comedy, Family, Romance",90
 1935,1704,,288,Match Point,Woody Allen,2006,"Brian Cox, Emily Mortimer, Ewen Bremner, James Nesbitt, Jonathan Rhys Meyers, Matthew Goode, Penelope Wilton, Scarlett Johansson","Crime, Drama, Romance, Thriller",124
 ,1356,,3059,southland tales,Richard Kelly,2007,"Curtis Armstrong, Dwayne Johnson, Justin Timberlake, Kevin Smith, Mandy Moore, Sarah Michelle Gellar, Seann William Scott","Action, Adventure, Comedy, Drama, Science Fiction, Thriller",160
 ,2560,,1454,jackass presents: bad grandpa,Jeff Tremaine,2013,"Bam Margera, Chris Pontius, Dave England, Ehren McGhehey, Jackson Nicoll, Johnny Knoxville, Preston Lacy","Comedy, Documentary",92
-2805,,,1578,jayne mansfield's car,Billy Bob Thornton,2013,"Billy Bob Thornton, Frances O'Connor, John Hurt, Kevin Bacon, Ray Stevenson, Robert Duvall, Robert Patrick, Shawnee Smith, Tippi Hedren",Drama,122
+2805,,,1578,Jayne Mansfield's Car,Billy Bob Thornton,2013,"Billy Bob Thornton, Frances O'Connor, John Hurt, Kevin Bacon, Ray Stevenson, Robert Duvall, Robert Patrick, Shawnee Smith, Tippi Hedren",Drama,122
 ,866,,2710,fame,Kevin Tancharoen,2009,"Asher Book, Bebe Neuwirth, Charles S. Dutton, Collins Pennie, Debbie Allen, Kay Panabaker, Kelsey Grammer, Kherington Payne, Megan Mullally, Naturi Naughton, Paul Iacono, Paul McGill, Walter Perez","Comedy, Drama, Music",107
 2935,2682,,1747,Stoker,Park Chan-wook,2013,"Dermot Mulroney, Harmony Korine, Matthew Goode, Mia Wasikowska, Nicole Kidman","Drama, Horror, Thriller",98
 582,547,,,Life in a Day,Kevin Macdonald,2011,"Cindy Baer, Hiroaki Aikawa, Teagan Bentley","Documentary, Drama",95
@@ -2264,7 +2264,7 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 2733,2498,895,,Foodfight!,Lawrence Kasanoff,2013,"Charlie Sheen, Haylie Duff, Hilary Duff","Action, Animation, Comedy, Family, Fantasy",91
 ,,115,498,wild city,Ringo Lam,2015,"Dave Wong, Jack Kao Kuo-Hsin, Joseph Chang, Louis Koo, Philip Ng, Sam Lee, Shawn Yue, Simon Yam, Tong Liya",Action,120
 952,,,2846,He's Just Not That Into You,Ken Kwapis,2009,"Ben Affleck, Bradley Cooper, Drew Barrymore, Ginnifer Goodwin, Jennifer Aniston, Jennifer Connelly, Justin Long, Kevin Connolly, Morgan Lily, Scarlett Johansson","Comedy, Drama, Romance",129
-2222,,,737,unbroken,Angelina Jolie,2014,"Alex Russell, Domhnall Gleeson, Finn Wittrock, Garrett Hedlund, Jack O'Connell, Jai Courtney, John Magaro, Luke Treadaway, Miyavi, Takamasa Ishihara","Biography, Drama, Sport, War",137
+2222,,,737,Unbroken,Angelina Jolie,2014,"Alex Russell, Domhnall Gleeson, Finn Wittrock, Garrett Hedlund, Jack O'Connell, Jai Courtney, John Magaro, Luke Treadaway, Miyavi, Takamasa Ishihara","Biography, Drama, Sport, War",137
 1694,1479,,,The Ladykillers,Ethan Coen,2004,"Irma P. Hall, Marlon Wayans, Tom Hanks","Comedy, Crime, Thriller",104
 ,5,1144,,40 Days and Nights,Peter Geiger,2012,"Alex Arleo, Alex Carter, Christianna Carmine, Emily Sandifer, Monica Keena","Action, Adventure, Mystery & Suspense, Sci-Fi",86
 2919,2666,,,Shotgun Wedding,Danny Roew,2013,"Joel McKinnon Miller, Kim Shaw, Mike Damus","Comedy, Horror, Romance",92
@@ -2272,20 +2272,20 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 1261,1086,,,Just One Night,Alan Jacobs,2000,"Maria Grazia Cucinotta, Timothy Hutton, Udo Kier",Comedy,90
 2792,2551,,,Indescribable,Stacie Graber,2013,"J.C. Scott, Rich Swingle, Seth Pruski","Drama, Family, History",94
 440,419,,,Small Town Saturday Night,Ryan Craig,2010,"Bre Blair, Chris Pine, Shawn Christian",Drama,94
-932,,,2754,fighting,Dito Montiel,2009,"Altagracia Guzman, Channing Tatum, Flaco Navaja, Luis Guzman, Michael Rivera, Peter Tambakis, Roger Guenveur Smith, Terrence Howard, Zulay Henao","Action, Adventure, Crime, Drama, Sport, Thriller",105
+932,,,2754,Fighting,Dito Montiel,2009,"Altagracia Guzman, Channing Tatum, Flaco Navaja, Luis Guzmán, Michael Rivera, Peter Tambakis, Roger Guenveur Smith, Terrence Howard, Zulay Henao","Action, Adventure, Crime, Drama, Sport, Thriller",105
 939,877,899,,Gallowwalkers,Andrew Goth,2014,"Kevin Howarth, Riley Smith, Wesley Snipes","Action, Fantasy, Horror, Thriller, Western",90
 2517,2294,,,My Sexiest Year,Howard Himelstein,2007,"Amber Valletta, Frankie Muniz, Harvey Keitel","Comedy, Drama",93
 1510,1313,,,My Big Break,Tony Zierra,2009,"Brad Rowe, Chad Lindberg, Wes Bentley",Documentary,101
-2078,,,88,Borat: Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan,Larry Charles,2006,"Herself, Ken Davitian, Luenell, Sacha Baron Cohen",Comedy,84
+2078,,,88,borat: cultural learnings of america for make benefit glorious nation of kazakhstan,Larry Charles,2006,"Herself, Ken Vavitian, Luenell, Sacha Baron Cohen",Comedy,82
 2729,2494,,,Far Marfa,Cory Van Dyke,2013,"Johnny Sneed, Jolyn Janis, Julie Mintz","Comedy, Drama",86
 2779,2539,,,House of Dust,A.D. Calvo,2013,"Eddie Hassell, Inbar Lavi, Steven Grayhm","Horror, Thriller",90
 2847,2599,,,Masterminds,Jared Hess,2016,"Jason Sudeikis, Kristen Wiig, Mary Elizabeth Ellis","Action, Comedy, Crime",94
-2794,,,1550,the inevitable defeat of mister and pete,George Tillman Jr,2013,"Anthony Mackie, Ethan Dizon, Jeffrey Wright, Jennifer Hudson, Jordin Sparks, Skylan Brooks",Drama,120
+2794,,,1550,The Inevitable Defeat of Mister & Pete,George Tillman Jr.,2013,"Anthony Mackie, Ethan Dizon, Jeffrey Wright, Jennifer Hudson, Jordin Sparks, Skylan Brooks",Drama,108
 2785,2543,,,I Know That Voice,Lawrence Shapiro,2013,"Jim Cummings, John DiMaggio, Kevin Conroy",Documentary,90
 882,823,,,Arcadia Lost,Phedon Papamichael,2010,"Dato Bakhtadze, Haley Bennett, Lachlan Buchanan",Drama,95
 72,72,,,California Winter,Odin Ozdil,,"Erick Avari, Michael Ironside, Rutina Wesley","Drama, History",82
 2065,1821,,,Bickford Shmeckler's Cool Ideas,Scott Lew,2008,"Fran Kranz, Olivia Wilde, Patrick Fugit","Comedy, Romance",79
-462,,,2558,valentine's day,Garry Marshall,2010,"Anne Hathaway, Ashton Kutcher, Bradley Cooper, Eric Dane, George Lopez, Jamie Foxx, Jennifer Garner, Jessica Alba, Julia Roberts, Patrick Dempsey, Queen Latifah, Shirley MacLaine, Taylor Lautner, Taylor Swift, Topher Grace","Comedy, Romance",125
+462,,,2558,Valentine's Day,Garry Marshall,2010,"Anne Hathaway, Ashton Kutcher, Bradley Cooper, Eric Dane, George Lopez, Jamie Foxx, Jennifer Garner, Jessica Alba, Julia Roberts, Patrick Dempsey, Queen Latifah, Shirley MacLaine, Taylor Lautner, Taylor Swift, Topher Grace","Comedy, Romance",125
 ,,1624;1638,,Rakhta Charitra,Ram Gopal Varma,2010,"Shatrughan Sinha, Sudeep, Suriya, Vivek Oberoi","Action, Biography, Crime, Drama",125
 2466,,,3066,I'm Not There.,Todd Haynes,2007,"Ben Whishaw, Cate Blanchett, Charlotte Gainsbourg, Christian Bale, Heath Ledger, Julianne Moore, Marcus Carl Franklin, Richard Gere","Biography, Drama, Music",135
 1118,2164,,,Blades of Glory,Josh Gordon,2007,"Amy Poehler, Jon Heder, Will Ferrell","Comedy, Sport",93
@@ -2295,7 +2295,7 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 1636,1418,,,Control Room,Jehane Noujaim,2004,"George W. Bush, Josh Rushing, Samir Khader",Documentary,84
 933,870,,,The Final Destination,David R. Ellis,2009,"Andrew Fiscella, Krista Allen, Nick Zano","Horror, Thriller",82
 1338,1159,,,Songcatcher,Maggie Greenwald,2001,"Janet McTeer, Michael Goodwin, Michael Q. Davis","Drama, Music",109
-2599,2371,,3102,There Will Be Blood,Paul Thomas Anderson,2008,"Ciarán Hinds, Colton Woodward, Daniel Day-Lewis, David Warshofsky, David Willis, Dillon Freasier, Kevin J. O'Connor, Paul Dano, Russell Harvard, Sunday Colleen Foy, Sydney McCallister","Drama, Thriller",158
+2599,2371,,3102,There Will Be Blood,Paul Thomas Anderson,2008,"Ciaran Hinds, Colton Woodward, Daniel Day-Lewis, David Warshofsky, David Willis, Dillon Freasier, Kevin J. O'Connor, Paul Dano, Russell Harvard, Sunday Colleen Foy, Sydney McCallister","Drama, Thriller",158
 1154,2196,,,Dirty Country,Joe Pickett,2007,"Clarence Reid, Larry Pierce, Red Peters",Documentary,70
 1759,1538,,,Silver City,John Sayles,2004,"Chris Cooper, Maria Bello, Thora Birch","Comedy, Drama, Mystery, Thriller",128
 2408,2119,,,The War Tapes,Deborah Scranton,2006,"Ben Flanders, Duncan Domey, Zack Bazzi","Documentary, War",97
@@ -2303,7 +2303,7 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 1806,1583,,,The Year of the Yao,Adam Del Deo,2005,"Colin Pine, Ming Yao, Shaquille O'Neal",Documentary,88
 82,82,,,Chernobyl Diaries,Bradley Parker,2012,"Jesse McCartney, Jonathan Sadowski, Olivia Taylor Dudley","Horror, Mystery, Thriller",86
 699,651,,,College Road Trip,Roger Kumble,2008,"Kym Whitley, Martin Lawrence, Raven-Symoné","Adventure, Comedy, Drama, Family",83
-272,,,1956,what to expect when you're expecting,Kirk Jones,2012,"Anna Kendrick, Ben Falcone, Brooklyn Decker, Cameron Diaz, Chace Crawford, Chris Rock, Dennis Quaid, Elizabeth Banks, J. Todd Smith, Jennifer Lopez, Matthew Morrison, Rodrigo Santoro","Comedy, Drama, Romance",110
+272,,,1956,What to Expect When You're Expecting,Kirk Jones,2012,"Anna Kendrick, Ben Falcone, Brooklyn Decker, Cameron Diaz, Chace Crawford, Chris Rock, Dennis Quaid, Elizabeth Banks, J. Todd Smith, Jennifer Lopez, Matthew Morrison, Rodrigo Santoro","Comedy, Drama, Romance",110
 514,486,,,Courageous,Alex Kendrick,2011,"Alex Kendrick, Ken Bevel, Kevin Downes",Drama,129
 718,671,,,Felon,Ric Roman Waugh,2008,"Marisol Nichols, Stephen Dorff, Vincent Miller","Crime, Drama",104
 2735,2500,,,The Frankenstein Theory,Andrew Weiner,2013,"Joe Egender, Kris Lemche, Timothy V. Murphy","Horror, Sci-Fi",87
@@ -2335,7 +2335,7 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 123,121,,,Dysfunctional Friends,Corey Grant,2012,"Jason Weaver, Stacey Dash, Wesley Jonathan","Comedy, Drama",111
 2077,1832,,,Bobby,Emilio Estevez,2006,"Anthony Hopkins, Demi Moore, Sharon Stone","Drama, History",117
 1531,1332,,,Rat Race,Jerry Zucker,2001,"Amy Smart, Breckin Meyer, Whoopi Goldberg","Adventure, Comedy",112
-945,,,2683,The Goods: Live Hard Sell Hard,Neal Brennan,2009,"Alan Thicke, Charles Napier, David Koechner, Ed Helms, James Brolin, Jeremy Piven, Jordana Spiro, Kathryn Hahn, Ken Jeong, Rob Riggle, Tony Hale, Ving Rhames",Comedy,89
+945,,,2683,"the goods: live hard, sell hard",Neal Brennan,2009,"Alan Thicke, Charles Napier, David Koechner, Ed Helms, James Brolin, Jeremy Piven, Jordana Spiro, Kathryn Hahn, Ken Jeong, Rob Riggle, Tony Hale, Ving Rhames",Comedy,90
 49,51,,,Bending the Rules,Artie Mandelberg,2012,"Adam Copeland, Jamie Kennedy, Jennifer Esposito","Comedy, Crime",83
 2614,2382,,,Whisper,Stewart Hendler,2007,"Blake Woodruff, Jennifer Shirley, Michael Rooker","Crime, Drama, Horror, Thriller",94
 ,,618,1334,dhoom: 3,Vijay Krishna Acharya,2013,"Aamir Khan, Abhishek Bachchan, Elizabeth Reiners, Katrina Kaif, Riya Ray, Uday Chopra",Action,172
@@ -2352,7 +2352,7 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 2677,2448,,,Bridegroom,Linda Bloodworth-Thomason,2013,"Cindy Bitney, Sasha Andreev, Thomas Bridegroom",Documentary,79
 1182,1013,,,American Psycho,Mary Harron,2000,"Christian Bale, Josh Lucas, Justin Theroux","Drama, Horror",102
 ,2631,6194,,Pit Stop,Jack Hill,1969,"Beverly Washburn, Brian Donlevy, Ellen Burstyn, Ellen McRae, George Washburn, Richard Davalos","Action, Classics, Comedy, Cult Movies, Drama, Sport",92
-497,472,,2213,A Better Life,Chris Weitz,2011,"Delores Heredia, Demian Bichir, Eddie 'Piolin' Sotelo, Gabriel Chavarria, Joaquin Cosio, Jose Julian",Drama,98
+497,472,,2213,A Better Life,Chris Weitz,2011,"Delores Heredia, Demian Bichir, Eddie 'Piolin' Sotelo, Gabriel Chavarria, Joaquin Cosio, José Julián",Drama,98
 2000,1765,,,Undiscovered,Meiert Avis,2005,"Carrie Fisher, Kip Pardue, Shannyn Sossamon","Comedy, Music, Romance",97
 1102,2149,,,American Pastime,Desmond Nakano,2007,"Aaron Yoo, Carlton Bluford, Olesya Rulin","Drama, Romance, Sport",105
 1420,1236,,,The Curse of the Jade Scorpion,Woody Allen,2001,"Greg Stebner, John Tormey, Woody Allen","Comedy, Crime, Mystery",103
@@ -2390,14 +2390,14 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 416,398,,,Piranha 3D,Alexandre Aja,2010,"Elisabeth Shue, Jerry O'Connell, Richard Dreyfuss","Comedy, Horror",88
 1215,1045,,,Coyote Ugly,David McNally,2000,"Adam Garcia, John Goodman, Piper Perabo","Comedy, Drama, Music, Romance",100
 1127,2172,,113,Broken English,Zoe R. Cassavetes,2007,"Drea de Matteo, Gena Rowlands, Josh Hamilton, Justin Theroux, Melvil Poupaud, Parker Posey, Peter Bogdanovich, Roy Thinnes, Tim Guinee","Comedy, Drama, Indie, Romance",97
-1927,1696,,162,The Lost City,Andy Garcia,2006,"Andy Garcia, Bill Murray, Dustin Hoffman, Elizabeth Pena, Enrique Murciano, Inés Sastre, Julio Oscar Mechoso, Millie Perkins, Nestor Carbonell, Steven Bauer, Tomas Milian, Tony Plana, William Marquez","Drama, Romance",144
+1927,1696,,162,The Lost City,Andy Garcia,2006,"Andy Garcia, Bill Murray, Dustin Hoffman, Elizabeth Pena, Enrique Murciano, Ines Sastre, Julio Oscar Mechoso, Millie Perkins, Nestor Carbonell, Steven Bauer, Tomas Milian, Tony Plana, William Marquez","Drama, Romance",144
 ,441,,2451,waiting for superman,Davis Guggenheim,2010,"Anthony Black, Bianca Hill, Bill Strickland, Daisy Esparza, Geoffrey Canada, Michelle Rhee",Documentary,102
 ,2875,3314,,Simon Sez,Kevin Alyn Elders,1999,"Dane Cook, Dennis Rodman, John Pinette, Natalia Cigliuti, Xin Xin Xiong","Action, Art House & International, Comedy",85
 888,,,2608,"bad lieutenant: port of call, new orleans",Werner Herzog,2009,"Brad Dourif, Eva Mendes, Fairuza Balk, Irma P. Hall, Jennifer Coolidge, Nicolas Cage, Russell M. Haeuser, Shawn Hatosy, Val Kilmer, Vondie Curtis-Hall","Crime, Drama, Thriller",122
 769,719,,2991,Man on Wire,James Marsh,2008,"Annie Allix, Ardis Campbell, David Demato, Jean François Heckel, Jean-Louis Blondeau, Paul McGill, Philippe Petit","Biography, Documentary, History, Indie",94
 ,239,,404,sinister 2,Ciaran Foy,2015,"Caden M. Fritz, Dartanian Sloan, Delphine Pontvieux, Jaden Klein, James Ransone, Laila Haley, Lucas Jade Zumann, Nicholas King, Olivia Rainey, Robert Daniel Sloan, Shannyn Sossamon, Tate Ellington",Horror,97
 2062,,,3174,bella,Alejandro Gomez Monteverde,2007,"Ali Landry, Eduardo Verastegui, Manny Perez, Ramon Rodriguez, Tammy Blanchard","Drama, Foreign, Romance",86
-2782,,,1488,The Hunger Games: Catching Fire,Francis Lawrence,2013,"Alan Ritchson, Amanda Plummer, Bruno Gunn, Donald Sutherland, E. Roger Mitchell, Elizabeth Banks, Jena Malone, Jennifer Lawrence, Josh Hutcherson, Lenny Kravitz, Liam Hemsworth, Lynn Cohen, Maria Howell, Meta Golding, Patrick St. Esprit, Philip Seymour Hoffman, Sam Claflin, Stanley Tucci, Stephanie Leigh Schlund, Toby Jones, Willow Shields, Woody Harrelson","Action, Adventure, Sci-Fi, Science Fiction, Thriller",146
+2782,,,1488,the hunger games: catching fire,Francis Lawrence,2013,"Alan Ritchson, Amanda Plummer, Bruno Gunn, Donald Sutherland, E. Roger Mitchell, Elizabeth Banks, Jena Malone, Jennifer Lawrence, Josh Hutcherson, Lenny Kravitz, Liam Hemsworth, Lynn Cohen, Maria Howell, Meta Golding, Patrick St. Esprit, Philip Seymour Hoffman, Sam Claflin, Stanley Tucci, Stephanie Leigh Schlund, Toby Jones, Willow Shields, Woody Harrelson","Action, Adventure, Sci-Fi, Science Fiction, Thriller",146
 2778,,,1433,hours,Eric Heisserer,2013,"Génesis Rodríguez, Judd Lormand, Lena Clark, Nancy Nave, Nick Gomez, Paul Walker, Tony Bentley","Drama, Thriller",97
 35,37,,,Barbie: The Princess & the Popstar,Ezekiel Norton,2012,"Ashleigh Ball, Jennifer Waris, Kelly Sheridan","Animation, Family",86
 2800,,,1708,It's a Disaster,Todd Berger,2013,"America Ferrera, Blaise Miller, David Cross, Erinn Hayes, Jeff Grace, Julia Stiles, Kevin M. Brennan, Laura Adkin, Rachel Boston","Comedy, Disaster, Drama",88
@@ -2408,23 +2408,23 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 2467,2250,,,In the Land of Women,Jon Kasdan,2007,"Adam Brody, Kristen Stewart, Meg Ryan","Comedy, Drama, Romance",97
 239,236,,,Silent Hill: Revelation 3D,Michael J. Bassett,2012,"Adelaide Clemens, Kit Harington, Sean Bean","Horror, Mystery, Thriller",95
 ,,753,1533,ip man: the final fight,Herman Yau,2013,"Anita Yuen, Anthony Wong Chau-Sang, Eric Tsang, Gillian Chung, Jiang Lu-Xia, Jordan Chan Siu-Chun, Timmy Hung, Xiong Xin-Xin, Zhou Chu-Chu","Action, Drama",100
-783,,,2914,Nick and Norah's Infinite Playlist,Peter Sollett,2008,"Aaron Yoo, Alexis Dziena, Ari Graynor, Kat Dennings, Michael Cera","Comedy, Drama, Family, Music, Romance",90
+783,,,2914,nick & norah's infinite playlist,Peter Sollett,2008,"Aaron Yoo, Alexis Dziena, Ari Graynor, Kat Dennings, Michael Cera","Comedy, Drama, Family, Music, Romance",90
 ,869,,575,love at first fight,Thomas Cailley,2015,"Adèle Haenel, Antoine Laurent, Brigitte Roüan, Frédéric Pellegeay, Kevin Azais, Nicolas Wanczycki, Steve Tientcheu, Thibaut Berducat, William Lebghil","Comedy, Romance",98
 ,,67,582,survivor,James McTeigue,2015,"Angela Bassett, Dylan McDermott, Frances de la Tour, Genevieve O'Reilly, James D'Arcy, Milla Jovovich, Pierce Brosnan, Robert Forster, Roger Rees, Sonya Cassidy","Action, Thriller",96
-532,,,2010,extremely loud and incredibly close,Stephen Daldry,2012,"Jeffrey Wright, John Goodman, Max von Sydow, Sandra Bullock, Thomas Horn, Tom Hanks, Viola Davis, Zoe Caldwell","Adventure, Drama, Mystery",129
+532,,,2010,Extremely Loud & Incredibly Close,Stephen Daldry,2012,"Jeffrey Wright, John Goodman, Max von Sydow, Sandra Bullock, Thomas Horn, Tom Hanks, Viola Davis, Zoe Caldwell","Adventure, Drama, Mystery",129
 833,777,,,Strange Wilderness,Fred Wolf,2008,"Allen Covert, Justin Long, Steve Zahn","Adventure, Comedy",87
-,,215,897;860,revenge of the mekons,"Andrew Lau Wai-Keung, Andrew Loo, Joe Angio",2014,"Harry Shum Jr., Justin Chon, Kevin Wu, Ray Liotta","Action, Crime, Documentary, Drama, Music",94
+,,215,860;897,revenge of the green dragons,"Andrew Lau Wai-Keung, Andrew Loo, Joe Angio",2014,"Harry Shum Jr., Justin Chon, Kevin Wu, Ray Liotta","Action, Crime, Documentary, Drama, Music",94
 1611,1399,,,The Blue Butterfly,Léa Pool,2004,"Marc Donato, Pascale Bussières, William Hurt","Adventure, Drama",97
-2324,,,68,Quinceañera,Richard Glatzer,2006,"Alicia Sixtos, Araceli Guzman-Rico, Chalo González, David W. Ross, Emily Rios, J.R. Cruz, Jesse Garcia, Jesus Castanos-Chima, Johnny Chavez",Drama,90
+2324,,,68,quinceañera,Richard Glatzer,2006,"Alicia Sixtos, Araceli Guzman-Rico, Chalo Gonzalez, David W. Ross, Emily Rios, J.R. Cruz, Jesse Garcia, Jesus Castanos-Chima, Johnny Chavez",Drama,90
 ,2397,,1655,20 feet from stardom,Morgan Neville,2013,"Bette Midler, Bruce Springsteen, Chris Botti, Darlene Love, Lisa Fischer, Lou Adler, Merry Clayton, Mick Jagger, Patti Austin, Sheryl Crow, Stevie Wonder, Stevvi Alexander, Sting","Documentary, Musical & Performing Arts",89
 2457,2241,,3112,Honeydripper,John Sayles,2008,"Charles S. Dutton, Danny Glover, Gary Clark Jr., Lisa Gay Hamilton, Mable John, Mary Steenburgen, Stacy Keach, Vondie Curtis-Hall, Yaya DaCosta","Crime, Drama, History, Music",124
-294,,,2444,buried,Rodrigo Cortes,2010,"Ivana Mino, José Luis García Pérez, Robert Paterson, Ryan Reynolds, Samantha Mathis, Stephen Tobolowsky","Drama, Foreign, Mystery, Thriller",95
+294,,,2444,Buried,Rodrigo Cortés,2010,"Ivana Mino, José Luis García Pérez, Robert Paterson, Ryan Reynolds, Samantha Mathis, Stephen Tobolowsky","Drama, Foreign, Mystery, Thriller",95
 1445,1257,,,Freddy Got Fingered,Tom Green,2001,"Marisa Coughlan, Rip Torn, Tom Green",Comedy,87
 2761,2524,,,Hansel & Gretel Get Baked,Duane Journey,2013,"Lara Flynn Boyle, Michael Welch, Molly C. Quinn","Comedy, Horror",86
 1888,1659,,,Herbie Fully Loaded,Angela Robinson,2005,"Cheryl Hines, Lindsay Lohan, Michael Keaton","Adventure, Comedy, Family, Fantasy, Romance, Sport",101
 ,,2041,2998,star wars: the clone wars,Dave Filoni,2008,"Catherine Taber, Christopher Lee, James Arnold Taylor, Matt Manter, Nika Futterman, Samuel L. Jackson, Tom Kane","Action, Animation, Family, Science Fiction",98
 1746,1526,,,Riding Giants,Stacy Peralta,2004,"Darrick Doerner, Dave Kalama, Laird John Hamilton","Documentary, History, Sport",105
-2525,2301,,3171,No End in Sight,Charles Ferguson,2007,"Ali Fadhil, Campbell Scott, Gerald Burke","Documentary, Indie, War",102
+2525,2301,,3171,No End in Sight,Charles Ferguson,2007,"Ali Fadhil, Gerald Burke, With Campbell Scott","Documentary, Indie, War",102
 2277,2009,,,The Monster of Phantom Lake,Christopher R. Mihm,2006,"Deanne McDonald, Josh Craig, Leigha Horton","Comedy, Horror, Sci-Fi",97
 2434,2222,,,Glass Lips,Lech Majewski,2007,"Anna Banasik, Jerzy Bereznicki, Marzena Bartoszek",Drama,100
 1929,1698,,,Mad Hot Ballroom,Marilyn Agrelo,2005,"Emma Therese Biegacki, Eva Carrozza, Heather Berman","Documentary, Family, Music",105
@@ -2483,19 +2483,19 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 2910,2657,,,Saving Santa,Leon Joosen,2013,"Joan Collins, Newell Alexander, Noel Clarke","Adventure, Animation, Comedy, Family, Fantasy, Musical",83
 1389,1209,,,American Pie 2,J.B. Rogers,2001,"Jason Biggs, Seann William Scott, Shannon Elizabeth","Comedy, Romance",108
 122,120,964,,Dragon Eyes,John Hyams,2014,"Cung Le, Jean-Claude Van Damme, Johnny Holmes","Action, Crime, Drama, Thriller",91
-,,4085;4084,,The Legend II,Corey Yuen,1993,"Adam Cheng, Jet Li, Josephine Siao, Michelle Reis","Action, Adventure, Comedy, History",95
+,,4084;4085,,The Legend,Corey Yuen,1993,"Adam Cheng, Jet Li, Josephine Siao, Michelle Reis","Action, Adventure, Comedy, History",100
 ,,,3525;3526,gates of heaven,Terrence Malick,1978,"Brooke Adams, Gene Bell, Jackie Shultis, Linda Manz, Richard Gere, Richard Libertini, Stuart Margolin","Documentary, Drama, Romance",85
 2453,2237,,,The Hills Have Eyes II,Martin Weisz,2007,"Daniella Alonso, Jacob Vargas, Michael Bailey Smith","Horror, Thriller",89
 976,909,,,The Janky Promoters,Marcus Raboy,2009,"Ice Cube, Jeezy, Mike Epps","Comedy, Crime, Music",85
 1743,1523,,,Raise Your Voice,Sean McNamara,2004,"Hilary Duff, John Corbett, Rebecca De Mornay","Family, Music, Romance",103
-,,1841;1710,,Obitaemyy ostrov. Skhvatka,Fedor Bondarchuk,2009,"Pyotr Fyodorov, Vasiliy Stepanov, Yuliya Snigir","Action, Adventure, Sci-Fi",105
+,,1710;1841,,Obitaemyy ostrov,Fedor Bondarchuk,2009,"Pyotr Fyodorov, Vasiliy Stepanov, Yuliya Snigir","Action, Adventure, Sci-Fi",115
 2913,2660,,,Season of Miracles,Dave Moody,2013,"Andrew Wilson Williams, Grayson Russell, John Schneider","Comedy, Drama, Family, Sport",80
 ,2536,2333,104,the host,Bong Joon-ho,2007,"Bae Doo-Na, Byun Hee-Bong, Hae-il Park, Kang-ho Song, KoA-Sung, Park Hae-Il, Scott Wilson, Song Kang-Ho","Comedy, Drama, Foreign, Horror",119
 2323,2047,,,Quick Pick,Will Vázquez,2006,"Angelina Assereto, Anna Moreno-Nava, John Bryant",Comedy,87
 2804,2562,,,Jay and Silent Bob's Super Groovy Cartoon Movie,Steve Stark,2013,"Marc Bernardin, Matt Cohen, Ming Chen","Animation, Comedy",64
 2940,2684,,,Sweetwater,Logan Miller,2013,"Ed Harris, January Jones, Jason Isaacs","Thriller, Western",95
 2081,1836,,,Break Up,Paul Marcus,1998,"Bridget Fonda, Hart Bochner, Kiefer Sutherland",Thriller,100
-,,2857;2844,,Infernal Affairs 3,Wai-Keung Lau,2003,"Andy Lau, Anthony Chau-Sang Wong, Edison Chen, Leon Lai, Shawn Yue, Tony Chiu Wai Leung","Action, Crime, Drama",118
+,,2844;2857,,Infernal Affairs 2,Wai-Keung Lau,2003,"Andy Lau, Anthony Chau-Sang Wong, Edison Chen, Leon Lai, Shawn Yue, Tony Chiu Wai Leung","Action, Crime, Drama",119
 535,503,,,Fear of a Black Republican,Kevin Williams,2011,"Dick Cheney, Edward Brooke, George W. Bush","Documentary, History",111
 2945,2692,,,Texas Chainsaw 3D,John Luessenhop,2013,"Alexandra Daddario, Scott Eastwood, Tania Raymonde","Horror, Thriller",92
 1976,1742,,,Sin City,Frank Miller,2005,"Bruce Willis, Clive Owen, Mickey Rourke","Crime, Thriller",124
@@ -2511,19 +2511,19 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 956,890,,,Horsemen,Jonas Ã…kerlund,2009,"Dennis Quaid, Lou Taylor Pucci, Ziyi Zhang","Crime, Drama, Mystery, Thriller",90
 ,,1418;1233,,G.One,Anubhav Sinha,2011,"Arjun Rampal, Kareena Kapoor, Shah Rukh Khan","Action, Sci-Fi",156
 1734,1516,,,The Passion of the Christ,Mel Gibson,2004,"Jim Caviezel, Maia Morgenstern, Monica Bellucci",Drama,127
-,,1108;1016,,Tai Chi Hero,Stephen Fung,2012,"Daniel Wu, Hark-On Fung, Qi Shu, Stephen Fung, Tony Ka Fai Leung, Xiaochao Yuan","Action, Adventure, Drama",100
+,,1016;1108,,Tai Chi Zero,Stephen Fung,2012,"Daniel Wu, Hark-On Fung, Qi Shu, Stephen Fung, Tony Ka Fai Leung, Xiaochao Yuan","Action, Adventure, Drama",98
 ,,1746,2801,theater of war,John Carter,2009,"Clarence Williams III, Cuba Gooding Jr., John Terry","Action, Documentary, Thriller",95
 ,3003,3420,,Knock Off,Hark Tsui,1998,"Jean-Claude Van Damme, Lela Rochon, Paul Sorvino, Rob Schneider","Action, Art House & International, Comedy, Thriller",91
 663,620,,,Win Win,Tom McCarthy,2011,"Amy Ryan, Jeffrey Tambor, Paul Giamatti","Comedy, Drama, Sport",106
-552,,,2111,Happy Feet 2,George Miller,2011,"Ava Acres, Brad Pitt, Common, Elijah Wood, Hugo Weaving, Matt Damon, Pink, Robin Williams, Sofia Vergara","Animation, Comedy, Family, Foreign, Musical",100
+552,,,2111,happy feet two,George Miller,2011,"Ava Acres, Brad Pitt, Common, Elijah Wood, Hugo Weaving, Matt Damon, Pink, Robin Williams, Sofia Vergara","Animation, Comedy, Family, Foreign, Music",99
 603,,,2209,Page One: Inside the New York Times,Andrew Rossi,2011,"Bill Keller, Brian Stelter, David Carr, Larry Ingrassia, Sarah Ellison",Documentary,92
-851,,,3038,wall-e,Andrew Stanton,2008,"Ben Burtt, Elissa Knight, Fred Willard, Garrett Palmer, Jeff Garlin, John Ratzenberger, Kathy Najimy, Kim Kopf, Sigourney Weaver","Adventure, Animation, Family, Sci-Fi",98
+851,,,3038,WALL·E,Andrew Stanton,2008,"Ben Burtt, Elissa Knight, Fred Willard, Garrett Palmer, Jeff Garlin, John Ratzenberger, Kathy Najimy, Kim Kopf, Sigourney Weaver","Adventure, Animation, Family, Sci-Fi",98
 1137,2179,,3094,Chapter 27,J.P. Schaefer,2007,"Chuck Cooper, Jared Leto, Judah Friedlander, Lindsay Lohan, Mark Lindsay Chapman, Robert Gerard Larkin, Victor Verhaeghe","Crime, Drama, Indie",84
 1004,934,,,My Life in Ruins,Donald Petrie,2009,"Nia Vardalos, Rachel Dratch, Richard Dreyfuss","Comedy, Romance",95
 1273,1097,,,Love & Basketball,Gina Prince-Bythewood,2000,"Glenndon Chatman, Omar Epps, Sanaa Lathan","Drama, Romance, Sport",124
 2254,1988,,,Live Freaky Die Freaky,John Roecker,2006,"Billie Joe Armstrong, Nick 13, Tim Armstrong","Animation, Comedy, Musical, Sci-Fi",75
 ,,585,1507,the grandmaster,"Kar Wai Wong, Wong Kar-Wai",2013,"Chang Chen, Song Hye-Kyo, Tony Leung Chiu-Wai, Wong Hing-Cheung, Zhao Ben-Shan, Ziyi Zhang","Action, Drama, Foreign, History",130
-,,4738;4689,,Strike of the Panther,Brian Trenchard-Smith,1988,"Edward John Stazak, James Richards, John Stanton, Rowena Wallace",Action,90
+,,4689;4738,,Day of the Panther,Brian Trenchard-Smith,1988,"Edward John Stazak, James Richards, John Stanton, Rowena Wallace",Action,84
 ,,6538,2972,johnny guitar,George Sherman,1954,"Don Taylor, Piper Laurie, Tony Curtis","Drama, Western",110
 ,,3889;3813,,A Chinese Odyssey Part Two: Cinderella,Jeffrey Lau,1995,"Athena Chu, Kar-Ying Law, Man Tat Ng, Stephen Chow","Action, Adventure, Comedy",95
 ,,,951;1114;921,i am ali,"Clare Lewins, Jocelyn Towne",2014,"Jason Ritter, Jocelyn Towne, Kevin Tighe, Simon Helberg","Documentary, Drama, Foreign",111
@@ -2535,15 +2535,15 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 529,,1443,,Dylan Dog: Dead of Night,Kevin Munroe,2011,"Anita Briem, Brandon Routh, Sam Huntington","Action, Comedy, Crime, Fantasy, Horror, Mystery, Sci-Fi, Thriller",107
 ,,326;336,,Starship: Rising,Neil Johnson,2014,"Brooke Lewis, Darren Jacobs, Emii","Action, Sci-Fi",91
 2591,2364,,,Suffering Man's Charity,Alan Cumming,2007,"Alan Cumming, Anne Heche, David Boreanaz","Comedy, Horror",93
-,,4228;4136,,Once Upon a Time in China II,Hark Tsui,1992,"Jet Li, Rosamund Kwan, Siu Chung Mok","Action, Adventure, Biography",113
+,,4136;4228,,Once Upon a Time in China III,Hark Tsui,1993,"Jet Li, Rosamund Kwan, Siu Chung Mok","Action, Adventure, Biography",109
 1685,1470,,,Jandek on Corwood,Chad Freidrichs,2003,"Barry Hansen, Byron Coley, Calvin Johnson",Documentary,88
 2700,2467,,,Contest,Anthony Joseph Giunta,2013,"Danny Flaherty, Kenton Duty, Mary Beth Peil","Drama, Family",87
 111,110,,,Death Race: Inferno,Roel Reiné,2013,"Danny Trejo, Luke Goss, Tanit Phoenix","Action, Sci-Fi, Thriller",105
 ,,4373;4364,,Dragon Ball Z: Cooler's Revenge,Mitsuo Hashimoto,1991,"Andrew Chandler, Christopher Sabat, Sean Schemmel, Stephanie Nadolny","Action, Animation, Fantasy, Sci-Fi",48
-1748,,,220,ripley's game,Liliana Cavani,2002,"Dougray Scott, John Malkovich, Lena Headey","Crime, Drama, Mystery, Thriller",110
+1748,,,220,Ripley's Game,Liliana Cavani,2003,"Dougray Scott, John Malkovich, Lena Headey","Crime, Drama, Mystery, Thriller",110
 ,267,,954,watchers of the sky,Edet Belzberg,2014,"Benjamin Ferencz, Emmanuel Uwurukundo, Luis Moreno-Ocampo, Samantha Power","Documentary, History",120
-2478,,,13,The King of Kong: A Fistful of Quarters,Seth Gordon,2008,"Billy Mitchell, Mark Alpiger, Steve Wiebe","Biography, Documentary, Sport",79
-2597,2369,,3121,Taxi to the Dark Side,Alex Gibney,2009,"Alex Gibney, Brian Keith Allen, Moazzam Begg","Crime, Documentary, War",106
+2478,,,13,the king of kong: a fistful of quarters,Seth Gordon,2007,"Billy Mitchell, Mark Alpiger, Steve Wiebe","Biography, Documentary, Sport",79
+2597,2369,,3121,Taxi to the Dark Side,Alex Gibney,2008,"Alex Gibney, Brian Keith Allen, Moazzam Begg","Crime, Documentary, War",106
 ,,741;817,,Revelation Road: The Beginning of the End,Gabriel Sabloff,2013,"Andrea Logan White, Brian Bosworth, David A.R. White, Eric Roberts",Action,88
 677,633,,,August,Austin Chick,2009,"Adam Scott, Josh Hartnett, Naomie Harris",Drama,88
 2350,2069,,,Secret of the Cave,Zach C. Gray,2006,"Joseph Kelly, Kevin Novotny, Patrick Bergin",Adventure,88
@@ -2590,7 +2590,7 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 2242,1978,,,Land of the Blind,Robert Edwards,2007,"Donald Sutherland, Ralph Fiennes, Tom Hollander","Drama, Thriller",110
 1241,1069,,,The Golden Bowl,James Ivory,2001,"Jeremy Northam, Kate Beckinsale, Uma Thurman","Drama, Romance",130
 2215,1953,,,Idiocracy,Mike Judge,2007,"Dax Shepard, Luke Wilson, Maya Rudolph","Adventure, Comedy, Sci-Fi, Thriller",84
-2603,,,691,white god,Kornél Mundruczó,2015,"Lili Horváth, Szabolcs Thuróczy, Sándor Zsótér, Zsófia Psotta",Drama,121
+2603,,,691,White God,Kornél Mundruczó,2014,"Lili Horváth, Szabolcs Thuróczy, Sándor Zsótér, Zsófia Psotta",Drama,121
 ,,1546,2187,boy wonder,Michael Morrissey,2011,"Bill Sage, Caleb Steinmeyer, Tracy Middendorf, Zulay Henao","Action, Crime, Drama, Thriller",93
 1679,1462,,,Hotel Rwanda,Terry George,2005,"Don Cheadle, Joaquin Phoenix, Sophie Okonedo","Drama, History, War",121
 1958,1723,,,Pretty Persuasion,Marcos Siega,2006,"Evan Rachel Wood, James Woods, Ron Livingston","Comedy, Drama",104
@@ -2623,15 +2623,15 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 1555,1354,,,Soul Survivors,Stephen Carpenter,2001,"Casey Affleck, Melissa Sagemiller, Wes Bentley","Drama, Horror, Mystery, Thriller",84
 2050,1809,,,The Astronaut Farmer,Michael Polish,2007,"Billy Bob Thornton, Bruce Dern, Virginia Madsen","Adventure, Drama, Sci-Fi",104
 2328,2051,,,Right at Your Door,Chris Gorak,2006,"Mary McCormack, Rory Cochrane, Tony Perez","Drama, Thriller",96
-,,1081;1128,,Berserk: The Golden Age Arc I - The Egg of the King,Toshiyuki Kubooka,2012,"Chris Jai Alex, G.K. Bowes, Hiroaki Iwanaga, Orion Acaba, Takahiro Sakurai, Toa Yukinari","Action, Adventure, Animation",76
+,,1128;1081,,Berserk: The Golden Age Arc II - The Battle for Doldrey,Toshiyuki Kubooka,2012,"Chris Jai Alex, G.K. Bowes, Hiroaki Iwanaga, Orion Acaba, Takahiro Sakurai, Toa Yukinari","Action, Adventure, Animation",80
 1178,1010,,,Adventures in Wild California,Greg MacGillivray,2001,"Jimmy Smits, Stephen C. Sillett, Troy Hartman","Documentary, Short",41
 2225,1963,,,Iraq in Fragments,James Longley,2007,"Mohammed Haithem, Muqtada al-Sadr, Suleiman Mahmoud","Documentary, War",94
-,,4220;4343,,Fight Back to School II,Gordon Chan,1992,"Man Tat Ng, Sharla Cheung, Stephen Chow","Action, Comedy, Crime",106
+,,4343;4220,,Fight Back to School,Gordon Chan,1991,"Man Tat Ng, Sharla Cheung, Stephen Chow","Action, Comedy, Crime",100
 1598,1387,,,Around the Bend,Jordan Roberts,2005,"Christopher Walken, Josh Lucas, Michael Caine","Comedy, Drama",85
 1550,1349,,,The Shipping News,Lasse Hallström,2002,"Judi Dench, Julianne Moore, Kevin Spacey",Drama,111
 ,,4987;4877,,A Better Tomorrow,John Woo,1986,"Leslie Cheung, Lung Ti, Yun-Fat Chow","Action, Crime, Drama",95
 ,,1182,2066,seeking justice,Roger Donaldson,2012,"Guy Pearce, Harold Perrineau, January Jones, Jennifer Carpenter, Nicolas Cage","Action, Drama, Thriller",105
-776,,,2878,milk,Gus Van Sant,2008,"Diego Luna, Emile Hirsch, James Franco, Josh Brolin, Sean Penn","Biography, Drama, History, Indie",128
+776,,,2878,Milk,Gus Van Sant,2009,"Diego Luna, Emile Hirsch, James Franco, Josh Brolin, Sean Penn","Biography, Drama, History, Indie",128
 ,,1787,2481,district 13: ultimatum,Patrick Alessandrin,2010,"Cyril Raffaelli, Daniel Duval, David Belle, Elodie Yung, Philippe Torreton","Action, Crime, Foreign, Science Fiction, Thriller",101
 ,,271,1304,the outsider,Brian A Miller,2013,"Craig Fairbrass, James Caan, Jason Patric, Melissa Ordway, Shannon Elizabeth","Action, Crime, Drama",94
 ,,1914,2835,outlander,Howard McCain,2009,"Jack Huston, Jim Caviezel, John Hurt, Ron Perlman, Sophia Myles","Action, Adventure, Fantasy, Science Fiction",115
@@ -2639,7 +2639,7 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 1218,1048,,,Cruel Intentions 2,Roger Kumble,2001,"Keri Lynn Pratt, Robin Dunne, Sarah Thompson",Drama,87
 155,153,,,Good Deeds,Tyler Perry,2012,"Gabrielle Union, Thandie Newton, Tyler Perry","Comedy, Drama, Romance",110
 ,,316,742,taken 3,Oliver Megaton,2015,"Dougray Scott, Famke Janssen, Forest Whitaker, Liam Neeson, Maggie Grace","Action, Crime, Thriller",109
-,,4834;4829,,City on Fire,Ringo Lam,1987,"Danny Lee, Ka-Kui Ho, Tony Ka Fai Leung, Yueh Sun, Yun-Fat Chow","Action, Crime, Drama",101
+,,4829;4834,,Prison on Fire,Ringo Lam,1987,"Danny Lee, Ka-Kui Ho, Tony Ka Fai Leung, Yueh Sun, Yun-Fat Chow","Action, Crime, Drama",98
 ,,1429,2206,the whistleblower,Larysa Kondracki,2011,"Anna Anissimova, David Strathairn, Monica Bellucci, Nikolaj Lie Kaas, Rachel Weisz, Vanessa Redgrave","Action, Drama, Thriller",112
 ,,637,1142,wolf creek 2,Greg Mclean,2014,"Annie Byron, Gerard Kennedy, John Jarratt, Phillipe Klaus, Ryan Corr, Shannon Ashlyn","Horror, Thriller",106
 ,,900,1753,the sweeney,Nick Love,2013,"Ben Drew, Damian Lewis, Hayley Atwell, Paul Anderson, Ray Winstone, Steven MacKintosh","Crime, Drama",112
@@ -2647,7 +2647,7 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 ,,688,1232,afflicted,"Clif Prowse, Derek Lee",2014,"Baya Rehaz, Clif Prowse, Derek Lee","Action, Thriller",85
 ,,6903,3514,the general,"Buster Keaton, Clyde Bruckman",1927,"Buster Keaton, Charles Smith, Marion Mack","Action, Adventure, Comedy, Drama, Romance, War",107
 2770,,,1325,her,Spike Jonze,2013,"Amy Adams, Joaquin Phoenix, Olivia Wilde, Portia Doubleday, Rooney Mara, Scarlett Johansson","Comedy, Drama, Romance, Sci-Fi, Science Fiction",120
-2374,,,139,stephanie daley,Hilary Brougher,2007,"Amber Tamblyn, Denis O'Hare, Jim Gaffigan, Melissa Leo, Tilda Swinton, Timothy Hutton","Drama, Indie",92
+2374,,,139,Stephanie Daley,Hilary Brougher,2006,"Amber Tamblyn, Denis O'Hare, Jim Gaffigan, Melissa Leo, Tilda Swinton, Timothy Hutton","Drama, Indie",92
 ,,221,543,skin trade,Ekachai Uekrongtham,2015,"Celina Jade, Dolph Lundgren, Michael Jai White, Peter Weller, Ron Perlman, Tony Jaa","Action, Crime, Thriller",96
 2082,1837,,,The Breed,Nicholas Mastandrea,2007,"Michelle Rodriguez, Oliver Hudson, Taryn Manning","Comedy, Horror, Thriller",91
 ,2820,,2126,the killing,Walter Lang,1956,"Deborah Kerr, Rita Moreno, Terry Saunders, Yul Brynner","Action, Crime, Drama, Thriller",85
@@ -2655,7 +2655,7 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 1856,,,192,don't come knocking,Wim Wenders,2006,"Eva Marie Saint, Fairuza Balk, Gabriel Mann, Jessica Lange, Sam Shepard, Sarah Polley, Tim Roth","Drama, Music",123
 ,,1934,2699,the baader-meinhof complex,Uli Edel,2009,"Bruno Ganz, Johanna Wokalek, Martina Gedeck, Moritz Bleibtreu, Nadja Uhl","Action, Biography, Crime",150
 ,,4643;4566,,L.A. Vice,Joseph Merhi,1989,"Jean Levine, Jim Brown, Kevin Benton, Lawrence Hilton-Jacobs, William Smith","Action, Crime",80
-,,3473;3481,,98 goo waak chai ji lung chang foo dau,Wai-Keung Lau,1998,"Ekin Cheng, Francis Ng, Kar Lok Chin, Nicholas Tse, Qi Shu","Action, Drama",114
+,,3481;3473,,San goo waak chai ji siu nin gik dau pin,Wai-Keung Lau,1998,"Ekin Cheng, Francis Ng, Kar Lok Chin, Nicholas Tse, Qi Shu","Action, Drama",117
 1304,1127,,,Pollock,Ed Harris,2001,"Ed Harris, Marcia Gay Harden, Tom Bower","Biography, Drama",122
 1121,2167,,,Blue State,Marshall Lewy,2008,"Anna Paquin, Breckin Meyer, Joyce Krenz","Comedy, Drama, Romance",88
 1403,1220,,,The Believer,Henry Bean,2001,"Peter Meadows, Ryan Gosling, Summer Phoenix",Drama,102
@@ -2708,22 +2708,22 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 ,,338,652,'71,Yann Demange,2015,"Charlie Murphy, David Wilmot, Jack O'Connell, Killian Scott, Paul Anderson, Sam Hazeldine, Sam Reid, Sean Harris","Action, Drama, Thriller, War",99
 1569,1368,,,Thir13en Ghosts,Steve Beck,2001,"Embeth Davidtz, Shannon Elizabeth, Tony Shalhoub","Horror, Mystery, Thriller",91
 2484,,1939,,Lady Magdalene's,J. Neil Schulman,2011,"Ethan Keogh, Nichelle Nichols, Susan Smythe","Action, Comedy, Music, Romance, Thriller",116
-,,,3323;1480,faust,Alexander Sokurov,1926,"Antje Lewald, Anton Adasinsky, Florian Brückner, Georg Friedrich, Hanna Schygulla, Isolda Dychauk, Johannes Zeiler","Drama, Fantasy, Foreign, Science Fiction",85
+,,,1480;3323,faust,Alexander Sokurov,2013,"Antje Lewald, Anton Adasinsky, Florian Brückner, Georg Friedrich, Hanna Schygulla, Isolda Dychauk, Johannes Zeiler","Drama, Fantasy, Foreign, Science Fiction",140
 ,,960,2122,outrage,Takeshi Kitano,2012,"Beat Takeshi, Ryo Kase, Soichiro Kitamura, Tomokazu Miura","Action, Crime, Documentary, Drama, Foreign, Thriller",109
-660,,,2281,The Way,Emilio Estevez,2010,"Angela Molina, Deborah Kara Unger, Emilio Estevez, James Nesbitt, Martin Sheen, Spencer Garrett, Tcheky Karyo, Yorick Van Wageningen","Action, Adventure, Comedy, Crime, Drama, Indie",123
+660,,,2281,the way,Emilio Estevez,2011,"Angela Molina, Deborah Kara Unger, Emilio Estevez, James Nesbitt, Martin Sheen, Spencer Garrett, Tcheky Karyo, Yorick Van Wageningen","Action, Adventure, Comedy, Crime, Drama, Indie",128
 2019,1782,,,10th & Wolf,Robert Moresco,2007,"Brad Renfro, Giovanni Ribisi, James Marsden","Crime, Drama, Thriller",107
 706,,,1369,The Best Offer,Giuseppe Tornatore,2014,"Brigitte Christensen, Dermot Crowley, Donald Sutherland, Geoffrey Rush, Jim Sturgess, Liya Kebede, Maximilian Dirr, Philip Jackson, Sylvia Hoeks","Crime, Drama, Mystery, Romance",131
-1078,,,2696,world's greatest dad,Bobcat Goldthwait,2009,"Alexie Gilmore, Daryl Sabara, Evan Martin, Henry Simmons, Morgan Murphy, Robin Williams","Comedy, Drama, Indie, Romance",99
+1078,,,2696,World's Greatest Dad,Bobcat Goldthwait,2010,"Alexie Gilmore, Daryl Sabara, Evan Martin, Henry Simmons, Morgan Murphy, Robin Williams","Comedy, Drama, Indie, Romance",99
 ,,253,441,big game,Jalmari Helander,2015,"Felicity Huffman, Onni Tommila, Samuel L. Jackson, Ted Levine, Victor Garber","Action, Adventure",110
 ,,317,773,son of a gun,Julius Avery,2015,"Alicia Vikander, Brenton Thwaites, Damon Herriman, Ewan McGregor, Matthew Nable","Action, Crime, Drama",108
 ,1834,,135,brand upon the brain!,Guy Maddin,2007,"Andy Loviska, Erik Steffen Maahs, Gretchen Krich, Katherine E. Scharhon, Kellan Larson, Maya Lawson, Sullivan Brown, Todd Moore","Drama, Fantasy, Indie",95
 ,,220,786,outcast,Nick Powell,2015,"Andy On, Fernando Chien, Hayden Christensen, Liu Yifei, Nicolas Cage","Action, Adventure",98
 1853,1626,,,Dirty Love,John Asher,2006,"Carmen Electra, Eddie Kaye Thomas, Jenny McCarthy","Comedy, Romance",91
-2303,,,19,pan's labyrinth,Guillermo Del Toro,2006,"Alex Angulo, Ariadna Gil, Doug Jones, Ivana Baquero, Maribel Verdu, Sergi Lopez","Drama, Fantasy, Foreign, Science Fiction, War",118
+2303,,,19,Pan's Labyrinth,Guillermo del Toro,2007,"Alex Angulo, Ariadna Gil, Doug Jones, Ivana Baquero, Maribel Verdu, Sergi López","Drama, Fantasy, Foreign, Science Fiction, War",118
 ,,1819,2471,vengeance,Johnnie To,2010,"Anthony Wong, Johnny Hallyday, Lam Ka-tung, Lam Suet, Simon Yam, Sylvie Testud","Action, Foreign, Horror, Thriller",108
 471,449,,,Wonderful World,Joshua Goldin,2009,"Matthew Broderick, Michael Kenneth Williams, Sanaa Lathan","Drama, Romance",89
 ,358,375,,Kung Fu Killer,Teddy Chan,2014,"Baoqiang Wang, Bing Bai, Charlie Yeung, Donnie Yen","Action, Art House & International, Mystery & Suspense, Thriller",100
-2906,,,1500,savannah,Annette Haywood-Carter,2013,"Bradley Whitford, Chiwetel Ejiofor, Hal Holbrook, Jack McBrayer, Jaimie Alexander, James Caviezel, Sam Shepard","Drama, Family, History, Romance",101
+2906,,,1500,Savannah,Annette Haywood-Carter,2014,"Bradley Whitford, Chiwetel Ejiofor, Hal Holbrook, Jack McBrayer, Jaimie Alexander, Jim Caviezel, Sam Shepard","Drama, Family, History, Romance",101
 2185,,,110,Goya's Ghosts,Milos Forman,2006,"Blanca Portillo, Javier Bardem, Jose Luis Gomez, Michael Lonsdale, Natalie Portman, Randy Quaid, Stellan Skarsgård","Biography, Drama, History",113
 ,,239,650,everly,Joe Lynch,2015,"Akie Kotabe, Caroline Chikezie, Gabriella Wright, Hiroyuki Watanabe, Jennifer Blanc, Salma Hayek, Togo Igawa","Action, Thriller",92
 ,,2178,2971,son of rambow,Garth Jennings,2008,"Anna Wing, Bill Milner, Ed Westwick, Jessica Stevenson, Jules Sitruk, Neil Dudgeon, Will Poulter","Comedy, Foreign, Indie",96
@@ -2763,11 +2763,11 @@ A_Ids,B_Ids,C_Ids,D_Ids,Title,Director,Year,Cast,Genre,Duration
 989,920,,,Love N' Dancing,Robert Iscove,2011,"Amy Smart, Billy Zane, Tom Malloy","Drama, Romance",91
 ,3079,3442,,Arrival II,Kevin Tenney,1998,"Catherine Blythe, Jane Sibbett, Michael Sarrazin, Mike Scherer, Patrick Muldoon","Action, Adventure, Mystery & Suspense, Sci-Fi, Science Fiction & Fantasy",101
 2306,2036,,,Penelope,Mark Palansky,2008,"Christina Ricci, James McAvoy, Reese Witherspoon","Comedy, Fantasy, Romance",104
-2133,,,38,shut up and sing,"Barbara Kopple, Cecilia Peck",2007,"Emily Robison, Martie McGuire, Natalie Maines, Simon Renshaw","Biography, Documentary, Music",93
-2973,,,1516,you're next,Adam Wingard,2011,"AJ Bowen, Amy Seimetz, Barbara Crampton, Joe Swanberg, Kate Lyn Sheil, Nicholas Tucci, Rob Moran, Sharni Vinson, Ti West, Wendy Glenn","Horror, Thriller",96
+2133,,,38,Shut Up & Sing,"Barbara Kopple, Cecilia Peck",2006,"Emily Robison, Martie Maguire, Natalie Maines, Simon Renshaw","Biography, Documentary, Music",93
+2973,,,1516,You're Next,Adam Wingard,2013,"AJ Bowen, Amy Seimetz, Barbara Crampton, Joe Swanberg, Kate Lyn Sheil, Nicholas Tucci, Rob Moran, Sharni Vinson, Ti West, Wendy Glenn","Horror, Thriller",95
 ,,934,1353,easy money: hard to kill,Babak Najafi,2014,"Dejan Čukić, Dragomir Mrsic, Fares Fares, Joel Kinnaman, Matias Varela","Action, Crime, Drama, Thriller",99
 ,1557,,344,taxi,Jafar Panahi,2015,Jafar Panahi,"Comedy, Documentary, Drama",82
-1942,,,153,mrs. palfrey at the claremont,Dan Ireland,2006,"Anna Massey, Georgina Hale, Joan Plowright, Marcia Warren, Millicent Martin, Robert Lang, Rupert Friend, Zoe Tapper","Comedy, Drama, Foreign",108
+1942,,,153,Mrs. Palfrey at the Claremont,Dan Ireland,2008,"Anna Massey, Georgina Hale, Joan Plowright, Marcia Warren, Millicent Martin, Robert Lang, Rupert Friend, Zoë Tapper","Comedy, Drama, Foreign",108
 ,,2679,326,night watch,Timur Bekmambetov,2006,"Aleksander Samojlenko, Aleksei Chadov, Anna Dubrovskaya, Dima Martynov, Gosha Kytsenko, Konstantin Khabensky, Mariya Poroshina, Viktor Verzhbitsky, Vladimir Menshov","Action, Adventure, Drama, Fantasy, Foreign, Horror, Science Fiction, Thriller",114
 433,413,,,Saw 3D: The Final Chapter,Kevin Greutert,2010,"Betsy Russell, Costas Mandylor, Tobin Bell","Horror, Mystery",90
 ,,635,503,the young and prodigious t.s. spivet,Jean-Pierre Jeunet,2015,"Callum Keith Rennie, Dominique Pinon, Helena Bonham-Carter, Jakob Davies, Judy Davis, Julian Richings, Kyle Catlett, Niamh Wilson, Rick Mercer, Robert Maillet","Adventure, Drama, Family",105
