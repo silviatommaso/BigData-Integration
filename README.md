@@ -80,7 +80,6 @@ movies5_cleaned/roger_ebert_cleaned.csv
    ```
    API_KEY = "your_api_key_here"
    ```
-
 ---
 
 ## Usage
@@ -117,6 +116,7 @@ STEPS = {
 **Note:** Each stage depends on the output of the previous one. Therefore, for the first execution, it is recommended to enable all steps.
 
 ---
+
 
 ### LLM-assisted schema alignment
 
@@ -167,12 +167,38 @@ results/
 `fused_entities.csv` is the final deliverable: one row per real-world movie, combining attributes from all contributing sources.
 
 ---
+## Using Different Datasets
+
+The pipeline is generic and _technically_ it _could_ be adapted to any set of heterogeneous data sources that describe the same type of real-world entity. To plug in new datasets, edit the configuration at the top of `pipeline.py`:
+
+1. **Add cleaned CSVs**: place your cleaned input files under a new folder in `data/dataset_cleaned/`(e.g. `data/dataset_cleaned/my_dataset_cleaned/`).
+
+2. **Update the `inputs` list and `merged_file` name**: point `inputs` to your new CSV file paths instead of (or in addition to) the existing `movies3_cleaned` / `movies5_cleaned` files, and optionally rename `merged_file` to something meaningful for your dataset (e.g. `"merged_my_dataset.csv"`).
+
+3. **Update the `SOURCES` dictionary**: define a name and reliability weight for each new source (used during data fusion), e.g.:
+```python
+   SOURCES = {
+       "a": {"name": "my_dataset", "weight": 1.0},
+       ...
+   }
+```
+
+4. **Update `attribute_descriptions.json`**: add an entry describing each attribute of your new dataset (name, semantics, expected type/role). This file is used as context for the LLM-assisted schema alignment prompt, so accurate descriptions improve alignment quality. If you don't want to update it, simply set `ATTRIBUTE_DESCRIPTIONS = None` where it's defined inside `pipeline.py` (note that accuracy will worsen without attribute-level descriptions).
+
+5. **(Optional) Ground truth for evaluation**: if you want to run `evaluation_record_linkage.py` or `evaluation_schema_alignment.py` on the new data, add the corresponding labeled candidate sets / gold-standard mapping under `analysis/ground_truth/`. Without this, the pipeline will still run end-to-end, but the evaluation scripts won't have anything to compare against.
+
+6. **Re-run with all steps enabled**: since each stage depends on the previous one's output, the first run on a new dataset should have all steps in `STEPS` set to `True` (schema alignment, blocking, matching, clustering, fusion).
+
+No changes to the core pipeline logic (schema alignment, record linkage, data fusion) are required.
+
+---
 
 ## Acknowledgements
 
 **Raw sources**: the original (pre-cleaning) IMDB / Rotten Tomatoes / Roger Ebert movie datasets used as input to this project come from the **[Magellan Data Repository](https://sites.google.com/site/anhaidgroup/useful-stuff/the-magellan-data-repository)** (AnHai Doan's group, UW-Madison)
 
 We thank the creators of these resources for their contributions to research and benchmarking in this field.
+
 
 ## Contact
 
