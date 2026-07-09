@@ -194,6 +194,7 @@ def evaluate(matches_file, ground_truth_file, left_prefix, right_prefix, mode, n
             print()
 
 base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ground_truth_dir = os.path.join(base_dir, "analysis", "ground_truth")
 MODEL_DIR = MODEL.replace("/", "_")
 
 classic_matches = os.path.join(
@@ -217,7 +218,7 @@ llm_matches = os.path.join(
 
 evaluate(
     classic_matches,
-    "ground_truth/movies_3_labeled_data.csv",
+    os.path.join(ground_truth_dir, "movies_3_labeled_data.csv"),
     "a",
     "b",
     "classic",
@@ -226,7 +227,7 @@ evaluate(
 
 evaluate(
     classic_matches,
-    "ground_truth/movies_5_labeled_data.csv",
+    os.path.join(ground_truth_dir, "movies_5_labeled_data.csv"),
     "d",
     "c",
     "classic",
@@ -238,7 +239,7 @@ print("LLM RESULTS")
 
 evaluate(
     llm_matches,
-    "ground_truth/movies_3_labeled_data.csv",
+    os.path.join(ground_truth_dir, "movies_3_labeled_data.csv"),
     "a",
     "b",
     "llm",
@@ -247,7 +248,7 @@ evaluate(
 
 evaluate(
     llm_matches,
-    "ground_truth/movies_5_labeled_data.csv",
+    os.path.join(ground_truth_dir, "movies_5_labeled_data.csv"),
     "d",
     "c",
     "llm",
