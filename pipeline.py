@@ -72,6 +72,8 @@ SOURCES = {
     }
 }
 
+# Name of the CSV storing the merged dataset after schema alignment
+merged_file = "merged_movies.csv"
 
 ################################################################################################################################################################################################################################################################################
 
@@ -108,7 +110,7 @@ for pipeline in PIPELINES:
     if pipeline == "llm":
         schema_dir_dir = schema_dir / model_dir
 
-    merged_path = schema_dir / "merged_movies.csv"
+    merged_path = schema_dir / merged_file
 
 
     if STEPS["schema_alignment"]:
