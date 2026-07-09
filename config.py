@@ -22,6 +22,12 @@ matching_attributes = {
     }
 }
 
+# Record matching thresholds
+MATCHING_THRESHOLD = 0.75
+
+# LLM record matching thresholds
+LLM_VERIFICATION_THRESHOLD = 0.65
+LLM_AUTO_MATCH_THRESHOLD = 0.75
 
 #############################################################################################################################################################################################################################################################
 # CANOPY CLUSTERING CONFIGURATION

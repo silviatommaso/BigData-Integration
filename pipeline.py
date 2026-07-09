@@ -6,6 +6,7 @@ from src.record_linkage.record_matching.record_matching import match_records
 from src.record_linkage.record_matching.llm_record_matching import llm_record_matching
 from src.record_linkage.clustering.entity_clustering import build_clusters
 from src.data_fusion.data_fusion import fuse_cluster
+from config import MATCHING_THRESHOLD, LLM_VERIFICATION_THRESHOLD, LLM_AUTO_MATCH_THRESHOLD
 import src.utils.utils as utils
 from pathlib import Path
 import pandas as pd
@@ -37,11 +38,11 @@ STEPS = {
 
     "record_linkage": {
         "blocking": False,
-        "matching": False,
-        "clustering": True
+        "matching": True,
+        "clustering": False
     },
 
-    "data_fusion": True
+    "data_fusion": False
 }
 
 # Temperature for LLM schema alignment
@@ -208,7 +209,7 @@ for pipeline in PIPELINES:
             matches = match_records(
                 canopy_df,
                 matches_path,
-                threshold=0.75
+                threshold=MATCHING_THRESHOLD
             )
 
         else:
@@ -217,8 +218,8 @@ for pipeline in PIPELINES:
                 canopy_df,
                 matches_path,
                 linkage_dir / "llm_requests.csv",
-                llm_threshold=0.65,
-                auto_threshold=0.75,
+                llm_threshold=LLM_VERIFICATION_THRESHOLD,
+                auto_threshold=LLM_AUTO_MATCH_THRESHOLD,
                 model=LLM_MODEL,
                 temperature=MATCHING_TEMPERATURE
             )
