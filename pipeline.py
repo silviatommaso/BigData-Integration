@@ -37,11 +37,11 @@ STEPS = {
 
     "record_linkage": {
         "blocking": False,
-        "matching": False,
-        "clustering": False
+        "matching": True,
+        "clustering": True
     },
 
-    "data_fusion": False
+    "data_fusion": True
 }
 
 # Temperature for LLM schema alignment
@@ -49,7 +49,7 @@ SCHEMA_TEMPERATURE = 0
 
 
 # LLM configuration for record matching
-LLM_MODEL = "openai/gpt-oss-120b"
+LLM_MODEL = "llama-3.3-70b-versatile"
 MATCHING_TEMPERATURE = 0
 
 # Source names and reliability weights used during data fusion
@@ -222,6 +222,9 @@ for pipeline in PIPELINES:
                 model=LLM_MODEL,
                 temperature=MATCHING_TEMPERATURE
             )
+            if matches is None:
+                print("Stopping pipeline due to LLM daily limit.")
+                break
     else:
 
         matches = utils.load_movies_csv(matches_path)

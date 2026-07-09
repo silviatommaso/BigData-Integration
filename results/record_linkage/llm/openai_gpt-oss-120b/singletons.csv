@@ -2,9 +2,8 @@ Id,Title,Year,Director,Cast,Genre,Duration
 a1,12 12 12,2014,Massimo Morini,"Davide Ageno, Mariangela Argentino, Franco Bampi",Sci-Fi,
 a2,2-Headed Shark Attack,2012,Christopher Ray,"Carmen Electra, Charlie O'Connell, Brooke Hogan","Action, Horror, Sci-Fi",88
 a6,The ABCs of Death,2013,Kaare Andrews,"Ingrid Bolsø Berdal, Iván González, Kyra Zagorsky","Comedy, Horror",129
-a26,Art Machine,2012,Doug Karr,"Joseph Cross, Jessica Szohr, Joey Lauren Adams",Comedy,
-a28,Atom the Amazing Zombie Killer,2012,Zack Beins,"Tom Autry, Matthew M. Baxter, Brad Beins","Comedy, Horror",80
 a38,Batman Revealed,2012,Chris Clark,"David B. Stewart III, Chris Clark, Derek Mindler","Action, Crime, Drama",62
+a41,Battlefield America,2012,Chris Stokes,"Marques Houston, Mekia Cox, Christopher Jones","Drama, Musical",106
 a48,Beauty and the Least: The Misadventures of Ben Banks,2013,Bryce Clark,"Ben Banks, Katharine Towne, Mischa Barton","Comedy, Drama, Romance",85
 a53,Beyond,2010,Pernilla August,"Noomi Rapace, Ola Rapace, Outi Mäenpää",Drama,99
 a55,Big Top Scooby-Doo!,2012,Ben Jones,"Frank Welker, Mindy Cohn, Grey Griffin","Animation, Family, Fantasy",80
@@ -18,7 +17,6 @@ a93,The Comedy,2012,Rick Alverson,"Tim Heidecker, Eric Wareheim, James Murphy",D
 a106,To Write Love on Her Arms,2015,Nathan Frankowski,"Kat Dennings, Chad Michael Murray, Rupert Friend","Biography, Drama, Music",118
 a107,Dead Before Dawn 3D,2012,April Mullen,"Devon Bostick, Martha MacIsaac, Christopher Lloyd","Adventure, Comedy, Horror",88
 a108,Dead Man's Burden,2013,Jared Moshe,"Barlow Jacobs, Clare Bowen, David Call","Drama, Western",93
-a111,Death Race: Inferno,2013,Roel Reiné,"Luke Goss, Tanit Phoenix, Danny Trejo","Action, Sci-Fi, Thriller",105
 a124,Eating Out: The Open Weekend,2014,Q. Allan Brocka,"Chris Salvatore, Chris Puckett, Daniel Skelton",Comedy,82
 a125,Eden,2015,Shyam Madiraju,"Diego Boneta, Jessica Lowndes, James Remar","Drama, Thriller",90
 a127,Elf-Man,2012,Ethan Wiley,"Jason 'Wee Man' Acuña, Jeffrey Combs, Mackenzie Astin","Comedy, Family, Fantasy",
@@ -30,12 +28,14 @@ a165,Hotel Transylvania,2012,Genndy Tartakovsky,"Adam Sandler, Kevin James, Andy
 a168,I Do,2012,Glenn Gaylord,"Jamie-Lynn Sigler, Alicia Witt, Maurice Compte",Drama,91
 a189,Madagascar 3: Europe's Most Wanted,2012,Eric Darnell,"Ben Stiller, Jada Pinkett Smith, Chris Rock","Animation, Adventure, Comedy, Family",93
 a190,Madea's Witness Protection,2012,Tyler Perry,"Tyler Perry, Eugene Levy, Denise Richards","Comedy, Crime, Drama",114
+a209,Paranormal Activity 4,2012,Henry Joost,"Stephen Dunham, Katie Featherston, Matt Shively",Horror,88
 a212,Philadelphia,1994,Jonathan Demme,"Tom Hanks, Denzel Washington, Roberta Maxwell",Drama,125
 a214,Piranha 3DD,2012,John Gulager,"Danielle Panabaker, Ving Rhames, David Hasselhoff","Comedy, Horror",83
-a218,Price Check,2014,Michael Walker,"Parker Posey, Eric Mabius, Annie Parisse","Comedy, Drama",92
 a219,Project X,2012,Nima Nourizadeh,"Thomas Mann, Oliver Cooper, Jonathan Daniel Brown","Comedy, Crime",88
-a222,The Queen of Versailles,2014,Lauren Greenfield,"Lorraine Barrett, June Downs, Phillip Froehlich",Documentary,100
 a255,That's My Boy,2012,Sean Anders,"Adam Sandler, Andy Samberg, Leighton Meester",Comedy,116
+a261,Thunderstruck,2012,John Whitesell,"Kevin Durant, Taylor Gray, James Belushi","Comedy, Family",94
+a266,Underworld: Awakening,2012,Måns Mårlind,"Kate Beckinsale, Michael Ealy, India Eisley","Action, Fantasy, Horror",88
+a267,V/H/S,2012,Matt Bettinelli-Olpin,"Calvin Reeder, Lane Hughes, Adam Wingard","Horror, Thriller",116
 a268,Twixt,2012,Francis Ford Coppola,"Val Kilmer, Bruce Dern, Elle Fanning","Horror, Thriller",88
 a279,8: The Mormon Proposition,2010,Reed Cowan,"Spencer Jones, Tyler Barrick, Dustin Lance Black",Documentary,80
 a304,Client 9: The Rise and Fall of Eliot Spitzer,2011,Alex Gibney,"Eliot Spitzer, Michael Schwendeman, Kim Allen",Documentary,117
@@ -45,8 +45,10 @@ a359,Hyenas,2011,Eric Weston,"Maria Bertrand, Meshach Taylor, DaJuan Johnson",Ho
 a364,It's Kind of a Funny Story,2010,Anna Boden,"Keir Gilchrist, Zach Galifianakis, Emma Roberts","Comedy, Drama, Romance",101
 a366,Jackass 3D,2010,Jeff Tremaine,"Johnny Knoxville, Steve-O, Bam Margera","Documentary, Action, Comedy",94
 a382,Legend of the Guardians: The Owls of Ga'Hoole,2010,Zack Snyder,"Jim Sturgess, Hugo Weaving, David Wenham","Animation, Adventure, Fantasy",97
+a403,My Soul to Take,2010,Wes Craven,"Max Thieriot, John Magaro, Denzel Whitaker","Horror, Mystery, Thriller",107
 a411,Paper Man,2014,Kieran Mulroney,"Jeff Daniels, Emma Stone, Ryan Reynolds","Comedy, Drama",110
 a418,Preacher's Kid,2010,Stan Foster,"Letoya Luckett, Durrell Babbs, Tammy Townsend",Drama,110
+a437,Shrek Forever After,2010,Mike Mitchell,"Mike Myers, Cameron Diaz, Eddie Murphy","Animation, Adventure, Comedy, Family, Fantasy",93
 a447,Step Up 3D,2010,Jon M. Chu,"Sharni Vinson, Rick Malambri, Adam G. Sevani","Drama, Music, Romance",107
 a453,Darkness Falls,2003,Jonathan Liebesman,"Chaney Kley, Emma Caulfield, Antony Burrows","Horror, Mystery, Thriller",86
 a467,Why Did I Get Married Too?,2010,Tyler Perry,"Janet Jackson, Tyler Perry, Jill Scott","Comedy, Drama, Romance",121
@@ -60,11 +62,11 @@ a503,Buck,2012,Cindy Meehl,"Buck Brannaman, Gary Myers, Bibb Frazier",Documentar
 a504,Bucky Larson: Born to Be a Star,2011,Tom Brady,"Nick Swardson, Don Johnson, Christina Ricci",Comedy,97
 a517,I Am What I Am,1967,Tinto Brass,"Jean-Louis Trintignant, Ewa Aulin, Roberto Bisacco","Drama, Mystery, Thriller",107
 a521,Diary of a Wimpy Kid: Rodrick Rules,2011,David Bowers,"Zachary Gordon, Devon Bostick, Robert Capron","Comedy, Family",99
-a535,Fear of a Black Republican,2011,Kevin Williams,"Edward Brooke, George W. Bush, Dick Cheney","Documentary, History",111
 a537,Footloose,1984,Herbert Ross,"Kevin Bacon, Lori Singer, John Lithgow","Drama, Music, Romance",107
 a541,History of the World: Part I,1981,Mel Brooks,"Mel Brooks, Gregory Hines, Dom DeLuise",Comedy,92
 a543,Glee: The 3D Concert Movie,2011,Kevin Tancharoen,"Cory Monteith, Dianna Agron, Lea Michele","Documentary, Music",84
 a546,The Greatest Movie Ever Sold,2011,Morgan Spurlock,"J.J. Abrams, Peter Berg, Paul Brennan","Documentary, Comedy",90
+a559,Hoodwinked Too! Hood vs. Evil,2011,Mike Disa,"Hayden Panettiere, Glenn Close, Patrick Warburton","Animation, Comedy, Family",86
 a560,Hop,2011,Tim Hill,"Russell Brand, James Marsden, Elizabeth Perkins","Animation, Adventure, Comedy, Family, Fantasy",95
 a564,I Don't Know How She Does It,2011,Douglas McGrath,"Sarah Jessica Parker, Pierce Brosnan, Kelsey Grammer",Comedy,89
 a570,Insidious,2011,James Wan,"Patrick Wilson, Rose Byrne, Ty Simpkins","Drama, Horror, Mystery, Thriller",103
@@ -82,9 +84,10 @@ a669,10000 BC,2008,Roland Emmerich,"Camilla Belle, Steven Strait, Marco Khan","A
 a679,Babylon A.D.,2008,Mathieu Kassovitz,"Vin Diesel, Michelle Yeoh, Mélanie Thierry","Action, Adventure, Sci-Fi, Thriller",90
 a685,The Betrayal - Nerakhoon,2008,Ellen Kuras,Thavisouk Phrasavath,Documentary,96
 a693,Che: Part One,2009,Steven Soderbergh,"Julia Ormond, Benicio Del Toro, Oscar Isaac","Biography, Drama, History, War",134
+a707,Delgo,2008,Marc F. Adler,"Freddie Prinze Jr., Val Kilmer, Anne Bancroft","Animation, Adventure, Comedy, Fantasy, Romance",94
+a708,Disaster Movie,2008,Jason Friedberg,"Carmen Electra, Vanessa Lachey, Nicole Parker",Comedy,87
 a714,Expelled: No Intelligence Allowed,2008,Nathan Frankowski,"Ben Stein, Lili Asvar, Peter Atkins",Documentary,90
 a716,The Eye,2008,David Moreau,"Jessica Alba, Alessandro Nivola, Parker Posey","Drama, Horror, Thriller",98
-a719,Fireflies in the Garden,2008,Dennis Lee,"Ryan Reynolds, Willem Dafoe, Emily Watson",Drama,120
 a720,Fireproof,2008,Alex Kendrick,"Kirk Cameron, Erin Bethea, Ken Bevel","Drama, Romance",122
 a731,The Garden,1990,Derek Jarman,"Tilda Swinton, Johnny Mills, Philip MacDonald",Drama,88
 a738,Hannah Montana & Miley Cyrus: Best of Both Worlds Concert,2008,Bruce Hendricks,"Miley Cyrus, The Jonas Brothers, Kenny Ortega","Documentary, Music",74
@@ -99,7 +102,6 @@ a798,Prom Night,2008,Nelson McCormick,"Brittany Snow, Scott Porter, Jessica Stro
 a809,Repo! The Genetic Opera,2008,Darren Lynn Bousman,"Paul Sorvino, Anthony Head, Alexa PenaVega","Horror, Musical, Sci-Fi",98
 a820,Shutter,2008,Masayuki Ochiai,"Joshua Jackson, Rachael Taylor, James Kyson","Horror, Mystery, Thriller",85
 a828,Spike,2008,Robert Beaucage,"Sarah Livingston Evans, Jared Edwards, Anna-Marie Wayne","Fantasy, Horror, Romance",80
-a830,Spy School,2008,Mark Blutman,"Forrest Landis, AnnaSophia Robb, Rider Strong","Adventure, Comedy, Drama, Family, Mystery",86
 a849,W,2014,Tarun Madan Chopra,"Leeza Mangaldas, Lezlie Tripathy, Sonal Giani","Crime, Musical, Thriller",137
 a856,What Doesn't Kill You,2009,Brian Goodman,"Ethan Hawke, Mark Ruffalo, Brian Goodman","Crime, Drama",100
 a877,Alvin and the Chipmunks: The Squeakquel,2009,Betty Thomas,"Jason Lee, Zachary Levi, David Cross","Animation, Comedy, Family, Fantasy, Music",88
@@ -114,8 +116,8 @@ a955,Horrorween,2012,Joe Estevez,"William Shatner, Jenna Jameson, Donald Trump",
 a960,I Hate Valentine's Day,2009,Nia Vardalos,"Nia Vardalos, John Corbett, Judah Friedlander","Comedy, Romance",98
 a967,The Informant,2013,Julien Leclercq,"Gilles Lellouche, Tahar Rahim, Riccardo Scamarcio","Crime, Thriller",116
 a978,Jonas Brothers: The 3D Concert Experience,2009,Bruce Hendricks,"Nick Jonas, Joe Jonas, Kevin Jonas","Documentary, Music",76
-a989,Love N' Dancing,2011,Robert Iscove,"Amy Smart, Tom Malloy, Billy Zane","Drama, Romance",91
 a993,The Maiden Heist,2010,Peter Hewitt,"Christopher Walken, Joseph McKenna, Wynn Everett","Comedy, Crime",90
+a994,Management,2009,Stephen Belber,"Jennifer Aniston, Steve Zahn, Woody Harrelson","Comedy, Drama, Romance",94
 a998,The Messenger,2015,David Blair,"Robert Sheehan, Joely Richardson, David O'Hara","Drama, Horror, Mystery, Thriller",101
 a999,Michael Jackson's 'This Is It': The Gloved One,2010,,"Abigail Franklin, Michael Jackson, Kenny Ortega","Documentary, Short",15
 a1003,My Bloody Valentine,2009,Patrick Lussier,"Jensen Ackles, Jaime King, Kerr Smith",Horror,101
@@ -125,9 +127,8 @@ a1036,Quantum Quest: A Cassini Space Odyssey,2012,Harry 'Doc' Kloor,"Chris Pine,
 a1043,Shorts,2009,Robert Rodriguez,"Jimmy Bennett, James Spader, Kat Dennings","Comedy, Family, Fantasy",89
 a1045,The Slammin' Salmon,2009,Kevin Heffernan,"Michael Clarke Duncan, Jay Chandrasekhar, Kevin Heffernan",Comedy,90
 a1054,The Taking of Pelham 1 2 3,2009,Tony Scott,"Denzel Washington, John Travolta, Luis Guzmán","Action, Crime, Thriller",106
-a1091,Adrift in Manhattan,2008,Alfredo Rodriguez de Villa,"Victor Rasuk, Richard Petrocelli, Nicolle Rochelle",Drama,91
+a1080,X Games 3D: The Movie,2009,Steve Lawrence,"Travis Pastrana, Ricky Carmichael, Shaun White","Documentary, Sport",92
 a1092,Adventures of Johnny Tao,2007,Kenn Scott,"Ilram Choi, Stirling Everly, Michael Gregory","Action, Adventure, Music",90
-a1094,After Sex,2008,Eric Amadio,"Marc Blucas, Jose Pablo Cantillo, Emmanuelle Chriqui","Comedy, Drama, Romance",77
 a1095,Dial M for Murder,1954,Alfred Hitchcock,"Ray Milland, Grace Kelly, Robert Cummings","Crime, Thriller",105
 a1110,Autism: The Musical,2007,Tricia Regan,"Hillary Aaron, Joe Aaron, Adam","Documentary, Music",94
 a1120,The Blue Hour,2015,Anucha Boonyawatana,"Atthaphan Poonsawas, Oabnithi Wiwattanawarang, Djuangjai Hirunsri",,97
@@ -170,6 +171,8 @@ a1259,Isn't She Great,2000,Andrew Bergman,"Bette Midler, Nathan Lane, Stockard C
 a1263,The Kid,1921,Charles Chaplin,"Charles Chaplin, Edna Purviance, Jackie Coogan","Comedy, Drama, Family",68
 a1270,Long Night's Journey Into Day,2001,Deborah Hoffmann,"Mary Burton, Pumla Gobodo-Madikizela, Mongezi Manqina",Documentary,94
 a1276,Bhool Bhulaiyaa,2007,Priyadarshan,"Akshay Kumar, Vidya Balan, Ameesha Patel","Comedy, Horror, Mystery, Thriller",159
+a1277,Me Myself & Irene,2000,Bobby Farrelly,"Jim Carrey, Renée Zellweger, Anthony Anderson",Comedy,116
+a1289,Next Friday,2000,Steve Carr,"Ice Cube, Mike Epps, Justin Pierce",Comedy,98
 a1291,Nutty Professor II: The Klumps,2000,Peter Segal,"Eddie Murphy, Janet Jackson, Larry Miller","Comedy, Fantasy, Romance, Sci-Fi",106
 a1321,Rugrats in Paris: The Movie,2000,Stig Bergqvist,"Christine Cavanaugh, Elizabeth Daily, Cheryl Chase","Animation, Adventure, Comedy, Family, Romance",78
 a1322,The Scarecrow,2015,Phillip Rhys,"Darren Pettie, Sandra Oh, Sandra Seacat","Short, Drama",13
@@ -183,6 +186,7 @@ a1357,Unbreakable,2000,M. Night Shyamalan,"Bruce Willis, Samuel L. Jackson, Robi
 a1375,X-Men: Apocalypse,2016,Bryan Singer,"Jennifer Lawrence, Michael Fassbender, Rose Byrne","Action, Adventure, Fantasy, Sci-Fi",
 a1382,Ali,2001,Michael Mann,"Will Smith, Jamie Foxx, Jon Voight","Biography, Drama, Sport",157
 a1391,Amy's Orgasm,2004,Julie Davis,"Julie Davis, Nick Chinlund, Caroline Aaron","Comedy, Romance",87
+a1394,The Anniversary Party,2001,Alan Cumming,"Alan Cumming, Jennifer Jason Leigh, Phoebe Cates","Comedy, Drama, Romance",115
 a1411,Captain Corelli's Mandolin,2001,John Madden,"Nicolas Cage, Penélope Cruz, John Hurt","Drama, Music, Romance, War",131
 a1412,The Cat's Meow,2002,Peter Bogdanovich,"Kirsten Dunst, Cary Elwes, Edward Herrmann",Drama,114
 a1414,The Caveman's Valentine,2001,Kasi Lemmons,"Samuel L. Jackson, Colm Feore, Ann Magnuson","Crime, Drama, Music, Mystery, Thriller",105
@@ -190,7 +194,6 @@ a1423,Dogtown and Z-Boys,2002,Stacy Peralta,"Sean Penn, Jay Adams, Tony Alva","D
 a1425,Don't Say a Word,2001,Gary Fleder,"Michael Douglas, Sean Bean, Brittany Murphy","Crime, Drama, Mystery, Thriller",113
 a1432,Earth vs the Spider,1958,Bert I. Gordon,"Ed Kemmer, June Kenney, Eugene Persson","Horror, Sci-Fi",73
 a1433,Elvira's Haunted Hills,2002,Sam Irvin,"Cassandra Peterson, Richard O'Brien, Mary Scheer","Comedy, Horror",90
-a1435,Escape from Hell,1980,Edoardo Mulargia,"Anthony Steffen, Ajita Wilson, Cristina Lay","Drama, Thriller, Crime",93
 a1436,Evolution,2001,Ivan Reitman,"David Duchovny, Orlando Jones, Julianne Moore","Comedy, Sci-Fi",101
 a1441,Finder's Fee,2001,Jeff Probst,"Erik Palladino, Ryan Reynolds, Dash Mihok","Drama, Thriller",100
 a1442,The Fluffer,2002,Richard Glatzer,"Scott Gurney, Michael Cunio, Roxanne Day","Drama, Comedy, Romance",95
@@ -200,7 +203,6 @@ a1463,Heist,2015,Scott Mann,"Robert De Niro, Dave Bautista, Mark-Paul Gosselaar"
 a1464,Herman U.S.A.,2001,Bill Semans,"Kevin Chamberlin, Michael O'Keefe, Enid Graham","Comedy, Romance",89
 a1482,Kingdom Come,2014,Greg A. Sager,"Ry Barrett, Camille Hollett-French, William Foley",Horror,97
 a1493,The Lord of the Rings: The Fellowship of the Ring,2001,Peter Jackson,"Elijah Wood, Ian McKellen, Orlando Bloom","Adventure, Fantasy",178
-a1494,The Lost Skeleton of Cadavra,2001,Larry Blamire,"Larry Blamire, Fay Masterson, Brian Howe","Comedy, Horror, Sci-Fi",90
 a1497,The Man Who Wasn't There,2001,Joel Coen,"Billy Bob Thornton, Frances McDormand, Michael Badalucco","Crime, Drama",116
 a1498,Max Keeble's Big Move,2001,Tim Hill,"Alex D. Linz, Larry Miller, Jamie Kennedy","Comedy, Crime, Family",86
 a1502,Mockingbird Don't Sing,2001,Harry Bromley Davenport,"Melissa Errico, Michael Lerner, Joe Regalbuto","Biography, Drama",98
@@ -241,15 +243,17 @@ a1633,Communication Breakdown,,Richard O'Sullivan,"Dan Lashley, Willie Repoley, 
 a1638,Crash,2005,Paul Haggis,"Don Cheadle, Sandra Bullock, Thandie Newton",Drama,112
 a1639,Criminal,2016,Ariel Vromen,"Ryan Reynolds, Alice Eve, Gal Gadot","Action, Crime, Drama, Mystery, Thriller",
 a1643,De-Lovely,2004,Irwin Winkler,"Kevin Kline, Ashley Judd, Jonathan Pryce","Biography, Drama, Music, Musical",125
-a1645,Dead Birds,2005,Alex Turner,"Henry Thomas, Patrick Fugit, Nicki Aycox","Horror, Thriller, Western",91
 a1648,Dodgeball: A True Underdog Story,2004,Rawson Marshall Thurber,"Ben Stiller, Christine Taylor, Vince Vaughn","Comedy, Sport",92
 a1654,Exorcist: The Beginning,2004,Renny Harlin,"Stellan Skarsgård, Izabella Scorupco, James D'Arcy","Horror, Mystery, Thriller",114
 a1655,EuroTrip,2004,Jeff Schaffer,"Scott Mechlowicz, Jacob Pitts, Michelle Trachtenberg",Comedy,93
 a1656,Fade to Black,1980,Vernon Zimmerman,"Dennis Christopher, Tim Thomerson, Gwynne Gilford","Comedy, Horror, Thriller",102
 a1664,Game Box 1.0,2009,David Hillenbrand,"Nate Richert, Danielle Fishel, Patrick Kilpatrick","Sci-Fi, Fantasy",83
+a1665,Garden State,2004,Zach Braff,"Zach Braff, Peter Sarsgaard, Natalie Portman","Comedy, Drama, Romance",102
+a1668,The Grudge,2004,Takashi Shimizu,"Sarah Michelle Gellar, Jason Behr, Clea DuVall","Horror, Mystery, Thriller",91
 a1670,Harold & Kumar Go to White Castle,2004,Danny Leiner,"John Cho, Kal Penn, Ethan Embry","Adventure, Comedy",88
 a1672,Heights,2005,Chris Terrio,"Elizabeth Banks, Glenn Close, James Marsden",Drama,93
 a1674,Her Summer,2004,Bryan Woods,"Justin Marxen, Travis Shepherd, Shane Simmons","Drama, Thriller, Mystery",80
+a1677,A Home at the End of the World,2004,Michael Mayer,"Colin Farrell, Dallas Roberts, Robin Wright","Drama, Romance",97
 a1678,Home on the Range,2004,Will Finn,"Judi Dench, Cuba Gooding Jr., Jennifer Tilly","Animation, Comedy, Family, Music, Western",76
 a1680,The Hunting of the President,2004,Nickolas Perry,"Morgan Freeman, Jonathan Alter, Steve Barnes",Documentary,90
 a1690,Knights of the Roundtable: King Arthur,2016,Guy Ritchie,"Charlie Hunnam, Jude Law, Katie McGrath","Action, Adventure, Drama, Fantasy",
@@ -261,6 +265,7 @@ a1709,The Merchant of Venice,2005,Michael Radford,"Al Pacino, Joseph Fiennes, Ly
 a1712,Mindbenders,2004,Anthony Wayne Pettus,"Graciella Evelina Martinez, Jennifer Goodrich, Nicole Turner",Sci-Fi,90
 a1714,Miracle,2004,Gavin O'Connor,"Kurt Russell, Patricia Clarkson, Nathan West","Biography, Drama, History, Sport",135
 a1716,Mojados: Through the Night,2005,Tommy Davis,"Guapo, Oso, Tigre",Documentary,65
+a1717,Mondovino,2004,Jonathan Nossiter,"Albiera Antinori, Allegra Antinori, Lodovico Antinori",Documentary,135
 a1719,Mr 3000,2004,Charles Stone III,"Bernie Mac, Angela Bassett, Michael Rispoli","Comedy, Drama, Romance, Sport",104
 a1720,My Baby's Daddy,2004,Cheryl Dunye,"Eddie Griffin, Anthony Anderson, Michael Imperioli",Comedy,86
 a1729,Ocean's Twelve,2004,Steven Soderbergh,"George Clooney, Brad Pitt, Julia Roberts","Crime, Thriller",125
@@ -289,12 +294,14 @@ a1864,Enron: The Smartest Guys in the Room,2005,Alex Gibney,"John Beard, Tim Bel
 a1869,Favela Rising,2006,Matt Mochary,"Andre Luis Azevedo, Jose Junior, Michele Moraes",Documentary,80
 a1875,Frankenstein vs. the Creature from Blood Cove,2005,William Winckler,"G. Larry Butler, William Winckler, Dezzirae Ascalon",Horror,90
 a1877,The Game of Their Lives,2005,David Anspaugh,"Wes Bentley, Gerard Butler, Gavin Rossdale","Drama, History, Sport",101
+a1881,Guess Who,2005,Kevin Rodney Sullivan,"Ashton Kutcher, Bernie Mac, Zoe Saldana","Comedy, Romance",105
 a1892,The Hitchhiker's Guide to the Galaxy,2005,Garth Jennings,"Martin Freeman, Yasiin Bey, Sam Rockwell","Adventure, Comedy, Sci-Fi",109
 a1893,Hoodwinked!,2006,Cory Edwards,"Anne Hathaway, Glenn Close, Patrick Warburton","Animation, Comedy, Family",80
 a1916,King's Ransom,2005,Jeffrey W. Byrd,"Anthony Anderson, Kellita Smith, Jay Mohr","Comedy, Crime",95
 a1918,Kiss Kiss Bang Bang,2005,Shane Black,"Robert Downey Jr., Val Kilmer, Michelle Monaghan","Comedy, Crime, Mystery",103
 a1919,The L.A. Riot Spectacular,2006,Marc Klasfeld,"Snoop Dogg, T.K. Carter, Charles S. Dutton",Comedy,80
 a1922,The League of Gentlemen's Apocalypse,2005,Steve Bendelack,"Mark Gatiss, Steve Pemberton, Reece Shearsmith","Comedy, Horror",91
+a1930,Madagascar,2005,Eric Darnell,"Chris Rock, Ben Stiller, David Schwimmer","Animation, Adventure, Comedy, Family",86
 a1939,Monster-in-Law,2005,Robert Luketic,"Jennifer Lopez, Michael Vartan, Jane Fonda",Comedy,101
 a1951,No Direction Home,2015,Juno Jakob,"Juno Jakob, Sophie Ormshaw",Drama,64
 a1956,Pooh's Heffalump Movie,2005,Frank Nissen,"Jim Cummings, Brenda Blethyn, Kyle Stanger","Animation, Family, Fantasy, Mystery",68
@@ -305,6 +312,7 @@ a1986,Star Wars: Episode III - Revenge of the Sith,2005,George Lucas,"Hayden Chr
 a1988,Coonskin,1975,Ralph Bakshi,"Barry White, Charles Gordone, Scatman Crothers","Animation, Crime, Drama",100
 a2004,Waiting...,2005,Rob McKittrick,"Ryan Reynolds, Anna Faris, John Francis Daley",Comedy,94
 a2007,Imminent Threat,2015,Janek Ambros,"Anwar Al-Awlaki, Julian Assange, Joe Biden","Documentary, War",73
+a2008,The Weather Man,2005,Gore Verbinski,"Nicolas Cage, Hope Davis, Nicholas Hoult","Comedy, Drama",102
 a2013,Why We Fight,2005,Eugene Jarecki,"Gore Vidal, John McCain, Ken Adelman","Documentary, History, War",98
 a2015,Yours Mine and Ours,1968,Melville Shavelson,"Lucille Ball, Henry Fonda, Van Johnson","Comedy, Family",111
 a2017,45,,Jonathan Buchner,,"Documentary, Biography, Music",68
@@ -317,6 +325,7 @@ a2035,America: Freedom to Fascism,2006,Aaron Russo,"Aaron Russo, John Turner, Jo
 a2047,As You Like It,2007,Kenneth Branagh,"Takuya Shimada, Brian Blessed, Richard Clifford","Drama, Comedy, Romance",127
 a2048,Asian Stories,2006,Ron Oda,"James Kyson, Kathy Uyen, Kirt Kishita","Comedy, Drama",98
 a2054,Awesome; I Fuckin' Shot That!,2006,Adam Yauch,"Mike D, Adam Horovitz, Adam Yauch","Documentary, Music",90
+a2056,Bambi II,2006,Brian Pimental,"Patrick Stewart, Alexander Gould, Keith Ferguson","Animation, Drama, Family",75
 a2059,The Beach Party at the Threshold of Hell,2006,Jonny Gillette,"Richard Riehle, Kevin Wheatley, Paul Whitty",Comedy,90
 a2061,Behind the Mask: The Rise of Leslie Vernon,2006,Scott Glosserman,"Nathan Baesel, Angela Goethals, Zelda Rubinstein","Comedy, Horror, Thriller",92
 a2069,Big Momma's House 2,2006,John Whitesell,"Martin Lawrence, Emily Procter, Nia Long","Comedy, Crime",99
@@ -331,12 +340,10 @@ a2092,Chasing the Horizon,2006,Markus Canter,"Milo Brown, Jeff Lloyd, Toby O'Mar
 a2094,Christmas at Maxwell's,2006,William C. Laufer,"Andrew May, Jack Hourigan, Helen Welch",Drama,94
 a2097,Clear Cut: The Story of Philomath Oregon,2006,Peter Richardson,,Documentary,72
 a2105,Copying Beethoven,2007,Agnieszka Holland,"Ed Harris, Diane Kruger, Matthew Goode","Biography, Drama, Music",104
-a2109,Crude Impact,2006,James Jandak Wood,"Thom Hartmann, William Rees, Richard Heinberg","Documentary, History",97
 a2119,Date Movie,2006,Aaron Seltzer,"Alyson Hannigan, Fred Willard, Jennifer Coolidge","Comedy, Romance",83
 a2121,Day Night Day Night,2007,Julia Loktev,"Luisa Williams, Josh Philip Weinstein, Gareth Saxe","Crime, Drama, Thriller",94
 a2124,The Death of Poe,2006,Mark Redfield,"Mark Redfield, Kevin G. Shinnick, Jennifer Rouse","Drama, Horror",80
 a2125,DÃ©jÃ  Vu,1998,Henry Jaglom,"Victoria Foyt, Stephen Dillane, Vanessa Redgrave","Drama, Romance",117
-a2133,Shut Up & Sing,2006,Barbara Kopple,"Natalie Maines, Emily Robison, Martie Maguire","Documentary, Biography, Music",93
 a2138,Driftwood,1997,Ronan O'Leary,"James Spader, Anne Brochet, Barry McGovern",Thriller,100
 a2139,Dancin' It's On,2015,David Winters,"Gary Daniels, Witney Carson, Jordan Clark","Family, Musical",89
 a2141,Encounter Point,2006,Ronit Avni,"Ali Abu Awwad, Sami Al Jundi, Robi Damelin",Documentary,89
@@ -358,7 +365,6 @@ a2235,Kalamazoo,1995,Claudia Silver,"Emily Cutler, Jamie Harrold, Scott Renderer
 a2243,Larry the Cable Guy: Health Inspector,2006,Trent Cooper,"Larry the Cable Guy, David Koechner, Michael Papajohn","Comedy, Romance",89
 a2247,Let's Go to Prison,2006,Bob Odenkirk,"Dax Shepard, Will Arnett, Chi McBride","Comedy, Crime",84
 a2252,Littleman,2006,Keenen Ivory Wayans,"Shawn Wayans, Marlon Wayans, Kerry Washington","Comedy, Crime, Fantasy",98
-a2254,Live Freaky Die Freaky,2006,John Roecker,"Nick 13, Billie Joe Armstrong, Tim Armstrong","Animation, Comedy, Musical, Sci-Fi",75
 a2255,Local Color,2009,George Gallo,"Armin Mueller-Stahl, Trevor Morgan, Ray Liotta",Drama,107
 a2263,Madea's Family Reunion,2006,Tyler Perry,"Tyler Perry, Blair Underwood, Lynn Whitfield","Comedy, Drama, Romance",107
 a2268,Mark of the Damned,2006,Eric Miller,"Jeff Bostic, Rob Burns, Josh Kennedy","Horror, Sci-Fi",105
@@ -373,7 +379,6 @@ a2294,Occupation 101,2007,Abdallah Omeish,"James Akins, Arik Ascherman, Bishop B
 a2297,The Omen,1976,Richard Donner,"Gregory Peck, Lee Remick, Harvey Stephens","Horror, Mystery",111
 a2299,Once in a Lifetime: The Extraordinary Story of the New York Cosmos,2006,Paul Crowder,"Pelé, Giorgio Chinaglia, Matt Dillon","Documentary, Sport",97
 a2304,Park,2006,Kurt Voelker,"Dagney Kerr, Tank, Vincent Riverside","Comedy, Drama",86
-a2306,Penelope,2008,Mark Palansky,"Christina Ricci, James McAvoy, Reese Witherspoon","Comedy, Fantasy, Romance",104
 a2309,The Phobic,2006,Margo Romero,"Courtney Gains, Juliette Marquis, Eric Millegan",Thriller,
 a2313,Poultrygeist: Night of the Chicken Dead,2012,Lloyd Kaufman,"Jason Yachanin, Kate Graham, Allyson Sereboff","Comedy, Horror, Musical",103
 a2314,The Power of Community: How Cuba Survived Peak Oil,2006,Faith Morgan,"Bruce Cromer, Jorge Mario, Rachel Bruhnke",Documentary,53
@@ -417,29 +422,28 @@ a2535,Operation Homecoming: Writing the Wartime Experience,2007,Richard Robbins,
 a2536,P.S. I Love You,2007,Richard LaGravenese,"Hilary Swank, Gerard Butler, Harry Connick Jr.","Drama, Romance",126
 a2538,Song for a Raggy Boy,2003,Aisling Walsh,"Aidan Quinn, Iain Glen, Marc Warren",Drama,94
 a2561,Rolling,2007,Billy Samoa Saleebey,"Sanoe Lake, Garrett Brawith, Rachel Hardisty",Drama,90
+a2565,Saw IV,2007,Darren Lynn Bousman,"Tobin Bell, Scott Patterson, Costas Mandylor","Horror, Mystery",93
 a2571,ShowBusiness: The Road to Broadway,2007,Dori Berinstein,"Alissa Anderegg, Kristen Anderson-Lopez, Rob Ashford",Documentary,102
 a2575,Sinner,2007,Marc Benardout,"Nick Chinlund, Georgina Cates, Michael E. Rodgers",Drama,88
+a2579,Smiley Face,2008,Gregg Araki,"Anna Faris, John Krasinski, Adam Brody",Comedy,85
 a2585,A State of Vine,,Don Scioli,"Mario Andretti, Daniel Baron, Fred Franzia",Documentary,60
 a2589,Christmas Eve,2015,Mitch Davis,"Patrick Stewart, James Roday, Jon Heder",Comedy,
-a2591,Suffering Man's Charity,2007,Alan Cumming,"Alan Cumming, David Boreanaz, Anne Heche","Comedy, Horror",93
 a2598,The Ten,2008,David Wain,"Paul Rudd, Jessica Alba, Winona Ryder",Comedy,96
-a2608,War Dance,2008,Sean Fine,"Dominic, Nancy, Rose","Documentary, Music, War",105
 a2615,White Noise 2: The Light,2007,Patrick Lussier,"Nathan Fillion, Katee Sackhoff, Craig Fairbrass","Drama, Horror, Thriller",99
 a2616,Who's Your Caddy?,2007,Don Michael Paul,"Big Boi, Jeffrey Jones, Terry Crews","Comedy, Sport",93
 a2617,Why Did I Get Married?,2007,Tyler Perry,"Tyler Perry, Janet Jackson, Sharon Leal","Comedy, Drama",113
 a2628,Twenty Feet from Stardom,2014,Morgan Neville,"Darlene Love, Merry Clayton, Lisa Fischer","Documentary, History, Music",91
 a2629,21 & Over,2013,Jon Lucas,"Miles Teller, Justin Chon, Jonathan Keltz",Comedy,93
 a2635,The Mine,2012,Jeff Chamberlain,"Reiley McClendon, Adam Hendershott, Valerie C. Walker","Adventure, Horror, Mystery, Thriller",95
-a2638,Aftershock,2014,Nicolás López,"Eli Roth, Ariel Levy, Nicolás Martínez","Action, Adventure, Horror, Thriller",89
 a2645,Apartment 1303 3D,2013,Michael Taverna,"Mischa Barton, Rebecca De Mornay, Julianne Michelle",Horror,85
 a2649,Artifact,2013,Jared Leto,"Jared Leto, Shannon Leto, Tomo Milicevic","Documentary, Music",103
 a2690,Cheech & Chong's Animated Movie,2013,Branden Chambers,"Cheech Marin, Tommy Chong","Animation, Comedy",84
 a2691,Chilling Visions: 5 Senses of Fear,2015,Eric England,"Symba, Nicholas Tucci, Danae Nason",Horror,88
 a2692,Clark: A Gonzomentary,2013,Daniel D.W.,"William Clark, James Curcio, Daniel D.W.","Documentary, Comedy",100
-a2700,Contest,2013,Anthony Joseph Giunta,"Kenton Duty, Danny Flaherty, Mary Beth Peil","Drama, Family",87
 a2701,The Gay Divorcee,1934,Mark Sandrich,"Fred Astaire, Ginger Rogers, Alice Brady","Comedy, Musical, Romance",107
 a2702,Contracted,2013,Eric England,"Najarra Townsend, Caroline Williams, Alice Macdonald","Drama, Horror, Thriller",78
 a2717,Emperor,2015,Lee Tamahori,"Adrien Brody, Sophie Cookson, Paz Vega","Adventure, Thriller",
+a2723,Erased,2012,Philipp Stölzl,"Aaron Eckhart, Nick Alachiotis, Liana Liberato","Action, Thriller",100
 a2737,Fright Night 2,2013,Eduardo Rodriguez,"Will Payne, Jaime Murray, Sean Power","Comedy, Horror, Thriller",100
 a2744,Geography Club,2014,Gary Entin,"Cameron Deane Stewart, Justin Deeley, Meaghan Martin",Comedy,84
 a2760,Hansel & Gretel,2013,Anthony C. Ferrante,"Brent Lydic, Jonathan Nation, Stephanie Greco",Horror,90
@@ -447,14 +451,15 @@ a2767,The Haunting in Connecticut 2: Ghosts of Georgia,2013,Tom Elkins,"Abigail 
 a2768,He's Way More Famous Than You,2013,Michael Urie,"Halley Feiffer, Ryan Spahn, Ashlie Atkinson",Comedy,96
 a2771,Hit & Stay,2013,Skizz Cyzyk,"Rahne Alexander, Joel Andreas, Bill Ayers","Documentary, History, News, War",99
 a2786,I Spit on Your Grave 2,2014,Steven R. Monroe,"Jemma Dallender, Joe Absolom, Yavor Baharov","Crime, Horror, Thriller",106
-a2793,Inequality for All,2015,Jacob Kornbluth,"Robert Reich, Lily Tomlin, Candice Bergen",Documentary,89
 a2806,Steve Jobs,2015,Danny Boyle,"Michael Fassbender, Kate Winslet, Seth Rogen","Biography, Drama",122
 a2810,Justice League: The Flashpoint Paradox,2013,Jay Oliva,"Justin Chambers, C. Thomas Howell, Michael B. Jordan","Animation, Action, Adventure, Fantasy, Sci-Fi",75
 a2820,Glory Daze,1996,Rich Wilkes,"Ben Affleck, Sam Rockwell, Megan Ward",Comedy,100
 a2835,The Lost Medallion: The Adventures of Billy Stone,2013,Bill Muir,"Billy Unger, John Marengo, Sammi Hanratty","Adventure, Family, Fantasy",97
 a2842,Magic Magic,2013,Sebastián Silva,"Michael Cera, Juno Temple, Emily Browning",Thriller,97
+a2843,Manhattan Romance,2015,Tom O'Brien,"Jessie Barr, Louis Cancelmi, Margaret Daly","Comedy, Drama, Romance",94
 a2846,The Marine 3: Homefront,2013,Scott Wiper,"Mike 'The Miz' Mizanin, Neal McDonough, Ashley Bell","Action, Thriller",86
 a2850,The Man Who Lost China,,Thomas Young,Thomas Young,"Documentary, Biography, History, War",76
+a2854,Movie 43,2013,Elizabeth Banks,"Emma Stone, Stephen Merchant, Richard Gere",Comedy,94
 a2855,Moving,1988,Alan Metter,"Richard Pryor, Beverly Todd, Stacey Dash",Comedy,89
 a2863,Oldboy,2003,Chan-wook Park,"Min-sik Choi, Ji-tae Yu, Hye-jeong Kang","Drama, Mystery, Thriller",120
 a2870,Palominas,,Thadd Turner,"Ryan Merriman, Michael Parks, Wes Studi","Action, Drama, Western",
@@ -479,8 +484,7 @@ a2960,The Way Way Back,2013,Nat Faxon,"Steve Carell, Toni Collette, Allison Jann
 a2962,We Steal Secrets: The Story of WikiLeaks,2013,Alex Gibney,"Julian Assange, Adrian Lamo, John 'FuzzFace' McMahon",Documentary,130
 b6,The ABCs of Death,2013,Christopher Smith,"Ingrid Bolso Berdal, Neil Maskell, Kyra Zagorsky, Michael Smiley","Mystery & Suspense, Horror",129
 b16,Allegiance,2012,Michael Connors,"Seth Gabel, Aidan Quinn, Bow Wow, Malik Yoba","Mystery & Suspense, Science Fiction & Fantasy",91
-b27,Art Machine,2014,Doug Karr,"Joseph Cross, Jessica Szohr, Meredith Hagner, Christopher Abbott",Comedy,89
-b30,Atom The Amazing Zombie Killer,,Zack Beins,"Lloyd Kaufman, Babette Bombshell, Shawn C. Phillips","Horror, Comedy",80
+b42,Battlefield America,2012,C. Brian,"Marques Houston, Mekia Cox, Lynn Whitfield, Christopher Michael ...","Musical & Performing Arts, Drama",106
 b47,Beauty and the Beast,2012,Gary Trousdale,"Paige O'Hara, Robby Benson, Jerry Orbach, Angela Lansbury","Animation, Romance, Drama, Kids & Family, Musical & Performing Arts, Science Fiction & Fantasy",85
 b50,Ben Banks,,Bryce Clark,"Mischa Barton, Ben Banks, Alex Beh, Katharine Towne","Drama, Comedy",90
 b55,Beyond The Reach,2015,Jean-Baptiste Lonetti,"Michael Douglas, Jeremy Irvine, Hanna Mangan Lawrenc..., Ronny Cox",Mystery & Suspense,91
@@ -488,11 +492,11 @@ b61,Border Run (The Mule),2012,Gabriela Tagliavini,"Sharon Stone, Billy Zane, Mi
 b64,Branded,2012,Alexander Doulerain,"Ed Stoppard, Leelee Sobieski, Jeffrey Tambor, Ingeborga Dapkunaite","Drama, Mystery & Suspense, Science Fiction & Fantasy",106
 b65,Braveheart,1995,Mel Gibson,"Mel Gibson, Sophie Marceau, Patrick McGoohan, Catherine McCormack","Drama, Action & Adventure, Classics",177
 b69,The Metropolitan Opera: Madama Butterfly,2016,Anthony Minghella,"Kristine Opolais, Patricia Racette, Massimo Giordano, Roberto Alagna",Special Interest,201
+b86,The Chronicles of Narnia: The Lion The Witch and The Wardrobe,2005,Marilyn Fox,"Georgie Henley, Skandar Keynes, William Moseley, Anna Popplewell","Science Fiction & Fantasy, Kids & Family",139
 b88,Clash of the Empires,2012,Joseph J. Lawson,"Ling Bai, Christopher Judge, Sum Korng, Srogn","Action & Adventure, Science Fiction & Fantasy",90
 b93,Shakespeare's Globe Theatre: The Comedy Of Errors,2015,Blanche McIntyre,"Hattie Ladbury, Harrison Simon, Stefan Adegbola, Andy Apollo",Special Interest,140
 b106,10 Days in a Madhouse,2015,Timothy Hines,"Caroline Barry, Christopher Lambert, Kelly LeBrock, Julia Chantrey",Drama,111
 b107,Dead Before Dawn,1993,Charles V. Correll,"Cheryl Ladd, Jameson Parker, Hope Lange, G.W. Bailey","Drama, Television, Mystery & Suspense",100
-b110,Death Race 3: Inferno (Unrated),,Roel Rein,"Luke Goss, Danny Trejo, Tanit Phoenix, Frederick Koehler","Drama, Action & Adventure, Mystery & Suspense",106
 b111,Deep Dark Canyon,2012,Dustin Rikert,"Martin Starr, Matthew Lillard, Nick Eversman, Spencer Treat Clark","Western, Action & Adventure",90
 b128,Exit Strategy,2012,Michael Whitton,"Jameel Saleem, Kimelia Weathers, Quincy ""QDeezy"" Harr..., Noelle Balfour","Comedy, Romance",76
 b131,Filly Brown,2013,Michael D. Olmos,"Gina Rodriguez, Jenni Rivera, Lou Diamond Phillips, Edward James Olmos",Drama,100
@@ -501,36 +505,50 @@ b149,Ghost Rider: Spirit of Vengeance,2012,Brian Taylor,"Nicolas Cage, Ciarn Hin
 b152,Gone Doggy Gone,2015,Brandon Walter,"Shaina Vorspan, Brandon Walter, Kasi Brown, Kate Connor","Drama, Action & Adventure, Comedy",89
 b186,Dr Seuss' The Lorax,2012,Chris Renaud,"Danny DeVito, Ed Helms, Zac Efron, Taylor Swift","Animation, Kids & Family",87
 b193,Martial Arts: Secrets of the Asian Masters,2015,Barclay Powers,,"Documentary, Sports & Fitness",80
+b204,Paranormal Activity 4,2012,Ariel Schulman,"Katie Featherston, Kathryn Newton, Mattt Shively, Stephen Dunham",Horror,90
 b213,Project X,2012,Jonathan Kaplan,"Thomas Mann, Oliver Cooper, Dax Flame, Kirby Bliss Blanton","Drama, Science Fiction & Fantasy, Comedy",88
-b214,Price Check,2012,Michael Walker,"Parker Posey, Eric Mabius, Annie Parisse, Josh Pais",Comedy,92
+b225,Rise of the Guardians,2012,William Joyce,"Alec Baldwin, Jude Law, Hugh Jackman, Isla Fisher","Action & Adventure, Animation, Kids & Family",97
+b257,Thunderstruck,2012,Eric Champnella,"Taylor Gray, Kevin Durant, Brandon T. Jackson, Larramie 'Doc' Shaw","Comedy, Kids & Family",94
+b262,Underworld Awakening,2012,Bjrn Stein,"Kate Beckinsale, Stephen Rea, Michael Ealy, Theo James","Action & Adventure, Horror, Science Fiction & Fantasy",88
 b263,Five Hours South (Crew 2 Crew),2012,Mark Bacci,"Andres Londono, Kate Nauta, Jeannine Kaspar, Jordan Bridges","Drama, Animation",94
 b264,Virginia,2012,Dustin Lance Black,"Jennifer Connelly, Ed Harris, Emma Roberts, Amy Madigan","Drama, Comedy",116
 b269,Streams In The Desert: Words Of Life,2015,Scott Hester,"Derek Bash, Heather Bash, Debbie D. Crosby, Rich Henrich","Drama, Kids & Family",77
 b283,Blue Valentine,2010,Andrij Parekh,"Ryan Gosling, Michelle Williams, Faith Wladyka, John Doman","Drama, Romance",114
 b298,Countdown to Zero,2010,Lucy Walker,"Valerie Plame Wilson, Valerine Plame Wilso..., Rolf Mowatt-Larssen, Lawrence Scott Sheet...","Documentary, Special Interest",90
+b307,Despicable Me,2010,Sergio Pablos,"Steve Carell, Jason Segel, Russell Brand, Steven Carrell","Animation, Kids & Family, Comedy",95
 b308,The Devil's Carnival: Alleluia!,2015,Darren Lynn Bousman,"Terrance Zdunich, Paul Sorvino, Adam Pascal, Marc Senter","Musical & Performing Arts, Horror",
 b320,A Faster Horse,2015,David Gelb,"Gale Halderman, David Gelb, Tom Barnes",Documentary,90
 b324,Freakonomics,2010,Seth Gordon,"Steven D. Levitt, Stephen J. Dubner, Zoe Sloane, Adesuwa Addy Iyare","Documentary, Special Interest",86
 b326,Frozen,2010,Adam Green,"Emma Bell, Shawn Ashmore, Kevin Zegers, Ed Ackerman","Drama, Horror, Mystery & Suspense",94
 b379,Marwencol,2010,Jeff Malmberg,Mark Hogancamp,"Documentary, Science Fiction & Fantasy",83
+b380,Megamind,2010,Cameron Hood,"Will Ferrell, Brad Pitt, Tina Fey, Jonah Hill","Action & Adventure, Animation, Kids & Family, Comedy",96
+b385,My Soul to Take,2010,Petra Korner,"John Magaro, Denzel Whitaker, Zena Grey, Nick Lashaway","Mystery & Suspense, Horror",108
 b393,Paper Man,2010,Kieran Mulroney,"Jeff Daniels, Emma Stone, Ryan Reynolds, Lisa Kudrow","Drama, Comedy",110
+b416,Shrek Forever After,2010,Andrew Adamson,"Mike Myers, Eddie Murphy, Cameron Diaz, Antonio Banderas","Action & Adventure, Animation, Kids & Family, Science Fiction & Fantasy, Comedy",93
 b431,Tooth Fairy,2004,Jake Scott,"Chris Noth, Jacqueline Walker, Wesley Leonard, Marina Brandon","Kids & Family, Comedy, Special Interest",
+b435,Tron Legacy,2010,John Lasseter,"Jeff Bridges, Garrett Hedlund, Olivia Wilde, Bruce Boxleitner","Action & Adventure, Science Fiction & Fantasy",125
 b437,Twelve,2010,Steven Fierberg,"Chace Crawford, Rory Culkin, 50 Cent, Anthony Quarles",Drama,93
 b439,The St. Valentine's Day Massacre,1967,Roger Corman,"Jason Robards, Jean Hale, George Segal, Ralph Meeker","Drama, Action & Adventure, Mystery & Suspense, Cult Movies",100
 b466,Atlas Shrugged: Part II,2012,John Putch,"Samantha Mathis, Jason Beghe, Esai Morales, Patrick Fabian",Drama,112
 b477,Me You and Five Bucks,2015,Jaime Zevallos,"Jaime Zevallos, Angela Sarafyan, Sean Nateghi, Daniel Chaffin",Comedy,91
 b490,Dead Stop,,Nick Rotundo,"Robert McFaul, Tina Mosner, Chris Chinchilla, Gina Brunton",Horror,92
-b503,Fear of a Black Republican,,D. Kevin Williams,"Edward Brooke, Newt Gingrich, Mike Huckabee, Michelle Malkin","Documentary, Special Interest",111
 b511,Gnomeo and Juliet,2011,Kelly Aysbury,"James McAvoy, Emily Blunt, Ashley Jensen, Michael Caine","Action & Adventure, Animation, Romance, Comedy, Kids & Family, Musical & Performing Arts",84
+b515,Green Lantern,2011,Greg Berlanti,"Ryan Reynolds, Blake Lively, Peter Sarsgaard, Mark Strong (II)","Action & Adventure, Science Fiction & Fantasy",113
+b516,Hall Pass,2011,Matthew F. Leonetti,"Owen Wilson, Jason Sudeikis, Jenna Fischer, Christina Applegate",Comedy,106
 b519,Happy Feet Two,2011,Gary Eck,"Elijah Wood, Robin Williams, Sofa Vergara, Pink","Animation, Kids & Family, Art House & International",99
+b525,Hoodwinked Too! Hood vs Evil,2011,Michael D'Isa-Hogan,"Hayden Panettiere, Patrick Warburton, David Ogden Stiers, Glenn Close","Animation, Kids & Family, Comedy",86
 b526,Hope Bridge,2015,Joshua Overbay,"Booboo Stewart, Kevin Sorbo, Sam Sorbo, Rebeca Robles",Drama,90
+b529,I Am Number Four,2011,Steven Spielberg,"Alex Pettyfer, Timothy Olyphant, Teresa Palmer, Dianna Agron","Action & Adventure, Mystery & Suspense, Science Fiction & Fantasy",109
 b549,Limitless,2011,Neil Burger,"Bradley Cooper, Robert De Niro, Abbie Cornish, Andrew Howard","Mystery & Suspense, Science Fiction & Fantasy",105
 b551,Lucky Stiff,2015,Christopher Ashley,"Dominic Marsh, Nikki M. James, Pamela Shaw, Jason Alexander","Musical & Performing Arts, Comedy",78
 b552,Machine Gun Preacher,2011,Sebastian Roche,"Gerard Butler, Michelle Monaghan, Kathy Baker, Michael Shannon","Drama, Action & Adventure",123
+b568,Paranormal Activity 3,2011,Tod Williams,"Jessica Tyler Brown, Chloe Csengery, Christopher Nicholas..., Lauren Bittner","Mystery & Suspense, Horror",84
 b603,Batman v Superman: Dawn of Justice,2016,Zack Snyder,"Gal Gadot, Ben Affleck, Henry Cavill, Amy Adams","Action & Adventure, Science Fiction & Fantasy",
 b621,Winnie the Pooh,2011,Don Hall,"Jim Cummings, Craig Ferguson, Jack Boulter, Tom Kenny","Animation, Kids & Family",73
 b646,Che strano chiamarsi Federico!,2015,Ettore Scola,"Sergio Rubini, Antonella Attili, Vittorio Viviani, Sergio Pierattini","Documentary, Drama",93
 b660,Definitely Maybe,2008,Adam Brooks,"Ryan Reynolds, Rachel Weisz, Isla Fisher, Derek Luke","Comedy, Romance",112
+b661,Delgo,2008,Jason Maurer,"Freddie Prinze Jr., Jennifer Love Hewitt, Anne Bancroft, Chris Kattan","Science Fiction & Fantasy, Animation",89
+b662,Disaster Movie,2008,Aaron Seltzer,"Matt Lanter, Kim Kardashian, Vanessa Lachey, Carmen Electra",Comedy,88
 b669,The Eye,2008,Xavier Palud,"Jessica Alba, Alessandro Nivola, Parker Posey, Rade Serbedzija","Drama, Horror, Mystery & Suspense",97
 b673,Fireproof,2008,Nick Zano,"Kirk Cameron, Erin Bethea, Ken Bevel, Jason McLeod",Drama,118
 b682,The Garden,2008,Scott Hamilton Kennedy,"Danny Glover, Antonio Villaraigosa, Daryl Hannah, Dennis Kucinich","Documentary, Special Interest",80
@@ -542,7 +560,6 @@ b726,Milk,2015,Noemi Weis,,"Documentary, Kids & Family, Art House & Internationa
 b736,Passengers,2008,Rodrigo Garca,"Anne Hathaway, Patrick Wilson, Clea DuVall, Andre Braugher","Mystery & Suspense, Drama",93
 b748,Rambo,1986,Michael Hack,"Alan Oppenheimer, Dale Ishimoto, Ed Gilbert, Frank Welker","Comedy, Kids & Family",
 b771,Spike Island,2015,Mat Whitecross,"Elliott Tittensor, Emilia Clarke, Chris Coghill, Matthew McNulty",Drama,96
-b773,Spy School (Doubting Thomas),,Mark Blutman,"Forrest Landis, Annasophia Robb, Lea Thompson, Rider Strong","Action & Adventure, Kids & Family, Comedy",88
 b776,Stop-Loss,2008,Kimberly Pierce,"Ryan Phillippe, Abbie Cornish, Joseph Gordon-Levitt, Rob Brown (VI)",Drama,111
 b784,Gadaar - The Traitor,2015,Amitoj Mann,Harbhajan Mann,Drama,132
 b795,Roger Waters The Wall Encore,2015,Roger Waters,"Roger Waters, Dave Kilminster, Snowy White, G.E. Smith",Documentary,170
@@ -557,14 +574,15 @@ b884,Halloween II,1981,John Carpenter,"Jamie Lee Curtis, Jeffrey Kramer, Charles
 b887,The Hole,2012,Joe Dante,"Chris Massoglia, Haley Bennett, Nathan Gamble, Teri Polo","Kids & Family, Mystery & Suspense, Science Fiction & Fantasy",98
 b889,Horrorween,2010,Joe Estevez,"Chuck Lamb, Ed Meyer, Joe Estevez, Eliezer Castro","Horror, Comedy",
 b900,The Informant,1998,Jim McBride,"Anthony Brophy, Cary Elwes, Timothy Dalton, Maria Lennon",Drama,105
-b920,Love N' Dancing,2008,Robert Iscove,"Amy Smart, Billy Zane, Caroline Rhea, Nicola Royston","Drama, Romance, Musical & Performing Arts",98
 b924,The Maiden Heist,2009,Peter Hewitt,"Christopher Walken, Morgan Freeman, William H. Macy, Marcia Gay Harden",Comedy,90
+b925,Management,2009,Eric Alan Edwards,"Jennifer Aniston, Steve Zahn, Woody Harrelson, Fred Ward","Comedy, Romance",93
 b933,My Bloody Valentine,1981,George Mihalka,"Paul Kelman, Lori Hallier, Neil Affleck, Keith Knight","Mystery & Suspense, Horror",91
 b947,Obsessed,2009,Steve Shill,"Idris Elba, Beyonce Knowles, Ali Larter, Bruce McGill","Mystery & Suspense, Drama",108
 b966,The Road,2009,Javier Aguirresarobe,"Viggo Mortensen, Kodi Smit-McPhee, Charlize Theron, Robert Duvall","Drama, Mystery & Suspense, Science Fiction & Fantasy",111
+b968,A Serious Man,2009,Roger Deakins,"Michael Stuhlbarg, Richard Kind, Fred Melamed, Sari Lennick","Drama, Comedy",106
 b971,The Big Short,2015,Adam McKay,"Christian Bale, Ryan Gosling, Steve Carell, Brad Pitt",Drama,
-b981,Tekken,,Dwight H. Little,"Luke Goss, Lateef Crowder, Cung Le, Ian Anthony Dale","Drama, Action & Adventure, Animation, Art House & International, Science Fiction & Fantasy",91
 b982,Tennessee,2009,Aaron Woodley,"Mariah Carey, Adam Rothenberg, Ethan Peck, Lance Reddick",Drama,99
+b1004,Zombieland,2009,James L. Frachon,"Woody Harrelson, Jesse Eisenberg, Emma Stone, Abigail Breslin","Horror, Comedy",88
 b1009,Across the Line,2000,Martin Spottl,"Brad Johnson, Sigal Erez, Brian Bloom, Marshall R. Teague","Drama, Action & Adventure",97
 b1022,Beautiful Something,2015,Joseph Graham,"Colman Domingo, Peter Patrikios, Matthew Rios, Brian Sheppard","Drama, Romance",92
 b1034,Brotherly Love,2015,Jamal Hill,"Keke Palmer, Cory C. Hardrict, Eric D. Hill, Lil' Romeo",Drama,90
@@ -579,6 +597,8 @@ b1066,The Girl,2013,David Riker,"Abbie Cornish, Maritza Santiago Her..., Will Pa
 b1070,Gossip,1999,Davis Guggenheim,"Eric Bogosian, Marisa Coughlan, Lena Headey, Kate Hudson","Mystery & Suspense, Drama",90
 b1073,National Theatre Live: Hamlet Encore Screening,2015,Lyndsey Turner,"Benedict Cumberbatch, Rory Kinnea, Matthew Barker, David Calder","Drama, Special Interest",210
 b1088,The Kid,2000,Jon Turteltaub,"Bruce Willis, Spencer Breslin, Emily Mortimer, Lily Tomlin","Kids & Family, Science Fiction & Fantasy, Comedy",104
+b1101,Me Myself & Irene,2000,Chris Cooper,"Jim Carrey, Rene Zellweger, Anthony Anderson, Mongo Brownlee",Comedy,117
+b1113,Next Friday,2000,"Don ""DC"" Curry","Ice Cube, Mike Epps, Justin Pierce, John Witherspoon",Comedy,98
 b1145,The Scarecrow,1920,Buster Keaton,"Buster Keaton, Joe Roberts, Joe Keaton, Sybil Seely",Comedy,2
 b1146,Scary Movie,2000,Keenen Ivory Wayans,"Marlon Wayans, Shawn Wayans, Anna Faris, Shannon Elizabeth","Horror, Comedy",88
 b1148,Screwed,2000,Scott Alexander,"Norm Macdonald, Dave Chappelle, Elaine Stritch, Danny DeVito",Comedy,82
@@ -587,10 +607,10 @@ b1164,Supernova,2000,Jack Sholder,"James Spader, Peter Facinelli, Robin Tunney, 
 b1176,Unbreakable,2000,Ross Whitaker,"Bruce Willis, Samuel L. Jackson, Robin Wright, Spencer Treat Clark","Drama, Mystery & Suspense, Science Fiction & Fantasy",107
 b1182,Waking the Dead,2000,Keith Gordon,"Billy Crudup, Jennifer Connelly, Molly Parker, Janet McTeer","Drama, Romance, Mystery & Suspense",106
 b1202,Fidelio Alice's Journey,2015,Lucie Borleteau,"Ariane Labed, Anders Danielsen Lie, Melvil Poupaud","Drama, Romance",97
+b1213,The Anniversary Party,2001,Jennifer Jason Leigh,"Alan Cumming, Jennifer Jason Leigh, Gwyneth Paltrow, Kevin Kline","Drama, Comedy",115
 b1225,Bone Tomahawk,2015,S. Craig Zahler,"Kurt Russell, Lili Simmons, Matthew Fox, Richard Jenkins","Western, Action & Adventure, Horror",133
 b1237,The Deep End,2001,Scott McGehee,"Tilda Swinton, Goran Visnjic, Jonathan Tucker, Peter Donat","Mystery & Suspense, Drama",99
 b1239,Antboy: Revenge of the Red Fury,2015,Ask Hasselbalch,"Oscar Dietz, Amalie Kruse Jensen, Samuel Ting Graf, Cecilie Alstrup Tarp","Action & Adventure, Kids & Family, Comedy",87
-b1248,Escape from Hell,,Danny R. Carrales,"Bob Lauro, Dan Kruse, Daniel Kruse, Don Brooks","Drama, Horror, Faith & Spirituality",78
 b1249,Steak (R)evolution,2015,Franck Ribire,,"Documentary, Action & Adventure, Kids & Family",125
 b1253,The Fluffer,2003,Adina Porter,"Scott Gurney, Roxanne Day, Michael Cunio, Taylor Negron","Drama, Gay & Lesbian, Comedy",94
 b1262,Good Neighbors,2011,Jacob Tierney,"Scott Speedman, Emily Hampshire, Jay Baruchel, Anne-Marie Cadieux","Mystery & Suspense, Drama",98
@@ -599,7 +619,6 @@ b1274,How to Make a Monster,2001,George Huang,"Clea DuVall, Steven Culp, Tyler M
 b1291,Kingdom Come,2001,Doug McHenry,"LL Cool J, Jada Pinkett Smith, Vivica A. Fox, Whoopi Goldberg","Drama, Comedy",95
 b1295,The Importance Of Being Earnest Live,2015,Adrian Noble,"David Suchet, Emily Barber, Michael Benz, Philip Cumbus",Special Interest,150
 b1298,Laughter on the 23rd Floor,,Richard Benjamin,"Nathan Lane, Mark Linn-Baker, Victor Garber, Saul Rubinek",Comedy,102
-b1302,The Lost Skeleton of Cadavra,2004,Larry Blamire,"Larry Blamire, Fay Masterson, Brian Howe, Susan McConnell","Drama, Science Fiction & Fantasy, Comedy",90
 b1308,Moulin Rouge,1952,John Huston,"Colette Marchand, Zsa Zsa Gabor, Suzanne Flon, Katherine Kath","Drama, Musical & Performing Arts, Classics",119
 b1314,My Big Fat Greek Wedding 2,2016,Kirk Jones,"Nia Vardalos, John Stamos, John Corbett, Louis Mandylor",Comedy,
 b1322,Osmosis Jones,2001,Bill Murray,"Bill Murray, Chris Rock, Laurence Fishburne, David Hyde Pierce",Comedy,95
@@ -616,14 +635,16 @@ b1401,Catwoman,2004,Jean-Christophe 'Pitof' Comar,"Halle Berry, Benjamin Bratt, 
 b1402,Born Into Brothels,2004,Zana Briski,"Avijit Halder, Shanti Das, Puja Mukerjee, Kochi","Documentary, Musical & Performing Arts, Special Interest",85
 b1410,The Chronicles of Riddick,2004,Alexa Davalos,"Vin Diesel, Colm Feore, Thandie Newton, Judi Dench","Action & Adventure, Horror, Science Fiction & Fantasy",120
 b1413,Closer To God,2015,Billy Senese,"Jeremy Childs, Shelean Newman, Shannon Hoppe, David Alford","Horror, Mystery & Suspense, Science Fiction & Fantasy",81
-b1428,Dead Birds,2004,Alex Turner (II),"Henry Thomas, Nicki Lynn Aycox, Isaiah Washington, Michael Shannon","Drama, Horror, Mystery & Suspense",91
 b1433,Drum,2005,Zola Maseko,"Taye Diggs, Gabriel Mann, Tumisho K. Masha, Jason Flemyng","Art House & International, Drama",100
 b1437,Eurotrip,2003,Alec Berg,"Scott Mechlowicz, Jacob Pitts, Michelle Trachtenber..., Travis Wester",Comedy,89
 b1438,Fade to Black,2004,Patrick Paulson,"Jay-Z, Jay Z, Mary J. Blige, Foxy Brown","Documentary, Drama, Horror, Musical & Performing Arts",109
 b1445,The Forgotten,2004,Joseph Ruben,"Julianne Moore, Dominic West, Gary Sinise, Alfre Woodard","Drama, Action & Adventure, Mystery & Suspense, Science Fiction & Fantasy",91
+b1448,Garden State,2004,Ian Holm,"Zach Braff, Natalie Portman, Peter Sarsgaard, Ian Holm","Drama, Romance, Comedy",102
 b1451,Godzilla: Final Wars,2004,Ryuhei Kitamura,"Masahiro Matsuoka, Rei Kikukawa, Kazuki Kitamura, Don Frye","Action & Adventure, Horror, Art House & International, Mystery & Suspense, Science Fiction & Fantasy",125
+b1452,The Grudge,2004,Sam Raimi,"Sarah Michelle Gella..., Jason Behr, William Mapother, Clea DuVall","Drama, Horror, Mystery & Suspense",91
 b1455,In Jackson Heights,2015,Frederick Wiseman,,Documentary,190
 b1457,Her Summer Vacation,,Victor Di Mello,,Drama,90
+b1460,A Home at the End of the World,2004,Asia Vieira,"Colin Farrell, Dallas Roberts, Robin Wright, Sissy Spacek","Drama, Romance",97
 b1461,Home on the Range,2004,John Sanford (II),"Jennifer Tilly, Roseanne Barr, Judi Dench, Cuba Gooding Jr.","Animation, Kids & Family, Musical & Performing Arts",76
 b1463,The Hunting of the President,2004,Bill Clinton,"Sidney Blumenthal, Andrew Cooper, Morgan Freeman, Larry Case","Documentary, Special Interest",89
 b1465,I Robot,2004,Alex Proyas,"Will Smith, Alan Tudyk, Bruce Greenwood, Shia LaBeouf","Action & Adventure, Mystery & Suspense, Science Fiction & Fantasy",115
@@ -631,7 +652,7 @@ b1469,Jailbait,2004,Jared Cohn,"Stephen Adly Guirgis, Michael Pitt, Laila Robins
 b1480,The Land Has Eyes,,Vilsoni Hereniko,"Sapeta Taito, Maniue Vilsoni, James Davenport, Voi Fesaitu","Art House & International, Drama",88
 b1481,The Last Shot,2004,Jeff Nathanson,"Matthew Broderick, Alec Baldwin, Toni Collette, Tony Shalhoub","Drama, Mystery & Suspense, Comedy",93
 b1498,Miracles from Heaven,2016,Patricia Riggen,"Jennifer Garner, Queen Latifah, Brighton Sharbino, John Carroll Lynch",Drama,
-b1519,The Polar Express,2013,Robert Zemeckis,"Daryl Sabara, Tom Hanks, Leslie Zemeckis, Michael Jeter","Drama, Animation, Kids & Family",100
+b1500,Mondovino,2005,Jonathan Nossiter,"Michael Broadbent, Hubert de Montille, Aime Guibert, Jonathan Nossiter","Documentary, Special Interest",131
 b1520,The Prince and Me 2,2005,Catherine Cyran,"Luke Mably, Kam Heskin, Clemency Burton-Hill, Maryam d'Abo","Comedy, Romance",96
 b1534,Shark Tale,2004,Angelina Jolie,"Will Smith, Robert De Niro, Angelina Jolie, Jack Black","Action & Adventure, Animation, Kids & Family, Comedy",90
 b1546,The Spongebob Squarepants Movie,2004,Sherm Cohen,"Tom Kenny, Rodger Bumpass, Bill Fagerbakke, Clancy Brown","Animation, Kids & Family, Comedy, Special Interest",90
@@ -645,7 +666,9 @@ b1624,Derailed,2005,Addison Timlin,"Clive Owen, Jennifer Aniston, Vincent Cassel
 b1629,Doomsdays,2015,Eddie Mullins,"Leo Fitzpatrick, Justin Rice, Brian Charles Johnso..., Laura Campbell","Drama, Comedy",91
 b1630,Dreamer,,Jesse Salmeron,"Brit Sheridan, Cory Knauf, Isabella Hofmann, Jeremy Ray Valdez",Drama,90
 b1640,Favela Rising,2005,Jeff Zimbalist,"Anderson Sa, Jose Junior, Marcio Nunes, Andre Luis Azevedo","Documentary, Musical & Performing Arts, Special Interest",80
+b1646,Fun With Dick and Jane,2005,Barry Sonnenfeld,"Jim Carrey, Ta Leoni, Alec Baldwin, Richard Jenkins",Comedy,90
 b1648,Getting Played,2005,Bill Bellamy,"Bill Bellamy, Stacey Dash, Carmen Electra, Vivica A. Fox","Drama, Comedy",85
+b1655,Guess Who,2005,Ashton Kutcher,"Bernie Mac, Ashton Kutcher, Zoe Saldana, Judith Scott",Comedy,105
 b1656,Happy Endings,2005,Don Roos,"Lisa Kudrow, Steve Coogan, Jesse Bradford, Bobby Cannavale","Drama, Art House & International, Comedy",128
 b1663,The Honeymooners,2005,John Schultz,"Cedric the Entertain..., Mike Epps, Gabrielle Union, Regina Hall","Drama, Television, Comedy",89
 b1664,Hoodwinked,2005,Anne Hathaway,"Glenn Close, Anne Hathaway, James Belushi, Patrick Warburton","Animation, Kids & Family, Comedy",80
@@ -654,35 +677,40 @@ b1681,Junebug,2005,Phil Morrison,"Embeth Davidtz, Amy Adams, Alessandro Nivola, 
 b1685,Kids in America,2005,Josh Stolberg,"Gregory Smith, Stephanie Sherrin, Chris Morris, Caitlin Wachs","Documentary, Comedy",89
 b1688,Kiss Kiss Bang Bang,2000,Ray Brady,"Michael Chomiak, Nicole Streak, Teresa Churcher, Des Backhouse-Brady",Mystery & Suspense,80
 b1690,Lassie,2006,Charles Sturridge,"Peter O'Toole, Samantha Morton, John Lynch, Peter Dinklage","Action & Adventure, Kids & Family",100
+b1699,Madagascar,2005,Conrad Vernon,"Ben Stiller, Chris Rock, David Schwimmer, Jada Pinkett Smith","Animation, Kids & Family, Comedy",86
 b1716,Nine Lives,2005,Rodrigo Garca,"Glenn Close, Robin Wright, Holly Hunter, Sissy Spacek",Drama,115
 b1717,No Direction Home: Bob Dylan,2005,Martin Scorsese,"Bob Dylan, Paul Nelson, Dick Kangas, B.J. Rolfzen","Musical & Performing Arts, Documentary",209
+b1725,The Producers,2005,Mel Brooks,"Nathan Lane, Matthew Broderick, Uma Thurman, Will Ferrell","Musical & Performing Arts, Comedy",134
 b1726,Proof,2005,James D. Stern,"Gwyneth Paltrow, Anthony Hopkins, Jake Gyllenhaal, Hope Davis",Drama,99
 b1728,Rebound,2005,Steve Carr,"Martin Lawrence, Wendy Raquel Robinso..., Breckin Meyer, Horatio Sanz",Comedy,87
 b1734,Robots,2015,Mike Slee,Simon Pegg,Documentary,40
 b1747,I Smile Back,2015,Adam Salky,"Sarah Silverman, Josh Charles, Mia Barron, Skylar Gaertner",Drama,85
+b1749,A Sound of Thunder,2005,Ben Kingsley,"Edward Burns, Catherine McCormack, Ben Kingsley, Jemima Rooper","Drama, Action & Adventure, Horror, Science Fiction & Fantasy",102
 b1753,Street Fight,2005,Marshall Curry,"Al Sharpton, Jesse Jackson, Sharpe James, Pablo Fonseca","Documentary, Special Interest",86
 b1768,Venom,2005,Jim Gillespie,"Agnes Bruckner, Jonathan Jackson, Laura Ramsey, D.J. Cotrona","Mystery & Suspense, Horror",85
 b1769,The Waiting Room,2016,Igor Drljaca,"Christopher Jacot, Filip Geljo, Elijha Hammill, Goran Slavkovic",Drama,92
 b1772,The War Within,2005,Joseph Castelo,"Ayad Akhtar, Nandana Sen, Firdous Bamji, Sarita Choudhury","Art House & International, Drama",100
+b1773,The Weather Man,2005,Phedon Papamichael,"Nicolas Cage, Michael Caine, Hope Davis, Michael Rispoli","Drama, Comedy",101
 b1780,45 Years,2015,Andrew Haigh,"Charlotte Rampling, Tom Courtenay, Geraldine James, Dolly Wells",Drama,93
 b1794,American Blackout,2006,Ian Inaba,"Cynthia McKinney, Greg Palast, Christopher Edley Jr, John Conyers","Documentary, Drama, Special Interest",90
 b1798,Andy Warhol: A Documentary Film,2006,Ric Burns,"Philip Bosco, John Richardson, Callie Thorne, Andy Warhol","Documentary, Musical & Performing Arts, Special Interest",240
 b1806,As You Like It,2006,Kenneth Branagh,"Bryce Dallas Howard, Kevin Kline, Romola Garai, Adrian Lester","Drama, Romance, Comedy",135
 b1807,Asian Stories,,Kris Chin,"James Kyson, Kirt Kishita, Kathy Uyen, Kurt Kishita",Comedy,98
 b1808,Ask the Dust,2006,Darjeeling Bouton,"Colin Farrell, Salma Hayek, Donald Sutherland, Eileen Atkins","Documentary, Drama",40
+b1814,Bambi II,2006,Jim Ballantine,"Patrick Stewart, Alexander Gould, Brendon Baerg, Keith Ferguson","Animation, Kids & Family",72
 b1818,Life Is Beautiful (La Vita  bella),1997,Roberto Benigni,"Roberto Benigni, Nicoletta Braschi, Giorgio Cantarini, Giustino Durano","Drama, Art House & International, Comedy",122
 b1827,Black Gold,1936,Russell Hopton,"Frankie Darro, Roy Mason, LeRoy Mason, Barbara Worth","Action & Adventure, Mystery & Suspense, Classics",82
 b1831,Bloody Mary,,Richard Valentine,"Danni Hamilton, Matt Borlenghi, Amber Borycki, Jaason Simmons","Mystery & Suspense, Horror",93
 b1833,Bordertown,2008,Gregory Nava,"Jennifer Lopez, Martin Sheen, Antonio Banderas, Kate del Castillo","Drama, Action & Adventure, Mystery & Suspense",111
 b1841,Caffeinated,2015,Hanh Nguyen,"Peter Giuliano, Geoff Watts, Doug Welsh, Sunalini Menon","Documentary, Action & Adventure",85
 b1856,Copying Beethoven (Klang der Stille),2006,Agnieszka Holland,"Ed Harris, Diane Kruger, Matthew Goode, Nicholas Jones","Drama, Romance, Musical & Performing Arts",103
-b1860,Crude Impact,,James Jandak Wood,"Tundi Agardy, Guy Caruso, Steve Donziger, Emeka Duruigbo","Documentary, Special Interest",98
 b1861,Curious George 3: Back to the Jungle,2015,Phil Weinstein,"Frank Welker, Angela Bassett, Jeff Bennett, John Goodman","Animation, Kids & Family",81
 b1864,Dance Party USA,2006,Aaron Katz,"Cole Pennsinger, Anna Kavan, Cole Pensinger, Ryan White",Drama,66
 b1874,Vulcano figlio di Giove (Vulcan Son of Jupiter) (Vulcan Son of Giove),,Emimmo Salvi,"Bella Cortez, Rod Flash, Gordon Mitchell, Iloosh Khoshabe","Action & Adventure, Art House & International, Science Fiction & Fantasy",76
 b1885,Driftwood,2006,Tim Sullivan,"Ricky Ullman, Connor Ross, Raviv Ullman, Diamond Dallas Page","Mystery & Suspense, Horror",89
 b1886,East Side Story,2006,Carlos Portugal,"Steve Callahan, David Bern, Ren Alvarado, Gladise Jiminez","Drama, Romance, Gay & Lesbian, Comedy",88
 b1888,Encounter Point,2007,Julia Bacha,"Ali Abu Awwad, Robi Damelin, Shlomo Zagman, Sami Al Jundi","Documentary, Musical & Performing Arts, Art House & International, Special Interest",88
+b1891,Eight Below,2006,Bruce Hendricks,"Paul Walker, Bruce Greenwood, Moon Bloodgood, Jason Biggs","Drama, Action & Adventure",120
 b1893,Evil Bong 420,2015,Charles Band,"Circus-Szalewski, Sonny Carl Davis, John Patrick Jordan",Comedy,53
 b1894,Expiration Date,2006,Rick Stevenson,"Robert A. Guthrie, Sascha Knopf, Dee Wallace Stone, Ned Romero",Comedy,94
 b1901,Fearless,1993,Peter Weir,"Jeff Bridges, Isabella Rossellini, Rosie Perez, Tom Hulce",Drama,122
@@ -695,7 +723,6 @@ b1961,Invincible,2006,Ericson Core,"Mark Wahlberg, Greg Kinnear, Elizabeth Banks
 b1962,Interkosmos,,Jim Finn,"Nandini Khaund, Jim Finn, Dean DeMatteis, Goran Milos","Drama, Art House & International, Science Fiction & Fantasy, Comedy",71
 b1971,Kalamazoo?,2006,David O'Malley,"Mayim Bialik, Josie Davis, Joanna Clare Scott, Claire Bloom",Comedy,93
 b1986,Little Man,2006,Dave Sheridan,"Marlon Wayans, Shawn Wayans, Kerry Washington, John Witherspoon",Comedy,90
-b1988,Live Freaky! Die Freaky!,,John Roecker,"Jane Wiedlin, Asia Argento, Davey Havok, John Doe","Animation, Musical & Performing Arts, Science Fiction & Fantasy, Comedy",80
 b1990,Local Color,2006,George Gallo,"Armin Mueller-Stahl, Ray Liotta, Ron Perlman, Samantha Mathis",Drama,99
 b1993,The Long Weekend,2006,Pat Holden,"Chris Klein, Brendan Fehr, Chandra West, Craig Fairbrass","Mystery & Suspense, Comedy",89
 b2003,Maxed Out,2006,James D. Scurlock,"Chris Barrett, Jimmy Carter, Bill Clinton, Robin Leach","Documentary, Special Interest",86
@@ -704,7 +731,6 @@ b2019,Night of the Living Dead,1968,George A. Romero,"Judith O'Dea, Russell Stre
 b2022,Northern Limit Line,2015,Kim Hak-soon,"Jin Goo, Kim Moo-yeol, Lee Chung-Ah, Lee Hyun Woo","Documentary, Drama",130
 b2024,Occupation 101: Voices of the Silences Majority,,Sufyan Omeish & Abdallah Omeish,"James Akins, Rabbi Arik Ascherman, Bishop Barltlett Jr.",Documentary,87
 b2033,Paper Dolls,2006,Tomer Heymann,Alex Claude,"Documentary, Drama, Special Interest",86
-b2036,Penelope,2006,Mark Palansky,"Christina Ricci, James McAvoy, Richard E. Grant, Catherine O'Hara","Drama, Romance, Science Fiction & Fantasy, Comedy",90
 b2048,The Rape of the Sabine Women,,Eve Sussman,"Popi Alkouli-Troiano..., Fergus Baumann, Kostas Beveratos, Nesbitt Blaisdell","Drama, Action & Adventure, Special Interest",82
 b2050,The Return,2006,Asif Kapadia,"Sarah Michelle Gella..., Sam Shepard, Darrian McClanahan, J.C. MacKenzie","Mystery & Suspense, Drama",85
 b2053,Romantic Schemer,2015,Valentine (XV),"Valentine (XV), Diane Sorrentino",Romance,85
@@ -725,9 +751,7 @@ b2125,The Wicker Man,2006,Neil LaBute,"Nicolas Cage, Ellen Burstyn, Kate Beahan,
 b2126,The Wild,2006,Dominic Scott Kay,"Kiefer Sutherland, James Belushi, Eddie Izzard, Janeane Garofalo","Action & Adventure, Animation, Kids & Family, Comedy",82
 b2127,The Woods,2006,Lucky McKee,"Agnes Bruckner, Patricia Clarkson, Bruce Campbell, Rachel Nichols","Mystery & Suspense, Horror",91
 b2130,Yellow Day,2016,Carl Lauten,"Akeem Smith, Andrew Seeley, Ashley Boettcher, Lindsey Shaw","Drama, Faith & Spirituality, Kids & Family, Science Fiction & Fantasy",88
-b2138,Adrift in Manhattan,2007,Alfredo De Villa,"Heather Graham, William Baldwin, Victor Rasuk, Dominic Chianese",Drama,93
 b2139,Adventures of Johnny Tao Rock Around the Dragon,2007,Kenn Scott,"Matthew Twining, Matt Twining, Chris Yen, Jason London",Action & Adventure,90
-b2141,After Sex,2007,Eric Amadio,"Emmanuelle Chirqui, Mila Kunis, Jane Seymour, Emmanuelle Chriqui","Drama, Art House & International, Comedy",78
 b2142,Alibi,1929,Roland West,"Chester Morris, Harry Stubbs, Mae Busch, Eleanore Griffith","Drama, Action & Adventure, Mystery & Suspense, Classics",90
 b2146,Alvin and the Chipmunks: The Road Chip,2015,Walt Becker,"Justin Long, Matthew Gray Gubler, Jesse McCartney, Kaley Cuoco-Sweeting","Animation, Kids & Family, Comedy",86
 b2157,Star Wars: Episode VII - The Force Awakens,2015,J.J. Abrams,"Harrison Ford, Mark Hamill, Carrie Fisher, Peter Mayhew","Action & Adventure, Science Fiction & Fantasy",
@@ -756,25 +780,26 @@ b2309,Only for You,1994,Donna Persico,"Don Alder, Ellis E. Williams, Kate Albrec
 b2310,Everyone Says I Love You,1996,Woody Allen,"Alan Alda, Woody Allen, Drew Barrymore, Goldie Hawn","Drama, Musical & Performing Arts, Comedy",101
 b2312,Padre Nuestro,2008,Christopher Zalla,"Jess Ochoa, Armando Hernadez, Jorge Adrin Espndo..., Paola Mendoza","Mystery & Suspense, Drama",110
 b2322,Pride and Prejudice and Zombies,2016,Burr Steers,"Lily James, Lena Headey, Jack Huston, Matt Smith (XI)","Horror, Romance, Comedy",
+b2324,Ratatouille,2007,Jan Pinkava,"Patton Oswalt, Brad Garrett, Ian Holm, Lou Romano","Animation, Kids & Family, Comedy",110
 b2335,Don't Think I've Forgotten: Cambodia's Lost Rock And Roll,2015,John Pirozzi,,Documentary,105
+b2339,Saw IV,2007,Marcus Dunstan,"Tobin Bell, Costas Mandylor, Scott Patterson, Betsy Russell","Mystery & Suspense, Horror",92
+b2352,Smiley Face,2007,Gregg Araki,"Anna Faris, Roscoe Lee Browne, Danny Masterson, Ben Falcone",Comedy,84
 b2356,Spiral,2007,Joel Moore,"Joel David Moore, Amber Tamblyn, Zachary Levi, Tricia Helfer","Mystery & Suspense, Drama",90
+b2357,Stardust,2007,Nicolas Provost,"Charlie Cox, Claire Danes, Michelle Pfeiffer, Robert De Niro","Drama, Action & Adventure, Science Fiction & Fantasy",127
 b2362,Stuck,2008,Stuart Gordon,"Stephen Rea, Mena Suvari, Russell Hornsby, Rukiya Bernard","Drama, Mystery & Suspense, Comedy",85
-b2364,Suffering Man's Charity (Ghost Writer),,Alan Cumming,"Alan Cumming, David Boreanaz, Anne Heche, Carrie Fisher","Horror, Comedy",92
 b2370,The Ten,2007,David Wain,"Paul Rudd, Gretchen Mol, Adam Brody, Famke Janssen",Comedy,99
 b2375,Underdogs,2015,Juan Jos Campanella,"Pablo Rago, Fabian Gianola, Miguel ngel Rodrgu..., David Masajnik","Action & Adventure, Animation, Romance, Art House & International",90
-b2379,War Dance,2007,Andrea Nix Fine,,"Documentary, Drama, Special Interest",105
 b2386,Why Did I Get Married Too,2010,Toyomichi Kurita,"Tyler Perry, Janet Jackson, Jill Scott, Sharon Leal","Drama, Comedy",120
 b2398,21 And Over,2013,Scott Moore,"Miles Teller, Skylar Astin, Justin Chon, Sarah Wright",Comedy,93
 b2404,Abandoned Mine,2013,Jeff Chamberlain,"Alexa Vega, Reiley McClendon, Saige Thompson, Charan Prabhakar",Action & Adventure,
 b2405,Armour of God (Long xiong hu di) (Operation Condor 2),1987,Jackie Chan,"Jackie Chan, Alan Tam, Rosamund Kwan, Lola Forner","Action & Adventure, Art House & International, Comedy",100
-b2408,Aftershock,2013,Nicols Lpez,"Lorenza Izzo, Eli Roth, Nicols Martnez, Natasha Yarovenko","Mystery & Suspense, Horror",90
 b2414,Apartment,2010,Jag Mundhra,"Neetu Chandra, Anupam Kher, Rohit Roy",Mystery & Suspense,51
 b2418,Artifact,,Bartholomew Cubbins,"Jared Leto, Shannon Leto, Tomo Milicevic, Chester Bennington","Documentary, Drama, Musical & Performing Arts, Special Interest",105
 b2427,Behind the Candelabra,2013,Steven Soderbergh,"Matt Damon, Michael Douglas, Rob Lowe, Dan Aykroyd","Drama, Television",118
 b2428,Beneath,2007,Dagen Merrill,"Nora Zehetner, Brenna O'Brien, Carly Pope, Don S. Davis","Mystery & Suspense, Horror",81
-b2467,Contest,,Ajay Giunta,"Kenton Duty, Daniel Flaherty, Katherine McNamara, Kyle Dean Massey","Documentary, Drama, Comedy",88
 b2468,Continental,,Malcolm Ingram,"Bette Midler, Charlotte Crossley, Jaye P. Morgan, Holly Woodlawn","Documentary, Special Interest",92
 b2471,The Counselor,2013,Cdric Anger,"Benot Magimel, Gilbert Melki, Assa Maga, Eric Caravaca",Mystery & Suspense,117
+b2488,Erased,2013,Philipp Stlzl,"Aaron Eckhart, Olga Kurylenko, Liana Liberato, Garrick Hagon","Mystery & Suspense, Action & Adventure",104
 b2507,Geography Club,2013,Gary Entin,"Cameron Deane Stewar..., Alex Newell, Scott Bakula, Allie Gonino",Comedy,83
 b2508,Getaway,2013,Yaron Levy,"Ethan Hawke, Selena Gomez, Jon Voight, Rebecca Budig",Action & Adventure,90
 b2532,Hit & Stay,,Joe Tropea,,"Documentary, Special Interest",99
@@ -782,6 +807,7 @@ b2538,13 Hours: The Secret Soldiers Of Benghazi,2016,Michael Bay,"John Krasinski
 b2544,I Spit on Your Grave 2,2013,Donald Farmer,"Jemma Dallender, Joe Absolom, Yavor Baharov, Aleksandar Aleksiev","Mystery & Suspense, Horror",106
 b2558,Jack the Giant Killer,1962,Nathan Juran,"Kerwin Mathews, Judi Meredith, Torin Thatcher, Walter Burke","Kids & Family, Classics, Science Fiction & Fantasy",95
 b2576,Last Call,2002,Henry Bromell,"Jeremy Irons, Neve Campbell, Sissy Spacek, Shannon Lawson","Drama, Television, Art House & International",96
+b2597,Manhattan Romance,2015,Brian Ghost,"Gaby Hoffman, Jessie Barr, Zach Grenier, Louis Cancelmi","Comedy, Romance",98
 b2604,Movie 43,2013,Bob Odenkirk,"Johnny Knoxville, Gerard Butler, Anna Faris, Seann William Scott",Comedy,97
 b2605,The Moving Creatures,2015,Caetano Gotardo,"Cida Moreira, Andra Marquee, Fernanda Vianna, Rmulo Braga","Drama, Musical & Performing Arts, Art House & International",97
 b2613,Oldboy,2005,Park Chan-wook,"Min-sik Choi, Gang Hye-jeong, Yoo Ji-tae, Choe Min-sik","Mystery & Suspense, Drama",118
@@ -795,6 +821,7 @@ b2663,Shadow People,,Keith Parker,"Suzanna Hartzell-Bai..., Justin Klemann, Mich
 b2683,Straight A's,,James Cox (V),"Ryan Phillippe, Anna Paquin, Luke Wilson, Christa Campbell","Drama, Comedy",88
 b2686,Submit the Documentary: The Virtual Reality of Cyberbullying,,Les Ottolenghi,,Documentary,56
 b2706,Quiet Riot: Well Now You're Here There's No Way Back,2015,Regina Russell,,"Documentary, Special Interest",105
+b2714,World War Z,2013,Juan Antonio Bayona,"Brad Pitt, Mireille Enos, James Badge Dale, Daniella Kertesz","Action & Adventure, Horror, Science Fiction & Fantasy",116
 b2718,You Are Here,2012,Daniel Cockburn,"Tracy Wright, R.D. Reid, Anand Rajaram, Nadia Litz","Drama, Science Fiction & Fantasy",78
 b2720,Zombie Hunter,,Kurt Knight,"Danny Trejo, Clare Niederpruem, Claire Neiderpruem, Martin Copping","Action & Adventure, Horror, Mystery & Suspense",93
 b2721,10 Things I Hate About You,1999,Gil Junger,"Larisa Oleynik, Julia Stiles, Heath Ledger, Andrew Keegan",Comedy,97
@@ -884,7 +911,6 @@ b2816,Joe the King,1999,Frank Whaley,"Noah Fleiss, Val Kilmer, Karen Young, Etha
 b2817,Just a Little Harmless Sex,1999,Habib Azar,"Alison Eastwood, Robert Mailhouse, William Ragsdale, Jonathan Silverman","Comedy, Romance",98
 b2818,Just the Ticket,1999,Richard Wenk,"Andy Garcia, Andie MacDowell, Richard Bradford, Laura Harris","Comedy, Romance",120
 b2819,K-911,1999,Charles T. Kanganis,"James Belushi, Christine Tucci, Wade Williams, James Handy","Action & Adventure, Comedy",91
-b2820,The King and I,1956,Walter Lang,"Yul Brynner, Deborah Kerr, Rita Moreno, Terry Saunders","Romance, Musical & Performing Arts, Classics",133
 b2821,Kiss the Sky,1999,Roger Young,"Gary Cole, Patricia Charbonneau, William L. Petersen, Terence Stamp",Drama,105
 b2822,Kiss Toledo Goodbye,2000,Christine Taylor,"Christopher Walken, Michael Rapaport, Christine Taylor, Nancy Allen","Drama, Comedy",100
 b2823,Lake Placid,1999,Steve Miner,"Bill Pullman, Bridget Fonda, Oliver Platt, Brendan Gleeson","Action & Adventure, Horror, Mystery & Suspense, Comedy",92
@@ -1016,6 +1042,7 @@ b2978,The Gingerbread Man,1997,Robert Altman,"Kenneth Branagh, Embeth Davidtz, R
 b2979,Gods and Monsters,1998,Bill Condon,"Ian McKellen, Brendan Fraser, Lynn Redgrave, Lolita Davidovich",Drama,120
 b2980,The Godson,1998,Bob Hoge,"Dom DeLuise, Kevin McDonald, Rodney Dangerfield, Joey Buttafuoco",Comedy,105
 b2982,Goodbye Lover,1998,Dermot Mulroney,"Patricia Arquette, Dermot Mulroney, Ellen DeGeneres, Mary-Louise Parker","Drama, Mystery & Suspense, Comedy",115
+b2983,Great Expectations,1998,Alfonso Cuarn,"Ethan Hawke, Gwyneth Paltrow, Anne Bancroft, Robert De Niro","Drama, Kids & Family, Romance",112
 b2984,Half Baked,1998,Tamra Davis,"Dave Chappelle, Guillermo Daz, Jim Breuer, Harland Williams",Comedy,82
 b2985,Eating Happiness,2015,Genlin,"Luciano Palermi, Cristina Parovel, Sandro Carotti",Documentary,90
 b2987,He Got Game,1998,Spike Lee,"Denzel Washington, Ray Allen, Milla Jovovich, Rosario Dawson",Drama,138
@@ -1401,7 +1428,6 @@ c344,Jilla,2014,R.T. Neason,"Mohanlal, Vijay, Kajal Agarwal","Action, Drama, Thr
 c346,I Am Soldier,2014,Ronnie Thompson,"Tom Hughes, Noel Clarke, Alex Reid","Action, Thriller, War",84
 c347,P-51 Dragon Fighter,2014,Mark Atkins,"Scott Martin, Stephanie Beran, Ross Brooks","Action, Fantasy, Sci-Fi",85
 c348,Tell,2014,J.M.R. Luna,"Milo Ventimiglia, Katee Sackhoff, Jason Lee","Action, Crime, Drama",89
-c349,He Who Dares,2014,Paul Tanter,"Tom Benedict Knight, Simon Phillips, Christina Bellavia","Action, Crime, Thriller",82
 c350,Hot Bath an' a Stiff Drink,2014,Matthew Gratzner,"Jeffery Patterson, Timothy V. Murphy, Mirelly Taylor","Action, Family, Western",93
 c351,Main Tera Hero,2014,David Dhawan,"Nargis Fakhri, Salman Khan, Varun Dhawan","Action, Comedy, Romance",128
 c352,No Weapon Shall Prosper,2014,Michael Lemelle,"April Marcell, Aries Marvin Uzzle, Ryan Harrington","Action, Drama, Romance",155
@@ -1530,7 +1556,6 @@ c483,Trapped Abroad,2014,Janchivdorj Sengedorj,"Amarsaikhan Baljinnyam, Erdenebi
 c484,The Lost Legion,2014,David Kocar,"Tom McKay, Michelle Lukes, Brian Caspe","Action, Adventure, History",107
 c485,The Target,2014,Chang,"Seung-ryong Ryu, Joon-sang Yoo, Jin-wook Lee","Action, Thriller",98
 c486,Appleseed Alpha,2014,Shinji Aramaki,"Yuka Komatsu, Jun'ichi Suwabe, Aoi Yuki","Animation, Action, Sci-Fi",93
-c487,He Who Dares: Downing Street Siege,2014,Paul Tanter,"Tom Benedict Knight, Simon Phillips, Russell Kilmister",Action,87
 c488,The Photographer,2014,Waldemar Krzystek,"Vadim Afanassiev, Georgi Angielow, Tatyana Arntgolts","Action, Thriller",110
 c489,Attack on Titan Crimson Bow and Arrow,2014,Tetsuro Araki,"Yuki Kaji, Yui Ishikawa, Marina Inoue","Animation, Action, Fantasy",119
 c490,High Kick Angels,2014,Kazuhiro Yokoyama,"Kaede Aono, Risako Ito, Mayu Kawamoto",Action,90
@@ -1820,7 +1845,6 @@ c846,Young Detective Dee: Rise of the Sea Dragon,2013,Hark Tsui,"Carina Lau, Chi
 c847,Last Son of Krypton,2013,Shaheer Naqvi,"Mason Jendel, Christian Reyes, Ambar Soto Rivera","Action, Drama, Sci-Fi",52
 c848,Joker,2013,Talgad Zhanibekov,"Denis Lituyev, Erbulat Toguzakov, Aisulu Azimbayeva","Action, Thriller",94
 c849,Unbeatable,2013,Dante Lam,"Nick Cheung, Eddie Peng, Singh Hartihan Bitto","Action, Drama",122
-c850,Shaolin Warrior,2013,Dou Xiao,"Ye Jianwei, Chen Ke, Liu Ruicheng",Action,92
 c851,009-1: The End of the Beginning,2013,Koichi Sakamoto,"Mayuko Iwasa, Minehiro Kinomoto, Nao Nagasawa","Action, Crime, Drama",82
 c852,Mystic Blade,2013,David Ismalone,"Jawed El Berni, Don Ferguson, David Ismalone","Action, Drama, Fantasy",80
 c853,The Spy: Undercover Operation,2013,Lee Seung-Joon-I,"Kyung-gu Sol, So-ri Moon, Daniel Henney","Action, Adventure, Comedy",121
@@ -1858,7 +1882,6 @@ c886,Song 'e Napule,2013,Antonio Manetti,"Alessandro Roja, Giampaolo Morelli, Se
 c887,Sorry I Love You,2013,Larry Yang,"Vivian Dawson, Yu Lin, Swan Wen","Action, Drama, Romance",107
 c888,The Constable,2013,Dennis Law,"Simon Yam, Suet Lam, Sam Lee","Action, Drama",96
 c889,7 Assassins,2013,Eric Tsang,,"Action, Adventure",103
-c890,Warrior Assassin,2013,Dou Xiao,,Action,94
 c892,Heatstroke,2013,Evelyn Purcell,"Stephen Dorff, Warrick Grier, Calvin Hayward","Action, Drama, Thriller",92
 c893,The Five,2013,Yeon-Sik Jung,,"Action, Drama, Mystery",123
 c894,D'Curse,2013,Alex Maisonette,"Michael Wright, Alex Maisonette, Felipe Luciano",Action,95
@@ -1922,7 +1945,6 @@ c996,A.C.A.B.,2012,Stefano Sollima,"Pierfrancesco Favino, Filippo Nigro, Marco G
 c997,Frost Bite,2012,Joe Davison,"Cheyenne Buchanan, Cassandre Leigh, Joe Davison","Action, Horror",93
 c998,Hardflip,2012,Johnny Remo,"Randy Wayne, John Schneider, Rosanna Arquette","Action, Drama",112
 c999,The Last Supper,2012,Chuan Lu,"Ye Liu, Daniel Wu, Chen Chang","Action, History",120
-c1000,Hidden in the Woods,2012,Patricio Valladares,"Siboney Lo, Carolina Retamal, Josefa Mora","Action, Drama, Horror",97
 c1002,Electric Man,2012,David Barras,"Toby Manley, Mark McKirdy, Fish","Action, Comedy, Drama",100
 c1004,Kill 'em All,2012,Raimund Huber,"Johnny Messner, Chia-Hui Liu, Ammara Siripong","Action, Crime, Thriller",86
 c1005,The 25th Reich,2012,Stephen Amis,"Jim Knobeloch, Serge De Nardo, Angelo Salamanca","Action, Adventure, Fantasy",85
@@ -2306,7 +2328,6 @@ c1485,Wild Target,2010,Jonathan Lynn,"Bill Nighy, Emily Blunt, Rupert Grint","Ac
 c1486,Special Ops,2010,Tom Shell,"A.J. Draven, Steven Bauer, Finola Hughes","Action, Thriller",98
 c1487,D4,2010,Darrin Dickerson,"Vicki Askew, Ella Bell, Eric Berner","Action, Horror, Sci-Fi",98
 c1490,The Lazarus Papers,2010,Jeremiah Hundley,"Danny Trejo, Gary Daniels, Krystal Vee","Action, Drama, Sci-Fi",90
-c1491,The Killing Machine,2010,Dolph Lundgren,"Dolph Lundgren, Stefanie von Pfetten, Samantha Ferris","Action, Drama, Thriller",88
 c1492,Operation: Endgame,2010,Fouad Mikati,"Joe Anderson, Rob Corddry, Ellen Barkin","Action, Comedy",87
 c1493,Kandagar,2010,Andrey Kavun,"Aleksandr Baluev, Yury Belyayev, Bogdan Benyuk","Action, Drama, War",103
 c1495,An Immortal Tale,2010,Rick Ganz,"Justin Tully, Andrew Roth, Shannon Arney","Action, Adventure, Sci-Fi",97
@@ -2516,7 +2537,6 @@ c1739,Red Sands,2009,Alex Turner,"Shane West, Leonard Roberts, Aldis Hodge","Act
 c1740,La Linea - The Line,2009,James Cotten,"Ray Liotta, Andy Garcia, Esai Morales","Action, Crime, Drama",95
 c1741,Thick as Thieves,2009,Mimi Leder,"Rade Serbedzija, Morgan Freeman, Robert Forster","Action, Crime, Thriller",104
 c1743,Breathe,2009,Nicholas Winter,,"Action, Drama",86
-c1746,The Way of War,2009,John Carter,"Cuba Gooding Jr., Clarence Williams III, John Terry","Action, Thriller",90
 c1747,H2O Extreme,2009,William Scharpf,"Chris Carmack, Nikki Griffin, Rider Strong","Action, Sport",95
 c1749,Death Warrior,2009,Bill Corcoran,"Hector Echavarria, Tanya Clarke, Nick Mancuso","Action, Drama, Horror",90
 c1750,Kambakkht Ishq,2009,Sabir Khan,"Sylvester Stallone, Denise Richards, Brandon Routh","Action, Comedy, Romance",142
@@ -2741,7 +2761,6 @@ c2029,Triad Wars,2008,Dennis Law,"Sammo Kam-Bo Hung, Simon Yam, Niu Tien","Actio
 c2030,Connected,2008,Benny Chan,"Louis Koo, Barbie Hsu, Nick Cheung",Action,110
 c2031,Break,2008,Marc Clebanoff,"Frank Krueger, Sarah Thompson, Chad Everett","Action, Crime, Drama",83
 c2033,Ghajini,2008,A.R. Murugadoss,"Aamir Khan, Asin, Jiah Khan","Action, Drama, Mystery",183
-c2034,Bronson,2008,Nicolas Winding Refn,"Tom Hardy, Kelly Adams, Luing Andrews","Action, Biography, Crime",92
 c2035,Slam,2008,Jonathan Hua Lang Lim,"Andrew Chou, Xiaofan Lin, Zhao Wen Qi","Action, Drama, Family",93
 c2036,Resident Evil: Degeneration,2008,Makoto Kamiya,"Paul Mercier, Alyson Court, Laura Bailey","Animation, Action, Horror",98
 c2037,Go Fast,2008,Olivier Van Hoofstadt,"Roschdy Zem, Olivier Gourmet, Jocelyn Lagarrigue","Action, Crime, Drama",110
@@ -2925,7 +2944,6 @@ c2267,Cemetery Gates,2006,Roy Knyrim,"Reggie Bannister, Peter Stickles, Aime Wol
 c2268,Max Havoc: Ring of Fire,2006,Terry Ingram,"Mickey Hardt, Christina Cox, Dean Cain",Action,89
 c2269,Perfect Creature,2006,Glenn Standring,"Dougray Scott, Saffron Burrows, Leo Gregory","Action, Drama, Fantasy",90
 c2271,The Absence of Light,2006,Patrick Desmond,"Richard Conant, Eric Thornsberry, Tom Savini","Action, Drama, Horror",77
-c2274,Day Watch,2006,Timur Bekmambetov,"Konstantin Khabenskiy, Mariya Poroshina, Vladimir Menshov","Action, Fantasy, Thriller",132
 c2276,Seven Mummies,2006,Nick Quested,"Matt Schulze, Cerina Vincent, Billy Wirth","Action, Adventure, Drama",90
 c2278,Wolfhound,2006,Nikolay Lebedev,"Aleksandr Bukharov, Oksana Akinshina, Igor Petrenko","Action, Adventure, Fantasy",136
 c2279,Dishdogz,2006,Mikey Hilb,"Marshall Allman, Haylie Duff, Luke Perry","Action, Drama, Sport",90
@@ -6787,7 +6805,6 @@ c6534,Hell and High Water,1954,Samuel Fuller,"Richard Widmark, Bella Darvi, Vict
 c6535,Hell's Half Acre,1954,John H. Auer,"Wendell Corey, Evelyn Keyes, Elsa Lanchester","Action, Film-Noir, Mystery",90
 c6536,Hell's Outpost,1954,Joseph Kane,"Rod Cameron, Joan Leslie, John Russell","Action, Crime",89
 c6537,The High and the Mighty,1954,William A. Wellman,"John Wayne, Claire Trevor, Laraine Day","Action, Adventure, Drama",147
-c6538,Johnny Dark,1954,George Sherman,"Tony Curtis, Piper Laurie, Don Taylor","Action, Comedy, Drama",85
 c6539,Long John Silver,1954,Byron Haskin,"Robert Newton, Connie Gilchrist, Lloyd Berrell","Action, Adventure, Drama",106
 c6540,The Outcast,1954,William Witney,"John Derek, Joan Evans, Jim Davis","Action, Drama, Romance",90
 c6541,Prince Valiant,1954,Henry Hathaway,"James Mason, Janet Leigh, Robert Wagner","Action, Adventure, Drama",100
@@ -6819,7 +6836,6 @@ c6566,Plunder of the Sun,1953,John Farrow,"Glenn Ford, Diana Lynn, Patricia Medi
 c6567,Sea Devils,1953,Raoul Walsh,"Yvonne De Carlo, Rock Hudson, Maxwell Reed","Adventure, Drama, Action",91
 c6568,South Sea Woman,1953,Arthur Lubin,"Burt Lancaster, Virginia Mayo, Chuck Connors","Action, Adventure, Comedy",99
 c6569,Tarzan and the She-Devil,1953,Kurt Neumann,"Lex Barker, Joyce Mackenzie, Raymond Burr","Action, Adventure",75
-c6570,Beat the Devil,1953,John Huston,"Humphrey Bogart, Jennifer Jones, Gina Lollobrigida","Action, Adventure, Comedy",89
 c6571,The War of the Worlds,1953,Byron Haskin,"Gene Barry, Ann Robinson, Les Tremayne","Action, Sci-Fi",85
 c6572,Woman They Almost Lynched,1953,Allan Dwan,"John Lund, Brian Donlevy, Audrey Totter","Action, Drama, Music",90
 c6573,Lone Star,1952,Vincent Sherman,"Clark Gable, Ava Gardner, Broderick Crawford","Action, Adventure, History",94
@@ -6955,10 +6971,12 @@ c6710,Dick Tracy vs. Cueball,1946,Gordon Douglas,"Morgan Conway, Anne Jeffreys, 
 c6711,It Shouldn't Happen to a Dog,1946,Herbert I. Leeds,"Carole Landis, Allyn Joslyn, Margo Woode","Action, Adventure, Comedy",70
 c6712,Lost City of the Jungle,1946,Lewis D. Collins,"Russell Hayden, Jane Adams, Lionel Atwill","Action, Adventure",265
 c6713,Swamp Fire,1946,William H. Pine,"Johnny Weissmuller, Virginia Grey, Buster Crabbe","Action, Adventure, Drama",69
+c6714,Tarzan and the Leopard Woman,1946,Kurt Neumann,"Johnny Weissmuller, Brenda Joyce, Johnny Sheffield","Action, Adventure, Romance",72
 c6716,Valley of the Zombies,1946,Philip Ford,"Robert Livingston, Lorna Gray, Ian Keith","Action, Drama, Horror",56
 c6717,Dick Tracy,1945,William Berke,"Morgan Conway, Anne Jeffreys, Mike Mazurki","Action, Crime, Film-Noir",61
 c6718,Rockin' in the Rockies,1945,Vernon Keays,"The Three Stooges, Moe Howard, Larry Fine","Action, Comedy, Music",63
 c6719,Sudan,1945,John Rawlins,"Maria Montez, Jon Hall, Turhan Bey","Action, Adventure, Romance",76
+c6720,Tarzan and the Amazons,1945,Kurt Neumann,"Johnny Weissmuller, Brenda Joyce, Johnny Sheffield","Action, Adventure, Romance",76
 c6721,Between Two Worlds,1944,Edward A. Blatt,"John Garfield, Paul Henreid, Sydney Greenstreet","Mystery, Drama, Fantasy",112
 c6722,The Big Noise,1944,Malcolm St. Clair,"Stan Laurel, Oliver Hardy, Doris Merrick","Action, Adventure, Comedy",74
 c6723,The Contender,1944,Sam Newfield,"Buster Crabbe, Arline Judge, Julie Gibson","Action, Crime, Drama",63
@@ -7159,7 +7177,6 @@ d27,the great dictator,1940,Charles Chaplin,"Chaplin,Jack Oakie,Paulette Goddard
 d28,the darjeeling limited,2007,Wes Anderson,"Owen Wilson,Adrien Brody,Jason Schwartzman,Amara Karan,Camilla Rutherford,Wally Wolodarsky,Waris Ahluwalia,Barbet Schroeder,Irfan Khan,Bill Murray,Anjelica Huston,Natalie Portman","Adventure, Comedy, Drama",91
 d35,el topo,1970,Alejandro Jodorowsky,"Alejandro Jodorowsky,Brontis Jodorowsky,Jose Legarreta,Alfonso Arau","Action, Adventure, Drama, Foreign, Western",125
 d36,elizabeth: the golden age,2007,Shekhar Kapur,"Cate Blanchett,Geoffrey Rush,Clive Owen,Samantha Morton,Rhys Ifans,Abbie Cornish,Jordi Molla","Drama, Foreign, History, Romance",114
-d38,shut up and sing,2007,"Barbara Kopple,Cecilia Peck","Natalie Maines,Emily Robison,Martie McGuire,Simon Renshaw",Documentary,93
 d39,away from her,2006,Sarah Polley,"Julie Christie,Gordon Pinsent,Olympia Dukakis,Michael Murphy,Kristen Thomson,Wendy Crewson,Alberta Watso","Drama, Indie, Romance",110
 d40,canvas,2007,Joseph Greco,"Joe Pantoliano,Marcia Gay Harden,Devon Gearhart,Sophia Bairley","Drama, Indie",101
 d44,broken,2007,Alan White,"Heather Graham,Jeremy Sisto,Jake Busey,Tess Harper,Linda Hamilton,Chad Cunningham","Drama, Foreign, Horror, Thriller",97
@@ -7190,6 +7207,7 @@ d114,my best friend,2007,Patrice Leconte,"Daniel Auteuil,Dany Boon,Julie Gayet,J
 d115,vitus,2007,Fredi M. Murer,"Julika Jenkins,Urs Jucker,Bruno Ganz,Eleni Haupt","Drama, Foreign, Indie, Music",100
 d118,killer of sheep,1977,Charles Burnett,"Henry Gayle Sanders,Kaycee Moore","Drama, Indie",83
 d120,el cantante,2007,Leon Ichaso,"Marc Anthony,Jennifer Lopez,John Ortiz,Manny Perez,Federico Castelluccio,Nelson Vasquez","Drama, Music",116
+d121,arctic tale,2007,Sarah Robertson,,"Documentary, Family",86
 d122,the real dirt on farmer john,2007,,,Documentary,82
 d123,becoming jane,2007,Julian Jarrold,"Anne Hathaway,James McAvoy,Julie Walters,James Cromwell,Maggie Smith,Joe Anderson","Drama, Romance",120
 d125,the wind that shakes the barley,2007,Ken Loach,"Cillian Murphy,Padraic Delaney,Liam Cunningham,Orla Fitzgerald,Gerard Kearney,William Ruane","Action, Drama, Foreign, History",124
@@ -7761,7 +7779,6 @@ d893,zero motivation,2014,Talya Lavie,"Dana Ivgy,Nelly Tagar,Shani Klein,Heli Tw
 d894,the kingdom of dreams and madness,2014,Mami Sunada,,"Animation, Documentary",118
 d895,the babadook,2014,Jennifer Kent,"Essie Davis,Noah Wiseman,Daniel Henshall,Hayley McElhinney,Cathy Adamek,Craig Behenna","Drama, Horror, Thriller",93
 d896,horns,2014,Alexandre Aja,"Daniel Radcliffe,Juno Temple,Heather Graham,Sabrina Carpenter,Kelli Garner,David Morse,James Remar,Joe Anderson,Max Minghella,Kathleen Quinlan","Drama, Fantasy, Horror, Thriller",120
-d897,revenge of the mekons,2014,Joe Angio,,"Documentary, Music",95
 d898,concerning violence,2014,Göran Olsson,,Documentary,78
 d899,nightcrawler,2014,Dan Gilroy,"Jake Gyllenhaal,Rene Russo,Riz Ahmed,Bill Paxton","Crime, Drama, Thriller",117
 d900,national gallery,2014,Frederick Wiseman,,Documentary,180
@@ -7783,7 +7800,6 @@ d916,miss meadows,2014,Karen Leigh Hopkins,"Katie Holmes,James Badge Dale,Callan
 d918,starry eyes,2014,"Kevin Kolsch,Dennis Widmyer","Alex Essoe,Amanda Fuller,Noah Segan,Fabianne Therese,Pat Healy",Horror,98
 d919,bad turn worse,2014,"Simon Hawkins,Zeke Hawkins","Mark Pellegrino,Jon Gries,Jeremy Allen White,William Devane,Logan Huffman,Mackenzie Davis","Crime, Drama, Thriller",92
 d920,my old lady,2014,Israel Horovitz,"Maggie Smith,Kevin Kline,Kristin Scott Thomas","Comedy, Drama",104
-d921,i am eleven,2014,,,Documentary,93
 d922,god help the girl,2014,Stuart Murdoch,"Emily Browning,Olly Alexander,Hannah Murray","Comedy, Drama",111
 d923,archaeology of a woman,2014,,,Drama,94
 d924,bird people,2014,Pascale Ferran,"Josh Charles,Radha Mitchell,Mathieu Amalric,Clark Johnson","Drama, Fantasy, Romance",127
@@ -7812,7 +7828,6 @@ d946,whiplash,2014,Damien Chazelle,"Miles Teller,J.K. Simmons,Paul Reiser,Meliss
 d948,kill the messenger,2014,Michael Cuesta,"Jeremy Renner,Mary Elizabeth Winstead,Robert Patrick,Michael Sheen,Ray Liotta,Michael Kenneth Williams,Rosemarie DeWitt,Paz Vega,Andy Garcia,Barry Pepper,Gil Bellows,Oliver Platt,Richard Schiff,Tim Blake Nelson","Crime, Drama, Mystery",112
 d949,addicted,2014,Bille Woodruff,"Boris Kodjoe,Emayatzy Corinealdi,Katerina Graham,Maria Howell,Sharon Leal,Tasha Smith,Tyson Beckford",Drama,105
 d950,st. vincent,2014,Theodore Melfi,"Bill Murray,Jaeden Lieberher,Melissa McCarthy,Naomi Watts,Chris O'Dowd,Terrence Howard",Comedy,103
-d951,i am ali,2014,Clare Lewins,,Documentary,111
 d952,diplomacy,2014,Volker Schlöndorff,"Niels Arestrup,André Dussollier,Robert Stadlober,Burghart Klaußner,Lucas Prisor","Drama, History",88
 d953,camp x-ray,2014,Peter Sattler,"Kristen Stewart,Peyman Moaadi,Lane Garrison,Joseph Julian Soria,John Carroll Lynch",Drama,117
 d955,the best of me,2014,Michael Hoffman,"Michelle Monaghan,James Marsden,Liana Liberato,Luke Bracey","Drama, Romance",117
@@ -7949,7 +7964,6 @@ d1110,honour,2014,Shan Khan,"Aiysha Hart,Paddy Considine,Faraz Ayub,Shubham Sara
 d1111,the empty hours,2014,Aaron Fernandez Lesur,"Adriana Paz,Amaranta Abril,Bartolo Campos,Eliseo Lara Martínez,Fermín Martínez ,Kristyan Ferrer,Norma Pablo,Rebeca Villacorte,Sergio Lasgón",Romance,101
 d1112,ivory tower,2014,Andrew Rossi,,Documentary,97
 d1113,a coffee in berlin,2014,Jan Ole Gerster,"Tom Schilling,Marc Hosemann,Friederike Kempter,Justus von Dohnányi,Andreas Schröders,Inga Birkenfeld,Martin Brambach,Annika Ernst","Comedy, Drama",83
-d1114,i am i,2014,Jocelyn Towne,"Simon Helberg,Jason Ritter,Jocelyn Towne,Kevin Tighe","Documentary, Drama, Foreign",
 d1115,witching & bitching,2014,Álex de la Iglesia,"Hugo Silva,Mario Casas,Carmen Maura,Javier Botet,Carolina Bang,Carlos Areces,Macarena Gómez,Pepón Nieto,Secun de la Rosa,María Barranco,Terele Pávez,Enrique Villén,Santiago Segura","Comedy, Horror",104
 d1116,hellion,2014,Kat Candler,"Aaron Paul,Josh Wiggins,Deke Garner,Juliette Lewis",Drama,94
 d1117,manuscripts don't burn,2014,Mohammad Rasoulof,,Drama,125
@@ -8074,7 +8088,6 @@ d1261,big men,2014,Rachel Boynton,,Documentary,99
 d1262,on my way,2014,Emmanuelle Bercot,"Catherine Deneuve,Nemo Schiffman,Gérard Garouste,Claude Gensac,Paul Hamy,Mylène Demongeot,Evelyne Leclercq,Valérie Lagrange",Drama,100
 d1263,better living through chemistry,2014,"Geoff Moore,David Posamentier","Olivia Wilde,Michelle Monaghan,Sam Rockwell,Ray Liotta,Jane Fonda,Ben Schwartz,Peter Jacobson,Ken Howard,Norbert Leo Butz,Lauren White",Drama,
 d1264,the cold lands,2014,Tom Gilroy,"Silas Yelich,Lili Taylor,Peter Scanavino,Maggie Low,Nick Sandow,John Ventimiglia",Drama,100
-d1265,le week-end,2014,Roger Michell,"Jim Broadbent,Lindsay Duncan,Jeff Goldblum,Olly Alexander,Sophie- Charlotte Husson,Brice Beaugier,Xavier De Guillebon,Marie-France Alvarez,Charlotte Leo,Denis Sebbah","Comedy, Drama",93
 d1266,ernest & celestine,2012,"Stéphane Aubier,Vincent Patar,Benjamin Renner","Forest Whitaker,Mackenzie Foy,Lauren Bacall,Paul Giamatti,William H. Macy,Megan Mullally",Animation,78
 d1267,u want me 2 kill him?,2014,Andrew Douglas,"Jamie Blackley,Toby Regbo,Joanne Froggatt,Jaime Winstone,Liz White,Stephanie Leonidas,Mark Womack,Amy Wren","Drama, Thriller",93
 d1268,the right kind of wrong,2014,Jeremiah S. Chechik,"Ryan Kwanten,Sara Canning,Ryan McPartlin,Kristen Hager,James A. Woods,Raoul Bhaneja,Jennifer Baxter,Catherine O'Hara,Will Sasso","Comedy, Romance",97
@@ -8130,6 +8143,7 @@ d1333,the past,2013,Asghar Farhadi,"Bérénice Bejo,Tahar Rahim,Ali Mosaffa,Paul
 d1336,the invisible woman,2013,Ralph Fiennes,"Ralph Fiennes,Felicity Jones,Kristin Scott Thomas,Tom Hollander,John Kavanagh,James Michael Rankin,Charlotte Hope,Michael Marcus,Laurence Spellman,Michelle Fairley,Jonathan Harden,Christos Lawton,Claire Daly","Drama, Romance",111
 d1342,interior. leather bar.,2014,"James Franco,Travis Mathews","James Franco,Val Lauren,Christian Patrick,Brenden Gregory,Brad Roberge,Robbie Acklen,Osbaldo Daniel Alvarez,Andres Barcelo,Samantha Barrows,Nick Buda,Jol Devitro",Drama,60
 d1344,open grave,2014,Gonzalo López-Gallego,"Joseph Morgan,Sharlto Copley,Thomas Kretschmann,Erin Richards,Josie Ho,Max Wrottesley","Horror, Mystery, Thriller",102
+d1345,beyond outrage,2014,Takeshi Kitano,"Takeshi Kitano,Ryo Kase,Toshiyuki Nishida,Shun Sugata,Fumiyo Kohinata,Hideo Nakano","Action, Foreign",110
 d1346,7 boxes,2014,"Juan Carlos Maneglia,Tana Schémbori","Celso Franco,Lali González,Víctor Sosa,Nico García","Action, Thriller",100
 d1347,the monuments men,2014,George Clooney,"George Clooney,Matt Damon,Bill Murray,Cate Blanchett,John Goodman,Jean Dujardin,Hugh Bonneville,Bob Balaban,Dimitri Leonidas,Bob Balaban","Drama, War",118
 d1348,a field in england,2013,Ben Wheatley,"Julian Barratt,Michael Smiley,Reece Shearsmith,Peter Ferdinando,Ryan Pope,Richard Glover","Drama, History, Thriller",90
@@ -8362,18 +8376,16 @@ d1756,beyond the hills,2012,,"Cosmina Stratan,Cristina Flutur,Valeriu Andriuta,D
 d1758,the condemned,2013,,"Cristina Rodlo,Rene Monclova,Axel Anderson,Luz Odilea Font",,
 d1759,no,2013,F.W. Murnau,"Alexander Granach, Greta Schroeder, Max Schreck, Gustav von Wangenheim, John Gottowt","Drama, Foreign",118
 d1760,happy people: a year in the taiga,2013,,,"Documentary, Foreign",90
+d1762,movie 43,2013,Peter Farrelly,,Comedy,90
 d1763,tiger tail in blue,2013,Frank V. Ross,"Frank V. Ross,The Brandy,Anthony J. Baker,Allison Latta",,80
 d1764,like someone in love,2013,Abbas Kiarostami,"Rin Takanashi,Tadashi Okuno","Drama, Foreign",109
 d1765,consuming spirits,2013,,"Robert Levy,Nancy Andrews,Chris Sullivan",Animation,136
 d1766,quartet,2012,Dustin Hoffman,"Maggie Smith,Tom Courtenay,Billy Connolly,Pauline Collins,Michael Gambon,Gwyneth Jones","Comedy, Drama, Foreign, Romance",98
 d1769,neighboring sounds,2013,Kleber Mendon,"Irandhir Santos,Meve Jinkings,W. J. Solha,Irma Brown,Lula Terra","Drama, Foreign",131
-d1770,oscar shorts: live action,2013,,,,
 d1771,56 up,2013,"Michael Apted,Paul Almond",,,144
 d1773,in the hive,2013,Charles Townsend,"Michael Clarke Duncan,Loretta Devine,Vivica A. Fox,Roger Guenveur Smith,Ali Liebert,Percy Daggs III",,
-d1774,oscar shorts: animation,2013,,,,
 d1775,stolen seas,2013,,,,90
 d1777,small apartments,2013,Jonas,"Matt Lucas,James Marsden,James Caan,Billy Crystal,Johnny Knoxville,Dolph Lundgren,Peter Stormare","Comedy, Crime",94
-d1778,john dies at the end,2012,,"Chase Williamson,Rob Mayes,Paul Giamatti,Clancy Brown,Glynn Turman,Doug Jones","Comedy, Horror, Thriller",99
 d1779,lost in thailand,2012,Xu Zheng,"Xu Zheng,Wang Baoqiang,Huang Bo,Fan Bingbing","Comedy, Foreign",105
 d1785,veronika voss,1982,,,"Crime, Drama",105
 d1786,generation p,2012,Victor Ginzburg,"Vladimir Epifantsev,Mikhail Efremov,Andrey Fomin,Sergey Shnurov","Comedy, Drama, Science Fiction",112
@@ -8383,10 +8395,8 @@ d1790,hyde park on hudson,2012,Roger Michell,"Bill Murray,Laura Linney,Olivia Wi
 d1791,starlet,2012,,,Drama,103
 d1792,citadel,2012,Ciaran Foy,"Aneurin Barnard,James Cosmo,Wunmi Mosaku,Jake Wilson,Amy Shiels",Horror,85
 d1793,the matchmaker,2012,Avi Nesher,"Adir Miller,Maya Dagan,Tuval Shafir,Dror Keren,Dov Navon",Drama,112
-d1794,the impossible,2012,Juan Antonio Bayona,"Ewan McGregor,Naomi Watts,Tom Holland,Oaklee Pendergast,Geraldine Chaplin",Drama,114
 d1795,monsieur hire,1989,Patrice Leconte,"Sandrine Bonnaire,Luc Thuillier,Andre Wilms","Crime, Drama, Foreign, Thriller",88
 d1797,sister,2012,Ursula Meier,"Lea Seydoux,Kacey Mottet Klein,Martin Compston,Gillian Anderson","Drama, Foreign",100
-d1799,gangster squad,2012,Ruben Fleischer,"Mickey Cohen,Sgt. John O'Mara,Sgt. Jerry Wooters,Grace Faraday,Connie O'Mara,Chief Parker,Officer Max Kennard,Officer Conway Keeler","Crime, Drama",113
 d1800,amour,2013,Michael Haneke,"Emmanuelle Riva,Jean-Louis Trintignant,Isabelle Huppert,William Shimell","Drama, Foreign",127
 d1801,somewhere between,2013,Linda Goldstein Knowlton,,Documentary,
 d1802,the trouble with the truth,2012,Jim Hemphill,"Lea Thompson,John Shea,Danielle Harris,Keri Lynn Pratt,Rainy Kerwin",Drama,
@@ -8409,6 +8419,7 @@ d1844,snowman's land,2012,,"Jurgen Rissmann,Thomas Wodianka,Reiner Schone,Eva-Ka
 d1845,escape fire: the fight to rescue american healthcare,2012,"Matthew Heineman, Susan Froemke",,Documentary,100
 d1849,the well-digger's daughter,2012,Daniel Auteuil,"Daniel Auteuil,Astrid Berges-Frisbey,Kad Merad,Nicolas Duvauchelle",,
 d1850,the ambassador,2012,Mads Bruegger,"Mads Bruegger,Eva Jakobsen,Colin Evans","Documentary, Foreign",97
+d1851,v/h/s,2012,"Adam Wingard,Radio Silence,Joe Swanberg",,,116
 d1854,fred won't move out,2012,Richard Ledes,"Elliott Gould,Fred Melamed,Stephanie Roth Haberle,Judith Roberts",Drama,74
 d1856,"now, forager: a film about love and fungi",2012,"Jason Cortlund,Julia Halperin","Jason Cortlund,Tiffany Esteb,Almex Lee,Gabrielle Maisels",,
 d1857,you've been trumped,2012,Anthony Baxter,,Documentary,95
@@ -8475,7 +8486,6 @@ d1966,i wish,2012,Hirokazu Kore-eda,"Koki Maeda,Ohshiro Maeda,Nene Ohtsuka,Hiros
 d1967,to rome with love,2012,Woody Allen,"Woody Allen,Alec Baldwin,Roberto Benigni,Penelope Cruz,Judy Davis,Jesse Eisenberg,Greta Gerwig,Ellen Page",Comedy,112
 d1969,goodbye first love,2012,Mia Hansen-Love,"Lola Creton,Sebastian Urzendowsky,Magne-Havard Brekke","Drama, Foreign, Romance",110
 d1972,last ride,2012,Glendyn Ivin,"Hugo Weaving,Tom Russell,Anita Hegh,John Brumpton","Drama, Foreign",90
-d1974,the invisible war,2012,,,"Crime, Documentary, Drama, History",93
 d1975,the day he arrives,2012,Sang-soo Hong,"Yu Jun-sang,Kim Sang-joong,Seon-mi Song,Kim Bo-kyung","Drama, Foreign",79
 d1979,spirited away,2002,Hayao Miyazaki,"Daveigh Chase,Suzanne Pleshette,Jason Marsden,David Ogden Stiers,Lauren Holly,John Ratzenberger","Adventure, Animation, Family, Foreign",124
 d1982,take this waltz,2012,Sarah Polley,"Michelle Williams,Seth Rogen,Luke Kirby,Sarah Silverman","Drama, Romance",116
@@ -8569,7 +8579,6 @@ d2121,the man who shot liberty valance,1962,,,"Action, Mystery, Thriller, Wester
 d2123,in the land of blood and honey,2012,Angelina Jolie,"Zana Marjanovic,Goran Kostic,Rade Serbedzija","Drama, Foreign, Romance, War",127
 d2124,the conquest,2012,Xavier Durringer,"Denis Podalydes,Florence Pernel,Bernard Le Coq,Samuel Labarthe","Action, Adventure, Drama, Foreign, War",160
 d2125,pariah,2012,Dee Rees,"Adepero Oduye,Pernell Walker,Kim Wayans,Aasha Davis,Charles Parnell",Drama,86
-d2126,the killing,1956,,,"Action, Crime, Drama, Thriller",85
 d2127,paradise lost 3: purgatory,2012,"Joe Berlinger,Bruce Sinofsky",,Documentary,121
 d2129,the iron lady,2012,Phyllida Lloyd,"Meryl Streep,Jim Broadbent,Alexandra Roach,Harry Lloyd,Olivia Colman,John Sessions","Drama, Foreign, History",105
 d2130,sundance shorts 2012,2012,,,,
@@ -8708,6 +8717,7 @@ d2398,oss 117: lost in rio,2010,Michel Hazanavicius,"Jean Dujardin,Louise Monot,
 d2399,princess kaiulani,2010,Marc Forby,"Q'orianka Kilcher,Barry Pepper,Shaun Evans,Jimmy Yuill,Julian Glover,Will Patton,Ocean Kaowili,Leo Akana Anderson",Drama,130
 d2400,the wild hunt,2010,Alexandre Franchi,"Ricky Mabe,Mark A. Krupa,Trevor Hayes,Claudia Jurt,Nicolas Wright","Action, Adventure, Comedy, Drama, Indie, Science Fiction, Thriller",96
 d2401,around a small mountain,2010,Jacques Rivette,"Jane Birkin,Sergio Castellitto,Andre Marcon,Jacques Bonnaffe,Julie-Marie Parmentier,Helene de Vallombreuse","Drama, Foreign, Romance",84
+d2402,solitary man,2010,David Levien,"Michael Douglas,Jesse Eisenberg,Susan Sarandon,Danny DeVito,Jenna Fischer,Mary-Louise Parker,Imogen Poots","Comedy, Drama, Indie, Romance",90
 d2403,daddy longlegs,2010,"Ben, Joshua Safdie","Ronald Bronstein,Sage Ranaldo,Frey Ranaldo,Leah Singer,Eleonore Hendricks","Comedy, Drama",100
 d2407,come and see,1985,,,"Action, Drama, Foreign, History, War",136
 d2409,joan rivers: a piece of work,2010,"Ricki Stern,Annie Sundberg",,Documentary,84
@@ -8742,7 +8752,6 @@ d2467,spoken word,2010,Victor Nunez,"Kuno Becker,Ruben Blades,Miguel Sandoval,Pe
 d2468,lost in translation,2003,Sofia Coppola,"Bill Murray,Scarlett Johansson,Giovanni Ribisi,Anna Faris,Yutaka Tadokoro","Comedy, Drama",105
 d2474,behind the burly-q,2010,,,Documentary,
 d2475,anton chekhov's the duel,2010,,,Drama,95
-d2476,the red machine,2010,,,"Adventure, Crime, Drama",84
 d2477,mesrine: killer instinct,2010,Jean-Francois Richet,"Vincent Cassel,Cecile De France,Gerard Depardieu,Gilles Lellouche,Roy Dupuis,Elena Anaya,Ludivine Sagnier","Action, Crime, Drama, Foreign, Thriller",113
 d2483,pink floyd: the wall,1982,,,"Drama, Foreign, Music",95
 d2484,terribly happy,2010,Henrik Ruben Genz,"Jakob Cedergren,Kim Bodnia,Lene Maria Christensen,Lars Brygmann","Comedy, Drama, Foreign, Thriller",90
@@ -8780,7 +8789,6 @@ d2542,babies,2010,Thomas Balmes,,"Documentary, Foreign",79
 d2545,ricky,2010,Francois Ozon,"Alexandra Lamy,Sergi Lopez,Melusine Mayance,Arthur Peyret","Drama, Fantasy, Foreign, Science Fiction",90
 d2548,the chaser,2010,Na Hong-jin,"Kim Yoon-seok,Ha Jung-woo,Seo Young-hee,Koo Bon-woong","Action, Crime, Drama, Foreign, Thriller",125
 d2549,the hairdresser's husband,1990,Patrice Leconte,"Jean Rochefort,Anna Galiena,Roland Bertin,Maurice Chevit,Anne-Marie Pisani","Comedy, Drama, Foreign, Romance",82
-d2551,the last station,2010,Michael Hoffman,"Christopher Plummer,Helen Mirren,Paul Giamatti,James McAvoy,Kerry Condon","Drama, Foreign, Romance",112
 d2554,fish tank,2010,Andrea Arnold,"Katie Jarvis,Michael Fassbender,Kierston Wareing,Rebecca Griffiths,Harry Treadaway","Drama, Foreign, Indie",123
 d2557,still bill,2010,"Damani Baker,Alex Vlack",,"Documentary, Music",78
 d2559,ajami,2010,"Scandar Copti, Yaron Shani","Shahir Kabaha,Ibrahim Frege,Fouad Habash,Youssef Sahwani,Ranin Karim,Eran Naim,Scandar Copti","Crime, Drama, Foreign, Indie",120
@@ -8801,7 +8809,6 @@ d2586,harmony and me,2009,Bob Byington,"Justin Rice,Kristen Tucker,Kevin Corriga
 d2587,this is it,2009,Kenny Ortega,,"Documentary, Music",111
 d2588,the yes men fix the world,2009,"Andy Bichlbaum, Mike Bonnano",,Documentary,87
 d2589,21 and a wakeup,2009,Chris McIntyre,"Amy Acker,Faye Dunaway,Danica McKellar,Todd Cahoon,Ed Begley Jr.,Ben Vereen,Wes Studi,J.C. Chasez",,
-d2590,bronson,2009,Nicolas Winding Refn,"Tom Hardy,Hugh Ross,Juliet Oldfield,Jonny Phillips,James Lance","Drama, Foreign",92
 d2592,the house of the devil,2009,,"Jocelin Donahue,Greta Gerwig,Mary Woronov,Tom Noonan,AJ Bowen,Danielle Noe","Horror, Indie, Thriller",
 d2593,25th hour,2003,Spike Lee,"Edward Norton,Philip Seymour Hoffman,Barry Pepper,Rosario Dawson,Anna Paquin,Brian Cox","Crime, Drama",132
 d2596,the fourth kind,2009,Olatunde Osunsanmi,"Milla Jovovich,Elias Koteas,Will Patton,Corey Johnson","Drama, Horror, Mystery, Science Fiction, Thriller",98
@@ -8824,6 +8831,7 @@ d2641,the white ribbon,2010,Michael Haneke,"Ulrich Tukur,Susanne Lothar,Christia
 d2642,birdwatchers,2010,Marco Bechis,"Ademilson Concianza Verga,Alicelia Batista Cabreira,Ambrosio Vilhalva,Leonardo Medeiros",Drama,
 d2644,a town called panic,2010,"Stephane Aubier, Vincent Patar","Stephane Aubier,Bruce Ellison,Vincent Patar,Jeanne Balibar,Frederic Jannin","Adventure, Animation, Comedy, Family, Fantasy, Foreign, Indie",75
 d2647,caché,2006,Michael Haneke,"Juliette Binoche,Daniel Auteuil,Maurice Benichou,Annie Girardot,Bernard Le Coq,Daniel Duval","Action, Drama, Foreign, Romance, Thriller",117
+d2649,surrogates,2009,Directed,"Bruce Willis,Radha Mitchell,Rosamund Pike,Boris Kodjoe,James Francis Ginty,James Cromwell,Ving Rhames,Jack Noseworthy,Devin Ratray,Michael Cudlit","Action, Science Fiction, Thriller",89
 d2650,bright star,2009,Jane Campion,"Abbie Cornish,Ben Whishaw,Paul Schneider,Kerry Fox,Edie Martin,Thomas Sangster","Drama, Foreign, Indie, Romance",119
 d2651,a woman in berlin,2009,Max Faerberboeck,"Nina Hoss,Yevgeni Sidikhin,Roman Gribkov,Irm Hermann","Drama, Foreign, History, War",131
 d2653,the providence effect,2009,Rollin Binzer,,Documentary,92
@@ -8836,6 +8844,7 @@ d2665,coco before chanel,2009,Anne Fontaine,"Audrey Tautou,Alessandro Nivola,Mar
 d2666,looking for eric,2009,Ken Loach,"Steve Evets,Eric Cantona,John Henshaw,Stephanie Bishop,Gerard Kearns,Lucy-Jo Hudson,Stefan Gumbs","Comedy, Drama, Foreign, Indie",119
 d2669,free style,2009,William Dear,"Corbin Bleu,Sandra Echeverria,Madison Pettis,Penelope Ann Miller,Jesse Moss,Tegan Moss,Matt Bellefleur","Drama, Family",94
 d2671,the damned united,2009,Tom Hooper,"Michael Sheen,Timothy Spall,Colm Meaney,Jim Broadbent","Drama, Foreign, Sports Film",97
+d2672,x games 3d: the movie,2009,Directed,"Shaun White,Danny Way,Bob Burnquist,Ricky Carmichael,Travis Pastrana,Kyle Loza",,
 d2675,revanche,2009,,"Johannes Krisch,Ursula Strauss,Andreas Lust,Irina Potapenko,Hannes Thanheiser","Crime, Drama, Foreign, Romance",121
 d2678,ponyo,2009,Hayao Miyazaki,"Noah Cyrus,Frankie Jonas,Liam Neeson,Matt Damon,Cate Blanchett,Tina Fey","Adventure, Animation, Family, Fantasy, Foreign, Science Fiction",100
 d2681,rumba,2009,Dominique Abel,"Dominique Abel,Fiona Gordon,Bruno Romy","Comedy, Foreign",77
@@ -8903,7 +8912,6 @@ d2793,valentino: the last emperor,2009,Matt Tyrnauer,,"Documentary, Indie",96
 d2795,12,2009,Nikita Mikhalkov,,"Crime, Drama, Foreign, Suspense",159
 d2798,sin nombre,2009,Cary Fukunaga,"Edgar Flores,Paulina Gaitan,Kristyan Ferrer,Tenoch Huerta Mejia,Diana Garcia","Action, Crime, Drama, Foreign, Thriller",96
 d2799,shall we kiss?,2009,Emmanuel Mouret,"Virginie Ledoyen,Emmanuel Mouret,Julie Gayet,Michael Cohen,Frederique Bel,Stefano Accorsi,Melanie Maudran,Marie Madinier","Comedy, Drama, Foreign, Romance",100
-d2801,theater of war,2009,,,Documentary,95
 d2803,the mysteries of pittsburgh,2009,Rawson Marshall Thurber,"Jon Foster,Peter Sarsgaard,Sienna Miller,Nick Nolte,Mena Suvari,Omid Abtahi,Michael Gregory","Action, Adventure, Comedy, Drama, Indie, Romance",95
 d2804,paris 36,2009,Christophe Barratier,"Gerard Jugnot,Clovis Cornillac,Kad Merad,Nora Arnezeder,Pierre Richard,Bernard Pierre Donnadieu,Maxence Perrin",Music,
 d2805,everlasting moments,2009,,"Maria Heiskanen,Mikael Persbrandt,Jesper Christensen,Callin Ohrvall","Drama, Foreign",131
@@ -8980,7 +8988,6 @@ d2964,elsa & fred,2008,Marcos Carnevale,"China Zorrilla,Manuel Alexandre,Blanca 
 d2965,brideshead revisited,2008,Julian Jarrold,"Matthew Goode,Ben Whishaw,Hayley Atwell,Emma Thompson,Michael Gambon,Greta Scacchi,Jonathan Cake,Patrick Malahide","Drama, Foreign, Romance",133
 d2966,roman polanski: wanted and desired,2008,Marina Zenovich,,"Documentary, Indie",99
 d2970,standard operating procedure,2008,Errol Morris,,Documentary,117
-d2972,johnny guitar,1954,,,"Drama, Western",110
 d2973,america the beautiful,2008,Darryl Roberts,,Documentary,105
 d2974,the witnesses,2008,Andre Techine,"Johan Libereau,Michel Blanc,Emmanuelle Beart,Sami Bouajila,Julie Depardieu",,
 d2976,take,2008,Charles Oliver,"Minnie Driver,Jeremy Renner,Bobby Coleman,Adam Rodriguez,David Denman","Action, Drama, Thriller",98
@@ -9040,7 +9047,6 @@ d3085,shine a light,2008,Martin Scorsese,,"Documentary, Music",122
 d3088,my blueberry nights,2008,Wong Kar-Wai,"Norah Jones,Jude Law,Natalie Portman,David Strathairn,Rachel Weisz,Chan Marshall","Drama, Foreign, Romance",111
 d3090,shelter,2008,Jonah Markowitz,"Trevor Wright,Brad Rowe,Tina Holmes,Jackson Wurth,Ross Thomas,Katie Walder",Drama,101
 d3092,where in the world is osama bin laden?,2008,Morgan Spurlock,,Documentary,93
-d3094,chapter 27,2008,J.P. Schaefer,"Jared Leto,Lindsay Lohan,Judah Friedlander,Mark Lindsay Chapman","Drama, Indie",84
 d3096,the rape of europa,2008,"Bonni Cohen, Nicole Newnham, Richard Berge",Joan Allen,Documentary,117
 d3098,chaos theory,2008,Marcos Siega,"Ryan Reynolds,Emily Mortimer,Stuart Townsend,Matreya Fedor","Comedy, Drama, Romance",87
 d3099,revolver,2007,,"Jason Statham,Ray Liotta,Vincent Pastore,Andre Benjamin,Francesca Annis","Action, Crime, Drama, Foreign, Thriller",115
@@ -9184,13 +9190,11 @@ d3416,hoop dreams,1994,Steve James,,"Documentary, Sports Film",165
 d3417,lawrence of arabia,1962,David Lean,"Peter O'Toole,Alec Guinness,Anthony Quinn","Action, Adventure, Drama, Foreign, History",216
 d3419,the seven samurai,1954,,,"Action, Drama, Foreign, Indie",207
 d3420,"planes, trains and automobiles",1987,John Hughes,"Steve Martin,John Candy","Comedy, Drama, Holiday",93
-d3421,beat the devil,1954,,,"Adventure, Comedy, Crime, Drama",89
 d3422,snow white and the seven dwarfs,1937,David Hand,Adriana Caselotti,"Animation, Family, Fantasy, Science Fiction",83
 d3423,the earrings of madame de...,1953,Max Ophuls,"Charles Boyer,Danielle Darrieux,Vittorio De Sica","Drama, Foreign, Romance",105
 d3424,network,1976,Sidney Lumet,"Faye Dunaway,William Holden,Peter Finch,Robert Duvall,Wesley Addy,Ned Beatty","Comedy, Drama, Romance",121
 d3425,persona,1967,Ingmar Bergman,"Bibi Andersson,Liv Ullmann","Drama, Foreign",83
 d3426,the bank dick,1940,,,Comedy,72
-d3427,a christmas story,1983,,,"Comedy, Drama, Family, Holiday",94
 d3428,manhattan,1979,Woody Allen,"Woody Allen,Diane Keaton,Michael Murphy,Mariel Hemingway,Meryl Streep,Anne Byrne,Karen Ludwig,Michael O'Donoghue","Comedy, Drama, Indie, Romance",96
 d3429,this is spinal tap,1985,Rob Reiner,"Rob Reiner,Michael McKean,Christopher Guest,Harry Shearer","Comedy, Documentary, Music",82
 d3430,the apu trilogy,1959,Satyajit Ray,,,
@@ -9244,6 +9248,7 @@ d3480,a hard day's night,1964,Richard Lester,,"Comedy, Documentary, Foreign, Mus
 d3481,casablanca,1942,,,"Crime, Drama, Romance",102
 d3482,ikiru,1952,,,"Drama, Foreign",143
 d3483,vertigo,1958,,,"Crime, Drama, Film Noir, Mystery, Romance, Thriller",129
+d3484,great expectations,1946,Alfonso Cuaron,"Ethan Hawke, Anne Bancroft, Chris Cooper, Gwyneth Paltrow, Hank Azaria, Robert De Niro","Drama, Foreign, Romance",118
 d3485,written on the wind,1956,Douglas Sirk,"Rock Hudson,Lauren Bacall,Robert Stack,Dorothy Malone,Robert Keith","Drama, Romance",99
 d3486,trouble in paradise,1932,Ernst Lubitsch,,"Comedy, Romance",83
 d3488,woman in the dunes,1964,Hiroshi Teshigahara,,"Drama, Foreign, Romance",123
@@ -9282,8 +9287,6 @@ d3521,notorious,1946,Alfred Hitchcock,Cary Grant,"Action, Romance, Thriller",102
 d3522,nosferatu,1922,F.W. Murnau,"Max Schreck,Gustav von Wangenheim,Greta Schroeder,Alexander Granach,John Gottowt","Fantasy, Horror",82
 d3523,the sweet smell of success,1957,Alexander Mackendrick,"Burt Lancaster,Tony Curtis,Susan Harrison,Martin Milner","Drama, Film Noir",96
 d3524,my darling clementine,1946,John Ford,"Henry Fonda,Linda Darnell,Victor Mature,Walter Brennan,Tim Holt,Cathy Downs,Ward Bond,Alan Mowbray,John Ireland,J. Farrell MacDonald","Action, Drama, Western",97
-d3525,gates of heaven,1978,,,Documentary,85
-d3526,days of heaven,1978,Terrence Malick,"Richard Gere,Brooke Adams,Linda Manz,Jackie Shultis,Stuart Margolin,Gene Bell,Richard Libertini","Drama, Romance",94
 d3527,the lady eve,1941,Preston Sturges,"Barbara Stanwyck,Henry Fonda,Charles Coburn,Eugene Pallette,William Demarest,Eric Blore","Comedy, Romance",97
 d3528,city lights,1931,,"Charles Chaplin,Virginia Cherrill,Florence Lee,Harry Myers,Allan Garcia,Hank Mann","Comedy, Drama, Romance",87
 d3529,the up documentaries,1985,,,,

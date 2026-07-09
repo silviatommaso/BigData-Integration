@@ -505,7 +505,7 @@ def llm_record_matching(
 
             elif status == "daily_limit":
                 print("\nDaily limit reached.")
-                return pd.read_csv(matches_output)
+                return None
 
             elif status == "json_error":
                 print(f"\nInvalid JSON (retry {retry+1}/{MAX_RETRIES})")

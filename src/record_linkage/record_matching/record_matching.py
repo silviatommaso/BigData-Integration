@@ -23,13 +23,14 @@ def generate_candidate_pairs(canopies):
 
 def text_similarity(a,b):
     if pd.isna(a) or pd.isna(b):
-        return 0
+        return None
     return round(ratio(str(a).lower(),str(b).lower())/100, 3)
 
 
 def year_similarity(a,b):
+
     if pd.isna(a) or pd.isna(b):
-        return 0
+        return None
 
     diff = abs(int(float(a)) - int(float(b)))
 
@@ -44,7 +45,7 @@ def year_similarity(a,b):
 
 def jaccard_similarity(a,b):
     if pd.isna(a) or pd.isna(b):
-        return 0
+        return None
 
     set_a=set(x.strip().lower() for x in str(a).split(","))
     set_b=set(x.strip().lower() for x in str(b).split(","))
@@ -57,7 +58,7 @@ def jaccard_similarity(a,b):
 def hybrid_similarity(a, b):
 
     if pd.isna(a) or pd.isna(b):
-        return 0
+        return None
 
 
     list_a = [
@@ -120,14 +121,15 @@ SIMILARITY_FUNCTIONS = {
 def record_similarity(r1, r2, attributes=matching_attributes):
 
     score = 0
+    total_weight = 0
     similarities = {}
 
     for column, config in attributes.items():
 
         similarity_function = SIMILARITY_FUNCTIONS[config["similarity"]]
-        
+
         if column not in r1 or column not in r2:
-            sim = 0
+            sim = None
         else:
             sim = similarity_function(
                 r1[column],
@@ -135,10 +137,15 @@ def record_similarity(r1, r2, attributes=matching_attributes):
             )
 
         similarities[column] = sim
-        score += config["weight"] * sim
 
-    return round(score,3), similarities
+        if sim is not None:
+            score += config["weight"] * sim
+            total_weight += config["weight"]
 
+    if total_weight == 0:
+        return 0, similarities
+
+    return round(score / total_weight, 3), similarities
 ########################################################################################################################################################################################################################
 
 
