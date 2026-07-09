@@ -176,18 +176,36 @@ The pipeline is generic and _technically_ it _could_ be adapted to any set of he
 2. **Update the `inputs` list and `merged_file` name**: point `inputs` to your new CSV file paths instead of (or in addition to) the existing `movies3_cleaned` / `movies5_cleaned` files, and optionally rename `merged_file` to something meaningful for your dataset (e.g. `"merged_my_dataset.csv"`).
 
 3. **Update the `SOURCES` dictionary**: define a name and reliability weight for each new source (used during data fusion), e.g.:
-```python
-   SOURCES = {
-       "a": {"name": "my_dataset", "weight": 1.0},
-       ...
-   }
-```
+   ```python
+      SOURCES = {
+         "a": {"name": "my_dataset", "weight": 1.0},
+         ...
+      }
+   ```
 
-4. **Update `attribute_descriptions.json`**: add an entry describing each attribute of your new dataset (name, semantics, expected type/role). This file is used as context for the LLM-assisted schema alignment prompt, so accurate descriptions improve alignment quality. If you don't want to update it, simply set `ATTRIBUTE_DESCRIPTIONS = None` where it's defined inside `pipeline.py` (note that accuracy will worsen without attribute-level descriptions).
+4. **Update `config.py`**: adapt the configuration parameters to the new dataset.
 
-5. **(Optional) Ground truth for evaluation**: if you want to run `evaluation_record_linkage.py` or `evaluation_schema_alignment.py` on the new data, add the corresponding labeled candidate sets / gold-standard mapping under `analysis/ground_truth/`. Without this, the pipeline will still run end-to-end, but the evaluation scripts won't have anything to compare against.
+   - **Update `matching_attributes`** to define the attributes used for record matching, their corresponding weights, and the similarity functions applied to each attribute.
 
-6. **Re-run with all steps enabled**: since each stage depends on the previous one's output, the first run on a new dataset should have all steps in `STEPS` set to `True` (schema alignment, blocking, matching, clustering, fusion).
+   - **Adjust record matching thresholds** if needed according to the characteristics of the new dataset:
+
+      ```python
+      # Record matching thresholds
+      MATCHING_THRESHOLD = 0.75
+
+      # LLM record matching thresholds
+      LLM_VERIFICATION_THRESHOLD = 0.65
+      LLM_AUTO_MATCH_THRESHOLD = 0.75
+      ```
+   - **Adapt `canopy_params`** to specify the blocking configuration for the new dataset, including blocking attributes, similarity thresholds, and TF-IDF parameters.
+
+   - **Update `fusion_attributes`** to define the fusion strategy adopted for each attribute during the data fusion phase (e.g., conflict resolution rules or attribute-specific aggregation strategies).
+
+5. **Update `attribute_descriptions.json`**: add an entry describing each attribute of your new dataset (name, semantics, expected type/role). This file is used as context for the LLM-assisted schema alignment prompt, so accurate descriptions improve alignment quality. If you don't want to update it, simply set `ATTRIBUTE_DESCRIPTIONS = None` where it's defined inside `pipeline.py` (note that accuracy will worsen without attribute-level descriptions).
+
+6. **(Optional) Ground truth for evaluation**: if you want to run `evaluation_record_linkage.py` or `evaluation_schema_alignment.py` on the new data, add the corresponding labeled candidate sets / gold-standard mapping under `analysis/ground_truth/`. Without this, the pipeline will still run end-to-end, but the evaluation scripts won't have anything to compare against.
+
+7. **Re-run with all steps enabled**: since each stage depends on the previous one's output, the first run on a new dataset should have all steps in `STEPS` set to `True` (schema alignment, blocking, matching, clustering, fusion).
 
 No changes to the core pipeline logic (schema alignment, record linkage, data fusion) are required.
 
