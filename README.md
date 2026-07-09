@@ -43,6 +43,7 @@ BigData-Integration-AO/
 │   ├── evaluation_record_linkage.py    # Precision/recall/F1 vs. ground truth
 │   ├── evaluation_schema_alignment.py  # Schema alignment evaluation vs. ground truth
 │   ├── fusion_stats.py                 # Computes statistics on fused entity source combinations 
+│   ├── record_similarity_pair.py       # Compute similarity between two records 
 │   └── ground_truth/                   # Labeled candidate sets and gold-standard schema mapping
 └── results/                            # All pipeline outputs (see "Outputs" below)
     ├── schema_alignment/{classic,llm}/
