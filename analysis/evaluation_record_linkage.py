@@ -1,6 +1,9 @@
 import pandas as pd
 import os
 
+# Available LLM models for result evaluation:
+# - openai/gpt-oss-120b
+# - llama-3.3-70b-versatile
 MODEL = "llama-3.3-70b-versatile"
 
 
@@ -210,6 +213,7 @@ llm_matches = os.path.join(
     MODEL_DIR,
     "matches.csv"
 )
+
 
 evaluate(
     classic_matches,
